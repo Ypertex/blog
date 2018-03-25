@@ -4,12 +4,12 @@ date: 2017-05-17
 authors: Michael Schmidle
 slug: the-making-of-the-ypertex-logo
 tags: [Design, On a Personal Note]
-description: The approach behind the creation of the ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).
+description: The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).
 ---
 
 For a blog claiming to primarily write about design (according to its current tag line “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about *other people’s* designs, I would like to first promote my credibility and address one of my own designs: this blog’s logo.
 
-This article explains how I generally approach new designs using the example of the ypertex logo. I follow a two-step process of which, interestingly enough, the first step stays the same whether creating a visual design (i.e. for a logo) or a conceptual design (i.e. for an IT solution).
+This article explains how I generally approach new designs using the example of the Ypertex logo. I follow a two-step process of which, interestingly enough, the first step stays the same whether creating a visual design (i.e. for a logo) or a conceptual design (i.e. for an IT solution).
 
 {{<figure src="/media/logo-design-tools.jpg">}}
 
@@ -125,9 +125,9 @@ In the following paragraphs I will mostly focus on the ideas that worked. Rest a
 
 ### Starting With Symbolism
 
-The way I start to work on logo designs is to **look for symbols that relate to the name or mission** of the entity behind the logo. In my case, the name was ypertex and my mission was to publish my thoughts about topics like design, technology and the future.
+The way I start to work on logo designs is to **look for symbols that relate to the name or mission** of the entity behind the logo. In my case, the name was Ypertex and my mission was to publish my thoughts about topics like design, technology and the future.
 
-The name ypertex comes from Hypertext—the technology behind today’s World Wide Web used to write my articles (in the so called Hypertext Markup Language, short HTML) and deliver them to you (with the so called Hypertext Transfer Protocol, short HTTP). Symbolic characters that I associate with these technologies are smaller/larger signs and slashes like ``<>`` in HTML and ``//`` in the syntax of HTTP addresses.
+The name Ypertex comes from Hypertext—the technology behind today’s World Wide Web used to write my articles (in the so called Hypertext Markup Language, short HTML) and deliver them to you (with the so called Hypertext Transfer Protocol, short HTTP). Symbolic characters that I associate with these technologies are smaller/larger signs and slashes like ``<>`` in HTML and ``//`` in the syntax of HTTP addresses.
 
 {{<figure src="/media/html.jpg" caption="Screenshot of HTML source code">}}
 
@@ -139,7 +139,7 @@ I like to work with broader surfaces compared to fine lines, so I redrew the cha
 
 ### Simplifying and Merging Symbols Into One
 
-By scribbling and playing around with these characters, I quickly discovered that the above building blocks could be arranged in a way to form the first and last character of the name ypertex.
+By scribbling and playing around with these characters, I quickly discovered that the above building blocks could be arranged in a way to form the first and last character of the name Ypertex.
 
 {{<figure src="/media/logo-design-02.png" caption="The symbolic characters derived from the name can be rearranged to overlap and form the first and last character of the name">}}
 
@@ -181,17 +181,17 @@ To see if I could improve the logo further, I tried to push its uniqueness in di
 
 I reverted back and instead tried different things. In the end, the last tweak was adding a subtle gradient from a more yellow orange on the left to a more red orange on the right; it was a small change that gave the logo a bit more personality and forward momentum (again based on my cultural context and the left-to-right reading direction) without drastically changing the overall composition.
 
-{{<figure src="/media/logo-design-10.png" caption="The final ypertex logo, January 2017">}}
+{{<figure src="/media/logo-design-10.png" caption="The final Ypertex logo, January 2017">}}
 
 **Exaggeration is helpful in creating visual designs:** It helps you determine if you already have left out all that you can (remember the *Art of Omission*) or if you have found the most individual and interesting design possible without breaking it. It does not only apply to the overall design but to single elements, too. As my design professor in college used to say:
 
-> Don’t be afraid of exaggeration. It is so much easier to dial a bold design back a notch or two than to dial a timid design up. <footer><cite>Christian Fries</cite></footer>
+> Don’t be afraid of exaggeration. It is so much easier to dial a bold design back a notch or two than to spice up a timid design. <footer><cite>Christian Fries</cite></footer>
 
-So here it was: a logo that incorporated all defined requirements in one way or another. Due to its dimensions it could be used as (square or circular) favicon and avatar; the coloring worked both in a normal and flipped version. It however did not include the full written name ypertex.
+So here it was: a logo that incorporated all defined requirements in one way or another. Due to its dimensions it could be used as (square or circular) favicon and avatar; the coloring worked both in a normal and flipped version. It however did not include the full written name Ypertex.
 
 ### Conclusion
 
-In this article, I showed the approach I usually take on designing things—like in this case the ypertex logo. However, especially the first in this two-step process applies to other areas of design as well, for example to IT Solution Design.
+In this article, I showed the approach I usually take on designing things—like in this case the Ypertex logo. However, especially the first in this two-step process applies to other areas of design as well, for example to IT Solution Design.
 
 You also might have noticed that designing a logo is not only about pure artistic creativity; there is also quite some logic involved and cultural conventions play a big role, too.
 
