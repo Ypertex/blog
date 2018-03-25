@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on Ypertex Blog</title>
+    <link>https://blog.ypertex.com/tags/leadership/</link>
+    <description>Recent content in Leadership on Ypertex Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved</copyright>
+    <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.ypertex.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Underrated but Critical Start-Up Success Factors: Trust and Loyalty</title>
+      <link>https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/</guid>
+      <description>In late 2012, I co-founded a company called EntrePreneurs (no, not really—I changed the name for the purpose of this article). While my long-time business partner adopted the role of CEO, I took on the role of CIO. We were off to a good start as our first year, 2013, was financially more successful than budgeted and our team had quickly grown to the size required to reach the goals laid out in our business plan.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Ypertex Blog</title>
+    <link>https://blog.ypertex.com/articles/</link>
+    <description>Recent content in Articles on Ypertex Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved</copyright>
+    <lastBuildDate>Wed, 21 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.ypertex.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Working Around the JumpCloud Curl Error 22</title>
+      <link>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</guid>
+      <description>Introducing JumpCloud In case you have not yet heard about JumpCloud: It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for Single Sign On in web apps and clients. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, MacOS and Windows clients and servers enables you and your directory users to log into these machines with your directory credentials.</description>
+    </item>
+    
+    <item>
+      <title>The Making of the Ypertex Logo</title>
+      <link>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</guid>
+      <description>For a blog claiming to primarily write about design (according to its current tag line “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about other people’s designs, I would like to first promote my credibility and address one of my own designs: this blog’s logo.
+This article explains how I generally approach new designs using the example of the ypertex logo.</description>
+    </item>
+    
+    <item>
+      <title>Underrated but Critical Start-Up Success Factors: Trust and Loyalty</title>
+      <link>https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/</guid>
+      <description>In late 2012, I co-founded a company called EntrePreneurs (no, not really—I changed the name for the purpose of this article). While my long-time business partner adopted the role of CEO, I took on the role of CIO. We were off to a good start as our first year, 2013, was financially more successful than budgeted and our team had quickly grown to the size required to reach the goals laid out in our business plan.</description>
+    </item>
+    
+    <item>
+      <title>Humankind Is Expecting Offspring—Are We Ready?</title>
+      <link>https://blog.ypertex.com/articles/humanity-is-expecting-offspring/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/humanity-is-expecting-offspring/</guid>
+      <description>As foretold in my blog’s opening article, Artificial Intelligence (AI) is a topic that concerns me a lot these days. In particular, I am more concerned about the first and still imperfect Artificial General Intelligence and less about the potentially god-like, almighty Artificial Super Intelligence everyone is talking about.
+For those of you who are not too familiar with the subject, I will start this article with an introduction and recommend a few links for further reading at the end.</description>
+    </item>
+    
+    <item>
+      <title>Years in the Making, Launching Today: The Ypertex Blog</title>
+      <link>https://blog.ypertex.com/articles/ypertex-blog-launching-today/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/ypertex-blog-launching-today/</guid>
+      <description>Finally. After literally years of intending to start blogging (the first design sketch dates back to May 2010, and I registered the Ypertex domains in December 2010), I am proud to publish the first post on my own blog.
+Now what took me so long?
+Lots of Reasons Not to Blog Content First and foremost, up until now I felt that I did not have anything really relevant to say to a broader audience.</description>
+    </item>
+    
+  </channel>
+</rss>

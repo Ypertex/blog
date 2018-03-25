@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Ypertex Blog</title>
+    <link>https://blog.ypertex.com/tags/design/</link>
+    <description>Recent content in Design on Ypertex Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved</copyright>
+    <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.ypertex.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Making of the Ypertex Logo</title>
+      <link>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</guid>
+      <description>For a blog claiming to primarily write about design (according to its current tag line “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about other people’s designs, I would like to first promote my credibility and address one of my own designs: this blog’s logo.
+This article explains how I generally approach new designs using the example of the ypertex logo.</description>
+    </item>
+    
+  </channel>
+</rss>
