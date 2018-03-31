@@ -5,6 +5,7 @@ authors: Michael Schmidle
 slug: humanity-is-expecting-offspring
 tags: [Artificial Intelligence]
 description: The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?
+aliases: [/2017/03/30/humanity-is-expecting-offspring/]
 ---
 
 As foretold in [my blog’s opening article](https://blog.ypertex.com/articles/ypertex-blog-launching-today/), Artificial Intelligence (AI) is a topic that concerns me a lot these days. In particular, I am more concerned about the first and still imperfect Artificial General Intelligence and less about the potentially god-like, almighty Artificial Super Intelligence everyone is talking about.
@@ -143,7 +144,6 @@ One particular stubborn misconception is the belief that humans will be able to 
 
 <figure>
 {{< youtube z0HsPBKfhoI >}}
-<figcaption><p>“Don’t fear superintelligent AI” by Grady Booch, March 2017</p></figcaption>
 </figure>
 
 What people tend to forget is the level of complexity that interconnected software has nowadays. Really, how simple is it for anyone but Apple, Inc. to shut down Siri as Grady Booch suggests? OK, I could turn off my iPhone on which Siri is listening—but Siri still runs on Apple’s servers and millions of other devices regardless. What about AGIs we do not even know about, i.e. driven by <abbr title="National Security Agency">NSA</abbr>, <abbr title="Central Intelligence Agency">CIA</abbr>, <abbr title="Government Communications Headquarters">GHCQ</abbr> and others? Keep in mind that **there is no clear-cut “we”**. Humans are divided into countless affiliations (nations, organizations, families and so on). The entity who develops and operates the AGI does not necessarily have to be the same entity that is affected negatively by it.
