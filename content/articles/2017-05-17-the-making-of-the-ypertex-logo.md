@@ -112,9 +112,9 @@ From these sources I had collected and interpreted the following requirements:
 
 Translating design requirements into design elements is comparable to translations from one spoken language into another: A large portion of it is simply a matter of looking up the translation in a dictionary; the rest of the translation is based on experience with nuances.
 
-{{<figure src="/media/up-or-down.jpg" caption="Which of the two moving staircases implies to go up or down usually depends on the direction in which you are used to read">}}
-
 Unfortunately, there is not just one global dictionary for visual design that offers translations to shapes, colors, textures, lighting, space and direction. These translations or **interpretations rely on context like i.e. one’s cultural area** (in my case: Western Europe). Let us take a look at my above requirements, most notably the requirement “future oriented”: In my culture, we read from left to right—so a visual representation of going forward could be conveyed by a perceived movement from left to right. This might be different in other cultures and also apply to the meaning of shapes and colors.
+
+{{<figure src="/media/up-or-down.jpg" caption="Which of the two moving staircases implies to go up or down usually depends on the direction in which you are used to read">}}
 
 The attentive reader also might have noticed: Some of my interpretations of individual requirements actually contradict each other. For example, the color interpretations of “personal” and “technological” oppose each other (warm vs. cold). The interpretations for “in-depth” and “contemporary” clash, too (layered vs. flat). **Be thankful for a few contradictions** since they add tension and invite you as a designer to play with the different options to see what works best.
 
