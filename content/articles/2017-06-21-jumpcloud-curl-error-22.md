@@ -5,6 +5,7 @@ date: 2017-06-21
 slug: jumpcloud-curl-error-22
 tags: [IT Recommendations]
 description: JumpCloud is a great tool to enable Single Sign On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux.
+aliases: [/2017/06/21/jumpcloud-curl-error-22/]
 ---
 
 
