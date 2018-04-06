@@ -5,6 +5,7 @@ authors: Michael Schmidle
 slug: start-up-success-factors-trust-and-loyalty
 tags: [Leadership]
 description: How trust and loyalty within the leadership team can determine success or failure of a start-up. Based on a true story.
+cover: start-up-inside.jpg
 aliases: [2017/04/29/start-up-success-factors-trust-and-loyalty/]
 ---
 
@@ -12,13 +13,13 @@ In late 2012, I co-founded a company called EntrePreneurs (no, not really—I ch
 
 Paradoxically, this was also the time when we had to shut down the company—and fire all 16 people in the process including ourselves, the founders.
 
-{{<figure src="/media/start-up-inside.jpg" caption="Fragile: Start-Up Inside, Handle With Care">}}
+{{<figure src="/media/start-up-inside.jpg">}}Fragile: Start-Up Inside, Handle With Care{{</figure>}}
 
 Now, three years later, I would like to look back and **share my experience and learnings with you**: How or why could happen what had happened to EntrePreneurs? What do I think were the main reasons for EntrePreneurs to fail the way it did? What could we have done differently to save the company and be successful?
 
 The motivation for this article is twofold. On the one hand, I want to take notes of my memories (I find myself forgetting already some of the details) and clarify some misconceptions. On the other hand, I simply want to allow others to learn and benefit from our mistakes. Or as the German saying goes:
 
-> Everything is good for something—and be it to serve as a bad example. <footer><cite>German proverb</cite></footer>
+> Everything is good for something—and be it to serve as a bad example. {{<cite>}}German proverb{{</cite>}}
 
 ## The Obvious Reason for Bankruptcy
 
@@ -38,7 +39,7 @@ To give you the context of why the financial situation could develop the way it 
 
 We launched EntrePreneurs with ~70% of the funds required to break even according to our business plan. We were all confident that we would be able to close the gap during the course of the first year (and to some limited extent we were able to deliver on this promise). Our experienced investors and the seasoned business managers on our supervisory board did not seem to be overly worried about the gap—in the beginning at least. In other words: We accepted **the initially underfunded business plan as calculated risk**.
 
-{{<figure src="/media/mind-the-gap.jpg" caption="A “Mind the Gap” warning in London’s subway">}}
+{{<figure src="/media/mind-the-gap.jpg">}}A “Mind the Gap” warning in London’s subway{{</figure>}}
 
 As it turned out, it was quite difficult and hence took longer to find investors for a series B funding. For the first venture round, we had been able to rely on existing partnerships established over several years; for the second round we had to forge new relationships with people who were unfamiliar with our approach and our social business model. You should know: EntrePreneurs was not just a start-up trying to disrupt an existing industry; as a service provider for not-for-profit organizations (<abbr title="Non Governmental Organizations">NGO</abbr>s) in Switzerland, we were **a new company *in a new industry***. There was nobody outside EntrePreneurs who already had experience in this area, let alone experience as a start-up investor. Naturally, it took a lot of time and work to find potential investors.
 
@@ -48,7 +49,7 @@ As it turned out, it was quite difficult and hence took longer to find investors
 
 This calculated risk of the underfunded business plan eventually turned into an existential threat due to an unforeseen circumstance that unfolded in parallel. We were making big strides in the public sector and were invited to participate as consultants in the revision of a law in the canton of Lucerne. (Cantons in Switzerland are what states are in the US.) The idea behind said revision was to extend public-private partnerships in exactly our domain—a really big deal for our company.
 
-{{<figure src="/media/lucerne-parliament-in-session.jpg" caption="Lucerne Parliament in session, via" attr="SRF" attrlink="http://www.srf.ch/iapp/image/10322887/5/luzerner_parlament_spart_und_lockert_schuldenbremse@1x.jpg">}}
+{{<figure src="/media/lucerne-parliament-in-session.jpg">}}Lucerne Parliament in session, via [SRF](http://www.srf.ch/iapp/image/10322887/5/luzerner_parlament_spart_und_lockert_schuldenbremse@1x.jpg){{</figure>}}
 
 Unfortunately, some political factions opposed the approach envisioned in the draft—and, in good Swiss tradition, started a **referendum against the new law**. This had two significant effects:
 
@@ -87,7 +88,7 @@ On the one hand, externally, it was difficult to find a lot of candidates in the
 
 At some point it dawned on me that the close **relationship between CEO and CIO was quite literally too close, as in: closed**. We would need to open up and trust outsiders more.
 
-{{<figure src="/media/missing-piece.jpg" caption="Matter of opinion: Is this the missing piece?">}}
+{{<figure src="/media/missing-piece.jpg">}}Matter of opinion: Is this the missing piece?{{</figure>}}
 
 As the perfectionist he was, our CEO demanded only the best from him and also everybody else. And while these high expectations can push a team to deliver outstanding work, it can also trap you. Naturally as CEO, there were many things that he was more successful at than other people. But even after delegating duties to others, he often found himself right back in the middle of the delegated tasks as soon as things took a direction he thought was the wrong way.
 
@@ -108,7 +109,7 @@ The irony is that with a perfectionist CEO the team constantly receives the feed
 
 While I definitively think that the people we had on the team were the right ones, I feel that the CEO’s (too) high standards prevented us from adding another manager to the leadership team soon enough to really make a difference with regard to our underfunded business plan. In fact, the real turning point or backbraker in retrospective for me was when our CEO decided to cancel talks with a candidate in the middle of contract negotiations. Instead of welcoming a third manager that immediately could have taken on some of our workload *and* shake things up a bit in the leadership team, we had lost a lot of time and energy only to find ourselves back on square one.
 
-> Perfect is the enemy of good. <footer><cite>[Voltaire](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good)</cite></footer>
+> Perfect is the enemy of good. {{<cite>}}[Voltaire](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good){{</cite>}}
 
 To summarize Part A: We were unable to add a third manager to the leadership team in time to take some pressure off the CEO and allow him to focus on his job. There were very few but yet well qualified candidates available—hiring one of them and living with the subsequent imperfections would have been the better alternative than not having enough hands on deck to begin with.
 
@@ -126,7 +127,7 @@ I remember the time when I briefly thought about quitting because we were not ma
 
 So I stayed and did not make a big fuss about it; I remained loyal and saw it through to the very end.
 
-{{<figure src="/media/guaranteed-loyalty.jpg" caption="The issue with guaranteed loyalty: At some point, people just take for granted that you follow them anywhere">}}
+{{<figure src="/media/guaranteed-loyalty.jpg">}}The issue with guaranteed loyalty: At some point, people just take for granted that you follow them anywhere{{</figure>}}
 
 The effect of this was huge—as much as I can tell now. **My guaranteed loyalty took away my function as the CEO’s sparring partner.** I would challenge him not enough anymore on his ideas and actions. He would start to decide important things without consulting me first, assuming I would be OK with them—like I had been most of the time. I would not look close enough anymore and observe in detail what was happening around me. Furthermore, my behavior most certainly discouraged others from stepping up and criticizing the CEO. My most important job was establishing and personally executing a culture where constructive critique against the CEO was accepted—and I failed.
 

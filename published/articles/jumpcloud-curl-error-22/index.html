@@ -9,17 +9,29 @@
     <meta name="generator" content="Hugo 0.37.1" />
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/inhabitu.css">
+    <meta property="og:url" content="https://blog.ypertex.com/articles/jumpcloud-curl-error-22/" />
+    <meta property="og:title" content="Working Around the JumpCloud Curl Error 22 · Ypertex Blog" />
+    
+<meta property="og:description" content="JumpCloud is a great tool to enable Single Sign On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux." />
+
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Ypertex" />
+    <meta name="twitter:creator" content="@MichaelSchmidle" />
 </head>
 <body>
-    <header class="hero is-primary is-bold">
+    <header class="hero is-primary">
         <div class="hero-head">
             <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
-                        <a href="/" class="navbar-item is-active"><img class="inhabitu-navbar-logo" src="/media/logos/ypertex-logo-2017-01-inverted.png"> Ypertex Blog</a>
+                        <a href="/" class="navbar-item"><img class="inhabitu-navbar-logo" src="/media/logos/ypertex-logo-2017-01-inverted.png"> Ypertex Blog</a>
                     </div>
                     <div class="navbar-menu">
                         <div class="navbar-end">
+                            <a class="navbar-item" href="/articles/">Articles</a>
+                            <a class="navbar-item" href="/tags/">Tags</a>
+                            <a class="navbar-item" href="/authors/">Authors</a>
                             <a class="navbar-item" href="https://twitter.com/Ypertex" title="Twitter"><i class="inhabitu-twitter icon"></i></a>
                             <a class="navbar-item" href="https://github.com/Ypertex/blog" title="Github"><i class="inhabitu-github icon"></i></a>
                         </div>
@@ -68,23 +80,10 @@
 
 <p>In case you have not yet heard about <a href="https://jumpcloud.com/">JumpCloud</a>: It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for <strong>Single Sign On in web apps and clients</strong>. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, MacOS and Windows clients and servers enables you and your directory users to log into these machines <em>with your directory credentials</em>. How awesome is that!</p>
 
-
 <figure>
-    
-        <img src="/media/jumpcloud.com-2017-06.jpg" alt="Screenshot of the jumpcloud.com website in June 2017" />
-    
-    
-    <figcaption>
-        <p>
-        Screenshot of the jumpcloud.com website in June 2017
-        
-            
-        
-        </p> 
-    </figcaption>
-    
+    <img src="/media/jumpcloud.com-2017-06.jpg">
+    <figcaption>Screenshot of the jumpcloud.com website, June 2017</figcaption>
 </figure>
-
 
 <p>No big deal, you say? Active Directory already provides this functionality, you say?—Not quite!</p>
 
