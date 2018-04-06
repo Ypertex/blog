@@ -201,9 +201,4 @@ Given that you now know the scope (object) and quality (objectives) of my logo d
 
 ---
 
-<div class="message is-info">
-    <h6 class="message-header">Note<i class="inhabitu-info icon"></i></h6>
-    <div class="message-body">
-        <p>By the way: I approached finding or rather designing the name of the blog the same way, setting most of the personality related requirements already back then. Again, the <em>Art of Omitting</em> was useful—and helped create something vaguely familiar yet interestingly different by simply removing the first and last letters “H” and “t” from the word Hypertext.</p>
-    </div>
-</div>
+{{<note-info>}}By the way: I approached finding or rather designing the name of the blog the same way, setting most of the personality related requirements already back then. Again, the <em>Art of Omitting</em> was useful—and helped create something vaguely familiar yet interestingly different by simply removing the first and last letters “H” and “t” from the word Hypertext.{{</note-info>}}

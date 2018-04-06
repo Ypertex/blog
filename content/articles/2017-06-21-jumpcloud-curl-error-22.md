@@ -60,9 +60,4 @@ If you have a better understanding of what the real issue is, please let me know
 
 ---
 
-<div class="message is-info">
-    <h6 class="message-header">Note<i class="inhabitu-info icon"></i></h6>
-    <div class="message-body">
-        <p>I am in no way affiliated with JumpCloud. The above praise is given as IT professional who employs JumpCloud for personal use.</p>
-    </div>
-</div>
+{{<note-info>}}I am in no way affiliated with JumpCloud. The above praise is given as IT professional who employs JumpCloud for personal use.{{</note-info>}}
