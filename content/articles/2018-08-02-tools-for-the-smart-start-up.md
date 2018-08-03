@@ -102,7 +102,15 @@ On a Subreddit called [Microsoft Softwareswap](https://www.reddit.com/r/microsof
 
 One license is particularly interesting: the **Windows Server Datacenter edition**. The current version 2016 for example sells as low as $40 on Reddit. Compared to the price that Microsoft asks, it’s unbelievably cheap: Microsoft sells the Datacenter 2016 license for currently *$6,155*. Read that again. Yes, you pay only *0.65%* of the list price if you buy such a license via the Subreddit mentioned above instead of buying it directly from Microsoft.
 
+> Ever wanted to **save 99.35%** on something? Here you go: A genuine Windows Server Datacenter edition license for $40 instead of $6,155.
+
 This Datacenter edition is so interesting due to one feature: Any Windows server that runs as a Hyper-V virtual machine inside of such a Windows Server Datacenter can be activated *at no additional cost*. Read that again, too. You only pay a one-time investment as low as $40 to obtain a single Windows Server license which then enables you to run *as many Windows Server instances* on top of it as you possibly can.
+
+---
+
+{{<note-info>}}If you want to install your $40 license on a Hetzner server, you will have to ask for the above mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise the installation might take many hours.{{</note-info>}}
+
+---
 
 To come back to our hypothetical team of eight people: Rent a hardware server from Hetzner for $60 per month; then install Windows Server Datacenter on that hardware server and activate it with the $40 license from Reddit. Then create as many Windows Servers as virtual Hyper-V machines on your hardware server and activate them with the [official <abbr title="Automatic Virtual Machine Activation">AVMA</abbr> keys](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn303421(v=ws.11)) from Microsoft.
 
