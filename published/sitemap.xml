@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-1/</loc>
     <lastmod>2018-08-02T00:00:00+00:00</lastmod>
   </url>
@@ -93,6 +98,12 @@
   <url>
     <loc>https://blog.ypertex.com/tags/</loc>
     <lastmod>2017-03-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ypertex.com/tags/tutorials/</loc>
+    <lastmod>2018-08-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Ypertex Blog</title>
+    <link>https://blog.ypertex.com/tags/tutorials/</link>
+    <description>Recent content in Tutorials on Ypertex Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Some rights reserved</copyright>
+    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.ypertex.com/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Advertise Subnets to Upstream Routers with OPNsense and ARP</title>
+      <link>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
+      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz) Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
+    </item>
+    
+  </channel>
+</rss>
