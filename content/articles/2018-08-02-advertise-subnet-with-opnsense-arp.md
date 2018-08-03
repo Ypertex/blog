@@ -49,7 +49,7 @@ This Proxy ARP type of virtual IP allows you to broadcast the advertisement of I
 
 In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP ``x.x.129.210``) it also was the recipient for all IP packets of the ``/29`` DMZ subnet. In a way, ARP allows to configure upstream routers that are not part of your own infrastructure.
 
-This works like a charm. Servers in the DMZ configured with the public IPs of the second ``/29`` subnet were now able to communicate in both directions with the Internet.
+This works like a charm. Servers in the DMZ configured with the public IPs of the second ``/29`` subnet are now able to communicate in both directions with the Internet.
 
 ---
 
