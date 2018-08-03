@@ -122,7 +122,7 @@
   transform-origin: center;
   width: 0.625em; }
 
-.box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
+.box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child), .content h1:not(:last-child), .content h2:not(:last-child), .content h3:not(:last-child), .content h4:not(:last-child), .content h5:not(:last-child), .content h6:not(:last-child),
 .subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .message:not(:last-child), .tabs:not(:last-child) {
   margin-bottom: 1.5rem; }
 
@@ -3323,7 +3323,7 @@ a.box:active {
     position: absolute;
     right: 0.5rem;
     top: 0.5rem; }
-  .notification .title,
+  .notification .title, .notification .content h1, .content .notification h1, .notification .content h2, .content .notification h2, .notification .content h3, .content .notification h3, .notification .content h4, .content .notification h4, .notification .content h5, .content .notification h5, .notification .content h6, .content .notification h6,
   .notification .subtitle,
   .notification .content {
     color: currentColor; }
@@ -3707,49 +3707,49 @@ a.box:active {
 a.tag:hover {
   text-decoration: underline; }
 
-.title,
+.title, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6,
 .subtitle {
   word-break: break-word; }
-  .title em,
-  .title span,
+  .title em, .content h1 em, .content h2 em, .content h3 em, .content h4 em, .content h5 em, .content h6 em,
+  .title span, .content h1 span, .content h2 span, .content h3 span, .content h4 span, .content h5 span, .content h6 span,
   .subtitle em,
   .subtitle span {
     font-weight: inherit; }
-  .title sub,
+  .title sub, .content h1 sub, .content h2 sub, .content h3 sub, .content h4 sub, .content h5 sub, .content h6 sub,
   .subtitle sub {
     font-size: 0.75em; }
-  .title sup,
+  .title sup, .content h1 sup, .content h2 sup, .content h3 sup, .content h4 sup, .content h5 sup, .content h6 sup,
   .subtitle sup {
     font-size: 0.75em; }
-  .title .tag,
+  .title .tag, .content h1 .tag, .content h2 .tag, .content h3 .tag, .content h4 .tag, .content h5 .tag, .content h6 .tag,
   .subtitle .tag {
     vertical-align: middle; }
 
-.title {
+.title, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   color: #363636;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
-  .title strong {
+  .title strong, .content h1 strong, .content h2 strong, .content h3 strong, .content h4 strong, .content h5 strong, .content h6 strong {
     color: inherit;
     font-weight: inherit; }
-  .title + .highlight {
+  .title + .highlight, .content h1 + .highlight, .content h2 + .highlight, .content h3 + .highlight, .content h4 + .highlight, .content h5 + .highlight, .content h6 + .highlight {
     margin-top: -0.75rem; }
-  .title:not(.is-spaced) + .subtitle {
+  .title:not(.is-spaced) + .subtitle, .content h1:not(.is-spaced) + .subtitle, .content h2:not(.is-spaced) + .subtitle, .content h3:not(.is-spaced) + .subtitle, .content h4:not(.is-spaced) + .subtitle, .content h5:not(.is-spaced) + .subtitle, .content h6:not(.is-spaced) + .subtitle {
     margin-top: -1.25rem; }
-  .title.is-1 {
+  .title.is-1, .content h1.is-1, .content h2.is-1, .content h3.is-1, .content h4.is-1, .content h5.is-1, .content h6.is-1 {
     font-size: 3rem; }
-  .title.is-2 {
+  .title.is-2, .content h1.is-2, .content h2.is-2, .content h3.is-2, .content h4.is-2, .content h5.is-2, .content h6.is-2 {
     font-size: 2.5rem; }
-  .title.is-3 {
+  .title.is-3, .content h1.is-3, .content h2.is-3, .content h3.is-3, .content h4.is-3, .content h5.is-3, .content h6.is-3 {
     font-size: 2rem; }
-  .title.is-4 {
+  .title.is-4, .content h1.is-4, .content h2.is-4, .content h3.is-4, .content h4.is-4, .content h5.is-4, .content h6.is-4 {
     font-size: 1.5rem; }
-  .title.is-5 {
+  .title.is-5, .content h1.is-5, .content h2.is-5, .content h3.is-5, .content h4.is-5, .content h5.is-5, .content h6.is-5 {
     font-size: 1.25rem; }
-  .title.is-6 {
+  .title.is-6, .content h1.is-6, .content h2.is-6, .content h3.is-6, .content h4.is-6, .content h5.is-6, .content h6.is-6 {
     font-size: 1rem; }
-  .title.is-7 {
+  .title.is-7, .content h1.is-7, .content h2.is-7, .content h3.is-7, .content h4.is-7, .content h5.is-7, .content h6.is-7 {
     font-size: 0.75rem; }
 
 .subtitle {
@@ -3760,7 +3760,7 @@ a.tag:hover {
   .subtitle strong {
     color: #363636;
     font-weight: 600; }
-  .subtitle:not(.is-spaced) + .title {
+  .subtitle:not(.is-spaced) + .title, .content .subtitle:not(.is-spaced) + h1, .content .subtitle:not(.is-spaced) + h2, .content .subtitle:not(.is-spaced) + h3, .content .subtitle:not(.is-spaced) + h4, .content .subtitle:not(.is-spaced) + h5, .content .subtitle:not(.is-spaced) + h6 {
     margin-top: -1.25rem; }
   .subtitle.is-1 {
     font-size: 3rem; }
@@ -4097,7 +4097,7 @@ a.dropdown-item {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  .level-item .title,
+  .level-item .title, .level-item .content h1, .content .level-item h1, .level-item .content h2, .content .level-item h2, .level-item .content h3, .content .level-item h3, .level-item .content h4, .content .level-item h4, .level-item .content h5, .content .level-item h5, .level-item .content h6, .content .level-item h6,
   .level-item .subtitle {
     margin-bottom: 0; }
   @media screen and (max-width: 768px) {
@@ -6988,7 +6988,7 @@ label.panel-block {
     .hero.is-white a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-white strong {
       color: inherit; }
-    .hero.is-white .title {
+    .hero.is-white .title, .hero.is-white .content h1, .content .hero.is-white h1, .hero.is-white .content h2, .content .hero.is-white h2, .hero.is-white .content h3, .content .hero.is-white h3, .hero.is-white .content h4, .content .hero.is-white h4, .hero.is-white .content h5, .content .hero.is-white h5, .hero.is-white .content h6, .content .hero.is-white h6 {
       color: #0a0a0a; }
     .hero.is-white .subtitle {
       color: rgba(10, 10, 10, 0.9); }
@@ -7036,7 +7036,7 @@ label.panel-block {
     .hero.is-black a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-black strong {
       color: inherit; }
-    .hero.is-black .title {
+    .hero.is-black .title, .hero.is-black .content h1, .content .hero.is-black h1, .hero.is-black .content h2, .content .hero.is-black h2, .hero.is-black .content h3, .content .hero.is-black h3, .hero.is-black .content h4, .content .hero.is-black h4, .hero.is-black .content h5, .content .hero.is-black h5, .hero.is-black .content h6, .content .hero.is-black h6 {
       color: white; }
     .hero.is-black .subtitle {
       color: rgba(255, 255, 255, 0.9); }
@@ -7084,7 +7084,7 @@ label.panel-block {
     .hero.is-light a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-light strong {
       color: inherit; }
-    .hero.is-light .title {
+    .hero.is-light .title, .hero.is-light .content h1, .content .hero.is-light h1, .hero.is-light .content h2, .content .hero.is-light h2, .hero.is-light .content h3, .content .hero.is-light h3, .hero.is-light .content h4, .content .hero.is-light h4, .hero.is-light .content h5, .content .hero.is-light h5, .hero.is-light .content h6, .content .hero.is-light h6 {
       color: #363636; }
     .hero.is-light .subtitle {
       color: rgba(54, 54, 54, 0.9); }
@@ -7132,7 +7132,7 @@ label.panel-block {
     .hero.is-dark a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-dark strong {
       color: inherit; }
-    .hero.is-dark .title {
+    .hero.is-dark .title, .hero.is-dark .content h1, .content .hero.is-dark h1, .hero.is-dark .content h2, .content .hero.is-dark h2, .hero.is-dark .content h3, .content .hero.is-dark h3, .hero.is-dark .content h4, .content .hero.is-dark h4, .hero.is-dark .content h5, .content .hero.is-dark h5, .hero.is-dark .content h6, .content .hero.is-dark h6 {
       color: whitesmoke; }
     .hero.is-dark .subtitle {
       color: rgba(245, 245, 245, 0.9); }
@@ -7180,7 +7180,7 @@ label.panel-block {
     .hero.is-primary a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-primary strong {
       color: inherit; }
-    .hero.is-primary .title {
+    .hero.is-primary .title, .hero.is-primary .content h1, .content .hero.is-primary h1, .hero.is-primary .content h2, .content .hero.is-primary h2, .hero.is-primary .content h3, .content .hero.is-primary h3, .hero.is-primary .content h4, .content .hero.is-primary h4, .hero.is-primary .content h5, .content .hero.is-primary h5, .hero.is-primary .content h6, .content .hero.is-primary h6 {
       color: #fff; }
     .hero.is-primary .subtitle {
       color: rgba(255, 255, 255, 0.9); }
@@ -7228,7 +7228,7 @@ label.panel-block {
     .hero.is-link a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-link strong {
       color: inherit; }
-    .hero.is-link .title {
+    .hero.is-link .title, .hero.is-link .content h1, .content .hero.is-link h1, .hero.is-link .content h2, .content .hero.is-link h2, .hero.is-link .content h3, .content .hero.is-link h3, .hero.is-link .content h4, .content .hero.is-link h4, .hero.is-link .content h5, .content .hero.is-link h5, .hero.is-link .content h6, .content .hero.is-link h6 {
       color: #fff; }
     .hero.is-link .subtitle {
       color: rgba(255, 255, 255, 0.9); }
@@ -7276,7 +7276,7 @@ label.panel-block {
     .hero.is-info a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-info strong {
       color: inherit; }
-    .hero.is-info .title {
+    .hero.is-info .title, .hero.is-info .content h1, .content .hero.is-info h1, .hero.is-info .content h2, .content .hero.is-info h2, .hero.is-info .content h3, .content .hero.is-info h3, .hero.is-info .content h4, .content .hero.is-info h4, .hero.is-info .content h5, .content .hero.is-info h5, .hero.is-info .content h6, .content .hero.is-info h6 {
       color: #fff; }
     .hero.is-info .subtitle {
       color: rgba(255, 255, 255, 0.9); }
@@ -7324,7 +7324,7 @@ label.panel-block {
     .hero.is-success a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-success strong {
       color: inherit; }
-    .hero.is-success .title {
+    .hero.is-success .title, .hero.is-success .content h1, .content .hero.is-success h1, .hero.is-success .content h2, .content .hero.is-success h2, .hero.is-success .content h3, .content .hero.is-success h3, .hero.is-success .content h4, .content .hero.is-success h4, .hero.is-success .content h5, .content .hero.is-success h5, .hero.is-success .content h6, .content .hero.is-success h6 {
       color: #fff; }
     .hero.is-success .subtitle {
       color: rgba(255, 255, 255, 0.9); }
@@ -7372,7 +7372,7 @@ label.panel-block {
     .hero.is-warning a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-warning strong {
       color: inherit; }
-    .hero.is-warning .title {
+    .hero.is-warning .title, .hero.is-warning .content h1, .content .hero.is-warning h1, .hero.is-warning .content h2, .content .hero.is-warning h2, .hero.is-warning .content h3, .content .hero.is-warning h3, .hero.is-warning .content h4, .content .hero.is-warning h4, .hero.is-warning .content h5, .content .hero.is-warning h5, .hero.is-warning .content h6, .content .hero.is-warning h6 {
       color: rgba(0, 0, 0, 0.7); }
     .hero.is-warning .subtitle {
       color: rgba(0, 0, 0, 0.9); }
@@ -7420,7 +7420,7 @@ label.panel-block {
     .hero.is-danger a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-danger strong {
       color: inherit; }
-    .hero.is-danger .title {
+    .hero.is-danger .title, .hero.is-danger .content h1, .content .hero.is-danger h1, .hero.is-danger .content h2, .content .hero.is-danger h2, .hero.is-danger .content h3, .content .hero.is-danger h3, .hero.is-danger .content h4, .content .hero.is-danger h4, .hero.is-danger .content h5, .content .hero.is-danger h5, .hero.is-danger .content h6, .content .hero.is-danger h6 {
       color: #fff; }
     .hero.is-danger .subtitle {
       color: rgba(255, 255, 255, 0.9); }
@@ -7555,7 +7555,7 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-.content .title, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+.title, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   font-family: "Playfair Display", serif;
   font-weight: normal; }
 
@@ -7590,7 +7590,7 @@ main {
 .hero-body, .inhabitu-emphasize.section {
   background-color: whitesmoke;
   color: #7a7a7a; }
-  .hero-body .container .title, .inhabitu-emphasize.section .container .title, .hero-body .container .subtitle, .inhabitu-emphasize.section .container .subtitle {
+  .hero-body .container .title, .inhabitu-emphasize.section .container .title, .hero-body .container .content h1, .content .hero-body .container h1, .inhabitu-emphasize.section .container .content h1, .content .inhabitu-emphasize.section .container h1, .hero-body .container .content h2, .content .hero-body .container h2, .inhabitu-emphasize.section .container .content h2, .content .inhabitu-emphasize.section .container h2, .hero-body .container .content h3, .content .hero-body .container h3, .inhabitu-emphasize.section .container .content h3, .content .inhabitu-emphasize.section .container h3, .hero-body .container .content h4, .content .hero-body .container h4, .inhabitu-emphasize.section .container .content h4, .content .inhabitu-emphasize.section .container h4, .hero-body .container .content h5, .content .hero-body .container h5, .inhabitu-emphasize.section .container .content h5, .content .inhabitu-emphasize.section .container h5, .hero-body .container .content h6, .content .hero-body .container h6, .inhabitu-emphasize.section .container .content h6, .content .inhabitu-emphasize.section .container h6, .hero-body .container .subtitle, .inhabitu-emphasize.section .container .subtitle {
     color: #7a7a7a; }
 
 .footer {
