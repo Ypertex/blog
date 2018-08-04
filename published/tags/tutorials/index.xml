@@ -21,5 +21,14 @@
       <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz) Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
     </item>
     
+    <item>
+      <title>Working Around the JumpCloud Curl Error 22</title>
+      <link>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</guid>
+      <description>Introducing JumpCloud In case you have not yet heard about JumpCloud: It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for Single Sign On in web apps and clients. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, MacOS and Windows clients and servers enables you and your directory users to log into these machines with your directory credentials.</description>
+    </item>
+    
   </channel>
 </rss>
