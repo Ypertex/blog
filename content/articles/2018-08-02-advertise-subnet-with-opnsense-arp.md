@@ -54,5 +54,3 @@ This works like a charm. Servers in the DMZ configured with the public IPs of th
 ---
 
 {{<note-info>}}OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet ``x.x.129.216/29`` to the public IP ``x.x.129.210``—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.{{</note-info>}}
-
----
