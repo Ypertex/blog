@@ -1,278 +1,226 @@
 ---
 title: Privacy Policy
+description: This Website collects some Personal Data from its Users. This policy is to inform about the nature, scope, and purpose of the Personal Data collected, used and processed. Furthermore, this data protection declaration informs the Users of the rights to which they are entitled.
 ---
 
-We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the ypertex.com. The use of the Internet pages of the ypertex.com is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.
+## Owner and Data Controller
 
-The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the ypertex.com. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.
+[Michael Schmidle](/authors/michael-schmidle/)
 
-As the controller, the ypertex.com has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g. by telephone.
+## Types of Data Collected
 
-### 1\. Definitions
+Among the types of Personal Data that this Website collects, by itself or through third parties, there are: Cookies and Usage Data.
 
-The data protection declaration of the ypertex.com is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our customers and business partners. To ensure this, we would like to first explain the terminology used.
+Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.
 
-In this data protection declaration, we use, inter alia, the following terms:
+Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Website.
 
-*   #### a) Personal data
+Unless specified otherwise, all Data requested by this Website is mandatory and failure to provide this Data may make it impossible for this Website to provide its services. In cases where this Website specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service.
 
-    Personal data means any information relating to an identified or identifiable natural person (“data subject”). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
+Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.
 
-*   #### b) Data subject
+Any use of Cookies—or of other tracking tools—by this Website or by the owners of third-party services used by this Website serves the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available.
 
-    Data subject is any identified or identifiable natural person, whose personal data is processed by the controller responsible for the processing.
+Users are responsible for any third-party Personal Data obtained, published or shared through this Website and confirm that they have the third party’s consent to provide the Data to the Owner.
 
-*   #### c) Processing
+## Mode and Place of Processing the Data
 
-    Processing is any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction.
+### Methods of Processing
 
-*   #### d) Restriction of processing
+The Owner takes appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.
 
-    Restriction of processing is the marking of stored personal data with the aim of limiting their processing in the future.
+The Data processing is carried out using computers and/or IT enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Owner, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of this Website (administration, sales, marketing, legal, system administration) or external parties (such as third-party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Owner at any time.
 
-*   #### e) Profiling
+### Legal Basis of Processing
 
-    Profiling means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements.
+The Owner may process Personal Data relating to Users if one of the following applies:
 
-*   #### f) Pseudonymisation
+* Users have given their consent for one or more specific purposes. Note: Under some legislations the Owner may be allowed to process Personal Data until the User objects to such processing (“opt-out”), without having to rely on consent or any other of the following legal bases. This, however, does not apply, whenever the processing of Personal Data is subject to European data protection law;
+* provision of Data is necessary for the performance of an agreement with the User and/or for any pre-contractual obligations thereof;
+* processing is necessary for compliance with a legal obligation to which the Owner is subject;
+* processing is related to a task that is carried out in the public interest or in the exercise of official authority vested in the Owner;
+* processing is necessary for the purposes of the legitimate interests pursued by the Owner or by a third party.
 
-    Pseudonymisation is the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person.
+In any case, the Owner will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract. 
 
-*   #### g) Controller or controller responsible for the processing
+### Place
 
-    Controller or controller responsible for the processing is the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law.
+The Data is processed at the Owner’s operating offices and in any other places where the parties involved in the processing are located.
 
-*   #### h) Processor
+Depending on the User’s location, data transfers may involve transferring the User’s Data to a country other than their own. To find out more about the place of processing of such transferred Data, Users can check the section containing details about the processing of Personal Data.
 
-    Processor is a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller.
+Users are also entitled to learn about the legal basis of Data transfers to a country outside the European Union or to any international organization governed by public international law or set up by two or more countries, such as the UN, and about the security measures taken by the Owner to safeguard their Data.
 
-*   #### i) Recipient
+If any such transfer takes place, Users can find out more by checking the relevant sections of this document or inquire with the Owner using the information provided in the contact section.
 
-    Recipient is a natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not. However, public authorities which may receive personal data in the framework of a particular inquiry in accordance with Union or Member State law shall not be regarded as recipients; the processing of those data by those public authorities shall be in compliance with the applicable data protection rules according to the purposes of the processing.
+### Retention Time
 
-*   #### j) Third party
+Personal Data shall be processed and stored for as long as required by the purpose they have been collected for.
 
-    Third party is a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data.
+Therefore:
 
-*   #### k) Consent
+* Personal Data collected for purposes related to the performance of a contract between the Owner and the User shall be retained until such contract has been fully performed.
+* Personal Data collected for the purposes of the Owner’s legitimate interests shall be retained as long as needed to fulfill such purposes. Users may find specific information regarding the legitimate interests pursued by the Owner within the relevant sections of this document or by contacting the Owner.
 
-    Consent of the data subject is any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her.
+The Owner may be allowed to retain Personal Data for a longer period whenever the User has given consent to such processing, as long as such consent is not withdrawn. Furthermore, the Owner may be obliged to retain Personal Data for a longer period whenever required to do so for the performance of a legal obligation or upon order of an authority.
 
-### 2\. Name and Address of the controller
+Once the retention period expires, Personal Data shall be deleted. Therefore, the right to access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after expiration of the retention period.
 
-Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
+## The Purposes of Processing
 
-ypertex.com
+The Data concerning the User is collected to allow the Owner to provide its Services, as well as for the following purposes: Analytics, Displaying content from external platforms and Interaction with external social networks and platforms.
 
-Adligenswilerstrasse 97
+Users can find further detailed information about such purposes of processing and about the specific Personal Data used for each purpose in the respective sections of this document.
 
-6006 Lucerne
+## Detailed Information on the Processing of Personal Data
 
-Switzerland
+Personal Data is collected for the following purposes and using the following services:
 
-Phone: +41 79 101 37 87
+### Analytics
 
-Email: michael@schmidle.net
+The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
 
-Website: ypertex.com and subdomains
+#### Matomo (this Website)
 
-### 3\. Collection of general data and information
+Matomo is an analytics software used by this Website to analyze data directly without the help of third parties.
 
-The website of the ypertex.com collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.
+Personal Data collected: Cookies and Usage Data. Place of processing: Germany.
 
-When using these general data and information, the ypertex.com does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the ypertex.com analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.
+### Displaying Content from External Platforms
 
-### 4\. Routine erasure and blocking of personal data
+This type of service allows you to view content hosted on external platforms directly from the pages of this Website and interact with them.
+This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.
 
-The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.
+#### YouTube Video Widget Without Cookies (Google LLC)
 
-If the storage purpose is not applicable, or if a storage period prescribed by the European legislator or another competent legislator expires, the personal data are routinely blocked or erased in accordance with legal requirements.
+YouTube is a video content visualization service provided by Google LLC that allows this Website to incorporate content of this kind on its pages.
+This widget is set up in a way that ensures that YouTube won’t store information and cookies about Users on this Website unless they play the video.
 
-### 5\. Rights of the data subject
+Personal Data collected: Usage Data. Place of processing: United States, see Google’s [Privacy Policy](https://policies.google.com/privacy/). Privacy Shield participant.
 
-*   #### a) Right of confirmation
+### Interaction with External Social Networks and Platforms
 
-    Each data subject shall have the right granted by the European legislator to obtain from the controller the confirmation as to whether or not personal data concerning him or her are being processed. If a data subject wishes to avail himself of this right of confirmation, he or she may, at any time, contact any employee of the controller.
+This type of service allows interaction with social networks or other external platforms directly from the pages of this Website.
+The interaction and information obtained through this Website are always subject to the User’s privacy settings for each social network.
+This type of service might still collect traffic data for the pages where the service is installed, even when Users do not use it.
 
-*   #### b) Right of access
+#### LinkedIn Button and Social Widgets (LinkedIn Corporation)
 
-    Each data subject shall have the right granted by the European legislator to obtain from the controller free information about his or her personal data stored at any time and a copy of this information. Furthermore, the European directives and regulations grant the data subject access to the following information:
+The LinkedIn button and social widgets are services allowing interaction with the LinkedIn social network provided by LinkedIn Corporation.
 
-    *   the purposes of the processing;
-    *   the categories of personal data concerned;
-    *   the recipients or categories of recipients to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations;
-    *   where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;
-    *   the existence of the right to request from the controller rectification or erasure of personal data, or restriction of processing of personal data concerning the data subject, or to object to such processing;
-    *   the existence of the right to lodge a complaint with a supervisory authority;
-    *   where the personal data are not collected from the data subject, any available information as to their source;
-    *   the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) of the GDPR and, at least in those cases, meaningful information about the logic involved, as well as the significance and envisaged consequences of such processing for the data subject.
+Personal Data collected: Cookies and Usage Data. Place of processing: United States, see LinkedIn’s [Privacy Policy](https://www.linkedin.com/legal/privacy-policy). Privacy Shield participant.
 
-    Furthermore, the data subject shall have a right to obtain information as to whether personal data are transferred to a third country or to an international organisation. Where this is the case, the data subject shall have the right to be informed of the appropriate safeguards relating to the transfer.
+#### Facebook Like Button and Social Widgets (Facebook, Inc.)
 
-    If a data subject wishes to avail himself of this right of access, he or she may, at any time, contact any employee of the controller.
+The Facebook Like button and social widgets are services allowing interaction with the Facebook social network provided by Facebook, Inc.
 
-*   #### c) Right to rectification
+Personal Data collected: Cookies and Usage Data. Place of processing: United States, see Facebook’s [Privacy Policy](https://www.facebook.com/privacy/explanation). Privacy Shield participant.
 
-    Each data subject shall have the right granted by the European legislator to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.
+#### Twitter Tweet Button and Social Widgets (Twitter, Inc.)
 
-    If a data subject wishes to exercise this right to rectification, he or she may, at any time, contact any employee of the controller.
+The Twitter Tweet button and social widgets are services allowing interaction with the Twitter social network provided by Twitter, Inc.
 
-*   #### d) Right to erasure (Right to be forgotten)
+Personal Data collected: Cookies and Usage Data. Place of processing: United States, see Twitter’s [Privacy Policy](https://twitter.com/privacy). Privacy Shield participant.
 
-    Each data subject shall have the right granted by the European legislator to obtain from the controller the erasure of personal data concerning him or her without undue delay, and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies, as long as the processing is not necessary:
+## The Rights of Users
 
-    *   The personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed.
-    *   The data subject withdraws consent to which the processing is based according to point (a) of Article 6(1) of the GDPR, or point (a) of Article 9(2) of the GDPR, and where there is no other legal ground for the processing.
-    *   The data subject objects to the processing pursuant to Article 21(1) of the GDPR and there are no overriding legitimate grounds for the processing, or the data subject objects to the processing pursuant to Article 21(2) of the GDPR.
-    *   The personal data have been unlawfully processed.
-    *   The personal data must be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject.
-    *   The personal data have been collected in relation to the offer of information society services referred to in Article 8(1) of the GDPR.
+Users may exercise certain rights regarding their Data processed by the Owner.
 
-    If one of the aforementioned reasons applies, and a data subject wishes to request the erasure of personal data stored by the ypertex.com, he or she may, at any time, contact any employee of the controller. An employee of ypertex.com shall promptly ensure that the erasure request is complied with immediately.
+In particular, Users have the right to do the following:
 
-    Where the controller has made personal data public and is obliged pursuant to Article 17(1) to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform other controllers processing the personal data that the data subject has requested erasure by such controllers of any links to, or copy or replication of, those personal data, as far as processing is not required. An employees of the ypertex.com will arrange the necessary measures in individual cases.
+* **Withdraw their consent at any time.** Users have the right to withdraw consent where they have previously given their consent to the processing of their Personal Data.
+* **Object to processing of their Data.** Users have the right to object to the processing of their Data if the processing is carried out on a legal basis other than consent. Further details are provided in the dedicated section below.
+* **Access their Data.** Users have the right to learn if Data is being processed by the Owner, obtain disclosure regarding certain aspects of the processing and obtain a copy of the Data undergoing processing.
+* **Verify and seek rectification.** Users have the right to verify the accuracy of their Data and ask for it to be updated or corrected.
+* **Restrict the processing of their Data.** Users have the right, under certain circumstances, to restrict the processing of their Data. In this case, the Owner will not process their Data for any purpose other than storing it.
+* **Have their Personal Data deleted or otherwise removed.** Users have the right, under certain circumstances, to obtain the erasure of their Data from the Owner.
+* **Receive their Data and have it transferred to another controller.** Users have the right to receive their Data in a structured, commonly used and machine readable format and, if technically feasible, to have it transmitted to another controller without any hindrance. This provision is applicable provided that the Data is processed by automated means and that the processing is based on the User’s consent, on a contract which the User is part of or on pre-contractual obligations thereof.
+* **Lodge a complaint.** Users have the right to bring a claim before their competent data protection authority.
 
-*   #### e) Right of restriction of processing
+### Details about the Right to Object to Processing
 
-    Each data subject shall have the right granted by the European legislator to obtain from the controller restriction of processing where one of the following applies:
+Where Personal Data is processed for a public interest, in the exercise of an official authority vested in the Owner or for the purposes of the legitimate interests pursued by the Owner, Users may object to such processing by providing a ground related to their particular situation to justify the objection.
 
-    *   The accuracy of the personal data is contested by the data subject, for a period enabling the controller to verify the accuracy of the personal data.
-    *   The processing is unlawful and the data subject opposes the erasure of the personal data and requests instead the restriction of their use instead.
-    *   The controller no longer needs the personal data for the purposes of the processing, but they are required by the data subject for the establishment, exercise or defence of legal claims.
-    *   The data subject has objected to processing pursuant to Article 21(1) of the GDPR pending the verification whether the legitimate grounds of the controller override those of the data subject.
+Users must know that, however, should their Personal Data be processed for direct marketing purposes, they can object to that processing at any time without providing any justification. To learn, whether the Owner is processing Personal Data for direct marketing purposes, Users may refer to the relevant sections of this document. 
 
-    If one of the aforementioned conditions is met, and a data subject wishes to request the restriction of the processing of personal data stored by the ypertex.com, he or she may at any time contact any employee of the controller. The employee of the ypertex.com will arrange the restriction of the processing.
+### How to Exercise These Rights
 
-*   #### f) Right to data portability
+Any requests to exercise User rights can be directed to the Owner through the contact details provided in this document. These requests can be exercised free of charge and will be addressed by the Owner as early as possible and always within one month.
 
-    Each data subject shall have the right granted by the European legislator, to receive the personal data concerning him or her, which was provided to a controller, in a structured, commonly used and machine-readable format. He or she shall have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, as long as the processing is based on consent pursuant to point (a) of Article 6(1) of the GDPR or point (a) of Article 9(2) of the GDPR, or on a contract pursuant to point (b) of Article 6(1) of the GDPR, and the processing is carried out by automated means, as long as the processing is not necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.
+## Additional Information about Data Collection and Processing
 
-    Furthermore, in exercising his or her right to data portability pursuant to Article 20(1) of the GDPR, the data subject shall have the right to have personal data transmitted directly from one controller to another, where technically feasible and when doing so does not adversely affect the rights and freedoms of others.
+### Legal action
 
-    In order to assert the right to data portability, the data subject may at any time contact any employee of the ypertex.com.
+The User’s Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of this Website or the related Services.
 
-*   #### g) Right to object
+The User declares to be aware that the Owner may be required to reveal personal data upon request of public authorities.
 
-    Each data subject shall have the right granted by the European legislator to object, on grounds relating to his or her particular situation, at any time, to processing of personal data concerning him or her, which is based on point (e) or (f) of Article 6(1) of the GDPR. This also applies to profiling based on these provisions.
+### Additional Information about User’s Personal Data
 
-    The ypertex.com shall no longer process the personal data in the event of the objection, unless we can demonstrate compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject, or for the establishment, exercise or defence of legal claims.
+In addition to the information contained in this privacy policy, this Website may provide the User with additional and contextual information concerning particular Services or the collection and processing of Personal Data upon request.
 
-    If the ypertex.com processes personal data for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing. This applies to profiling to the extent that it is related to such direct marketing. If the data subject objects to the ypertex.com to the processing for direct marketing purposes, the ypertex.com will no longer process the personal data for these purposes.
+### System Logs and Maintenance
 
-    In addition, the data subject has the right, on grounds relating to his or her particular situation, to object to processing of personal data concerning him or her by the ypertex.com for scientific or historical research purposes, or for statistical purposes pursuant to Article 89(1) of the GDPR, unless the processing is necessary for the performance of a task carried out for reasons of public interest.
+For operation and maintenance purposes, this Website and any third-party services may collect files that record interaction with this Website (System logs) use other Personal Data (such as the IP Address) for this purpose.
 
-    In order to exercise the right to object, the data subject may contact any employee of the ypertex.com. In addition, the data subject is free in the context of the use of information society services, and notwithstanding Directive 2002/58/EC, to use his or her right to object by automated means using technical specifications.
+### Information not Contained in this Policy
 
-*   #### h) Automated individual decision-making, including profiling
+More details concerning the collection or processing of Personal Data may be requested from the Owner at any time. Please see the contact information at the beginning of this document.
 
-    Each data subject shall have the right granted by the European legislator not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her, or similarly significantly affects him or her, as long as the decision (1) is not is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) is not authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, or (3) is not based on the data subject's explicit consent.
+### How “Do Not Track” Requests are Handled
 
-    If the decision (1) is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) it is based on the data subject's explicit consent, the ypertex.com shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and contest the decision.
+This Website does not support “Do Not Track” requests. To determine whether any of the third-party services it uses honor the “Do Not Track” requests, please read their privacy policies.
 
-    If the data subject wishes to exercise the rights concerning automated individual decision-making, he or she may, at any time, contact any employee of the ypertex.com.
+### Changes to this Privacy Policy
 
-*   #### i) Right to withdraw data protection consent
+The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within this Website and/or—as far as technically and legally feasible—sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.
 
-    Each data subject shall have the right granted by the European legislator to withdraw his or her consent to processing of his or her personal data at any time.
+Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.
 
-    If the data subject wishes to exercise the right to withdraw the consent, he or she may, at any time, contact any employee of the ypertex.com.
+## Definitions and Legal References
 
-### 6\. Data protection provisions about the application and use of Facebook
+### Personal Data (or Data)
 
-On this website, the controller has integrated components of the enterprise Facebook. Facebook is a social network.
+Any information that directly, indirectly, or in connection with other information—including a personal identification number—allows for the identification or identifiability of a natural person.
 
-A social network is a place for social meetings on the Internet, an online community, which usually allows users to communicate with each other and interact in a virtual space. A social network may serve as a platform for the exchange of opinions and experiences, or enable the Internet community to provide personal or business-related information. Facebook allows social network users to include the creation of private profiles, upload photos, and network through friend requests.
+### Usage Data
 
-The operating company of Facebook is Facebook, Inc., 1 Hacker Way, Menlo Park, CA 94025, United States. If a person lives outside of the United States or Canada, the controller is the Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland.
+Information collected automatically through this Website (or third-party services employed in this Website), which can include: the IP addresses or domain names of the computers utilized by the Users who use this Website, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server’s answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Website) and the details about the path followed within the Website with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User’s IT environment.
 
-With each call-up to one of the individual pages of this Internet website, which is operated by the controller and into which a Facebook component (Facebook plug-ins) was integrated, the web browser on the information technology system of the data subject is automatically prompted to download display of the corresponding Facebook component from Facebook through the Facebook component. An overview of all the Facebook Plug-ins may be accessed under https://developers.facebook.com/docs/plugins/. During the course of this technical procedure, Facebook is made aware of what specific sub-site of our website was visited by the data subject.
+### User
 
-If the data subject is logged in at the same time on Facebook, Facebook detects with every call-up to our website by the data subject—and for the entire duration of their stay on our Internet site—which specific sub-site of our Internet page was visited by the data subject. This information is collected through the Facebook component and associated with the respective Facebook account of the data subject. If the data subject clicks on one of the Facebook buttons integrated into our website, e.g. the "Like" button, or if the data subject submits a comment, then Facebook matches this information with the personal Facebook user account of the data subject and stores the personal data.
+The individual using this Website who, unless otherwise specified, coincides with the Data Subject.
 
-Facebook always receives, through the Facebook component, information about a visit to our website by the data subject, whenever the data subject is logged in at the same time on Facebook during the time of the call-up to our website. This occurs regardless of whether the data subject clicks on the Facebook component or not. If such a transmission of information to Facebook is not desirable for the data subject, then he or she may prevent this by logging off from their Facebook account before a call-up to our website is made.
+### Data Subject
 
-The data protection guideline published by Facebook, which is available at https://facebook.com/about/privacy/, provides information about the collection, processing and use of personal data by Facebook. In addition, it is explained there what setting options Facebook offers to protect the privacy of the data subject. In addition, different configuration options are made available to allow the elimination of data transmission to Facebook. These applications may be used by the data subject to eliminate a data transmission to Facebook.
+The natural person to whom the Personal Data refers.
 
-### 7\. Data protection provisions about the application and use of LinkedIn
+### Data Processor (or Data Supervisor)
 
-The controller has integrated components of the LinkedIn Corporation on this website. LinkedIn is a web-based social network that enables users with existing business contacts to connect and to make new business contacts. Over 400 million registered people in more than 200 countries use LinkedIn. Thus, LinkedIn is currently the largest platform for business contacts and one of the most visited websites in the world.
+The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy.
 
-The operating company of LinkedIn is LinkedIn Corporation, 2029 Stierlin Court Mountain View, CA 94043, UNITED STATES. For privacy matters outside of the UNITED STATES LinkedIn Ireland, Privacy Policy Issues, Wilton Plaza, Wilton Place, Dublin 2, Ireland, is responsible.
+### Data Controller (or Owner)
 
-With each call-up to one of the individual pages of this Internet site, which is operated by the controller and on which a LinkedIn component (LinkedIn plug-in) was integrated, the Internet browser on the information technology system of the data subject is automatically prompted to the download of a display of the corresponding LinkedIn component of LinkedIn. Further information about the LinkedIn plug-in may be accessed under https://developer.linkedin.com/plugins. During the course of this technical procedure, LinkedIn gains knowledge of what specific sub-page of our website was visited by the data subject.
+The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of this Website. The Data Controller, unless otherwise specified, is the Owner of this Website.
 
-If the data subject is logged in at the same time on LinkedIn, LinkedIn detects with every call-up to our website by the data subject—and for the entire duration of their stay on our Internet site—which specific sub-page of our Internet page was visited by the data subject. This information is collected through the LinkedIn component and associated with the respective LinkedIn account of the data subject. If the data subject clicks on one of the LinkedIn buttons integrated on our website, then LinkedIn assigns this information to the personal LinkedIn user account of the data subject and stores the personal data.
+### This Website
 
-LinkedIn receives information via the LinkedIn component that the data subject has visited our website, provided that the data subject is logged in at LinkedIn at the time of the call-up to our website. This occurs regardless of whether the person clicks on the LinkedIn button or not. If such a transmission of information to LinkedIn is not desirable for the data subject, then he or she may prevent this by logging off from their LinkedIn account before a call-up to our website is made.
+The means by which the Personal Data of the User is collected and processed.
 
-LinkedIn provides under https://www.linkedin.com/psettings/guest-controls the possibility to unsubscribe from e-mail messages, SMS messages and targeted ads, as well as the ability to manage ad settings. LinkedIn also uses affiliates such as Eire, Google Analytics, BlueKai, DoubleClick, Nielsen, Comscore, Eloqua, and Lotame. The setting of such cookies may be denied under https://www.linkedin.com/legal/cookie-policy. The applicable privacy policy for LinkedIn is available under https://www.linkedin.com/legal/privacy-policy. The LinkedIn Cookie Policy is available under https://www.linkedin.com/legal/cookie-policy.
+### Service
 
-### 8\. Data protection provisions about the application and use of Matomo
+The service provided by this Website as described in the relative terms (if available) and on this site/application.
 
-On this website, the controller has integrated the Matomo component. Matomo is an open-source software tool for web analysis. Web analysis is the collection, gathering and evaluation of data on the behavior of visitors from Internet sites. A web analysis tool collects, inter alia, data on the website from which a data subject came to a website (so-called referrer), which pages of the website were accessed or how often and for which period of time a sub-page was viewed. A web analysis is mainly used for the optimization of a website and the cost-benefit analysis of Internet advertising.
+### European Union (or EU)
 
-The software is operated on the server of the controller, the data protection-sensitive log files are stored exclusively on this server.
+Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area.
 
-The purpose of the Matomo component is the analysis of the visitor flows on our website. The controller uses the obtained data and information, inter alia, to evaluate the use of this website in order to compile online reports, which show the activities on our Internet pages.
+### Cookies
 
-Matomo sets a cookie on the information technology system of the data subject. The definition of cookies is explained above. With the setting of the cookie, an analysis of the use of our website is enabled. With each call-up to one of the individual pages of this website, the Internet browser on the information technology system of the data subject is automatically through the Matomo component prompted to submit data for the purpose of online analysis to our server. During the course of this technical procedure, we obtain knowledge about personal information, such as the IP address of the data subject, which serves to understand the origin of visitors and clicks.
+Small sets of data stored in the User’s device.
 
-The cookie is used to store personal information, such as the access time, the location from which access was made, and the frequency of visits to our website. With each visit of our Internet pages, these personal data, including the IP address of the Internet access used by the data subject, are transferred to our server. These personal data will be stored by us. We do not forward this personal data to third parties.
+### Legal information
 
-The data subject may, as stated above, prevent the setting of cookies through our website at any time by means of a corresponding adjustment of the web browser used and thus permanently deny the setting of cookies. Such an adjustment to the used Internet browser would also prevent Matomo from setting a cookie on the information technology system of the data subject. In addition, cookies already in use by Matomo may be deleted at any time via a web browser or other software programs.
+This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13 and 14 of Regulation (EU) ``2016/679`` (General Data Protection Regulation).
 
-In addition, the data subject has the possibility of objecting to a collection of data relating to a use of this Internet site that are generated by Matomo as well as the processing of these data by Matomo and the chance to preclude any such. For this, the data subject must set a "Do Not Track" option in the browser.
-
-With each setting of the opt-out cookie, however, there is the possibility that the websites of the controller are no longer fully usable for the data subject.
-
-Further information and the applicable data protection provisions of Matomo may be retrieved under https://matomo.org/privacy/.
-
-### 9\. Data protection provisions about the application and use of Twitter
-
-On this website, the controller has integrated components of Twitter. Twitter is a multilingual, publicly-accessible microblogging service on which users may publish and spread so-called ‘tweets,’ e.g. short messages, which are limited to 280 characters. These short messages are available for everyone, including those who are not logged on to Twitter. The tweets are also displayed to so-called followers of the respective user. Followers are other Twitter users who follow a user's tweets. Furthermore, Twitter allows you to address a wide audience via hashtags, links or retweets.
-
-The operating company of Twitter is Twitter, Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, UNITED STATES.
-
-With each call-up to one of the individual pages of this Internet site, which is operated by the controller and on which a Twitter component (Twitter button) was integrated, the Internet browser on the information technology system of the data subject is automatically prompted to download a display of the corresponding Twitter component of Twitter. Further information about the Twitter buttons is available under https://about.twitter.com/de/resources/buttons. During the course of this technical procedure, Twitter gains knowledge of what specific sub-page of our website was visited by the data subject. The purpose of the integration of the Twitter component is a retransmission of the contents of this website to allow our users to introduce this web page to the digital world and increase our visitor numbers.
-
-If the data subject is logged in at the same time on Twitter, Twitter detects with every call-up to our website by the data subject and for the entire duration of their stay on our Internet site which specific sub-page of our Internet page was visited by the data subject. This information is collected through the Twitter component and associated with the respective Twitter account of the data subject. If the data subject clicks on one of the Twitter buttons integrated on our website, then Twitter assigns this information to the personal Twitter user account of the data subject and stores the personal data.
-
-Twitter receives information via the Twitter component that the data subject has visited our website, provided that the data subject is logged in on Twitter at the time of the call-up to our website. This occurs regardless of whether the person clicks on the Twitter component or not. If such a transmission of information to Twitter is not desirable for the data subject, then he or she may prevent this by logging off from their Twitter account before a call-up to our website is made.
-
-The applicable data protection provisions of Twitter may be accessed under https://twitter.com/privacy?lang=en.
-
-### 10\. Data protection provisions about the application and use of YouTube
-
-On this website, the controller has integrated components of YouTube. YouTube is an Internet video portal that enables video publishers to set video clips and other users free of charge, which also provides free viewing, review and commenting on them. YouTube allows you to publish all kinds of videos, so you can access both full movies and TV broadcasts, as well as music videos, trailers, and videos made by users via the Internet portal.
-
-The operating company of YouTube is YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, UNITED STATES. The YouTube, LLC is a subsidiary of Google Inc., 1600 Amphitheatre Pkwy, Mountain View, CA 94043-1351, UNITED STATES.
-
-With each call-up to one of the individual pages of this Internet site, which is operated by the controller and on which a YouTube component (YouTube video) was integrated, the Internet browser on the information technology system of the data subject is automatically prompted to download a display of the corresponding YouTube component. Further information about YouTube may be obtained under https://www.youtube.com/yt/about/en/. During the course of this technical procedure, YouTube and Google gain knowledge of what specific sub-page of our website was visited by the data subject.
-
-If the data subject is logged in on YouTube, YouTube recognizes with each call-up to a sub-page that contains a YouTube video, which specific sub-page of our Internet site was visited by the data subject. This information is collected by YouTube and Google and assigned to the respective YouTube account of the data subject.
-
-YouTube and Google will receive information through the YouTube component that the data subject has visited our website, if the data subject at the time of the call to our website is logged in on YouTube; this occurs regardless of whether the person clicks on a YouTube video or not. If such a transmission of this information to YouTube and Google is not desirable for the data subject, the delivery may be prevented if the data subject logs off from their own YouTube account before a call-up to our website is made.
-
-YouTube's data protection provisions, available at https://www.google.com/intl/en/policies/privacy/, provide information about the collection, processing and use of personal data by YouTube and Google.
-
-### 11\. Legal basis for the processing
-
-Art. 6(1) lit. a GDPR serves as the legal basis for processing operations for which we obtain consent for a specific processing purpose. If the processing of personal data is necessary for the performance of a contract to which the data subject is party, as is the case, for example, when processing operations are necessary for the supply of goods or to provide any other service, the processing is based on Article 6(1) lit. b GDPR. The same applies to such processing operations which are necessary for carrying out pre-contractual measures, for example in the case of inquiries concerning our products or services. Is our company subject to a legal obligation by which processing of personal data is required, such as for the fulfillment of tax obligations, the processing is based on Art. 6(1) lit. c GDPR. In rare cases, the processing of personal data may be necessary to protect the vital interests of the data subject or of another natural person. This would be the case, for example, if a visitor were injured in our company and his name, age, health insurance data or other vital information would have to be passed on to a doctor, hospital or other third party. Then the processing would be based on Art. 6(1) lit. d GDPR. Finally, processing operations could be based on Article 6(1) lit. f GDPR. This legal basis is used for processing operations which are not covered by any of the abovementioned legal grounds, if processing is necessary for the purposes of the legitimate interests pursued by our company or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data. Such processing operations are particularly permissible because they have been specifically mentioned by the European legislator. He considered that a legitimate interest could be assumed if the data subject is a client of the controller (Recital 47 Sentence 2 GDPR).
-
-### 12\. The legitimate interests pursued by the controller or by a third party
-
-Where the processing of personal data is based on Article 6(1) lit. f GDPR our legitimate interest is to carry out our business in favor of the well-being of all our employees and the shareholders.
-
-### 13\. Period for which the personal data will be stored
-
-The criteria used to determine the period of storage of personal data is the respective statutory retention period. After expiration of that period, the corresponding data is routinely deleted, as long as it is no longer necessary for the fulfillment of the contract or the initiation of a contract.
-
-### 14\. Provision of personal data as statutory or contractual requirement; Requirement necessary to enter into a contract; Obligation of the data subject to provide the personal data; possible consequences of failure to provide such data
-
-We clarify that the provision of personal data is partly required by law (e.g. tax regulations) or can also result from contractual provisions (e.g. information on the contractual partner). Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded. Before personal data is provided by the data subject, the data subject must contact any employee. The employee clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.
-
-### 15\. Existence of automated decision-making
-
-As a responsible company, we do not use automatic decision-making or profiling.
-
-This Privacy Policy has been generated by the Privacy Policy Generator of the [External Data Protection Officers](https://dg-datenschutz.de/services/external-data-protection-officer/?lang=en) that was developed in cooperation with the [Media Law Lawyers](https://www.wbs-law.de/eng/practice-areas/media-law/) from WBS-LAW.
+This privacy policy relates solely to this Website, if not stated otherwise within this document.

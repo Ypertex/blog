@@ -89,5 +89,17 @@ Now what took me so long?
 Lots of Reasons Not to Blog Content First and foremost, up until now I felt that I did not have anything really relevant to say to a broader audience.</description>
     </item>
     
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://blog.ypertex.com/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/privacy/</guid>
+      <description>Owner and Data Controller Michael Schmidle
+Types of Data Collected Among the types of Personal Data that this Website collects, by itself or through third parties, there are: Cookies and Usage Data.
+Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.
+Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Website.</description>
+    </item>
+    
   </channel>
 </rss>
