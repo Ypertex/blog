@@ -91,6 +91,12 @@ Personal Data collected: Cookies and Usage Data. Place of processing: Germany.
 This type of service allows you to view content hosted on external platforms directly from the pages of this Website and interact with them.
 This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.
 
+#### Google Fonts (Google LLC)
+
+Google Fonts is a typeface visualization service provided by Google LLC that allows this Application to incorporate content of this kind on its pages.
+
+Personal Data collected: Usage Data and various types of Data as specified in the privacy policy of the service. Place of processing: United States, see Google’s [Privacy Policy](https://policies.google.com/privacy/). Privacy Shield participant. 
+
 #### YouTube Video Widget Without Cookies (Google LLC)
 
 YouTube is a video content visualization service provided by Google LLC that allows this Website to incorporate content of this kind on its pages.
