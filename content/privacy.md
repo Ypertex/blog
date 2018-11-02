@@ -93,7 +93,7 @@ This type of service might still collect web traffic data for the pages where th
 
 #### Google Fonts (Google LLC)
 
-Google Fonts is a typeface visualization service provided by Google LLC that allows this Application to incorporate content of this kind on its pages.
+Google Fonts is a typeface visualization service provided by Google LLC that allows this Website to incorporate content of this kind on its pages.
 
 Personal Data collected: Usage Data and various types of Data as specified in the privacy policy of the service. Place of processing: United States, see Google’s [Privacy Policy](https://policies.google.com/privacy/). Privacy Shield participant. 
 
