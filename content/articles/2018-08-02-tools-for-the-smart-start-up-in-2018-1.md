@@ -181,4 +181,4 @@ JumpCloud is such a service, offering a free entry level plan for up to ten user
 
 I hope this overview gave you some insight into how to leverage services and software capabilities out there to set up a smart and powerful team infrastructure at very low cost. If you have any further suggestions, please feel free to [reach out](https://twitter.com/MichaelSchmidle) and share your ideas.
 
-The [second article in this series](/articles/tools-for-the-smart-start-up-in-2018-2/) focuses on the application level (compared to the emphasis on infrastructure in this blog post). It lists applications and services that deliver high quality at low prices in the area of design, web publishing, GPS tracking, knowledge management, password management, and more. Stay tuned! 
+The [second article in this series](/articles/tools-for-the-smart-start-up-in-2018-2/) focuses on the application level (compared to the emphasis on infrastructure in this blog post). It lists applications and services that deliver high quality at low prices in the area of design, web publishing, knowledge management, password management, and more. Stay tuned! 
