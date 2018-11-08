@@ -7,17 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Some rights reserved</copyright>
-    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ypertex.com/tags/it-recommendations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tools for the Smart Start-up (I)</title>
-      <link>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-1/</link>
+      <title>Tools for the Smart Start-up in 2018 (II)</title>
+      <link>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</guid>
+      <description>In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build state-of-the-art IT infrastructure on a small budget. If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems.
+That’s nice—but hardware and OS alone won’t get you very far. What’s needed are applications on top of that basic infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Tools for the Smart Start-up in 2018 (I)</title>
+      <link>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-1/</guid>
+      <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</guid>
       <description>We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget? Question from an interview at the Swiss Financial Market Supervisory Authority FINMA This was a question I was asked in an interview when I applied for a new job after my start-up experience.
 Of course, we all read and hear about the astronomical valuations of the start-ups i.</description>
     </item>
