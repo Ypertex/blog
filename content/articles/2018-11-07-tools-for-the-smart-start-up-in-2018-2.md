@@ -4,7 +4,7 @@ date: 2018-11-07
 authors: Michael Schmidle
 slug: tools-for-the-smart-start-up-in-2018-2
 tags: [IT Recommendations]
-description: "Nowadays, even a small budget can get you state-of-the-art IT infrastructure. Running great desktop and web applications on top of this infrastructure can be very inexpensive, too. Here’s how."
+description: "Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how."
 cover: chess-pawn-king.jpg
 ---
 
