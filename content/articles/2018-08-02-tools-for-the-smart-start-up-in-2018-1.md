@@ -1,11 +1,12 @@
 ---
-title: "Tools for the Smart Start-up (I)"
+title: "Tools for the Smart Start-up in 2018 (I)"
 date: 2018-08-02
 authors: Michael Schmidle
-slug: tools-for-the-smart-start-up-1
+slug: tools-for-the-smart-start-up-in-2018-1
 tags: [IT Recommendations]
-description: "If you start a project on a small budget today, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas."
+description: "If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas."
 cover: small-plant-large-shadow.jpg
+aliases: [/articles/tools-for-the-smart-start-up-1/]
 ---
 
 > We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget? {{<cite>}}Question from an interview at the [Swiss Financial Market Supervisory Authority FINMA](https://www.finma.ch/en/){{</cite>}}
@@ -180,4 +181,4 @@ JumpCloud is such a service, offering a free entry level plan for up to ten user
 
 I hope this overview gave you some insight into how to leverage services and software capabilities out there to set up a smart and powerful team infrastructure at very low cost. If you have any further suggestions, please feel free to [reach out](https://twitter.com/MichaelSchmidle) and share your ideas.
 
-The second article in this series focuses on the application level (compared to the emphasis on infrastructure in this blog post). It lists applications and services that deliver high quality at low prices in the area of design, web publishing, GPS tracking, knowledge management, password management, and more. Stay tuned! 
+The [second article in this series](/articles/tools-for-the-smart-start-up-in-2018-2/) focuses on the application level (compared to the emphasis on infrastructure in this blog post). It lists applications and services that deliver high quality at low prices in the area of design, web publishing, knowledge management, password management, and more. Stay tuned! 
