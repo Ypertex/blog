@@ -90,7 +90,7 @@ On the downside: This Wiki software needs to be **installed and run on one’s o
 
 ### [Confluence](https://www.atlassian.com/software/confluence/)
 
-Probably **even better designed and more feature-rich** is Confluence by Atlassian. It too produces great looking documentation and is backed by one of the world’s largest developers for collaboration software. Integration of Confluence into other [Atlassian products](https://www.atlassian.com/software/) like Trello, Jira, Bitbucket etc. is, of course, easy.
+Probably **even better designed and more feature-rich** is Confluence by Atlassian. It too produces great looking documentation and is backed by one of the world’s largest developers of collaboration software. Integration of Confluence into other [Atlassian products](https://www.atlassian.com/software/) like Trello, Jira, Bitbucket etc. is, of course, easy.
 
 {{<figure src="/media/atlassian.com-2018-11.jpg">}}Screenshot of the atlassian.com website, November 2018{{</figure>}}
 
