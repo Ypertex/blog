@@ -22,6 +22,10 @@ That’s nice—but hardware and <abbr title="Operating System">OS</abbr> alone 
 
 ### Graphical Design
 
-For a long time, there weren’t many options available in the area of professional-grade graphic design software. One major software company dominated the market, asking premium prices for their licenses. This changed when the software developer Serif introduced their [Affinity suite](https://affinity.serif.com/), consisting of the three applications **Affinity Photo** (for editing photos), **Affinity Designer** (for creating illustrations), and **Affinity Publisher** (for creating print publications, still in beta at the time of writing this article).
+For a long time, there weren’t many options available in the area of professional-grade graphic design software. Adobe dominated the market with Photoshop, Illustrator, and other software—asking premium prices for their licenses. This changed when the software developer Serif introduced their [Affinity suite](https://affinity.serif.com/), consisting of the three applications **Affinity Photo** (for editing photos), **Affinity Designer** (for creating illustrations), and **Affinity Publisher** (for creating print publications, still in beta at the time of writing this article).
 
-The Affinity applications come at a onetime payment of ca. USD50 each per individual user (volume licensing and discounts available upon request).
+The Affinity applications come at a *onetime payment* of ca. USD50 each per individual user (volume licensing and discounts available upon request). If you compare this to what Adobe currently offers, this is a huge difference. Adobe software can’t be bought anymore: One has to rent it and pay *monthly fees*. Depending on which software you need, this can get cost-intensive fast. For editing photos, the least expensive plan starts at ca. USD10 per month and user. All other apps can be rented starting from a bit over USD20 per month per user each. The cheapest bundle (when you need three or more of the Adobe applications) sits at over USD50 per month per user.
+
+The Adobe “All Apps” bundle plan including more than 20 creative software might be very interesting if you require more than just software to edit photos or create illustrations and print publications. But if that’s all you need, the Affinity line-up offers the best price-performance ratio there is at the moment.
+
+
