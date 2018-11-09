@@ -4,7 +4,8 @@ date: 2018-11-09
 authors: Michael Schmidle
 slug: 
 tags: [Tutorials]
-description: "JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault? Let's fix that."
+description: "JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let's fix that."
+cover: debian-issue.png
 ---
 
 If you followed the articles on this blog you know that I have a lot of love<sup>[1](/articles/jumpcloud-curl-error-22/), [2](/articles/tools-for-the-smart-start-up-in-2018-1/)</sup> for [JumpCloud](https://jumpcloud.com/).
@@ -17,13 +18,13 @@ Fortunately, there's a **way around that limitation** that I'd like to share wit
 
 It seems that the JumpCloud Linux agent checks the small text file ``/etc/issue`` to determine whether it is compatible with the system on which it was started. The content of this file is printed on the (virtual) screen after the system booted. It is displayed just above the login prompt and originally contains information about the operating system:
 
-{{<figure src="">}}The current version of Debian identifies itself as ``Debian GNU/Linux 9``{{</figure>}}
+{{<figure src="/media/debian-issue.png">}}The current version of Debian identifies itself as ``Debian GNU/Linux 9``{{</figure>}}
 
 Software developers at Proxmox and Openmediavault have used this file to display additional information at the login prompt about how to use their applications:
 
-{{<figure src="">}}Openmedia shows instructions on how to connect to its web interface{{</figure>}}
+{{<figure src="/media/pve-issue.png">}}Proxmox Virtual Environment shows instructions on how to connect to its web interface{{</figure>}}
 
-Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original doesn't cut it. Now what?
+Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?
 
 ## Stop and Disable the Respective Issue Service
 
@@ -44,6 +45,8 @@ Disabling is what prevents the service from being restarted after the system boo
 
 Installing the JumpCloud agent on these systems now **works as expected**. The systems report as ``Debian 9`` in the JumpCloud console from where they can be managed just as any other system.
 
----
+## Conclusion
 
-{{<note-info>}}No, I'm still not affiliated with JumpCloud. All praise is given based on my personal experience with their service.{{</note-info>}}
+I am no Linux expert but isn't there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file ``/etc/issue``? I wish, JumpCloud could figure out something.
+
+If this issue bugs you too, let JumpCloud know by [voting on my feature request](https://support.jumpcloud.com/customer/portal/questions/17167497-agent-support-for-proxmox-and-openmediavault-debian-9-) I posted on their site over a year ago. Thanks. At least, we have a workaround with the above hack.
