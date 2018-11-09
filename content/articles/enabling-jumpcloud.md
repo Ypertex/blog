@@ -1,29 +1,49 @@
 ---
-title: ""
+title: "Enabling JumpCloud on Unsupported Linux Systems"
 date: 2018-11-09
-author: Michael Schmidle
+authors: Michael Schmidle
 slug: 
 tags: [Tutorials]
-description: ""
-cover: 
+description: "JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault? Let's fix that."
 ---
 
-If you followed [the](/articles/jumpcloud-curl-error-22/) [articles](/articles/tools-for-the-smart-start-up-in-2018-1/) on this blog you know that I have a lot of love for [JumpCloud](https://jumpcloud.com/). Currently I have 16 systems connected to their service: all PCs in the family, and a slew of virtual machines and [LXD containers](https://linuxcontainers.org/lxd/) hosted on a mini-server in the basement or in the cloud.
+If you followed the articles on this blog you know that I have a lot of love<sup>[1](/articles/jumpcloud-curl-error-22/), [2](/articles/tools-for-the-smart-start-up-in-2018-1/)</sup> for [JumpCloud](https://jumpcloud.com/).
 
-These <abbr title="Virtual Machines">VM</abbr>s and containers host useful applications like [Matomo](https://matomo.org/), [Openmediavault](https://www.openmediavault.org/), [Plex](https://www.plex.tv/), [Pi-Hole](https://pi-hole.net/), [Guacamole](https://guacamole.apache.org/), [Paperless](https://paperless.readthedocs.io/) etc. Whenever I change my password or private keys (or other user accounts or configuration policies for that matter), I do this once via JumpCloud—and all attached systems will update automatically in a matter of seconds.
+However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) or [Openmediavault](https://www.openmediavault.org/) even though it officially supports the underlying Linux version.
+
+Fortunately, there's a **way around that limitation** that I'd like to share with you in this article.
+
+## The Issue with ``/etc/issue``
+
+It seems that the JumpCloud Linux agent checks the small text file ``/etc/issue`` to determine whether it is compatible with the system on which it was started. The content of this file is printed on the (virtual) screen after the system booted. It is displayed just above the login prompt and originally contains information about the operating system:
+
+{{<figure src="">}}The current version of Debian identifies itself as ``Debian GNU/Linux 9``{{</figure>}}
+
+Software developers at Proxmox and Openmediavault have used this file to display additional information at the login prompt about how to use their applications:
+
+{{<figure src="">}}Openmedia shows instructions on how to connect to its web interface{{</figure>}}
+
+Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original doesn't cut it. Now what?
+
+## Stop and Disable the Respective Issue Service
+
+After [DuckDuckGo](https://duckduckgo.com/)ing a bit, I was able to identify the services that regenerate ``/etc/issue`` after each boot:
+
+* On Proxmox, it's ``pvebanner``
+* On Openmediavault, it's ``openmediavault-issue`` (OK, I could have guessed that one)
+
+So, to stop and disable these services ... just stop and disable them:
+
+    # For Proxmox Virtual Environment
+    sudo systemclt stop pvebanner && sudo systemclt disable pvebanner
+    
+    # For Openmediavault
+    sudo systemclt stop openmediavault-issue && sudo systemclt disable openmediavault-issue
+
+Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file ``/etc/issue`` back to its original content: Open the file (i.e. ``sudo nano /etc/issue``), then paste the complete string ``Debian GNU/Linux 9 \n \l``, and save the file. Done! After a reboot, the file still reads the same.
+
+Installing the JumpCloud agent on these systems now **works as expected**. The systems report as ``Debian 9`` in the JumpCloud console from where they can be managed just as any other system.
 
 ---
 
 {{<note-info>}}No, I'm still not affiliated with JumpCloud. All praise is given based on my personal experience with their service.{{</note-info>}}
-
----
-
-However, there is a JumpCloud limitation that bugs me a little: it doesn't work out of the box with Linux-based systems like [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) or Openmediavault. Fortunately, there's a way around that limitation that I'd like to share with you in this article.
-
-## The Issue with ``/etc/issue``
-
-It seems that the Linux JumpCloud agent determines based on the small text file ``/etc/issue`` whether it is compatible to whatever system on which it was started. The content of this file is printed on the (virtual) screen after the system booted. It is displayed just above the login prompt and originally contains information about the operating system:
-
-IMAGE
-
-Software developers at Proxmox and Openmediavault have 
