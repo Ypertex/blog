@@ -24,7 +24,7 @@ Software developers at Proxmox and Openmediavault have used this file to display
 
 {{<figure src="/media/pve-issue.png">}}Proxmox Virtual Environment shows instructions on how to connect to its web interface{{</figure>}}
 
-Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?
+Of course, now the content of ``/etc/issue`` doesn't match with the records in JumpCloud's database anymore. Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?
 
 ## Stop and Disable the Respective Issue Service
 
