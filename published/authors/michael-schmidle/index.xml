@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Some rights reserved</copyright>
-    <lastBuildDate>Wed, 07 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ypertex.com/authors/michael-schmidle/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Enabling JumpCloud on Unsupported Linux Systems</title>
+      <link>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</guid>
+      <description>If you followed the articles on this blog you know that I have a lot of love1, 2 for JumpCloud.
+However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like Proxmox Virtual Environment or Openmediavault even though it officially supports the underlying Linux version.
+Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d like to share with you in this article.</description>
+    </item>
     
     <item>
       <title>Tools for the Smart Start-up in 2018 (II)</title>
