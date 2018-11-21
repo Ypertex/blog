@@ -4,7 +4,7 @@ date: 2018-04-05
 authors: Michael Schmidle
 slug: antiquated-form-of-most-innovative-companies
 tags: [Innovation]
-description: Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come? 
+description: Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come?
 cover: boss.jpg
 ---
 
