@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ypertex Blog</title>
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.49" />
+    <meta name="generator" content="Hugo 0.53" />
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/inhabitu.css">
     <meta property="og:url" content="https://blog.ypertex.com/" />
@@ -122,10 +122,10 @@
 <p>So, to stop and disable these services &hellip; just stop and disable them:</p>
 
 <pre><code># For Proxmox Virtual Environment
-sudo systemclt stop pvebanner &amp;&amp; sudo systemclt disable pvebanner
+sudo systemctl stop pvebanner &amp;&amp; sudo systemctl disable pvebanner
 
 # For Openmediavault
-sudo systemclt stop openmediavault-issue &amp;&amp; sudo systemclt disable openmediavault-issue
+sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openmediavault-issue
 </code></pre>
 
 <p>Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file <code>/etc/issue</code> back to its original content: Open the file (i.e. <code>sudo nano /etc/issue</code>), then paste the complete string <code>Debian GNU/Linux 9 \n \l</code>, and save the file. Done! After a reboot, the file still reads the same.</p>
