@@ -156,7 +156,8 @@
 <hr />
 
 <div class="message is-info">
-    <h6 class="message-header">Note<i class="inhabitu-info icon"></i></h6>
+    <h6 class="message-header">Note<i class="inhabitu-info icon"></i>
+    </h6>
     <div class="message-body">
         OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet <code>x.x.129.216/29</code> to the public IP <code>x.x.129.210</code>—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.
     </div>

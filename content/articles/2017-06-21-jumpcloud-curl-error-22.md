@@ -60,4 +60,4 @@ If you have a better understanding of what the real issue is, please let me know
 
 ---
 
-{{<note-info>}}I am in no way affiliated with JumpCloud. The above praise is given as IT professional who employs JumpCloud for personal use.{{</note-info>}}
+{{<note class="is-info">}}I am in no way affiliated with JumpCloud. The above praise is given as IT professional who employs JumpCloud for personal use.{{</note>}}

@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Source+Code+Pro");
 @font-face {
   font-family: "inhabitu";
-  src: url("inhabitu.eot");
-  src: url("inhabitu.eot?#iefix") format("embedded-opentype"), url("inhabitu.woff") format("woff"), url("inhabitu.ttf") format("truetype"), url("inhabitu.svg#inhabitu") format("svg");
+  src: url("/inhabitu.eot");
+  src: url("/inhabitu.eot?#iefix") format("embedded-opentype"), url("/inhabitu.woff") format("woff"), url("/inhabitu.ttf") format("truetype"), url("/inhabitu.svg#inhabitu") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -4172,7 +4172,7 @@ a.list-item {
       border-color: #fd0005;
       color: #ad0609; }
 
-.message-header {
+.message-header, h6.message-header {
   align-items: center;
   background-color: #4a4a4a;
   border-radius: 4px 4px 0 0;
@@ -7056,6 +7056,12 @@ main {
 .card .is-size-7, .card a:hover {
   color: #7a7a7a; }
 
+.content small {
+  color: #7a7a7a; }
+
+.content mark {
+  background-color: #ffe3bf; }
+
 hr {
   background: none;
   border-bottom: 1px solid #dbdbdb; }
@@ -7102,12 +7108,6 @@ a.tag.is-primary:hover {
 .content pre {
   padding: 1em;
   margin-bottom: 1em; }
-
-.content small {
-  color: #7a7a7a; }
-
-.content mark {
-  background-color: #ffe3bf; }
 
 .content h6.message-header {
   font-family: "Raleway", sans-serif;

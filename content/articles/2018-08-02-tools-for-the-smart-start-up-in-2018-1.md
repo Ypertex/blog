@@ -27,7 +27,7 @@ For the purpose of this series of articles, let’s assume a start-up with a tea
 
 ---
 
-{{<note-info>}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note-info>}}
+{{<note class="is-info">}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
 
 ---
 
@@ -109,7 +109,7 @@ This Datacenter edition is so interesting due to one feature: Any Windows server
 
 ---
 
-{{<note-info>}}If you want to install your $40 license on a Hetzner server, you will have to ask for the above mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise the installation might take many hours.{{</note-info>}}
+{{<note class="is-info">}}If you want to install your $40 license on a Hetzner server, you will have to ask for the above mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise the installation might take many hours.{{</note>}}
 
 ---
 
