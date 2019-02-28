@@ -7072,6 +7072,9 @@ hr {
   background: none;
   border-bottom: 1px solid #dbdbdb; }
 
+.pagination-previous:focus, .pagination-next:focus {
+  border-color: #ff8f00; }
+
 .footer hr {
   border-color: #363636; }
 
