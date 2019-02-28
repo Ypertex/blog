@@ -3,7 +3,7 @@ title: Test Your Way to Success
 date: 2019-02-28
 authors: Michael Schmidle
 slug: test-your-way-to-success
-tags: [Design, Innovation]
+tags: [Career, Design]
 description: Ever spent too much time on something that turned out to be based on the wrong assumptions? Here's how to make sure that you're investing your time correctly. 
 cover: eyetest.jpg
 ---
