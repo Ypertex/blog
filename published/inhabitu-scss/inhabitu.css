@@ -7078,11 +7078,11 @@ hr {
 .footer hr {
   border-color: #363636; }
 
-.inhabitu-overflow, .content blockquote, .inhabitu-overflow-top-bottom, hr, .content .card, .content figure, .inhabitu-overflow-top, .inhabitu-overflow-bottom, .content pre, .content .message {
+.inhabitu-overflow, .content blockquote, .inhabitu-overflow-top-bottom, hr, .content figure, .inhabitu-overflow-top, .inhabitu-overflow-bottom, .content pre, .content .message {
   margin-left: -1rem;
   margin-right: -1rem; }
 
-.inhabitu-overflow-top-bottom, hr, .content .card, .content blockquote, .content figure {
+.inhabitu-overflow-top-bottom, hr, .content blockquote, .content figure {
   margin-top: 3em !important;
   margin-bottom: 3em !important; }
 
