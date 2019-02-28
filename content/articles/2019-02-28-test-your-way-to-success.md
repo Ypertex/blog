@@ -5,7 +5,7 @@ authors: Michael Schmidle
 slug: test-your-way-to-success
 tags: [Design, Innovation]
 description: Ever spent too much time on something that turned out to be based on the wrong assumptions? Here's how to make sure that you're investing your time correctly. 
-cover: rat.jpg
+cover: eyetest.jpg
 ---
 
 ## Assumptions Can Be Helpful ...
@@ -83,7 +83,7 @@ When I say testing, I don't necessarily mean asking. While it certainly is a ver
 * If observation is impossible, ask the *persons who take the ultimate decision* on the topic at hand. Eliminate hearsay and the dangerous assumed assumptions.
 * Make your tests as real as possible by having the persons *commit to something* (like a follow-up action) or *give up something* valuable (like more of their time). Do they put their money/time where their mouth is?
 
-{{<figure src="/media/fantasy.jpg">}}Make sure you live in the real world by testing your riskiest assumptions{{</figure>}}
+{{<figure src="/media/eyetest.jpg">}}Testing assumptions is like making an eye test: It'll help you getting a better picture{{</figure>}}
 
 I'd even recommend to combine and repeat tests. Getting consistent results from different tests (or from the same test repeated at different points in time) increases the reliability of your test results. 
 
