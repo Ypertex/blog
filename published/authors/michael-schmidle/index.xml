@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Some rights reserved</copyright>
-    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ypertex.com/authors/michael-schmidle/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test Your Way to Success</title>
+      <link>https://blog.ypertex.com/articles/test-your-way-to-success/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/test-your-way-to-success/</guid>
+      <description>Assumptions Can Be Helpful &amp;hellip; Think a moment about the assumptions on which you rely to get through a typical day in your life. Your routine on any given workday is probably based on the following basic assumptions, just to name a few:
+ Your alarm will wake you up in time The transportation for your commute will function properly There will be the usual opportunities to get food and drinks throughout the day  Simply assuming these things—rather than verifying them one by one each and every day—successfully gets you through your workday routine most of the time.</description>
+    </item>
     
     <item>
       <title>Enabling JumpCloud on Unsupported Linux Systems</title>

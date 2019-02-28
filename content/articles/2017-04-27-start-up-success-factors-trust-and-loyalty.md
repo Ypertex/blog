@@ -163,4 +163,4 @@ With this article, I also want to encourage other fellow founders to write about
 
 ---
 
-{{<note-info>}}Like all posts in my blog, this article reflects my personal opinion. I hope I found the right balance by providing value to a broader audience while still respecting the people involved. Of course, other ex-EntrePreneurs might maintain different positions on this topic and are welcome to correct any facts that I might have misrepresented.{{</note-info>}}
+{{<note class="is-info">}}Like all posts in my blog, this article reflects my personal opinion. I hope I found the right balance by providing value to a broader audience while still respecting the people involved. Of course, other ex-EntrePreneurs might maintain different positions on this topic and are welcome to correct any facts that I might have misrepresented.{{</note>}}

@@ -16,7 +16,7 @@ That’s nice—but hardware and <abbr title="Operating System">OS</abbr> alone 
 
 ---
 
-{{<note-info>}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note-info>}}
+{{<note class="is-info">}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
 
 ---
 
@@ -70,7 +70,7 @@ The best part is that Netlify offers this service **for free**.  I still can’t
 
 ---
 
-{{<note-info>}}**Pro tip:** If you use a password manager capable of password sharing (see [my recommendations below](#password-management)), you can easily use Netlify as a team with a single user account.{{</note-info>}}
+{{<note class="is-info">}}**Pro tip:** If you use a password manager capable of password sharing (see [my recommendations below](#password-management)), you can easily use Netlify as a team with a single user account.{{</note>}}
 
 ---
 
@@ -132,7 +132,7 @@ Voilà, you now have your own, fully featured enterprise-grade Password Manager 
 
 ---
 
-{{<note-info>}}While it’s possible to run Bitwarden on a shared Docker installation, I wouldn’t recommend such a setup for use in a team environment.{{</note-info>}}
+{{<note class="is-info">}}While it’s possible to run Bitwarden on a shared Docker installation, I wouldn’t recommend such a setup for use in a team environment.{{</note>}}
 
 ---
 
