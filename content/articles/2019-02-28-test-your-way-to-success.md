@@ -1,10 +1,10 @@
 ---
 title: Test Your Way to Success
-date: 2019-02-22
+date: 2019-02-28
 authors: Michael Schmidle
 slug: test-your-way-to-success
 tags: [Design, Innovation]
-description: Ever spent too much time on something that turned out to be based on the wrong assumptions? Here's how to maximize your chances of investing your time correctly. 
+description: Ever spent too much time on something that turned out to be based on the wrong assumptions? Here's how to make sure that you're investing your time correctly. 
 ---
 
 ## Assumptions Can Be Helpful ...
@@ -15,9 +15,9 @@ Think a moment about the assumptions on which you rely to get through a typical 
 * The transportation for your commute will function properly
 * There will be the usual opportunities to get food and drinks throughout the day
 
-{{<figure>}}Autopilot{{</figure>}}
-
 Simply assuming these things—rather than verifying them one by one each and every day—successfully gets you through your workday routine most of the time. Sometimes of course, things don't work as assumed and your typical routine gets messed up. Generally though, relying on such basic assumptions has an extremely positive cost-value ratio: You can run on autopilot for the little things and have **more brain power left for the important stuff in your life.**
+
+{{<figure src="/media/autopilot.jpg">}}Assumptions work like an autopilot that lets you focus on the important stuff.{{</figure>}}
 
 ## ... or Detrimental
 
@@ -32,31 +32,29 @@ This expertise in oneself leads to the "know one, know all" syndrome. Let me giv
 * A reckless car driver disrespects the traffic rules to your disadvantage. You swear at them since you assume they must be a disrespectful person in general to treat you this way.
 * A parent doesn't seem to care that their children throw a tantrum. You complain, assuming that the person must be a bad parent in general to indifferently let their kids behave like this.
 
-{{<figure>}}Reckless driving, kids throwing a tantrum{{</figure>}}
-
 What if I told you that the driver in the first example rushed to see their child after it was just hospitalized with severe injuries? What if the parent in the second example just had suffered the loss of their spouse? Under these circumstances, I'm quite certain, you'd immediately empathize with them and change your attitude towards them.
 
-While a bit extreme, the above examples show effectively how one can completely misread situations. Now imagine how assumptions (and hence potentially misreading situations) can have a deep impact on your career. Let me highlight two cases as I experienced them myself during the past few years:
+While a bit extreme, the above examples show effectively how one can completely misread situations. Now imagine how assumptions (and hence potentially misreading situations) can have a deep impact on your work. Let me highlight two cases that I experienced in my career:
 
-{{<note title="Case 1: The Well-Thought-Out Project Mandate" class="is-primary">}}
-Once, the boss of my boss put together a team for a large infrastructure project. I was part of that team that subsequently received a written project mandate. It went into much detail about the project's goal and specific requirements. It even included a specific deadline by when which new infrastructure services should go into operation.
+{{<card title="Case 1: The Well-Thought-Out Project Mandate">}}
+At one point, a large infrastructure project was launched. I was part of that team that subsequently received a written project mandate. It went into much detail about the project's goal and specific requirements. It even included a specific deadline by when which new infrastructure services should go into operation.
 
 The team was confused. "How could the project sponsor already define the new infrastructure services in such detail?", we asked ourselves. "How could the project sponsor already define such a specific deadline?", we wondered.
 
-We didn't properly challenge our boss' boss, he appeared very confident. We assumed that he had pondered long enough over the mandate and must have had good reasons for such specific instructions. "He must know stuff that we don't. He's the boss of our boss, for crying out loud!" As the given deadline put us under pressure right away, we didn't lose any time and went immediately to work.
+We didn't properly challenge the project sponsor; he appeared very confident. We assumed that he had pondered long enough over the mandate and must have had good reasons for giving such specific instructions. As the given deadline put us under pressure right away, we didn't lose any time and went immediately to work.
 
 After four months of intense work and a lot of frustration, we finally admitted that the project wasn't deliverable under the given terms. Only then, in the ensuing discussions with the project sponsor, we clarified the scope and requirements. This led to a complete reboot of the entire project.
-{{</note>}}
+{{</card>}}
 
-{{<note title="Case 2: The Appropriate Project Governance" class="is-primary">}}
+{{<card title="Case 2: The Appropriate Project Governance">}}
 On another occasion, we again received a mandate for another project. This time however, it appeared to come from the wrong sponsor. According to the team's assessment, the project would result in organizational changes that the project sponsor wouldn't be able to enforce. He simply wasn't on the appropriate management level and thus lacked the necessary managerial authority.
 
-We identified this as the biggest risk for the project, so we challenged the project sponsor. As he insisted on his ownership of the project, we made sure to conduct a session with top management after a few weeks to collect early feedback on our concept. Sure enough, we brought up the project governance and were able to clarify it almost immediately—eliminating the project's biggest risk at the earliest opportunity.
-{{</note>}}
+We identified this as the biggest risk for the project, so we challenged the project sponsor. As he insisted on his ownership of the project, we made sure to conduct a session with top management after a few weeks to collect early feedback on our concept. Sure enough, we brought up the project governance and were able to rectify it almost immediately—eliminating the project's biggest risk at the earliest opportunity.
+{{</card>}}
 
-The only but immense difference between the two cases was the **awareness of assumptions**. Remember: Assumptions can be helpful. Fortunately, there is a way to benefit from the "autopilot efficiency" of banal assumptions while mitigating the inherent danger of the riskiest assumptions: This approach is called RATs.
+The only but immense difference between the two cases was the **awareness of assumptions**. Remember: Assumptions can be helpful. Fortunately, there is a way to benefit from the "autopilot efficiency" of banal assumptions while mitigating the inherent danger of the riskiest assumptions: an approach called RATs.
 
-{{<figure>}}Rat{{</figure>}}
+{{<figure src="/media/rat.jpg">}}{{</figure>}}
 
 ## RATs: Riskiest Assumptions to Test
 
@@ -84,12 +82,16 @@ When I say testing, I don't necessarily mean asking. While it certainly is a ver
 * If observation is impossible, ask the *persons who take the ultimate decision* on the topic at hand. Eliminate hearsay and the dangerous assumed assumptions.
 * Make your tests as real as possible by having the persons *commit to something* (like a follow-up action) or *give up something* valuable (like more of their time). Do they put their money/time where their mouth is?
 
-{{<figure>}}Observe{{</figure>}}
+{{<figure src="/media/fantasy.jpg">}}Make sure you live in the real world by testing your riskiest assumptions{{</figure>}}
 
 I'd even recommend to combine and repeat tests. Getting consistent results from different tests (or from the same test repeated at different points in time) increases the reliability of your test results. 
 
 ## Conclusion
 
-RATs are a great way to spare ourselves the disappointment to invest a lot of resources into something that nobody needs. I've started to systematically scan for RATs whenever someone asks me to dedicate a substantial amount of time or money to something. By testing these assumptions, people effectively **show, don't tell** me what they really mean.
+RATs are a great way to spare ourselves the disappointment to invest a lot of resources into something that nobody needs. They help being more successful at what we do for a living.
+
+I've started to systematically scan for RATs whenever someone asks me to dedicate a substantial amount of time or money to something. By testing these assumptions, people effectively **show, don't tell** me what they really mean.
 
 Start smelling and testing RATs in your environment, too. This way, whatever's doomed to fail can fail early—leaving you and others to **spend more on what's well spent**!
+
+So, under what risky assumptions are you operating right now?

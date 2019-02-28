@@ -7035,6 +7035,9 @@ main {
 .level-item:last-child, .is-mobile .level-item:last-child {
   margin-right: 0; }
 
+.card-header-title {
+  padding-bottom: 0; }
+
 .card-content {
   padding: 1rem; }
 
@@ -7049,6 +7052,9 @@ main {
   color: whitesmoke; }
   .footer a:hover {
     color: #ffab3f; }
+
+.card .card-header-title {
+  color: #0061b3; }
 
 .card a {
   color: #4a4a4a; }
@@ -7069,11 +7075,11 @@ hr {
 .footer hr {
   border-color: #363636; }
 
-.inhabitu-overflow, .content blockquote, .inhabitu-overflow-top-bottom, hr, .content figure, .inhabitu-overflow-top, .inhabitu-overflow-bottom, .content pre, .content .message {
+.inhabitu-overflow, .content blockquote, .inhabitu-overflow-top-bottom, hr, .content .card, .content figure, .inhabitu-overflow-top, .inhabitu-overflow-bottom, .content pre, .content .message {
   margin-left: -1rem;
   margin-right: -1rem; }
 
-.inhabitu-overflow-top-bottom, hr, .content blockquote, .content figure {
+.inhabitu-overflow-top-bottom, hr, .content .card, .content blockquote, .content figure {
   margin-top: 3em !important;
   margin-bottom: 3em !important; }
 
