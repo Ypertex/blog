@@ -3,7 +3,7 @@ title: "Underrated but Critical Start-Up Success Factors: Trust and Loyalty"
 date: 2017-04-27
 authors: Michael Schmidle
 slug: start-up-success-factors-trust-and-loyalty
-tags: [Leadership]
+tags: [Career, Leadership]
 description: How trust and loyalty within the leadership team can determine success or failure of a start-up. Based on a true story.
 cover: start-up-inside.jpg
 aliases: [2017/04/29/start-up-success-factors-trust-and-loyalty/]
