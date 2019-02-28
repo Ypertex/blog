@@ -5,7 +5,7 @@ authors: Michael Schmidle
 slug: test-your-way-to-success
 tags: [Design, Innovation]
 description: Ever spent too much time on something that turned out to be based on the wrong assumptions? Here's how to make sure that you're investing your time correctly. 
-cover: rat.png
+cover: rat.jpg
 ---
 
 ## Assumptions Can Be Helpful ...
