@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Some rights reserved</copyright>
-    <lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ypertex.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>https://blog.ypertex.com/tags/artificial-intelligence/</link>
-      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Career</title>
@@ -36,6 +27,15 @@
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://blog.ypertex.com/tags/tutorials/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/tags/tutorials/</guid>
       <description></description>
     </item>
     
@@ -58,15 +58,6 @@
     </item>
     
     <item>
-      <title>Leadership</title>
-      <link>https://blog.ypertex.com/tags/leadership/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>On a Personal Note</title>
       <link>https://blog.ypertex.com/tags/on-a-personal-note/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
@@ -76,11 +67,20 @@
     </item>
     
     <item>
-      <title>Tutorials</title>
-      <link>https://blog.ypertex.com/tags/tutorials/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Leadership</title>
+      <link>https://blog.ypertex.com/tags/leadership/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.ypertex.com/tags/tutorials/</guid>
+      <guid>https://blog.ypertex.com/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://blog.ypertex.com/tags/artificial-intelligence/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     

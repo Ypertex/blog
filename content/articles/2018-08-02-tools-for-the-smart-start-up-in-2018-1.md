@@ -4,7 +4,7 @@ date: 2018-08-02
 authors: Michael Schmidle
 slug: tools-for-the-smart-start-up-in-2018-1
 tags: [IT Recommendations]
-description: "If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas."
+description: "If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas. [Updated June 28, 2019]"
 cover: small-plant-large-shadow.jpg
 aliases: [/articles/tools-for-the-smart-start-up-1/]
 ---
@@ -69,9 +69,9 @@ I have used Paperspace productively myself a few months ago and generally can re
 
 But what if $16 per month per team member is already too high of a price? Imagine a team of 8 people; they would have to pay roughly $128/month to use Paperspace—or more if they burn the midnight oil and exceed the 40 hours per week in that calculation. What if team members forget to turn off their virtual desktops after work? We certainly can be even smarter and bring this cost down further. What about instead running our own VDI on a server that we rent?
 
-### Dedicated Server Providers [Online.net](https://www.online.net/en/) and [Hetzner](https://www.hetzner.com/)
+### Dedicated Server Providers [Online.net](https://www.online.net/en/), [Hetzner](https://www.hetzner.com/), and [Servdiscount](https://servdiscount.com/) [Updated June 28, 2019]
 
-There are two providers in Europe who offer server hardware as a service at very low prices: the French provider Online.net (with data centers in France and the Netherlands) and the German provider Hetzner (with data centers in Germany and Finland). The low end divisions [Kimsufi](https://www.kimsufi.com/us/en/) and [So you Start](https://www.soyoustart.com/us/) of [OVH](https://www.ovh.com/world/) are, hands down, no match for Online.net and Hetzner.
+There are several providers in Europe who offer server hardware as a service at very low prices: the French provider Online.net (with data centers in France and the Netherlands) as well as the German providers Hetzner (with data centers in Germany and Finland) and Servdiscount (with a data center in Germany). The low end divisions [Kimsufi](https://www.kimsufi.com/us/en/) and [So you Start](https://www.soyoustart.com/us/) of [OVH](https://www.ovh.com/world/) are, hands down, no match for Online.net, Hetzner, and Servdiscount.
 
 {{<figure src="/media/hetzner-dedicated-server-2018-08.jpg">}}Screenshot of the [Hetzner Dedicated Server website](https://www.hetzner.com/dedicated-rootserver), August 2018{{</figure>}}
 
@@ -83,7 +83,17 @@ One feature that I especially like at Online.net is the availability of a <abbr 
 
 On the other hand, Hetzner almost never seems to run out of stock while Online.net appears to constantly being sold out. It might literally take months for Online.net to restock their portfolio.
 
-I have intensively used both providers in projects and for my private lab and can recommend them both. On the rare occasions that I had issues, both support teams act fast and in a very friendly manner.
+I have intensively used Online.net and Hetzner services in professional projects and for my private lab and can recommend them both. On the rare occasions that I had issues, both support teams act fast and in a very friendly manner.
+
+---
+
+{{<note title="Update June 28, 2019">}}Let me add Servdiscount to this list of providers. I've only used their services for a few weeks and already can tell that they deliver great value for competitive prices.
+
+As an example: For roughly $26, they provided me an 8-core processor, 24GB RAM (instead of the promoted 16), 265GB SSD (instead of the promoted 128), 1TB HDD, unmetered 1Gbps connectivity, *and a dedicated KVM*. Customer support is competent, prompt and friendly.
+
+If you can live with the missing disk redundancy options in most of their low-cost offers, it's really worth a look!{{</note>}}
+
+---
 
 Back to the example of our team of eight persons: A reasonably sized mid-range server from Hetzner costs around $60 per month. It comes with hardware resources that would *easily* accommodate virtual desktops for eight people—or more!
 
