@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Some rights reserved</copyright>
-    <lastBuildDate>Sun, 18 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ypertex.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Unhide Virtual Network Adapters in Windows 10</title>
-      <link>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</link>
-      <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</guid>
-      <description>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don&amp;rsquo;t appear anymore in the &amp;ldquo;Network and Sharing Center&amp;rdquo; and other parts of Windows.
-I assume that for the majority of users, these adapters showing up in all possible places of the OS just like regular network interfaces caused more confusion than it was helpful.</description>
-    </item>
     
     <item>
       <title>Test Your Way to Success</title>

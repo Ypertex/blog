@@ -15,18 +15,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ypertex.com/tags/career/</loc>
-    <lastmod>2019-08-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ypertex.com/tags/design/</loc>
-    <lastmod>2019-08-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ypertex.com/authors/michael-schmidle/</loc>
     <lastmod>2019-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -34,6 +22,12 @@
   
   <url>
     <loc>https://blog.ypertex.com/tags/</loc>
+    <lastmod>2019-08-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ypertex.com/tags/tutorials/</loc>
     <lastmod>2019-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -50,6 +44,18 @@
   </url>
   
   <url>
+    <loc>https://blog.ypertex.com/tags/career/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ypertex.com/tags/design/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ypertex.com/articles/test-your-way-to-success/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
@@ -57,12 +63,6 @@
   <url>
     <loc>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.ypertex.com/tags/tutorials/</loc>
-    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
