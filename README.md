@@ -14,4 +14,4 @@ The content of the Ypertex blog is released under the [Creative Commons Attribut
 
 # Contribution
 
-In case you want to contribute to this blog (be it by correcting typos or even submitting your own articles), you are welcome to get in touch. We live [on Twitter](https://twitter.com/Ypertex) and would love to hear from you.
+In case you want to contribute to this blog (be it by correcting typos or even submitting your own articles), you are welcome to open pull requests, issues or get in touch in some other way.
