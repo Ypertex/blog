@@ -2,7 +2,7 @@
 
 This repository contains the original content and the published articles of the [Ypertex blog](https://blog.ypertex.com/).
 
-The original content can be found in the folders ``content``, ``data`` and ``static``. The raw input from these folders is parsed and transformed into a web publishing format. This output is stored in the folder ``published`` from where it is served to the blog’s users.
+The original content can be found in the folders ``content`` and ``static``. The raw input from these folders is parsed and transformed into a web publishing format. This output is stored in the folder ``published`` from where it is served to the blog’s users.
 
 # Transforming the Original Content
 
