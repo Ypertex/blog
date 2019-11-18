@@ -1,11 +1,11 @@
 ---
-title: How to Advertise Subnets to Upstream Routers with OPNsense and ARP
+title: "How to Advertise Subnets to Upstream Routers with OPNsense and ARP"
 date: 2018-08-02
-authors: Michael Schmidle
-slug: advertise-subnet-with-opnsense-arp
-tags: [Tutorials]
-description: If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense. 
-cover: split-rock
+authors: ["Michael Schmidle"]
+slug: "advertise-subnet-with-opnsense-arp"
+tags: ["Tutorials"]
+description: "If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense."
+cover: "split-rock.jpg"
 ---
 
 {{<figure src="/media/split-rock.jpg">}}Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: [Pablo Heimplatz](https://unsplash.com/photos/an3qaxZ-2bY)){{</figure>}}

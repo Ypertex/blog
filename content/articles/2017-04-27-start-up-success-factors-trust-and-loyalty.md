@@ -1,12 +1,12 @@
 ---
 title: "Underrated but Critical Start-Up Success Factors: Trust and Loyalty"
 date: 2017-04-27
-authors: Michael Schmidle
-slug: start-up-success-factors-trust-and-loyalty
-tags: [Career, Leadership]
-description: How trust and loyalty within the leadership team can determine success or failure of a start-up. Based on a true story.
-cover: start-up-inside.jpg
-aliases: [2017/04/29/start-up-success-factors-trust-and-loyalty/]
+authors: ["Michael Schmidle"]
+slug: "start-up-success-factors-trust-and-loyalty"
+tags: ["Career", "Leadership"]
+description: "How trust and loyalty within the leadership team can determine success or failure of a start-up. Based on a true story."
+cover: "start-up-inside.jpg"
+aliases: ["2017/04/29/start-up-success-factors-trust-and-loyalty/"]
 ---
 
 In late 2012, I co-founded a company called EntrePreneurs (no, not really—I changed the name for the purpose of this article). While my long-time business partner adopted the role of <abbr title="Chief Executive Officer">CEO</abbr>, I took on the role of <abbr title="Chief Information Officer">CIO</abbr>. We were off to a good start as our first year, 2013, was financially more successful than budgeted and our team had quickly grown to the size required to reach the goals laid out in our business plan. At the beginning of our second year, in March 2014, we were just two months away from being on the winning side of a referendum that had been the last obstacle to our first big public-private partnership.

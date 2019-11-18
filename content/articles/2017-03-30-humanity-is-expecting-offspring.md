@@ -1,12 +1,12 @@
 ---
-title: Humankind Is Expecting Offspring—Are We Ready?
+title: "Humankind Is Expecting Offspring—Are We Ready?"
 date: 2017-03-30
-authors: Michael Schmidle
-slug: humanity-is-expecting-offspring
-tags: [Artificial Intelligence]
-description: The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?
-cover: ex-machina.jpg
-aliases: [/2017/03/30/humanity-is-expecting-offspring/]
+authors: ["Michael Schmidle"]
+slug: "humanity-is-expecting-offspring"
+tags: ["Artificial Intelligence"]
+description: "The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?"
+cover: "ex-machina.jpg"
+aliases: ["/2017/03/30/humanity-is-expecting-offspring/"]
 ---
 
 As foretold in [my blog’s opening article](https://blog.ypertex.com/articles/ypertex-blog-launching-today/), Artificial Intelligence (AI) is a topic that concerns me a lot these days. In particular, I am more concerned about the first and still imperfect Artificial General Intelligence and less about the potentially god-like, almighty Artificial Super Intelligence everyone is talking about.

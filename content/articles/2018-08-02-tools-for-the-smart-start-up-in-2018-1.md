@@ -1,12 +1,12 @@
 ---
 title: "Tools for the Smart Start-up in 2018 (I)"
 date: 2018-08-02
-authors: Michael Schmidle
-slug: tools-for-the-smart-start-up-in-2018-1
-tags: [IT Recommendations]
+authors: ["Michael Schmidle"]
+slug: "tools-for-the-smart-start-up-in-2018-1"
+tags: ["IT Recommendations"]
 description: "If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas. [Updated June 28, 2019]"
-cover: small-plant-large-shadow.jpg
-aliases: [/articles/tools-for-the-smart-start-up-1/]
+cover: "small-plant-large-shadow.jpg"
+aliases: ["/articles/tools-for-the-smart-start-up-1/"]
 ---
 
 > We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget? {{<cite>}}Question from an interview at the [Swiss Financial Market Supervisory Authority FINMA](https://www.finma.ch/en/){{</cite>}}

@@ -1,11 +1,11 @@
 ---
 title: "Enabling JumpCloud on Unsupported Linux Systems"
 date: 2018-11-09
-authors: Michael Schmidle
-slug: jumpcloud-on-unsupported-linux
-tags: [Tutorials]
+authors: ["Michael Schmidle"]
+slug: "jumpcloud-on-unsupported-linux"
+tags: ["Tutorials"]
 description: "JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let's fix that."
-cover: debian-issue.png
+cover: "debian-issue.png"
 ---
 
 If you followed the articles on this blog you know that I have a lot of love<sup>[1](/articles/jumpcloud-curl-error-22/), [2](/articles/tools-for-the-smart-start-up-in-2018-1/)</sup> for [JumpCloud](https://jumpcloud.com/).

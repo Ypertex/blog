@@ -1,12 +1,12 @@
 ---
 title: "Years in the Making, Launching Today: The Ypertex Blog"
 date: 2017-03-23
-authors: Michael Schmidle
-slug: ypertex-blog-launching-today
-tags: [On a Personal Note]
-description: After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?
-cover: ypertex-inhabitu-2017-04.jpg
-aliases: [/2017/03/23/ypertex-blog-launching-today/]
+authors: ["Michael Schmidle"]
+slug: "ypertex-blog-launching-today"
+tags: ["On a Personal Note"]
+description: "After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?"
+cover: "ypertex-inhabitu-2017-04.jpg"
+aliases: ["/2017/03/23/ypertex-blog-launching-today/"]
 ---
 
 Finally. After literally years of intending to start blogging (the first design sketch dates back to May 2010, and I registered the Ypertex domains in December 2010), I am proud to publish the first post on my own blog.

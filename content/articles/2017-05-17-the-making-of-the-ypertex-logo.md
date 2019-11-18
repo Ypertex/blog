@@ -1,12 +1,12 @@
 ---
-title: The Making of the Ypertex Logo
+title: "The Making of the Ypertex Logo"
 date: 2017-05-17
-authors: Michael Schmidle
-slug: the-making-of-the-ypertex-logo
-tags: [Design, On a Personal Note]
-description: The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).
-cover: logo-design-06.png
-aliases: [/2017/05/17/the-making-of-the-ypertex-logo/]
+authors: ["Michael Schmidle"]
+slug: "the-making-of-the-ypertex-logo"
+tags: ["Design", "On a Personal Note"]
+description: "The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions)."
+cover: "logo-design-06.png"
+aliases: ["/2017/05/17/the-making-of-the-ypertex-logo/"]
 ---
 
 For a blog claiming to primarily write about design (according to its current tag line “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about *other people’s* designs, I would like to first promote my credibility and address one of my own designs: this blog’s logo.
