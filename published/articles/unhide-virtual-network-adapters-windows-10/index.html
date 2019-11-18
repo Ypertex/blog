@@ -8,7 +8,7 @@
     <title>Unhide Virtual Network Adapters in Windows 10 · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.59.0" />
+    <meta name="generator" content="Hugo 0.59.1" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -155,7 +155,7 @@
 
 <p>To get Windows to treat the host-only adapter like a &ldquo;real&rdquo; one, open the Registry Editor and look for the corresponding entry.</p>
 
-<p>For VMware Workstation, the value is located at <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0010</code> in the registry. Verify that the value of <code>DriverDesc</code> in the same location is <code>VMware Virtual Ethernet Adapter for VMnet1</code>.</p>
+<p>For VMware Workstation, the value is located in a subfolder like <code>0010</code> at <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}</code> in the registry. Verify that the value of <code>DriverDesc</code> in the same location is <code>VMware Virtual Ethernet Adapter for VMnet1</code>.</p>
 
 <p>Then change the <code>*NdisDeviceType</code> value of from <code>1</code> to <code>0</code>.</p>
 

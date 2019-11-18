@@ -55,7 +55,7 @@ The problem with this setup in newer Windows 10 releases: Windows disregards the
 
 To get Windows to treat the host-only adapter like a "real" one, open the Registry Editor and look for the corresponding entry.
 
-For VMware Workstation, the value is located at ``Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0010`` in the registry. Verify that the value of ``DriverDesc`` in the same location is ``VMware Virtual Ethernet Adapter for VMnet1``.
+For VMware Workstation, the value is located in a subfolder like ``0010`` at ``Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}`` in the registry. Verify that the value of ``DriverDesc`` in the same location is ``VMware Virtual Ethernet Adapter for VMnet1``.
 
 Then change the ``*NdisDeviceType`` value of from ``1`` to ``0``.
 
