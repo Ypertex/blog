@@ -7183,12 +7183,7 @@ label.panel-block {
   font-family: "Playfair Display", serif;
   font-weight: normal; }
 
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
+.content h1, .content h2, .content h3, .content h4 {
   font-family: "Playfair Display", serif;
   font-weight: normal; }
 
@@ -7236,6 +7231,9 @@ main {
 
 .card .is-size-7, .card a:hover {
   color: #7a7a7a; }
+
+.navbar-burger {
+  color: white; }
 
 .content small {
   color: #7a7a7a; }
