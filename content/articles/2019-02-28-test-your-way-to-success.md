@@ -18,7 +18,7 @@ Think a moment about the assumptions on which you rely to get through a typical 
 
 Simply assuming these things—rather than verifying them one by one each and every day—successfully gets you through your workday routine most of the time. Sometimes of course, things don't work as assumed and your typical routine gets messed up. Generally though, relying on such basic assumptions has an extremely positive cost-value ratio: You can run on autopilot for the little things and have **more brain power left for the important stuff in your life.**
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/a_hflip,ar_5:3,c_fill,dpr_auto,g_auto,q_auto,w_740/v1574348363/c3961fff-c70b-486e-b791-10b5b2376a75.jpg">}}Assumptions work like an autopilot that lets you focus on the important stuff{{</figure>}}
+{{<figure src="https://res.cloudinary.com/ypertex/image/upload/a_hflip,ar_5:3,c_fill,g_auto,q_auto,w_740/v1574348363/c3961fff-c70b-486e-b791-10b5b2376a75.jpg">}}Assumptions work like an autopilot that lets you focus on the important stuff{{</figure>}}
 
 ## ... or Detrimental
 
@@ -55,7 +55,7 @@ We identified this as the biggest risk for the project, so we challenged the pro
 
 The only but immense difference between the two cases was the **awareness of assumptions**. Remember: Assumptions can be helpful. Fortunately, there is a way to benefit from the "autopilot efficiency" of banal assumptions while mitigating the inherent danger of the riskiest assumptions: an approach called RATs.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,dpr_auto,g_auto,q_auto,w_740/v1574349093/97f0842e-05fb-46a0-924f-3ea99def7cba.jpg">}}{{</figure>}}
+{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574349093/97f0842e-05fb-46a0-924f-3ea99def7cba.jpg">}}{{</figure>}}
 
 ## RATs: Riskiest Assumptions to Test
 
@@ -83,7 +83,7 @@ When I say testing, I don't necessarily mean asking. While it certainly is a ver
 * If observation is impossible, ask the *persons who take the ultimate decision* on the topic at hand. Eliminate hearsay and the dangerous assumed assumptions.
 * Make your tests as real as possible by having the persons *commit to something* (like a follow-up action) or *give up something* valuable (like more of their time). Do they put their money/time where their mouth is?
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,dpr_auto,g_auto,q_auto,w_740/v1574349093/3d9b166b-a85c-4d49-8de3-5e984edba87d.jpg">}}Testing assumptions is like making an eye test: It'll help you getting a better picture{{</figure>}}
+{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574349093/3d9b166b-a85c-4d49-8de3-5e984edba87d.jpg">}}Testing assumptions is like making an eye test: It'll help you getting a better picture{{</figure>}}
 
 I'd even recommend to combine and repeat tests. Getting consistent results from different tests (or from the same test repeated at different points in time) increases the reliability of your test results. 
 

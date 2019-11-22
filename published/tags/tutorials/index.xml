@@ -39,7 +39,7 @@ Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d l
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
-      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz)  Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
+      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz) Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
     </item>
     
     <item>

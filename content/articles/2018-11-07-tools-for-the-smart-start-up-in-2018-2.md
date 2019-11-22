@@ -8,7 +8,7 @@ description: "Small budgets can get you great IT infrastructure. Running great d
 cover: "chess-pawn-king.jpg"
 ---
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,dpr_auto,g_auto,q_auto,w_740/v1574359266/24d4a332-d0da-4977-81d1-3056ac49b9e0.jpg">}}Smart pawns can be kings{{</figure>}}
+{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574359266/24d4a332-d0da-4977-81d1-3056ac49b9e0.jpg">}}Smart pawns can be kings{{</figure>}}
 
 In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build [state-of-the-art IT infrastructure on a small budget](/articles/tools-for-the-smart-start-up-in-2018-1/). If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems. 
 
@@ -110,7 +110,7 @@ Due to the sheer number of logins we use across the Internet, most of us have re
 
 To both limit the damage caused by credentials theft and increase ease of use, password managers have been invented. The idea behind such software is that it generates and securely stores a unique random password for each service that you use. This way, if ever one of the services you use got hacked, the hackers only obtain access to your account on that specific service—and nowhere else.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,dpr_auto,g_auto,q_auto,w_740/v1574365593/80a9d356-a9f6-4096-90f8-ea9835304e72.jpg" />}}
+{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574365593/80a9d356-a9f6-4096-90f8-ea9835304e72.jpg" />}}
 
 The added convenience with such a password manager is that you never again have to manually type a user name or password when logging into websites and apps. You only log in manually when starting the password manager on the respective device—from then on, the manager pastes your credentials into the login forms. Easy!
 
