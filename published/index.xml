@@ -49,7 +49,7 @@ Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d l
       <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</guid>
-      <description>Smart pawns can be kings In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build state-of-the-art IT infrastructure on a small budget. If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems.
+      <description>Smart pawns can be kings  In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build state-of-the-art IT infrastructure on a small budget. If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems.
 That’s nice—but hardware and OS alone won’t get you very far.</description>
     </item>
     
@@ -59,7 +59,7 @@ That’s nice—but hardware and OS alone won’t get you very far.</description
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
-      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz) Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
+      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz)  Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
     </item>
     
     <item>
@@ -68,7 +68,7 @@ That’s nice—but hardware and OS alone won’t get you very far.</description
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</guid>
-      <description>We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget? Question from an interview at the Swiss Financial Market Supervisory Authority FINMA This was a question I was asked in an interview when I applied for a new job after my start-up experience.
+      <description>We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget?  Question from an interview at the Swiss Financial Market Supervisory Authority FINMA   This was a question I was asked in an interview when I applied for a new job after my start-up experience.
 Of course, we all read and hear about the astronomical valuations of the start-ups i.</description>
     </item>
     

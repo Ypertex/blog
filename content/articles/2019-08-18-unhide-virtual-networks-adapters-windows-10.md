@@ -12,7 +12,7 @@ If you ever have installed a virtualization platform like VMware Workstation or 
 
 I assume that for the majority of users, these adapters showing up in all possible places of the <abbr title="Operating System">OS</abbr> just like regular network interfaces caused more confusion than it was helpful. So they changed how Windows treats virtual network adapters.
 
-{{<figure src="/media/server-rack.jpg">}}"It's easy to get confused with too many ports, so let's hide some." (Image: [Taylor Vick](https://unsplash.com/photos/M5tzZtFCOfs)){{</figure>}}
+{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,dpr_auto,g_auto,q_auto,w_740/v1574342869/cb4332a2-eace-43e5-8271-4cdfe85c14f5.jpg">}}"It's easy to get confused with too many ports, so let's hide some." (Image: [Taylor Vick](https://unsplash.com/photos/M5tzZtFCOfs)){{</figure>}}
 
 There might be cases however, in which you need Windows to treat a virtual network adapter just like a regular one. A small change in the registry and a reboot fixes this.
 
