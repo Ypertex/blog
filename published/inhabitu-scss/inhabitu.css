@@ -3800,7 +3800,7 @@ a.tag:hover {
   .breadcrumb.has-succeeds-separator li + li::before {
     content: "\0227B"; }
 
-.card {
+.card, figure img {
   background-color: white;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
@@ -3855,7 +3855,7 @@ a.tag:hover {
   .card-footer-item:not(:last-child) {
     border-right: 1px solid #ededed; }
 
-.card .media:not(:last-child) {
+.card .media:not(:last-child), figure img .media:not(:last-child) {
   margin-bottom: 1.5rem; }
 
 .dropdown {
@@ -7223,13 +7223,17 @@ main {
   .footer a:hover {
     color: #ffab3f; }
 
-.card .card-header-title {
-  color: #0061b3; }
+.card .card-header, figure img .card-header {
+  box-shadow: none;
+  border-bottom: 1px solid #ededed; }
 
-.card a {
+.card .card-header-title, figure img .card-header-title {
+  color: #7a7a7a; }
+
+.card a, figure img a {
   color: #4a4a4a; }
 
-.card .is-size-7, .card a:hover {
+.card .is-size-7, figure img .is-size-7, .card a:hover, figure img a:hover {
   color: #7a7a7a; }
 
 .navbar-burger {
