@@ -8,7 +8,7 @@
     <title>Enabling JumpCloud on Unsupported Linux Systems · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.61.0" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -81,8 +81,7 @@
             
             
             <div class="media-left image is-32x32">
-                <img class="inhabitu-author"
-                    src="https://res.cloudinary.com/ypertex/image/upload/c_thumb,dpr_2,g_face,h_32,q_auto,w_32/v1574196471/people/michael-schmidle.jpg">
+                <img class="inhabitu-author" src="https://res.cloudinary.com/ypertex/image/upload/c_thumb,dpr_auto,g_face,h_64,q_auto,w_64/v1574196471/people/michael-schmidle.jpg">
             </div>
             
             
@@ -105,58 +104,38 @@
     </div>
     
 </div>
-
-
-<p>If you followed the articles on this blog you know that I have a lot of love<sup><a href="/articles/jumpcloud-curl-error-22/">1</a>, <a href="/articles/tools-for-the-smart-start-up-in-2018-1/">2</a></sup> for <a href="https://jumpcloud.com/">JumpCloud</a>.</p>
-
+<p>If you followed the articles on this blog you know that I have a lot of love<!-- raw HTML omitted --><a href="/articles/jumpcloud-curl-error-22/">1</a>, <a href="/articles/tools-for-the-smart-start-up-in-2018-1/">2</a><!-- raw HTML omitted --> for <a href="https://jumpcloud.com/">JumpCloud</a>.</p>
 <p>However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like <a href="https://www.proxmox.com/en/proxmox-ve">Proxmox Virtual Environment</a> or <a href="https://www.openmediavault.org/">Openmediavault</a> even though it officially supports the underlying Linux version.</p>
-
-<p>Fortunately, there&rsquo;s a <strong>way around that limitation</strong> that I&rsquo;d like to share with you in this article.</p>
-
-<h2 id="the-issue-with-etc-issue">The Issue with <code>/etc/issue</code></h2>
-
+<p>Fortunately, there's a <strong>way around that limitation</strong> that I'd like to share with you in this article.</p>
+<h2 id="the-issue-with-etcissue">The Issue with <code>/etc/issue</code></h2>
 <p>It seems that the JumpCloud Linux agent checks the small text file <code>/etc/issue</code> to determine whether it is compatible with the system on which it was started. The content of this file is printed on the (virtual) screen after the system booted. It is displayed just above the login prompt and originally contains information about the operating system:</p>
-
 <figure>
     <img src="/media/debian-issue.png">
     <figcaption>The current version of Debian identifies itself as <code>Debian GNU/Linux 9</code></figcaption>
 </figure>
-
 <p>Software developers at Proxmox and Openmediavault have used this file to display additional information at the login prompt about how to use their applications:</p>
-
 <figure>
     <img src="/media/pve-issue.png">
     <figcaption>Proxmox Virtual Environment shows instructions on how to connect to its web interface</figcaption>
 </figure>
-
-<p>Of course, now the content of <code>/etc/issue</code> doesn&rsquo;t match with the records in JumpCloud&rsquo;s database anymore. Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the <code>/etc/issue</code> is <strong>regenerated every time the system boots</strong> to reflect the proper current settings. So simply replacing the content of the file with the original won&rsquo;t cut it. Now what?</p>
-
+<p>Of course, now the content of <code>/etc/issue</code> doesn't match with the records in JumpCloud's database anymore. Since this additional information can change (i.e. when you configure a different <!-- raw HTML omitted -->IP<!-- raw HTML omitted --> address on the system), the <code>/etc/issue</code> is <strong>regenerated every time the system boots</strong> to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?</p>
 <h2 id="stop-and-disable-the-respective-issue-service">Stop and Disable the Respective Issue Service</h2>
-
 <p>After <a href="https://duckduckgo.com/">DuckDuckGo</a>ing a bit, I was able to identify the services that regenerate <code>/etc/issue</code> after each boot:</p>
-
 <ul>
-<li>On Proxmox, it&rsquo;s <code>pvebanner</code></li>
-<li>On Openmediavault, it&rsquo;s <code>openmediavault-issue</code> (OK, I could have guessed that one)</li>
+<li>On Proxmox, it's <code>pvebanner</code></li>
+<li>On Openmediavault, it's <code>openmediavault-issue</code> (OK, I could have guessed that one)</li>
 </ul>
-
 <p>So, to stop and disable these services &hellip; just stop and disable them:</p>
-
 <pre><code># For Proxmox Virtual Environment
 sudo systemctl stop pvebanner &amp;&amp; sudo systemctl disable pvebanner
 
 # For Openmediavault
 sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openmediavault-issue
 </code></pre>
-
 <p>Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file <code>/etc/issue</code> back to its original content: Open the file (i.e. <code>sudo nano /etc/issue</code>), then paste the complete string <code>Debian GNU/Linux 9 \n \l</code>, and save the file. Done! After a reboot, the file still reads the same.</p>
-
 <p>Installing the JumpCloud agent on these systems now <strong>works as expected</strong>. The systems report as <code>Debian 9</code> in the JumpCloud console from where they can be managed just as any other system.</p>
-
 <h2 id="conclusion">Conclusion</h2>
-
-<p>I am no Linux expert but isn&rsquo;t there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file <code>/etc/issue</code>? I wish, JumpCloud could figure out something.</p>
-
+<p>I am no Linux expert but isn't there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file <code>/etc/issue</code>? I wish, JumpCloud could figure out something.</p>
 <p>If this issue bugs you too, let JumpCloud know by <a href="https://support.jumpcloud.com/customer/portal/questions/17167497-agent-support-for-proxmox-and-openmediavault-debian-9-">voting on my feature request</a> I posted on their site over a year ago. Thanks. At least, we have a workaround with the above hack.</p>
 
     </div>
@@ -208,8 +187,7 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
             
             
             <div class="media-left image is-32x32">
-                <img class="inhabitu-author"
-                    src="https://res.cloudinary.com/ypertex/image/upload/c_thumb,dpr_2,g_face,h_32,q_auto,w_32/v1574196471/people/michael-schmidle.jpg">
+                <img class="inhabitu-author" src="https://res.cloudinary.com/ypertex/image/upload/c_thumb,dpr_auto,g_face,h_64,q_auto,w_64/v1574196471/people/michael-schmidle.jpg">
             </div>
             
             
@@ -255,8 +233,7 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
             
             
             <div class="media-left image is-32x32">
-                <img class="inhabitu-author"
-                    src="https://res.cloudinary.com/ypertex/image/upload/c_thumb,dpr_2,g_face,h_32,q_auto,w_32/v1574196471/people/michael-schmidle.jpg">
+                <img class="inhabitu-author" src="https://res.cloudinary.com/ypertex/image/upload/c_thumb,dpr_auto,g_face,h_64,q_auto,w_64/v1574196471/people/michael-schmidle.jpg">
             </div>
             
             
