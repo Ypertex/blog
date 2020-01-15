@@ -4,25 +4,13 @@ date: 2020-01-14
 authors: ["Michael Schmidle"]
 slug: "improving-changes-with-non-negotiables"
 tags: ["Leadership"]
-description: "Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-negotiables are here to help."
+description: "Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-Negotiables are here to help."
 cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1579075156/5c584962-e3e6-4aac-9853-30882bb9de10.jpg"
 ---
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1578672254/717e18d-8042-41a4-a489-18e54bef3a33.jpg">}}Depending on the rules you play by, this ball is in or out of bounds (Image: [Ziad Nr_](https://www.pexels.com/photo/photo-of-basketball-on-floor-3558072/)){{</figure>}}
-
-Basketball is my favorite team sports, especially the way it is played in the [NBA](https://www.nba.com/). The combination of speed, power, and finesse is intreaguing:
-
-* Speed: Teams have to attempt a shot at the basket after a maximum of 24 seconds, otherwise the ball is given to the other team.
-* Power: Players sometimes litterally jump over other (tall!) players to stuff the ball into the basekt with authority.
-* Finesse: In other occasions, players are heavily defended and still find a way to hit the basket from a large distance or other seemingly impossible positions.
-
-All three points of my fascination are driven by the game's rules. Knowing the rules, teams and players can start to optimize their performance accordingly and compete for a championship.
-
-But how do you optimize your performance for ... let's say, work at the office?
-
 # Playing Games at Work
 
-Simon Sinek teaches us that one can't really "win" at work because it's a different kind of game:
+Simon Sinek teaches us that one can't really "win" at work because it's a different kind of game than sports:
 
 <figure>
 {{<youtube RyTQ5-SQYTo>}}
@@ -30,11 +18,11 @@ Simon Sinek teaches us that one can't really "win" at work because it's a differ
 
 Fair point, so let's use "winning" as synonym to "being successful". To be *consistently* winning at work you need to know what rules define success so that you can repeatedly achieve it and—according to Simon Sinek—"stay in the game".
 
-## Know the Referee
+## Know the Referees
 
-Whether you work for an employer or for your clients, *they* will tell you *afterwards* if you were successful. They are the imperfect referee in your particular game at work. So in fact, there are no strict, clear and stable rules for success in the office.
+Unfortunately, there are no strict, clear and stable rules for success at work. But there are referees: Your boss or client will tell you how you did.
 
-There are plenty of approaches to minimize the risk of learning too late if you are on the right path and the risk of ultimately failing. Some methods try to take all the risk out by defining *upfront* as much in detail as possible. Others try to split the larger body of work in smaller parts and getting feedback *throughout*, not only at the end.
+In most cases, you will get feedback *afterwards*. There are plenty of approaches however to minimize the risk of learning too late if you are on the right track. Some methods try to take all the risk out by defining *upfront* as much in detail as possible. Others try to split the larger body of work in smaller parts and getting feedback *throughout*, not only at the end.
 
 Of course, these methods depend on a few fragile conditions:
 
@@ -48,9 +36,9 @@ Given [all the cognitive biases](https://medium.com/better-humans/cognitive-bias
 
 I've written another article about a complementary [concept called RATs](/articles/test-your-way-to-success/). It addresses the inherent flaws of verbal communication and uses experiments to test the riskiest assumptions: **Show, don't tell!**
 
-While RATs are a big help to better understand your boss or client at a given moment, the results of the experiments might become outdated over time and you wouldn't know unless you repeated your experiments regularly. That's not very practical, so we need to add something more to the RATs: Non-Negotiables.
+While RATs are a big help to better understand your boss or client at a given moment, the results of the experiments might become outdated over time and you wouldn't know unless you repeated your experiments regularly. That's not very practical, so let's add some sort of stable playing field: with Non-Negotiables.
 
-## Make the Rules Known to the Referee—Your Rules
+## Make the Rules Known to the Referees—Your Rules
 
 In our strategy and innovation team at the Swiss Broadcast Corporation [SRG SSR](https://www.srgssr.ch/en/), we recently started to employ **a tactic called Non-Negotiables**. We are in charge of the corporate strategies and partnerships in the area of technology. Now, when starting to work on something new, we take time to determine what our Non-Negotiables are before collaborating with all the units and departments that need to be involved in the work.
 
@@ -97,8 +85,8 @@ For any other work that fits our paygrade, we determine our Non-Negotiables this
 
 First, we get started on a draft that we iterate once or twice. Then we seek early feedback from some friendly users. Even if the feedback was positive, we put in another iteration or two. At this point, things begin to stabilize. That's when we test what happens if we remove individual parts one at a time:
 
-* If the remainder of your **work becomes undeliverable** according to your standards due to the missing piece, you found a Non-Negotiable.
-* If what's left has some **impact on the quality** of your work but doesn't completely impair it, you have discovered a part open for debate. These portions can be useful later as bargaining chips in case collaborators question your Non-Negotiables.
+* If the remainder of your **work becomes undeliverable** according to your standards due to the missing piece, you identified a Non-Negotiable.
+* If removal has some **impact on the quality** of your work but doesn't completely impair it, you have discovered a part open for debate. These portions can be useful later as bargaining chips in case collaborators question your Non-Negotiables.
 * If the rest **still makes perfect sense**, get permanently rid of what you just removed. You got one step closer to perfection!
 
 > Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away. {{<cite>}}Antoine de Saint-Exupéry{{</cite>}}
