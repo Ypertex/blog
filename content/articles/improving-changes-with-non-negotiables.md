@@ -5,8 +5,7 @@ authors: ["Michael Schmidle"]
 slug: "improving-changes-with-non-negotiables"
 tags: ["Leadership"]
 description: "Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-negotiables are here to help."
-cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1578672254/717e18d-8042-41a4-a489-18e54bef3a33.jpg"
-draft: true
+cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1579075156/5c584962-e3e6-4aac-9853-30882bb9de10.jpg"
 ---
 
 {{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1578672254/717e18d-8042-41a4-a489-18e54bef3a33.jpg">}}Depending on the rules you play by, this ball is in or out of bounds (Image: [Ziad Nr_](https://www.pexels.com/photo/photo-of-basketball-on-floor-3558072/)){{</figure>}}

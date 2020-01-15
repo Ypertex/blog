@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Some rights reserved</copyright>
-    <lastBuildDate>Sun, 18 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ypertex.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leadership</title>
+      <link>https://blog.ypertex.com/tags/leadership/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/tags/leadership/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tutorials</title>
@@ -63,15 +72,6 @@
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/tags/on-a-personal-note/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leadership</title>
-      <link>https://blog.ypertex.com/tags/leadership/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/tags/leadership/</guid>
       <description></description>
     </item>
     
