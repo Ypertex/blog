@@ -8,7 +8,7 @@
     <title>Working Around the JumpCloud Curl Error 22 · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -119,7 +119,7 @@
 <p>I rely on and do not want to miss the JumpCloud service to keep my little zoo of private virtual machines under control.</p>
 </blockquote>
 <h2 id="avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request">Avoiding Curl Error 22 (the Requested URL Returned Error: 400 Bad Request)</h2>
-<p>A few days ago, I started to receive above curl error 22 when deploying the JumpCloud agent on a new Linux virtual machine (generic Ubuntu Server 16.04.2 LTS). The error occurs mostly on a consistent basis, but apparently only in some environments and not in others. For example, it reliably works at <a href="http://www.vultr.com/?ref=6803870">Vultr</a> <!-- raw HTML omitted -->(affiliation link)<!-- raw HTML omitted --> and on my hypervisor on my desktop at home; but it continuously fails on my hypervisor at <a href="https://www.ovh.com/">OVH</a>. Results at <a href="https://www.scaleway.com/">Scaleway</a> were mixed: It worked in a first and failed in a second test on two different bare metal servers. I have still to pinpoint the exact issue but I could narrow the error down to the part in the install script that checks the local system time (the call of the URL <code>https://kickstart.jumpcloud.com/Time</code> apparently returns an HTTP status code <code>40x</code>). Anyway, the error says:</p>
+<p>A few days ago, I started to receive above curl error 22 when deploying the JumpCloud agent on a new Linux virtual machine (generic Ubuntu Server 16.04.2 LTS). The error occurs mostly on a consistent basis, but apparently only in some environments and not in others. For example, it reliably works at <a href="http://www.vultr.com/?ref=6803870">Vultr</a> <small>(affiliation link)</small> and on my hypervisor on my desktop at home; but it continuously fails on my hypervisor at <a href="https://www.ovh.com/">OVH</a>. Results at <a href="https://www.scaleway.com/">Scaleway</a> were mixed: It worked in a first and failed in a second test on two different bare metal servers. I have still to pinpoint the exact issue but I could narrow the error down to the part in the install script that checks the local system time (the call of the URL <code>https://kickstart.jumpcloud.com/Time</code> apparently returns an HTTP status code <code>40x</code>). Anyway, the error says:</p>
 <pre><code>curl: (22) The requested URL returned error: 400 Bad Request
 </code></pre>
 <p>Here is how to work around it: Instead of using the command provided by JumpCloud, use the following one (remember that I removed my connect key in the following command):</p>
@@ -140,13 +140,16 @@
 <p>Obviously, the curl error is quite annoying and the workaround requires a few extra manual steps. I hope JumpCloud fixes this issue soon. In the meantime, at least one can continue to deploy the JumpCloud agent on Linux machines.</p>
 <p>If you have a better understanding of what the real issue is, please let me know via <a href="https://twitter.com/MichaelSchmidle">Twitter</a>. I will be happy to update this article accordingly. Thanks!</p>
 <hr>
-<div class="message is-info">
+
+<div class="message is-info inhabitu-overflow-top inhabitu-overflow-bottom">
     <h6 class="message-header">Note<i class="inhabitu-info icon"></i>
     </h6>
     <div class="message-body">
         I am in no way affiliated with JumpCloud. The above praise is given as IT professional who employs JumpCloud for personal use.
     </div>
 </div>
+
+
 
     </div>
 </section>

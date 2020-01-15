@@ -8,7 +8,7 @@
     <title>Enabling JumpCloud on Unsupported Linux Systems · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -105,7 +105,7 @@
     </div>
     
 </div>
-<p>If you followed the articles on this blog you know that I have a lot of love<!-- raw HTML omitted --><a href="/articles/jumpcloud-curl-error-22/">1</a>, <a href="/articles/tools-for-the-smart-start-up-in-2018-1/">2</a><!-- raw HTML omitted --> for <a href="https://jumpcloud.com/">JumpCloud</a>.</p>
+<p>If you followed the articles on this blog you know that I have a lot of love<sup><a href="/articles/jumpcloud-curl-error-22/">1</a>, <a href="/articles/tools-for-the-smart-start-up-in-2018-1/">2</a></sup> for <a href="https://jumpcloud.com/">JumpCloud</a>.</p>
 <p>However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like <a href="https://www.proxmox.com/en/proxmox-ve">Proxmox Virtual Environment</a> or <a href="https://www.openmediavault.org/">Openmediavault</a> even though it officially supports the underlying Linux version.</p>
 <p>Fortunately, there's a <strong>way around that limitation</strong> that I'd like to share with you in this article.</p>
 <h2 id="the-issue-with-etcissue">The Issue with <code>/etc/issue</code></h2>
@@ -119,7 +119,7 @@
     <img src="/media/pve-issue.png">
     <figcaption>Proxmox Virtual Environment shows instructions on how to connect to its web interface</figcaption>
 </figure>
-<p>Of course, now the content of <code>/etc/issue</code> doesn't match with the records in JumpCloud's database anymore. Since this additional information can change (i.e. when you configure a different <!-- raw HTML omitted -->IP<!-- raw HTML omitted --> address on the system), the <code>/etc/issue</code> is <strong>regenerated every time the system boots</strong> to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?</p>
+<p>Of course, now the content of <code>/etc/issue</code> doesn't match with the records in JumpCloud's database anymore. Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the <code>/etc/issue</code> is <strong>regenerated every time the system boots</strong> to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?</p>
 <h2 id="stop-and-disable-the-respective-issue-service">Stop and Disable the Respective Issue Service</h2>
 <p>After <a href="https://duckduckgo.com/">DuckDuckGo</a>ing a bit, I was able to identify the services that regenerate <code>/etc/issue</code> after each boot:</p>
 <ul>
@@ -223,7 +223,7 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
         
         <span class="heading">Previous article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-2/">Tools for the Smart Start-up in 2018 (II)</a></h1>
+    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-2/">Tools for the Smart Start-Up in 2018 (II)</a></h1>
     <p class="content">Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how. <small class="is-size-7"><strong><a
                     href="/articles/tools-for-the-smart-start-up-in-2018-2/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">

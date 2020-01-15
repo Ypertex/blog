@@ -1,10 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ dateFormat "2006-01-02" .Date }}
-authors: [""]
+authors: ["List authors here"]
 slug: "{{ .Name }}"
-tags: [""]
-description: ""
-cover: ""
+tags: ["List tags here"]
+description: "Write description here"
+cover: "Link to a cover picture here"
 draft: true
 ---

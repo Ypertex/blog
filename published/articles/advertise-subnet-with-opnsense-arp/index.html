@@ -8,7 +8,7 @@
     <title>How to Advertise Subnets to Upstream Routers with OPNsense and ARP · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -62,7 +62,7 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 
-<h1 class="title is-1">How to Advertise Subnets to Upstream Routers with OPNsense and ARP</h1>
+<h1 class="title is-1">How to Advertise Subnets to Upstream Routers With OPNsense and ARP</h1>
 
             </div>
         </div>
@@ -111,13 +111,13 @@
 </figure>
 <p>Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an <a href="https://opnsense.org/">OPNsense firewall</a> as my router. I thought I’d document this in case anyone else is looking for a solution to this, too.</p>
 <h2 id="the-challenge-of-transparently-splitting-a-subnet">The Challenge of Transparently Splitting a Subnet</h2>
-<p>Consider the following scenario: My <!-- raw HTML omitted -->ISP<!-- raw HTML omitted --> allocated me a <code>/28</code> subnet (<code>x.x.129.208/28</code>). Along with it, they provided a gateway on the first IP of the subnet (<code>x.x.129.209</code>) and nothing else—and that was the problem.</p>
+<p>Consider the following scenario: My <abbr title="Internet Service Provider">ISP</abbr> allocated me a <code>/28</code> subnet (<code>x.x.129.208/28</code>). Along with it, they provided a gateway on the first IP of the subnet (<code>x.x.129.209</code>) and nothing else—and that was the problem.</p>
 <p>Usually when you are provided a subnet, it is routed to the fixed public IP of your router. This IP is not part of the subnet so you have the freedom to forward the routing of the subnet downstream over any number of hops to anywhere you need it in your infrastructure. In this case however, the first IP was assigned to the ISP gateway—making it impossible to allocate the subnet somewhere else. My router had to be in the exact same subnet (i.e. <code>x.x.129.210</code>).</p>
 <figure>
     <img src="/media/advertise-subnet-with-opnsense-arp-1.png">
     <figcaption>Schema of network conditions dictated by my ISP.</figcaption>
 </figure>
-<p>However, what I wanted was a <!-- raw HTML omitted -->DMZ<!-- raw HTML omitted --> <em>behind that firewall router</em>, i.e. servers that are accessible via public IPs without <!-- raw HTML omitted -->NAT<!-- raw HTML omitted --> or Transparent Bridging. So I split the <code>/28</code> subnet in two <code>/29</code>:</p>
+<p>However, what I wanted was a <abbr title="Demilitarized Zone">DMZ</abbr> <em>behind that firewall router</em>, i.e. servers that are accessible via public IPs without <abbr title="Network Address Translation">NAT</abbr> or Transparent Bridging. So I split the <code>/28</code> subnet in two <code>/29</code>:</p>
 <ul>
 <li><code>x.x.129.208/29</code></li>
 <li><code>x.x.129.216/29</code></li>
@@ -131,7 +131,7 @@
 <p>I thought that the OPNsense firewall router would be intelligent enough to advertise to the upstream ISP gateway, that the IP <code>x.x.129.210</code> and all IPs <code>x.x.129.116</code>-<code>.123</code> of the <code>/29</code> DMZ subnet were all to be routed via its ISP-facing IP (<code>x.x.129.210</code>).</p>
 <p>But no, it doesn’t work like this out of the box. And there was no way for me to explicitly configure the ISP gateway to route the <code>/29</code> DMZ subnet to a specific IP.</p>
 <h2 id="the-solution-proxy-arp">The Solution: Proxy ARP</h2>
-<p>After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with <a href="https://duckduckgo.com">DuckDuckGo</a> must be called, right?) to no avail, I finally stumbled over the <em>Virtual IP</em> settings in OPNsense, specifically of type <em>Proxy <!-- raw HTML omitted -->ARP<!-- raw HTML omitted --></em>.</p>
+<p>After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with <a href="https://duckduckgo.com">DuckDuckGo</a> must be called, right?) to no avail, I finally stumbled over the <em>Virtual IP</em> settings in OPNsense, specifically of type <em>Proxy <abbr title="Address Resolution Protocol">ARP</title></em>.</p>
 <p>This Proxy ARP type of virtual IP allows you to broadcast the advertisement of IPs or subnets via an interface. So I entered:</p>
 <ul>
 <li>Mode: Proxy ARP</li>
@@ -145,13 +145,16 @@
 <p>In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP <code>x.x.129.210</code>) it also was the recipient for all IP packets of the <code>/29</code> DMZ subnet. In a way, ARP allows to configure upstream routers that are not part of your own infrastructure.</p>
 <p>This works like a charm. Servers in the DMZ configured with the public IPs of the second <code>/29</code> subnet are now able to communicate in both directions with the Internet.</p>
 <hr>
-<div class="message is-info">
+
+<div class="message is-info inhabitu-overflow-top inhabitu-overflow-bottom">
     <h6 class="message-header">Note<i class="inhabitu-info icon"></i>
     </h6>
     <div class="message-body">
         OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet <code>x.x.129.216/29</code> to the public IP <code>x.x.129.210</code>—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.
     </div>
 </div>
+
+
 
     </div>
 </section>
@@ -190,7 +193,7 @@
         
         <span class="heading">Next article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-2/">Tools for the Smart Start-up in 2018 (II)</a></h1>
+    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-2/">Tools for the Smart Start-Up in 2018 (II)</a></h1>
     <p class="content">Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how. <small class="is-size-7"><strong><a
                     href="/articles/tools-for-the-smart-start-up-in-2018-2/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
@@ -234,7 +237,7 @@
         
         <span class="heading">Previous article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-1/">Tools for the Smart Start-up in 2018 (I)</a></h1>
+    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-1/">Tools for the Smart Start-Up in 2018 (I)</a></h1>
     <p class="content">If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas. [Updated June 28, 2019] <small class="is-size-7"><strong><a
                     href="/articles/tools-for-the-smart-start-up-in-2018-1/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">

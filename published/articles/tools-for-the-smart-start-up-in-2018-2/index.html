@@ -8,7 +8,7 @@
     <title>Tools for the Smart Start-up in 2018 (II) · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -62,7 +62,7 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 
-<h1 class="title is-1">Tools for the Smart Start-up in 2018 (II)</h1>
+<h1 class="title is-1">Tools for the Smart Start-Up in 2018 (II)</h1>
 
             </div>
         </div>
@@ -110,15 +110,18 @@
     <figcaption>Smart pawns can be kings</figcaption>
 </figure>
 <p>In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build <a href="/articles/tools-for-the-smart-start-up-in-2018-1/">state-of-the-art IT infrastructure on a small budget</a>. If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems.</p>
-<p>That’s nice—but hardware and <!-- raw HTML omitted -->OS<!-- raw HTML omitted --> alone won’t get you very far. What’s needed are applications on top of that basic infrastructure. In this article, I’d like to introduce you to some <strong>less popular yet very powerful options</strong> that are available for little to no cost. Let me give you some recommendations in the area of design, diagramming, web publishing, knowledge management, password management and more.</p>
+<p>That’s nice—but hardware and <abbr title="Operating System">OS</abbr> alone won’t get you very far. What’s needed are applications on top of that basic infrastructure. In this article, I’d like to introduce you to some <strong>less popular yet very powerful options</strong> that are available for little to no cost. Let me give you some recommendations in the area of design, diagramming, web publishing, knowledge management, password management and more.</p>
 <hr>
-<div class="message is-info">
+
+<div class="message is-info inhabitu-overflow-top inhabitu-overflow-bottom">
     <h6 class="message-header">Note<i class="inhabitu-info icon"></i>
     </h6>
     <div class="message-body">
         I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.
     </div>
 </div>
+
+
 <hr>
 <h2 id="design">Design</h2>
 <h3 id="graphical-design-with-affinityhttpsaffinityserifcom">Graphical Design with <a href="https://affinity.serif.com/">Affinity</a></h3>
@@ -146,7 +149,7 @@
 <p>The combination of the two makes yEd a pretty remarkable <strong>software that can save you a lot of time at zero cost</strong>. The only drawbacks that I experienced so far with yEd: The icon library is somehow limited, especially the “Computer Network” library, and importing icons in Visio format is not as straight forward. In addition, the layout settings (i.e. custom settings to the hierarchical layout algorithm) are not embedded in the diagram files, so auto-arranging layouts on a different computer can lead to different results.</p>
 <p>Apart from these limitations though, yEd delivers outstanding value.</p>
 <h2 id="web-publishing-with-netlifyhttpswwwnetlifycom">Web Publishing with <a href="https://www.netlify.com/">Netlify</a></h2>
-<p>The way I publish websites has substantially changed over the past two years. Previously, I used a <!-- raw HTML omitted -->CMS<!-- raw HTML omitted --> that would dynamically generate a webpage just in time when it was loaded for the very first time. This meant:</p>
+<p>The way I publish websites has substantially changed over the past two years. Previously, I used a <abbr title="Content Management System">CMS</abbr> that would dynamically generate a webpage just in time when it was loaded for the very first time. This meant:</p>
 <ul>
 <li>Each time a page was requested for the first time, loading it took the extra time required to dynamically generate it.</li>
 <li>The webspace used to host the website required extra computing performance and software components to run the CMS and generate the website on the fly.</li>
@@ -158,20 +161,23 @@
 <p>Nowadays, the CMS sits on my laptop and regenerates the entire website whenever I change a thing. Regenerating this blog takes around 125ms, so basically no time. Once I am happy and want to publish the changes, I commit them to my Git repository and push them to GitHub. The repository contains both the source files used to generate the website and the generated final result. Take a look at the first article in this series for example:</p>
 <ul>
 <li>the article’s human readable <a href="https://github.com/Ypertex/blog/blob/master/content/articles/2018-08-02-tools-for-the-smart-start-up.md">source file</a></li>
-<li>the corresponding generated <a href="https://github.com/Ypertex/blog/blob/master/published/articles/tools-for-the-smart-start-up-1/index.html"><!-- raw HTML omitted -->HTML<!-- raw HTML omitted --> webpage</a></li>
+<li>the corresponding generated <a href="https://github.com/Ypertex/blog/blob/master/published/articles/tools-for-the-smart-start-up-1/index.html"><abbr title="Hypertext Markup Language">HTML</abbr> webpage</a></li>
 </ul>
 <p>Once my commits are pushed to the repository on GitHub, my work is done. Netlify takes it from there:</p>
-<p>After each commit to the repository, Netlify <strong>instantly fetches the changes and deploys the files to their global <!-- raw HTML omitted -->CDN<!-- raw HTML omitted --></strong>. This means that the website is not just hosted on one server, but on several ones distributed over the globe. So whenever a webpage is requested for the first time, it is already generated and already geographically close to the user. Websites deployed on Netlify’s CDN are <strong>automatically secured with SSL</strong> certificates, meaning you can browse these websites via <code>🔒 https://</code> rather the insecure <code>http://</code>.</p>
+<p>After each commit to the repository, Netlify <strong>instantly fetches the changes and deploys the files to their global <abbr title="Content Delivery Network">CDN</abbr></strong>. This means that the website is not just hosted on one server, but on several ones distributed over the globe. So whenever a webpage is requested for the first time, it is already generated and already geographically close to the user. Websites deployed on Netlify’s CDN are <strong>automatically secured with SSL</strong> certificates, meaning you can browse these websites via <code>🔒 https://</code> rather the insecure <code>http://</code>.</p>
 <p>This is called “Continuous Deployment”. In most cases, it only takes a few seconds after pushing to GitHub that the new version of the blog becomes available at <code>blog.ypertex.com</code>. Neat, right? By the way: Netlify also works with GitLab and Bitbucket as sources for your Git repositories!</p>
 <p>The best part is that Netlify offers this service <strong>for free</strong>.  I still can’t believe that my little blog is running on such serious tech. Without. Paying. Anything. Even further advanced features like Identity, Forms, and Functions are available as free plans. Prices kick in once you require team features or cross certain thresholds.</p>
 <hr>
-<div class="message is-info">
+
+<div class="message is-info inhabitu-overflow-top inhabitu-overflow-bottom">
     <h6 class="message-header">Note<i class="inhabitu-info icon"></i>
     </h6>
     <div class="message-body">
         <strong>Pro tip:</strong> If you use a password manager capable of password sharing (see <a href="#password-management">my recommendations below</a>), you can easily use Netlify as a team with a single user account.
     </div>
 </div>
+
+
 <hr>
 <h2 id="knowledge-management">Knowledge Management</h2>
 <p>Whenever people collaborate, there quickly is the need to document knowledge somewhere so that the team becomes more independent of single team members and their know-how. Proper knowledge management let’s you bring new team members on board quickly. It also helps to avoid constantly interrupting the people with the knowledge if the answers to such frequently asked questions are documented where everyone can find them quickly.</p>
@@ -190,7 +196,7 @@
     <figcaption>Screenshot of the atlassian.com website, November 2018</figcaption>
 </figure>
 <p>In contrary to BookStack, Confluence comes with a price tag for the license. The <strong>software is offered as a service</strong> (“Cloud”, meaning that Atlassian is running and maintaining the software on their infrastructure) or <strong>as download for self-hosting</strong> (meaning that you install, run and maintain the software on your own infrastructure). The software requires more (virtual) hardware resources than BookStack but is available as <a href="https://hub.docker.com/r/atlassian/confluence-server/">Docker image</a>, too.</p>
-<p>When choosing the <!-- raw HTML omitted -->SaaS<!-- raw HTML omitted --> version, Atlassian asks USD10 per month total for the first ten users. The self-hosted version is even more affordable; a license for up to ten users costs a one-time total fee of USD10. These prices for such high quality software including vendor support are a steal, if you ask me.</p>
+<p>When choosing the <abbr title="Software as a Service">SaaS</abbr> version, Atlassian asks USD10 per month total for the first ten users. The self-hosted version is even more affordable; a license for up to ten users costs a one-time total fee of USD10. These prices for such high quality software including vendor support are a steal, if you ask me.</p>
 <p>A <strong>word of caution</strong> however: If your start-up grows beyond the threshold of ten users, costs for Confluence grow significantly. The Atlassian-operated service then costs USD5 per user per month—resulting in an increase from USD10 per month for ten users to USD55 for eleven users. Growing to eleven users for the self-hosted version makes a huge difference, too: Instead of the one-time USD10 payment for ten users, Atlassian asks you to pay once USD1,900. <strong>The eleventh user is quite expensive!</strong></p>
 <h2 id="password-management">Password Management</h2>
 <h3 id="short-introduction-to-password-managers">Short Introduction to Password Managers</h3>
@@ -214,13 +220,16 @@
 <p>The catch is that you have to host it on your own infrastructure if you want to avoid the costs of currently USD3 per user per month for the enterprise-level functionality. But since we have <a href="/articles/tools-for-the-smart-start-up-in-2018-1/">affordable yet state-of-the-art infrastructure</a> available, let’s put it to good use and install it there. Just create a virtual machine on your dedicated server, then follow the short and comprehensible <a href="https://help.bitwarden.com/article/install-on-premise/">Bitwarden installation guide</a>.</p>
 <p>Voilà, you now have your own, fully featured enterprise-grade Password Manager at zero cost.</p>
 <hr>
-<div class="message is-info">
+
+<div class="message is-info inhabitu-overflow-top inhabitu-overflow-bottom">
     <h6 class="message-header">Note<i class="inhabitu-info icon"></i>
     </h6>
     <div class="message-body">
         While it’s possible to run Bitwarden on a shared Docker installation, I wouldn’t recommend such a setup for use in a team environment.
     </div>
 </div>
+
+
 <hr>
 <h2 id="conclusion">Conclusion</h2>
 <p>The two articles in this series showed that having a small IT budget as a start-up is no obstacle anymore to using enterprise-grade (virtual) hardware and software.</p>
@@ -308,7 +317,7 @@
         
         <span class="heading">Previous article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/advertise-subnet-with-opnsense-arp/">How to Advertise Subnets to Upstream Routers with OPNsense and ARP</a></h1>
+    <h1 class="title is-3"><a href="/articles/advertise-subnet-with-opnsense-arp/">How to Advertise Subnets to Upstream Routers With OPNsense and ARP</a></h1>
     <p class="content">If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense. <small class="is-size-7"><strong><a
                     href="/articles/advertise-subnet-with-opnsense-arp/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">

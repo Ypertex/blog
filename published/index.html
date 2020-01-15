@@ -8,7 +8,7 @@
     <title>Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -114,7 +114,7 @@
     
 </div>
 <p>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don't appear anymore in the &ldquo;Network and Sharing Center&rdquo; and other parts of Windows.</p>
-<p>I assume that for the majority of users, these adapters showing up in all possible places of the <!-- raw HTML omitted -->OS<!-- raw HTML omitted --> just like regular network interfaces caused more confusion than it was helpful. So they changed how Windows treats virtual network adapters.</p>
+<p>I assume that for the majority of users, these adapters showing up in all possible places of the <abbr title="Operating System">OS</abbr> just like regular network interfaces caused more confusion than it was helpful. So they changed how Windows treats virtual network adapters.</p>
 <figure>
     <img src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574342869/cb4332a2-eace-43e5-8271-4cdfe85c14f5.jpg">
     <figcaption>&ldquo;It's easy to get confused with too many ports, so let's hide some.&rdquo; (Image: <a href="https://unsplash.com/photos/M5tzZtFCOfs">Taylor Vick</a>)</figcaption>
@@ -123,7 +123,7 @@
 <p>Read on to see why on earth this might cause issues or jump ahead to the <a href="#unhide-the-host-only-virtual-network-adapter">solution below</a>.</p>
 <h1 id="use-case-route-all-traffic-through-a-virtual-machine">Use Case: Route All Traffic Through a Virtual Machine</h1>
 <p>Cloud gaming comes with a nice value proposition: Run the latest games on powerful cloud infrastructure but only pay a fraction of the costs you would incur when owning the hardware yourself.</p>
-<p>After testing a few of the services and also building my &ldquo;own&rdquo; <!-- raw HTML omitted -->GPU<!-- raw HTML omitted -->-powered virtual machines in the cloud (i.e. Azure and Paperspace), I've come to the conclusion that the implementation of cloud gaming still has to overcome a few challenges.</p>
+<p>After testing a few of the services and also building my &ldquo;own&rdquo; <abbr title="Graphical Processing Unit">GPU</abbr>-powered virtual machines in the cloud (i.e. Azure and Paperspace), I've come to the conclusion that the implementation of cloud gaming still has to overcome a few challenges.</p>
 <p>The closest that I've come to cloud gaming in a way that I would enjoy it, is renting a physical GPU-powered server, installing Windows 10 and running games on it. Of course, there are a few issues with this:</p>
 <ul>
 <li>It's not a cloud service at all since A) I have to manage the complete software stack myself and B) I am paying a monthly flat fee instead of pay-per-use.</li>
@@ -137,12 +137,12 @@
 <p>Having a Windows 10 client exposed directly to the Internet is never a good idea—no matter what security software runs on it.</p>
 <p>In the case of Hetzner as provider, you could use their firewall. Unfortunately, they only allow a maximum of 10 rules per server. The game store Steam alone uses a handful of rules so you quickly exceed the maximum.</p>
 <p>However, there is a smart way to avoid this public exposure when running Windows 10 on a Hetzner server:</p>
-<p>Install VMware Workstation, Oracle Virtualbox or similar, then create a virtual machine with <a href="https://opnsense.org/">OPNSense</a> or some other firewall as OS on top. OPNSense is a full-blown firewall that can be exposed to a direct Internet connection more securely than a client OS like Windows 10. Hooking the firewall <!-- raw HTML omitted -->VM<!-- raw HTML omitted --> between the gaming OS and the internet creates a second, more secure path:</p>
+<p>Install VMware Workstation, Oracle Virtualbox or similar, then create a virtual machine with <a href="https://opnsense.org/">OPNSense</a> or some other firewall as OS on top. OPNSense is a full-blown firewall that can be exposed to a direct Internet connection more securely than a client OS like Windows 10. Hooking the firewall <abbr title="Virtual Machine">VM</abbr> between the gaming OS and the internet creates a second, more secure path:</p>
 <figure>
     <img src="/media/virtual-network-adapters.svg">
     <figcaption>Creating a second and more secure Internet connection via virtual environment</figcaption>
 </figure>
-<p>The problem with this setup in newer Windows 10 releases: Windows disregards the virtual host-only network adapter as Internet connection. Disabling the physical adapter hence leads to Windows acting like it's completely offline—even if a fully working connection via the virtual environment and the secondary <!-- raw HTML omitted -->IP<!-- raw HTML omitted --> address is established.</p>
+<p>The problem with this setup in newer Windows 10 releases: Windows disregards the virtual host-only network adapter as Internet connection. Disabling the physical adapter hence leads to Windows acting like it's completely offline—even if a fully working connection via the virtual environment and the secondary <abbr title="Internet Protocol">IP</abbr> address is established.</p>
 <h1 id="unhide-the-host-only-virtual-network-adapter">Unhide the Host-Only Virtual Network Adapter</h1>
 <p>To get Windows to treat the host-only adapter like a &ldquo;real&rdquo; one, open the Registry Editor and look for the corresponding entry.</p>
 <p>For VMware Workstation, the value is located in a subfolder like <code>0010</code> at <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}</code> in the registry. Verify that the value of <code>DriverDesc</code> in the same location is <code>VMware Virtual Ethernet Adapter for VMnet1</code>.</p>
@@ -151,7 +151,7 @@
 <h1 id="finishing-touches-for-my-use-case">Finishing Touches for My Use Case</h1>
 <p>Now that Windows recognizes the second connection as valid Internet connection, we need to make sure that it prioritizes the virtual network over the physical one. There are several ways to achieve this, with varying levels of security:</p>
 <ol>
-<li>Deactivate the physical network adapter in Windows. This is a bit inconvenient in case of issues with the firewall VM in the middle. You will need a <!-- raw HTML omitted -->KVM<!-- raw HTML omitted --> console from Hetzner support to connect to your box and fix things.</li>
+<li>Deactivate the physical network adapter in Windows. This is a bit inconvenient in case of issues with the firewall VM in the middle. You will need a <abbr title="Keyboard Video Mouse">KVM</abbr> console from Hetzner support to connect to your box and fix things.</li>
 <li>Block connections on the Hetzner firewall for the primary IP address of the server. You can re-allow certain connections in the event you locked yourself out of the second path.</li>
 <li>Change the metrics of the two adapters. This will tell Windows which of the two connections to prioritize while leaving both connections basically intact.</li>
 </ol>
@@ -164,13 +164,16 @@
 <p>This article showed you how to securely use Windows 10 as host operating system on a server with a direct Internet connection. Just make sure to route all traffic through a security gateway that runs inside a VM.</p>
 <p>The reason why someone would do such a crazy thing to begin with: to play games on a powerful GPU-enhanced server instead of buying and operating a gaming PC at home.</p>
 <hr>
-<div class="message is-info">
+
+<div class="message is-info inhabitu-overflow-top inhabitu-overflow-bottom">
     <h6 class="message-header">Note<i class="inhabitu-info icon"></i>
     </h6>
     <div class="message-body">
         I am in no way affiliated with Hetzner. I recommend them as IT professional who employs their services for personal use.
     </div>
 </div>
+
+
 
     </div>
 </section>
@@ -297,7 +300,7 @@
         <hr>
         
         <article>
-    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-2/">Tools for the Smart Start-up in 2018 (II)</a></h1>
+    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-2/">Tools for the Smart Start-Up in 2018 (II)</a></h1>
     <p class="content">Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how. <small class="is-size-7"><strong><a
                     href="/articles/tools-for-the-smart-start-up-in-2018-2/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
@@ -339,7 +342,7 @@
         <hr>
         
         <article>
-    <h1 class="title is-3"><a href="/articles/advertise-subnet-with-opnsense-arp/">How to Advertise Subnets to Upstream Routers with OPNsense and ARP</a></h1>
+    <h1 class="title is-3"><a href="/articles/advertise-subnet-with-opnsense-arp/">How to Advertise Subnets to Upstream Routers With OPNsense and ARP</a></h1>
     <p class="content">If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense. <small class="is-size-7"><strong><a
                     href="/articles/advertise-subnet-with-opnsense-arp/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
@@ -381,7 +384,7 @@
         <hr>
         
         <article>
-    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-1/">Tools for the Smart Start-up in 2018 (I)</a></h1>
+    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-1/">Tools for the Smart Start-Up in 2018 (I)</a></h1>
     <p class="content">If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas. [Updated June 28, 2019] <small class="is-size-7"><strong><a
                     href="/articles/tools-for-the-smart-start-up-in-2018-1/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
