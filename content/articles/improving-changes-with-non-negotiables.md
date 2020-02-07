@@ -13,7 +13,7 @@ cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_a
 Simon Sinek teaches us that one can't really "win" at work because it's a different kind of game than sports:
 
 <figure>
-{{<youtube RyTQ5-SQYTo>}}
+{{<youtube ZCB-0LWAmxw>}}
 </figure>
 
 Fair point, so let's use "winning" as synonym to "being successful". To be *consistently* winning at work you need to know what rules define success so that you can repeatedly achieve it and—according to Simon Sinek—"stay in the game".
