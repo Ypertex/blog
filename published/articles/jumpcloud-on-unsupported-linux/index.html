@@ -8,7 +8,7 @@
     <title>Enabling JumpCloud on Unsupported Linux Systems · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.63.2" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -107,7 +107,7 @@
 </div>
 <p>If you followed the articles on this blog you know that I have a lot of love<sup><a href="/articles/jumpcloud-curl-error-22/">1</a>, <a href="/articles/tools-for-the-smart-start-up-in-2018-1/">2</a></sup> for <a href="https://jumpcloud.com/">JumpCloud</a>.</p>
 <p>However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like <a href="https://www.proxmox.com/en/proxmox-ve">Proxmox Virtual Environment</a> or <a href="https://www.openmediavault.org/">Openmediavault</a> even though it officially supports the underlying Linux version.</p>
-<p>Fortunately, there's a <strong>way around that limitation</strong> that I'd like to share with you in this article.</p>
+<p>Fortunately, there&rsquo;s a <strong>way around that limitation</strong> that I&rsquo;d like to share with you in this article.</p>
 <h2 id="the-issue-with-etcissue">The Issue with <code>/etc/issue</code></h2>
 <p>It seems that the JumpCloud Linux agent checks the small text file <code>/etc/issue</code> to determine whether it is compatible with the system on which it was started. The content of this file is printed on the (virtual) screen after the system booted. It is displayed just above the login prompt and originally contains information about the operating system:</p>
 <figure>
@@ -119,12 +119,12 @@
     <img src="/media/pve-issue.png">
     <figcaption>Proxmox Virtual Environment shows instructions on how to connect to its web interface</figcaption>
 </figure>
-<p>Of course, now the content of <code>/etc/issue</code> doesn't match with the records in JumpCloud's database anymore. Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the <code>/etc/issue</code> is <strong>regenerated every time the system boots</strong> to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?</p>
+<p>Of course, now the content of <code>/etc/issue</code> doesn&rsquo;t match with the records in JumpCloud&rsquo;s database anymore. Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the <code>/etc/issue</code> is <strong>regenerated every time the system boots</strong> to reflect the proper current settings. So simply replacing the content of the file with the original won&rsquo;t cut it. Now what?</p>
 <h2 id="stop-and-disable-the-respective-issue-service">Stop and Disable the Respective Issue Service</h2>
 <p>After <a href="https://duckduckgo.com/">DuckDuckGo</a>ing a bit, I was able to identify the services that regenerate <code>/etc/issue</code> after each boot:</p>
 <ul>
-<li>On Proxmox, it's <code>pvebanner</code></li>
-<li>On Openmediavault, it's <code>openmediavault-issue</code> (OK, I could have guessed that one)</li>
+<li>On Proxmox, it&rsquo;s <code>pvebanner</code></li>
+<li>On Openmediavault, it&rsquo;s <code>openmediavault-issue</code> (OK, I could have guessed that one)</li>
 </ul>
 <p>So, to stop and disable these services &hellip; just stop and disable them:</p>
 <pre><code># For Proxmox Virtual Environment
@@ -136,7 +136,7 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
 <p>Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file <code>/etc/issue</code> back to its original content: Open the file (i.e. <code>sudo nano /etc/issue</code>), then paste the complete string <code>Debian GNU/Linux 9 \n \l</code>, and save the file. Done! After a reboot, the file still reads the same.</p>
 <p>Installing the JumpCloud agent on these systems now <strong>works as expected</strong>. The systems report as <code>Debian 9</code> in the JumpCloud console from where they can be managed just as any other system.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>I am no Linux expert but isn't there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file <code>/etc/issue</code>? I wish, JumpCloud could figure out something.</p>
+<p>I am no Linux expert but isn&rsquo;t there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file <code>/etc/issue</code>? I wish, JumpCloud could figure out something.</p>
 <p>If this issue bugs you too, let JumpCloud know by <a href="https://support.jumpcloud.com/customer/portal/questions/17167497-agent-support-for-proxmox-and-openmediavault-debian-9-">voting on my feature request</a> I posted on their site over a year ago. Thanks. At least, we have a workaround with the above hack.</p>
 
     </div>
@@ -171,14 +171,16 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
     </div>
 </section>
 
+
 <section class="section">
     <div class="content container">
         
-        <span class="heading">Next article</span>
+        
+        <span class="heading">Recommended article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/test-your-way-to-success/">Test Your Way to Success</a></h1>
-    <p class="content">Ever spent too much time on something that turned out to be based on the wrong assumptions? Here&#39;s how to make sure that you&#39;re investing your time correctly. <small class="is-size-7"><strong><a
-                    href="/articles/test-your-way-to-success/">Continue&nbsp;reading</a></strong></small></p>
+    <h1 class="title is-3"><a href="/articles/advertise-subnet-with-opnsense-arp/">How to Advertise Subnets to Upstream Routers With OPNsense and ARP</a></h1>
+    <p class="content">If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense. <small class="is-size-7"><strong><a
+                    href="/articles/advertise-subnet-with-opnsense-arp/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
     <div class="level-left">
         <div class="media level-item">
@@ -199,18 +201,15 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
                 <strong><a href="/authors/michael-schmidle/">Michael Schmidle</a></strong>
                 
                 <time class="heading"
-                    datetime="2019-02-28">February 28, 2019</time>
+                    datetime="2018-08-02">August 2, 2018</time>
             </small>
         </div>
     </div>
     
     <div class="level-right">
         
-        <a class="level-item tag is-rounded" href="/tags/career"><span class="icon"><i
-                    class="inhabitu-tag"></i></span> Career</a>
-        
-        <a class="level-item tag is-rounded" href="/tags/design"><span class="icon"><i
-                    class="inhabitu-tag"></i></span> Design</a>
+        <a class="level-item tag is-rounded" href="/tags/tutorials"><span class="icon"><i
+                    class="inhabitu-tag"></i></span> Tutorials</a>
         
     </div>
     
@@ -220,12 +219,11 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
         
         <hr>
         
-        
-        <span class="heading">Previous article</span>
+        <span class="heading">Recommended article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/tools-for-the-smart-start-up-in-2018-2/">Tools for the Smart Start-Up in 2018 (II)</a></h1>
-    <p class="content">Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how. <small class="is-size-7"><strong><a
-                    href="/articles/tools-for-the-smart-start-up-in-2018-2/">Continue&nbsp;reading</a></strong></small></p>
+    <h1 class="title is-3"><a href="/articles/unhide-virtual-network-adapters-windows-10/">Unhide Virtual Network Adapters in Windows 10</a></h1>
+    <p class="content">In Windows&#39; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <small class="is-size-7"><strong><a
+                    href="/articles/unhide-virtual-network-adapters-windows-10/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
     <div class="level-left">
         <div class="media level-item">
@@ -246,15 +244,15 @@ sudo systemctl stop openmediavault-issue &amp;&amp; sudo systemctl disable openm
                 <strong><a href="/authors/michael-schmidle/">Michael Schmidle</a></strong>
                 
                 <time class="heading"
-                    datetime="2018-11-07">November 7, 2018</time>
+                    datetime="2019-08-18">August 18, 2019</time>
             </small>
         </div>
     </div>
     
     <div class="level-right">
         
-        <a class="level-item tag is-rounded" href="/tags/it-recommendations"><span class="icon"><i
-                    class="inhabitu-tag"></i></span> IT Recommendations</a>
+        <a class="level-item tag is-rounded" href="/tags/tutorials"><span class="icon"><i
+                    class="inhabitu-tag"></i></span> Tutorials</a>
         
     </div>
     

@@ -8,7 +8,7 @@
     <title>Unhide Virtual Network Adapters in Windows 10 · Ypertex Blog</title>
     
     <meta name="description" content="Design. Technology. Future.">
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.63.2" />
     <link rel="shortcut icon" href="/favicon.ico">
     
     <link rel="stylesheet" type="text/css" href="/inhabitu-scss/inhabitu.css">
@@ -105,26 +105,26 @@
     </div>
     
 </div>
-<p>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don't appear anymore in the &ldquo;Network and Sharing Center&rdquo; and other parts of Windows.</p>
+<p>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don&rsquo;t appear anymore in the &ldquo;Network and Sharing Center&rdquo; and other parts of Windows.</p>
 <p>I assume that for the majority of users, these adapters showing up in all possible places of the <abbr title="Operating System">OS</abbr> just like regular network interfaces caused more confusion than it was helpful. So they changed how Windows treats virtual network adapters.</p>
 <figure>
     <img src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574342869/cb4332a2-eace-43e5-8271-4cdfe85c14f5.jpg">
-    <figcaption>&ldquo;It's easy to get confused with too many ports, so let's hide some.&rdquo; (Image: <a href="https://unsplash.com/photos/M5tzZtFCOfs">Taylor Vick</a>)</figcaption>
+    <figcaption>&ldquo;It&rsquo;s easy to get confused with too many ports, so let&rsquo;s hide some.&rdquo; (Image: <a href="https://unsplash.com/photos/M5tzZtFCOfs">Taylor Vick</a>)</figcaption>
 </figure>
 <p>There might be cases however, in which you need Windows to treat a virtual network adapter just like a regular one. A small change in the registry and a reboot fixes this.</p>
 <p>Read on to see why on earth this might cause issues or jump ahead to the <a href="#unhide-the-host-only-virtual-network-adapter">solution below</a>.</p>
 <h1 id="use-case-route-all-traffic-through-a-virtual-machine">Use Case: Route All Traffic Through a Virtual Machine</h1>
 <p>Cloud gaming comes with a nice value proposition: Run the latest games on powerful cloud infrastructure but only pay a fraction of the costs you would incur when owning the hardware yourself.</p>
-<p>After testing a few of the services and also building my &ldquo;own&rdquo; <abbr title="Graphical Processing Unit">GPU</abbr>-powered virtual machines in the cloud (i.e. Azure and Paperspace), I've come to the conclusion that the implementation of cloud gaming still has to overcome a few challenges.</p>
-<p>The closest that I've come to cloud gaming in a way that I would enjoy it, is renting a physical GPU-powered server, installing Windows 10 and running games on it. Of course, there are a few issues with this:</p>
+<p>After testing a few of the services and also building my &ldquo;own&rdquo; <abbr title="Graphical Processing Unit">GPU</abbr>-powered virtual machines in the cloud (i.e. Azure and Paperspace), I&rsquo;ve come to the conclusion that the implementation of cloud gaming still has to overcome a few challenges.</p>
+<p>The closest that I&rsquo;ve come to cloud gaming in a way that I would enjoy it, is renting a physical GPU-powered server, installing Windows 10 and running games on it. Of course, there are a few issues with this:</p>
 <ul>
-<li>It's not a cloud service at all since A) I have to manage the complete software stack myself and B) I am paying a monthly flat fee instead of pay-per-use.</li>
+<li>It&rsquo;s not a cloud service at all since A) I have to manage the complete software stack myself and B) I am paying a monthly flat fee instead of pay-per-use.</li>
 <li>Windows 10 is a client OS and as such should never be connected directly to the open Internet without any device as security gateway.</li>
 </ul>
 <h2 id="cost-considerations-of-self-made-cloud-gaming">Cost Considerations of Self-Made Cloud Gaming</h2>
 <p>As far as I know, the only provider offering physical GPU-powered servers that more or less match the costs of buying your own ready-for-use gaming hardware is <a href="https://www.hetzner.com/">Hetzner</a>. At the time of writing, you get a <a href="https://www.hetzner.com/dedicated-rootserver/ex51-ssd-gpu">Nvidia Geforce GTX 1080 GPU</a> paired with an Intel i7 CPU and 64GB RAM for roughly EUR100 per month.</p>
-<p>Considering that you would have to invest around EUR2,500 to get a comparable ready-for-use rig, the cost of the Hetzner server is comparable to buying and using a gaming PC for two years (EUR2,500 / EUR100 per month ≈ 24 months ≈ 2 years). In my opinion, that's a fair amortisation period for gaming hardware.</p>
-<p>For the kind of games I play, the latency of around 15ms caused by my distance to the Hetzner datacenter is totally fine. So while it doesn't save me any money, it saves space, noise and power consumption at home. Plus, I can remotely play demanding games even on my thin clients, even if I'm not at home (given that I'm still within an acceptable distance to the datacenter).</p>
+<p>Considering that you would have to invest around EUR2,500 to get a comparable ready-for-use rig, the cost of the Hetzner server is comparable to buying and using a gaming PC for two years (EUR2,500 / EUR100 per month ≈ 24 months ≈ 2 years). In my opinion, that&rsquo;s a fair amortisation period for gaming hardware.</p>
+<p>For the kind of games I play, the latency of around 15ms caused by my distance to the Hetzner datacenter is totally fine. So while it doesn&rsquo;t save me any money, it saves space, noise and power consumption at home. Plus, I can remotely play demanding games even on my thin clients, even if I&rsquo;m not at home (given that I&rsquo;m still within an acceptable distance to the datacenter).</p>
 <h2 id="security-considerations-of-self-made-cloud-gaming">Security Considerations of Self-Made Cloud Gaming</h2>
 <p>Having a Windows 10 client exposed directly to the Internet is never a good idea—no matter what security software runs on it.</p>
 <p>In the case of Hetzner as provider, you could use their firewall. Unfortunately, they only allow a maximum of 10 rules per server. The game store Steam alone uses a handful of rules so you quickly exceed the maximum.</p>
@@ -134,7 +134,7 @@
     <img src="/media/virtual-network-adapters.svg">
     <figcaption>Creating a second and more secure Internet connection via virtual environment</figcaption>
 </figure>
-<p>The problem with this setup in newer Windows 10 releases: Windows disregards the virtual host-only network adapter as Internet connection. Disabling the physical adapter hence leads to Windows acting like it's completely offline—even if a fully working connection via the virtual environment and the secondary <abbr title="Internet Protocol">IP</abbr> address is established.</p>
+<p>The problem with this setup in newer Windows 10 releases: Windows disregards the virtual host-only network adapter as Internet connection. Disabling the physical adapter hence leads to Windows acting like it&rsquo;s completely offline—even if a fully working connection via the virtual environment and the secondary <abbr title="Internet Protocol">IP</abbr> address is established.</p>
 <h1 id="unhide-the-host-only-virtual-network-adapter">Unhide the Host-Only Virtual Network Adapter</h1>
 <p>To get Windows to treat the host-only adapter like a &ldquo;real&rdquo; one, open the Registry Editor and look for the corresponding entry.</p>
 <p>For VMware Workstation, the value is located in a subfolder like <code>0010</code> at <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}</code> in the registry. Verify that the value of <code>DriverDesc</code> in the same location is <code>VMware Virtual Ethernet Adapter for VMnet1</code>.</p>
@@ -199,14 +199,16 @@
     </div>
 </section>
 
+
 <section class="section">
     <div class="content container">
         
-        <span class="heading">Next article</span>
+        
+        <span class="heading">Recommended article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/improving-changes-with-non-negotiables/">Improving Your Chances With Non-Negotiables</a></h1>
-    <p class="content">Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-Negotiables are here to help. <small class="is-size-7"><strong><a
-                    href="/articles/improving-changes-with-non-negotiables/">Continue&nbsp;reading</a></strong></small></p>
+    <h1 class="title is-3"><a href="/articles/jumpcloud-on-unsupported-linux/">Enabling JumpCloud on Unsupported Linux Systems</a></h1>
+    <p class="content">JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let&#39;s fix that. <small class="is-size-7"><strong><a
+                    href="/articles/jumpcloud-on-unsupported-linux/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
     <div class="level-left">
         <div class="media level-item">
@@ -227,15 +229,15 @@
                 <strong><a href="/authors/michael-schmidle/">Michael Schmidle</a></strong>
                 
                 <time class="heading"
-                    datetime="2020-01-14">January 14, 2020</time>
+                    datetime="2018-11-09">November 9, 2018</time>
             </small>
         </div>
     </div>
     
     <div class="level-right">
         
-        <a class="level-item tag is-rounded" href="/tags/leadership"><span class="icon"><i
-                    class="inhabitu-tag"></i></span> Leadership</a>
+        <a class="level-item tag is-rounded" href="/tags/tutorials"><span class="icon"><i
+                    class="inhabitu-tag"></i></span> Tutorials</a>
         
     </div>
     
@@ -245,12 +247,11 @@
         
         <hr>
         
-        
-        <span class="heading">Previous article</span>
+        <span class="heading">Recommended article</span>
         <article>
-    <h1 class="title is-3"><a href="/articles/test-your-way-to-success/">Test Your Way to Success</a></h1>
-    <p class="content">Ever spent too much time on something that turned out to be based on the wrong assumptions? Here&#39;s how to make sure that you&#39;re investing your time correctly. <small class="is-size-7"><strong><a
-                    href="/articles/test-your-way-to-success/">Continue&nbsp;reading</a></strong></small></p>
+    <h1 class="title is-3"><a href="/articles/advertise-subnet-with-opnsense-arp/">How to Advertise Subnets to Upstream Routers With OPNsense and ARP</a></h1>
+    <p class="content">If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense. <small class="is-size-7"><strong><a
+                    href="/articles/advertise-subnet-with-opnsense-arp/">Continue&nbsp;reading</a></strong></small></p>
     <div class="level is-tablet">
     <div class="level-left">
         <div class="media level-item">
@@ -271,18 +272,15 @@
                 <strong><a href="/authors/michael-schmidle/">Michael Schmidle</a></strong>
                 
                 <time class="heading"
-                    datetime="2019-02-28">February 28, 2019</time>
+                    datetime="2018-08-02">August 2, 2018</time>
             </small>
         </div>
     </div>
     
     <div class="level-right">
         
-        <a class="level-item tag is-rounded" href="/tags/career"><span class="icon"><i
-                    class="inhabitu-tag"></i></span> Career</a>
-        
-        <a class="level-item tag is-rounded" href="/tags/design"><span class="icon"><i
-                    class="inhabitu-tag"></i></span> Design</a>
+        <a class="level-item tag is-rounded" href="/tags/tutorials"><span class="icon"><i
+                    class="inhabitu-tag"></i></span> Tutorials</a>
         
     </div>
     

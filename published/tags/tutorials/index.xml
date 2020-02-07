@@ -18,7 +18,7 @@
       <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</guid>
-      <description>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don&#39;t appear anymore in the &amp;ldquo;Network and Sharing Center&amp;rdquo; and other parts of Windows.
+      <description>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don&amp;rsquo;t appear anymore in the &amp;ldquo;Network and Sharing Center&amp;rdquo; and other parts of Windows.
 I assume that for the majority of users, these adapters showing up in all possible places of the OS just like regular network interfaces caused more confusion than it was helpful.</description>
     </item>
     
@@ -30,7 +30,7 @@ I assume that for the majority of users, these adapters showing up in all possib
       <guid>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</guid>
       <description>If you followed the articles on this blog you know that I have a lot of love1, 2 for JumpCloud.
 However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like Proxmox Virtual Environment or Openmediavault even though it officially supports the underlying Linux version.
-Fortunately, there&#39;s a way around that limitation that I&#39;d like to share with you in this article.</description>
+Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d like to share with you in this article.</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@ Fortunately, there&#39;s a way around that limitation that I&#39;d like to share
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
-      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz)  Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
+      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz) Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
     </item>
     
     <item>
