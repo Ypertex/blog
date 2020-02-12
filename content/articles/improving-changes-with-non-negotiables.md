@@ -5,7 +5,7 @@ authors: ["Michael Schmidle"]
 slug: "improving-changes-with-non-negotiables"
 tags: ["Career", "Innovation", "Leadership"]
 summary: "Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-Negotiables are here to help."
-cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1579075156/5c584962-e3e6-4aac-9853-30882bb9de10.jpg"
+cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1579075156/dc95dace-00d2-494e-bd8b-90f2cfbe54a8.jpg"
 ---
 
 # Playing Games at Work
@@ -79,7 +79,7 @@ If we are denied this Non-Negotiable, we try to decline the work. It makes no se
 
 Some Non-Negotiables are nothing but common sense—like example 3 above. You can discover them by simply asking "Is it really me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1579075156/5c584962-e3e6-4aac-9853-30882bb9de10.jpg">}}Stop and pray (Image: [Joël Super](https://www.pexels.com/photo/photography-of-a-persons-hand-with-stop-signage-823301/)){{</figure>}}
+{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1581544571/dc95dace-00d2-494e-bd8b-90f2cfbe54a8.jpg">}}Non-Negotiables: Play by *your* rules{{</figure>}}
 
 For any other work that fits our paygrade, we determine our Non-Negotiables this way:
 
