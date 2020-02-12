@@ -51,30 +51,6 @@ Taking time to define your Non-Negotiables (individually or as team) will help y
 
 {{<note class="is-info" hr-top="true" hr-bottom="true">}}**Pro-Tip:** Ask your boss or your clients for *their* Non-Negotiables, too: What's off limits for them? I'm certain it will help your mutual understanding and collaboration, too.{{</note>}}
 
-# Practical Examples
-
-What could such Non-Negotiables be? Here are a few examples from my recent experience:
-
-## Example 1: Strategy Governance
-
-When developing SRG SSR's new technology strategy, we wanted to collaborate with those that would be on the forefront of executing it: people who take purchasing decisions in their daily business. A well governed strategy however limits the freedom and power of the individual to a certain degree, so there were attempts at keeping the strategy's governance undefined or unenforceable.
-
-Only its governance gives a strategy its binding character. Defining who's accountable for the execution of the strategy and can enforce it or grant exceptions, was one of our Non-Negotiables. Understanding this helped the team members to successfully stand their ground in those discussions and steer the conversations to other parts that instead were open for debate.
-
-## Example 2: Knowledge Sharing
-
-Our team is currently in the process of streamlining SRG SSR's partnership with the <abbr title="European Broadcasting Union">EBU</abbr>. One of the Non-Negotiables we defined was the imperative of knowledge sharing. From now on, whoever from our colleagues will collaborate with the EBU on certain topics shall actively make their knowledge on those topics available to the rest of the company.
-
-Seems like a no-brainer—and actually, everybody welcomed our stance. Yet everyone on the team was prepared to defend this Non-Negotiable if necessary, knowing that it was the entire team's position regarding this aspect.
-
-## Example 3: Innovation
-
-Being the strategy and innovation team, one of our default Non-Negotiables is the freedom to experiment with new approaches and methods—to do things differently.
-
-If we are denied this Non-Negotiable, we try to decline the work. It makes no sense to put a dedicated, trained innovation team on an assignment that requires to think *inside* the box and follow well established norms.
-
-> Non-Negotiables are like your ground rules. If others don't follow them, raise the issue immediately since it puts your entire work at risk according to your standards.
-
 # How We Find Our Non-Negotiables
 
 Some Non-Negotiables are nothing but common sense—like example 3 above. You can discover them by simply asking "Is it really me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
