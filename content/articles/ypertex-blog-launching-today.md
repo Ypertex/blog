@@ -4,7 +4,7 @@ date: 2017-03-23
 authors: ["Michael Schmidle"]
 slug: "ypertex-blog-launching-today"
 tags: ["On a Personal Note"]
-description: "After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?"
+summary: "After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?"
 cover: "ypertex-inhabitu-2017-04.jpg"
 aliases: ["/2017/03/23/ypertex-blog-launching-today/"]
 ---

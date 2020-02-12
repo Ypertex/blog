@@ -18,8 +18,7 @@
       <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</guid>
-      <description>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don&amp;rsquo;t appear anymore in the &amp;ldquo;Network and Sharing Center&amp;rdquo; and other parts of Windows.
-I assume that for the majority of users, these adapters showing up in all possible places of the OS just like regular network interfaces caused more confusion than it was helpful.</description>
+      <description>In Windows&amp;rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
     </item>
     
     <item>
@@ -28,9 +27,7 @@ I assume that for the majority of users, these adapters showing up in all possib
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</guid>
-      <description>If you followed the articles on this blog you know that I have a lot of love1, 2 for JumpCloud.
-However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like Proxmox Virtual Environment or Openmediavault even though it officially supports the underlying Linux version.
-Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d like to share with you in this article.</description>
+      <description>JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let&amp;rsquo;s fix that.</description>
     </item>
     
     <item>
@@ -39,7 +36,7 @@ Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d l
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
-      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz) Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
+      <description>If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense.</description>
     </item>
     
     <item>
@@ -48,7 +45,7 @@ Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d l
       <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</guid>
-      <description>Introducing JumpCloud In case you have not yet heard about JumpCloud: It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for Single Sign On in web apps and clients. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, MacOS and Windows clients and servers enables you and your directory users to log into these machines with your directory credentials.</description>
+      <description>JumpCloud is a great tool to enable Single Sign On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux.</description>
     </item>
     
   </channel>

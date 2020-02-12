@@ -4,7 +4,7 @@ date: 2019-08-18
 authors: ["Michael Schmidle"]
 slug: "unhide-virtual-network-adapters-windows-10"
 tags: ["Tutorials"]
-description: "In Windows' latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks."
+summary: "In Windows' latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks."
 cover: "server-rack.jpg"
 ---
 

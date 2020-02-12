@@ -4,7 +4,7 @@ date: 2017-05-17
 authors: ["Michael Schmidle"]
 slug: "the-making-of-the-ypertex-logo"
 tags: ["Design", "On a Personal Note"]
-description: "The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions)."
+summary: "The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions)."
 cover: "logo-design-06.png"
 aliases: ["/2017/05/17/the-making-of-the-ypertex-logo/"]
 ---

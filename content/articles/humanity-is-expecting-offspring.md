@@ -4,7 +4,7 @@ date: 2017-03-30
 authors: ["Michael Schmidle"]
 slug: "humanity-is-expecting-offspring"
 tags: ["Artificial Intelligence"]
-description: "The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?"
+summary: "The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?"
 cover: "ex-machina.jpg"
 aliases: ["/2017/03/30/humanity-is-expecting-offspring/"]
 ---

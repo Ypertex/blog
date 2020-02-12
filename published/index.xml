@@ -18,9 +18,7 @@
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/improving-changes-with-non-negotiables/</guid>
-      <description>Playing Games at Work Simon Sinek teaches us that one can&amp;rsquo;t really &amp;ldquo;win&amp;rdquo; at work because it&amp;rsquo;s a different kind of game than sports:
-  Fair point, so let&amp;rsquo;s use &amp;ldquo;winning&amp;rdquo; as synonym to &amp;ldquo;being successful&amp;rdquo;. To be consistently winning at work you need to know what rules define success so that you can repeatedly achieve it and—according to Simon Sinek—&amp;ldquo;stay in the game&amp;rdquo;.
-Know the Referees Unfortunately, there are no strict, clear and stable rules for success at work.</description>
+      <description>Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-Negotiables are here to help.</description>
     </item>
     
     <item>
@@ -29,8 +27,7 @@ Know the Referees Unfortunately, there are no strict, clear and stable rules for
       <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</guid>
-      <description>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don&amp;rsquo;t appear anymore in the &amp;ldquo;Network and Sharing Center&amp;rdquo; and other parts of Windows.
-I assume that for the majority of users, these adapters showing up in all possible places of the OS just like regular network interfaces caused more confusion than it was helpful.</description>
+      <description>In Windows&amp;rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
     </item>
     
     <item>
@@ -39,8 +36,7 @@ I assume that for the majority of users, these adapters showing up in all possib
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/test-your-way-to-success/</guid>
-      <description>Assumptions Can Be Helpful &amp;hellip; Think a moment about the assumptions on which you rely to get through a typical day in your life. Your routine on any given workday is probably based on the following basic assumptions, just to name a few:
- Your alarm will wake you up in time The transportation for your commute will function properly There will be the usual opportunities to get food and drinks throughout the day  Simply assuming these things—rather than verifying them one by one each and every day—successfully gets you through your workday routine most of the time.</description>
+      <description>Ever spent too much time on something that turned out to be based on the wrong assumptions? Here&amp;rsquo;s how to make sure that you&amp;rsquo;re investing your time correctly.</description>
     </item>
     
     <item>
@@ -49,9 +45,7 @@ I assume that for the majority of users, these adapters showing up in all possib
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</guid>
-      <description>If you followed the articles on this blog you know that I have a lot of love1, 2 for JumpCloud.
-However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like Proxmox Virtual Environment or Openmediavault even though it officially supports the underlying Linux version.
-Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d like to share with you in this article.</description>
+      <description>JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let&amp;rsquo;s fix that.</description>
     </item>
     
     <item>
@@ -60,8 +54,7 @@ Fortunately, there&amp;rsquo;s a way around that limitation that I&amp;rsquo;d l
       <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</guid>
-      <description>Smart pawns can be kings In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build state-of-the-art IT infrastructure on a small budget. If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems.
-That’s nice—but hardware and OS alone won’t get you very far.</description>
+      <description>Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how.</description>
     </item>
     
     <item>
@@ -70,7 +63,7 @@ That’s nice—but hardware and OS alone won’t get you very far.</description
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
-      <description>Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: Pablo Heimplatz) Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an OPNsense firewall as my router.</description>
+      <description>If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense.</description>
     </item>
     
     <item>
@@ -79,8 +72,7 @@ That’s nice—but hardware and OS alone won’t get you very far.</description
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</guid>
-      <description>We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget? Question from an interview at the Swiss Financial Market Supervisory Authority FINMA This was a question I was asked in an interview when I applied for a new job after my start-up experience.
-Of course, we all read and hear about the astronomical valuations of the start-ups i.</description>
+      <description>If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas. [Updated June 28, 2019]</description>
     </item>
     
     <item>
@@ -89,7 +81,7 @@ Of course, we all read and hear about the astronomical valuations of the start-u
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/antiquated-form-of-most-innovative-companies/</guid>
-      <description>Over eight years ago, I moved to Switzerland–a country with one of the most direct democracies in the world. This political system means that the Swiss citizens are regularly asked to vote on all kinds of governmental matters. Instead of only casting their votes every few years to elect their leaders, the Swiss adults usually receive once per quarter an invitation to vote on very specific subject matters. These matters can relate to federal, cantonal (i.</description>
+      <description>Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come?</description>
     </item>
     
     <item>
@@ -98,7 +90,7 @@ Of course, we all read and hear about the astronomical valuations of the start-u
       <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</guid>
-      <description>Introducing JumpCloud In case you have not yet heard about JumpCloud: It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for Single Sign On in web apps and clients. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, MacOS and Windows clients and servers enables you and your directory users to log into these machines with your directory credentials.</description>
+      <description>JumpCloud is a great tool to enable Single Sign On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux.</description>
     </item>
     
     <item>
@@ -107,8 +99,7 @@ Of course, we all read and hear about the astronomical valuations of the start-u
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</guid>
-      <description>For a blog claiming to primarily write about design (according to its current tag line “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about other people’s designs, I would like to first promote my credibility and address one of my own designs: this blog’s logo.
-This article explains how I generally approach new designs using the example of the Ypertex logo.</description>
+      <description>The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).</description>
     </item>
     
     <item>
@@ -117,7 +108,7 @@ This article explains how I generally approach new designs using the example of 
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/</guid>
-      <description>In late 2012, I co-founded a company called EntrePreneurs (no, not really—I changed the name for the purpose of this article). While my long-time business partner adopted the role of CEO, I took on the role of CIO. We were off to a good start as our first year, 2013, was financially more successful than budgeted and our team had quickly grown to the size required to reach the goals laid out in our business plan.</description>
+      <description>How trust and loyalty within the leadership team can determine success or failure of a start-up. Based on a true story.</description>
     </item>
     
     <item>
@@ -126,8 +117,7 @@ This article explains how I generally approach new designs using the example of 
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/humanity-is-expecting-offspring/</guid>
-      <description>As foretold in my blog’s opening article, Artificial Intelligence (AI) is a topic that concerns me a lot these days. In particular, I am more concerned about the first and still imperfect Artificial General Intelligence and less about the potentially god-like, almighty Artificial Super Intelligence everyone is talking about.
-For those of you who are not too familiar with the subject, I will start this article with an introduction and recommend a few links for further reading at the end.</description>
+      <description>The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?</description>
     </item>
     
     <item>
@@ -136,9 +126,7 @@ For those of you who are not too familiar with the subject, I will start this ar
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/ypertex-blog-launching-today/</guid>
-      <description>Finally. After literally years of intending to start blogging (the first design sketch dates back to May 2010, and I registered the Ypertex domains in December 2010), I am proud to publish the first post on my own blog.
-Now what took me so long?
-Lots of Reasons Not to Blog Content First and foremost, up until now I felt that I did not have anything really relevant to say to a broader audience.</description>
+      <description>After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?</description>
     </item>
     
     <item>
@@ -147,10 +135,7 @@ Lots of Reasons Not to Blog Content First and foremost, up until now I felt that
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/privacy/</guid>
-      <description>Owner and Data Controller Michael Schmidle
-Types of Data Collected Among the types of Personal Data that this Website collects, by itself or through third parties, there are: Cookies and Usage Data.
-Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.
-Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Website.</description>
+      <description>This Website collects some Personal Data from its Users. This policy is to inform about the nature, scope, and purpose of the Personal Data collected, used and processed. Furthermore, this data protection declaration informs the Users of the rights to which they are entitled.</description>
     </item>
     
   </channel>

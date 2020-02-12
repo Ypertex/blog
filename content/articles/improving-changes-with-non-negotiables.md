@@ -4,7 +4,7 @@ date: 2020-01-14
 authors: ["Michael Schmidle"]
 slug: "improving-changes-with-non-negotiables"
 tags: ["Career", "Innovation", "Leadership"]
-description: "Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-Negotiables are here to help."
+summary: "Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-Negotiables are here to help."
 cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1579075156/5c584962-e3e6-4aac-9853-30882bb9de10.jpg"
 ---
 
