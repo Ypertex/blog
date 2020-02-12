@@ -53,7 +53,7 @@ Taking time to define your Non-Negotiables (individually or as team) will help y
 
 # How We Find Our Non-Negotiables
 
-Some Non-Negotiables are nothing but common sense—like example 3 above. You can discover them by simply asking "Is it really me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
+Some Non-Negotiables are nothing but common sense. You can discover them by simply asking "Is it really me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
 
 {{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1581544571/dc95dace-00d2-494e-bd8b-90f2cfbe54a8.jpg">}}Non-Negotiables: Play by *your* rules{{</figure>}}
 
