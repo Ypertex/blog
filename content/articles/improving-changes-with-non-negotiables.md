@@ -4,7 +4,7 @@ date: 2020-01-14
 authors: ["Michael Schmidle"]
 slug: "improving-changes-with-non-negotiables"
 tags: ["Career", "Innovation", "Leadership"]
-summary: "Your chances of winning any game improve drastically if you know the rules. Office work is game-like but with unclear rules. Non-Negotiables are here to help."
+summary: "Your chances of winning any game improve drastically if you know the rules. What if the rules are unclear? Non-Negotiables are here to help."
 cover: "https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1579075156/dc95dace-00d2-494e-bd8b-90f2cfbe54a8.jpg"
 ---
 
@@ -16,7 +16,7 @@ Simon Sinek teaches us that one can't really "win" at work because it's a differ
 {{<youtube ZCB-0LWAmxw>}}
 </figure>
 
-Fair point, so let's use "winning" as synonym to "being successful". To be *consistently* winning at work you need to know what rules define success so that you can repeatedly achieve it and—according to Simon Sinek—"stay in the game".
+Fair point, so let's use "winning" as synonym to "being successful". To be *consistently* successful at work you need to know what rules define success so that you can repeatedly achieve it and—according to Simon Sinek—"stay in the game".
 
 ## Know the Referees
 
