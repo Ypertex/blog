@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="yx-jumbotron-home">
+    <div class="container">
+        {{ partial "ypertex-logo-2020-03.svg" }}
+        {{ with .Site.Params.Description }}<p class="lead mt-3">{{ . }}</p>{{ end }}
+    </div>
+</section>
+<section class="bg-light">
+    <div class="container">
+        <div class="yx-heading">About the Author</div>
+        <div class="media">
+            <img src="michael-schmidle.jpg" class="yx-avatar" height="64" width="64">
+            <div class="media-body">
+                <h4>Michael Schmidle</h4>
+                <p>Digital Strategy and Innovation Manager at the Swiss Broadcast Corporation <a
+                        href="https://www.srgssr.ch/en/">SRG SSR</a>. Coach, startup consultant, and blogger.
+                    Opinionated about technology, innovation, and leadership. In love with Mexico.</p>
+                <p>{{ range .Site.Menus.social }}
+                    <a href="{{ .URL }}" class="btn btn-light rounded-pill">{{ with .Pre }}{{ . }}
+                        {{ end }}{{ .Name }}</a>
+                    {{ end }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <h1>Latest Article</h1>
+</section>
+{{ end }}

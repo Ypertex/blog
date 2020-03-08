@@ -1,0 +1,23 @@
+<header>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand"
+                href="{{ .Site.Home.RelPermalink }}">{{ partial "ypertex-logogram-2020-03.svg" }}</a>
+            <div class="navbar-collapse collapse">
+                <div class="navbar-nav mr-auto">
+                    <a href="{{ .Site.BaseURL }}" class="nav-item nav-link{{ if .IsHome }} active{{ end }}">Home</a>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.header }}
+                    <a href="{{ .URL | relURL }}"
+                        class="nav-item nav-link{{ if or ($currentPage.HasMenuCurrent "header" .) ($currentPage.IsMenuCurrent "header" .) }} active{{ end }}">{{ .Name }}</a>
+                    {{ end }}
+                </div>
+                <div class="navbar-nav">
+                    {{ range .Site.Menus.social }}
+                    <a href="{{ .URL }}" class="nav-item nav-link" title="{{ .Name }}">{{ .Pre }}</a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

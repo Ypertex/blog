@@ -1,0 +1,35 @@
+baseURL: https://blog.ypertex.com
+copyright: Original content released under the <i class="lab la-creative-commons-by"></i> [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) license
+title: Ypertex Blog
+
+menu:
+    header:
+        - name: Articles
+          url: /articles/
+          weight: 1
+        - name: Series
+          url: /series/
+          weight: 2
+        - name: Tags
+          url: /tags/
+          weight: 3
+    social:
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/michaelschmidle
+          weight: 1
+          pre: <i class="lab la-linkedin-in"></i>
+        - name: Twitter
+          url: https://twitter.com/MichaelSchmidle/
+          weight: 2
+          pre: <i class="lab la-twitter"></i>
+        - name: GitHub
+          url: https://github.com/MichaelSchmidle/
+          weight: 3
+          pre: <i class="lab la-github"></i>
+
+params:
+    description: Technology. Innovation. Leadership.
+
+taxonomies:
+    series: series
+    tag: tags
