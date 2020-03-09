@@ -55,11 +55,11 @@ If we continue to deploy Artificial Intelligence around the world in all aspects
 
 If we're not careful, AI might cement the status quo that we actually want to get rid of.
 
-> We might be innovating our own stagnation.
+> With AI, we might be innovating our own stagnation.
 
 To avoid such a deadlock, we need to combine the two: We're good at **learning** but suck at **unlearning**. That equally applies to humans and machines, by the way.
 
-How about learning to unlearn, using our existing strength to build a new strength? **Exploring, not just exploiting?** Maybe it'll get easier if we all do it together!
+How about learning to unlearn, using our existing strength to build a new strength? **Exploring, not just exploiting?** Maybe it'll get easier if we all do it together. Oh, and it just might help you to survive the next disruption, too!
 
 ---
 
