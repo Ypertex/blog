@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+date: 2018-11-02
 summary: This Website collects some Personal Data from its Users. This policy is to inform about the nature, scope, and purpose of the Personal Data collected, used and processed. Furthermore, this data protection declaration informs the Users of the rights to which they are entitled.
 ---
 
