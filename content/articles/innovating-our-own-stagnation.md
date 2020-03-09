@@ -5,7 +5,7 @@ authors: [Michael Schmidle]
 slug: innovating-our-own-stagnation
 tags: [Innovation, Artificial Intelligence]
 summary: Today's global challenges require humankind to learn and adapt. Artificial Intelligence will help driving these changes, right?---Maybe not.
-cover:
+cover: https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto/v1581544571/f26ee4ba-0482-4879-bf70-4f22aa033b58.jpg
 ---
 
 Today, we celebrate **[International Women's Day](https://www.internationalwomensday.com/) 2020** that promotes the power and value of half the world's population---and how far we still are from giving everyone equal opportunities.
