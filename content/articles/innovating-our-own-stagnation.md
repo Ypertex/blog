@@ -31,7 +31,7 @@ One current global trend is the increasing use of Artificial Intelligence to sol
 
 AI is the kind of technology that can have profound social implications. With the potential to replace us all in our jobs, it could free us from arduous labor---or rob us of our purpose of life.
 
-In any case, it could aggravate the fundamental human difficulty to unlearn. As I just wrote: Machines learn based on massive amounts of data. However, data can only be a representation of the past and of a forecast---not of a radically different future. To get to such a future that's different and improved, we'll have to teach machines how to unlearn, too. How do we achieve that if we as humans already have trouble learning to unlearn?
+In any case, it could aggravate the fundamental human difficulty to unlearn. As I just wrote: Machines learn based on massive amounts of data. However, data can only be a representation of the past and of a forecast---not of a radically different future. To get to such a future that's different and improved, we'll have to [teach machines how to unlearn](https://www.wired.com/story/the-next-big-privacy-hurdle-teaching-ai-to-forget/), too. How do we achieve that if we as humans already have trouble learning to unlearn?
 
 > Aritficial Intelligence has the power to make our future an optimized and scaled version of our past. Attempts to significantly improve our situation will have to increasingly overcome this power.
 
