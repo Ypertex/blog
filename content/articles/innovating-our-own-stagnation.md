@@ -23,7 +23,7 @@ Actually, let's **unlearn** first. Since we want to *change* an already existing
 
 But how do you do that, selectively forget a behavior? As entire societies at that? A behavior that "successfully" has brought us so far?
 
-Unlearning is tough. Just look at the Blockbusters and Nokias of this world that were extremely successful companies once before they got disrupted. The behaviors that made them so successful in the first place were the same that killed their business in the end. They missed the right time to unlearn.
+Unlearning is tough. Just look at the Blockbusters and Nokias of this world that once were extremely successful companies before they got disrupted. The behaviors that made them so successful in the first place were the exact same that killed their business in the end. They missed the right time to unlearn.
 
 ## So Let's Machine Learn!
 
