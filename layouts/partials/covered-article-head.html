@@ -1,0 +1,13 @@
+<div class="row align-items-center">
+    <div class="col-md-4{{ if .inverted }} order-md-last{{ end }}">
+        {{ with .article.Params.cover }}
+        <img data-piio="https://res.cloudinary.com/ypertex/image/upload/v1584469873/{{ . }}"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8+f9vPQAJZAN2rlRQVAAAAABJRU5ErkJggg=="
+            class="shadow w-100">
+        {{ end }}
+    </div>
+    <div class="col-md-8">
+        {{ partial "article-head.html" .article }}
+        {{ partial "article-metadata.html" .article }}
+    </div>
+</div>

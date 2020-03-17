@@ -1,0 +1,16 @@
+<div class="row mt-3">
+    <div class="col-lg">
+        <small class="text-muted">
+            <i class="las la-upload"></i>&nbsp;{{ .PublishDate | dateFormat "January 2, 2006" }}
+            {{ if ne .PublishDate .Lastmod }}
+            · <i class="las la-edit"></i>&nbsp;{{ .Lastmod | dateFormat "January 2, 2006" }}
+            {{ end }}
+        </small>
+    </div>
+    <div class="col-lg col-lg-auto">
+        {{ range .GetTerms "tags" }}
+        <a href="{{ .RelPermalink }}" class="badge badge-primary rounded-pill"><i
+                class="las la-hashtag"></i>{{ .LinkTitle }}</a>
+        {{ end }}
+    </div>
+</div>

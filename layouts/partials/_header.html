@@ -1,11 +1,10 @@
 <header>
-    <nav class="navbar navbar-dark navbar-expand-md bg-dark sticky-top">
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark">
         <div class="container">
             <a class="navbar-brand"
                 href="{{ .Site.Home.RelPermalink }}">{{ partial "ypertex-logogram-2020-03.svg" }}</a>
             <div class="navbar-collapse collapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="{{ .Site.BaseURL }}" class="nav-item nav-link{{ if .IsHome }} active{{ end }}">Home</a>
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.header }}
                     <a href="{{ .URL | relURL }}"

@@ -1,5 +1,5 @@
 baseURL: https://blog.ypertex.com
-copyright: Original content released under the <i class="lab la-creative-commons-by"></i> [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) license
+copyright: Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license
 title: Ypertex Blog
 
 menu:
@@ -28,6 +28,7 @@ menu:
           pre: <i class="lab la-github"></i>
 
 params:
+    author: Michael Schmidle
     description: Technology. Innovation. Leadership.
 
 taxonomies:

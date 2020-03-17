@@ -8,6 +8,7 @@ $info: #1c0bf4;
 
 $factor: 87.5%;
 
+$font-size-base: 1rem;
 $enable-responsive-font-sizes: true;
 $font-family-sans-serif: 'Montserrat', sans-serif !default;
 $headings-font-family: 'Montserrat Alternates', serif !default;
@@ -33,7 +34,7 @@ body {
 	min-height: 100vh;
 }
 main {
-	flex: 1;
+    flex: 1;
 }
 footer {
     a, a:hover {
@@ -44,10 +45,12 @@ main a, footer a {
     font-weight: bold;
  }
 main .container, footer .container {
-    @extend .py-5;
-    :last-child {
+    > :last-child {
         margin-bottom: 0;
     }
+}
+h1, h2, h3, h4, h5, h6 {
+    @extend .mb-3;
 }
 .navbar {
     @extend .py-1;
@@ -64,13 +67,6 @@ main .container, footer .container {
     .container {
         @extend .text-center, .p-5;
     }
-    h1, p {
-        padding: 0;
-        margin: 0;
-    }
-    h1 {
-        @extend .mb-3;
-    }
 }
 .yx-jumbotron-home {
     @extend  .jumbotron, .jumbotron-fluid, .bg-primary, .text-light;
@@ -85,4 +81,10 @@ main .container, footer .container {
 }
 .yx-avatar {
     @extend .mr-3, .rounded-circle;
+}
+.yx-stretched-linkable {
+    position: relative;
+}
+.badge {
+    font-weight: normal;
 }
