@@ -1,4 +1,13 @@
+<p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;{{ .PublishDate | dateFormat "January 2, 2006" }}{{ if ne .PublishDate .Lastmod }}
+        · <i class="las la-edit"></i>&nbsp;{{ .Lastmod | dateFormat "January 2, 2006" }}{{ end }}</small></p>
 <div class="yx-stretched-linkable">
     <h1>{{ .Title }}</h1>
-    <p class="mb-0">{{ .Summary }} <a href="{{ .RelPermalink }}" class="stretched-link">Continue…</a></p>
+    <p>{{ .Summary }} <a href="{{ .RelPermalink }}" class="stretched-link">Continue…</a></p>
 </div>
+<p>
+    {{ range .GetTerms "tags" }}
+    <a href="{{ .RelPermalink }}" class="badge badge-primary rounded-pill"><i
+            class="las la-hashtag"></i>{{ .LinkTitle }}</a>
+    {{ end }}
+</p>

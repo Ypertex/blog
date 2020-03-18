@@ -1,13 +1,23 @@
 <div class="row align-items-center">
-    <div class="col-md-4{{ if .inverted }} order-md-last{{ end }}">
-        {{ with .article.Params.cover }}
-        <img data-piio="https://res.cloudinary.com/ypertex/image/upload/v1584469873/{{ . }}"
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8+f9vPQAJZAN2rlRQVAAAAABJRU5ErkJggg=="
-            class="shadow w-100">
+    <div class="col-md-4 mb-3 mb-md-0{{ if .inverted }} order-md-last{{ end }}">
+        {{ if .article.Params.cover }}
+        <picture>
+            <source media="(min-width: 1200px)"
+                srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index }}{{ .article.Params.cover }}">
+            <source media="(min-width: 992px)"
+                srcset="{{ .cloudinary.baseURL }}ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/{{ .article.Params.cover }}">
+            <source media="(min-width: 768px)"
+                srcset="{{ .cloudinary.baseURL }}ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/{{ .article.Params.cover }}">
+            <source media="(min-width: 576px)"
+                srcset="{{ .cloudinary.baseURL }}ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/{{ .article.Params.cover }}">
+            <source media="(max-width: 575px)"
+                srcset="{{ .cloudinary.baseURL }}ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/{{ .article.Params.cover }}">
+            <img src="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index }}{{ .article.Params.cover }}"
+                alt="" class="shadow w-100">
+        </picture>
         {{ end }}
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8{{ if .inverted }} text-md-right{{ end }}">
         {{ partial "article-head.html" .article }}
-        {{ partial "article-metadata.html" .article }}
     </div>
 </div>

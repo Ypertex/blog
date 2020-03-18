@@ -5,9 +5,7 @@ lastmod: 2019-06-28
 tags: [IT Recommendations]
 summary: If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas. [Updated June 28, 2019]
 aliases: [/articles/tools-for-the-smart-start-up-1/]
-resources:
-    - name: cover
-      src: 7b95a9b0-0f54-44f9-8af3-dd6820d3051d.jpg
+cover: 7b95a9b0-0f54-44f9-8af3-dd6820d3051d
 ---
 
 > We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget? {{<cite>}}Question from an interview at the [Swiss Financial Market Supervisory Authority FINMA](https://www.finma.ch/en/){{</cite>}}

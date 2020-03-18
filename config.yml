@@ -29,6 +29,11 @@ menu:
 
 params:
     author: Michael Schmidle
+    cloudinary:
+        baseURL: https://res.cloudinary.com/ypertex/image/upload/
+        transformations:
+            index: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/
+            avatar: ar_1,c_thumb,dpr_auto,f_auto,g_face,q_auto,w_128/
     description: Technology. Innovation. Leadership.
 
 taxonomies:
