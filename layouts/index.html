@@ -20,7 +20,7 @@
 <section class="container py-5">
     {{ range $index, $article := first $listLength $articles }}
     {{ if gt $index 0 }}
-    <hr class="my-4 mx-n3">
+    <hr>
     {{ end }}
     {{ partial "covered-article-head.html" (dict "article" $article "cloudinary" .Site.Params.cloudinary "inverted" (modBool $index 2)) }}
     {{ end }}

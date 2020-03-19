@@ -8,7 +8,7 @@ $info: #1c0bf4;
 
 $factor: 87.5%;
 
-$font-size-base: 1rem;
+$font-size-base: 1.125rem;
 $enable-responsive-font-sizes: true;
 $font-family-sans-serif: 'Montserrat', sans-serif !default;
 $headings-font-family: 'Montserrat Alternates', serif !default;
@@ -52,14 +52,17 @@ main .container, footer .container {
 h1, h2, h3, h4, h5, h6 {
     @extend .mb-3;
 }
+hr {
+    @extend .my-5, .mx-n2, .mx-sm-n3;
+}
 .navbar {
     @extend .py-1;
 }
 .navbar-brand {
     padding-top: 0;
 }
-.yx-logogram {
-        height: 1rem;
+.badge {
+    font-weight: normal;
 }
 .jumbotron {
     margin: 0;
@@ -67,6 +70,9 @@ h1, h2, h3, h4, h5, h6 {
     .container {
         @extend .text-center, .p-5;
     }
+}
+.yx-logogram {
+        height: 1rem;
 }
 .yx-jumbotron-home {
     @extend  .jumbotron, .jumbotron-fluid, .bg-primary, .text-light;
@@ -85,6 +91,40 @@ h1, h2, h3, h4, h5, h6 {
 .yx-stretched-linkable {
     position: relative;
 }
-.badge {
-    font-weight: normal;
+.yx-content.container {
+    h1, h2, h3, h4, h5, h6 {
+        @extend .mt-5;
+        .yx-anchor {
+            display: none;
+        }
+    }
+    h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+        .yx-anchor {
+            display: inline;
+        }
+    }
+    figure {
+        @extend .my-5, .text-center;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        @media (max-width: 991px) {
+            margin-left: -50vw;
+            margin-right: -50vw;
+            width: 100vw;
+        }
+        @media (min-width: 992px) {
+            max-width: 960px;
+            margin-left: -480px;
+            margin-right: -480px;
+        }
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+            margin-left: -570px;
+            margin-right: -570px;
+        }
+    }
+    figcaption {
+        @extend small;
+    }
 }

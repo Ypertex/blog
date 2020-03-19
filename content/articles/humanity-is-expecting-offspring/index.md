@@ -3,6 +3,7 @@ title: Humankind Is Expecting Offspring—Are We Ready?
 publishdate: 2017-03-30
 tags: [Artificial Intelligence]
 summary: The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?
+cover: 740eae17-92aa-49bb-b76f-1d12939a6997
 aliases: [/2017/03/30/humanity-is-expecting-offspring/]
 ---
 

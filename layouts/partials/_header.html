@@ -8,7 +8,7 @@
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.header }}
                     <a href="{{ .URL | relURL }}"
-                        class="nav-item nav-link{{ if or ($currentPage.HasMenuCurrent "header" .) ($currentPage.IsMenuCurrent "header" .) }} active{{ end }}">{{ .Name }}</a>
+                        class="nav-item nav-link{{ if or ($currentPage.IsMenuCurrent "header" .) ($currentPage.HasMenuCurrent "header" .) }} active{{ end }}">{{ .Name }}</a>
                     {{ end }}
                 </div>
                 <div class="navbar-nav">

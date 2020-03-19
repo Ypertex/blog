@@ -4,6 +4,7 @@ publishdate: 2017-03-23
 authors: [Michael Schmidle]
 tags: [On a Personal Note]
 summary: After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?
+cover: 84b1783d-5648-4b7b-8e3b-28f30c43d083
 aliases: [/2017/03/23/ypertex-blog-launching-today/]
 ---
 

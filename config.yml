@@ -32,8 +32,18 @@ params:
     cloudinary:
         baseURL: https://res.cloudinary.com/ypertex/image/upload/
         transformations:
-            index: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/
             avatar: ar_1,c_thumb,dpr_auto,f_auto,g_face,q_auto,w_128/
+            figureXl: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/
+            figureLg: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/
+            figureMd: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/
+            figureSm: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_540/
+            figureXs: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_540/
+            indexXl: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/
+            indexLg: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/
+            indexMd: ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/
+            indexSm: ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/
+            indexXs: ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/
+    dateFormat: Jan 2, 2006
     description: Technology. Innovation. Leadership.
 
 taxonomies:

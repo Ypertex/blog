@@ -1,3 +1,19 @@
 {{ define "main" }}
-
+<section class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-3">{{ .Title }}</h1>
+        {{ partial "article-date.html" . }}
+        {{ partial "article-tags.html" . }}
+    </div>
+</section>
+<section class="yx-content container py-5">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <p class="lead">{{ .Summary }}{{ if ne .PublishDate .Lastmod }} <small class="text-muted">[Edited
+                    {{ .Lastmod | dateFormat .Site.Params.dateFormat }}]</small>{{ end }}</p>
+            <hr>
+            {{ .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}&nbsp;<a class="yx-anchor" href="#${2}"><i class="las la-link"></i></a>${3}` | safeHTML }}
+        </div>
+    </div>
+</section>
 {{ end }}

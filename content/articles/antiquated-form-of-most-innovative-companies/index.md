@@ -3,6 +3,7 @@ title: The Antiquated Form of the World’s Most Innovative Companies
 publishdate: 2018-04-05
 tags: [Innovation]
 summary: Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come?
+cover: ac6a470c-93e0-4020-9dcd-7a61c33101bf
 ---
 
 Over eight years ago, I moved to Switzerland–a country with one of the most direct democracies in the world. This political system means that the Swiss citizens are regularly asked to vote on all kinds of governmental matters. Instead of only casting their votes every few years to elect their leaders, the Swiss adults usually receive once per quarter an invitation to vote on very specific subject matters. These matters can relate to federal, cantonal (i.e. state), or municipal issues.

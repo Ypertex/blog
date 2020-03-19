@@ -3,7 +3,7 @@ title: Tools for the Smart Start-up in 2018 (I)
 publishdate: 2018-08-02
 lastmod: 2019-06-28
 tags: [IT Recommendations]
-summary: If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas. [Updated June 28, 2019]
+summary: If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas.
 aliases: [/articles/tools-for-the-smart-start-up-1/]
 cover: 7b95a9b0-0f54-44f9-8af3-dd6820d3051d
 ---

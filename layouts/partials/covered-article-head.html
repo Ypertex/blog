@@ -1,20 +1,22 @@
 <div class="row align-items-center">
     <div class="col-md-4 mb-3 mb-md-0{{ if .inverted }} order-md-last{{ end }}">
         {{ if .article.Params.cover }}
-        <picture>
-            <source media="(min-width: 1200px)"
-                srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index }}{{ .article.Params.cover }}">
-            <source media="(min-width: 992px)"
-                srcset="{{ .cloudinary.baseURL }}ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/{{ .article.Params.cover }}">
-            <source media="(min-width: 768px)"
-                srcset="{{ .cloudinary.baseURL }}ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/{{ .article.Params.cover }}">
-            <source media="(min-width: 576px)"
-                srcset="{{ .cloudinary.baseURL }}ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/{{ .article.Params.cover }}">
-            <source media="(max-width: 575px)"
-                srcset="{{ .cloudinary.baseURL }}ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/{{ .article.Params.cover }}">
-            <img src="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index }}{{ .article.Params.cover }}"
-                alt="" class="shadow w-100">
-        </picture>
+        <a href="{{ .article.RelPermalink }}">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexXl }}{{ .article.Params.cover }}">
+                <source media="(min-width: 992px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexLg }}{{ .article.Params.cover }}">
+                <source media="(min-width: 768px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexMd }}{{ .article.Params.cover }}">
+                <source media="(min-width: 576px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexSm }}{{ .article.Params.cover }}">
+                <source media="(max-width: 575px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexXs }}{{ .article.Params.cover }}">
+                <img src="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexXl }}{{ .article.Params.cover }}"
+                    alt="" class="shadow w-100">
+            </picture>
+        </a>
         {{ end }}
     </div>
     <div class="col-md-8{{ if .inverted }} text-md-right{{ end }}">

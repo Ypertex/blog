@@ -3,6 +3,7 @@ title: The Making of the Ypertex Logo
 publishdate: 2017-05-17
 tags: [Design, On a Personal Note]
 summary: The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).
+cover: 9ea85810-8651-4115-a68e-83be3ee886d4
 aliases: [/2017/05/17/the-making-of-the-ypertex-logo/]
 ---
 

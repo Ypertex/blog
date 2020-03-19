@@ -38,7 +38,7 @@ While RATs are a big help to better understand your boss or client at a given mo
 
 ## Make the Rules Known to the Referees—Your Rules
 
-In our strategy and innovation team at the Swiss Broadcast Corporation [SRG SSR](https://www.srgssr.ch/en/), we recently started to employ **a tactic called Non-Negotiables**. We are in charge of the corporate strategies and partnerships in the area of technology. Now, when starting to work on something new, we take time to determine what our Non-Negotiables are before collaborating with all the units and departments that need to be involved in the work.
+In our strategy and innovation team at the Swiss Broadcast Corporation [SRG&nbsp;SSR](https://www.srgssr.ch/en/), we recently started to employ **a tactic called Non-Negotiables**. We are in charge of the corporate strategies and partnerships in the area of technology. Now, when starting to work on something new, we take time to determine what our Non-Negotiables are before collaborating with all the units and departments that need to be involved in the work.
 
 Taking time to define your Non-Negotiables (individually or as team) will help you in several ways:
 
