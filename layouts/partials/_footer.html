@@ -1,6 +1,6 @@
 <footer class="bg-secondary text-light text-center">
     <div class="container py-5">
-        <p><small><a href="">Privacy Policy</a></small></p>
+        <p><small><a href="{{ `/privacy/` | relURL }}">Privacy Policy</a></small></p>
         <p>{{ partial "ypertex-logogram-2020-03.svg" }}</p>
         <p><small>Copyright © 2017-{{ .Site.LastChange.Format "2006" }} {{ .Site.Params.author }}<br>
                 {{ with .Site.Copyright }}{{ . | markdownify }}{{ end }}</small>

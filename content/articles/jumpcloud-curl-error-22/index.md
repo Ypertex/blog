@@ -13,7 +13,7 @@ aliases: [/2017/06/21/jumpcloud-curl-error-22/]
 
 In case you have not yet heard about [JumpCloud](https://jumpcloud.com/): It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for **Single Sign On in web apps and clients**. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, MacOS and Windows clients and servers enables you and your directory users to log into these machines *with your directory credentials*. How awesome is that!
 
-{{<figure src="/media/jumpcloud.com-2017-06.jpg">}}Screenshot of the jumpcloud.com website, June 2017{{</figure>}}
+{{<figure src="8a0f15ad-90b4-44b6-be9f-98261403072f">}}Screenshot of the jumpcloud.com website, June 2017{{</figure>}}
 
 No big deal, you say? Active Directory already provides this functionality, you say?—Not quite!
 

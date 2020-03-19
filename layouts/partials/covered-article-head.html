@@ -11,9 +11,7 @@
                     srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexMd }}{{ .article.Params.cover }}">
                 <source media="(min-width: 576px)"
                     srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexSm }}{{ .article.Params.cover }}">
-                <source media="(max-width: 575px)"
-                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexXs }}{{ .article.Params.cover }}">
-                <img src="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexXl }}{{ .article.Params.cover }}"
+                <img src="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.indexXs }}{{ .article.Params.cover }}"
                     alt="" class="shadow w-100">
             </picture>
         </a>

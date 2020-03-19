@@ -8,12 +8,11 @@
             srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figureMd }}{{ .Get `src` }}">
         <source media="(min-width: 576px)"
             srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figureSm }}{{ .Get `src` }}">
-        <source media="(max-width: 575px)"
-            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figureXs }}{{ .Get `src` }}">
         <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figureXs }}{{ .Get `src` }}"
-            alt="" class="shadow w-100">
+            alt="" class="shadow img-fluid">
     </picture>
     <figcaption class="mt-3 col-md-8 mx-auto">
-        {{ .Inner | markdownify }}
+        {{ .Inner | markdownify }}{{ with .Get `cite` }} <span class="text-muted">[Image:
+            {{ . | markdownify }}]</span>{{ end }}
     </figcaption>
 </figure>

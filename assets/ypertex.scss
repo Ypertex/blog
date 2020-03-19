@@ -108,10 +108,15 @@ hr {
         position: relative;
         left: 50%;
         right: 50%;
-        @media (max-width: 991px) {
-            margin-left: -50vw;
-            margin-right: -50vw;
-            width: 100vw;
+        @media (max-width: 767px) {
+            margin-left: -49vw;
+            margin-right: -49vw;
+            width: 98vw;
+        }
+        @media (min-width: 768px) {
+            max-width: 720px;
+            margin-left: -360px;
+            margin-right: -360px;
         }
         @media (min-width: 992px) {
             max-width: 960px;
@@ -126,5 +131,8 @@ hr {
     }
     figcaption {
         @extend small;
+        a {
+            font-weight: normal;
+        }
     }
 }

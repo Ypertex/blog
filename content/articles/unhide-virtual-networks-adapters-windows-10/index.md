@@ -10,7 +10,7 @@ If you ever have installed a virtualization platform like VMware Workstation or 
 
 I assume that for the majority of users, these adapters showing up in all possible places of the <abbr title="Operating System">OS</abbr> just like regular network interfaces caused more confusion than it was helpful. So they changed how Windows treats virtual network adapters.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574342869/cb4332a2-eace-43e5-8271-4cdfe85c14f5.jpg">}}"It's easy to get confused with too many ports, so let's hide some." (Image: [Taylor Vick](https://unsplash.com/photos/M5tzZtFCOfs)){{</figure>}}
+{{<figure src="cb4332a2-eace-43e5-8271-4cdfe85c14f5.jpg" cite="[Taylor Vick](https://unsplash.com/photos/M5tzZtFCOfs)">}}"It's easy to get confused with too many ports, so let's hide some."{{</figure>}}
 
 There might be cases however, in which you need Windows to treat a virtual network adapter just like a regular one. A small change in the registry and a reboot fixes this.
 
@@ -45,7 +45,7 @@ However, there is a smart way to avoid this public exposure when running Windows
 
 Install VMware Workstation, Oracle Virtualbox or similar, then create a virtual machine with [OPNSense](https://opnsense.org/) or some other firewall as OS on top. OPNSense is a full-blown firewall that can be exposed to a direct Internet connection more securely than a client OS like Windows 10. Hooking the firewall <abbr title="Virtual Machine">VM</abbr> between the gaming OS and the internet creates a second, more secure path:
 
-{{<figure src="/media/virtual-network-adapters.svg">}}Creating a second and more secure Internet connection via virtual environment{{</figure>}}
+{{<figure src="3b8baf4b-f55d-48cd-a726-4aaaa456890b">}}Creating a second and more secure Internet connection via virtual environment{{</figure>}}
 
 The problem with this setup in newer Windows 10 releases: Windows disregards the virtual host-only network adapter as Internet connection. Disabling the physical adapter hence leads to Windows acting like it's completely offline—even if a fully working connection via the virtual environment and the secondary <abbr title="Internet Protocol">IP</abbr> address is established.
 
@@ -69,7 +69,7 @@ Now that Windows recognizes the second connection as valid Internet connection, 
 
 I use a combination of 2 and 3. Either way, you will get the desired routing:
 
-{{<figure src="/media/virtual-network-adapters-primary.svg">}}Getting Windows 10 to use the second, more secure link while keeping the original connection as a fallback option.{{</figure>}}
+{{<figure src="01321431-2555-4d91-b5e0-02611689e8a3">}}Getting Windows 10 to use the second, more secure link while keeping the original connection as a fallback option.{{</figure>}}
 
 # Conclusion
 

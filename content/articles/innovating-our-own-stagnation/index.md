@@ -10,7 +10,7 @@ Today, we celebrate **[International Women's Day](https://www.internationalwomen
 
 It's an example of what humankind has yet to learn: a lot!
 
-{{<figure src="f26ee4ba-0482-4879-bf70-4f22aa033b58" />}}
+{{<figure src="f26ee4ba-0482-4879-bf70-4f22aa033b58" cite="[internationalwomensday.com](https://www.internationalwomensday.com/)">}}"An equal world is an enabled world."{{</figure>}}
 
 ## So Let's Learn?
 
@@ -47,7 +47,7 @@ If humans hired mostly white men for senior positions so far, an AI can do so fa
 
 Also, if a justice system is biased, an [AI could optimize and scale that bias](https://www.aclu.org/issues/privacy-technology/surveillance-technologies/ai-and-criminal-justice-devil-data) in a court's automated decision making based on historical data. Combine this with a self-driving car that's [programmed to spare a dog's life at the expense of a criminal](https://www.weforum.org/agenda/2018/10/how-should-autonomous-vehicles-be-programmed)---and every minor, biased court sentence could lead to one's death penalty by car accident.
 
-{{<figure src="e61eeb67-4397-4c82-98c4-5b332bd51be7" />}}
+{{<figure src="e61eeb67-4397-4c82-98c4-5b332bd51be7" cite="[Vlad Tchompalov](https://unsplash.com/@tchompalov)">}}A car with autopilot: Tesla Model 3{{</figure>}}
 
 ## So... What Now?
 

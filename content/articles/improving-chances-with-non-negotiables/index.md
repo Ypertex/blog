@@ -30,7 +30,7 @@ Of course, these methods depend on a few fragile conditions:
 
 Given [all the cognitive biases](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18) your boss, your client and yourself are subject to as human beings, there's still a high probability that you will ultimately be limited in your success. Phrases like "No, that's not what I meant" and "No, that's not how I understood it" may seem all to familiar.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/c_fill,g_auto,q_auto,w_740/v1578672254/ff6bd63b-abe6-49c8-984f-a8fe07fa4422.jpg">}}A map of humans' cognitive biases (Image: [Cognitive Bias Cheat Sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)){{</figure>}}
+{{<figure src="ff6bd63b-abe6-49c8-984f-a8fe07fa4422" cite="[Cognitive Bias Cheat Sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)">}}A map of humans' cognitive biases{{</figure>}}
 
 I've written another article about a complementary [concept called RATs](/articles/test-your-way-to-success/). It addresses the inherent flaws of verbal communication and uses experiments to test the riskiest assumptions: **Show, don't tell!**
 
@@ -53,7 +53,7 @@ Taking time to define your Non-Negotiables (individually or as team) will help y
 
 Some Non-Negotiables are nothing but common sense. You can discover them by simply asking "Is it really me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1581544571/dc95dace-00d2-494e-bd8b-90f2cfbe54a8.jpg">}}Non-Negotiables: Play by *your* rules{{</figure>}}
+{{<figure src="dc95dace-00d2-494e-bd8b-90f2cfbe54a8">}}Non-Negotiables: Play by *your* rules{{</figure>}}
 
 For any other work that fits our paygrade, we determine our Non-Negotiables this way:
 

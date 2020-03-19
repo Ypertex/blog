@@ -14,7 +14,7 @@ This was a question I was asked in an interview when I applied for a new job aft
 
 Of course, we all read and hear about the astronomical valuations of the start-ups i.e. in Silicon Valley and the amounts of money they can pour into their <abbr="Research & Development">R&D</abbr> and innovation labs. This however distorts our perception of reality: The fact is that the vast majority of business ventures start out with very few resources at their disposal.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574359729/7b95a9b0-0f54-44f9-8af3-dd6820d3051d.jpg">}}As a small start-up you can still cast a long shadow. (Image: [Evan Kirby](https://unsplash.com/photos/jl8x6XpE8Y4)){{</figure>}}
+{{<figure src="7b95a9b0-0f54-44f9-8af3-dd6820d3051d" cite="[Evan Kirby](https://unsplash.com/photos/jl8x6XpE8Y4)">}}As a small start-up you can still cast a long shadow{{</figure>}}
 
 So my response was: “Sure, we had a lot of freedom to experiment. But like for most start-ups in their initial phase, our budget was extremely tight, too, and we had to be *extra* smart about how we spent every single Swiss franc. I will employ the same approach in this role as well!”
 
@@ -34,7 +34,7 @@ For the purpose of this series of articles, let’s assume a start-up with a tea
 
 To start off, your team probably needs some hardware in order to communicate and collaborate. Outfitting everybody with devices can quickly exceed your budget, though. Imagine paying upfront a grand total of $4,000 for eight mid-range laptops, before your team even worked a single minute on the project…
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574365481/c978c945-4baf-480d-8e91-c07731f2e1e9.jpg">}}A stack of laptops, via [PCWorld](https://www.pcworld.com/article/3017182/hardware/usb-c-charging-universal-or-bust-we-plug-in-every-device-we-have-to-chase-the-dream.html){{</figure>}}
+{{<figure src="c978c945-4baf-480d-8e91-c07731f2e1e9" cite="[PCWorld](https://www.pcworld.com/article/3017182/hardware/usb-c-charging-universal-or-bust-we-plug-in-every-device-we-have-to-chase-the-dream.html)">}}A stack of laptops{{</figure>}}
 
 So, here are a few ideas on how to address this challenge:
 
@@ -52,7 +52,7 @@ Then there are cases where installing a hypervisor like VirtualBox on your team�
 
 There are only few cloud providers of virtual desktops (compared to the amount of cloud providers who offer virtual servers), and most of them target rather large enterprises than start-ups.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574366910/2441553b-3402-4e29-a505-1b043aa53241.jpg">}}The contrary of a virtual desktop: a mechanical typewriter (Image: [Patrick Fore](https://unsplash.com/photos/0gkw_9fy0eQ)){{</figure>}}
+{{<figure src="2441553b-3402-4e29-a505-1b043aa53241" cite="[Patrick Fore](https://unsplash.com/photos/0gkw_9fy0eQ)">}}The contrary of a virtual desktop: a mechanical typewriter{{</figure>}}
 
 However, there is one provider that I can recommend:
 
@@ -62,21 +62,21 @@ If paid by the hour, the pricing of a reasonably sized Paperspace virtual deskto
 
 The fact that Paperspace desktops can simply be used *via browser* without any additional software to install, makes this option especially valuable if you don’t want to or can’t touch your team members’ devices.
 
-{{<figure src="/media/paperspace-vdi-2018-08.jpg">}} Screenshot of the [Paperspace VDI website](https://www.paperspace.com/vdi), August 2018{{</figure>}}
+{{<figure src="b5ae993f-c2d4-46f2-9dc7-9043e3f72fa0">}} Screenshot of the Paperspace VDI website, August 2018{{</figure>}}
 
 I have used Paperspace productively myself a few months ago and generally can recommend their service. The only issue I encountered was a weird keyboard mapping with regard to the German Umlauts (äöü).
 
 But what if $16 per month per team member is already too high of a price? Imagine a team of 8 people; they would have to pay roughly $128/month to use Paperspace—or more if they burn the midnight oil and exceed the 40 hours per week in that calculation. What if team members forget to turn off their virtual desktops after work? We certainly can be even smarter and bring this cost down further. What about instead running our own VDI on a server that we rent?
 
-### Dedicated Server Providers [Online.net](https://www.online.net/en/), [Hetzner](https://www.hetzner.com/), and [Servdiscount](https://servdiscount.com/) [Updated June 28, 2019]
+### Dedicated Server Providers [Online.net](https://www.online.net/en/), [Hetzner](https://www.hetzner.com/), and [Servdiscount](https://servdiscount.com/)
 
 There are several providers in Europe who offer server hardware as a service at very low prices: the French provider Online.net (with data centers in France and the Netherlands) as well as the German providers Hetzner (with data centers in Germany and Finland) and Servdiscount (with a data center in Germany). The low end divisions [Kimsufi](https://www.kimsufi.com/us/en/) and [So you Start](https://www.soyoustart.com/us/) of [OVH](https://www.ovh.com/world/) are, hands down, no match for Online.net, Hetzner, and Servdiscount.
 
-{{<figure src="/media/hetzner-dedicated-server-2018-08.jpg">}}Screenshot of the [Hetzner Dedicated Server website](https://www.hetzner.com/dedicated-rootserver), August 2018{{</figure>}}
+{{<figure src="af86d5f7-0a25-4e58-aab9-e3496ef78000">}}Screenshot of the Hetzner Dedicated Server website, August 2018{{</figure>}}
 
 Overall, Hetzner currently has the better deals in my opinion. The new *vSwitch* feature, available for all their servers with no additional cost, allows to securely interconnect servers within Hetzner’s data centers. This adds a lot of value if you need more than one server (for clustering for example).
 
-{{<figure src="/media/online.net-dedicated-server-2018-08.png">}}Screenshot of the [Online.net Dedicated Server website](https://www.online.net/en/dedicated-server), August 2018{{</figure>}}
+{{<figure src="aba0d8c0-c11a-4982-8d58-649e6dca239f">}}Screenshot of the Online.net Dedicated Server website, August 2018{{</figure>}}
 
 One feature that I especially like at Online.net is the availability of a <abbr title="Keyboard Video Mouse">KVM</abbr> console *within seconds*. Such a console allows to access the server’s screen even during boot time or after accidentally having locked out oneself (by i.e. messing with the servers connectivity settings). In the case of Hetzner, users first have to raise a support ticket, never knowing upfront how long it might take to get the requested KVM console. (The Hetzner support usually acts fast, but gets squarely beaten by the automated process at Online.net.)
 
@@ -108,7 +108,7 @@ Great question, but there is a smart solution for that.
 
 On a Subreddit called [Microsoft Softwareswap](https://www.reddit.com/r/microsoftsoftwareswap/), people sell Microsoft software licenses that they own for low prices. At first glance, this marketplace seems a bit phony—but from what I can tell and have researched, these are legitimate, genuine Microsoft software licenses. The handful that I bought there in the past all activated the software perfectly fine without any problem whatsoever.
 
-{{<figure src="/media/reddit-microsoftsoftwareswap-2018-08.png" />}}
+{{<figure src="2ccb3d88-a2e7-42cc-b405-9f9ceaf101df" />}}
 
 One license is particularly interesting: the **Windows Server Datacenter edition**. The current version 2016 for example sells as low as $40 on Reddit. Compared to the price that Microsoft asks, it’s unbelievably cheap: Microsoft sells the Datacenter 2016 license for currently *$6,155*. Read that again. Yes, you pay only *0.65%* of the list price if you buy such a license via the Subreddit mentioned above instead of buying it directly from Microsoft.
 
@@ -134,7 +134,7 @@ Fortunately, there exists an excellent open source software that enables this fe
 
 The developers call Guacamole a “clientless remote desktop gateway”. This means that you can access the gateway simply via a web browser, without any specific client. This gateway then connects to the desktops and lets users interact with them through their browsers.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574359418/d8c0ae14-99c6-4a14-ad5b-1e62bcbf1759.jpg">}}Did I mention that I love Guacamole—both the food and the software? (Image: [Juan Manuel Giraldo Grisales](https://unsplash.com/photos/K7bd0WoYfoo)){{</figure>}}
+{{<figure src="d8c0ae14-99c6-4a14-ad5b-1e62bcbf1759" cite="[Juan Manuel Giraldo Grisales](https://unsplash.com/photos/K7bd0WoYfoo)">}}Did I mention that I love Guacamole—both the food and the software?{{</figure>}}
 
 The installation of Guacamole is a bit of a head scratcher, though. Following the official installation guide involves many manual steps. Fortunately, there are smart people who found [ways to simplify the process](https://github.com/BrowncoatShadow/compose-guacamole) with the help of [Docker](https://www.docker.com/). So, all you need is a Linux virtual machine somewhere (i.e. on the server from Hetzner that runs all your virtual desktops), install Docker and [Docker Compose](https://docs.docker.com/compose/) and then run the following three commands:
 
@@ -156,7 +156,7 @@ My favorite for quite some time was the Sophos XG <abbr title="Unified Threat Ma
 
 However, I lately gave the open source firewall OPNsense a try—and never looked back. It basically has the same feature set than the Sophos XG but with a much, much smaller footprint in terms of hardware resources (especially <abbr title="Random Access Memory">RAM</abbr>, hovering over *extremely economical* 160MB in my current cloud lab setup). It also installs much faster.
 
-{{<figure src="/media/opnsense-dashboard.jpg">}}Screenshot of the OPNsense dashboard{{</figure>}}
+{{<figure src="1ad0fea9-b819-43fe-9f60-633fc6493bf6">}}Screenshot of the OPNsense dashboard, March 2016{{</figure>}}
 
 Additionally, OPNsense even has one crucial feature that most other firewalls lack: support for ZeroTier. Which brings me to my next point.
 
@@ -168,7 +168,7 @@ I love <abbr title="Software as a Service">SaaS</abbr> providers who offer a fre
 
 The first service I’d like to mention is called ZeroTier. It works like a <abbr title="Virtual Private Network">VPN</abbr> in the sense that it allows to interconnect devices in a private network wherever they are: at home, in the data center, somewhere in the cloud or roaming abroad. All at once, all encrypted.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574365358/72197694-a570-4781-9625-1639b4f03414.jpg">}}Interconnecting things can be complex sometimes—like these roads in a Malaysian interchange. (Image: [Ishan @seefromthesky](https://unsplash.com/photos/N2HtDFA-AgM)){{</figure>}}
+{{<figure src="72197694-a570-4781-9625-1639b4f03414" cite="[Ishan @seefromthesky](https://unsplash.com/photos/N2HtDFA-AgM)">}}Interconnecting things can be complex sometimes—like these roads in a Malaysian interchange{{</figure>}}
 
 What separates ZeroTier from traditional VPN technology like [OpenVPN](https://openvpn.net/) is that it basically does not require any user intervention. Users don’t have to dial in—their devices simply interconnect as soon as they get Internet connectivity. It works a bit like [Microsoft DirectAccess](https://docs.microsoft.com/en-us/windows-server/remote/remote-access/directaccess/directaccess) with the difference that ZeroTier is also available for Apple (macOS and iOS), Linux, Android, Microsoft, and even some <abbr title="Network Attached Storage">NAS</abbr> devices. With ZeroTier you can offer your team to directly, but securely connect to their virtual desktops via RDP.
 
@@ -184,7 +184,7 @@ The second approach is called <abbr title="Single Sign-On">SSO</abbr>. It basica
 
 JumpCloud is such a service, offering a free entry level plan for up to ten users. The neat thing about it is that you can use it to even manage the logins for large parts of the <abbr title="Do It Yourself">DIY</abbr> mentioned above: native Windows and Linux logins, Apache Guacamole, and OPNsense logins. Simply define which user is allowed to access which device, and with what kind of privileges (root/administrator or normal user). This also means that your IT administrator can revoke access to any or all devices by a single click if need be. I can really recommend the service as it improves both overall security and user comfort.
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574365499/c6541768-4b41-4bae-967c-3f121b50a695.jpg">}}[Last time I wrote about JumpCloud](https://blog.ypertex.com/articles/jumpcloud-curl-error-22/), they sent me this shirt with a handwritten note. So you know they must be cool!{{</figure>}}
+{{<figure src="c6541768-4b41-4bae-967c-3f121b50a695">}}Last time [I wrote about JumpCloud](https://blog.ypertex.com/articles/jumpcloud-curl-error-22/), they sent me this shirt with a handwritten note. So you know they must be cool!{{</figure>}}
 
 ## Conclusion
 

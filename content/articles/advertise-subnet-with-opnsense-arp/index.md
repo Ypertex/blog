@@ -6,9 +6,9 @@ summary: If you ever wondered how to split a subnet away from a fixed upstream g
 cover: a6e46127-e43f-4ea3-9aa8-819893c0f602
 ---
 
-{{<figure src="https://res.cloudinary.com/ypertex/image/upload/ar_5:3,c_fill,g_auto,q_auto,w_740/v1574344649/a6e46127-e43f-4ea3-9aa8-819893c0f602.jpg">}}Splitting stuff is hard enough, but how do you move away the part that you just split off? (Image: [Pablo Heimplatz](https://unsplash.com/photos/an3qaxZ-2bY)){{</figure>}}
-
 Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an [OPNsense firewall](https://opnsense.org/) as my router. I thought I’d document this in case anyone else is looking for a solution to this, too.
+
+{{<figure src="a6e46127-e43f-4ea3-9aa8-819893c0f602" cite="[Pablo Heimplatz](https://unsplash.com/photos/an3qaxZ-2bY)">}}Splitting stuff is hard enough, but how do you move away the part that you just split off?{{</figure>}}
 
 ## The Challenge of Transparently Splitting a Subnet
 

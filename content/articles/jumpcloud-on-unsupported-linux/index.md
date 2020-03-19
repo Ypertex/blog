@@ -16,11 +16,11 @@ Fortunately, there's a **way around that limitation** that I'd like to share wit
 
 It seems that the JumpCloud Linux agent checks the small text file ``/etc/issue`` to determine whether it is compatible with the system on which it was started. The content of this file is printed on the (virtual) screen after the system booted. It is displayed just above the login prompt and originally contains information about the operating system:
 
-{{<figure src="/media/debian-issue.png">}}The current version of Debian identifies itself as ``Debian GNU/Linux 9``{{</figure>}}
+{{<figure src="5b729119-c298-4e30-a5c1-04b923002148">}}The current version of Debian identifies itself as ``Debian GNU/Linux 9``{{</figure>}}
 
 Software developers at Proxmox and Openmediavault have used this file to display additional information at the login prompt about how to use their applications:
 
-{{<figure src="/media/pve-issue.png">}}Proxmox Virtual Environment shows instructions on how to connect to its web interface{{</figure>}}
+{{<figure src="d16cbce2-545a-45f3-8623-011575a2d920">}}Proxmox Virtual Environment shows instructions on how to connect to its web interface{{</figure>}}
 
 Of course, now the content of ``/etc/issue`` doesn't match with the records in JumpCloud's database anymore. Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?
 

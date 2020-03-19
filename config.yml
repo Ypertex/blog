@@ -36,8 +36,8 @@ params:
             figureXl: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/
             figureLg: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/
             figureMd: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/
-            figureSm: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_540/
-            figureXs: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_540/
+            figureSm: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/
+            figureXs: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/
             indexXl: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/
             indexLg: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/
             indexMd: ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/
