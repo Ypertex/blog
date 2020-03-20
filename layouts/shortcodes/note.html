@@ -1,1 +1,3 @@
-{{ .Inner }}
+<div class="alert mx-n3 p-3{{ with .Get `class` }} {{ . }}{{ else }} alert-primary{{ end }}">
+    {{ .Inner | markdownify }}
+</div>

@@ -30,7 +30,7 @@ Of course, these methods depend on a few fragile conditions:
 
 Given [all the cognitive biases](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18) your boss, your client and yourself are subject to as human beings, there's still a high probability that you will ultimately be limited in your success. Phrases like "No, that's not what I meant" and "No, that's not how I understood it" may seem all to familiar.
 
-{{<figure src="ff6bd63b-abe6-49c8-984f-a8fe07fa4422" cite="[Cognitive Bias Cheat Sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)">}}A map of humans' cognitive biases{{</figure>}}
+{{<figure src="ff6bd63b-abe6-49c8-984f-a8fe07fa4422" cite="[Cognitive Bias Cheat Sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)" transformation="full">}}A map of humans' cognitive biases{{</figure>}}
 
 I've written another article about a complementary [concept called RATs](/articles/test-your-way-to-success/). It addresses the inherent flaws of verbal communication and uses experiments to test the riskiest assumptions: **Show, don't tell!**
 
@@ -47,7 +47,11 @@ Taking time to define your Non-Negotiables (individually or as team) will help y
 * In case your Non-Negotiables are questioned, you can **defend your position better** since you (and your team) have taken time in advance to weigh all the pro and contra arguments. This also puts everyone in your team in a good starting point to negotiate since they know where it's OK to make counter offers.
 * This approach allows you to **find out who your real opponents are**. A stakeholder who is against all your Non-Negotiables must be managed differently than someone who is against all what *can* be negotiated.
 
-{{<note class="is-info" hr-top="true" hr-bottom="true">}}**Pro-Tip:** Ask your boss or your clients for *their* Non-Negotiables, too: What's off limits for them? I'm certain it will help your mutual understanding and collaboration, too.{{</note>}}
+---
+
+{{<note>}}**Pro-Tip:** Ask your boss or your clients for *their* Non-Negotiables, too: What's off limits for them? I'm certain it will help your mutual understanding and collaboration, too.{{</note>}}
+
+---
 
 # How We Find Our Non-Negotiables
 

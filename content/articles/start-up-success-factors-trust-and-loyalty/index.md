@@ -11,7 +11,7 @@ In late 2012, I co-founded a company called EntrePreneurs (no, not really—I ch
 
 Paradoxically, this was also the time when we had to shut down the company—and fire all 16 people in the process including ourselves, the founders.
 
-{{<figure src="/media/start-up-inside.jpg">}}Fragile: Start-Up Inside, Handle With Care{{</figure>}}
+{{<figure src="e825cd5a-0616-446b-8339-57a4a1ee7135">}}Fragile: Start-Up Inside, Handle With Care{{</figure>}}
 
 Now, three years later, I would like to look back and **share my experience and learnings with you**: How or why could happen what had happened to EntrePreneurs? What do I think were the main reasons for EntrePreneurs to fail the way it did? What could we have done differently to save the company and be successful?
 
@@ -37,7 +37,7 @@ To give you the context of why the financial situation could develop the way it 
 
 We launched EntrePreneurs with ~70% of the funds required to break even according to our business plan. We were all confident that we would be able to close the gap during the course of the first year (and to some limited extent we were able to deliver on this promise). Our experienced investors and the seasoned business managers on our supervisory board did not seem to be overly worried about the gap—in the beginning at least. In other words: We accepted **the initially underfunded business plan as calculated risk**.
 
-{{<figure src="/media/mind-the-gap.jpg">}}A “Mind the Gap” warning in London’s subway{{</figure>}}
+{{<figure src="27998fcf-cfaf-4af4-937d-751f32c57b4e">}}A “Mind the Gap” warning in London’s subway{{</figure>}}
 
 As it turned out, it was quite difficult and hence took longer to find investors for a series B funding. For the first venture round, we had been able to rely on existing partnerships established over several years; for the second round we had to forge new relationships with people who were unfamiliar with our approach and our social business model. You should know: EntrePreneurs was not just a start-up trying to disrupt an existing industry; as a service provider for not-for-profit organizations (<abbr title="Non Governmental Organizations">NGO</abbr>s) in Switzerland, we were **a new company *in a new industry***. There was nobody outside EntrePreneurs who already had experience in this area, let alone experience as a start-up investor. Naturally, it took a lot of time and work to find potential investors.
 
@@ -47,7 +47,7 @@ As it turned out, it was quite difficult and hence took longer to find investors
 
 This calculated risk of the underfunded business plan eventually turned into an existential threat due to an unforeseen circumstance that unfolded in parallel. We were making big strides in the public sector and were invited to participate as consultants in the revision of a law in the canton of Lucerne. (Cantons in Switzerland are what states are in the US.) The idea behind said revision was to extend public-private partnerships in exactly our domain—a really big deal for our company.
 
-{{<figure src="/media/lucerne-parliament-in-session.jpg">}}Lucerne Parliament in session, via [SRF](http://www.srf.ch/iapp/image/10322887/5/luzerner_parlament_spart_und_lockert_schuldenbremse@1x.jpg){{</figure>}}
+{{<figure src="71ee8936-834d-4cb2-b2e8-763bc43fb80a" cite="[SRF](http://www.srf.ch/iapp/image/10322887/5/luzerner_parlament_spart_und_lockert_schuldenbremse@1x.jpg)">}}Lucerne Parliament in session{{</figure>}}
 
 Unfortunately, some political factions opposed the approach envisioned in the draft—and, in good Swiss tradition, started a **referendum against the new law**. This had two significant effects:
 
@@ -86,7 +86,7 @@ On the one hand, externally, it was difficult to find a lot of candidates in the
 
 At some point it dawned on me that the close **relationship between CEO and CIO was quite literally too close, as in: closed**. We would need to open up and trust outsiders more.
 
-{{<figure src="/media/missing-piece.jpg">}}Matter of opinion: Is this the missing piece?{{</figure>}}
+{{<figure src="7281b199-c720-4f18-9ce8-f67679249bfd">}}Matter of opinion: Is this the missing piece?{{</figure>}}
 
 As the perfectionist he was, our CEO demanded only the best from him and also everybody else. And while these high expectations can push a team to deliver outstanding work, it can also trap you. Naturally as CEO, there were many things that he was more successful at than other people. But even after delegating duties to others, he often found himself right back in the middle of the delegated tasks as soon as things took a direction he thought was the wrong way.
 
@@ -125,7 +125,7 @@ I remember the time when I briefly thought about quitting because we were not ma
 
 So I stayed and did not make a big fuss about it; I remained loyal and saw it through to the very end.
 
-{{<figure src="/media/guaranteed-loyalty.jpg">}}The issue with guaranteed loyalty: At some point, people just take for granted that you follow them anywhere{{</figure>}}
+{{<figure src="b96e39d0-6537-4da7-9ab2-8396a97030dd" transformation="padded">}}The issue with guaranteed loyalty: At some point, people just take for granted that you follow them anywhere{{</figure>}}
 
 The effect of this was huge—as much as I can tell now. **My guaranteed loyalty took away my function as the CEO’s sparring partner.** I would challenge him not enough anymore on his ideas and actions. He would start to decide important things without consulting me first, assuming I would be OK with them—like I had been most of the time. I would not look close enough anymore and observe in detail what was happening around me. Furthermore, my behavior most certainly discouraged others from stepping up and criticizing the CEO. My most important job was establishing and personally executing a culture where constructive critique against the CEO was accepted—and I failed.
 
@@ -161,4 +161,4 @@ With this article, I also want to encourage other fellow founders to write about
 
 ---
 
-{{<note class="is-info">}}Like all posts in my blog, this article reflects my personal opinion. I hope I found the right balance by providing value to a broader audience while still respecting the people involved. Of course, other ex-EntrePreneurs might maintain different positions on this topic and are welcome to correct any facts that I might have misrepresented.{{</note>}}
+{{<note>}}Like all posts in my blog, this article reflects my personal opinion. I hope I found the right balance by providing value to a broader audience while still respecting the people involved. Of course, other ex-EntrePreneurs might maintain different positions on this topic and are welcome to correct any facts that I might have misrepresented.{{</note>}}

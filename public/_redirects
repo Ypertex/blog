@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://blog-ypertex-com.netlify.com/* https://blog.ypertex.com/:splat 301!

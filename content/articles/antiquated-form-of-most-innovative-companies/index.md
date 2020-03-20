@@ -62,7 +62,7 @@ Simon Sinek does a better job describing Game Theory than I ever could in the vi
 
 He rightfully points out that **most companies do not understand that they are playing an infinite game**. Usually, companies act like they would play some finite game by “beating the competition”, “being market leader”, or “winning the race”.
 
-{{<figure src="26962dc2-5fbe-46c1-9cb7-df9376bebcae" cite="[Dilbert.com](http://dilbert.com/strip/2009-12-09)">}}The non-sense of competitor-oriented businesses{{</figure>}}
+{{<figure src="26962dc2-5fbe-46c1-9cb7-df9376bebcae" cite="[Dilbert.com](http://dilbert.com/strip/2009-12-09)" transformation="padded">}}The non-sense of competitor-oriented businesses{{</figure>}}
 
 In my experience, this assessment is spot on: Companies usually focus a lot on their current competitors as well as on short-term gains when taking decisions. They rarely decide based on their values and vision if that could result in short-term setbacks.
 
@@ -88,7 +88,7 @@ In his book “Reinventing Organizations”, Frederic Laloux perfectly captures 
 
 I think most of us can relate to the following illustration:
 
-{{<figure src="74bf2ec4-a42f-4880-afdf-cc2512b6ace2" cite="Frederic Laloux, “Reinventing Organizations”, 2014" title="“Since you only have three minutes to make this critical decision, I’ll just share a few sound bites … and then we’ll all pretend you understand the implications of your decision.”">}}“Hierarchy cannot cope with complexity”{{</figure>}}
+{{<figure src="74bf2ec4-a42f-4880-afdf-cc2512b6ace2" cite="Frederic Laloux, “Reinventing Organizations”, 2014" title="“Since you only have three minutes to make this critical decision, I’ll just share a few sound bites … and then we’ll all pretend you understand the implications of your decision.”" transformation="padded">}}“Hierarchy cannot cope with complexity”{{</figure>}}
 
 However, Frederic Laloux can take away one positive aspect from his research:
 

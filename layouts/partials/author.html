@@ -1,10 +1,9 @@
-{{ with .GetPage (printf "/authors/%s" (.Site.Params.author | urlize)) }}
 <div class="media">
     {{ if .Params.avatar }}<img
         src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.avatar }}{{ .Params.avatar }}"
         class="yx-avatar" height="64" width="64">{{ end }}
     <div class="media-body">
-        <h4>{{ .Site.Params.author }}</h4>
+        <h4>{{ .Title }}</h4>
         {{ .Content }}
         <p class="mb-0">{{ range .Site.Menus.social }}
             <a href="{{ .URL }}"
@@ -12,4 +11,3 @@
             {{ end }}</p>
     </div>
 </div>
-{{ end }}

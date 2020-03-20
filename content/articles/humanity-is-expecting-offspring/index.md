@@ -13,7 +13,7 @@ For those of you who are not too familiar with the subject, I will start this ar
 
 All readers who want to skip the introduction can jump right ahead to [the first core chapter](#asi-or-humankind-s-next-god).
 
-{{<figure src="/media/ex-machina.jpg">}}Motive from the movie “Ex Machina”, 2014{{</figure>}}
+{{<figure src="740eae17-92aa-49bb-b76f-1d12939a6997">}}Motive from the movie “Ex Machina”, 2014{{</figure>}}
 
 ## An Introduction to Artificial Intelligence (AI)
 
@@ -29,7 +29,7 @@ You might note that this definition does not include anything about biological l
 
 One very important aspect to understand in the evolution of intelligence is its **exponential growth over time**. This feature is best visualized by the Cosmic Calendar in which the entire existence of our universe is mapped onto a calendar with twelve months:
 
-{{<figure src="/media/cosmic-calendar.jpg">}}Efbrazil, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ACosmic_Calendar.png){{</figure>}}
+{{<figure src="dba9e9ad-0a15-4c3c-8d36-ed1525f327c8" cite="Efbrazil, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ACosmic_Calendar.png)" transformation="full">}}The Cosmic Calendar{{</figure>}}
 
 As you can see, if our universe came into existence on 00:00AM on January 1 and the present is on 23:59PM on December 31, our planet Earth formed in September and the first animal brains with the first intelligence developed somewhere around mid December. Finally, the first humans then arrive in the evening of December 31. In this calendar, 100 years equal 0.23 seconds. What does this tell us about exponential growth?
 
@@ -45,7 +45,7 @@ Comes in AI.
 
 Right now, most aspects of above definition of intelligence are still a huge challenge for software. In one particular area however, significant progress has been made over the past decade: learning. The ability to learn is something that already is implemented in software *today* (actually already since a few decades). The current method is called [deep learning](https://en.wikipedia.org/wiki/Deep_learning) and is basically a way of letting algorithms analyze vast quantities of input/output data and let them discover the common pattern themselves.
 
-{{<figure src="/media/deep-learning.jpg">}}Differences between AI, machine learning and deep learning, via [Nvidia](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/){{</figure>}}
+{{<figure src="763873df-fe57-4073-b83f-2d8d1c8e5fb5" cite="[Nvidia](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/)" transformation="full">}}Differences between AI, machine learning and deep learning{{</figure>}}
 
 This approach is, among others, applied in image recognition software. During a training phase, algorithms are presented with i.e. large amounts of cat and dog pictures that are correctly labelled as “cat” or “dog”. So for each image (input) the software knows the correct label (output) but apart from that it needs to figure out itself what the common traits of cats and the common differences between cats and dogs are in those pictures. The software achieves this by i.e. looking at the first two cat pictures, finding commonalities between the two and then test if this theory holds up when comparing these two pictures with the remaining cat pictures. Every time the theory is true, it bumps up the theory’s score by `+1`—otherwise it reduces its score by `−1`. Theories are refined until a certain score is reached: Very high scoring theories are not refined further; very low scoring theories are dismissed. Reiterating this process over and over again, the algorithm learns over time what a cat picture usually looks like. Repeat this with images of dogs, and the software knows what dogs are, too—and what separates cat from dog pictures. After the training phase you can throw new and unknown input data at the algorithm and let the software respond with the output.
 
@@ -71,7 +71,7 @@ Apart from the broad definition of intelligence at the beginning of this chapter
 
 To be honest, that is one of the last abilities that currently separates us humans from human-made computer software. While individual computers already are far better in any sufficiently narrow field of expertise (i.e. calculus), humans are able to learn, combine and apply different skills at different times in their lives:
 
-{{<figure src="/media/peak-skills-by-age.jpg">}}Human peak skills by age, via [Business Insider](http://uk.businessinsider.com/best-age-for-everything-2017-3){{</figure>}}
+{{<figure src="17d2ba11-58ad-47e1-a2b6-6909e48f2ad2" cite="[Business Insider](http://uk.businessinsider.com/best-age-for-everything-2017-3)" transformation="full">}}Human peak skills by age{{</figure>}}
 
 Given the speed at which machine learning has progressed over the past decade, we should be prepared to see the first cross-domain AI (one that beats humans in more than one discipline simultaneously) *within the next few years* and the first dynamic-domain AI (one that can learn to master several additional domains at “will”) again a few years thereafter. In my opinion, it should not take too long until the first Artificial General Intelligence(s) walk(s) among us.
 
@@ -81,7 +81,7 @@ Related to Artificial Super Intelligence is the term of **Singularity**. This te
 
 Sorry if that made your head spin—but remember when I told you about exponential growth of intelligence on earth? This recursion is the trigger for the Singularity and where growth *really* starts to take off; and this is the direction we are taking as a species. So, where does this lead us?
 
-{{<figure src="/media/ypertex-takeoff-effect.png">}}The takeoff effect in an exponential function{{</figure>}}
+{{<figure src="98859557-4449-40e3-a914-6d6a3ba734e6" transformation="padded">}}The takeoff effect in an exponential function{{</figure>}}
 
 ## ASI, Or: Humankind’s Next God?
 
@@ -103,7 +103,7 @@ So instead of adding to an already extensive discussion about the (certainly int
 
 This chapter’s title already sums it up pretty well, but let me go a bit into more detail as to why I think that AGI will be critically relevant to all of us.
 
-{{<figure src="/media/i-robot.jpg">}}Motive from the movie “I, Robot”, 2004{{</figure>}}
+{{<figure src="fc4019d3-c007-4682-8b04-87708876d7ed">}}Motive from the movie “I, Robot”, 2004{{</figure>}}
 
 ### Congratulations, It Is a … Machine!
 
@@ -125,7 +125,7 @@ When the first machine will reach our level of general intelligence, it will be 
 
 The most intelligent species on this planet is the one that has, by far, the biggest impact on its surrounding. No other living being can even remotely control and shape the fate of this and nearby planets to the extent humans can—just have a look at [Elon Musk’s plans for colonizing Mars](http://uk.businessinsider.com/elon-musk-spacex-mars-colony-talk-iac-2016-9?r=US&IR=T).
 
-{{<figure src="/media/terraform-mars.jpg">}}Artistic representation of terraforming Mars, via [bigthink](http://bigthink.com/videos/the-cheapest-way-to-terraform-mars-2){{</figure>}}
+{{<figure src="363874d1-e138-4b5a-9c46-ee0c6745cb0a" cite="[BigThink](http://bigthink.com/videos/the-cheapest-way-to-terraform-mars-2)" transformation="full">}}Artistic representation of terraforming Mars{{</figure>}}
 
 Based on this observation, it would be safe to assume that there is a correlation between the degree of intelligence of a species and the degree of adaption required by its surrounding for it to survive.
 

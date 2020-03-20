@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="yx-jumbotron-home">
+<section class="yx-jumbotron">
     <div class="container">
         {{ partial "ypertex-logo-2020-03.svg" }}
         {{ with .Site.Params.Description }}<p class="lead mt-3">{{ . }}</p>{{ end }}
@@ -8,17 +8,15 @@
 <section class="bg-light">
     <div class="container py-5">
         <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-xl-8 col-lg-10 mx-auto">
                 <div class="yx-heading">About the Author</div>
-                {{ partial "author.html" . }}
+                {{ partial "author.html" (.GetPage "author") }}
             </div>
         </div>
     </div>
 </section>
-{{ $articles := (.GetPage "/articles").Pages }}
-{{ $listLength := 10 }}
 <section class="container py-5">
-    {{ range $index, $article := first $listLength $articles }}
+    {{ range $index, $article := first 10 (.GetPage "articles").Pages }}
     {{ if gt $index 0 }}
     <hr>
     {{ end }}
@@ -27,21 +25,7 @@
 </section>
 <section class="bg-light py-5">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col text-right">
-                <span class="btn btn-outline-secondary disabled"><i class="las la-step-backward"></i></span>
-            </div>
-            <div class="col text-center text-muted">
-                <small>Page 1 of {{ math.Ceil (div (len $articles) (float $listLength)) }}</small>
-            </div>
-            <div class="col">
-                {{ if gt (len $articles) $listLength }}
-                <a href="/articles/2/" class="btn btn-primary"><i class="las la-step-forward"></i></a>
-                {{ else }}
-                <span class="btn btn-outline-secondary disabled"><i class="las la-step-forward"></i></span>
-                {{ end }}
-            </div>
-        </div>
+        {{ partial "pagination.html" (.GetPage "articles") }}
     </div>
 </section>
 {{ end }}

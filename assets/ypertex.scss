@@ -9,6 +9,7 @@ $info: #1c0bf4;
 $factor: 87.5%;
 
 $font-size-base: 1.125rem;
+$code-font-size: 1.125rem;
 $enable-responsive-font-sizes: true;
 $font-family-sans-serif: 'Montserrat', sans-serif !default;
 $headings-font-family: 'Montserrat Alternates', serif !default;
@@ -74,7 +75,7 @@ hr {
 .yx-logogram {
         height: 1rem;
 }
-.yx-jumbotron-home {
+.yx-jumbotron {
     @extend  .jumbotron, .jumbotron-fluid, .bg-primary, .text-light;
     background-image: linear-gradient(to top right, $primary-light, $primary-dark);
 }

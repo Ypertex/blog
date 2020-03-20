@@ -2,6 +2,7 @@
 title: Tools for the Smart Start-up in 2018 (II)
 publishdate: 2018-11-07
 tags: [IT Recommendations]
+series: [Tools for the Smart Start-up in 2018]
 summary: Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how.
 cover: 24d4a332-d0da-4977-81d1-3056ac49b9e0
 ---
@@ -14,7 +15,7 @@ That’s nice—but hardware and <abbr title="Operating System">OS</abbr> alone 
 
 ---
 
-{{<note class="is-info">}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
+{{<note>}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
 
 ---
 
@@ -24,7 +25,7 @@ That’s nice—but hardware and <abbr title="Operating System">OS</abbr> alone 
 
 For a long time, there weren’t many options available in the area of professional-grade graphic design software. Adobe dominated the market with Photoshop, Illustrator, and other software—asking premium prices for their licenses. This changed when the software developer Serif introduced their Affinity suite, consisting of the three applications **Affinity Photo** (for editing photos), **Affinity Designer** (for creating illustrations), and **Affinity Publisher** (for creating print publications, still in beta at the time of writing this article).
 
-{{<figure src="0046b6ea-fa52-4c28-bf08-2707c33656dc">}}Screenshot of the affinity.serif.com website, November 2018{{</figure>}}
+{{<figure src="0046b6ea-fa52-4c28-bf08-2707c33656dc" transformation="full">}}Screenshot of the affinity.serif.com website, November 2018{{</figure>}}
 
 The Affinity applications come at a *onetime payment* of ca. USD50 each per individual user (volume licensing and discounts available upon request). If you compare this to what Adobe currently offers, this is a huge difference. Adobe software can’t be bought anymore: One has to rent it and pay *monthly fees*. Depending on which software you need, this can get cost-intensive fast. For editing photos, the least expensive plan starts at ca. USD10 per month and user. All other apps can be rented starting from a bit over USD20 per month per user each. The cheapest bundle (when you need three or more of the Adobe applications) sits at over USD50 per month per user.
 
@@ -32,7 +33,7 @@ The Adobe “All Apps” bundle plan including more than 20 creative software mi
 
 ### Diagramming with [yEd](https://www.yworks.com/products/yed/)
 
-{{<figure src="dcf019bd-27fe-4970-b139-8bbf29d23a98">}}Screenshot of the yworks.com website, November 2018{{</figure>}}
+{{<figure src="dcf019bd-27fe-4970-b139-8bbf29d23a98" transformation="full">}}Screenshot of the yworks.com website, November 2018{{</figure>}}
 
 If you are in the business of drawing complex diagrams like system architectures, business processes or entity relationships, I strongly recommend yEd. It can help you generate BPMN diagrams, flowcharts, family trees, semantic networks, social networks, and UML class diagrams. While there is a wide variety of applications that can support you in generating such diagrams, two aspects make yEd really stand out:
 
@@ -51,7 +52,7 @@ The way I publish websites has substantially changed over the past two years. Pr
 * Each time a page was requested for the first time, loading it took the extra time required to dynamically generate it.
 * The webspace used to host the website required extra computing performance and software components to run the CMS and generate the website on the fly.
 
-{{<figure src="680986f2-f8a0-4def-93df-f053718e36c1">}}Screenshot of the netlify.com website, November 2018{{</figure>}}
+{{<figure src="680986f2-f8a0-4def-93df-f053718e36c1" transformation="full">}}Screenshot of the netlify.com website, November 2018{{</figure>}}
 
 Nowadays, the CMS sits on my laptop and regenerates the entire website whenever I change a thing. Regenerating this blog takes around 125ms, so basically no time. Once I am happy and want to publish the changes, I commit them to my Git repository and push them to GitHub. The repository contains both the source files used to generate the website and the generated final result. Take a look at the first article in this series for example:
 
@@ -68,7 +69,7 @@ The best part is that Netlify offers this service **for free**.  I still can’t
 
 ---
 
-{{<note class="is-info">}}**Pro tip:** If you use a password manager capable of password sharing (see [my recommendations below](#password-management)), you can easily use Netlify as a team with a single user account.{{</note>}}
+{{<note>}}**Pro tip:** If you use a password manager capable of password sharing (see [my recommendations below](#password-management)), you can easily use Netlify as a team with a single user account.{{</note>}}
 
 ---
 
@@ -82,7 +83,7 @@ Tools that are both a real joy to use and affordable, are hard to find. Here are
 
 I really like BookStack because of its **well designed interface and ease of use**. It’s rather modest in terms of system requirements as it doesn’t require a lot of hardware resources. Also: It’s **open source software, available for free** (as in no license fees).
 
-{{<figure src="bb60e3e4-3b05-4ec1-836a-eb286d0c4eb0">}}Screenshot of the bookstackapp.com website, November 2018{{</figure>}}
+{{<figure src="bb60e3e4-3b05-4ec1-836a-eb286d0c4eb0" transformation="full">}}Screenshot of the bookstackapp.com website, November 2018{{</figure>}}
 
 On the downside: This Wiki software needs to be **installed and run on one’s own server**. My previous article on [IT infrastructure for start-ups](/articles/tools-for-the-smart-start-up-in-2018-1/) lists a few ideas for low-cost yet powerful IT infrastructure. BookStack can be installed in various ways on such infrastructure as detailed [in their documentation](https://www.bookstackapp.com/docs/admin/installation/). Running this software hence needs administration by someone on your team—so strictly speaking, using this service still comes at a cost. The good news is that the software is available as [Docker image](https://www.bookstackapp.com/docs/admin/installation/#docker) which really reduces the amount of maintenance and administration required.
 
@@ -90,7 +91,7 @@ On the downside: This Wiki software needs to be **installed and run on one’s o
 
 Probably **even better designed and more feature-rich** is Confluence by Atlassian. It too produces great looking documentation and is backed by one of the world’s largest developers of collaboration software. Integration of Confluence into other [Atlassian products](https://www.atlassian.com/software/) like Trello, Jira, Bitbucket etc. is, of course, easy.
 
-{{<figure src="3483291c-8353-4583-b388-e0b67277934d">}}Screenshot of the atlassian.com website, November 2018{{</figure>}}
+{{<figure src="3483291c-8353-4583-b388-e0b67277934d" transformation="full">}}Screenshot of the atlassian.com website, November 2018{{</figure>}}
 
 In contrary to BookStack, Confluence comes with a price tag for the license. The **software is offered as a service** (“Cloud”, meaning that Atlassian is running and maintaining the software on their infrastructure) or **as download for self-hosting** (meaning that you install, run and maintain the software on your own infrastructure). The software requires more (virtual) hardware resources than BookStack but is available as [Docker image](https://hub.docker.com/r/atlassian/confluence-server/), too.
 
@@ -122,17 +123,11 @@ Now, there are many password managers out there. Even some with excellent featur
 
 However, working in teams sometimes requires the ability to share passwords. Some password managers offer this functionality as paid option. And while it probably is a good idea to spend a few bucks on your start-up’s security level, there is one software that offers the complete enterprise-level functionality for free: Bitwarden.
 
-{{<figure src="288c88ec-a816-488a-8cf9-4389d23eb2fa">}}Screenshot from the bitwarden.com website, November 2018{{</figure>}}
+{{<figure src="288c88ec-a816-488a-8cf9-4389d23eb2fa" transformation="full">}}Screenshot from the bitwarden.com website, November 2018{{</figure>}}
 
 The catch is that you have to host it on your own infrastructure if you want to avoid the costs of currently USD3 per user per month for the enterprise-level functionality. But since we have [affordable yet state-of-the-art infrastructure](/articles/tools-for-the-smart-start-up-in-2018-1/) available, let’s put it to good use and install it there. Just create a virtual machine on your dedicated server, then follow the short and comprehensible [Bitwarden installation guide](https://help.bitwarden.com/article/install-on-premise/).
 
 Voilà, you now have your own, fully featured enterprise-grade Password Manager at zero cost.
-
----
-
-{{<note class="is-info">}}While it’s possible to run Bitwarden on a shared Docker installation, I wouldn’t recommend such a setup for use in a team environment.{{</note>}}
-
----
 
 ## Conclusion
 

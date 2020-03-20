@@ -24,6 +24,7 @@ Additionally, I think that I got more strongly opinionated about several other m
 
 As a person who thinks that the presentation or form of content is equally important as the content itself, my blog also required **a decent identity and a design**—that I struggled to come up with for quite some time. Then, in January 2017, I finally created a logo that I liked and found appropriate:
 
+{{<figure src="f85fb86f-931e-4988-a5fc-5d87d4a97f92" transformation="inline">}}The Ypertex logo, January 2017{{</figure>}}
 
 You might think that this is a rather simple logo and wonder how it could have been difficult to create it in the first place. However:
 
@@ -35,7 +36,7 @@ Having the logo gave me the starting point to complete the identity of the blog 
 
 The result is what you are looking at right now:
 
-{{<figure src="/media/ypertex-inhabitu-2017-04.jpg">}}Ypertex blog theme, March 2017{{</figure>}}
+{{<figure src="84b1783d-5648-4b7b-8e3b-28f30c43d083" transformation="full">}}Ypertex blog theme, March 2017{{</figure>}}
 
 The theme is called `inhabitu` and its code is hosted on [Github](https://github.com/Ypertex/inhabitu)—from where you can download the [latest release](https://github.com/Ypertex/inhabitu/releases).
 

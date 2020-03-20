@@ -3,6 +3,7 @@ title: Tools for the Smart Start-up in 2018 (I)
 publishdate: 2018-08-02
 lastmod: 2019-06-28
 tags: [IT Recommendations]
+series: [Tools for the Smart Start-up in 2018]
 summary: If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas.
 aliases: [/articles/tools-for-the-smart-start-up-1/]
 cover: 7b95a9b0-0f54-44f9-8af3-dd6820d3051d
@@ -26,7 +27,7 @@ For the purpose of this series of articles, let’s assume a start-up with a tea
 
 ---
 
-{{<note class="is-info">}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
+{{<note>}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
 
 ---
 
@@ -62,7 +63,7 @@ If paid by the hour, the pricing of a reasonably sized Paperspace virtual deskto
 
 The fact that Paperspace desktops can simply be used *via browser* without any additional software to install, makes this option especially valuable if you don’t want to or can’t touch your team members’ devices.
 
-{{<figure src="b5ae993f-c2d4-46f2-9dc7-9043e3f72fa0">}} Screenshot of the Paperspace VDI website, August 2018{{</figure>}}
+{{<figure src="b5ae993f-c2d4-46f2-9dc7-9043e3f72fa0" transformation="full">}} Screenshot of the Paperspace VDI website, August 2018{{</figure>}}
 
 I have used Paperspace productively myself a few months ago and generally can recommend their service. The only issue I encountered was a weird keyboard mapping with regard to the German Umlauts (äöü).
 
@@ -72,11 +73,11 @@ But what if $16 per month per team member is already too high of a price? Imagin
 
 There are several providers in Europe who offer server hardware as a service at very low prices: the French provider Online.net (with data centers in France and the Netherlands) as well as the German providers Hetzner (with data centers in Germany and Finland) and Servdiscount (with a data center in Germany). The low end divisions [Kimsufi](https://www.kimsufi.com/us/en/) and [So you Start](https://www.soyoustart.com/us/) of [OVH](https://www.ovh.com/world/) are, hands down, no match for Online.net, Hetzner, and Servdiscount.
 
-{{<figure src="af86d5f7-0a25-4e58-aab9-e3496ef78000">}}Screenshot of the Hetzner Dedicated Server website, August 2018{{</figure>}}
+{{<figure src="af86d5f7-0a25-4e58-aab9-e3496ef78000" transformation="full">}}Screenshot of the Hetzner Dedicated Server website, August 2018{{</figure>}}
 
 Overall, Hetzner currently has the better deals in my opinion. The new *vSwitch* feature, available for all their servers with no additional cost, allows to securely interconnect servers within Hetzner’s data centers. This adds a lot of value if you need more than one server (for clustering for example).
 
-{{<figure src="aba0d8c0-c11a-4982-8d58-649e6dca239f">}}Screenshot of the Online.net Dedicated Server website, August 2018{{</figure>}}
+{{<figure src="aba0d8c0-c11a-4982-8d58-649e6dca239f" transformation="full">}}Screenshot of the Online.net Dedicated Server website, August 2018{{</figure>}}
 
 One feature that I especially like at Online.net is the availability of a <abbr title="Keyboard Video Mouse">KVM</abbr> console *within seconds*. Such a console allows to access the server’s screen even during boot time or after accidentally having locked out oneself (by i.e. messing with the servers connectivity settings). In the case of Hetzner, users first have to raise a support ticket, never knowing upfront how long it might take to get the requested KVM console. (The Hetzner support usually acts fast, but gets squarely beaten by the automated process at Online.net.)
 
@@ -86,13 +87,13 @@ I have intensively used Online.net and Hetzner services in professional projects
 
 ---
 
-{{<note title="Update June 28, 2019">}}Let me add [Servdiscount](https://servdiscount.com/) to this list of providers. I've only used their services for a few weeks and already can tell that they deliver great value for competitive prices.
-
----
+{{<note>}}**Update June 28, 2019:** Let me add [Servdiscount](https://servdiscount.com/) to this list of providers. I've only used their services for a few weeks and already can tell that they deliver great value for competitive prices.
 
 As an example: For roughly $26, they provided me an 8-core processor, 24GB RAM (instead of the promoted 16), 265GB SSD (instead of the promoted 128), 1TB HDD, unmetered 1Gbps connectivity, *and a dedicated KVM*. Customer support is competent, prompt and friendly.
 
 If you can live with the missing disk redundancy options in most of their low-cost offers, it's really worth a look!{{</note>}}
+
+---
 
 Back to the example of our team of eight persons: A reasonably sized mid-range server from Hetzner costs around $60 per month. It comes with hardware resources that would *easily* accommodate virtual desktops for eight people—or more!
 
@@ -108,7 +109,7 @@ Great question, but there is a smart solution for that.
 
 On a Subreddit called [Microsoft Softwareswap](https://www.reddit.com/r/microsoftsoftwareswap/), people sell Microsoft software licenses that they own for low prices. At first glance, this marketplace seems a bit phony—but from what I can tell and have researched, these are legitimate, genuine Microsoft software licenses. The handful that I bought there in the past all activated the software perfectly fine without any problem whatsoever.
 
-{{<figure src="2ccb3d88-a2e7-42cc-b405-9f9ceaf101df" />}}
+{{<figure src="2ccb3d88-a2e7-42cc-b405-9f9ceaf101df" transformation="full" />}}
 
 One license is particularly interesting: the **Windows Server Datacenter edition**. The current version 2016 for example sells as low as $40 on Reddit. Compared to the price that Microsoft asks, it’s unbelievably cheap: Microsoft sells the Datacenter 2016 license for currently *$6,155*. Read that again. Yes, you pay only *0.65%* of the list price if you buy such a license via the Subreddit mentioned above instead of buying it directly from Microsoft.
 
@@ -118,7 +119,7 @@ This Datacenter edition is so interesting due to one feature: Any Windows server
 
 ---
 
-{{<note class="is-info">}}If you want to install your $40 license on a Hetzner server, you will have to ask for the above mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise the installation might take many hours.{{</note>}}
+{{<note>}}If you want to install your $40 license on a Hetzner server, you will have to ask for the above mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise the installation might take many hours.{{</note>}}
 
 ---
 
@@ -156,7 +157,7 @@ My favorite for quite some time was the Sophos XG <abbr title="Unified Threat Ma
 
 However, I lately gave the open source firewall OPNsense a try—and never looked back. It basically has the same feature set than the Sophos XG but with a much, much smaller footprint in terms of hardware resources (especially <abbr title="Random Access Memory">RAM</abbr>, hovering over *extremely economical* 160MB in my current cloud lab setup). It also installs much faster.
 
-{{<figure src="1ad0fea9-b819-43fe-9f60-633fc6493bf6">}}Screenshot of the OPNsense dashboard, March 2016{{</figure>}}
+{{<figure src="1ad0fea9-b819-43fe-9f60-633fc6493bf6" transformation="full">}}Screenshot of the OPNsense dashboard, March 2016{{</figure>}}
 
 Additionally, OPNsense even has one crucial feature that most other firewalls lack: support for ZeroTier. Which brings me to my next point.
 

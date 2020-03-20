@@ -1,4 +1,5 @@
 ---
+title: Michael Schmidle
 headless: true
 avatar: people/michael-schmidle
 ---

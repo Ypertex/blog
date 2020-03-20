@@ -8,6 +8,8 @@ cover: 7ff88dd5-c612-415a-aaea-640800485086
 
 If you followed the articles on this blog you know that I have a lot of love<sup>[1](/articles/jumpcloud-curl-error-22/), [2](/articles/tools-for-the-smart-start-up-in-2018-1/)</sup> for [JumpCloud](https://jumpcloud.com/).
 
+{{<figure src="7ff88dd5-c612-415a-aaea-640800485086" />}}
+
 However, there is a JumpCloud limitation that bugs me a little: It refuses to run on some Linux-based systems like [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-ve) or [Openmediavault](https://www.openmediavault.org/) even though it officially supports the underlying Linux version.
 
 Fortunately, there's a **way around that limitation** that I'd like to share with you in this article.

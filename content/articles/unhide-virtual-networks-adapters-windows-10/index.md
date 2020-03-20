@@ -45,7 +45,7 @@ However, there is a smart way to avoid this public exposure when running Windows
 
 Install VMware Workstation, Oracle Virtualbox or similar, then create a virtual machine with [OPNSense](https://opnsense.org/) or some other firewall as OS on top. OPNSense is a full-blown firewall that can be exposed to a direct Internet connection more securely than a client OS like Windows 10. Hooking the firewall <abbr title="Virtual Machine">VM</abbr> between the gaming OS and the internet creates a second, more secure path:
 
-{{<figure src="3b8baf4b-f55d-48cd-a726-4aaaa456890b">}}Creating a second and more secure Internet connection via virtual environment{{</figure>}}
+{{<figure src="3b8baf4b-f55d-48cd-a726-4aaaa456890b" transformation="padded">}}Creating a second and more secure Internet connection via virtual environment{{</figure>}}
 
 The problem with this setup in newer Windows 10 releases: Windows disregards the virtual host-only network adapter as Internet connection. Disabling the physical adapter hence leads to Windows acting like it's completely offline—even if a fully working connection via the virtual environment and the secondary <abbr title="Internet Protocol">IP</abbr> address is established.
 
@@ -69,7 +69,7 @@ Now that Windows recognizes the second connection as valid Internet connection, 
 
 I use a combination of 2 and 3. Either way, you will get the desired routing:
 
-{{<figure src="01321431-2555-4d91-b5e0-02611689e8a3">}}Getting Windows 10 to use the second, more secure link while keeping the original connection as a fallback option.{{</figure>}}
+{{<figure src="01321431-2555-4d91-b5e0-02611689e8a3" transformation="padded">}}Getting Windows 10 to use the second, more secure link while keeping the original connection as a fallback option.{{</figure>}}
 
 # Conclusion
 
@@ -79,4 +79,4 @@ The reason why someone would do such a crazy thing to begin with: to play games 
 
 ---
 
-{{<note class="is-info">}}I am in no way affiliated with Hetzner. I recommend them as IT professional who employs their services for personal use.{{</note>}}
+{{<note>}}I am in no way affiliated with Hetzner. I recommend them as IT professional who employs their services for personal use.{{</note>}}
