@@ -8,7 +8,7 @@
                 <i class="las la-bars"></i>
             </button>
             <div class="navbar-collapse collapse" id="menuHeader">
-                <div class="navbar-nav ml-md-auto">
+                <div class="navbar-nav mr-md-auto">
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.header }}
                     <a href="{{ .URL | relURL }}"

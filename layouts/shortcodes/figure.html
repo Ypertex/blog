@@ -53,7 +53,7 @@
     </picture>
     {{ end }}
     <figcaption>
-        {{ .Inner | markdownify }}{{ with .Get `cite` }} <span
-            class="yx-attribution">{{ . | markdownify }}</span>{{ end }}
+        {{ .Inner | markdownify }}{{ with .Get `cite` }} <span class="yx-attribution">Image:
+            {{ . | markdownify }}</span>{{ end }}
     </figcaption>
 </figure>
