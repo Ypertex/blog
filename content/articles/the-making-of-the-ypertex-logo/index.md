@@ -1,10 +1,14 @@
 ---
 title: The Making of the Ypertex Logo
 publishdate: 2017-05-17
-tags: [Design, On a Personal Note]
+tags:
+    - Design
+    - Personal
 summary: The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).
-cover: 9ea85810-8651-4115-a68e-83be3ee886d4
-aliases: [/2017/05/17/the-making-of-the-ypertex-logo/]
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/9ea85810-8651-4115-a68e-83be3ee886d4
+aliases:
+    - /2017/05/17/the-making-of-the-ypertex-logo/
 ---
 
 For a blog claiming to primarily write about design (according to its current tag line “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about *other people’s* designs, I would like to first promote my credibility and address one of my own designs: this blog’s logo.
@@ -66,48 +70,16 @@ OK, the object was easy but what about the objectives? I had two sources of requ
 
 From these sources I had collected and interpreted the following requirements:
 
-<table class="table is-striped">
-<thead>
-<tr>
-<th>Requirement or input</th>
-<th>My interpretation in terms of visual design</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>iconic, recognizable</td>
-<td>minimalist, unique, readable even in small sizes</td>
-</tr>
-<tr>
-<td>usable as circular avatar</td>
-<td>square form without elements in the corners</td>
-</tr>
-<tr>
-<td>personal</td>
-<td>organic or rounded forms, warmer colors</td>
-</tr>
-<tr>
-<td>transparent</td>
-<td><small>(no interpretation necessary)</small></td>
-</tr>
-<tr>
-<td>in-depth</td>
-<td>front and back layers</td>
-</tr>
-<tr>
-<td>contemporary</td>
-<td>flat, sans-serif, no decorative elements</td>
-</tr>
-<tr>
-<td>technological</td>
-<td>geometric forms and sharp edges, colder colors</td>
-</tr>
-<tr>
-<td>future oriented</td>
-<td>left-to-right forward dynamic</td>
-</tr>
-</tbody>
-</table>
+| Requirement or input      | My interpretation in terms of visual design      |
+|---------------------------|--------------------------------------------------|
+| iconic, recognizable      | minimalist, unique, readable even in small sizes |
+| usable as circular avatar | square form without elements in the corners      |
+| personal                  | organic or rounded forms, warmer colors          |
+| transparent               | <small>(no interpretation necessary)</small>     |
+| in-depth                  | front and back layers                            |
+| contemporary              | flat, sans-serif, no decorative elements         |
+| technological             | geometric forms and sharp edges, colder colors   |
+| future oriented           | left-to-right forward dynamic                    |
 
 Translating design requirements into design elements is comparable to translations from one spoken language into another: A large portion of it is simply a matter of looking up the translation in a dictionary; the rest of the translation is based on experience with nuances.
 
@@ -185,7 +157,9 @@ I reverted back and instead tried different things. In the end, the last tweak w
 
 **Exaggeration is helpful in creating visual designs:** It helps you determine if you already have left out all that you can (remember the *Art of Omission*) or if you have found the most individual and interesting design possible without breaking it. It does not only apply to the overall design but to single elements, too. As my design professor in college used to say:
 
-> Don’t be afraid of exaggeration. It is so much easier to dial a bold design back a notch or two than to spice up a timid design. {{<cite>}}Christian Fries{{</cite>}}
+> Don’t be afraid of exaggeration. It is so much easier to dial a bold design back a notch or two than to spice up a timid design.
+>
+> {{<attribution>}}Christian Fries{{</attribution>}}
 
 So here it was: a logo that incorporated all defined requirements in one way or another. Due to its dimensions it could be used as (square or circular) favicon and avatar; the coloring worked both in a normal and flipped version. It however did not include the full written name Ypertex.
 
@@ -199,4 +173,8 @@ Given that you now know the scope (object) and quality (objectives) of my logo d
 
 ---
 
-{{<note>}}By the way: I approached finding or rather designing the name of the blog the same way, setting most of the personality related requirements already back then. Again, the <em>Art of Omitting</em> was useful—and helped create something vaguely familiar yet interestingly different by simply removing the first and last letters “H” and “t” from the word Hypertext.{{</note>}}
+{{<note>}}
+##### <i class="las la-hand-point-right"></i> By the Way
+
+By the way: I approached finding or rather designing the **name of the blog** the same way, setting most of the personality related requirements already back then. Again, the *Art of Omitting* was useful—and helped create something vaguely familiar yet interestingly different by simply removing the first and last letters “H” and “t” from the word Hypertext.
+{{</note>}}

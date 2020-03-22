@@ -1,9 +1,13 @@
 ---
 title: Test Your Way to Success
 publishdate: 2019-02-28
-tags: [Career, Design, Innovation]
+tags:
+    - Career
+    - Design
+    - Innovation
 summary: Ever spent too much time on something that turned out to be based on the wrong assumptions? Here's how to make sure that you're investing your time correctly.
-cover: c3961fff-c70b-486e-b791-10b5b2376a75
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/c3961fff-c70b-486e-b791-10b5b2376a75
 ---
 
 ## Assumptions Can Be Helpful ...
@@ -35,7 +39,9 @@ What if I told you that the driver in the first example rushed to see their chil
 
 While a bit extreme, the above examples show effectively how one can completely misread situations. Now imagine how assumptions (and hence potentially misreading situations) can have a deep impact on your work. Let me highlight two cases that I experienced in my career:
 
-{{<card title="Case 1: The Well-Thought-Out Project Mandate">}}
+{{<card>}}
+##### Case 1: The Well-Thought-Out Project Mandate
+
 At one point, a large infrastructure project was launched. I was part of that team that subsequently received a written project mandate. It went into much detail about the project's goal and specific requirements. It even included a specific deadline by when which new infrastructure services should go into operation.
 
 The team was confused. "How could the project sponsor already define the new infrastructure services in such detail?", we asked ourselves. "How could the project sponsor already define such a specific deadline?", we wondered.
@@ -45,7 +51,9 @@ We didn't properly challenge the project sponsor; he appeared very confident. We
 After four months of intense work and a lot of frustration, we finally admitted that the project wasn't deliverable under the given terms. Only then, in the ensuing discussions with the project sponsor, we clarified the scope and requirements. This led to a complete reboot of the entire project.
 {{</card>}}
 
-{{<card title="Case 2: The Appropriate Project Governance">}}
+{{<card>}}
+##### Case 2: The Appropriate Project Governance
+
 On another occasion, we again received a mandate for another project. This time however, it appeared to come from the wrong sponsor. According to the team's assessment, the project would result in organizational changes that the project sponsor wouldn't be able to enforce. He simply wasn't on the appropriate management level and thus lacked the necessary managerial authority.
 
 We identified this as the biggest risk for the project, so we challenged the project sponsor. As he insisted on his ownership of the project, we made sure to conduct a session with top management after a few weeks to collect early feedback on our concept. Sure enough, we brought up the project governance and were able to rectify it almost immediately—eliminating the project's biggest risk at the earliest opportunity.

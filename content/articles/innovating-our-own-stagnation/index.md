@@ -1,9 +1,13 @@
 ---
 title: Are We Innovating Our Own Stagnation?
 date: 2020-03-08
-tags: [Innovation, Artificial Intelligence]
+tags:
+    - AI
+    - Future
+    - Innovation
 summary: Today's global challenges require humankind to learn and adapt. Artificial Intelligence will help driving these changes, right?---Maybe not.
-cover: f26ee4ba-0482-4879-bf70-4f22aa033b58
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/f26ee4ba-0482-4879-bf70-4f22aa033b58
 ---
 
 Today, we celebrate **[International Women's Day](https://www.internationalwomensday.com/) 2020** that promotes the power and value of half the world's population---and how far we still are from giving everyone equal opportunities.

@@ -1,10 +1,14 @@
 ---
 title: Humankind Is Expecting Offspring—Are We Ready?
 publishdate: 2017-03-30
-tags: [Artificial Intelligence]
+tags:
+  - AI
+  - Future
 summary: The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?
-cover: 740eae17-92aa-49bb-b76f-1d12939a6997
-aliases: [/2017/03/30/humanity-is-expecting-offspring/]
+images:
+  - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/740eae17-92aa-49bb-b76f-1d12939a6997
+aliases:
+  - /2017/03/30/humanity-is-expecting-offspring/
 ---
 
 As foretold in [my blog’s opening article](https://blog.ypertex.com/articles/ypertex-blog-launching-today/), Artificial Intelligence (AI) is a topic that concerns me a lot these days. In particular, I am more concerned about the first and still imperfect Artificial General Intelligence and less about the potentially god-like, almighty Artificial Super Intelligence everyone is talking about.
@@ -21,7 +25,9 @@ All readers who want to skip the introduction can jump right ahead to [the first
 
 Before we go any further, we first need to establish some common ground on what intelligence actually is or can be. For the purpose of this article, intelligence in general can be defined as follows:
 
-> (1): the ability to learn or understand or to deal with new or trying situations (2): the ability to apply knowledge to manipulate one’s environment or to think abstractly as measured by objective criteria {{<cite>}}[Merriam Webster](https://www.merriam-webster.com/dictionary/intelligence){{</cite>}}
+> (1): the ability to learn or understand or to deal with new or trying situations (2): the ability to apply knowledge to manipulate one’s environment or to think abstractly as measured by objective criteria
+>
+> {{<attribution>}}[Merriam Webster](https://www.merriam-webster.com/dictionary/intelligence){{</attribution>}}
 
 You might note that this definition does not include anything about biological life, consciousness or any of the sort. In other words: A piece of software can count as intelligent, too—as long as it possesses the above listed abilities.
 
@@ -153,7 +159,9 @@ If our society is already facing a major challenge with regard to keeping contro
 
 The odds are clear:
 
-> The AGI has to be lucky *only once* to get out of our control. We have to be lucky *all the time* to keep it under our control. {{<cite adapted>}}Hannah Wells in [ABC’s Designated Survivor](http://abc.go.com/shows/designated-survivor){{</cite>}}
+> The AGI has to be lucky *only once* to get out of our control. We have to be lucky *all the time* to keep it under our control.
+>
+> {{<attribution adapted="true">}}Hannah Wells in [ABC’s Designated Survivor](http://abc.go.com/shows/designated-survivor){{</attribution>}}
 
 There are a few proposed solutions to avoid getting into the control problem in the first place (which I might cover in more detail in a future article). At the time of writing this article however, none of them seem practical or well-timed enough to really avoid this situation.
 

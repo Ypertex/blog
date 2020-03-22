@@ -38,6 +38,7 @@ main {
     flex: 1;
 }
 footer {
+    @extend .pb-5;
     a, a:hover {
         color: $white;
     }
@@ -51,13 +52,22 @@ main .container, footer .container {
     }
 }
 h1, h2, h3, h4, h5, h6 {
-    @extend .mb-3;
+    @extend .mb-3, .mt-0;
 }
 hr {
     @extend .my-5, .mx-n2, .mx-sm-n3;
 }
+:last-child {
+    @extend .mb-0;
+}
 .navbar {
-    @extend .py-1;
+    @extend .py-1, .navbar-dark, .navbar-expand-md, .bg-dark;
+    button {
+        @extend .btn, .btn-link, .d-md-none;
+    }
+    hr {
+        @extend .d-md-none, .my-3;
+    }
 }
 .navbar-brand {
     padding-top: 0;
@@ -66,17 +76,38 @@ hr {
     font-weight: normal;
 }
 .jumbotron {
+    @extend .jumbotron-fluid;
     margin: 0;
     padding: 0;
+    h1 {
+        @extend .display-4;
+    }
     .container {
-        @extend .text-center, .p-5;
+        @extend .text-center, .py-5;
+    }
+    .card {
+        @extend .text-dark, .text-left;
+    }
+}
+.card {
+    @extend .shadow;
+}
+.card-footer {
+    @extend .text-muted;
+    a {
+        font-weight: normal;
+    }
+}
+.alert-info, .alert-success, .alert-warning, .alert-danger {
+    a {
+        @extend .alert-link;
     }
 }
 .yx-logogram {
         height: 1rem;
 }
 .yx-jumbotron {
-    @extend  .jumbotron, .jumbotron-fluid, .bg-primary, .text-light;
+    @extend  .jumbotron,, .bg-primary, .text-light;
     background-image: linear-gradient(to top right, $primary-light, $primary-dark);
 }
 .yx-logo {
@@ -88,21 +119,32 @@ hr {
 }
 .yx-avatar {
     @extend .mr-3, .rounded-circle;
+    height: 64px;
+    width: 64px;
 }
 .yx-stretched-linkable {
     position: relative;
 }
+.yx-content.container, .card {
+    :first-child {
+        @extend .mt-0;
+    }
+    :last-child {
+        @extend .mb-0;
+    }
+}
+.yx-attribution {
+    @extend .text-muted, .text-right;
+}
+.yx-attribution::before {
+    content: "—";
+}
 .yx-content.container {
     h1, h2, h3, h4, h5, h6 {
         @extend .mt-5;
-        .yx-anchor {
-            display: none;
-        }
     }
-    h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
-        .yx-anchor {
-            display: inline;
-        }
+    h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6 {
+        @extend .mt-0;
     }
     figure {
         @extend .my-5, .text-center;
@@ -129,11 +171,52 @@ hr {
             margin-left: -570px;
             margin-right: -570px;
         }
+        img {
+            @extend .shadow, .img-fluid;
+        }
     }
     figcaption {
-        @extend small;
+        @extend small, .mt-3, .col-md-8, .mx-auto;
         a {
             font-weight: normal;
         }
+    }
+    blockquote {
+        @extend .lead, .col-md-10, .mx-auto, .my-5, .bg-secondary, .text-light, .p-5, .rounded-lg, .shadow;
+        quotes: "“" "”" "‘" "’";
+        :last-child {
+            @extend .mb-0;
+        }
+        p:first-child {
+            text-indent: -0.5em;
+        }
+        p:first-of-type::before, p:last-of-type::after {
+            color: $primary;
+            font-weight: bold;
+        }
+        p:first-of-type::before {
+            content: open-quote;
+        }
+        p:last-of-type::after {
+            content: close-quote;
+        }
+        strong {
+            font-weight: bold;
+        }
+        a {
+            color: $white;
+        }
+        .yx-attribution {
+            @extend small, .text-light;
+        }
+    }
+    table {
+        @extend small, .table, .table-striped, .table-hover, .my-5;
+    }
+    .alert {
+        @extend .shadow, .mx-n3, .p-3;
+    }
+    .card {
+        @extend .my-5, .bg-light, .mx-md-n4;
     }
 }

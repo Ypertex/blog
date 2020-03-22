@@ -10,7 +10,7 @@
         <source media="(min-width: 576px)"
             srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.full.sm }}{{ .Get `src` }}">
         <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.full.xs }}{{ .Get `src` }}"
-            alt="" class="shadow img-fluid">
+            alt="">
     </picture>
     {{ else if eq (.Get "transformation") "padded" }}
     <picture>
@@ -23,7 +23,7 @@
         <source media="(min-width: 576px)"
             srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.padded.sm }}{{ .Get `src` }}">
         <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.padded.xs }}{{ .Get `src` }}"
-            alt="" class="shadow img-fluid p-3" style="background-color: white;">
+            alt="" class="p-3" style="background-color: white;">
     </picture>
     {{ else if eq (.Get "transformation") "inline" }}
     <picture>
@@ -36,7 +36,7 @@
         <source media="(min-width: 576px)"
             srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.sm }}{{ .Get `src` }}">
         <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.xs }}{{ .Get `src` }}"
-            alt="" class="shadow img-fluid">
+            alt="">
     </picture>
     {{ else }}
     <picture>
@@ -49,11 +49,11 @@
         <source media="(min-width: 576px)"
             srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.default.sm }}{{ .Get `src` }}">
         <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.default.xs }}{{ .Get `src` }}"
-            alt="" class="shadow img-fluid">
+            alt="">
     </picture>
     {{ end }}
-    <figcaption class="mt-3 col-md-8 mx-auto">
-        {{ .Inner | markdownify }}{{ with .Get `cite` }} <span class="text-muted">[Image:
-            {{ . | markdownify }}]</span>{{ end }}
+    <figcaption>
+        {{ .Inner | markdownify }}{{ with .Get `cite` }} <span
+            class="yx-attribution">{{ . | markdownify }}</span>{{ end }}
     </figcaption>
 </figure>

@@ -15,17 +15,6 @@
         </div>
     </div>
 </section>
-<section class="container py-5">
-    {{ range $index, $article := first 10 (.GetPage "articles").Pages }}
-    {{ if gt $index 0 }}
-    <hr>
-    {{ end }}
-    {{ partial "covered-article-head.html" (dict "article" $article "cloudinary" .Site.Params.cloudinary "inverted" (modBool $index 2)) }}
-    {{ end }}
-</section>
-<section class="bg-light py-5">
-    <div class="container">
-        {{ partial "pagination.html" (.GetPage "articles") }}
-    </div>
-</section>
+{{ partial "article-list.html" (.GetPage "articles") }}
+{{ partial "pagination.html" (.GetPage "articles") }}
 {{ end }}

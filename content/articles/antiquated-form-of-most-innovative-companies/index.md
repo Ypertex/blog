@@ -1,9 +1,12 @@
 ﻿---
 title: The Antiquated Form of the World’s Most Innovative Companies
 publishdate: 2018-04-05
-tags: [Innovation]
+tags:
+    - Innovation
+    - Leadership
 summary: Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come?
-cover: ac6a470c-93e0-4020-9dcd-7a61c33101bf
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/ac6a470c-93e0-4020-9dcd-7a61c33101bf
 ---
 
 Over eight years ago, I moved to Switzerland–a country with one of the most direct democracies in the world. This political system means that the Swiss citizens are regularly asked to vote on all kinds of governmental matters. Instead of only casting their votes every few years to elect their leaders, the Swiss adults usually receive once per quarter an invitation to vote on very specific subject matters. These matters can relate to federal, cantonal (i.e. state), or municipal issues.
@@ -92,21 +95,29 @@ I think most of us can relate to the following illustration:
 
 However, Frederic Laloux can take away one positive aspect from his research:
 
-> The pain we feel is the pain of something old that is dying … while something new is waiting to be born. {{<cite>}}Frederic Laloux, “Reinventing Organizations”, 2014{{</cite>}}
+> The pain we feel is the pain of something old that is dying … while something new is waiting to be born.
+>
+> {{<attribution cite="Reinventing Organizations">}}Frederic Laloux{{</attribution>}}
 
 ## The Light at the End of the Tunnel
 
 Can companies be at all managed differently (meaning: in a more contemporary way)? Let me quote his answer:
 
-> Well, it turns out that it absolutely can be done—there are a number of truly outstanding organizations that already operate from the next stage. {{<cite>}}Frederic Laloux, “Reinventing Organizations”, 2014{{</cite>}}
+> Well, it turns out that it absolutely can be done—there are a number of truly outstanding organizations that already operate from the next stage.
+>
+> {{<attribution cite="Reinventing Organizations">}}Frederic Laloux{{</attribution>}}
 
 Then why do many organizations still rely on antiquated forms? 
 
-> Deep down, they would love to function without the [hierarchical] pyramid, without the need for bosses. But they haven’t found a way to do it in practice. {{<cite>}}Frederic Laloux, “Reinventing Organizations”, 2014{{</cite>}}
+> Deep down, they would love to function without the [hierarchical] pyramid, without the need for bosses. But they haven’t found a way to do it in practice.
+>
+> {{<attribution cite="Reinventing Organizations">}}Frederic Laloux{{</attribution>}}
 
 So, what would be a serious example of a company that works well without having superiors and where responsibility is shared among all employees?
 
-> Get ready for this: at [Buurtzorg](https://www.buurtzorg.com/) with its 9,000 people, no one is the boss of anyone else. {{<cite>}}Frederic Laloux, “Reinventing Organizations”, 2014{{</cite>}}
+> Get ready for this: at [Buurtzorg](https://www.buurtzorg.com/) with its 9,000 people, no one is the boss of anyone else.
+>
+> {{<attribution cite="Reinventing Organizations">}}Frederic Laloux{{</attribution>}}
 
 Wow. Mind you: Buurtzorg is in business for ten years now and profitable.
 

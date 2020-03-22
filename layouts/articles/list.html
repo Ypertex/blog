@@ -1,25 +1,10 @@
 {{ define "main" }}
 <section class="yx-jumbotron">
-    <div class="container text-center">
-        <h1 class="display-4">{{ .Title }}</h1>
-    </div>
-</section>
-<section class="bg-light py-5">
     <div class="container">
-        {{ partial "pagination.html" . }}
+        <h1>{{ .Title }}</h1>
     </div>
 </section>
-<section class="container py-5">
-    {{ range $index, $article := .Paginator.Pages }}
-    {{ if gt $index 0 }}
-    <hr>
-    {{ end }}
-    {{ partial "covered-article-head.html" (dict "article" $article "cloudinary" .Site.Params.cloudinary "inverted" (modBool $index 2)) }}
-    {{ end }}
-</section>
-<section class="bg-light py-5">
-    <div class="container">
-        {{ partial "pagination.html" . }}
-    </div>
-</section>
+{{ partial "pagination.html" . }}
+{{ partial "article-list.html" . }}
+{{ partial "pagination.html" . }}
 {{ end }}

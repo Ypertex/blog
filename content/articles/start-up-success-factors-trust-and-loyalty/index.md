@@ -1,10 +1,14 @@
 ---
 title: "Underrated but Critical Start-Up Success Factors: Trust and Loyalty"
 publishdate: 2017-04-27
-tags: [Career, Leadership]
+tags:
+    - Career
+    - Leadership
 summary: How trust and loyalty within the leadership team can determine success or failure of a start-up. Based on a true story.
-cover: e825cd5a-0616-446b-8339-57a4a1ee7135
-aliases: [/2017/04/29/start-up-success-factors-trust-and-loyalty/]
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/e825cd5a-0616-446b-8339-57a4a1ee7135
+aliases:
+    - /2017/04/29/start-up-success-factors-trust-and-loyalty/
 ---
 
 In late 2012, I co-founded a company called EntrePreneurs (no, not really—I changed the name for the purpose of this article). While my long-time business partner adopted the role of <abbr title="Chief Executive Officer">CEO</abbr>, I took on the role of <abbr title="Chief Information Officer">CIO</abbr>. We were off to a good start as our first year, 2013, was financially more successful than budgeted and our team had quickly grown to the size required to reach the goals laid out in our business plan. At the beginning of our second year, in March 2014, we were just two months away from being on the winning side of a referendum that had been the last obstacle to our first big public-private partnership.
@@ -17,7 +21,9 @@ Now, three years later, I would like to look back and **share my experience and 
 
 The motivation for this article is twofold. On the one hand, I want to take notes of my memories (I find myself forgetting already some of the details) and clarify some misconceptions. On the other hand, I simply want to allow others to learn and benefit from our mistakes. Or as the German saying goes:
 
-> Everything is good for something—and be it to serve as a bad example. {{<cite>}}German proverb{{</cite>}}
+> Everything is good for something—and be it to serve as a bad example.
+>
+> {{<attribution>}}German proverb{{</attribution>}}
 
 ## The Obvious Reason for Bankruptcy
 
@@ -107,7 +113,9 @@ The irony is that with a perfectionist CEO the team constantly receives the feed
 
 While I definitively think that the people we had on the team were the right ones, I feel that the CEO’s (too) high standards prevented us from adding another manager to the leadership team soon enough to really make a difference with regard to our underfunded business plan. In fact, the real turning point or backbraker in retrospective for me was when our CEO decided to cancel talks with a candidate in the middle of contract negotiations. Instead of welcoming a third manager that immediately could have taken on some of our workload *and* shake things up a bit in the leadership team, we had lost a lot of time and energy only to find ourselves back on square one.
 
-> Perfect is the enemy of good. {{<cite>}}[Voltaire](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good){{</cite>}}
+> Perfect is the enemy of good.
+>
+> {{<attribution>}}[Voltaire](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good){{</attribution>}}
 
 To summarize Part A: We were unable to add a third manager to the leadership team in time to take some pressure off the CEO and allow him to focus on his job. There were very few but yet well qualified candidates available—hiring one of them and living with the subsequent imperfections would have been the better alternative than not having enough hands on deck to begin with.
 
@@ -161,4 +169,8 @@ With this article, I also want to encourage other fellow founders to write about
 
 ---
 
-{{<note>}}Like all posts in my blog, this article reflects my personal opinion. I hope I found the right balance by providing value to a broader audience while still respecting the people involved. Of course, other ex-EntrePreneurs might maintain different positions on this topic and are welcome to correct any facts that I might have misrepresented.{{</note>}}
+{{<note>}}
+##### <i class="las la-balance-scale-left"></i> Disclaimer
+
+Like all posts in my blog, this article reflects my personal opinion. I hope I found the right balance by providing value to a broader audience while still respecting the people involved. Of course, other ex-EntrePreneurs might maintain different positions on this topic and are welcome to correct any facts that I might have misrepresented.
+{{</note>}}

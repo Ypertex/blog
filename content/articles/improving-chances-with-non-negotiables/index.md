@@ -1,9 +1,13 @@
 ---
 title: Improving Your Chances with Non-Negotiables
 publishdate: 2020-01-14
-tags: [Career, Innovation, Leadership]
+tags:
+    - Career
+    - Innovation
+    - Leadership
 summary: Your chances of winning any game improve drastically once you learn the rules. But what if there aren't any clear rules? Non-Negotiables are here to help.
-cover: dc95dace-00d2-494e-bd8b-90f2cfbe54a8
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/dc95dace-00d2-494e-bd8b-90f2cfbe54a8
 ---
 
 # Playing Games at Work
@@ -49,7 +53,11 @@ Taking time to define your Non-Negotiables (individually or as team) will help y
 
 ---
 
-{{<note>}}**Pro-Tip:** Ask your boss or your clients for *their* Non-Negotiables, too: What's off limits for them? I'm certain it will help your mutual understanding and collaboration, too.{{</note>}}
+{{<note>}}
+##### <i class="las la-lightbulb"></i> Pro Tip
+
+Ask your boss or your clients for *their* Non-Negotiables, too: What's off limits for them? I'm certain it will help your mutual understanding and collaboration, too.
+{{</note>}}
 
 ---
 
@@ -67,7 +75,9 @@ First, we get started on a draft that we iterate once or twice. Then we seek ear
 * If removal has some **impact on the quality** of your work but doesn't completely impair it, you have discovered a part open for debate. These portions can be useful later as bargaining chips in case collaborators question your Non-Negotiables.
 * If the rest **still makes perfect sense**, get permanently rid of what you just removed. You got one step closer to perfection!
 
-> Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away. {{<cite>}}Antoine de Saint-Exupéry{{</cite>}}
+> Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.
+>
+> {{<attribution>}}Antoine de Saint-Exupéry{{</attribution>}}
 
 # What Happens if Your Non-Negotiables Get Overruled
 

@@ -1,7 +1,7 @@
 <div class="media">
     {{ if .Params.avatar }}<img
         src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.avatar }}{{ .Params.avatar }}"
-        class="yx-avatar" height="64" width="64">{{ end }}
+        class="yx-avatar">{{ end }}
     <div class="media-body">
         <h4>{{ .Title }}</h4>
         {{ .Content }}

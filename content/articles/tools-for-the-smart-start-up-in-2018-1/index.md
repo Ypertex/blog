@@ -2,18 +2,23 @@
 title: Tools for the Smart Start-up in 2018 (I)
 publishdate: 2018-08-02
 lastmod: 2019-06-28
-tags: [IT Recommendations]
-series: [Tools for the Smart Start-up in 2018]
+tags:
+    - Recommendations
+    - Technology
 summary: If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas.
-aliases: [/articles/tools-for-the-smart-start-up-1/]
-cover: 7b95a9b0-0f54-44f9-8af3-dd6820d3051d
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7b95a9b0-0f54-44f9-8af3-dd6820d3051d
+aliases:
+    - /articles/tools-for-the-smart-start-up-1/
 ---
 
-> We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget? {{<cite>}}Question from an interview at the [Swiss Financial Market Supervisory Authority FINMA](https://www.finma.ch/en/){{</cite>}}
+> We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget?
+>
+> {{<attribution>}}Question from an interview at the [Swiss Financial Market Supervisory Authority FINMA](https://www.finma.ch/en/){{</attribution>}}
 
 This was a question I was asked in an interview when I applied for a new job after [my start-up experience](https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/).
 
-Of course, we all read and hear about the astronomical valuations of the start-ups i.e. in Silicon Valley and the amounts of money they can pour into their <abbr="Research & Development">R&D</abbr> and innovation labs. This however distorts our perception of reality: The fact is that the vast majority of business ventures start out with very few resources at their disposal.
+Of course, we all read and hear about the astronomical valuations of the start-ups i.e. in Silicon Valley and the amounts of money they can pour into their <abbr title="Research & Development">R&D</abbr> and innovation labs. This however distorts our perception of reality: The fact is that the vast majority of business ventures start out with very few resources at their disposal.
 
 {{<figure src="7b95a9b0-0f54-44f9-8af3-dd6820d3051d" cite="[Evan Kirby](https://unsplash.com/photos/jl8x6XpE8Y4)">}}As a small start-up you can still cast a long shadow{{</figure>}}
 
@@ -27,7 +32,11 @@ For the purpose of this series of articles, let’s assume a start-up with a tea
 
 ---
 
-{{<note>}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
+{{<note>}}
+##### <i class="las la-balance-scale-left"></i> Disclaimer
+
+I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.
+{{</note>}}
 
 ---
 
@@ -87,11 +96,15 @@ I have intensively used Online.net and Hetzner services in professional projects
 
 ---
 
-{{<note>}}**Update June 28, 2019:** Let me add [Servdiscount](https://servdiscount.com/) to this list of providers. I've only used their services for a few weeks and already can tell that they deliver great value for competitive prices.
+{{<note class="alert-secondary">}}
+##### <i class="las la-sync"></i> Edited {{<date>}}2019-06-28{{</date>}}
+
+Let me add [Servdiscount](https://servdiscount.com/) to this list of providers. I've only used their services for a few weeks and already can tell that they deliver great value for competitive prices.
 
 As an example: For roughly $26, they provided me an 8-core processor, 24GB RAM (instead of the promoted 16), 265GB SSD (instead of the promoted 128), 1TB HDD, unmetered 1Gbps connectivity, *and a dedicated KVM*. Customer support is competent, prompt and friendly.
 
-If you can live with the missing disk redundancy options in most of their low-cost offers, it's really worth a look!{{</note>}}
+If you can live with the missing disk redundancy options in most of their low-cost offers, it's really worth a look!
+{{</note>}}
 
 ---
 
@@ -119,7 +132,11 @@ This Datacenter edition is so interesting due to one feature: Any Windows server
 
 ---
 
-{{<note>}}If you want to install your $40 license on a Hetzner server, you will have to ask for the above mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise the installation might take many hours.{{</note>}}
+{{<note>}}
+##### <i class="las la-lightbulb"></i> Tip
+
+If you want to install your $40 license on a Hetzner server, you will have to ask for the above mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise the installation might take many hours.
+{{</note>}}
 
 ---
 

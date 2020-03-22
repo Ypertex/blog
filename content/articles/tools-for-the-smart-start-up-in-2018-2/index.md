@@ -1,10 +1,12 @@
 ---
 title: Tools for the Smart Start-up in 2018 (II)
 publishdate: 2018-11-07
-tags: [IT Recommendations]
-series: [Tools for the Smart Start-up in 2018]
+tags:
+    - Recommendations
+    - Technology
 summary: Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how.
-cover: 24d4a332-d0da-4977-81d1-3056ac49b9e0
+images:
+    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/24d4a332-d0da-4977-81d1-3056ac49b9e0
 ---
 
 In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build [state-of-the-art IT infrastructure on a small budget](/articles/tools-for-the-smart-start-up-in-2018-1/). If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems. 
@@ -15,7 +17,11 @@ That’s nice—but hardware and <abbr title="Operating System">OS</abbr> alone 
 
 ---
 
-{{<note>}}I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.{{</note>}}
+{{<note>}}
+##### <i class="las la-balance-scale-left"></i> Disclaimer
+
+I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.
+{{</note>}}
 
 ---
 
@@ -69,7 +75,10 @@ The best part is that Netlify offers this service **for free**.  I still can’t
 
 ---
 
-{{<note>}}**Pro tip:** If you use a password manager capable of password sharing (see [my recommendations below](#password-management)), you can easily use Netlify as a team with a single user account.{{</note>}}
+{{<note>}}
+##### <i class="las la-lightbulb"></i> Pro Tip
+
+If you use a password manager capable of password sharing (see [my recommendations below](#password-management)), you can easily use Netlify as a team with a single user account.{{</note>}}
 
 ---
 

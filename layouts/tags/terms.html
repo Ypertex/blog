@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="yx-jumbotron">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+    </div>
+</section>
+{{ if gt (len .Pages) 10 }}
+{{ partial "pagination.html" . }}
+{{ end }}
+<section class="container pt-5">
+    <div class="row align-items-center">
+        {{ range .Paginator.Pages }}
+        <div class="col-md-6">
+            <div class="shadow card mb-5">
+                <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.md }}{{ .Params.cover.url }}"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title"><i class="las la-hashtag"></i>{{ .Title }}</h2>
+                    <p>{{ .Summary }}</p>
+                    <p class="text-muted"><small>{{ len .Pages }} articles</small></p>
+                    <div class="text-right">
+                        <a href="{{ .RelPermalink }}" class="btn btn-primary stretched-link">List articles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ if gt (len .Pages) 10 }}
+{{ partial "pagination.html" . }}
+{{ end }}
+{{ end }}

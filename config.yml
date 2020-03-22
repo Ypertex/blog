@@ -4,14 +4,16 @@ paginate: 10
 paginatePath: /
 title: Ypertex Blog
 
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
 menu:
     header:
         - name: Articles
           url: /articles/
           weight: 1
-        - name: Series
-          url: /series/
-          weight: 2
         - name: Tags
           url: /tags/
           weight: 3
@@ -65,9 +67,25 @@ params:
                 md: ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/
                 sm: ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/
                 xs: ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/
+            header:
+                card:
+                    lg: ar_3.2,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_728/
+                    md: ar_3.2,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_543/
     dateFormat: Jan 2, 2006
     description: Technology. Innovation. Leadership.
+    images:
+        - ypertex-logo-2020-03-og.png
+
+related:
+    includeNewer: true
+    toLower: true
+    indices:
+    - name: title
+      weight: 100
+    - name: summary
+      weight: 50
+    - name: tags
+      weight: 25
 
 taxonomies:
-    series: series
     tag: tags
