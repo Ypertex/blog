@@ -1,0 +1,23 @@
+<section class="bg-light">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col text-right">
+                {{ if .Paginator.HasPrev }}
+                <a href="{{ .Paginator.Prev.URL }}" class="btn btn-primary"><i class="las la-step-backward"></i></a>
+                {{ else }}
+                <span class="btn btn-outline-secondary disabled"><i class="las la-step-backward"></i></span>
+                {{ end }}
+            </div>
+            <div class="col col-auto text-center text-muted">
+                <small>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</small>
+            </div>
+            <div class="col text-left">
+                {{ if .Paginator.HasNext }}
+                <a href="{{ .Paginator.Next.URL }}" class="btn btn-primary"><i class="las la-step-forward"></i></a>
+                {{ else }}
+                <span class="btn btn-outline-secondary disabled"><i class="las la-step-forward"></i></span>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

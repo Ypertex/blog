@@ -6,7 +6,7 @@ summary: This Website collects some Personal Data from its Users. This policy is
 
 ## Owner and Data Controller
 
-[Michael Schmidle](/authors/michael-schmidle/)
+[Michael Schmidle](/)
 
 ## Types of Data Collected
 

@@ -1,0 +1,91 @@
+baseURL: https://blog.ypertex.com
+copyright: Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license
+paginate: 10
+paginatePath: /
+title: Ypertex Blog
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+menu:
+    header:
+        - name: Articles
+          url: /articles/
+          weight: 1
+        - name: Tags
+          url: /tags/
+          weight: 3
+    social:
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/michaelschmidle
+          weight: 1
+          pre: <i class="lab la-linkedin-in"></i>
+        - name: Twitter
+          url: https://twitter.com/MichaelSchmidle/
+          weight: 2
+          pre: <i class="lab la-twitter"></i>
+        - name: GitHub
+          url: https://github.com/MichaelSchmidle/
+          weight: 3
+          pre: <i class="lab la-github"></i>
+
+params:
+    cloudinary:
+        baseURL: https://res.cloudinary.com/ypertex/image/upload/
+        transformations:
+            avatar: ar_1,c_thumb,dpr_auto,f_auto,g_face,q_auto,w_128/
+            figure:
+                default:
+                    xl: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/
+                    lg: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/
+                    md: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/
+                    sm: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/
+                    xs: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/
+                full:
+                    xl: c_scale,dpr_auto,f_auto,q_auto,w_1140/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,w_960/
+                    md: c_scale,dpr_auto,f_auto,q_auto,w_720/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,w_767/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,w_575/
+                padded:
+                    xl: c_scale,dpr_auto,f_auto,q_auto,w_1108/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,w_928/
+                    md: c_scale,dpr_auto,f_auto,q_auto,w_688/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,w_735/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,w_543/
+                inline:
+                    xl: c_scale,dpr_auto,f_auto,q_auto,w_762/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,w_802/
+                    md: c_scale,dpr_auto,f_auto,q_auto,w_722/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,w_542/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,w_577/
+            index:
+                xl: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/
+                lg: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/
+                md: ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/
+                sm: ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/
+                xs: ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/
+            header:
+                card:
+                    lg: ar_3.2,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_728/
+                    md: ar_3.2,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_543/
+    dateFormat: Jan 2, 2006
+    description: Technology. Innovation. Leadership.
+    images:
+        - ypertex-logo-2020-03-og.png
+
+related:
+    includeNewer: true
+    toLower: true
+    indices:
+    - name: title
+      weight: 100
+    - name: summary
+      weight: 50
+    - name: tags
+      weight: 25
+
+taxonomies:
+    tag: tags

@@ -1,0 +1,59 @@
+<figure>
+    {{ if eq (.Get "transformation") "full" }}
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.full.xl }}{{ .Get `src` }}">
+        <source media="(min-width: 992px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.full.lg }}{{ .Get `src` }}">
+        <source media="(min-width: 768px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.full.md }}{{ .Get `src` }}">
+        <source media="(min-width: 576px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.full.sm }}{{ .Get `src` }}">
+        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.full.xs }}{{ .Get `src` }}"
+            alt="">
+    </picture>
+    {{ else if eq (.Get "transformation") "padded" }}
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.padded.xl }}{{ .Get `src` }}">
+        <source media="(min-width: 992px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.padded.lg }}{{ .Get `src` }}">
+        <source media="(min-width: 768px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.padded.md }}{{ .Get `src` }}">
+        <source media="(min-width: 576px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.padded.sm }}{{ .Get `src` }}">
+        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.padded.xs }}{{ .Get `src` }}"
+            alt="" class="p-3" style="background-color: white;">
+    </picture>
+    {{ else if eq (.Get "transformation") "inline" }}
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.xl }}{{ .Get `src` }}">
+        <source media="(min-width: 992px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.lg }}{{ .Get `src` }}">
+        <source media="(min-width: 768px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.md }}{{ .Get `src` }}">
+        <source media="(min-width: 576px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.sm }}{{ .Get `src` }}">
+        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.xs }}{{ .Get `src` }}"
+            alt="">
+    </picture>
+    {{ else }}
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.default.xl }}{{ .Get `src` }}">
+        <source media="(min-width: 992px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.default.lg }}{{ .Get `src` }}">
+        <source media="(min-width: 768px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.default.md }}{{ .Get `src` }}">
+        <source media="(min-width: 576px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.default.sm }}{{ .Get `src` }}">
+        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.default.xs }}{{ .Get `src` }}"
+            alt="">
+    </picture>
+    {{ end }}
+    <figcaption>
+        {{ .Inner | markdownify }}{{ with .Get `cite` }} <span
+            class="yx-attribution">{{ . | markdownify }}</span>{{ end }}
+    </figcaption>
+</figure>

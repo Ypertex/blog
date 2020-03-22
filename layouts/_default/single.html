@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ partial "jumbotron.html" . }}
+<section class="yx-content container py-5">
+    <div class="row">
+        <div class="col-xl-8 col-lg-10 mx-auto">
+            <p class="lead">{{ .Summary }}{{ if ne .PublishDate .Lastmod }} <small class="text-muted">[Edited
+                    {{ .Lastmod | dateFormat .Site.Params.dateFormat }}]</small>{{ end }}</p>
+            <hr>
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-10 mx-auto">
+                {{ partial "article-share.html" .}}
+            </div>
+        </div>
+    </div>
+</section>
+{{ $related := .Site.RegularPages.Related . | first 2 }}
+{{ if $related }}
+<section class="container py-5">
+    <div class="yx-heading">
+        Recommended Articles
+    </div>
+    {{ range $index, $article := $related }}
+    {{ if gt $index 0 }}
+    <hr>
+    {{ end }}
+    {{ partial "covered-article-head.html" (dict "article" $article "cloudinary" .Site.Params.cloudinary "inverted" (modBool $index 2)) }}
+    {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}

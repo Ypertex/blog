@@ -1,0 +1,13 @@
+<div class="media">
+    {{ if .Params.avatar }}<img
+        src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.avatar }}{{ .Params.avatar }}"
+        class="yx-avatar">{{ end }}
+    <div class="media-body">
+        <h4>{{ .Title }}</h4>
+        {{ .Content }}
+        <p class="mb-0">{{ range .Site.Menus.social }}
+            <a href="{{ .URL }}"
+                class="btn btn-light rounded-pill text-muted">{{ with .Pre }}{{ . }}&nbsp;{{ end }}{{ .Name }}</a>
+            {{ end }}</p>
+    </div>
+</div>
