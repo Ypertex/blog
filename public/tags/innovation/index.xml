@@ -1,1 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Innovation on Ypertex Blog</title><link>https://blog.ypertex.com/tags/innovation/</link><description>Recent content in Innovation on Ypertex Blog</description><generator>Hugo -- gohugo.io</generator><copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright><lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/tags/innovation/index.xml" rel="self" type="application/rss+xml"/><item><title>Are We Innovating Our Own Stagnation?</title><link>https://blog.ypertex.com/articles/innovating-our-own-stagnation/</link><pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate><guid>https://blog.ypertex.com/articles/innovating-our-own-stagnation/</guid><description>Today&amp;rsquo;s global challenges require humankind to learn and adapt. Artificial Intelligence will help driving these changes, right?&amp;mdash;Maybe not.</description></item><item><title>Improving Your Chances with Non-Negotiables</title><link>https://blog.ypertex.com/articles/improving-chances-with-non-negotiables/</link><pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate><guid>https://blog.ypertex.com/articles/improving-chances-with-non-negotiables/</guid><description>Your chances of winning any game improve drastically once you learn the rules. But what if there aren&amp;rsquo;t any clear rules? Non-Negotiables are here to help.</description></item><item><title>Test Your Way to Success</title><link>https://blog.ypertex.com/articles/test-your-way-to-success/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://blog.ypertex.com/articles/test-your-way-to-success/</guid><description>Ever spent too much time on something that turned out to be based on the wrong assumptions? Here&amp;rsquo;s how to make sure that you&amp;rsquo;re investing your time correctly.</description></item><item><title>The Antiquated Form of the World’s Most Innovative Companies</title><link>https://blog.ypertex.com/articles/antiquated-form-of-most-innovative-companies/</link><pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate><guid>https://blog.ypertex.com/articles/antiquated-form-of-most-innovative-companies/</guid><description>Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovation on Ypertex Blog</title>
+    <link>https://blog.ypertex.com/tags/innovation/</link>
+    <description>Recent content in Innovation on Ypertex Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.ypertex.com/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Are We Innovating Our Own Stagnation?</title>
+      <link>https://blog.ypertex.com/articles/innovating-our-own-stagnation/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/innovating-our-own-stagnation/</guid>
+      <description>Today&amp;rsquo;s global challenges require humankind to learn and adapt. Artificial Intelligence will help driving these changes, right?&amp;mdash;Maybe not.</description>
+    </item>
+    
+    <item>
+      <title>Improving Your Chances with Non-Negotiables</title>
+      <link>https://blog.ypertex.com/articles/improving-chances-with-non-negotiables/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/improving-chances-with-non-negotiables/</guid>
+      <description>Your chances of winning any game improve drastically once you learn the rules. But what if there aren&amp;rsquo;t any clear rules? Non-Negotiables are here to help.</description>
+    </item>
+    
+    <item>
+      <title>Test Your Way to Success</title>
+      <link>https://blog.ypertex.com/articles/test-your-way-to-success/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/test-your-way-to-success/</guid>
+      <description>Ever spent too much time on something that turned out to be based on the wrong assumptions? Here&amp;rsquo;s how to make sure that you&amp;rsquo;re investing your time correctly.</description>
+    </item>
+    
+    <item>
+      <title>The Antiquated Form of the World’s Most Innovative Companies</title>
+      <link>https://blog.ypertex.com/articles/antiquated-form-of-most-innovative-companies/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/antiquated-form-of-most-innovative-companies/</guid>
+      <description>Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come?</description>
+    </item>
+    
+  </channel>
+</rss>
