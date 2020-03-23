@@ -19,7 +19,7 @@ Consider the following scenario: My <abbr title="Internet Service Provider">ISP<
 
 Usually when you are provided a subnet, it is routed to the fixed public IP of your router. This IP is not part of the subnet so you have the freedom to forward the routing of the subnet downstream over any number of hops to anywhere you need it in your infrastructure. In this case however, the first IP was assigned to the ISP gateway—making it impossible to allocate the subnet somewhere else. My router had to be in the exact same subnet (i.e. ``x.x.129.210``).
 
-{{<figure src="f1d8e6d9-1f1a-4c88-beca-37b5b0026470" transformation="padded">}}Schema of network conditions dictated by my ISP.{{</figure>}}
+{{<figure src="f1d8e6d9-1f1a-4c88-beca-37b5b0026470" transformation="paddedInline">}}Schema of network conditions dictated by my ISP{{</figure>}}
 
 However, what I wanted was a <abbr title="Demilitarized Zone">DMZ</abbr> *behind that firewall router*, i.e. servers that are accessible via public IPs without <abbr title="Network Address Translation">NAT</abbr> or Transparent Bridging. So I split the ``/28`` subnet in two ``/29``:
 
@@ -28,7 +28,7 @@ However, what I wanted was a <abbr title="Demilitarized Zone">DMZ</abbr> *behind
 
 This is how it looked once configured on the firewall router and DMZ:
 
-{{<figure src="9e11ccc3-e01e-4432-bb11-f7e124a66d59" transformation="padded">}}Schema of the networks as I wanted to route them.{{</figure>}}
+{{<figure src="9e11ccc3-e01e-4432-bb11-f7e124a66d59" transformation="paddedInline">}}Schema of the networks as I wanted to route them{{</figure>}}
 
 Notice how the firewall router has the same Internet-facing IP but with a different netmask now?
 

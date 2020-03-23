@@ -61,6 +61,12 @@ params:
                     md: c_scale,dpr_auto,f_auto,q_auto,w_722/
                     sm: c_scale,dpr_auto,f_auto,q_auto,w_542/
                     xs: c_scale,dpr_auto,f_auto,q_auto,w_577/
+                paddedInline:
+                    xl: c_scale,dpr_auto,f_auto,q_auto,w_730/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,w_770/
+                    md: c_scale,dpr_auto,f_auto,q_auto,w_690/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,w_510/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,w_545/
             index:
                 xl: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/
                 lg: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/

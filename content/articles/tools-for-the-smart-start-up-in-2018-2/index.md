@@ -63,7 +63,7 @@ The way I publish websites has substantially changed over the past two years. Pr
 Nowadays, the CMS sits on my laptop and regenerates the entire website whenever I change a thing. Regenerating this blog takes around 125ms, so basically no time. Once I am happy and want to publish the changes, I commit them to my Git repository and push them to GitHub. The repository contains both the source files used to generate the website and the generated final result. Take a look at the first article in this series for example:
 
 * the article’s human readable [source file](https://github.com/Ypertex/blog/blob/master/content/articles/2018-08-02-tools-for-the-smart-start-up.md)
-* the corresponding generated [<abbr title="Hypertext Markup Language">HTML</abbr> webpage](https://github.com/Ypertex/blog/blob/master/published/articles/tools-for-the-smart-start-up-1/index.html)
+* the corresponding generated [<abbr title="Hypertext Markup Language">HTML</abbr> webpage](https://github.com/Ypertex/blog/blob/master/public/articles/tools-for-the-smart-start-up-1/index.html)
 
 Once my commits are pushed to the repository on GitHub, my work is done. Netlify takes it from there:
 

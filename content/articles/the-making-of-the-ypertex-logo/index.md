@@ -113,7 +113,7 @@ I like to work with broader surfaces compared to fine lines, so I redrew the cha
 
 By scribbling and playing around with these characters, I quickly discovered that the above building blocks could be arranged in a way to form the first and last character of the name Ypertex.
 
-{{<figure src="19a5ec51-34d8-4f94-9157-56742b01046c" transformation="inline">}}The symbolic characters derived from the name can be rearranged to overlap and form the first and last character of the name{{</figure>}}
+{{<figure src="19a5ec51-34d8-4f94-9157-56742b01046c" transformation="inline">}}The symbolic characters can be rearranged to overlap and form the first and last character of the name{{</figure>}}
 
 In a next step, I tried to combine the letters ``x`` and ``y`` (or the hidden smaller/larger signs and slashes within them) to **create a new single element** in a way that contained the double forward slash ``//``.
 
@@ -157,7 +157,7 @@ I reverted back and instead tried different things. In the end, the last tweak w
 
 **Exaggeration is helpful in creating visual designs:** It helps you determine if you already have left out all that you can (remember the *Art of Omission*) or if you have found the most individual and interesting design possible without breaking it. It does not only apply to the overall design but to single elements, too. As my design professor in college used to say:
 
-> Don’t be afraid of exaggeration. It is so much easier to dial a bold design back a notch or two than to spice up a timid design.
+> Don’t be afraid of exaggeration. It is so much easier to dial back a bold design than to spice up a timid design.
 >
 > {{<attribution>}}Christian Fries{{</attribution>}}
 
