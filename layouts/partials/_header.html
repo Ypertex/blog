@@ -1,0 +1,28 @@
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand"
+                href="{{ .Site.Home.RelPermalink }}">{{ partial "ypertex-logogram-2020-03.svg" }}</a>
+            <button type="button" data-toggle="collapse" data-target="#menuHeader" aria-controls="menu.header"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="las la-bars"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="menuHeader">
+                <div class="navbar-nav mr-md-auto">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.header }}
+                    <a href="{{ .URL | relURL }}"
+                        class="nav-item nav-link{{ if in $currentPage.RelPermalink .URL }} active{{ end }}">{{ .Name }}</a>
+                    {{ end }}
+                </div>
+                <div class="navbar-nav">
+                    <hr>
+                    {{ range .Site.Menus.social }}
+                    <a href="{{ .URL }}" class="nav-item nav-link" title="{{ .Name }}">{{ .Pre }} <span
+                            class="d-md-none"> {{ .Name }}</span></a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,4 @@
+<p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;{{ .PublishDate | dateFormat .Site.Params.dateFormat }}{{ if ne .PublishDate .Lastmod }}
+        · <i class="las la-sync"></i>&nbsp;{{ .Lastmod | dateFormat .Site.Params.dateFormat }}{{ end }} · <i
+            class="las la-stopwatch"></i>&nbsp;{{ .ReadingTime }}min read</small></p>

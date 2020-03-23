@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on Ypertex Blog</title>
+    <link>https://blog.ypertex.com/tags/personal/</link>
+    <description>Recent content in Personal on Ypertex Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
+    <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.ypertex.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Redesign March 2020</title>
+      <link>https://blog.ypertex.com/articles/redesign-march-2020/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/redesign-march-2020/</guid>
+      <description>On this day three years ago, I launched my blog. Today, I publish its first redesign: bigger, bolder, bluer, and (hopefully) better than its predecessor.</description>
+    </item>
+    
+    <item>
+      <title>The Making of the Ypertex Logo</title>
+      <link>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</guid>
+      <description>The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).</description>
+    </item>
+    
+    <item>
+      <title>Years in the Making, Launching Today: The Ypertex Blog</title>
+      <link>https://blog.ypertex.com/articles/ypertex-blog-launching-today/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/ypertex-blog-launching-today/</guid>
+      <description>After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?</description>
+    </item>
+    
+  </channel>
+</rss>

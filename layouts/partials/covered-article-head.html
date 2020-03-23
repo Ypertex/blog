@@ -1,0 +1,23 @@
+<div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0{{ if .inverted }} order-md-last{{ end }}">
+        {{ if $cover := (path.Split (index (first 1 .article.Params.images) 0)).File }}
+        <a href="{{ .article.RelPermalink }}">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index.xl }}{{ $cover }}">
+                <source media="(min-width: 992px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index.lg }}{{ $cover }}">
+                <source media="(min-width: 768px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index.md }}{{ $cover }}">
+                <source media="(min-width: 576px)"
+                    srcset="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index.sm }}{{ $cover }}">
+                <img src="{{ .cloudinary.baseURL }}{{ .cloudinary.transformations.index.xs }}{{ $cover }}" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        {{ end }}
+    </div>
+    <div class="col-md-8{{ if .inverted }} text-md-right{{ end }}">
+        {{ partial "article-head.html" .article }}
+    </div>
+</div>

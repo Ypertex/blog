@@ -1,0 +1,29 @@
+<div class="yx-heading mb-3">
+    Share this article
+</div>
+<div class="card mx-md-n4">
+    <div class="card-body">
+        <div class="row text-center">
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ safeHTML .Title }}&amp;source={{ safeHTML .Site.Title }}"
+                    title="LinkedIn"
+                    onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;"><i
+                        class="lab la-linkedin-in"></i></a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://twitter.com/intent/tweet?text={{ safeHTML .Title }}&amp;url={{ .Permalink }}"
+                    title="Twitter"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=550');return false;"><i
+                        class="lab la-twitter"></i></a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Facebook"
+                    onclick="window.open(this.href, 'facebook-share','width=550,height=550');return false;"><i
+                        class="lab la-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

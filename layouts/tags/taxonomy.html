@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="yx-jumbotron">
+    <div class="container">
+        <h1><i class="las la-hashtag"></i>{{ .Title }}</h1>
+        <div class="row">
+            <div class="col-lg-8 col-md-6 mx-auto">
+                <div class="card">
+                    <picture>
+                        <source media="(min-width: 992px)"
+                            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.lg }}{{ .Params.cover.url }}">
+                        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.md }}{{ .Params.cover.url }}"
+                            alt="" class="card-img-top">
+                    </picture>
+                    <div class="card-body">
+                        <p class="lead">{{ .Summary }}</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col mr-auto">
+                                <small>{{ len .Pages }} articles</small>
+                            </div>
+                            {{ with .Params.cover.attribution }}
+                            <div class="col-auto">
+                                <small class="yx-attribution">Image: {{ . | markdownify }}</small>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ if gt (len .Pages) 10 }}
+{{ partial "pagination.html" . }}
+{{ end }}
+{{ partial "article-list.html" . }}
+{{ if gt (len .Pages) 10 }}
+{{ partial "pagination.html" . }}
+{{ end }}
+{{ end }}

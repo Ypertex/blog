@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Ypertex Blog</title>
+    <link>https://blog.ypertex.com/tags/technology/</link>
+    <description>Recent content in Technology on Ypertex Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
+    <lastBuildDate>Sun, 18 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.ypertex.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unhide Virtual Network Adapters in Windows 10</title>
+      <link>https://blog.ypertex.com/articles/unhide-virtual-networks-adapters-windows-10/</link>
+      <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/unhide-virtual-networks-adapters-windows-10/</guid>
+      <description>In Windows&amp;rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
+    </item>
+    
+    <item>
+      <title>Enabling JumpCloud on Unsupported Linux Systems</title>
+      <link>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</guid>
+      <description>JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let&amp;rsquo;s fix that.</description>
+    </item>
+    
+    <item>
+      <title>Tools for the Smart Start-up in 2018 (II)</title>
+      <link>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</guid>
+      <description>Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how.</description>
+    </item>
+    
+    <item>
+      <title>How to Advertise Subnets to Upstream Routers with OPNsense and ARP</title>
+      <link>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
+      <description>If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense.</description>
+    </item>
+    
+    <item>
+      <title>Tools for the Smart Start-up in 2018 (I)</title>
+      <link>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</guid>
+      <description>If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas.</description>
+    </item>
+    
+    <item>
+      <title>Working Around the JumpCloud Curl Error 22</title>
+      <link>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</guid>
+      <description>JumpCloud is a great tool to enable Single Sign On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux.</description>
+    </item>
+    
+  </channel>
+</rss>
