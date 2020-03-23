@@ -9,7 +9,7 @@ images:
     - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/ac6a470c-93e0-4020-9dcd-7a61c33101bf
 ---
 
-Over eight years ago, I moved to Switzerland–a country with one of the most direct democracies in the world. This political system means that the Swiss citizens are regularly asked to vote on all kinds of governmental matters. Instead of only casting their votes every few years to elect their leaders, the Swiss adults usually receive once per quarter an invitation to vote on very specific subject matters. These matters can relate to federal, cantonal (i.e. state), or municipal issues.
+Over eight years ago, I moved to Switzerland---a country with one of the most direct democracies in the world. This political system means that the Swiss citizens are regularly asked to vote on all kinds of governmental matters. Instead of only casting their votes every few years to elect their leaders, the Swiss adults usually receive once per quarter an invitation to vote on very specific subject matters. These matters can relate to federal, cantonal (i.e. state), or municipal issues.
 
 In addition to being able to vote on such matters, Swiss adults also can put to the vote whatever issue they want to bring forward (given that a certain limit of people support the initiative or referendum). In other words: The Swiss do not only answer the questions regularly asked by their government—they even ask their own questions to be answered by the people.
 
@@ -89,9 +89,9 @@ It makes me wonder why a company like Apple, Inc. is ahead of the curve regardin
 
 In his book “Reinventing Organizations”, Frederic Laloux perfectly captures why people feel that our current way of managing organizations has reached its limits. He observes that the complexity in an ever increasingly interconnected world exceeds the capacity even of top managers: “The few people at the top, however smart they are, don’t have enough bandwidth to grasp and deal with all the complexity.”
 
-I think most of us can relate to the following illustration:
+I think most of us can relate to the following illustration: “Since you only have three minutes to make this critical decision, I’ll just share a few sound bites … and then we’ll all pretend you understand the implications of your decision.”
 
-{{<figure src="74bf2ec4-a42f-4880-afdf-cc2512b6ace2" cite="Frederic Laloux, “Reinventing Organizations”, 2014" title="“Since you only have three minutes to make this critical decision, I’ll just share a few sound bites … and then we’ll all pretend you understand the implications of your decision.”" transformation="padded">}}“Hierarchy cannot cope with complexity”{{</figure>}}
+{{<figure src="74bf2ec4-a42f-4880-afdf-cc2512b6ace2" cite="Frederic Laloux, “Reinventing Organizations”, 2014" transformation="padded">}}“Hierarchy cannot cope with complexity”{{</figure>}}
 
 However, Frederic Laloux can take away one positive aspect from his research:
 
@@ -131,4 +131,4 @@ This reinvention process has been anticipated in various parts of the organizati
 
 During my three years at SRG SSR, I have encountered many colleagues with great ideas, a lot of passion for our business and a deep sense of responsibility regarding our public funds. It both frustrates and drives me that the structure and processes of the company do not promote such ideas and efforts. But this is the reason our team exists: to induce change for the better.
 
-I am curious to see where our efforts will lead us. Regardless the outcome, it will be a very interesting journey. I will keep you posted.
+I am curious to see to where our efforts will lead us. Regardless of the outcome, it will be a very interesting journey. I will keep you posted.

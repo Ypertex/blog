@@ -9,7 +9,7 @@ $info: #1c0bf4;
 $factor: 87.5%;
 
 $font-size-base: 1.125rem;
-$code-font-size: 1.125rem;
+$code-font-size: inherit;
 $enable-responsive-font-sizes: true;
 $font-family-sans-serif: 'Montserrat', sans-serif !default;
 $headings-font-family: 'Montserrat Alternates', serif !default;
@@ -213,10 +213,16 @@ hr {
     table {
         @extend small, .table, .table-striped, .table-hover, .my-5;
     }
-    .alert {
-        @extend .shadow, .mx-n3, .p-3;
+    pre, .alert {
+        @extend .shadow, .mx-md-n3, .p-3;
+    }
+    pre, .card {
+        @extend .my-5, .mx-md-n3;
+    }
+    pre {
+        @extend .bg-dark, .text-light;
     }
     .card {
-        @extend .my-5, .bg-light, .mx-md-n4;
+        @extend .bg-light;
     }
 }
