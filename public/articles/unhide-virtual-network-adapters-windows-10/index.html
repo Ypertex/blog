@@ -189,7 +189,7 @@
 <h1 id="unhide-the-host-only-virtual-network-adapter">Unhide the Host-Only Virtual Network Adapter</h1>
 <p>To get Windows to treat the host-only adapter like a &ldquo;real&rdquo; one, open the Registry Editor and look for the corresponding entry.</p>
 <p>For VMware Workstation, the value is located in a subfolder like <code>0010</code> at <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}</code> in the registry. Verify that the value of <code>DriverDesc</code> in the same location is <code>VMware Virtual Ethernet Adapter for VMnet1</code>.</p>
-<p>Then change the <code>*NdisDeviceType</code> value of from <code>1</code> to <code>0</code>.</p>
+<p>Then change the <code>*NdisDeviceType</code> value from <code>1</code> to <code>0</code>.</p>
 <p>Apply the change by rebooting your Windows 10 instance. Next time you log on, Windows will show the virtual adapter under &ldquo;Network &amp; Sharing Center&rdquo; and properly detect Internet connectivity on both links.</p>
 <h1 id="finishing-touches-for-my-use-case">Finishing Touches for My Use Case</h1>
 <p>Now that Windows recognizes the second connection as valid Internet connection, we need to make sure that it prioritizes the virtual network over the physical one. There are several ways to achieve this, with varying levels of security:</p>
