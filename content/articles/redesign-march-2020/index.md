@@ -64,7 +64,7 @@ Apparently, there are four main styles: Chicago style, APA style, MLA style, and
 
 {{<figure src="7bf13c7d-e3e2-4560-b55a-45ad16343bf0" transformation="inline">}}On a **horizontally held smartphone**, the articles are listed in a wide layout with long images{{</figure>}}
 
-As it turns out, images are as static as always. You just provide several sizes and aspect rations of the *same* image and the web page and browser determine which of the image versions to show under what circumstance. This can be very tedious, of course, but there are services available that automate this for you.
+As it turns out, images are as static as always. You just provide several sizes and aspect ratios of the *same* image and the web page and browser determine which of the image versions to show under what circumstance. This can be very tedious, of course, but there are services available that automate this for you.
 
 So while you provide the original image of a fixed size (width and height), services like Cloudinary can intelligently crop parts of the image. Using Artificial Intelligence, the interesting parts of an image (like faces) are identified and preserved in the cropped images. And they do this the lazy way, meaning: on the fly. Only once a user browses a web page with a certain type of device, the service renders the corresponding versions of the base image. Not a second earlier.
 
