@@ -4,22 +4,25 @@
         <h1><i class="las la-hashtag"></i>{{ .Title }}</h1>
         <div class="row">
             <div class="col-lg-8 col-md-6 mx-auto">
-                <div class="card">
+                <div class="shadow card">
+                    {{ if $cover := (path.Split (index (first 1 .Params.images) 0)).File }}
                     <picture>
                         <source media="(min-width: 992px)"
-                            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.lg }}{{ .Params.cover.url }}">
-                        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.md }}{{ .Params.cover.url }}"
+                            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.lg }}{{ $cover }}">
+                        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.md }}{{ $cover }}"
                             alt="" class="card-img-top">
                     </picture>
+                    {{ end }}
                     <div class="card-body">
-                        <p class="lead">{{ .Summary }}</p>
+                        <h2 class="card-title"><i class="las la-hashtag"></i>{{ .Title }}</h2>
+                        <p>{{ .Summary }}</p>
                     </div>
                     <div class="card-footer">
                         <div class="row">
                             <div class="col mr-auto">
                                 <small>{{ len .Pages }} articles</small>
                             </div>
-                            {{ with .Params.cover.attribution }}
+                            {{ with .Params.imageAttribution }}
                             <div class="col-auto">
                                 <small class="yx-attribution">Image: {{ . | markdownify }}</small>
                             </div>

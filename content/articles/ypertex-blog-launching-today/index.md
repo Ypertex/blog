@@ -2,6 +2,7 @@
 title: "Years in the Making, Launching Today: The Ypertex Blog"
 publishdate: 2017-03-23
 tags:
+    - Likes
     - Personal
 summary: After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?
 images:

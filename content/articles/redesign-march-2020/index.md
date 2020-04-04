@@ -4,7 +4,7 @@ publishdate: 2020-03-23
 tags:
     - Design
     - Personal
-    - Recommendations
+    - Likes
 summary: "On this day three years ago, I launched my blog. Today, I publish its first redesign: bigger, bolder, bluer, and (hopefully) better than its predecessor."
 images:
     - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/050bab80-48bd-404a-b6b1-d1f39e934849

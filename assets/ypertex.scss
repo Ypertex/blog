@@ -57,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 hr {
     @extend .my-5, .mx-n2, .mx-sm-n3;
 }
+span[lang] {
+    @extend abbr;
+}
 :last-child {
     @extend .mb-0;
 }
@@ -146,6 +149,12 @@ hr {
     h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6 {
         @extend .mt-0;
     }
+    p > small {
+        @extend .text-muted;
+    }
+    li {
+        @extend .mb-3;
+    }
     figure {
         @extend .my-5, .text-center;
         position: relative;
@@ -176,7 +185,7 @@ hr {
         }
     }
     figcaption {
-        @extend small, .mt-3, .col-md-8, .mx-auto;
+        @extend small, .col-xl-8, .col-lg-10, .mt-3, .mx-auto;
         a {
             font-weight: normal;
         }
