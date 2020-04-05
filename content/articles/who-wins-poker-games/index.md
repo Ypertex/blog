@@ -98,9 +98,9 @@ We opted for two (**2**) criteria specific to our industry and particular contex
 **Costs and Risks:** How high are costs and risks of implementing and operating technology X over its life cycle?
 {{</card>}}
 
-Here's how the criteria relate to each other:
+These criteria aren't independent. There should be a one-way correlation: Of course, low costs and risks are always OK. On the other hand, hight costs and risks are OK only in one case:
 
-{{<figure src="589e8c0b-9121-44aa-9d85-d2fc7930fdc4" transformation="paddedInline">}}A technology with substantial costs and risks is only valid if it comes with a high potential in terms of differentiation and acceleration---and if the project demands it{{</figure>}}
+{{<figure src="589e8c0b-9121-44aa-9d85-d2fc7930fdc4" transformation="paddedInline">}}A technology with substantial costs and risks is only valid if it comes with a high potential in terms of differentiation and acceleration{{</figure>}}
 
 **The great thing** about a strategy that asks questions rather than giving answers:
 
