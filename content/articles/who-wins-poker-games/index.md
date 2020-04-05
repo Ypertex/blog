@@ -141,7 +141,7 @@ If the entire organization implements this approach, by and large two things wil
 
 And that's the strategy!
 
-{{<figure src="921e01f6-2a58-46f9-adf6-f5e5a56a4535" transformation="paddedInline">}}And if our estimations are correct, the view over the entire portfolio could look like this: 80% of the technologies are low cost and low risk, enabling and financing the remaining 20% with high impact on differentiation and acceleration{{</figure>}}
+{{<figure src="921e01f6-2a58-46f9-adf6-f5e5a56a4535" transformation="paddedInline">}}If the strategy was successful, the view over the entire portfolio could look like this: 80% of the technologies are low cost and low risk, enabling and financing the remaining 20% with high impact on differentiation and acceleration{{</figure>}}
 
 #### Interesting Findings From Playing Strategy in Action at SRG&nbsp;SSR
 
@@ -173,7 +173,7 @@ The rather obvious **main lesson** is this: It's both the card *and* the player 
 
 You need to have the right strategy. Having the wrong strategy perfectly executed will still be a failure.
 
-You also need to have an applicable strategy. Having the perfect strategy will still be a failure if people are unable to execute it.
+You also need to have a strategy that can be applied by decision-makers. Having the perfect strategy will still be a failure if people are unable to execute it.
 
 {{<figure src="bfac4e8b-3535-423f-8a49-1d66116532cd">}}The best cards in the deck are only as good as the players who hold them.{{</figure>}}
 
