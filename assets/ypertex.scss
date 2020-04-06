@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     @extend .mb-3, .mt-0;
 }
 hr {
-    @extend .my-5, .mx-n2, .mx-sm-n3;
+    @extend .my-5, .mx-n3;
 }
 span[lang] {
     @extend abbr;
@@ -152,9 +152,6 @@ span[lang] {
     p > small {
         @extend .text-muted;
     }
-    li {
-        @extend .mb-3;
-    }
     figure {
         @extend .my-5, .text-center;
         position: relative;
@@ -222,16 +219,19 @@ span[lang] {
     table {
         @extend small, .table, .table-striped, .table-hover, .my-5;
     }
+    pre, .alert, .card {
+        @extend .mx-md-n3;
+    }
     pre, .alert {
-        @extend .shadow, .mx-md-n3, .p-3;
+        @extend .shadow, .p-3;
     }
     pre, .card {
-        @extend .my-5, .mx-md-n3;
+        @extend .my-5;
     }
     pre {
         @extend .bg-dark, .text-light;
     }
-    .card {
-        @extend .bg-light;
+    .card .yx-attribution {
+        @extend small;
     }
 }

@@ -4,7 +4,7 @@
         <h1><i class="las la-hashtag"></i>{{ .Title }}</h1>
         <div class="row">
             <div class="col-lg-8 col-md-6 mx-auto">
-                <div class="shadow card">
+                <div class="card">
                     {{ if $cover := (path.Split (index (first 1 .Params.images) 0)).File }}
                     <picture>
                         <source media="(min-width: 992px)"
@@ -14,7 +14,6 @@
                     </picture>
                     {{ end }}
                     <div class="card-body">
-                        <h2 class="card-title"><i class="las la-hashtag"></i>{{ .Title }}</h2>
                         <p>{{ .Summary }}</p>
                     </div>
                     <div class="card-footer">

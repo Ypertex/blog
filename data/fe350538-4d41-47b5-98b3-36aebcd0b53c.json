@@ -1,0 +1,21 @@
+{
+    "status": "success",
+    "data": {
+        "title": "The unnatural ethics of AI could be its undoing",
+        "description": "Algorithms are so good at racism that it will hopefully become impossible to ignore.",
+        "lang": "en",
+        "author": "Tom Whyman",
+        "publisher": "The Outline",
+        "image": {
+            "url": "https://outline-prod.imgix.net/20190129-LzDVpsQ40Dl40qj003Kn?auto=format&q=60&w=1280&s=76406b28bbe93fdc380c6d28b6833486",
+            "type": "jpg",
+            "size": 129528,
+            "height": 696,
+            "width": 1280,
+            "size_pretty": "130 kB"
+        },
+        "url": "https://theoutline.com/post/7022/ai-trolley-problem-ethics",
+        "date": "2019-01-29T16:01:00.000Z",
+        "logo": null
+    }
+}

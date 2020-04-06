@@ -69,4 +69,4 @@ How about learning to unlearn, using our existing strength to build a new streng
 
 ## Recommended Reading
 
-* [The Unnatural Ethics of AI Could Be Its Undoing](https://getpocket.com/explore/item/the-unnatural-ethics-of-ai-could-be-its-undoing)
+{{<preview src="fe350538-4d41-47b5-98b3-36aebcd0b53c">}}

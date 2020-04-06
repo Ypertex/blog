@@ -80,19 +80,19 @@ In our case, we need to offer criteria to decide: When do we prioritize cost sav
 
 We opted for two (**2**) criteria specific to our industry and particular context---and one (**+1**) rather global criterion that probably is valid in most industries. This means: Instead of giving case-by-case answers, the strategy **asks** leading questions:
 
-{{<card>}}
+{{<card class="bg-secondary text-light">}}
 #### Criterion 1
 
 **Differentiation:** How much does technology X help us to differentiate our offerings in the market?
 {{</card>}}
 
-{{<card>}}
+{{<card class="bg-secondary text-light">}}
 #### Criterion 2
 
 **Acceleration:** How much does technology X help us to be faster at what we do?
 {{</card>}}
 
-{{<card>}}
+{{<card class="bg-secondary text-light">}}
 #### Criterion 3
 **Costs and Risks:** How high are costs and risks of implementing and operating technology X over its life cycle?
 {{</card>}}

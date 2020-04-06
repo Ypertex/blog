@@ -182,7 +182,6 @@ I want to contribute—and will perform a little experiment by slipping into the
 
 ## Recommended Videos and Articles for “AI Beginners”
 
-* Sam Harris’ TED Talk: [Can we build AI without losing control over it?](https://www.youtube.com/watch?v=8nt3edWLgIg)
-* Tim Urban’s two epic articles:
-  * [The AI Revolution: The Road to Superintelligence](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
-  * [The AI Revolution: Our Immortality or Extinction](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html)
+{{<preview src="86d741ab-f5ec-45f4-94b8-03aa5c5e483f">}}
+{{<preview src="f315672c-168c-4921-8f14-754593fb5efb">}}
+{{<preview src="8e636db7-8250-4c62-8f0b-1c49b1af33db">}}

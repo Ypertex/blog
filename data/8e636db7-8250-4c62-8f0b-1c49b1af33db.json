@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "data": {
+        "title": "The Artificial Intelligence Revolution: Part 2",
+        "description": "Part 2: &quot;Our Immortality or Our Extinction&quot;. When Artificial Intelligence gets superintelligent, it&#039;s either going to be a dream or a nightmare for us.",
+        "lang": "en",
+        "author": "Tim Urban",
+        "publisher": "Wait But Why",
+        "image": {
+            "url": "https://waitbutwhy.com/wp-content/uploads/2015/01/Feature-1024x536.jpg",
+            "type": "jpg",
+            "size": 32135,
+            "height": 536,
+            "width": 1024,
+            "size_pretty": "32.1 kB"
+        },
+        "url": "http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html",
+        "date": "2019-11-15T03:29:17.000Z",
+        "logo": {
+            "url": "https://logo.clearbit.com/waitbutwhy.com",
+            "type": "png",
+            "size": 32417,
+            "height": 128,
+            "width": 128,
+            "size_pretty": "32.4 kB"
+        }
+    }
+}

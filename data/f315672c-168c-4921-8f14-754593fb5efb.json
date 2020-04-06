@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "data": {
+        "title": "The Artificial Intelligence Revolution: Part 1",
+        "description": "Part 1 of 2: &quot;The Road to Superintelligence&quot;. Artificial Intelligence — the topic everyone in the world should be talking about.",
+        "lang": "en",
+        "author": "Tim Urban",
+        "publisher": "Wait But Why",
+        "image": {
+            "url": "https://waitbutwhy.com/wp-content/uploads/2015/01/G1.jpg",
+            "type": "jpg",
+            "size": 108765,
+            "height": 740,
+            "width": 1092,
+            "size_pretty": "109 kB"
+        },
+        "url": "http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html",
+        "date": "2017-09-07T17:48:27.000Z",
+        "logo": {
+            "url": "https://logo.clearbit.com/waitbutwhy.com",
+            "type": "png",
+            "size": 32417,
+            "height": 128,
+            "width": 128,
+            "size_pretty": "32.4 kB"
+        }
+    }
+}

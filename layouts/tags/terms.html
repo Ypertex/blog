@@ -11,7 +11,7 @@
     <div class="row align-items-center">
         {{ range .Paginator.Pages }}
         <div class="col-md-6">
-            <div class="shadow card mb-5">
+            <div class="card mb-5">
                 {{ if $cover := (path.Split (index (first 1 .Params.images) 0)).File }}
                 <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.header.card.md }}{{ $cover }}"
                     alt="" class="card-img-top">
@@ -29,7 +29,7 @@
                         </div>
                         {{ with .Params.imageAttribution }}
                         <div class="col-auto">
-                            <small class="yx-attribution">Image: {{ . | markdownify }}</small>
+                            <small class="yx-attribution">Image: {{ . | markdownify | plainify }}</small>
                         </div>
                         {{ end }}
                     </div>
