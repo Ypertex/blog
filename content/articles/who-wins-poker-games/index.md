@@ -2,16 +2,16 @@
 title: "Card or Player: Who Wins Poker Games?"
 publishdate: 2020-03-25
 tags:
-    - Leadership
-    - Strategy
+- Leadership
+- Strategy
 summary: ... and other counter-intuitive lessons from working 18 months on developing and executing SRG&nbsp;SSR's technology strategy.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/bfac4e8b-3535-423f-8a49-1d66116532cd
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/bfac4e8b-3535-423f-8a49-1d66116532cd
 ---
 
 **TL;DR:** If you're in a hurry, you can jump right ahead to the [conclusion of this article](#conclusion) that summarizes my lessons learned.
 
-For everybody else, I have two yes/no questions to start off:
+For everybody else, I have two yes/no questions to start:
 
 > Does a strategy work best when every decision-maker in your organization understands and supports it?
 
@@ -21,7 +21,7 @@ If your answers have been yes and yes, you should come to the conclusion that **
 
 ## The Determining Factor
 
-Who takes decisions is not a matter of who knows best---but **who takes responsibility** if it turns out to be the wrong decision. The riskier the decision is, the more likely it's that people decide who are anything but subject matter experts.
+Who takes decisions is not a matter of who knows best---but **who takes responsibility** if it turns out to be the wrong decision. The riskier the decision, the more it's taken by people who are anything but subject matter experts.
 
 In other words: More often than not, your **riskiest technology decisions are routinely taken by non-technological people**. So how important is it that they get your technology strategy?
 
@@ -33,7 +33,7 @@ Let's take it one step further: The real test of any strategy is whether decisio
 
 Let that sink in for a moment.
 
-Now ask yourself if the technology strategy in your organization actually meets this benchmark.
+Now ask yourself if the technology strategy in your organization meets this benchmark.
 
 It doesn't? Experts refer to this as the [Execution Gap](https://hbr.org/podcast/2016/02/closing-the-strategy-execution-gap.html).
 
@@ -46,15 +46,15 @@ You might say: Yeah, but...
 * Why call it a *technology* strategy if it hardly talks about technology?
 * Why call it a *strategy* at all if it's so high level that it's practically common sense?
 
-I understand your skepticism. As human beings we pride ourselves a lot in our work and the fact that it can't be done by just anyone. It takes a moment to realize that you have to put in hard work to develop something so beautifully simple that it *appears* like anyone could come up with it.
+I understand your skepticism. As human beings, we pride ourselves a lot in our work and the fact that it can't be done by just anyone. It takes a moment to realize that you have to put in hard work to develop something so beautifully simple that it *appears* like anyone could come up with it.
 
 > Simplicity is the ultimate sophistication.
-> 
+>
 > {{<attribution>}}Leonardo da Vinci{{</attribution>}}
 
 Let me encourage you to take the risk of having your work appear overly simplistic: At the Swiss Broadcast Corporation [SRG&nbsp;SSR](https://www.srgssr.ch/en/), the approach of simplifying helped to (at least partially) **narrow the execution gap**.
 
-Here's how it basically works for us: compress, ask 2+1, gamify.
+Here's how it works for us: compress, ask 2+1, gamify.
 
 ### A) Compress
 
@@ -72,7 +72,7 @@ Appears simple enough, doesn't it? At any rate, it's possible to deliver this es
 
 What's left is to **reiterate these core messages at every opportunity on every channel**. If people start responding with <q>And how I am supposed to implement this in my work?</q> you've made a huge step in closing the execution gap.
 
-### B) Ask 2+1 
+### B) Ask 2+1
 
 Now that you've laid out the foundation and get responses from your target audience, you can start talking about the strategic decision criteria.
 
@@ -83,7 +83,7 @@ We opted for two (**2**) criteria specific to our industry and particular contex
 {{<card>}}
 #### Criterion 1
 
-**Differentiation:** How much does technology X help us to differentiate our offering in the market?
+**Differentiation:** How much does technology X help us to differentiate our offerings in the market?
 {{</card>}}
 
 {{<card>}}
@@ -94,11 +94,10 @@ We opted for two (**2**) criteria specific to our industry and particular contex
 
 {{<card>}}
 #### Criterion 3
-
 **Costs and Risks:** How high are costs and risks of implementing and operating technology X over its life cycle?
 {{</card>}}
 
-These criteria aren't independent. There should be a one-way correlation: Of course, low costs and risks are always OK. On the other hand, hight costs and risks are OK only in one case:
+These criteria aren't independent. There should be a one-way correlation: Of course, low costs and risks are always OK. On the other hand, high costs and risks are OK only in one case:
 
 {{<figure src="589e8c0b-9121-44aa-9d85-d2fc7930fdc4" transformation="paddedInline">}}A technology with substantial costs and risks is only valid if it comes with a high potential in terms of differentiation and acceleration{{</figure>}}
 
@@ -106,7 +105,7 @@ These criteria aren't independent. There should be a one-way correlation: Of cou
 
 * It's still the decision-makers who make the decision and take the responsibility for it. The strategy itself can't grant any exceptions when necessary. It supports decision-makers; it doesn't replace them. Remember, that's why we try to keep our technology strategy as non-technological as possible in the first place!
 
-* The strategy is transferable to many scenarios. Not just the ones you foresaw; also the ones you never envisioned. Professor Albert Einstein once was asked: <q>Why did you let your students take the exact same exam as the semester before? Aren't the questions exactly the same?</q> He famously answered: <q>Yes. But the answers have changed.</q>
+* The strategy is transferable to many scenarios. Not just the ones you foresaw; also the ones you never envisioned. Professor Albert Einstein once was asked: <q>Why did you let your students take the same exam as the semester before? Aren't the questions the same?</q> He famously answered: <q>Yes. But the answers have changed.</q>
 
 ### C) Gamify
 
@@ -120,7 +119,7 @@ What we need is...
 
 Or at least, we need a **simple process** that takes the strategy's general questions and turns them, case-by-case, into good answers and largely good decisions.
 
-To that end, we've adapted a method named **Priority Poker** and developed a game we call "Strategy in Action". Priority Poker is used to align a group of people on priorities. For each item to prioritize, people pick a card with a number on a scale (i.e. 8 out of 10), then disclose their number all at the same time. If everybody has picked the same number, the group is already aligned. They put their cards back in their decks, move on to the next item to prioritize, and again pick a card. Whenever people pick different numbers, they explain each other the reasons behind their choice. Once all pros and cons of the most extreme picks have been shared, the group starts over with selecting cards/numbers. At this point, the group starts to align and extremes will begin to converge, ending around the same number on the scale. In the end, all items on the list received a number or priority as worked out by the group.
+To that end, we've adapted a method named **Priority Poker** and developed a game we call "Strategy in Action". Priority Poker is used to align a group of people on priorities. For each item to prioritize, people pick a card with a number on a scale (i.e. 8 out of 10), then disclose their number all at the same time. If everybody has picked the same number, the group is already aligned. They put their cards back in their decks, move on to the next item to prioritize, and again pick a card. Whenever people pick different numbers, they explain to each other the reasons behind their choice. Once all pros and cons of the most extreme picks have been shared, the group starts over with selecting cards/numbers. At this point, the group starts to align and extremes will begin to converge, ending around the same number on the scale. In the end, all items on the list received a number or priority as worked out by the group.
 
 Priority Poker allows all people in a group to share their facts, experience, opinions, etc. Individuals will learn about perspectives or arguments they didn't think of before. As a result, people will correct or confirm their assessments, causing the group to align more and more---and finally agree on a set of shared priorities. (Read more about [Priority Poker and how to harness collective intelligence](https://medium.com/outboxers/how-to-collectively-decide-what-not-to-do-play-priority-poker-baa03342f096).)
 
@@ -134,13 +133,12 @@ Here's how our adaptation works:
 
 At the end of the game, the group will be able to collectively determine **which technologies are the best strategic fit for the given project**: the one that meets the minimum differentiation and acceleration requirements---and brings the lowest costs and risks to the organization.
 
-If the entire organization implements this approach, by and large two things will happen:
+If the entire organization implements this approach, by and large, two things will happen:
 
 * High technology costs and risks will concentrate on projects with high requirements to differentiate and accelerate.
 * Projects with low differentiation and acceleration requirements will be optimized for low technology costs and risks.
 
 And that's the strategy!
-
 {{<figure src="921e01f6-2a58-46f9-adf6-f5e5a56a4535" transformation="paddedInline">}}If the strategy was successful, the view over the entire portfolio could look like this: 80% of the technologies are low cost and low risk, enabling and financing the remaining 20% with high impact on differentiation and acceleration{{</figure>}}
 
 #### Interesting Findings From Playing Strategy in Action at SRG&nbsp;SSR
@@ -157,19 +155,19 @@ I might write a separate article as we continue to refine the game and gain more
 
 Developing a clearer, more memorable, more transferable, and more actionable strategy is investing a lot of resources into a tool. If you think back at decision-makers under pressure (like the kid lost in the maze), one important ingredient for a successful strategy is still missing: trust. In addition to understanding and remembering the strategy in all sorts of situations, people also have to *trust* that it's the right strategy before they can apply it.
 
-Trust however is based on people, not tools.
+Trust, however, is based on people, not tools.
 
 So as a professional strategist, don't forget to invest equal resources into building trust and relationships with decision-makers (experts and laymen alike). If they trust you, they'll be more inclined to trust the strategy that you've developed---and apply it when the time comes without having second thoughts.
 
 > When the trust account is high, communication is easy, instant, and effective.
-> 
+>
 > {{<attribution>}}Stephen R. Covey{{</attribution>}}
 
 ## Conclusion
 
 In this article, I shared a few lessons from my work on the SRG&nbsp;SSR technology strategy.
 
-The rather obvious **main lesson** is this: It's both the card *and* the player that win poker games. (I'm referring to the real poker game here, the one where players have to cope with incomplete information---just as companies and their decision-makers do in their environments.)
+The rather obvious **main lesson** is this: It's both the card *and* the player who win poker games. (I'm referring to the real poker game here, the one where players have to cope with incomplete information---just as companies and their decision-makers do in their environments.)
 
 You need to have the right strategy. Having the wrong strategy perfectly executed will still be a failure.
 
