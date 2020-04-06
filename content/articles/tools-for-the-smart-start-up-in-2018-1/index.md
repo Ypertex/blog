@@ -3,13 +3,13 @@ title: Tools for the Smart Start-up in 2018 (I)
 publishdate: 2018-08-02
 lastmod: 2019-06-28
 tags:
-    - Likes
-    - Technology
+- Likes
+- Technology
 summary: If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7b95a9b0-0f54-44f9-8af3-dd6820d3051d
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7b95a9b0-0f54-44f9-8af3-dd6820d3051d
 aliases:
-    - /articles/tools-for-the-smart-start-up-1/
+- /articles/tools-for-the-smart-start-up-1/
 ---
 
 > We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget?

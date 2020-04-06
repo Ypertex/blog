@@ -2,11 +2,11 @@
 title: How to Advertise Subnets to Upstream Routers with OPNsense and ARP
 publishdate: 2018-08-02
 tags:
-    - Technology
-    - Tutorials
+- Technology
+- Tutorials
 summary: If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/a6e46127-e43f-4ea3-9aa8-819893c0f602
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/a6e46127-e43f-4ea3-9aa8-819893c0f602
 ---
 
 Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an [OPNsense firewall](https://opnsense.org/) as my router. I thought I’d document this in case anyone else is looking for a solution to this, too.

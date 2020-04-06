@@ -2,13 +2,13 @@
 title: Humankind Is Expecting Offspring—Are We Ready?
 publishdate: 2017-03-30
 tags:
-  - AI
-  - Future
+- AI
+- Future
 summary: The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?
 images:
-  - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/740eae17-92aa-49bb-b76f-1d12939a6997
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/740eae17-92aa-49bb-b76f-1d12939a6997
 aliases:
-  - /2017/03/30/humanity-is-expecting-offspring/
+- /2017/03/30/humanity-is-expecting-offspring/
 ---
 
 As foretold in [my blog’s opening article](https://blog.ypertex.com/articles/ypertex-blog-launching-today/), Artificial Intelligence (AI) is a topic that concerns me a lot these days. In particular, I am more concerned about the first and still imperfect Artificial General Intelligence and less about the potentially god-like, almighty Artificial Super Intelligence everyone is talking about.

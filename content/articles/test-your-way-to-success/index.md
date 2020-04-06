@@ -2,12 +2,12 @@
 title: Test Your Way to Success
 publishdate: 2019-02-28
 tags:
-    - Career
-    - Design
-    - Innovation
+- Career
+- Design
+- Innovation
 summary: Ever spent too much time on something that turned out to be based on the wrong assumptions? Here's how to make sure that you're investing your time correctly.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/c3961fff-c70b-486e-b791-10b5b2376a75
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/c3961fff-c70b-486e-b791-10b5b2376a75
 ---
 
 ## Assumptions Can Be Helpful ...

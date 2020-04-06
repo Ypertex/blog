@@ -2,12 +2,12 @@
 title: Improving Your Chances with Non-Negotiables
 publishdate: 2020-01-14
 tags:
-    - Career
-    - Innovation
-    - Leadership
+- Career
+- Innovation
+- Leadership
 summary: Your chances of winning any game improve drastically once you learn the rules. But what if there aren't any clear rules? Non-Negotiables are here to help.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/dc95dace-00d2-494e-bd8b-90f2cfbe54a8
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/dc95dace-00d2-494e-bd8b-90f2cfbe54a8
 ---
 
 # Playing Games at Work

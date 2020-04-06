@@ -2,11 +2,11 @@
 title: Tools for the Smart Start-up in 2018 (II)
 publishdate: 2018-11-07
 tags:
-    - Likes
-    - Technology
+- Likes
+- Technology
 summary: Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/24d4a332-d0da-4977-81d1-3056ac49b9e0
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/24d4a332-d0da-4977-81d1-3056ac49b9e0
 ---
 
 In my previous article, I gave you some ideas on how to leverage great but very affordable hard- and software to build [state-of-the-art IT infrastructure on a small budget](/articles/tools-for-the-smart-start-up-in-2018-1/). If you follow these ideas, you can outfit your team with the basic IT tools to work with: (virtual) hardware and hardened operating systems. 
