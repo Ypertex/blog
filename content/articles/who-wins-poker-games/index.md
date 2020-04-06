@@ -25,9 +25,9 @@ Who takes decisions is not a matter of who knows best---but **who takes responsi
 
 In other words: More often than not, your **riskiest technology decisions are routinely taken by non-technological people**. So how important is it that they get your technology strategy?
 
-Let's take it one step further: The real test of any strategy is whether decision-makers apply it *under pressure*. It's the time when a strategy is most valuable. (After all, who needs a strategy when everything works out just great?) It's also those moments that prove if your strategy was clear and concise enough to remember even in stressful situations.
+Let's take it one step further: The real test of any strategy is whether decision-makers apply it *under pressure*. It's the time when a strategy is most valuable. (After all, who needs a strategy when everything's going just fine anyway?) It's also those moments that prove if your strategy was clear and concise enough to remember even in stressful situations.
 
-{{<figure src="ab0ee437-2d45-4e22-ab47-5259da900c65">}}Imagine you're a kid in a maze looking for your parents. Your strategy is valuable only if you remember it in this stressful situation.{{</figure>}}
+{{<figure src="ab0ee437-2d45-4e22-ab47-5259da900c65">}}Imagine you're a kid in a maze. Whatever strategy you have been given beforehand: It's valuable only if you remember it in this stressful situation.{{</figure>}}
 
 **The real benchmark for your technology strategy** hence is: People without technological background who take the riskiest technological decisions under pressure need to understand and remember it.
 
@@ -52,7 +52,7 @@ I understand your skepticism. As human beings we pride ourselves a lot in our wo
 > 
 > {{<attribution>}}Leonardo da Vinci{{</attribution>}}
 
-To encourage you to take the risk of having your work appear overly simplistic: At the Swiss Broadcast Corporation [SRG&nbsp;SSR](https://www.srgssr.ch/en/), the approach of simplifying really helped to **narrow the execution gap**.
+Let me encourage you to take the risk of having your work appear overly simplistic: At the Swiss Broadcast Corporation [SRG&nbsp;SSR](https://www.srgssr.ch/en/), the approach of simplifying helped to (at least partially) **narrow the execution gap**.
 
 Here's how it basically works for us: compress, ask 2+1, gamify.
 
@@ -78,7 +78,7 @@ Now that you've laid out the foundation and get responses from your target audie
 
 In our case, we need to offer criteria to decide: When do we prioritize cost savings, when Digital Transformation? When do we insist on late follower technologies, when do we push for early follower/adopter technologies?
 
-We opted for two (**2**) criteria specific to our industry and particular context---and one (**+1**) rather global criterion that probably is valid in most industries. This means: Instead of giving answers, the strategy **asks** leading questions:
+We opted for two (**2**) criteria specific to our industry and particular context---and one (**+1**) rather global criterion that probably is valid in most industries. This means: Instead of giving case-by-case answers, the strategy **asks** leading questions:
 
 {{<card>}}
 #### Criterion 1
@@ -102,7 +102,7 @@ These criteria aren't independent. There should be a one-way correlation: Of cou
 
 {{<figure src="589e8c0b-9121-44aa-9d85-d2fc7930fdc4" transformation="paddedInline">}}A technology with substantial costs and risks is only valid if it comes with a high potential in terms of differentiation and acceleration{{</figure>}}
 
-**The great thing** about a strategy that asks questions rather than giving answers:
+**The great thing** about a strategy that asks general questions rather than giving specific answers:
 
 * It's still the decision-makers who make the decision and take the responsibility for it. The strategy itself can't grant any exceptions when necessary. It supports decision-makers; it doesn't replace them. Remember, that's why we try to keep our technology strategy as non-technological as possible in the first place!
 
@@ -110,7 +110,7 @@ These criteria aren't independent. There should be a one-way correlation: Of cou
 
 ### C) Gamify
 
-With all the activities so far, our strategy hopefully is clear, memorable, and transferable. Now let's make it **actionable**.
+With all the activities so far, our strategy hopefully is clearer, more memorable, and more transferable. Now let's make it **more actionable**.
 
 What we need is...
 
@@ -155,7 +155,7 @@ I might write a separate article as we continue to refine the game and gain more
 
 ## The Role of Trust
 
-Developing a clear, memorable, transferable, and actionable strategy is investing a lot of resources into a tool. If you think back at decision-makers under pressure (like the kid lost in the maze), one important ingredient for a successful strategy is still missing: trust. In addition to understanding and remembering the strategy in all sorts of situations, people also have to *trust* that it's the right strategy before they can apply it.
+Developing a clearer, more memorable, more transferable, and more actionable strategy is investing a lot of resources into a tool. If you think back at decision-makers under pressure (like the kid lost in the maze), one important ingredient for a successful strategy is still missing: trust. In addition to understanding and remembering the strategy in all sorts of situations, people also have to *trust* that it's the right strategy before they can apply it.
 
 Trust however is based on people, not tools.
 
@@ -179,11 +179,11 @@ You also need to have a strategy that can be applied by decision-makers. Having 
 
 The more **counter-intuitive lessons** are:
 
-* In large parts, a technology strategy serves a non-technological audience and hence shouldn't focus on technologies.
+* In large parts, a technology strategy serves a non-technological audience and hence shouldn't focus on specific technologies.
 
 * Any strategy completely depends on the people who're supposed to execute it, *when* they're supposed to execute it. To enable decision-makers in stressful moments that count most, a strategy needs to be clear, memorable, transferable, and actionable.
 
-* Many people expect a strategy to deliver answers. Don't fall into this trap! A strategy that gives specific answers is tailored to specific situations only. If you want a strategy that is transferable to all kinds of situations, ask questions instead. After all, a strategy is supposed to support decision-makers, not to replace them.
+* Many people expect a strategy to deliver specific answers. Don't fall into this trap! A strategy that gives specific answers is tailored to specific situations only. If you want a strategy that is transferable to all kinds of situations, ask questions instead. After all, a strategy is supposed to support decision-makers, not to replace them.
 
 * Develop strategies like products. Test them with real users, then iterate based on the insights you gained. Map the journey of your customers. Your strategy is more than a document; bundle it with all sorts of communication tools. Design and gamify the user experience. The list goes on!
 
