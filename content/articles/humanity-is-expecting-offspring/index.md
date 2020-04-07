@@ -27,7 +27,7 @@ Before we go any further, we first need to establish some common ground on what 
 
 > (1): the ability to learn or understand or to deal with new or trying situations (2): the ability to apply knowledge to manipulate one’s environment or to think abstractly as measured by objective criteria
 >
-> {{<attribution>}}[Merriam Webster](https://www.merriam-webster.com/dictionary/intelligence){{</attribution>}}
+> {{<attribution cite="[Merriam Webster](https://www.merriam-webster.com/dictionary/intelligence)" />}}
 
 You might note that this definition does not include anything about biological life, consciousness or any of the sort. In other words: A piece of software can count as intelligent, too—as long as it possesses the above listed abilities.
 
@@ -161,7 +161,7 @@ The odds are clear:
 
 > The AGI has to be lucky *only once* to get out of our control. We have to be lucky *all the time* to keep it under our control.
 >
-> {{<attribution adapted="true">}}Hannah Wells in [ABC’s Designated Survivor](http://abc.go.com/shows/designated-survivor){{</attribution>}}
+> {{<attribution cite="[ABC’s Designated Survivor](http://abc.go.com/shows/designated-survivor)" adapted="true">}}Hannah Wells{{</attribution>}}
 
 There are a few proposed solutions to avoid getting into the control problem in the first place (which I might cover in more detail in a future article). At the time of writing this article however, none of them seem practical or well-timed enough to really avoid this situation.
 

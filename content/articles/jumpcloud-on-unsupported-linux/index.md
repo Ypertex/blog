@@ -38,11 +38,13 @@ After [DuckDuckGo](https://duckduckgo.com/)ing a bit, I was able to identify the
 
 So, to stop and disable these services ... just stop and disable them:
 
-    # For Proxmox Virtual Environment
-    sudo systemctl stop pvebanner && sudo systemctl disable pvebanner
-    
-    # For Openmediavault
-    sudo systemctl stop openmediavault-issue && sudo systemctl disable openmediavault-issue
+{{<highlight shell>}}
+# For Proxmox Virtual Environment
+sudo systemctl stop pvebanner && sudo systemctl disable pvebanner
+
+# For Openmediavault
+sudo systemctl stop openmediavault-issue && sudo systemctl disable openmediavault-issue
+{{</highlight>}}
 
 Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file ``/etc/issue`` back to its original content: Open the file (i.e. ``sudo nano /etc/issue``), then paste the complete string ``Debian GNU/Linux 9 \n \l``, and save the file. Done! After a reboot, the file still reads the same.
 

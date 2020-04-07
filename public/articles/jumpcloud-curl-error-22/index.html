@@ -115,9 +115,9 @@
             class="las la-stopwatch"></i>&nbsp;4min read</small></p>
         <p>
     
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
-    
     <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
+    
+    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
 </p>
     </div>
@@ -157,20 +157,17 @@
 </blockquote>
 <h2 id="avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request">Avoiding Curl Error 22 (the Requested URL Returned Error: 400 Bad Request)</h2>
 <p>A few days ago, I started to receive above curl error 22 when deploying the JumpCloud agent on a new Linux virtual machine (generic Ubuntu Server 16.04.2 LTS). The error occurs mostly on a consistent basis, but apparently only in some environments and not in others. For example, it reliably works at <a href="http://www.vultr.com/?ref=6803870">Vultr</a> <small>(affiliation link)</small> and on my hypervisor on my desktop at home; but it continuously fails on my hypervisor at <a href="https://www.ovh.com/">OVH</a>. Results at <a href="https://www.scaleway.com/">Scaleway</a> were mixed: It worked in a first and failed in a second test on two different bare metal servers. I have still to pinpoint the exact issue but I could narrow the error down to the part in the install script that checks the local system time (the call of the URL <code>https://kickstart.jumpcloud.com/Time</code> apparently returns an HTTP status code <code>40x</code>). Anyway, the error says:</p>
-<pre><code>curl: (22) The requested URL returned error: 400 Bad Request
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl: <span style="color:#f92672">(</span>22<span style="color:#f92672">)</span> The requested URL returned error: <span style="color:#ae81ff">400</span> Bad Request</code></pre></div>
 <p>Here is how to work around it: Instead of using the command provided by JumpCloud, use the following one (remember that I removed my connect key in the following command):</p>
-<pre><code>curl --silent --show-error --header 'x-connect-key: [your individual connect key]' https://kickstart.jumpcloud.com/Kickstart &gt; jc.sh
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl --silent --show-error --header <span style="color:#e6db74">&#39;x-connect-key: [your individual connect key]&#39;</span> https://kickstart.jumpcloud.com/Kickstart &gt; jc.sh</code></pre></div>
 <p>Note the closing <code>&gt; jc.sh</code> instead of the original <code>| sudo bash</code>. This way you only download the installer script and save it to the file <code>jc.sh</code> instead of executing it right away.</p>
 <p>Then, open the downloaded installer script with your favorite editor, i.e. <code>nano jc.sh</code>. Prefix the following six lines in the script with the <code>#</code> character to comment these commands out so that they do not get executed when running the script:</p>
-<pre><code>#logMessage 'Checking local system time...'
-#localTime=&quot;$(date +%s)&quot;
-#curlAgentWithoutCerts --data &quot;time=$localTime&quot; &quot;$timeUrl&quot;
-#setTimeIfIncorrect &quot;$?&quot; &quot;Your system time seems inaccurate. Please ensure your system is set to the correct time by running ntpdate ('ntpdate -u pool.ntp.org') or verifying that ntpd is configured properly.&quot;
-#localTime=&quot;$(date +%s)&quot;
-#logMessage 'System time is accurate'
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#logMessage &#39;Checking local system time...&#39;</span>
+<span style="color:#75715e">#localTime=&#34;$(date +%s)&#34;</span>
+<span style="color:#75715e">#curlAgentWithoutCerts --data &#34;time=$localTime&#34; &#34;$timeUrl&#34;</span>
+<span style="color:#75715e">#setTimeIfIncorrect &#34;$?&#34; &#34;Your system time seems inaccurate. Please ensure your system is set to the correct time by running ntpdate (&#39;ntpdate -u pool.ntp.org&#39;) or verifying that ntpd is configured properly.&#34;</span>
+<span style="color:#75715e">#localTime=&#34;$(date +%s)&#34;</span>
+<span style="color:#75715e">#logMessage &#39;System time is accurate&#39;</span></code></pre></div>
 <p>Save the file and exit the editor, then execute the script: <code>sudo bash jc.sh</code>. Et voilà, the script now runs without error and successfully installs the JumpCloud agent.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>JumpCloud allows you to use whatever physical or virtual Linux, MacOS or Windows clients and servers with <em>your centrally managed credentials</em>—anywhere you need it, whenever you need it.</p>
@@ -259,9 +256,9 @@
 </div>
 <p>
     
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
-    
     <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
+    
+    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
 </p>
     </div>
@@ -299,9 +296,9 @@
 </div>
 <p>
     
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
-    
     <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
+    
+    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
 </p>
     </div>
@@ -339,9 +336,9 @@
 </div>
 <p>
     
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
-    
     <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
+    
+    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
 </p>
     </div>
@@ -353,17 +350,17 @@
     <div class="row align-items-center">
     <div class="col-md-4 mb-3 mb-md-0">
         
-        <a href="/articles/tools-for-the-smart-start-up-in-2018-2/">
+        <a href="/articles/useful-hugo-templating/">
             <picture>
                 <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/24d4a332-d0da-4977-81d1-3056ac49b9e0">
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/7d143c90-862c-4e74-9275-763746bf95f0">
                 <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/24d4a332-d0da-4977-81d1-3056ac49b9e0">
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/7d143c90-862c-4e74-9275-763746bf95f0">
                 <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/24d4a332-d0da-4977-81d1-3056ac49b9e0">
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/7d143c90-862c-4e74-9275-763746bf95f0">
                 <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/24d4a332-d0da-4977-81d1-3056ac49b9e0">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/24d4a332-d0da-4977-81d1-3056ac49b9e0" alt=""
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/7d143c90-862c-4e74-9275-763746bf95f0">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/7d143c90-862c-4e74-9275-763746bf95f0" alt=""
                     class="shadow w-100">
             </picture>
         </a>
@@ -371,17 +368,19 @@
     </div>
     <div class="col-md-8">
         <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Nov 7, 2018 · <i
-            class="las la-stopwatch"></i>&nbsp;11min read</small></p>
+            class="las la-upload"></i>&nbsp;Apr 7, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;5min read</small></p>
 <div class="yx-stretched-linkable mb-3">
-    <h2>Tools for the Smart Start-Up in 2018 (II)</h2>
-    <p>Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how. <a href="/articles/tools-for-the-smart-start-up-in-2018-2/" class="stretched-link">Continue…</a></p>
+    <h2>Useful Hugo Templating</h2>
+    <p>Developing templates for the static website generator Hugo? Then these advanced tips &amp; tricks might be helpful to you. <a href="/articles/useful-hugo-templating/" class="stretched-link">Continue…</a></p>
 </div>
 <p>
     
+    <a href="/tags/design/" class="badge badge-primary"><i class="las la-hashtag"></i>Design</a>
+    
     <a href="/tags/likes/" class="badge badge-primary"><i class="las la-hashtag"></i>Likes</a>
     
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
+    <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
     
 </p>
     </div>

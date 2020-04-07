@@ -156,9 +156,11 @@ The developers call Guacamole a “clientless remote desktop gateway”. This me
 
 The installation of Guacamole is a bit of a head scratcher, though. Following the official installation guide involves many manual steps. Fortunately, there are smart people who found [ways to simplify the process](https://github.com/BrowncoatShadow/compose-guacamole) with the help of [Docker](https://www.docker.com/). So, all you need is a Linux virtual machine somewhere (i.e. on the server from Hetzner that runs all your virtual desktops), install Docker and [Docker Compose](https://docs.docker.com/compose/) and then run the following three commands:
 
-    $ git clone git@github.com:BrowncoatShadow/compose-guacamole.git
-    $ cd docker-compose-guacamole
-    $ sudo docker-compose up -d
+{{<highlight shell>}}
+git clone git@github.com:BrowncoatShadow/compose-guacamole.git
+cd docker-compose-guacamole
+sudo docker-compose up -d
+{{</highlight>}}
 
 Now point your browser to your Docker host that runs the Guacamole container, log in and add the users and virtual desktops. That’s it. You now have your browser-accessible virtual desktop infrastructure up and running at extremely low cost.
 

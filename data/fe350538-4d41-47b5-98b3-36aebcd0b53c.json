@@ -16,6 +16,11 @@
         },
         "url": "https://theoutline.com/post/7022/ai-trolley-problem-ethics",
         "date": "2019-01-29T16:01:00.000Z",
-        "logo": null
+        "logo": {
+            "url": "https://theoutline.com/images/apple-touch-icon.6abc580137cc97a42adde882e1ba60ec.png",
+            "type": "png",
+            "height": 180,
+            "width": 180
+        }
     }
 }

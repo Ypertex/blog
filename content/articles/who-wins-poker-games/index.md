@@ -123,7 +123,7 @@ To that end, we've adapted a method named **Priority Poker** and developed a gam
 
 Priority Poker allows all people in a group to share their facts, experience, opinions, etc. Individuals will learn about perspectives or arguments they didn't think of before. As a result, people will correct or confirm their assessments, causing the group to align more and more---and finally agree on a set of shared priorities. (Read more about [Priority Poker and how to harness collective intelligence](https://medium.com/outboxers/how-to-collectively-decide-what-not-to-do-play-priority-poker-baa03342f096).)
 
-{{<figure src="5be3378a-3c0e-42a8-b6fe-2d197ac27050">}}In Priority Poker, you play *with* all players, not *against* them (scene from Maverick, 1994---one of my all-time favorite movies){{</figure>}}
+{{<figure src="5be3378a-3c0e-42a8-b6fe-2d197ac27050">}}In Priority Poker, you play *with* all players, not *against* them (scene from "Maverick", 1994---one of my all-time favorite movies){{</figure>}}
 
 Here's how our adaptation works:
 

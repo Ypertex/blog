@@ -31,22 +31,28 @@ Not to mention: This service is *permanently* free for directories with up to te
 
 A few days ago, I started to receive above curl error 22 when deploying the JumpCloud agent on a new Linux virtual machine (generic Ubuntu Server 16.04.2 LTS). The error occurs mostly on a consistent basis, but apparently only in some environments and not in others. For example, it reliably works at [Vultr](http://www.vultr.com/?ref=6803870) <small>(affiliation link)</small> and on my hypervisor on my desktop at home; but it continuously fails on my hypervisor at [OVH](https://www.ovh.com/). Results at [Scaleway](https://www.scaleway.com/) were mixed: It worked in a first and failed in a second test on two different bare metal servers. I have still to pinpoint the exact issue but I could narrow the error down to the part in the install script that checks the local system time (the call of the URL ``https://kickstart.jumpcloud.com/Time`` apparently returns an HTTP status code ``40x``). Anyway, the error says:
 
-    curl: (22) The requested URL returned error: 400 Bad Request
+{{<highlight shell>}}
+curl: (22) The requested URL returned error: 400 Bad Request
+{{</highlight>}}
 
 Here is how to work around it: Instead of using the command provided by JumpCloud, use the following one (remember that I removed my connect key in the following command):
 
-    curl --silent --show-error --header 'x-connect-key: [your individual connect key]' https://kickstart.jumpcloud.com/Kickstart > jc.sh
+{{<highlight shell>}}
+curl --silent --show-error --header 'x-connect-key: [your individual connect key]' https://kickstart.jumpcloud.com/Kickstart > jc.sh
+{{</highlight>}}
 
 Note the closing ``> jc.sh`` instead of the original ``| sudo bash``. This way you only download the installer script and save it to the file ``jc.sh`` instead of executing it right away.
 
 Then, open the downloaded installer script with your favorite editor, i.e. ``nano jc.sh``. Prefix the following six lines in the script with the ``#`` character to comment these commands out so that they do not get executed when running the script:
 
-    #logMessage 'Checking local system time...'
-    #localTime="$(date +%s)"
-    #curlAgentWithoutCerts --data "time=$localTime" "$timeUrl"
-    #setTimeIfIncorrect "$?" "Your system time seems inaccurate. Please ensure your system is set to the correct time by running ntpdate ('ntpdate -u pool.ntp.org') or verifying that ntpd is configured properly."
-    #localTime="$(date +%s)"
-    #logMessage 'System time is accurate'
+{{<highlight shell>}}
+#logMessage 'Checking local system time...'
+#localTime="$(date +%s)"
+#curlAgentWithoutCerts --data "time=$localTime" "$timeUrl"
+#setTimeIfIncorrect "$?" "Your system time seems inaccurate. Please ensure your system is set to the correct time by running ntpdate ('ntpdate -u pool.ntp.org') or verifying that ntpd is configured properly."
+#localTime="$(date +%s)"
+#logMessage 'System time is accurate'
+{{</highlight>}}
 
 Save the file and exit the editor, then execute the script: ``sudo bash jc.sh``. Et voilà, the script now runs without error and successfully installs the JumpCloud agent.
 
