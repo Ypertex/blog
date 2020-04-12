@@ -55,7 +55,10 @@ h1, h2, h3, h4, h5, h6 {
     @extend .mb-3, .mt-0;
 }
 hr {
-    @extend .my-5, .mx-n2, .mx-sm-n3;
+    @extend .my-5, .mx-n2;
+}
+span[lang] {
+    @extend abbr;
 }
 :last-child {
     @extend .mb-0;
@@ -117,7 +120,7 @@ hr {
     @extend small, .text-muted, .mb-3;
     text-transform: uppercase;
 }
-.yx-avatar {
+.yx-avatar, .yx-favicon {
     @extend .mr-3, .rounded-circle;
     height: 64px;
     width: 64px;
@@ -145,6 +148,9 @@ hr {
     }
     h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6 {
         @extend .mt-0;
+    }
+    p > small {
+        @extend .text-muted;
     }
     figure {
         @extend .my-5, .text-center;
@@ -176,7 +182,7 @@ hr {
         }
     }
     figcaption {
-        @extend small, .mt-3, .col-md-8, .mx-auto;
+        @extend small, .col-xl-8, .col-lg-10, .mt-3, .mx-auto;
         a {
             font-weight: normal;
         }
@@ -214,15 +220,21 @@ hr {
         @extend small, .table, .table-striped, .table-hover, .my-5;
     }
     pre, .alert {
-        @extend .shadow, .mx-md-n3, .p-3;
+        @extend .p-3;
     }
-    pre, .card {
-        @extend .my-5, .mx-md-n3;
+    .highlight, .alert, .card {
+        @extend .mx-md-n3;
     }
-    pre {
-        @extend .bg-dark, .text-light;
+    .highlight, .alert {
+        @extend .shadow;
     }
     .card {
-        @extend .bg-light;
+        @extend .my-5;
+    }
+    .card .yx-attribution {
+        @extend small;
+    }
+    .highlight {
+        @extend .my-5;
     }
 }
