@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Useful Hugo Templating</title>
+      <link>https://blog.ypertex.com/articles/useful-hugo-templating/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/articles/useful-hugo-templating/</guid>
+      <description>Developing templates for the static website generator Hugo? Then these advanced tips &amp;amp; tricks might be helpful to you.</description>
+    </item>
+    
+    <item>
       <title>Redesign March 2020</title>
       <link>https://blog.ypertex.com/articles/redesign-march-2020/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>

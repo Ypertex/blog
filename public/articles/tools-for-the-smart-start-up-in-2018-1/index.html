@@ -37,6 +37,8 @@
 <meta property="article:published_time" content="2018-08-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-06-28T00:00:00+00:00" />
 
+
+<meta property="article:author" content="Michael Schmidle" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7b95a9b0-0f54-44f9-8af3-dd6820d3051d"/>
 
@@ -114,7 +116,7 @@
             class="las la-stopwatch"></i>&nbsp;15min read</small></p>
         <p>
     
-    <a href="/tags/recommendations/" class="badge badge-primary"><i class="las la-hashtag"></i>Recommendations</a>
+    <a href="/tags/likes/" class="badge badge-primary"><i class="las la-hashtag"></i>Likes</a>
     
     <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
@@ -355,10 +357,9 @@
     </figcaption>
 </figure>
 <p>The installation of Guacamole is a bit of a head scratcher, though. Following the official installation guide involves many manual steps. Fortunately, there are smart people who found <a href="https://github.com/BrowncoatShadow/compose-guacamole">ways to simplify the process</a> with the help of <a href="https://www.docker.com/">Docker</a>. So, all you need is a Linux virtual machine somewhere (i.e. on the server from Hetzner that runs all your virtual desktops), install Docker and <a href="https://docs.docker.com/compose/">Docker Compose</a> and then run the following three commands:</p>
-<pre><code>$ git clone git@github.com:BrowncoatShadow/compose-guacamole.git
-$ cd docker-compose-guacamole
-$ sudo docker-compose up -d
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone git@github.com:BrowncoatShadow/compose-guacamole.git
+cd docker-compose-guacamole
+sudo docker-compose up -d</code></pre></div>
 <p>Now point your browser to your Docker host that runs the Guacamole container, log in and add the users and virtual desktops. That’s it. You now have your browser-accessible virtual desktop infrastructure up and running at extremely low cost.</p>
 <p>If you are interested in encrypting the traffic between your users and this gateway however—and you should—, you might want to secure the gateway behind a SSL-capable proxy. Like I composed Guacamole with Træfik in my <a href="https://github.com/MichaelSchmidle/wapps">Wapps repository</a>.</p>
 <p>Talking about security: We still need to address a few concerns. Read on!</p>
@@ -450,7 +451,7 @@ $ sudo docker-compose up -d
                 <div class="yx-heading mb-3">
     Share this article
 </div>
-<div class="card mx-md-n4">
+<div class="card mx-md-n3">
     <div class="card-body">
         <div class="row text-center">
             <div class="col">
@@ -512,12 +513,12 @@ $ sudo docker-compose up -d
             class="las la-upload"></i>&nbsp;Nov 7, 2018 · <i
             class="las la-stopwatch"></i>&nbsp;11min read</small></p>
 <div class="yx-stretched-linkable mb-3">
-    <h2>Tools for the Smart Start-up in 2018 (II)</h2>
+    <h2>Tools for the Smart Start-Up in 2018 (II)</h2>
     <p>Small budgets can get you great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how. <a href="/articles/tools-for-the-smart-start-up-in-2018-2/" class="stretched-link">Continue…</a></p>
 </div>
 <p>
     
-    <a href="/tags/recommendations/" class="badge badge-primary"><i class="las la-hashtag"></i>Recommendations</a>
+    <a href="/tags/likes/" class="badge badge-primary"><i class="las la-hashtag"></i>Likes</a>
     
     <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
@@ -530,6 +531,48 @@ $ sudo docker-compose up -d
     
     <div class="row align-items-center">
     <div class="col-md-4 mb-3 mb-md-0">
+        
+        <a href="/articles/useful-hugo-templating/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/7d143c90-862c-4e74-9275-763746bf95f0">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/7d143c90-862c-4e74-9275-763746bf95f0">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/7d143c90-862c-4e74-9275-763746bf95f0">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/7d143c90-862c-4e74-9275-763746bf95f0">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/7d143c90-862c-4e74-9275-763746bf95f0" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Apr 12, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;5min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>Useful Hugo Templating</h2>
+    <p>Developing templates for the static website generator Hugo? Then these advanced tips &amp; tricks might be helpful to you. <a href="/articles/useful-hugo-templating/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/design/" class="badge badge-primary"><i class="las la-hashtag"></i>Design</a>
+    
+    <a href="/tags/likes/" class="badge badge-primary"><i class="las la-hashtag"></i>Likes</a>
+    
+    <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
+    
+</p>
+    </div>
+</div>
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
         
         <a href="/articles/redesign-march-2020/">
             <picture>
@@ -547,7 +590,7 @@ $ sudo docker-compose up -d
         </a>
         
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 text-md-right">
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Mar 23, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;5min read</small></p>
@@ -559,9 +602,9 @@ $ sudo docker-compose up -d
     
     <a href="/tags/design/" class="badge badge-primary"><i class="las la-hashtag"></i>Design</a>
     
-    <a href="/tags/personal/" class="badge badge-primary"><i class="las la-hashtag"></i>Personal</a>
+    <a href="/tags/likes/" class="badge badge-primary"><i class="las la-hashtag"></i>Likes</a>
     
-    <a href="/tags/recommendations/" class="badge badge-primary"><i class="las la-hashtag"></i>Recommendations</a>
+    <a href="/tags/personal/" class="badge badge-primary"><i class="las la-hashtag"></i>Personal</a>
     
 </p>
     </div>
@@ -571,7 +614,7 @@ $ sudo docker-compose up -d
     <hr>
     
     <div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+    <div class="col-md-4 mb-3 mb-md-0">
         
         <a href="/articles/unhide-virtual-network-adapters-windows-10/">
             <picture>
@@ -589,7 +632,7 @@ $ sudo docker-compose up -d
         </a>
         
     </div>
-    <div class="col-md-8 text-md-right">
+    <div class="col-md-8">
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Aug 18, 2019 · <i
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
@@ -599,55 +642,14 @@ $ sudo docker-compose up -d
 </div>
 <p>
     
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
-    
     <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
+    
+    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
 </p>
     </div>
 </div>
     
-    
-    <hr>
-    
-    <div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0">
-        
-        <a href="/articles/jumpcloud-on-unsupported-linux/">
-            <picture>
-                <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/7ff88dd5-c612-415a-aaea-640800485086">
-                <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/7ff88dd5-c612-415a-aaea-640800485086">
-                <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/7ff88dd5-c612-415a-aaea-640800485086">
-                <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/7ff88dd5-c612-415a-aaea-640800485086">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/7ff88dd5-c612-415a-aaea-640800485086" alt=""
-                    class="shadow w-100">
-            </picture>
-        </a>
-        
-    </div>
-    <div class="col-md-8">
-        <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Nov 9, 2018 · <i
-            class="las la-stopwatch"></i>&nbsp;3min read</small></p>
-<div class="yx-stretched-linkable mb-3">
-    <h2>Enabling JumpCloud on Unsupported Linux Systems</h2>
-    <p>JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let&rsquo;s fix that. <a href="/articles/jumpcloud-on-unsupported-linux/" class="stretched-link">Continue…</a></p>
-</div>
-<p>
-    
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
-    
-    <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
-    
-</p>
-    </div>
-</div>
-    
-    </div>
 </section>
 
 
@@ -655,7 +657,7 @@ $ sudo docker-compose up -d
     <footer class="bg-secondary text-light text-center">
     <div class="container py-5">
         
-        <p><small><a href="/Page%28/privacy.md%29">Privacy Policy</a></small></p>
+        <p><small><a href="/privacy/">Privacy Policy</a></small></p>
         <p><svg width="100%" height="100%" viewBox="0 0 440 176" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;max-height:1rem;">
     <g transform="matrix(1,0,0,1,-2574,-792)">
         <g id="Unprotected-primary-color-logogram-on-transparent-background" serif:id="Unprotected primary color logogram on transparent background" transform="matrix(1.12719,0,0,0.885774,2612.5,797.543)">

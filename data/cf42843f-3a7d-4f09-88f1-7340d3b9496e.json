@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "data": {
+        "title": "About Twitter Cards",
+        "description": "With Twitter Cards, you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website. Simply add a few lines of markup to your webpage, and users who Tweet links to your content will have a “Card” added to the Tweet that’s visible to their followers.",
+        "lang": "en",
+        "author": null,
+        "publisher": "twitter.com",
+        "image": {
+            "url": "https://developer.twitter.com/content/dam/developer-twitter/icons/twitter.png",
+            "type": "png",
+            "size": 2917,
+            "height": 200,
+            "width": 200,
+            "size_pretty": "2.92 kB"
+        },
+        "url": "https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards",
+        "date": "2020-04-07T18:43:33.000Z",
+        "logo": {
+            "url": "https://logo.clearbit.com/twitter.com",
+            "type": "png",
+            "size": 2089,
+            "height": 128,
+            "width": 128,
+            "size_pretty": "2.09 kB"
+        }
+    }
+}

@@ -3,13 +3,13 @@ title: Tools for the Smart Start-up in 2018 (I)
 publishdate: 2018-08-02
 lastmod: 2019-06-28
 tags:
-    - Recommendations
-    - Technology
+- Likes
+- Technology
 summary: If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7b95a9b0-0f54-44f9-8af3-dd6820d3051d
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7b95a9b0-0f54-44f9-8af3-dd6820d3051d
 aliases:
-    - /articles/tools-for-the-smart-start-up-1/
+- /articles/tools-for-the-smart-start-up-1/
 ---
 
 > We are not a start-up, so we don’t have the luxury of experimenting endlessly. How do you work within the constraints of our limited budget?
@@ -156,9 +156,11 @@ The developers call Guacamole a “clientless remote desktop gateway”. This me
 
 The installation of Guacamole is a bit of a head scratcher, though. Following the official installation guide involves many manual steps. Fortunately, there are smart people who found [ways to simplify the process](https://github.com/BrowncoatShadow/compose-guacamole) with the help of [Docker](https://www.docker.com/). So, all you need is a Linux virtual machine somewhere (i.e. on the server from Hetzner that runs all your virtual desktops), install Docker and [Docker Compose](https://docs.docker.com/compose/) and then run the following three commands:
 
-    $ git clone git@github.com:BrowncoatShadow/compose-guacamole.git
-    $ cd docker-compose-guacamole
-    $ sudo docker-compose up -d
+{{<highlight shell>}}
+git clone git@github.com:BrowncoatShadow/compose-guacamole.git
+cd docker-compose-guacamole
+sudo docker-compose up -d
+{{</highlight>}}
 
 Now point your browser to your Docker host that runs the Guacamole container, log in and add the users and virtual desktops. That’s it. You now have your browser-accessible virtual desktop infrastructure up and running at extremely low cost.
 

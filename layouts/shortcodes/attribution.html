@@ -1,2 +1,3 @@
-<div class="yx-attribution">{{ .Inner | markdownify }}{{ with .Get "cite" }},
-    <cite>{{ . }}</cite>{{ end }}{{ with .Get "adapted" }} (adapted){{ end }}</div>
+<div class="yx-attribution">{{ .Inner | markdownify }}{{ if and .Inner (.Get "cite") }},
+    {{ end }}{{ with .Get "cite" }}<cite>{{ . | markdownify }}</cite>{{ end }}{{ with .Get "adapted" }}
+    (adapted){{ end }}</div>

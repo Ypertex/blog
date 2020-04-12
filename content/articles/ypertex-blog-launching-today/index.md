@@ -2,12 +2,13 @@
 title: "Years in the Making, Launching Today: The Ypertex Blog"
 publishdate: 2017-03-23
 tags:
-    - Personal
+- Likes
+- Personal
 summary: After years of intending to start blogging, I finally and proudly publish the first article on my own blog. When are you going to start?
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/84b1783d-5648-4b7b-8e3b-28f30c43d083
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/84b1783d-5648-4b7b-8e3b-28f30c43d083
 aliases:
-    - /2017/03/23/ypertex-blog-launching-today/
+- /2017/03/23/ypertex-blog-launching-today/
 ---
 
 Finally. After literally years of intending to start blogging (the first design sketch dates back to May 2010, and I registered the Ypertex domains in December 2010), I am proud to publish the first post on my own blog.

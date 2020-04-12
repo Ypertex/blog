@@ -2,13 +2,13 @@
 title: Humankind Is Expecting Offspring—Are We Ready?
 publishdate: 2017-03-30
 tags:
-  - AI
-  - Future
+- AI
+- Future
 summary: The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?
 images:
-  - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/740eae17-92aa-49bb-b76f-1d12939a6997
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/740eae17-92aa-49bb-b76f-1d12939a6997
 aliases:
-  - /2017/03/30/humanity-is-expecting-offspring/
+- /2017/03/30/humanity-is-expecting-offspring/
 ---
 
 As foretold in [my blog’s opening article](https://blog.ypertex.com/articles/ypertex-blog-launching-today/), Artificial Intelligence (AI) is a topic that concerns me a lot these days. In particular, I am more concerned about the first and still imperfect Artificial General Intelligence and less about the potentially god-like, almighty Artificial Super Intelligence everyone is talking about.
@@ -27,7 +27,7 @@ Before we go any further, we first need to establish some common ground on what 
 
 > (1): the ability to learn or understand or to deal with new or trying situations (2): the ability to apply knowledge to manipulate one’s environment or to think abstractly as measured by objective criteria
 >
-> {{<attribution>}}[Merriam Webster](https://www.merriam-webster.com/dictionary/intelligence){{</attribution>}}
+> {{<attribution cite="[Merriam Webster](https://www.merriam-webster.com/dictionary/intelligence)" />}}
 
 You might note that this definition does not include anything about biological life, consciousness or any of the sort. In other words: A piece of software can count as intelligent, too—as long as it possesses the above listed abilities.
 
@@ -161,7 +161,7 @@ The odds are clear:
 
 > The AGI has to be lucky *only once* to get out of our control. We have to be lucky *all the time* to keep it under our control.
 >
-> {{<attribution adapted="true">}}Hannah Wells in [ABC’s Designated Survivor](http://abc.go.com/shows/designated-survivor){{</attribution>}}
+> {{<attribution cite="[ABC’s Designated Survivor](http://abc.go.com/shows/designated-survivor)" adapted="true">}}Hannah Wells{{</attribution>}}
 
 There are a few proposed solutions to avoid getting into the control problem in the first place (which I might cover in more detail in a future article). At the time of writing this article however, none of them seem practical or well-timed enough to really avoid this situation.
 
@@ -182,7 +182,6 @@ I want to contribute—and will perform a little experiment by slipping into the
 
 ## Recommended Videos and Articles for “AI Beginners”
 
-* Sam Harris’ TED Talk: [Can we build AI without losing control over it?](https://www.youtube.com/watch?v=8nt3edWLgIg)
-* Tim Urban’s two epic articles:
-  * [The AI Revolution: The Road to Superintelligence](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)
-  * [The AI Revolution: Our Immortality or Extinction](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html)
+{{<preview src="86d741ab-f5ec-45f4-94b8-03aa5c5e483f">}}
+{{<preview src="f315672c-168c-4921-8f14-754593fb5efb">}}
+{{<preview src="8e636db7-8250-4c62-8f0b-1c49b1af33db">}}

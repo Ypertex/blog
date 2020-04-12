@@ -2,11 +2,11 @@
 title: Unhide Virtual Network Adapters in Windows 10
 publishdate: 2019-08-18
 tags:
-    - Technology
-    - Tutorials
+- Technology
+- Tutorials
 summary: In Windows' latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.
 images:
-    - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/cb4332a2-eace-43e5-8271-4cdfe85c14f5
+- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/cb4332a2-eace-43e5-8271-4cdfe85c14f5
 ---
 
 If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don't appear anymore in the "Network and Sharing Center" and other parts of Windows.

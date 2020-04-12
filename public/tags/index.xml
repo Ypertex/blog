@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ypertex Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ypertex.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,28 @@
     <item>
       <title>Design</title>
       <link>https://blog.ypertex.com/tags/design/</link>
-      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/tags/design/</guid>
       <description>My thoughts on all things design—from visual designs like logos to conceptual designs like IT solutions.</description>
+    </item>
+    
+    <item>
+      <title>Likes</title>
+      <link>https://blog.ypertex.com/tags/likes/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/tags/likes/</guid>
+      <description>Recommendations, tips &amp;amp; tricks, and workarounds from a seasoned professional.</description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://blog.ypertex.com/tags/tutorials/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/tags/tutorials/</guid>
+      <description>Things I’ve learned that might serve others, too: a list of tutorials and how-tos.</description>
     </item>
     
     <item>
@@ -27,15 +45,6 @@
       
       <guid>https://blog.ypertex.com/tags/personal/</guid>
       <description>Take a look behind the scenes of the Ypertex Blog with the articles in this collection.</description>
-    </item>
-    
-    <item>
-      <title>Recommendations</title>
-      <link>https://blog.ypertex.com/tags/recommendations/</link>
-      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/tags/recommendations/</guid>
-      <description>Recommendations, tips &amp;amp; tricks, and workarounds from a seasoned professional.</description>
     </item>
     
     <item>
@@ -90,15 +99,6 @@
       
       <guid>https://blog.ypertex.com/tags/technology/</guid>
       <description>Technology is fascinating: It enables people and organizations—until it disables them. To where will technology lead us?</description>
-    </item>
-    
-    <item>
-      <title>Tutorials</title>
-      <link>https://blog.ypertex.com/tags/tutorials/</link>
-      <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/tags/tutorials/</guid>
-      <description>Things I’ve learned that might serve others, too: a list of tutorials and how-tos.</description>
     </item>
     
   </channel>

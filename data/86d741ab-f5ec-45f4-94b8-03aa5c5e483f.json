@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "data": {
+        "title": "Can we build AI without losing control over it?",
+        "description": "Scared of superintelligent AI? You should be, says neuroscientist and philosopher Sam Harris---and not just in some theoretical way. We’re going to build superhuman machines, says Harris, but we haven’t yet grappled with the problems associated with creating something that may treat us the way we t…",
+        "lang": "en",
+        "author": "Sam Harris",
+        "publisher": "ted.com",
+        "image": {
+            "url": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/51c9b741-275c-4ea0-bb9d-11b9aa8d1165/SamHarris_2016T-embed.jpg?c=1050%2C550&w=1050",
+            "type": "jpg",
+            "size": 56300,
+            "height": 550,
+            "width": 1050,
+            "size_pretty": "56.3 kB"
+        },
+        "url": "https://www.ted.com/talks/sam_harris_can_we_build_ai_without_losing_control_over_it",
+        "date": "2020-04-06T20:34:44.000Z",
+        "logo": {
+            "url": "https://logo.clearbit.com/ted.com",
+            "type": "png",
+            "size": 1292,
+            "height": 128,
+            "width": 128,
+            "size_pretty": "1.29 kB"
+        }
+    }
+}
