@@ -1,6 +1,6 @@
 ---
 title: Useful Hugo Templating
-publishdate: 2020-04-07
+publishdate: 2020-04-12
 tags:
 - Design
 - Likes
