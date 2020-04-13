@@ -75,6 +75,12 @@ span[lang] {
 .navbar-brand {
     padding-top: 0;
 }
+header, footer {
+    svg {
+        max-height: 1rem;
+        max-width: 2.5rem;
+    }
+}
 .badge {
     font-weight: normal;
 }
@@ -106,15 +112,12 @@ span[lang] {
         @extend .alert-link;
     }
 }
-.yx-logogram {
-        height: 1rem;
-}
 .yx-jumbotron {
     @extend  .jumbotron,, .bg-primary, .text-light;
     background-image: linear-gradient(to top right, $primary-light, $primary-dark);
-}
-.yx-logo {
-    max-height: 14rem;
+    svg {
+        max-height: 14rem;
+    }
 }
 .yx-heading {
     @extend small, .text-muted, .mb-3;
