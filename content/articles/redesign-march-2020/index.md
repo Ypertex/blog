@@ -44,7 +44,7 @@ In every step of the process, *I'm in control*. Here's why it matters to me:
 
 * At any time, I can swap out one or all tools. The source of my content goes into the cloud but remains local, too. If any of the non-local services would suddenly shut down, they wouldn't take my content with them. I remain the owner of my content.
 * I'm not restricted creatively by any platform. If I want to slightly tweak or completely overhaul my website theme, I can.
-* I gain deeper insights by running my own analytics. I don't depend on the bits and pieces of user data that platform providers might offer. Yes, it's not as efficient as consuming a managed service (at the very least, I have to put up a [privacy policy](/privacy/) now)---but using Matomo on Docker makes this almost a fire-and-forget operation.
+* I gain deeper insights by running my analytics. I don't depend on the bits and pieces of user data that platform providers might offer. Yes, it's not as efficient as consuming a managed service (at the very least, I have to put up a [privacy policy](/privacy/) now)---but using Matomo on Docker makes this almost a fire-and-forget operation.
 
 > Using Medium, LinkedIn, or other platforms for editing and publishing your articles? It might allow you to focus more on writing---but you better have an exit strategy in case the platform is going in a direction you don't like.
 
@@ -54,7 +54,7 @@ And in case you wonder: Excluding domain registrar fees and the cost of renting 
 
 In German, headlines follow the same orthographic rules as any other text. In English however, there are several ways how professional publishers capitalize titles. The general rule is to capitalize the first, the last and the important words in the title.
 
-Apparently, there are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like [Capitalize My Title](https://capitalizemytitle.com/) so I don't have to remember the precise rules. (By the way: I'm defaulting to APA style.)
+There are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like [Capitalize My Title](https://capitalizemytitle.com/) so I don't have to remember the precise rules. (By the way: I'm defaulting to APA style.)
 
 ### Images Can Be Responsive
 
@@ -72,7 +72,7 @@ Such services are also able to automatically optimize image quality and compress
 
 ## Conclusion
 
-Celebrating the three year anniversary of my blog with my 15<sup>th</sup> article---and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!
+Celebrating the third anniversary of my blog with my 15<sup>th</sup> article---and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!
 
 ---
 

@@ -18,13 +18,13 @@ Think a moment about the assumptions on which you rely to get through a typical 
 * The transportation for your commute will function properly
 * There will be the usual opportunities to get food and drinks throughout the day
 
-Simply assuming these things—rather than verifying them one by one each and every day—successfully gets you through your workday routine most of the time. Sometimes of course, things don't work as assumed and your typical routine gets messed up. Generally though, relying on such basic assumptions has an extremely positive cost-value ratio: You can run on autopilot for the little things and have **more brain power left for the important stuff in your life**.
+Simply assuming these things—rather than verifying them one by one each day—successfully gets you through your workday routine most of the time. Sometimes, of course, things don't work as assumed and your typical routine gets messed up. Generally though, relying on such basic assumptions has an extremely positive cost-value ratio: You can run on autopilot for the little things and have **more brainpower left for the important stuff in your life**.
 
 {{<figure src="c3961fff-c70b-486e-b791-10b5b2376a75">}}Assumptions work like an autopilot that lets you focus on the important stuff{{</figure>}}
 
 ## ... or Detrimental
 
-The more experience we have with a subject, the more assumptions we are ready to take in this matter. It's our experience that helps us take the right assumptions most of the time. On the other hand, if we have no clue about something, we are more careful and hold back with assumptions.
+The more experience we have with a subject, the more assumptions we are ready to take in this matter. It's our experience that helps us make the right assumptions most of the time. On the other hand, if we have no clue about something, we are more careful and hold back with assumptions.
 
 Unfortunately, there is **one area where we all continuously fall into the trap of believing that we're experts—while we're definitively not**:
 
@@ -32,8 +32,8 @@ Unfortunately, there is **one area where we all continuously fall into the trap 
 
 This expertise in oneself leads to the "know one, know all" syndrome. Let me give you some examples that might appear familiar to you:
 
-* A reckless car driver disrespects the traffic rules to your disadvantage. You swear at them since you assume they must be a disrespectful person in general to treat you this way.
-* A parent doesn't seem to care that their children throw a tantrum. You complain, assuming that the person must be a bad parent in general to indifferently let their kids behave like this.
+* A reckless car driver disrespects the traffic rules to your disadvantage. You swear at them since you assume they must be a disrespectful person, in general, to treat you this way.
+* A parent doesn't seem to care that their children throw a tantrum. You complain, assuming that the person must be a bad parent, in general, to indifferently let their kids behave like this.
 
 What if I told you that the driver in the first example rushed to see their child after it was just hospitalized with severe injuries? What if the parent in the second example just had suffered the loss of their spouse? Under these circumstances, I'm quite certain, you'd immediately empathize with them and change your attitude towards them.
 
@@ -54,7 +54,7 @@ After four months of intense work and a lot of frustration, we finally admitted 
 {{<card>}}
 ##### Case 2: The Appropriate Project Governance
 
-On another occasion, we again received a mandate for another project. This time however, it appeared to come from the wrong sponsor. According to the team's assessment, the project would result in organizational changes that the project sponsor wouldn't be able to enforce. He simply wasn't on the appropriate management level and thus lacked the necessary managerial authority.
+On another occasion, we again received a mandate for another project. This time, however, it appeared to come from the wrong sponsor. According to the team's assessment, the project would result in organizational changes that the project sponsor wouldn't be able to enforce. He simply wasn't on the appropriate management level and thus lacked the necessary managerial authority.
 
 We identified this as the biggest risk for the project, so we challenged the project sponsor. As he insisted on his ownership of the project, we made sure to conduct a session with top management after a few weeks to collect early feedback on our concept. Sure enough, we brought up the project governance and were able to rectify it almost immediately—eliminating the project's biggest risk at the earliest opportunity.
 {{</card>}}
@@ -67,26 +67,26 @@ The only but immense difference between the two cases was the **awareness of ass
 
 > Learning is great. Learning the hard way not so much.
 
-You've learned the hard way if it's tough or even impossible to recover from your mistakes. Just like in case 1 above: Your client *didn't know that they didn't know* what was really needed. In most cases, such a revelation comes pretty late when correcting mistakes costs *a lot*.
+You've learned the hard way if it's tough or even impossible to recover from your mistakes. Just like in case 1 above: Your client *didn't know that they didn't know* what was needed. In most cases, such a revelation comes pretty late when correcting mistakes costs *a lot*.
 
 The answer is a process with four steps:
 
 1. **Identify and formulate the assumption** that represents the highest risk of failure.
-2. **Design the most reliable and fastest test** that will produce a true/false result and upgrade your assumption to fact.
+2. **Design the most reliable and fastest test** that will produce a true/false result and upgrade your assumption to a fact.
 3. **Run the test.**
 4. **Repeat.**
 
-These assumptions are called <abbr title="Riskiest Assumptions to Test">RATs</abbr>. So if your client tells you "I know *exactly* what I need" you should smell a RAT, test this assumption and turn it into hard fact. If your boss' boss hands you a project order with detailed tasks lists and deadlines, making it look like a well-thought-out plan, you should smell a RAT and test it. A shitty first draft doesn't become a sound concept only because someone up the hierarchy wrote it! If you develop a solution, don't assume you know your user just because you have been using your own solution. Define RATs instead and test them early and often with your real users.
+These assumptions are called <abbr title="Riskiest Assumptions to Test">RATs</abbr>. So if your client tells you "I know *exactly* what I need" you should smell a RAT, test this assumption and turn it into a hard fact. If your boss' boss hands you a project order with detailed task lists and deadlines, making it look like a well-thought-out plan, you should smell a RAT and test it. A shitty first draft doesn't become a sound concept only because someone up the hierarchy wrote it! If you develop a solution, don't assume you know your user just because you have been using your solution. Define RATs instead and test them early and often with your real users.
 
-In general: When it comes to other human beings, beware your tendency to know anything. Devise a test, then test it.
+In general: When it comes to other human beings, beware of your tendency to know anything. Devise a test, then test it.
 
 ## Tips for Proper Testing
 
 When I say testing, I don't necessarily mean asking. While it certainly is a very fast test, it rarely produces reliable results. So what are the rough guidelines for properly testing assumptions? To give you some concrete ideas on how to go about validating your RATs:
 
-* Observe what your test subjects *actually do* in their environment; don't ask what they *assume they do*.
+* Observe what your test subjects *do* in their environment; don't ask what they *assume they do*.
 * Use prototypes and test environments to put people in situations that are as *close to reality* as possible. 
-* If observation is impossible, ask the *persons who take the ultimate decision* on the topic at hand. Eliminate hearsay and the dangerous assumed assumptions.
+* If an observation is impossible, ask the *persons who take the ultimate decision* on the topic at hand. Eliminate hearsay and the dangerous assumed assumptions.
 * Make your tests as real as possible by having the persons *commit to something* (like a follow-up action) or *give up something* valuable (like more of their time). Do they put their money/time where their mouth is?
 
 {{<figure src="3d9b166b-a85c-4d49-8de3-5e984edba87d">}}Testing assumptions is like making an eye test: It'll help you getting a better picture{{</figure>}}
@@ -95,9 +95,9 @@ I'd even recommend to combine and repeat tests. Getting consistent results from 
 
 ## Conclusion
 
-RATs are a great way to spare ourselves the disappointment to invest a lot of resources into something that nobody needs. They help being more successful at what we do for a living.
+RATs are a great way to spare ourselves the disappointment to invest a lot of resources into something that nobody needs. They help us to be more successful at what we do for a living.
 
-I've started to systematically scan for RATs whenever someone asks me to dedicate a substantial amount of time or money to something. By testing these assumptions, people effectively **show, don't tell** me what they really mean.
+I've started to systematically scan for RATs whenever someone asks me to dedicate a substantial amount of time or money to something. By testing these assumptions, people effectively **show, don't tell** me what they mean.
 
 Start smelling and testing RATs in your environment, too. This way, whatever's doomed to fail can fail early—leaving you and others to **spend more on what's well spent**!
 

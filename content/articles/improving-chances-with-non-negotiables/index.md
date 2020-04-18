@@ -18,21 +18,21 @@ Simon Sinek teaches us that one can't really "win" at work because it's a differ
 {{<youtube ZCB-0LWAmxw>}}
 </figure>
 
-Fair point, so let's use "winning" as synonym to "being successful". To be *consistently* successful at work you need to know what rules define success so that you can repeatedly achieve it and—according to Simon Sinek—"stay in the game".
+Fair point, so let's use "winning" as a synonym to "being successful". To be *consistently* successful at work you need to know what rules define success so that you can repeatedly achieve it and—according to Simon Sinek—"stay in the game".
 
 ## Know the Referees
 
 Unfortunately, there are no strict, clear and stable rules for success at work. But there are referees: Your boss or client will tell you how you did.
 
-In most cases, you will get feedback *afterwards*. There are plenty of approaches however to minimize the risk of learning too late if you are on the right track. Some methods try to take all the risk out by defining *upfront* as much in detail as possible. Others try to split the larger body of work in smaller parts and getting feedback *throughout*, not only at the end.
+In most cases, you will get feedback * afterward*. There are plenty of approaches however to minimize the risk of learning too late if you are on the right track. Some methods try to take all the risk out by defining *upfront* as much in detail as possible. Others try to split the larger body of work into smaller parts and getting feedback *throughout*, not only at the end.
 
 Of course, these methods depend on a few fragile conditions:
 
-* Your boss or client really knows what they want.
-* Your boss or client really means what they say.
-* You really understand what they mean and want.
+* Your boss or client knows what they want.
+* Your boss or client means what they say.
+* You understand what they mean and want.
 
-Given [all the cognitive biases](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18) your boss, your client and yourself are subject to as human beings, there's still a high probability that you will ultimately be limited in your success. Phrases like "No, that's not what I meant" and "No, that's not how I understood it" may seem all to familiar.
+Given [all the cognitive biases](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18) your boss, your client and yourself are subject to as human beings, there's still a high probability that you will ultimately be limited in your success. Phrases like "No, that's not what I meant" and "No, that's not how I understood it" may seem all too familiar.
 
 {{<figure src="ff6bd63b-abe6-49c8-984f-a8fe07fa4422" cite="[Cognitive Bias Cheat Sheet](https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18)" transformation="full">}}A map of humans' cognitive biases{{</figure>}}
 
@@ -42,28 +42,28 @@ While RATs are a big help to better understand your boss or client at a given mo
 
 ## Make the Rules Known to the Referees—Your Rules
 
-In our strategy and innovation team at the Swiss Broadcast Corporation [SRG&nbsp;SSR](https://www.srgssr.ch/en/), we recently started to employ **a tactic called Non-Negotiables**. We are in charge of the corporate strategies and partnerships in the area of technology. Now, when starting to work on something new, we take time to determine what our Non-Negotiables are before collaborating with all the units and departments that need to be involved in the work.
+In our strategy and innovation team at the Swiss Broadcast Corporation [SRG&nbsp;SSR](https://www.srgssr.ch/en/), we recently started to employ **a tactic called Non-Negotiables**. We are in charge of corporate strategies and partnerships in the area of technology. Now, when starting to work on something new, we take time to determine what our Non-Negotiables are before collaborating with all the units and departments that need to be involved in the work.
 
-Taking time to define your Non-Negotiables (individually or as team) will help you in several ways:
+Taking time to define your Non-Negotiables (individually or as a team) will help you in several ways:
 
 * **You discover your or your team's *real* priorities.** If done in teams, members will negotiate about the team's Non-Negotiables, revealing more about themselves. You will get to know your team members better.
 * **Your team is aligned on what's negotiable and what's not.** Everyone on the team can confidently start collaborating with third parties, all representing the same team position and not making promises that the team can't keep. Also: It becomes much harder for stakeholders to divide and conquer your team by asking for personal favors.
-* In case your Non-Negotiables are questioned, you can **defend your position better** since you (and your team) have taken time in advance to weigh all the pro and contra arguments. This also puts everyone in your team in a good starting point to negotiate since they know where it's OK to make counter offers.
-* This approach allows you to **find out who your real opponents are**. A stakeholder who is against all your Non-Negotiables must be managed differently than someone who is against all what *can* be negotiated.
+* In case your Non-Negotiables are questioned, you can **defend your position better** since you (and your team) have taken time in advance to weigh all the pro and contra arguments. This also puts everyone in your team in a good starting point to negotiate since they know where it's OK to make counteroffers.
+* This approach allows you to **find out who your real opponents are**. A stakeholder who is against all your Non-Negotiables must be managed differently than someone who is against all that *can* be negotiated.
 
 ---
 
 {{<note>}}
 ##### <i class="las la-lightbulb"></i> Pro Tip
 
-Ask your boss or your clients for *their* Non-Negotiables, too: What's off limits for them? I'm certain it will help your mutual understanding and collaboration, too.
+Ask your boss or your clients for *their* Non-Negotiables, too: What's off-limits for them? I'm certain it will help your mutual understanding and collaboration, too.
 {{</note>}}
 
 ---
 
 # How We Find Our Non-Negotiables
 
-Some Non-Negotiables are nothing but common sense. You can discover them by simply asking "Is it really me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
+Some Non-Negotiables are nothing but common sense. You can discover them by simply asking "Is it me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
 
 {{<figure src="dc95dace-00d2-494e-bd8b-90f2cfbe54a8">}}Non-Negotiables: Play by *your* rules{{</figure>}}
 
@@ -85,4 +85,4 @@ There's always the possibility that your boss or client doesn't care about your 
 
 **Your boss or client takes on the full accountability in case of failure.**
 
-Make sure to let them know about this next time they overrule your Non-Negotioables!
+Make sure to let them know about this next time they overrule your Non-Negotiables!

@@ -154,7 +154,7 @@
 </figure>
 <h2 id="the-challenge-of-transparently-splitting-a-subnet">The Challenge of Transparently Splitting a Subnet</h2>
 <p>Consider the following scenario: My <abbr title="Internet Service Provider">ISP</abbr> allocated me a <code>/28</code> subnet (<code>x.x.129.208/28</code>). Along with it, they provided a gateway on the first IP of the subnet (<code>x.x.129.209</code>) and nothing else—and that was the problem.</p>
-<p>Usually when you are provided a subnet, it is routed to the fixed public IP of your router. This IP is not part of the subnet so you have the freedom to forward the routing of the subnet downstream over any number of hops to anywhere you need it in your infrastructure. In this case however, the first IP was assigned to the ISP gateway—making it impossible to allocate the subnet somewhere else. My router had to be in the exact same subnet (i.e. <code>x.x.129.210</code>).</p>
+<p>Usually, when you are provided a subnet, it is routed to the fixed public IP of your router. This IP is not part of the subnet so you have the freedom to forward the routing of the subnet downstream over any number of hops to anywhere you need it in your infrastructure. In this case, however, the first IP was assigned to the ISP gateway—making it impossible to allocate the subnet somewhere else. My router had to be in the same subnet (i.e. <code>x.x.129.210</code>).</p>
 <figure>
     
     <picture>
@@ -229,7 +229,7 @@
         Setting Proxy ARP virtual IPs in OPNsense
     </figcaption>
 </figure>
-<p>In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP <code>x.x.129.210</code>) it also was the recipient for all IP packets of the <code>/29</code> DMZ subnet. In a way, ARP allows to configure upstream routers that are not part of your own infrastructure.</p>
+<p>In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP <code>x.x.129.210</code>) it also was the recipient for all IP packets of the <code>/29</code> DMZ subnet. In a way, ARP allows configuring upstream routers that are not part of your infrastructure.</p>
 <p>This works like a charm. Servers in the DMZ configured with the public IPs of the second <code>/29</code> subnet are now able to communicate in both directions with the Internet.</p>
 <hr>
 <div class="alert alert-warning">
@@ -430,7 +430,7 @@
             class="las la-stopwatch"></i>&nbsp;4min read</small></p>
 <div class="yx-stretched-linkable mb-3">
     <h2>Working Around the JumpCloud Curl Error 22</h2>
-    <p>JumpCloud is a great tool to enable Single Sign On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux. <a href="/articles/jumpcloud-curl-error-22/" class="stretched-link">Continue…</a></p>
+    <p>JumpCloud is a great tool to enable Single Sign-On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux. <a href="/articles/jumpcloud-curl-error-22/" class="stretched-link">Continue…</a></p>
 </div>
 <p>
     

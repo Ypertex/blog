@@ -48,7 +48,7 @@ sudo systemctl stop openmediavault-issue && sudo systemctl disable openmediavaul
 
 Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file ``/etc/issue`` back to its original content: Open the file (i.e. ``sudo nano /etc/issue``), then paste the complete string ``Debian GNU/Linux 9 \n \l``, and save the file. Done! After a reboot, the file still reads the same.
 
-Installing the JumpCloud agent on these systems now **works as expected**. The systems report as ``Debian 9`` in the JumpCloud console from where they can be managed just as any other system.
+Installing the JumpCloud agent on these systems now **works as expected**. The systems report as ``Debian 9`` in the JumpCloud console from where they can be managed just like any other system.
 
 ## Conclusion
 

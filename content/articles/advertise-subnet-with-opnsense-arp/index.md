@@ -17,7 +17,7 @@ Today was the first time that I needed to split one IPv4 subnet into two and for
 
 Consider the following scenario: My <abbr title="Internet Service Provider">ISP</abbr> allocated me a ``/28`` subnet (``x.x.129.208/28``). Along with it, they provided a gateway on the first IP of the subnet (``x.x.129.209``) and nothing else—and that was the problem.
 
-Usually when you are provided a subnet, it is routed to the fixed public IP of your router. This IP is not part of the subnet so you have the freedom to forward the routing of the subnet downstream over any number of hops to anywhere you need it in your infrastructure. In this case however, the first IP was assigned to the ISP gateway—making it impossible to allocate the subnet somewhere else. My router had to be in the exact same subnet (i.e. ``x.x.129.210``).
+Usually, when you are provided a subnet, it is routed to the fixed public IP of your router. This IP is not part of the subnet so you have the freedom to forward the routing of the subnet downstream over any number of hops to anywhere you need it in your infrastructure. In this case, however, the first IP was assigned to the ISP gateway—making it impossible to allocate the subnet somewhere else. My router had to be in the same subnet (i.e. ``x.x.129.210``).
 
 {{<figure src="f1d8e6d9-1f1a-4c88-beca-37b5b0026470" transformation="paddedInline">}}Schema of network conditions dictated by my ISP{{</figure>}}
 
@@ -48,7 +48,7 @@ This Proxy ARP type of virtual IP allows you to broadcast the advertisement of I
 
 {{<figure src="7e6c00c0-23b4-4e7c-a221-c038daef3c21" transformation="inline">}}Setting Proxy ARP virtual IPs in OPNsense{{</figure>}}
 
-In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP ``x.x.129.210``) it also was the recipient for all IP packets of the ``/29`` DMZ subnet. In a way, ARP allows to configure upstream routers that are not part of your own infrastructure.
+In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP ``x.x.129.210``) it also was the recipient for all IP packets of the ``/29`` DMZ subnet. In a way, ARP allows configuring upstream routers that are not part of your infrastructure.
 
 This works like a charm. Servers in the DMZ configured with the public IPs of the second ``/29`` subnet are now able to communicate in both directions with the Internet.
 

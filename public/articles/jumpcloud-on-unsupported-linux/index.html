@@ -208,7 +208,7 @@ sudo systemctl stop pvebanner <span style="color:#f92672">&amp;&amp;</span> sudo
 <span style="color:#75715e"># For Openmediavault</span>
 sudo systemctl stop openmediavault-issue <span style="color:#f92672">&amp;&amp;</span> sudo systemctl disable openmediavault-issue</code></pre></div>
 <p>Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file <code>/etc/issue</code> back to its original content: Open the file (i.e. <code>sudo nano /etc/issue</code>), then paste the complete string <code>Debian GNU/Linux 9 \n \l</code>, and save the file. Done! After a reboot, the file still reads the same.</p>
-<p>Installing the JumpCloud agent on these systems now <strong>works as expected</strong>. The systems report as <code>Debian 9</code> in the JumpCloud console from where they can be managed just as any other system.</p>
+<p>Installing the JumpCloud agent on these systems now <strong>works as expected</strong>. The systems report as <code>Debian 9</code> in the JumpCloud console from where they can be managed just like any other system.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>I am no Linux expert but isn&rsquo;t there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file <code>/etc/issue</code>? I wish, JumpCloud could figure out something.</p>
 <p>If this issue bugs you too, let JumpCloud know by <a href="https://support.jumpcloud.com/customer/portal/questions/17167497-agent-support-for-proxmox-and-openmediavault-debian-9-">voting on my feature request</a> I posted on their site over a year ago. Thanks. At least, we have a workaround with the above hack.</p>
@@ -406,7 +406,7 @@ sudo systemctl stop openmediavault-issue <span style="color:#f92672">&amp;&amp;<
             class="las la-stopwatch"></i>&nbsp;4min read</small></p>
 <div class="yx-stretched-linkable mb-3">
     <h2>Working Around the JumpCloud Curl Error 22</h2>
-    <p>JumpCloud is a great tool to enable Single Sign On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux. <a href="/articles/jumpcloud-curl-error-22/" class="stretched-link">Continue…</a></p>
+    <p>JumpCloud is a great tool to enable Single Sign-On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux. <a href="/articles/jumpcloud-curl-error-22/" class="stretched-link">Continue…</a></p>
 </div>
 <p>
     
