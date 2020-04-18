@@ -69,7 +69,7 @@ Most of a website's loading time is caused by requesting the different assets th
 
 Each of these requests consumes precious time so the goal is to minimize the number of requests necessary. It's especially helpful if you can avoid requests for loading only small bits and pieces. It's faster to download one larger file than two smaller files.
 
-For example, this blog's current logogram <svg width="2.5rem" height="1rem" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+For example, this blog's current logogram <svg width="50px" height="20px" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
     <g transform="matrix(1,0,0,1,-2574,-792)">
         <g id="Unprotected-primary-color-logogram-on-transparent-background" serif:id="Unprotected primary color logogram on transparent background" transform="matrix(1.12719,0,0,0.885774,2612.5,797.543)">
             <rect x="-34.159" y="-6.258" width="390.352" height="198.696" style="fill:none;"/>
@@ -99,7 +99,7 @@ If you do this, you reduce the number of requests necessary to display your page
 Here's the source of this blog's logogram:
 
 {{<highlight svg>}}
-<svg width="2.5rem" height="1rem" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+<svg width="100%" height="100%" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
     <g transform="matrix(1,0,0,1,-2574,-792)">
         <g id="Unprotected-primary-color-logogram-on-transparent-background" serif:id="Unprotected primary color logogram on transparent background" transform="matrix(1.12719,0,0,0.885774,2612.5,797.543)">
             <rect x="-34.159" y="-6.258" width="390.352" height="198.696" style="fill:none;"/>
