@@ -73,3 +73,11 @@ Such services are also able to automatically optimize image quality and compress
 ## Conclusion
 
 Celebrating the three year anniversary of my blog with my 15<sup>th</sup> article---and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!
+
+---
+
+{{<note>}}
+##### <i class="las la-balance-scale-left"></i> Disclaimer
+
+I am in no way affiliated with the services mentioned in this article. I recommend them as a blogger who employs their free services for personal use.
+{{</note>}}

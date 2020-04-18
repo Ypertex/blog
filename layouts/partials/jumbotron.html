@@ -1,6 +1,6 @@
 <section class="jumbotron">
     <div class="container">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | title | markdownify }}</h1>
         {{if .Date }}{{ partial "article-date.html" . }}{{ end }}
         {{ if .Params.tags }}{{ partial "article-tags.html" . }}{{ end }}
     </div>

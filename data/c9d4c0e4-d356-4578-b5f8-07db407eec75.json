@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "data": {
+        "title": "20 Ways to Speed Up Your Website---and Improve Conversion by 7%",
+        "description": "Even a 1-second delay in your website's load time can lead to lower revenue and traffic. Try these 20 tips to speed up your website in 2019.",
+        "lang": "en",
+        "author": "Today’s Eggspert",
+        "publisher": "The Daily Egg",
+        "image": {
+            "url": "https://s3.amazonaws.com/ceblog/wp-content/uploads/2018/02/19195026/speedup.jpg",
+            "type": "jpg",
+            "size": 306353,
+            "height": 598,
+            "width": 900,
+            "size_pretty": "306 kB"
+        },
+        "url": "https://www.crazyegg.com/blog/speed-up-your-website/",
+        "date": "2020-03-24T20:39:18.000Z",
+        "logo": {
+            "url": "https://logo.clearbit.com/crazyegg.com",
+            "type": "png",
+            "size": 4669,
+            "height": 128,
+            "width": 128,
+            "size_pretty": "4.67 kB"
+        }
+    }
+}

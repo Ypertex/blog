@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.ypertex.com/articles/accelerate-your-website-with-your-logo/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.ypertex.com/articles/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ypertex.com/tags/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ypertex.com/tags/technology/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.ypertex.com/tags/tutorials/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,16 +34,6 @@
   
   <url>
     <loc>https://blog.ypertex.com/tags/likes/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.ypertex.com/tags/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.ypertex.com/tags/tutorials/</loc>
     <lastmod>2020-04-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -75,11 +85,6 @@
   <url>
     <loc>https://blog.ypertex.com/tags/leadership/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.ypertex.com/tags/technology/</loc>
-    <lastmod>2019-08-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
