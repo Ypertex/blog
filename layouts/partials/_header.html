@@ -18,9 +18,11 @@
                 <div class="navbar-nav">
                     <hr>
                     {{ range .Site.Menus.social }}
-                    <a href="{{ .URL }}" class="nav-item nav-link" title="{{ .Name }}">{{ .Pre }} <span
+                    <a href="{{ .URL }}" class="nav-item nav-link" title="{{ .Name }}">{{ .Pre }}<span
                             class="d-md-none"> {{ .Name }}</span></a>
                     {{ end }}
+                    <a href="{{ `/index.xml` | relURL }}" class="nav-item nav-link" title="RSS"><i
+                            class="las la-rss"></i><span class="d-md-none"> RSS</span></a>
                 </div>
             </div>
         </div>
