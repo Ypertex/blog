@@ -12,7 +12,7 @@ images:
 
 I've been working with [Hugo](https://gohugo.io/) for quite a while now. For roughly two years, according to [this Git commit](https://github.com/Ypertex/blog/commit/92b08548ac23cc0fc35f829976b66cfd77316681). During this time I've learned a few things worth sharing.
 
-{{<figure src="7d143c90-862c-4e74-9275-763746bf95f0">}}Hugo's logo{{</figure>}}
+{{<figure src="7d143c90-862c-4e74-9275-763746bf95f0" transformation="full">}}Hugo's logo{{</figure>}}
 
 ## Rich Link Previews
 
