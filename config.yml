@@ -44,29 +44,29 @@ params:
                     sm: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/
                     xs: ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/
                 full:
-                    xl: c_scale,dpr_auto,f_auto,q_auto,w_1140/
-                    lg: c_scale,dpr_auto,f_auto,q_auto,w_960/
-                    md: c_scale,dpr_auto,f_auto,q_auto,w_720/
-                    sm: c_scale,dpr_auto,f_auto,q_auto,w_767/
-                    xs: c_scale,dpr_auto,f_auto,q_auto,w_575/
+                    xl: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_1140/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_960/
+                    md: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_720/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_767/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_575/
                 padded:
-                    xl: c_scale,dpr_auto,f_auto,q_auto,w_1108/
-                    lg: c_scale,dpr_auto,f_auto,q_auto,w_928/
-                    md: c_scale,dpr_auto,f_auto,q_auto,w_688/
-                    sm: c_scale,dpr_auto,f_auto,q_auto,w_735/
-                    xs: c_scale,dpr_auto,f_auto,q_auto,w_543/
+                    xl: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_1108/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_928/
+                    md: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_688/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_735/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_543/
                 inline:
-                    xl: c_scale,dpr_auto,f_auto,q_auto,w_762/
-                    lg: c_scale,dpr_auto,f_auto,q_auto,w_802/
-                    md: c_scale,dpr_auto,f_auto,q_auto,w_722/
-                    sm: c_scale,dpr_auto,f_auto,q_auto,w_542/
-                    xs: c_scale,dpr_auto,f_auto,q_auto,w_577/
+                    xl: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_762/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_802/
+                    md: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_722/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_542/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_577/
                 paddedInline:
-                    xl: c_scale,dpr_auto,f_auto,q_auto,w_730/
-                    lg: c_scale,dpr_auto,f_auto,q_auto,w_770/
-                    md: c_scale,dpr_auto,f_auto,q_auto,w_690/
-                    sm: c_scale,dpr_auto,f_auto,q_auto,w_510/
-                    xs: c_scale,dpr_auto,f_auto,q_auto,w_545/
+                    xl: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_730/
+                    lg: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_770/
+                    md: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_690/
+                    sm: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_510/
+                    xs: c_scale,dpr_auto,f_auto,q_auto,g_auto,w_545/
             index:
                 xl: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/
                 lg: ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/
