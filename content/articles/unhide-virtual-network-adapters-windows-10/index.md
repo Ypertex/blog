@@ -40,7 +40,7 @@ As far as I know, the only provider offering physical GPU-powered servers that m
 {{<card class="alert-secondary">}}
 ##### <i class="las la-sync"></i> Edited {{<date>}}2020-05-14{{</date>}}
 
-Above mentioned server model EX51-SSD-GPU has been removed from Hetzner's [line-up of dedicated servers](https://www.hetzner.com/dedicated-rootserver). There's some speculation on [Reddit](https://www.reddit.com/r/hetzner/comments/fk2n7r/any_idea_when_hetzner_gpu_servers_will_be/) as to why this models was retired. However, you might still be available to find one via their [server auction](https://www.hetzner.com/sb)---if you're interested, just filter for the term "GPU".
+Above mentioned server model EX51-SSD-GPU has been removed from Hetzner's [line-up of dedicated servers](https://www.hetzner.com/dedicated-rootserver). There's some speculation on [Reddit](https://www.reddit.com/r/hetzner/comments/fk2n7r/any_idea_when_hetzner_gpu_servers_will_be/) as to why this model was retired. However, you might still be available to find one via their [server auction](https://www.hetzner.com/sb)---if you're interested, just filter for the term "GPU".
 
 Currently, there are no further plans to introduce new GPU-powered servers according to a source at Hetzner.
 {{</card>}}
