@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.69.0" />
+    <meta name="generator" content="Hugo 0.70.0" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -36,7 +36,7 @@
 <meta property="og:url" content="https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/" />
 <meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/cb4332a2-eace-43e5-8271-4cdfe85c14f5" />
 <meta property="article:published_time" content="2019-08-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-08-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-14T00:00:00+00:00" />
 
 
 <meta property="article:author" content="Michael Schmidle" />
@@ -115,7 +115,8 @@
     <div class="container">
         <h1>Unhide Virtual Network Adapters in Windows 10</h1>
         <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Aug 18, 2019 · <i
+            class="las la-upload"></i>&nbsp;Aug 18, 2019
+        · <i class="las la-sync"></i>&nbsp;May 14, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
         <p>
     
@@ -129,7 +130,8 @@
 <section class="yx-content container py-5">
     <div class="row">
         <div class="col-xl-8 col-lg-10 mx-auto">
-            <p class="lead">In Windows&rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</p>
+            <p class="lead">In Windows&rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <small class="text-muted">[Edited
+                    May 14, 2020]</small></p>
             <hr>
             <p>If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don&rsquo;t appear anymore in the &ldquo;Network and Sharing Center&rdquo; and other parts of Windows.</p>
 <p>I assume that for the majority of users, these adapters showing up in all possible places of the <abbr title="Operating System">OS</abbr> just like regular network interfaces caused more confusion than it was helpful. So they changed how Windows treats virtual network adapters.</p>
@@ -164,7 +166,17 @@
 <li>Windows 10 is a client OS and as such should never be connected directly to the open Internet without any device as a security gateway.</li>
 </ul>
 <h2 id="cost-considerations-of-self-made-cloud-gaming">Cost Considerations of Self-Made Cloud Gaming</h2>
-<p>As far as I know, the only provider offering physical GPU-powered servers that more or less match the costs of buying your ready-for-use gaming hardware is <a href="https://www.hetzner.com/">Hetzner</a>. At the time of writing, you get a <a href="https://www.hetzner.com/dedicated-rootserver/ex51-ssd-gpu">Nvidia Geforce GTX 1080 GPU</a> paired with an Intel i7 CPU and 64GB RAM for roughly EUR100 per month.</p>
+<p>As far as I know, the only provider offering physical GPU-powered servers that more or less match the costs of buying your ready-for-use gaming hardware is <a href="https://www.hetzner.com/">Hetzner</a>. At the time of writing, you get a Nvidia Geforce GTX 1080 GPU paired with an Intel i7 CPU and 64GB RAM for roughly EUR100 per month.</p>
+<hr>
+<div class="card alert-secondary">
+    <div class="card-body">
+        <h5 id="i-classlas-la-synci-edited-may-14-2020"><i class="las la-sync"></i> Edited May 14, 2020</h5>
+<p>Above mentioned server model EX51-SSD-GPU has been removed from Hetzner&rsquo;s <a href="https://www.hetzner.com/dedicated-rootserver">line-up of dedicated servers</a>. There&rsquo;s some speculation on <a href="https://www.reddit.com/r/hetzner/comments/fk2n7r/any_idea_when_hetzner_gpu_servers_will_be/">Reddit</a> as to why this models was retired. However, you might still be available to find one via their <a href="https://www.hetzner.com/sb">server auction</a>&mdash;if you&rsquo;re interested, just filter for the term &ldquo;GPU&rdquo;.</p>
+<p>Currently, there are no further plans to introduce new GPU-powered servers according to a source at Hetzner.</p>
+
+    </div>
+</div>
+<hr>
 <p>Considering that you would have to invest around EUR2,500 to get a comparable ready-for-use rig, the cost of the Hetzner server is comparable to buying and using a gaming PC for two years (EUR2,500 / EUR100 per month ≈ 24 months ≈ 2 years). In my opinion, that&rsquo;s a fair amortization period for gaming hardware.</p>
 <p>For the kind of games I play, the latency of around 15ms caused by my distance to the Hetzner datacenter is totally fine. So while it doesn&rsquo;t save me any money, it saves space, noise and power consumption at home. Plus, I can remotely play demanding games even on my thin clients, even if I&rsquo;m not at home (given that I&rsquo;m still within an acceptable distance to the datacenter).</p>
 <h2 id="security-considerations-of-self-made-cloud-gaming">Security Considerations of Self-Made Cloud Gaming</h2>

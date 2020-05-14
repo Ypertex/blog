@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.69.0" />
+    <meta name="generator" content="Hugo 0.70.0" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -242,7 +242,7 @@
 <p>Hm, yet another size for the cover images of my articles I need to generate and keep track of.</p>
 <p>Since I use <a href="https://cloudinary.com/">Cloudinary</a> as a service to resize images on the fly and thus to <a href="/articles/redesign-march-2020/#images-can-be-responsive">make my images responsive</a>, the solution is pretty simple.</p>
 <p>In the content files&rsquo; front matter, I define one image in the <code>.Params.images</code> array. For this article you&rsquo;re just reading, it would look like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">images:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">images</span>:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7d143c90-862c<span style="color:#ae81ff">-4e74-9275</span>-763746bf95f0</code></pre></div>
 <p>Hugo takes this URL and uses it in the two metadata shortcodes <code>opengraph.html</code> and <code>twitter_cards.html</code>. I use this URL to show the same cover image in the list of articles&mdash;but properly transformed for the size of my users&rsquo; devices. To that end, I first have to <strong>deconstruct the URL</strong> into its parts with the help of <a href="https://gohugo.io/functions/path.split/">Hugo&rsquo;s <code>path.Split</code> function</a>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">path</span><span style="color:#a6e22e">.Split</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">index</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">first</span> <span style="color:#a6e22e">1</span> <span style="color:#a6e22e">.Params.images</span><span style="color:#f92672">)</span> <span style="color:#a6e22e">0</span><span style="color:#f92672">))</span><span style="color:#a6e22e">.File</span> <span style="color:#75715e">}}</span></code></pre></div>
@@ -419,7 +419,8 @@
     </div>
     <div class="col-md-8 text-md-right">
         <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Aug 18, 2019 · <i
+            class="las la-upload"></i>&nbsp;Aug 18, 2019
+        · <i class="las la-sync"></i>&nbsp;May 14, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
 <div class="yx-stretched-linkable mb-3">
     <h2>Unhide Virtual Network Adapters in Windows 10</h2>
