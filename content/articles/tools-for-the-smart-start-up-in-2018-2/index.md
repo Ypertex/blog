@@ -90,7 +90,7 @@ Tools that are both a real joy to use and affordable, are hard to find. Here are
 
 ### [BookStack](https://www.bookstackapp.com/)
 
-I like BookStack because of its ** well-designed interface and ease of use**. It’s rather modest in terms of system requirements as it doesn’t require a lot of hardware resources. Also: It’s **open-source software, available for free** (as in no license fees).
+I like BookStack because of its **well-designed interface and ease of use**. It’s rather modest in terms of system requirements as it doesn’t require a lot of hardware resources. Also: It’s **open-source software, available for free** (as in no license fees).
 
 {{<figure src="bb60e3e4-3b05-4ec1-836a-eb286d0c4eb0" transformation="full">}}Screenshot of the bookstackapp.com website, November 2018{{</figure>}}
 
