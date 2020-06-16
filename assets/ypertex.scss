@@ -53,6 +53,20 @@ main .container, footer .container {
 }
 h1, h2, h3, h4, h5, h6 {
     @extend .mb-3, .mt-0;
+    a.heading {
+        @extend small;
+        color: $gray-200;
+        visibility: hidden;
+        text-decoration: none;
+    }
+    &:hover {
+        a.heading {
+            visibility: visible;
+            &:hover {
+                color: $gray-400;
+            }
+        }
+    }
 }
 hr {
     @extend .my-5, .mx-n2;
