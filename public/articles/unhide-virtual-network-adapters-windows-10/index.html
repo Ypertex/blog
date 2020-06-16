@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.70.0" />
+    <meta name="generator" content="Hugo 0.72.0" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -157,7 +157,7 @@
 </figure>
 <p>There might be cases, however, in which you need Windows to treat a virtual network adapter just like a regular one. A small change in the registry and a reboot fixes this.</p>
 <p>Read on to see why on earth this might cause issues or jump ahead to the <a href="#unhide-the-host-only-virtual-network-adapter">solution below</a>.</p>
-<h1 id="use-case-route-all-traffic-through-a-virtual-machine">Use Case: Route All Traffic Through a Virtual Machine</h1>
+<h1 id="use-case-route-all-traffic-through-a-virtual-machine">Use Case: Route All Traffic Through a Virtual Machine&nbsp;<a href="#use-case-route-all-traffic-through-a-virtual-machine" class="heading">¶</a></h1>
 <p>Cloud gaming comes with a nice value proposition: Run the latest games on powerful cloud infrastructure but only pay a fraction of the costs you would incur when owning the hardware yourself.</p>
 <p>After testing a few of the services and also building my &ldquo;own&rdquo; <abbr title="Graphical Processing Unit">GPU</abbr>-powered virtual machines in the cloud (i.e. Azure and Paperspace), I&rsquo;ve concluded that the implementation of cloud gaming still has to overcome a few challenges.</p>
 <p>The closest that I&rsquo;ve come to cloud gaming in a way that I would enjoy it, is renting a physical GPU-powered server, installing Windows 10 and running games on it. Of course, there are a few issues with this:</p>
@@ -165,7 +165,7 @@
 <li>It&rsquo;s not a cloud service at all since A) I have to manage the complete software stack myself and B) I am paying a monthly flat fee instead of pay-per-use.</li>
 <li>Windows 10 is a client OS and as such should never be connected directly to the open Internet without any device as a security gateway.</li>
 </ul>
-<h2 id="cost-considerations-of-self-made-cloud-gaming">Cost Considerations of Self-Made Cloud Gaming</h2>
+<h2 id="cost-considerations-of-self-made-cloud-gaming">Cost Considerations of Self-Made Cloud Gaming&nbsp;<a href="#cost-considerations-of-self-made-cloud-gaming" class="heading">¶</a></h2>
 <p>As far as I know, the only provider offering physical GPU-powered servers that more or less match the costs of buying your ready-for-use gaming hardware is <a href="https://www.hetzner.com/">Hetzner</a>. At the time of writing, you get a Nvidia Geforce GTX 1080 GPU paired with an Intel i7 CPU and 64GB RAM for roughly EUR100 per month.</p>
 <hr>
 <div class="card alert-secondary">
@@ -179,7 +179,7 @@
 <hr>
 <p>Considering that you would have to invest around EUR2,500 to get a comparable ready-for-use rig, the cost of the Hetzner server is comparable to buying and using a gaming PC for two years (EUR2,500 / EUR100 per month ≈ 24 months ≈ 2 years). In my opinion, that&rsquo;s a fair amortization period for gaming hardware.</p>
 <p>For the kind of games I play, the latency of around 15ms caused by my distance to the Hetzner datacenter is totally fine. So while it doesn&rsquo;t save me any money, it saves space, noise and power consumption at home. Plus, I can remotely play demanding games even on my thin clients, even if I&rsquo;m not at home (given that I&rsquo;m still within an acceptable distance to the datacenter).</p>
-<h2 id="security-considerations-of-self-made-cloud-gaming">Security Considerations of Self-Made Cloud Gaming</h2>
+<h2 id="security-considerations-of-self-made-cloud-gaming">Security Considerations of Self-Made Cloud Gaming&nbsp;<a href="#security-considerations-of-self-made-cloud-gaming" class="heading">¶</a></h2>
 <p>Having a Windows 10 client exposed directly to the Internet is never a good idea—no matter what security software runs on it.</p>
 <p>In the case of Hetzner as the provider, you could use their firewall. Unfortunately, they only allow a maximum of 10 rules per server. The game store Steam alone uses a handful of rules so you quickly exceed the maximum.</p>
 <p>However, there is a smart way to avoid this public exposure when running Windows 10 on a Hetzner server:</p>
@@ -204,12 +204,12 @@
     </figcaption>
 </figure>
 <p>The problem with this setup in newer Windows 10 releases: Windows disregards the virtual host-only network adapter as an Internet connection. Disabling the physical adapter hence leads to Windows acting like it&rsquo;s completely offline—even if a fully working connection via the virtual environment and the secondary <abbr title="Internet Protocol">IP</abbr> address is established.</p>
-<h1 id="unhide-the-host-only-virtual-network-adapter">Unhide the Host-Only Virtual Network Adapter</h1>
+<h1 id="unhide-the-host-only-virtual-network-adapter">Unhide the Host-Only Virtual Network Adapter&nbsp;<a href="#unhide-the-host-only-virtual-network-adapter" class="heading">¶</a></h1>
 <p>To get Windows to treat the host-only adapter like a &ldquo;real&rdquo; one, open the Registry Editor and look for the corresponding entry.</p>
 <p>For VMware Workstation, the value is located in a subfolder like <code>0010</code> at <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}</code> in the registry. Verify that the value of <code>DriverDesc</code> in the same location is <code>VMware Virtual Ethernet Adapter for VMnet1</code>.</p>
 <p>Then change the <code>*NdisDeviceType</code> value from <code>1</code> to <code>0</code>.</p>
 <p>Apply the change by rebooting your Windows 10 instance. Next time you log on, Windows will show the virtual adapter under &ldquo;Network &amp; Sharing Center&rdquo; and properly detect Internet connectivity on both links.</p>
-<h1 id="finishing-touches-for-my-use-case">Finishing Touches for My Use Case</h1>
+<h1 id="finishing-touches-for-my-use-case">Finishing Touches for My Use Case&nbsp;<a href="#finishing-touches-for-my-use-case" class="heading">¶</a></h1>
 <p>Now that Windows recognizes the second connection as a valid Internet connection, we need to make sure that it prioritizes the virtual network over the physical one. There are several ways to achieve this, with varying levels of security:</p>
 <ol>
 <li>Deactivate the physical network adapter in Windows. This is a bit inconvenient in case of issues with the firewall VM in the middle. You will need a <abbr title="Keyboard Video Mouse">KVM</abbr> console from Hetzner support to connect to your box and fix things.</li>
@@ -236,7 +236,7 @@
         Getting Windows 10 to use the second, more secure link while keeping the original connection as a fallback option.
     </figcaption>
 </figure>
-<h1 id="conclusion">Conclusion</h1>
+<h1 id="conclusion">Conclusion&nbsp;<a href="#conclusion" class="heading">¶</a></h1>
 <p>This article showed you how to securely use Windows 10 as a host operating system on a server with a direct Internet connection. Just make sure to route all traffic through a security gateway that runs inside a VM.</p>
 <p>The reason why someone would do such a crazy thing to begin with: to play games on a powerful GPU-enhanced server instead of buying and operating a gaming PC at home.</p>
 <hr>
