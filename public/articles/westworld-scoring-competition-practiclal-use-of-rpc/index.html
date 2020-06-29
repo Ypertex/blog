@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="Hugo 0.73.0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="/ypertex.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700,700i|Montserrat:400,400i,700,700i&display=swap">
+<link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<title>Westworld Scoring Competition: Practiclal Use of RPC · Ypertex Blog</title>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<meta name="msapplication-square70x70logo" content="/smalltile.png" />
+<meta name="msapplication-square150x150logo" content="/mediumtile.png" />
+<meta name="msapplication-wide310x150logo" content="/widetile.png" />
+<meta name="msapplication-square310x310logo" content="/largetile.png" />
+<meta property="og:title" content="Westworld Scoring Competition: Practiclal Use of RPC" />
+<meta property="og:description" content="How a music competition by Spitfire Audio and HBO with 11&#39;000 participants ends in a PR disaster&mdash;and how a simple concept could help to deal with it on the proper level." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ypertex.com/articles/westworld-scoring-competition-practiclal-use-of-rpc/" />
+<meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/41c65fa8-56d3-4bde-bc9f-b95e945daa9c" />
+<meta property="article:published_time" content="2020-06-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-06-29T00:00:00+00:00" />
+
+
+<meta property="article:author" content="Michael Schmidle" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/41c65fa8-56d3-4bde-bc9f-b95e945daa9c"/>
+
+<meta name="twitter:title" content="Westworld Scoring Competition: Practiclal Use of RPC"/>
+<meta name="twitter:description" content="How a music competition by Spitfire Audio and HBO with 11&#39;000 participants ends in a PR disaster&mdash;and how a simple concept could help to deal with it on the proper level."/>
+
+
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand"
+                href="/"><svg width="100%" height="100%" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2574,-792)">
+        <g id="Unprotected-primary-color-logogram-on-transparent-background" serif:id="Unprotected primary color logogram on transparent background" transform="matrix(1.12719,0,0,0.885774,2612.5,797.543)">
+            <rect x="-34.159" y="-6.258" width="390.352" height="198.696" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="-34.159" y="-6.258" width="390.352" height="198.696"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(3.69565,0,0,4.16217,-240.2,-272.956)">
+                    <g transform="matrix(0.105625,-6.62507e-18,5.86335e-18,0.119347,45.1899,52.1434)">
+                        <path d="M100,500L300,300L100,100L167.274,100C252.258,100 333.761,133.757 393.857,193.846C397.723,197.712 400,199.988 400,199.988L500,99.976L699.976,100L800,200.024L900,100L1100,100L900,300L1100,500L1032.74,500C947.747,500 866.238,466.238 806.141,406.141C802.276,402.276 800,400 800,400L700,500L500,500L700,300L600,200.024L300,500L100,500Z" style="fill:rgb(0,170,255);"/>
+                    </g>
+                    <g transform="matrix(0.105625,0,0,0.119347,45.1899,40.2116)">
+                        <path d="M500,599.976L900,199.976L700,199.953L300,599.976L500,599.976Z" style="fill:rgb(14,17,18);fill-opacity:0.2;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+</a>
+            <button type="button" data-toggle="collapse" data-target="#menuHeader" aria-controls="menu.header"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="las la-bars"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="menuHeader">
+                <div class="navbar-nav mr-md-auto">
+                    
+                    
+                    <a href="/articles/"
+                        class="nav-item nav-link active">Articles</a>
+                    
+                    <a href="/tags/"
+                        class="nav-item nav-link">Tags</a>
+                    
+                </div>
+                <div class="navbar-nav">
+                    <hr>
+                    
+                    <a href="https://www.linkedin.com/in/michaelschmidle" class="nav-item nav-link" title="LinkedIn"><i class="lab la-linkedin-in"></i><span
+                            class="d-md-none"> LinkedIn</span></a>
+                    
+                    <a href="https://twitter.com/MichaelSchmidle/" class="nav-item nav-link" title="Twitter"><i class="lab la-twitter"></i><span
+                            class="d-md-none"> Twitter</span></a>
+                    
+                    <a href="https://github.com/MichaelSchmidle/" class="nav-item nav-link" title="GitHub"><i class="lab la-github"></i><span
+                            class="d-md-none"> GitHub</span></a>
+                    
+                    <a href="/index.xml" class="nav-item nav-link" title="RSS"><i
+                            class="las la-rss"></i><span class="d-md-none"> RSS</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        
+<section class="jumbotron">
+    <div class="container">
+        <h1>Westworld Scoring Competition: Practiclal Use of RPC</h1>
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Jun 29, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;10min read</small></p>
+        <p>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</section>
+<section class="yx-content container py-5">
+    <div class="row">
+        <div class="col-xl-8 col-lg-10 mx-auto">
+            <p class="lead">How a music competition by Spitfire Audio and HBO with 11'000 participants ends in a PR disaster&mdash;and how a simple concept could help to deal with it on the proper level.</p>
+            <hr>
+            <p>In May 2020, <a href="https://www.spitfireaudio.com/">Spitfire Audio</a> and <a href="https://www.hbo.com/">HBO</a> invited media composers all over the world to participate in a scoring competition: to compose and produce the music to a clip from the third season of the TV show <a href="https://www.hbo.com/westworld/">Westworld</a>. In the following weeks until the final submission date, ca. 11'000 professionals and hobbyists entered the competition, according to Spitfire Audio.</p>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/3d9e362c-f933-4888-add4-698648bb748b">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/3d9e362c-f933-4888-add4-698648bb748b">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/3d9e362c-f933-4888-add4-698648bb748b">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/3d9e362c-f933-4888-add4-698648bb748b">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/3d9e362c-f933-4888-add4-698648bb748b"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        Screenshot of the Westworld Scoring Competition website (June 29, 2020)
+    </figcaption>
+</figure>
+<p>Sounds like a huge success, right?</p>
+<p>The runner-ups and the winner were announced on June 28, 2020 via YouTube.</p>
+<p>That&rsquo;s when things went sideways. As you can tell from the <a href="https://www.youtube.com/watch?v=Qsi7wP024J4">winners announcement on YouTube</a>, the overwhelming amount of the currently 2,410 comments can be considered as disagreeing with the jury&rsquo;s choice. At the time of writing, the like/dislike feature of the announcing video is disabled&mdash;a strong hint that users have been heavily disliking the competition&rsquo;s conclusion so that Spitfire Audio felt forced to disable the rating function.</p>
+<p>The day after the announcement, Spitfire Audio&rsquo;s co-founder Christian Henson publishes a <a href="https://www.youtube.com/watch?v=TepB6xbJCiw">YouTube video</a> defending why the winner won and complaining about the participants&rsquo; complaints.</p>
+<p>What looked like a huge success a day ago seems more like a huge PR disaster now, doesn&rsquo;t it? Remember: The participants have to be considered Spitfire Audio&rsquo;s <em>paying customers</em>.</p>
+<p>Here&rsquo;s my observation of what went wrong&mdash;and how Spitfire Audio or anyone in a similar situation could potentially act in such a scenario.</p>
+<h2 id="separation-of-concerns-content-and-process">Separation of Concerns: Content and Process&nbsp;<a href="#separation-of-concerns-content-and-process" class="heading">¶</a></h2>
+<p>Primarily, it seems like part of the community and Spitfire Audio are debating on two different levels without realizing it.</p>
+<h3 id="top-level-content">Top Level: Content&nbsp;<a href="#top-level-content" class="heading">¶</a></h3>
+<p>The <strong>first level</strong> is the <strong>content</strong> of the winning entry: the music, its style and its (mis-)fit to the story on-screen. I&rsquo;ll let you be the judge yourself:</p>
+<figure>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/SSwWSqxuRD4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</figure>
+<p>However you (dis-)like the composition, there are a million arguments to be made in favor and in contra. <strong>And that&rsquo;s OK.</strong> We&rsquo;re talking about music here. There&rsquo;s no right and no wrong. It&rsquo;s subjective. This also means that it&rsquo;s perfectly fine to give the award to this composition.</p>
+<p>Let&rsquo;s take a look at something else, something more objective:</p>
+<h3 id="mid-level-process">Mid Level: Process&nbsp;<a href="#mid-level-process" class="heading">¶</a></h3>
+<p>The <strong>second level</strong> is the <strong>process</strong> of the judgement. That&rsquo;s where things get interesting&hellip;</p>
+<p>Spitfire Audio defined terms and conditions for participation. These stated:</p>
+<blockquote>
+<p>You may not modify the Westworld Clip in any way.</p>
+<div class="yx-attribution">spitfireaudio.com,
+    <cite>via <a href="https://web.archive.org/web/20200507065857/https://www.spitfireaudio.com/westworld/terms-and-conditions/">Internet Archive</a></cite></div>
+</blockquote>
+<p>The winning entry did exactly that by altering the original audio track. However minor you&rsquo;d consider the modifications, the terms and conditions clearly prohibit <em>any</em> modification. In essence, the jury set up rules that they themselves then ignored. No room for debate here.</p>
+<p>The confusion starts when Spitfire Audio celebrates that the winner broke the rules (i.e. expectations and conventions) <em>regarding the content</em>&mdash;and can&rsquo;t understand why the community complains that the winner broke the rules <em>regarding the process</em>.</p>
+<p>To make matters worse, Spitfire Audio in person of Christian Henson claims that violating terms and conditions (i.e. process) is the norm in the industry:</p>
+<blockquote>
+<p>Welcome to the world of media composition.</p>
+<div class="yx-attribution"><cite><a href="https://youtu.be/TepB6xbJCiw?t=478">Christian Henson</a></cite></div>
+</blockquote>
+<p>Here&rsquo;s the translation:</p>
+<blockquote>
+<p>Dear composers, my beloved clients,</p>
+<p>welcome to the world of Spitfire Audio where we arbitrarily ignore our own terms and conditions. It&rsquo;s the place where we complain about our customers&rsquo; complaints after not even listening carefully at all. Suck it up!</p>
+<div class="yx-attribution">Kind of Christian Henson</div>
+</blockquote>
+<p>Working in the media industry myself, I agree that <strong>composers</strong> have to deal with the arbitrariness of their clients.</p>
+<p>But here&rsquo;s another truth: <strong>Audio library vendors</strong> like Spitfire Audio also have to deal with the arbitrariness of their clients&mdash;who are&hellip; the composers. Oops.</p>
+<p>It seems that Spitfire Audio forgot that for a moment? Treating <em>your</em> clients like you are <em>their</em> clients is a bit upside-down. It&rsquo;s like treating your queen and king like you&rsquo;d be their king and queen. Not sure if this will work out as intended by Spitfire Audio. My theory: It&rsquo;ll affect the trust, the relationship with their customer base they&rsquo;ve built over the years. And this in turn will affect their financial bottom line.</p>
+<p>Which brings me to the third component of RPC: Relationship.</p>
+<h3 id="bottom-level-relationship">Bottom Level: Relationship&nbsp;<a href="#bottom-level-relationship" class="heading">¶</a></h3>
+<blockquote>
+<p>It&rsquo;s complicated.</p>
+</blockquote>
+<p>That&rsquo;s probably the relationship status between Spitfire Audio and their competition entrants (i.e. customers) right now. Since it&rsquo;s been Spitfire Audio who violated the process and hence the relationship, it&rsquo;s up to them to fix it. I&rsquo;ve no idea how&mdash;but it starts with understanding and respecting the concept I call <strong>RPC: Relationship, Process, Content</strong>.</p>
+<h2 id="the-abbr-titlerelationship-process-contentrpcabbr-stairs">The <Abbr Title="Relationship, Process, Content">RPC</Abbr> Stairs&nbsp;<a href="#the-abbr-titlerelationship-process-contentrpcabbr-stairs" class="heading">¶</a></h2>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_762/b26191c9-cd43-42be-84e3-89b3e2279704">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_802/b26191c9-cd43-42be-84e3-89b3e2279704">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_722/b26191c9-cd43-42be-84e3-89b3e2279704">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_542/b26191c9-cd43-42be-84e3-89b3e2279704">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_577/b26191c9-cd43-42be-84e3-89b3e2279704"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        The RPC stairs: from relationship to process to content, back to process and back to relationship
+    </figcaption>
+</figure>
+<p>This is a concept I learned during the time at <a href="/articles/start-up-success-factors-trust-and-loyalty/">our start-up</a>; I&rsquo;m not sure who&rsquo;s the author. It&rsquo;s a simple yet powerful reminder of the steps to successfully steer through human interactions. It doesn&rsquo;t matter whether it&rsquo;s a meeting, a sale, an invitation, an interview, a large project, or a PR disasters like in above Spitfire Audio&rsquo;s case&mdash;it works in any situation when people interact with people.</p>
+<p>The model consists of three levels or phases in a human interaction: relationship (R), process (P), and content (C). It says:</p>
+<ul>
+<li><strong>Don&rsquo;t begin and don&rsquo;t end your interactions on the content level.</strong></li>
+<li>Before and after the content phase, remember to talk about the process.</li>
+<li>And at the very beginning and end of your conversation, invest some time in building your relationship with your counterpart.</li>
+</ul>
+<p>It also helps you in any given moment to determine on what level your counterpart is and if they&rsquo;re <strong>OK to move on to the next phase</strong>.</p>
+<p>Here&rsquo;s what it means:</p>
+<h3 id="relationship">Relationship&nbsp;<a href="#relationship" class="heading">¶</a></h3>
+<p>First, let&rsquo;s spend some time on the relationship level. Find out how your counterpart&rsquo;s doing and what&rsquo;s going on in their professional and/or private life. Get a sense of what energy the other person has <em>right in that moment</em>. It&rsquo;ll tell you if the timing&rsquo;s right for the conversation you want to have.</p>
+<p>If you&rsquo;re just starting to establish a relationship, ask the first basic questions. Nothing wrong with that. In case you already know some specifics about the person, follow up on what you remember from your last conversation: How was your trip to Paris? How did project X pan out?</p>
+<hr>
+<div class="alert alert-primary">
+    <h5 id="pro-tip">Pro Tip</h5>
+<p>Asking <q>How?</q> questions gets people to talk and open up more&mdash;rather than asking simple yes/no questions.
+</div>
+<hr>
+<p>Even if you&rsquo;re in a rush, take a few minutes for small talk to give the other person a chance to warm up. Introverts like me will thank you!</p>
+<p>At the end of your interaction, return to the relationship level. Pick up the small talk from the beginning. <q>All the best for &hellip;!</q> or <q>Good luck with &hellip;!</q> what&rsquo;s coming up for that person shows that you remember some of what the person told you earlier.</p>
+<h3 id="process">Process&nbsp;<a href="#process" class="heading">¶</a></h3>
+<p>After you&rsquo;ve invested a little time in your relationship, talk about the process. What can the other person expect now? Provide some context and help your counterpart to estimate their investment for the conversation. Is it going to take 5 minutes? 30 minutes? An hour? Will somebody else join at a later point? Is it OK to take notes or even record the conversation? Is it official business or an informal and confidential encounter? Are there any terms and conditions the other party needs to know before you can get to the point?</p>
+<p>Ask if there are any other questions at this point or if you can move on to the core of your conversation. Sometimes you will discover that there&rsquo;s stuff you didn&rsquo;t think about beforehand.</p>
+<p>It&rsquo;s about managing expectations. You don&rsquo;t want to end your conversation with a disappointed or angry <q>That&rsquo;s not what I expected!</q>.</p>
+<p>Once you&rsquo;ve discussed your request or your concern, go back to the process level before ending on the relationship level. Provide an outlook: What are the next steps? When will you get in touch again? What are the tasks for either party? Ask if you forgot anything important. Again, it&rsquo;s all about managing expectations&mdash;both yours and theirs.</p>
+<h3 id="content">Content&nbsp;<a href="#content" class="heading">¶</a></h3>
+<p>Finally, you&rsquo;re good to discuss your topic at heart. If you&rsquo;ve managed the first two phases well, the conversation should flow.</p>
+<p>If not, it might be that there are some unanswered process questions after all. That&rsquo;s OK. If necessary, go back to to the process level to clarify them&mdash;otherwise you risk spending time on something that&rsquo;s founded on the wrong expectations.</p>
+<h3 id="nested-rpc-stairs">Nested RPC Stairs&nbsp;<a href="#nested-rpc-stairs" class="heading">¶</a></h3>
+<p>It&rsquo;s worth noting that the RPC stairs can be nested.</p>
+<p>For example, a project could be the large RPC stairs that span many small RPC stairs. The large staircase could look like this: When you start the project, invest time to get to know each other a bit (R). Then, develop the a timeline with milestones etc. (P). As soon as the first plan is good enough, start the core work (C). Regularly return to the process level and revise your roadmap. Every now and then explicitly take time to foster relationships; welcome new team members and say good bye to those leaving. Then celebrate your success at the end, all the ups and downs (pun intended) you experienced as a team.</p>
+<p>One of the small staircases could be the kick-off meeting. This probably is a special case since the core (i.e. content) of the kick-off is to provide the space for people to meet and greet (i.e. relationship), as well as to give the larger context of the project, and to manage expectations (i.e. process). In other words: relationship and process will be the content of that particular meeting. And that&rsquo;s fine as long as everyone knows that this is the kick-off&rsquo;s purpose.</p>
+<p>Before you know it, you will start to see lots of RPC stairs all around you.</p>
+<h2 id="back-to-the-westworld-scoring-competition">Back to the Westworld Scoring Competition&nbsp;<a href="#back-to-the-westworld-scoring-competition" class="heading">¶</a></h2>
+<p>What does RPC now have to do with Spitfire Audio&rsquo;s and HBO&rsquo;s competition?</p>
+<p>Two things: It can help to pinpoint who&rsquo;s debating on what level at any given moment. And it can help to see that both parties are right on the respective level:</p>
+<ul>
+<li>Spitfire Audio is right (or at least not wrong) on the content level. Yes, the winning entry is a worthy winner in terms of music composition and production.</li>
+<li>The community is right (or at least not wrong) on the process level. Yes, Spitfire Audio as the host of the competition didn&rsquo;t adhere to their own rules and undermined the trust of the entrants in the process (which has an effect on the relationship level with their customers).</li>
+</ul>
+<p>If I were leading Spitfire Audio, I&rsquo;d do the following: I&rsquo;d acknowledge that the process of the competition was flawed and the community was right in pointing that out. I&rsquo;d take this opportunity to learn from mistakes. <strong>I&rsquo;d try to restore the trust of my clients in my business and my credibility as a brand that&rsquo;s proud to pay attention to detail.</strong> One tough way to do this: Disqualify the originally picked winner David Kudell due to the technicalities regarding the terms and conditions&mdash;and award David with an honorable mention instead. (Maybe I&rsquo;d promote one of the runner ups to winner but that&rsquo;s probably irrelevant at this point.)</p>
+<p>The main thing in my opinion would be to admit that the process was not up to the standards of Spitfire Audio and adopt a less arrogant stance towards their customers.</p>
+<p>Let&rsquo;s see how Spitfire Audio&rsquo;s leadership will handle this going forward. If they stick with their current behavior, I&rsquo;m afraid that their next competition will not earn 11'000 entries. It might even have been the last competition, period. And of course, it might impact their business. Spitfire Audio might make less sales in the future; composers might have less Spitfire Audio libraries in the future.</p>
+<p>That&rsquo;d be tragic.</p>
+
+        </div>
+    </div>
+</section>
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-10 mx-auto">
+                <div class="yx-heading mb-3">
+    Share this article
+</div>
+<div class="card mx-md-n3">
+    <div class="card-body">
+        <div class="row text-center">
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fblog.ypertex.com%2farticles%2fwestworld-scoring-competition-practiclal-use-of-rpc%2f&amp;title=Westworld%20Scoring%20Competition%3a%20Practiclal%20Use%20of%20RPC&amp;source=Ypertex%20Blog"
+                    title="LinkedIn"
+                    onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;"><i
+                        class="lab la-linkedin-in"></i></a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://twitter.com/intent/tweet?text=Westworld%20Scoring%20Competition%3a%20Practiclal%20Use%20of%20RPC&amp;url=https%3a%2f%2fblog.ypertex.com%2farticles%2fwestworld-scoring-competition-practiclal-use-of-rpc%2f"
+                    title="Twitter"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=550');return false;"><i
+                        class="lab la-twitter"></i></a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.ypertex.com%2farticles%2fwestworld-scoring-competition-practiclal-use-of-rpc%2f" title="Facebook"
+                    onclick="window.open(this.href, 'facebook-share','width=550,height=550');return false;"><i
+                        class="lab la-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container py-5">
+    <div class="yx-heading">
+        Recommended Articles
+    </div>
+    
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+        
+        <a href="/articles/conscious-followers-are-better-leaders/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8 text-md-right">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Apr 20, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;5min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>Conscious Followers Are Better Leaders</h2>
+    <p>Every leader follows something. The more they are conscious of what they follow, the better is their leadership. <a href="/articles/conscious-followers-are-better-leaders/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/innovation/" class="badge badge-primary"><i class="las la-hashtag"></i>Innovation</a>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0">
+        
+        <a href="/articles/improving-chances-with-non-negotiables/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/dc95dace-00d2-494e-bd8b-90f2cfbe54a8" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Jan 14, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;5min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>Improving Your Chances With Non-Negotiables</h2>
+    <p>Your chances of winning any game improve drastically once you learn the rules. But what if there aren&rsquo;t any clear rules? Non-Negotiables are here to help. <a href="/articles/improving-chances-with-non-negotiables/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/career/" class="badge badge-primary"><i class="las la-hashtag"></i>Career</a>
+    
+    <a href="/tags/innovation/" class="badge badge-primary"><i class="las la-hashtag"></i>Innovation</a>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+        
+        <a href="/articles/antiquated-form-of-most-innovative-companies/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/ac6a470c-93e0-4020-9dcd-7a61c33101bf" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8 text-md-right">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Apr 5, 2018 · <i
+            class="las la-stopwatch"></i>&nbsp;12min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>The Antiquated Form of the World’s Most Innovative Companies</h2>
+    <p>Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come? <a href="/articles/antiquated-form-of-most-innovative-companies/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/innovation/" class="badge badge-primary"><i class="las la-hashtag"></i>Innovation</a>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0">
+        
+        <a href="/articles/start-up-success-factors-trust-and-loyalty/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/e825cd5a-0616-446b-8339-57a4a1ee7135">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/e825cd5a-0616-446b-8339-57a4a1ee7135">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/e825cd5a-0616-446b-8339-57a4a1ee7135">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/e825cd5a-0616-446b-8339-57a4a1ee7135">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/e825cd5a-0616-446b-8339-57a4a1ee7135" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Apr 27, 2017 · <i
+            class="las la-stopwatch"></i>&nbsp;18min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>Underrated but Critical Start-Up Success Factors: Trust and Loyalty</h2>
+    <p>How trust and loyalty within the leadership team can determine the success or failure of a start-up. Based on a true story. <a href="/articles/start-up-success-factors-trust-and-loyalty/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/career/" class="badge badge-primary"><i class="las la-hashtag"></i>Career</a>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+</section>
+
+
+    </main>
+    <footer class="bg-secondary text-light text-center">
+    <div class="container py-5">
+        
+        <p><small><a href="/privacy/">Privacy Policy</a></small></p>
+        <p><svg width="100%" height="100%" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2574,-792)">
+        <g id="Unprotected-primary-color-logogram-on-transparent-background" serif:id="Unprotected primary color logogram on transparent background" transform="matrix(1.12719,0,0,0.885774,2612.5,797.543)">
+            <rect x="-34.159" y="-6.258" width="390.352" height="198.696" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="-34.159" y="-6.258" width="390.352" height="198.696"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(3.69565,0,0,4.16217,-240.2,-272.956)">
+                    <g transform="matrix(0.105625,-6.62507e-18,5.86335e-18,0.119347,45.1899,52.1434)">
+                        <path d="M100,500L300,300L100,100L167.274,100C252.258,100 333.761,133.757 393.857,193.846C397.723,197.712 400,199.988 400,199.988L500,99.976L699.976,100L800,200.024L900,100L1100,100L900,300L1100,500L1032.74,500C947.747,500 866.238,466.238 806.141,406.141C802.276,402.276 800,400 800,400L700,500L500,500L700,300L600,200.024L300,500L100,500Z" style="fill:rgb(0,170,255);"/>
+                    </g>
+                    <g transform="matrix(0.105625,0,0,0.119347,45.1899,40.2116)">
+                        <path d="M500,599.976L900,199.976L700,199.953L300,599.976L500,599.976Z" style="fill:rgb(14,17,18);fill-opacity:0.2;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+</p>
+        <p><small>Copyright © 2017-2020 Michael Schmidle<br>
+                Original content released under the <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International</a> license</small>
+        </p>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
