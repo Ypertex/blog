@@ -16,6 +16,16 @@ It sounds like a huge success, right?
 
 The runner-ups and the winner were announced on June 28, 2020, via YouTube.
 
+---
+
+{{<note>}}
+##### <i class="las la-balance-scale-left"></i> Disclaimer
+
+I just recently started as a hobby composer and didn't enter the competition. This article reflects my opinion as an observer from the sidelines.
+{{</note>}}
+
+---
+
 That's when things went sideways. As you can tell from the [winners announcement on YouTube](https://www.youtube.com/watch?v=Qsi7wP024J4), the overwhelming amount of the currently 2,410 comments can be considered as disagreeing with the jury's choice. At the time of writing, the like/dislike feature of the announcing video is disabled---a strong hint that users have been heavily disliking the competition's conclusion so that Spitfire Audio felt forced to disable the rating function.
 
 The day after the announcement, Spitfire Audio's co-founder Christian Henson published a [YouTube video](https://www.youtube.com/watch?v=TepB6xbJCiw) defending why the winner won and complaining about the participants' complaints, not differentiating in any way the distinct points of feedback his company received.
