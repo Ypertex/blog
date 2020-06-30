@@ -14,8 +14,6 @@ In May 2020, [Spitfire Audio](https://www.spitfireaudio.com/) and [HBO](https://
 
 It sounds like a huge success, right?
 
-The runner-ups and the winner were announced on June 28, 2020, via YouTube.
-
 ---
 
 {{<note>}}
@@ -25,6 +23,8 @@ I just recently started as a hobby composer and didn't enter the competition. Th
 {{</note>}}
 
 ---
+
+The runner-ups and the winner were announced on June 28, 2020, via YouTube.
 
 That's when things went sideways. As you can tell from the [winners announcement on YouTube](https://www.youtube.com/watch?v=Qsi7wP024J4), the overwhelming amount of the currently 2,410 comments can be considered as disagreeing with the jury's choice. At the time of writing, the like/dislike feature of the announcing video is disabled---a strong hint that users have been heavily disliking the competition's conclusion so that Spitfire Audio felt forced to disable the rating function.
 
@@ -68,7 +68,7 @@ To make matters worse, Spitfire Audio in the person of Christian Henson claims t
 >
 > {{<attribution cite="[Christian Henson](https://youtu.be/TepB6xbJCiw?t=478)" />}}
 
-Let me translate this how I'd interpret this statement as a customer of Spitfire Audio in the context of his entire video: "The market for media composers is unfair and this competition was no exception. Learn to deal with it. Welcome to the world of Spitfire Audio where we arbitrarily disregard our terms and conditions---and complain about our customers' complaints after not listening carefully at all."
+Let me translate how I'd interpret this statement as a customer of Spitfire Audio in the context of his entire video: "The market for media composers is unfair and this competition was no exception. Learn to deal with it. Welcome to the world of Spitfire Audio where we arbitrarily disregard our terms and conditions---and complain about our customers' complaints after not listening carefully at all."
 
 Working in the media industry myself, I'm not surprised that composers have to deal with the arbitrariness of their clients.
 
