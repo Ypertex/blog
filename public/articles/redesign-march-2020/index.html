@@ -36,7 +36,7 @@
 <meta property="og:url" content="https://blog.ypertex.com/articles/redesign-march-2020/" />
 <meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/050bab80-48bd-404a-b6b1-d1f39e934849" />
 <meta property="article:published_time" content="2020-03-23T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-03-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-06-30T00:00:00+00:00" />
 
 
 <meta property="article:author" content="Michael Schmidle" />
@@ -115,7 +115,8 @@
     <div class="container">
         <h1>Redesign March 2020</h1>
         <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Mar 23, 2020 · <i
+            class="las la-upload"></i>&nbsp;Mar 23, 2020
+        · <i class="las la-sync"></i>&nbsp;Jun 30, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;5min read</small></p>
         <p>
     
@@ -131,7 +132,8 @@
 <section class="yx-content container py-5">
     <div class="row">
         <div class="col-xl-8 col-lg-10 mx-auto">
-            <p class="lead">On this day three years ago, I launched my blog. Today, I publish its first redesign: bigger, bolder, bluer, and (hopefully) better than its predecessor.</p>
+            <p class="lead">On this day three years ago, I launched my blog. Today, I publish its first redesign: bigger, bolder, bluer, and (hopefully) better than its predecessor. <small class="text-muted">[Edited
+                    Jun 30, 2020]</small></p>
             <hr>
             <p>To be honest with you, it&rsquo;s a complete coincidence that the <a href="/articles/ypertex-blog-launching-today/">blog&rsquo;s launch</a> and this redesign are <em>exactly</em> three years apart. I didn&rsquo;t plan it this way, I didn&rsquo;t wait for this day. It&rsquo;s magic!</p>
 <p>Redesigning a blog after, what &hellip; 14 articles already? I know! I should be more focused on writing and less on tooling. But hey, I can&rsquo;t deny that I&rsquo;m a techie and hobbyist designer after all&mdash;so here we go:</p>
@@ -184,6 +186,16 @@
 <h3 id="title-capitalization-in-english-is-strange">Title Capitalization in English Is Strange&nbsp;<a href="#title-capitalization-in-english-is-strange" class="heading">¶</a></h3>
 <p>In German, headlines follow the same orthographic rules as any other text. In English however, there are several ways how professional publishers capitalize titles. The general rule is to capitalize the first, the last and the important words in the title.</p>
 <p>There are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like <a href="https://capitalizemytitle.com/">Capitalize My Title</a> so I don&rsquo;t have to remember the precise rules. (By the way: I&rsquo;m defaulting to APA style.)</p>
+<hr>
+<div class="alert alert-secondary">
+    <h5 id="i-classlas-la-synci-edited-jun-30-2020"><i class="las la-sync"></i> Edited Jun 30, 2020</h5>
+<p>With the introduction of <a href="https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks">Markdown Render Hooks</a> for headings in Hugo v0.71.0, title capizalization can be automated.</p>
+<p>Follow the <a href="https://gohugo.io/getting-started/configuration-markup#heading-link-example">example given in Hugo&rsquo;s documentation</a>. Then, simply add the modifier <code>| title</code> to the <code>.Text</code> variable:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Text</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">safeHTML</span> <span style="color:#75715e">}}</span></code></pre></div>
+<p>From now on, Hugo will take care of title capitalization for you!</p>
+
+</div>
+<hr>
 <h3 id="images-can-be-responsive">Images Can Be Responsive&nbsp;<a href="#images-can-be-responsive" class="heading">¶</a></h3>
 <p>&ldquo;Responsive&rdquo; in the context of the web means that content responds to the particular device that&rsquo;s used to browse it: A web page might look differently on a smartphone than on a tablet than on a TV monitor. I learned that images <em>inside</em> web pages can be responsive, too. See in the following examples how the size and aspect ratio of the images differ just by rotating your smartphone:</p>
 <figure>
