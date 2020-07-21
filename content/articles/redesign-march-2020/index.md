@@ -1,7 +1,7 @@
 ---
 title: Redesign March 2020
 publishdate: 2020-03-23
-lastmod: 2020-06-30
+lastmod: 2020-07-21
 tags:
 - Design
 - Personal
@@ -60,15 +60,17 @@ There are four main styles: Chicago style, APA style, MLA style, and AP style. F
 ---
 
 {{<note class="alert-secondary">}}
-##### <i class="las la-sync"></i> Edited {{<date>}}2020-06-30{{</date>}}
+##### <i class="las la-sync"></i> Edited {{<date>}}2020-07-21{{</date>}}
 
 With the introduction of [Markdown Render Hooks](https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks) for headings in Hugo v0.71.0, title capizalization can be automated.
 
-Follow the [example given in Hugo's documentation](https://gohugo.io/getting-started/configuration-markup#heading-link-example). Then, simply add the modifier ``| title`` to the ``.Text`` variable:
+Follow the [example given in Hugo's documentation](https://gohugo.io/getting-started/configuration-markup#heading-link-example). Then, simply add the modifiers ``| markdownify`` and ``| title`` to the ``.Text`` variable:
 
 {{<highlight go-html-template>}}
-{{ .Text | title | safeHTML }}
+{{ .Text | markdownify | title | safeHTML }}
 {{</highlight>}}
+
+The ``| markdownify`` modifier is necessary to properly deal with HTML entities like ``&hellip;`` first.
 
 From now on, Hugo will take care of title capitalization for you!
 {{</note>}}

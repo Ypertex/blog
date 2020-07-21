@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.73.0" />
+    <meta name="generator" content="Hugo 0.74.2" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -36,7 +36,7 @@
 <meta property="og:url" content="https://blog.ypertex.com/articles/redesign-march-2020/" />
 <meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/050bab80-48bd-404a-b6b1-d1f39e934849" />
 <meta property="article:published_time" content="2020-03-23T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-06-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-21T00:00:00+00:00" />
 
 
 <meta property="article:author" content="Michael Schmidle" />
@@ -116,7 +116,7 @@
         <h1>Redesign March 2020</h1>
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Mar 23, 2020
-        · <i class="las la-sync"></i>&nbsp;Jun 30, 2020 · <i
+        · <i class="las la-sync"></i>&nbsp;Jul 21, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;5min read</small></p>
         <p>
     
@@ -133,7 +133,7 @@
     <div class="row">
         <div class="col-xl-8 col-lg-10 mx-auto">
             <p class="lead">On this day three years ago, I launched my blog. Today, I publish its first redesign: bigger, bolder, bluer, and (hopefully) better than its predecessor. <small class="text-muted">[Edited
-                    Jun 30, 2020]</small></p>
+                    Jul 21, 2020]</small></p>
             <hr>
             <p>To be honest with you, it&rsquo;s a complete coincidence that the <a href="/articles/ypertex-blog-launching-today/">blog&rsquo;s launch</a> and this redesign are <em>exactly</em> three years apart. I didn&rsquo;t plan it this way, I didn&rsquo;t wait for this day. It&rsquo;s magic!</p>
 <p>Redesigning a blog after, what &hellip; 14 articles already? I know! I should be more focused on writing and less on tooling. But hey, I can&rsquo;t deny that I&rsquo;m a techie and hobbyist designer after all&mdash;so here we go:</p>
@@ -158,7 +158,7 @@
     </figcaption>
 </figure>
 <h2 id="what-i-learned-from-publishing-14-articles-so-far">What I Learned From Publishing 14 Articles So Far&nbsp;<a href="#what-i-learned-from-publishing-14-articles-so-far" class="heading">¶</a></h2>
-<h3 id="its-time-consuming">It&rsquo;s Time Consuming&nbsp;<a href="#its-time-consuming" class="heading">¶</a></h3>
+<h3 id="its-time-consuming">It’s Time Consuming&nbsp;<a href="#its-time-consuming" class="heading">¶</a></h3>
 <p>First of all, writing an article takes more time than I initially thought. From the original idea to the final wording, from the proper quoting to the adequate visualization, it&rsquo;s quite a work. Longer articles (with a reading time of over ten minutes) can easily take a total of eight hours or more to produce! Almost half of my articles so far fall into this category which explains a bit the low quantity of articles. However, I enjoy writing longer articles more as I learn more about a given subject myself.</p>
 <h3 id="control-over-your-work-flow-matters">Control Over Your Work-Flow Matters&nbsp;<a href="#control-over-your-work-flow-matters" class="heading">¶</a></h3>
 <p>I&rsquo;m glad to have found a publishing work-flow that <strong>doesn&rsquo;t depend on a particular platform</strong>. Here&rsquo;s how my process works:</p>
@@ -188,10 +188,11 @@
 <p>There are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like <a href="https://capitalizemytitle.com/">Capitalize My Title</a> so I don&rsquo;t have to remember the precise rules. (By the way: I&rsquo;m defaulting to APA style.)</p>
 <hr>
 <div class="alert alert-secondary">
-    <h5 id="i-classlas-la-synci-edited-jun-30-2020"><i class="las la-sync"></i> Edited Jun 30, 2020</h5>
+    <h5 id="i-classlas-la-synci-edited-jul-21-2020"><i class="las la-sync"></i> Edited Jul 21, 2020</h5>
 <p>With the introduction of <a href="https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks">Markdown Render Hooks</a> for headings in Hugo v0.71.0, title capizalization can be automated.</p>
-<p>Follow the <a href="https://gohugo.io/getting-started/configuration-markup#heading-link-example">example given in Hugo&rsquo;s documentation</a>. Then, simply add the modifier <code>| title</code> to the <code>.Text</code> variable:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Text</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">safeHTML</span> <span style="color:#75715e">}}</span></code></pre></div>
+<p>Follow the <a href="https://gohugo.io/getting-started/configuration-markup#heading-link-example">example given in Hugo&rsquo;s documentation</a>. Then, simply add the modifiers <code>| markdownify</code> and <code>| title</code> to the <code>.Text</code> variable:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Text</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">markdownify</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">safeHTML</span> <span style="color:#75715e">}}</span></code></pre></div>
+<p>The <code>| markdownify</code> modifier is necessary to properly deal with HTML entities like <code>&amp;hellip;</code> first.</p>
 <p>From now on, Hugo will take care of title capitalization for you!</p>
 
 </div>
