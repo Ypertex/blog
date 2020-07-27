@@ -251,6 +251,9 @@ header, footer {
     .card .yx-attribution {
         @extend small;
     }
+    .card-body {
+        background-color: white;
+    }
     .highlight {
         @extend .my-5;
     }
