@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="Hugo 0.74.3" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="/ypertex.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700,700i|Montserrat:400,400i,700,700i&display=swap">
+<link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<title>Card or Player: Who Wins Poker Games? · Ypertex Blog</title>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<meta name="msapplication-square70x70logo" content="/smalltile.png" />
+<meta name="msapplication-square150x150logo" content="/mediumtile.png" />
+<meta name="msapplication-wide310x150logo" content="/widetile.png" />
+<meta name="msapplication-square310x310logo" content="/largetile.png" />
+<meta property="og:title" content="Card or Player: Who Wins Poker Games?" />
+<meta property="og:description" content="&hellip; and other counter-intuitive lessons from working 18 months on developing and executing SRG SSR&rsquo;s technology strategy." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ypertex.com/articles/who-wins-poker-games/" />
+<meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/bfac4e8b-3535-423f-8a49-1d66116532cd" />
+<meta property="article:published_time" content="2020-07-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-07-27T00:00:00+00:00" />
+
+
+<meta property="article:author" content="Michael Schmidle" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/bfac4e8b-3535-423f-8a49-1d66116532cd"/>
+
+<meta name="twitter:title" content="Card or Player: Who Wins Poker Games?"/>
+<meta name="twitter:description" content="&hellip; and other counter-intuitive lessons from working 18 months on developing and executing SRG SSR&rsquo;s technology strategy."/>
+
+
+</head>
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand"
+                href="/"><svg width="100%" height="100%" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2574,-792)">
+        <g id="Unprotected-primary-color-logogram-on-transparent-background" serif:id="Unprotected primary color logogram on transparent background" transform="matrix(1.12719,0,0,0.885774,2612.5,797.543)">
+            <rect x="-34.159" y="-6.258" width="390.352" height="198.696" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="-34.159" y="-6.258" width="390.352" height="198.696"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(3.69565,0,0,4.16217,-240.2,-272.956)">
+                    <g transform="matrix(0.105625,-6.62507e-18,5.86335e-18,0.119347,45.1899,52.1434)">
+                        <path d="M100,500L300,300L100,100L167.274,100C252.258,100 333.761,133.757 393.857,193.846C397.723,197.712 400,199.988 400,199.988L500,99.976L699.976,100L800,200.024L900,100L1100,100L900,300L1100,500L1032.74,500C947.747,500 866.238,466.238 806.141,406.141C802.276,402.276 800,400 800,400L700,500L500,500L700,300L600,200.024L300,500L100,500Z" style="fill:rgb(0,170,255);"/>
+                    </g>
+                    <g transform="matrix(0.105625,0,0,0.119347,45.1899,40.2116)">
+                        <path d="M500,599.976L900,199.976L700,199.953L300,599.976L500,599.976Z" style="fill:rgb(14,17,18);fill-opacity:0.2;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+</a>
+            <button type="button" data-toggle="collapse" data-target="#menuHeader" aria-controls="menu.header"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="las la-bars"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="menuHeader">
+                <div class="navbar-nav mr-md-auto">
+                    
+                    
+                    <a href="/articles/"
+                        class="nav-item nav-link active">Articles</a>
+                    
+                    <a href="/tags/"
+                        class="nav-item nav-link">Tags</a>
+                    
+                </div>
+                <div class="navbar-nav">
+                    <hr>
+                    
+                    <a href="https://www.linkedin.com/in/michaelschmidle" class="nav-item nav-link" title="LinkedIn"><i class="lab la-linkedin-in"></i><span
+                            class="d-md-none"> LinkedIn</span></a>
+                    
+                    <a href="https://twitter.com/MichaelSchmidle/" class="nav-item nav-link" title="Twitter"><i class="lab la-twitter"></i><span
+                            class="d-md-none"> Twitter</span></a>
+                    
+                    <a href="https://github.com/MichaelSchmidle/" class="nav-item nav-link" title="GitHub"><i class="lab la-github"></i><span
+                            class="d-md-none"> GitHub</span></a>
+                    
+                    <a href="/index.xml" class="nav-item nav-link" title="RSS"><i
+                            class="las la-rss"></i><span class="d-md-none"> RSS</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        
+<section class="jumbotron">
+    <div class="container">
+        <h1>Card or Player: Who Wins Poker Games?</h1>
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Jul 27, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;11min read</small></p>
+        <p>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+    <a href="/tags/strategy/" class="badge badge-primary"><i class="las la-hashtag"></i>Strategy</a>
+    
+</p>
+    </div>
+</section>
+<section class="yx-content container py-5">
+    <div class="row">
+        <div class="col-xl-8 col-lg-10 mx-auto">
+            <p class="lead">&hellip; and other counter-intuitive lessons from working 18 months on developing and executing SRG SSR&rsquo;s technology strategy.</p>
+            <hr>
+            <p><strong>TL;DR:</strong> If you&rsquo;re in a hurry, you can jump right ahead to the <a href="#conclusion">conclusion of this article</a> that summarizes my lessons learned.</p>
+<p>For everybody else, I have two yes/no questions to start:</p>
+<blockquote>
+<p>Does a strategy work best when every decision-maker in your organization understands and supports it?</p>
+</blockquote>
+<blockquote>
+<p>Is it too much to expect every decision-maker in your organization to understand technologies well enough to make the big technology decisions?</p>
+</blockquote>
+<p>If your answers have been yes and yes, you should come to the conclusion that <strong>a technology strategy must be high level</strong> enough for non-technological decision-makers to understand and support it.</p>
+<h2 id="the-determining-factor">The Determining Factor&nbsp;<a href="#the-determining-factor" class="heading">¶</a></h2>
+<p>Who takes decisions is not a matter of who knows best&mdash;but <strong>who takes responsibility</strong> if it turns out to be the wrong decision. The riskier the decision, the more it&rsquo;s taken by people who are anything but subject matter experts.</p>
+<p>In other words: More often than not, your <strong>riskiest technology decisions are routinely taken by non-technological people</strong>. So how important is it that they get your technology strategy?</p>
+<p>Let&rsquo;s take it one step further: The real test of any strategy is whether decision-makers apply it <em>under pressure</em>. It&rsquo;s the time when a strategy is most valuable. (After all, who needs a strategy when everything&rsquo;s going just fine anyway?) It&rsquo;s also those moments that prove if your strategy was clear and concise enough to remember even in stressful situations.</p>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/ab0ee437-2d45-4e22-ab47-5259da900c65">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/ab0ee437-2d45-4e22-ab47-5259da900c65">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/ab0ee437-2d45-4e22-ab47-5259da900c65">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/ab0ee437-2d45-4e22-ab47-5259da900c65">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/ab0ee437-2d45-4e22-ab47-5259da900c65"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        Imagine you&rsquo;re a kid in a maze. Whatever strategy you have been given beforehand: It&rsquo;s valuable only if you remember it in this stressful situation.
+    </figcaption>
+</figure>
+<p><strong>The real benchmark for your technology strategy</strong> hence is: People without technological background who take the riskiest technological decisions under pressure need to understand and remember it.</p>
+<p>Let that sink in for a moment.</p>
+<p>Now ask yourself if the technology strategy in your organization meets this benchmark.</p>
+<p>It doesn&rsquo;t? Experts refer to this as the <a href="https://hbr.org/podcast/2016/02/closing-the-strategy-execution-gap.html">Execution Gap</a>.</p>
+<blockquote>
+<p>The best strategy is worthless if people are unable to execute it when it counts most.</p>
+</blockquote>
+<h2 id="pure-theory---or-is-it">Pure Theory—or Is It?&nbsp;<a href="#pure-theory---or-is-it" class="heading">¶</a></h2>
+<p>You might say: Yeah, but&hellip;</p>
+<ul>
+<li>Why call it a <em>technology</em> strategy if it hardly talks about technology?</li>
+<li>Why call it a <em>strategy</em> at all if it&rsquo;s so high level that it&rsquo;s practically common sense?</li>
+</ul>
+<p>I understand your skepticism. As human beings, we pride ourselves a lot in our work and the fact that it can&rsquo;t be done by just anyone. It takes a moment to realize that you have to put in hard work to develop something so beautifully simple that it <em>appears</em> like anyone could come up with it.</p>
+<blockquote>
+<p>Simplicity is the ultimate sophistication.</p>
+<div class="yx-attribution">Leonardo da Vinci</div>
+</blockquote>
+<p>Let me encourage you to take the risk of having your work appear overly simplistic: At the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>, the approach of simplifying helped to (at least partially) <strong>narrow the execution gap</strong>.</p>
+<p>Here&rsquo;s how it works for us: compress, ask 2+1, gamify.</p>
+<h3 id="a-compress">A) Compress&nbsp;<a href="#a-compress" class="heading">¶</a></h3>
+<p>However short your strategy document is, it&rsquo;s probably still too long. Radically reduce it to its core messages. For example, we compressed our (few pages long) document down to these main statements:</p>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_1140/2b6f05e4-62b9-49a4-b89e-ffadf4eff21b">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_960/2b6f05e4-62b9-49a4-b89e-ffadf4eff21b">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_720/2b6f05e4-62b9-49a4-b89e-ffadf4eff21b">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_767/2b6f05e4-62b9-49a4-b89e-ffadf4eff21b">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_575/2b6f05e4-62b9-49a4-b89e-ffadf4eff21b"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        <strong>What</strong> SRG SSR&rsquo;s technology strategy aims for: driving costs down and transformation up
+    </figcaption>
+</figure>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_1140/3f274d97-d4d0-4014-9a17-f600ff0e2017">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_960/3f274d97-d4d0-4014-9a17-f600ff0e2017">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_720/3f274d97-d4d0-4014-9a17-f600ff0e2017">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_767/3f274d97-d4d0-4014-9a17-f600ff0e2017">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_575/3f274d97-d4d0-4014-9a17-f600ff0e2017"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        <strong>How</strong> to achieve the strategy&rsquo;s ambition: with a differentiated follower approach
+    </figcaption>
+</figure>
+<p>That&rsquo;s it, the core of our technology strategy. Quite non-technological, if you ask me.</p>
+<p>We answered two general questions: &ldquo;<strong>What</strong> are we trying to achieve?&rdquo; and &ldquo;<strong>How</strong> do we plan to achieve it?&rdquo; <small>(Of course, &ldquo;<strong>Why</strong> is it worth trying?&rdquo; is <a href="https://en.wikipedia.org/wiki/Start_With_Why">the most important question</a>. It should be answered in the context of the overall corporate strategy though.)</small></p>
+<p>Appears simple enough, doesn&rsquo;t it? At any rate, it&rsquo;s possible to deliver this essence in a short pitch.</p>
+<p>What&rsquo;s left is to <strong>reiterate these core messages at every opportunity on every channel</strong>. If people start responding with <q>And how I am supposed to implement this in my work?</q> you&rsquo;ve made a huge step in closing the execution gap.</p>
+<h3 id="b-ask-21">B) Ask 2+1&nbsp;<a href="#b-ask-21" class="heading">¶</a></h3>
+<p>Now that you&rsquo;ve laid out the foundation and get responses from your target audience, you can start talking about the strategic decision criteria.</p>
+<p>In our case, we need to offer criteria to decide: When do we prioritize cost savings, when Digital Transformation? When do we insist on late follower technologies, when do we push for early follower/adopter technologies?</p>
+<p>We opted for two (<strong>2</strong>) criteria specific to our industry and particular context&mdash;and one (<strong>+1</strong>) rather global criterion that probably is valid in most industries. This means: Instead of giving case-by-case answers, the strategy <strong>asks</strong> leading questions:</p>
+<div class="card">
+    <div class="card-body">
+        <h4 id="criterion-1">Criterion 1</h4>
+<p><strong>Differentiation:</strong> How much does technology X help us to differentiate our offerings in the market?
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h4 id="criterion-2">Criterion 2</h4>
+<p><strong>Acceleration:</strong> How much does technology X help us to be faster at what we do?
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h4 id="criterion-3">Criterion 3</h4>
+<p><strong>Costs and Risks:</strong> How high are costs and risks of implementing and operating technology X over its life cycle?
+    </div>
+</div>
+<p>These criteria aren&rsquo;t independent. There should be a one-way correlation: Of course, low costs and risks are always OK. On the other hand, high costs and risks are OK only in one case:</p>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_730/589e8c0b-9121-44aa-9d85-d2fc7930fdc4">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_770/589e8c0b-9121-44aa-9d85-d2fc7930fdc4">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_690/589e8c0b-9121-44aa-9d85-d2fc7930fdc4">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_510/589e8c0b-9121-44aa-9d85-d2fc7930fdc4">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_545/589e8c0b-9121-44aa-9d85-d2fc7930fdc4"
+            alt="" class="p-3" style="background-color: white;">
+    </picture>
+    
+    <figcaption>
+        A technology with substantial costs and risks is only valid if it comes with a high potential in terms of differentiation and acceleration
+    </figcaption>
+</figure>
+<p><strong>The great thing</strong> about a strategy that asks general questions rather than giving specific answers:</p>
+<ul>
+<li>
+<p>It&rsquo;s still the decision-makers who make the decision and take the responsibility for it. The strategy itself can&rsquo;t grant any exceptions when necessary. It supports decision-makers; it doesn&rsquo;t replace them. Remember, that&rsquo;s why we try to keep our technology strategy as non-technological as possible in the first place!</p>
+</li>
+<li>
+<p>The strategy is transferable to many scenarios. Not just the ones you foresaw; also the ones you never envisioned. Professor Albert Einstein once was asked: <q>Why did you let your students take the same exam as the semester before? Aren&rsquo;t the questions the same?</q> He famously answered: <q>Yes. But the answers have changed.</q></p>
+</li>
+</ul>
+<h3 id="c-gamify">C) Gamify&nbsp;<a href="#c-gamify" class="heading">¶</a></h3>
+<p>With all the activities so far, our strategy hopefully is clearer, more memorable, and more transferable. Now let&rsquo;s make it <strong>more actionable</strong>.</p>
+<p>What we need is&hellip;</p>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/74fa73cd-6489-494f-a012-5c985f0e7cb0">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/74fa73cd-6489-494f-a012-5c985f0e7cb0">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/74fa73cd-6489-494f-a012-5c985f0e7cb0">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/74fa73cd-6489-494f-a012-5c985f0e7cb0">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/74fa73cd-6489-494f-a012-5c985f0e7cb0"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        Unofficial title illustration of the game &ldquo;Strategy in Action&rdquo; (with resources from <a href="https://www.freepik.com/free-photos-vectors/template">starline</a>)
+    </figcaption>
+</figure>
+<p>&hellip; a game!</p>
+<p>Or at least, we need a <strong>simple process</strong> that takes the strategy&rsquo;s general questions and turns them, case-by-case, into good answers and largely good decisions.</p>
+<p>To that end, we&rsquo;ve adapted a method named <strong>Priority Poker</strong> and developed a game we call &ldquo;Strategy in Action&rdquo;. Priority Poker is used to align a group of people on priorities. For each item to prioritize, people choose a card with a number on a scale (i.e. 8 out of 10) that represents the subjective importance of the item, then disclose their number all at the same time. There are two possible outcomes:</p>
+<ul>
+<li>If everybody has picked the <em>same number</em>, the group is already aligned. They put their cards back in their decks, move on to the next item to prioritize, and again choose a card.</li>
+<li>Whenever people pick <em>different numbers</em>, they explain to each other the reasons behind their choice. Once all pros and cons of the most extreme picks have been shared, the group starts over with selecting cards/numbers. At this point, the group begins to align and extremes will converge, at some point ending around the same number on the scale.</li>
+</ul>
+<p>In the end, all items on the list received a number or priority as worked out by the group.</p>
+<p>Priority Poker allows all people in a group to share their facts, experience, opinions, etc. Individuals will learn about perspectives or arguments they didn&rsquo;t think of before. As a result, people will correct or confirm their assessments, causing the group to align more and more&mdash;and finally agree on a set of shared priorities. (Read more about <a href="https://medium.com/outboxers/how-to-collectively-decide-what-not-to-do-play-priority-poker-baa03342f096">Priority Poker and how to harness collective intelligence</a>.)</p>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/5be3378a-3c0e-42a8-b6fe-2d197ac27050">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/5be3378a-3c0e-42a8-b6fe-2d197ac27050">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/5be3378a-3c0e-42a8-b6fe-2d197ac27050">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/5be3378a-3c0e-42a8-b6fe-2d197ac27050">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/5be3378a-3c0e-42a8-b6fe-2d197ac27050"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        In Priority Poker, you play <em>with</em> all players, not <em>against</em> them (scene from &ldquo;Maverick&rdquo;, 1994&mdash;one of my all-time favorite movies)
+    </figcaption>
+</figure>
+<p>Here&rsquo;s how our adaptation works:</p>
+<ul>
+<li>Poker about what a given <em>project</em> requires in terms of the decision criteria (differentiation and acceleration).</li>
+<li>Poker about what a set of potential <em>technologies</em> deliver in terms of the project&rsquo;s requirements.</li>
+<li>Finally, poker about what the same <em>technologies</em> entail in terms of costs and risks.</li>
+</ul>
+<p>At the end of the game, the group will be able to collectively determine <strong>which technologies are the best strategic fit for the given project</strong>: the one that meets the minimum differentiation and acceleration requirements&mdash;and brings the lowest costs and risks to the organization.</p>
+<p>If the entire organization implements this approach, by and large, two things will happen:</p>
+<ul>
+<li>High technology costs and risks will concentrate on projects with high requirements to differentiate and accelerate.</li>
+<li>Projects with low differentiation and acceleration requirements will be optimized for low technology costs and risks.</li>
+</ul>
+<p>And that&rsquo;s the strategy!
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_730/921e01f6-2a58-46f9-adf6-f5e5a56a4535">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_770/921e01f6-2a58-46f9-adf6-f5e5a56a4535">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_690/921e01f6-2a58-46f9-adf6-f5e5a56a4535">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_510/921e01f6-2a58-46f9-adf6-f5e5a56a4535">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_545/921e01f6-2a58-46f9-adf6-f5e5a56a4535"
+            alt="" class="p-3" style="background-color: white;">
+    </picture>
+    
+    <figcaption>
+        If the strategy was successful, the view over the entire portfolio could look like this: 80% of the technologies are low cost and low risk, enabling and financing the remaining 20% with high impact on differentiation and acceleration
+    </figcaption>
+</figure></p>
+<h4 id="interesting-findings-from-playing-strategy-in-action-at-srgnbspssr">Interesting Findings From Playing Strategy in Action at SRG SSR&nbsp;<a href="#interesting-findings-from-playing-strategy-in-action-at-srgnbspssr" class="heading">¶</a></h4>
+<p>The format Strategy in Action is still pretty much in its early stage. Yet, after having played the game on different occasions, we already found some interesting aspects I&rsquo;d like to briefly share.</p>
+<p>In most sessions, there were several <q>Aha!</q> moments. People dramatically changed their initial assessment of project requirements or potential technologies based on what was just revealed by others in the group. It became painfully obvious that the only way to know what others <em>think</em> is to take the time to <em>talk</em> about it. While the quality of strategic decisions will improve with this format, it first and foremost improves the understanding and hence commitment to the decisions.</p>
+<p>Also, once we played the game about the same project and the same potential technologies at the same time in three different and diverse groups. Interestingly, they all came up with the same result which technology was the best strategic fit.</p>
+<p>I might write a separate article as we continue to refine the game and gain more insights.</p>
+<h2 id="the-role-of-trust">The Role of Trust&nbsp;<a href="#the-role-of-trust" class="heading">¶</a></h2>
+<p>Developing a clearer, more memorable, more transferable, and more actionable strategy is investing a lot of resources into a tool. If you think back at decision-makers under pressure (like the kid lost in the maze), one important ingredient for a successful strategy is still missing: trust. In addition to understanding and remembering the strategy in all sorts of situations, people also have to <em>trust</em> that it&rsquo;s the right strategy before they can apply it.</p>
+<p>Trust, however, is based on people, not tools.</p>
+<p>So as a professional strategist, don&rsquo;t forget to invest equal resources into building trust and relationships with decision-makers (experts and laymen alike). If they trust you, they&rsquo;ll be more inclined to trust the strategy that you&rsquo;ve developed&mdash;and apply it when the time comes without having second thoughts.</p>
+<blockquote>
+<p>When the trust account is high, communication is easy, instant, and effective.</p>
+<div class="yx-attribution">Stephen R. Covey</div>
+</blockquote>
+<h2 id="conclusion">Conclusion&nbsp;<a href="#conclusion" class="heading">¶</a></h2>
+<p>In this article, I shared a few lessons from my work on the SRG SSR technology strategy.</p>
+<p>The rather obvious <strong>main lesson</strong> is this: It&rsquo;s both the card <em>and</em> the player who win poker games. (I&rsquo;m referring to the real poker game here, the one where players have to cope with incomplete information&mdash;just as companies and their decision-makers do in their environments.)</p>
+<p>You need to have the right strategy. Having the wrong strategy perfectly executed will still be a failure.</p>
+<p>You also need to have a strategy that can be applied by decision-makers. Having the perfect strategy will still be a failure if people are unable to execute it.</p>
+<figure>
+    
+    <picture>
+        <source media="(min-width: 1200px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/bfac4e8b-3535-423f-8a49-1d66116532cd">
+        <source media="(min-width: 992px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/bfac4e8b-3535-423f-8a49-1d66116532cd">
+        <source media="(min-width: 768px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/bfac4e8b-3535-423f-8a49-1d66116532cd">
+        <source media="(min-width: 576px)"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/bfac4e8b-3535-423f-8a49-1d66116532cd">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/bfac4e8b-3535-423f-8a49-1d66116532cd"
+            alt="">
+    </picture>
+    
+    <figcaption>
+        The best cards in the deck are only as good as the players who hold them.
+    </figcaption>
+</figure>
+<p>The more <strong>counter-intuitive lessons</strong> are:</p>
+<ul>
+<li>
+<p>In large parts, a technology strategy serves a non-technological audience and hence shouldn&rsquo;t focus on specific technologies.</p>
+</li>
+<li>
+<p>Any strategy completely depends on the people who&rsquo;re supposed to execute it, <em>when</em> they&rsquo;re supposed to execute it. To enable decision-makers in stressful moments that count most, a strategy needs to be clear, memorable, transferable, and actionable.</p>
+</li>
+<li>
+<p>Many people expect a strategy to deliver specific answers. Don&rsquo;t fall into this trap! A strategy that gives specific answers is tailored to specific situations only. If you want a strategy that is transferable to all kinds of situations, ask questions instead. After all, a strategy is supposed to support decision-makers, not to replace them.</p>
+</li>
+<li>
+<p>Develop strategies like products. Test them with real users, then iterate based on the insights you gained. Map the journey of your customers. Your strategy is more than a document; bundle it with all sorts of communication tools. Design and gamify the user experience. The list goes on!</p>
+</li>
+<li>
+<p>People will take your strategy only as seriously as they take you. The level of trust people put in your strategy will benefit from the trust people put in you as a person and as a team.</p>
+</li>
+</ul>
+<p>Our team is about to start the work on SRG SSR&rsquo;s distribution strategy. We&rsquo;ll be applying our lessons learned&mdash;and will continue to learn a lot more!</p>
+
+        </div>
+    </div>
+</section>
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-10 mx-auto">
+                <div class="yx-heading mb-3">
+    Share this article
+</div>
+<div class="card mx-md-n3">
+    <div class="card-body">
+        <div class="row text-center">
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fblog.ypertex.com%2farticles%2fwho-wins-poker-games%2f&amp;title=Card%20or%20Player%3a%20Who%20Wins%20Poker%20Games%3f&amp;source=Ypertex%20Blog"
+                    title="LinkedIn"
+                    onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;"><i
+                        class="lab la-linkedin-in"></i></a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://twitter.com/intent/tweet?text=Card%20or%20Player%3a%20Who%20Wins%20Poker%20Games%3f&amp;url=https%3a%2f%2fblog.ypertex.com%2farticles%2fwho-wins-poker-games%2f"
+                    title="Twitter"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=550');return false;"><i
+                        class="lab la-twitter"></i></a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary btn-lg rounded-pill"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.ypertex.com%2farticles%2fwho-wins-poker-games%2f" title="Facebook"
+                    onclick="window.open(this.href, 'facebook-share','width=550,height=550');return false;"><i
+                        class="lab la-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+    </div>
+    </div>
+</section>
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-10 mx-auto">
+                <div class="yx-heading">About the Author</div>
+<div class="media">
+    <img
+        src="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_thumb,dpr_auto,f_auto,g_face,q_auto,w_128/people/michael-schmidle"
+        class="yx-avatar">
+    <div class="media-body">
+        <h4>Michael Schmidle</h4>
+        <p>Digital Strategy and Innovation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Coach, start-up consultant, and blogger. Opinionated about technology, innovation, and leadership. In love with Mexico.</p>
+
+        <p class="mb-0">
+            <a href="https://www.linkedin.com/in/michaelschmidle"
+                class="btn btn-light rounded-pill text-muted"><i class="lab la-linkedin-in"></i>&nbsp;LinkedIn</a>
+            
+            <a href="https://twitter.com/MichaelSchmidle/"
+                class="btn btn-light rounded-pill text-muted"><i class="lab la-twitter"></i>&nbsp;Twitter</a>
+            
+            <a href="https://github.com/MichaelSchmidle/"
+                class="btn btn-light rounded-pill text-muted"><i class="lab la-github"></i>&nbsp;GitHub</a>
+            </p>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container py-5">
+    <div class="yx-heading">
+        Recommended Articles
+    </div>
+    
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+        
+        <a href="/articles/westworld-scoring-competition-content-process-relationship/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/41c65fa8-56d3-4bde-bc9f-b95e945daa9c">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/41c65fa8-56d3-4bde-bc9f-b95e945daa9c">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/41c65fa8-56d3-4bde-bc9f-b95e945daa9c">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/41c65fa8-56d3-4bde-bc9f-b95e945daa9c">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/41c65fa8-56d3-4bde-bc9f-b95e945daa9c" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8 text-md-right">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Jun 29, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;6min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>Westworld Scoring Competition: Content, Process, and Relationship</h2>
+    <p>How a high-profile music competition by Spitfire Audio and HBO with 11'000 participants ends in a PR disaster&mdash;and how distinguishing content, process, and relationship levels could help to recover. <a href="/articles/westworld-scoring-competition-content-process-relationship/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0">
+        
+        <a href="/articles/conscious-followers-are-better-leaders/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Apr 20, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;5min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>Conscious Followers Are Better Leaders</h2>
+    <p>Every leader follows something. The more they are conscious of what they follow, the better is their leadership. <a href="/articles/conscious-followers-are-better-leaders/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/innovation/" class="badge badge-primary"><i class="las la-hashtag"></i>Innovation</a>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+        
+        <a href="/articles/improving-chances-with-non-negotiables/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/dc95dace-00d2-494e-bd8b-90f2cfbe54a8">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/dc95dace-00d2-494e-bd8b-90f2cfbe54a8" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8 text-md-right">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Jan 14, 2020 · <i
+            class="las la-stopwatch"></i>&nbsp;5min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>Improving Your Chances With Non-Negotiables</h2>
+    <p>Your chances of winning any game improve drastically once you learn the rules. But what if there aren&rsquo;t any clear rules? Non-Negotiables are here to help. <a href="/articles/improving-chances-with-non-negotiables/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/career/" class="badge badge-primary"><i class="las la-hashtag"></i>Career</a>
+    
+    <a href="/tags/innovation/" class="badge badge-primary"><i class="las la-hashtag"></i>Innovation</a>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0">
+        
+        <a href="/articles/antiquated-form-of-most-innovative-companies/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/ac6a470c-93e0-4020-9dcd-7a61c33101bf">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/ac6a470c-93e0-4020-9dcd-7a61c33101bf" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Apr 5, 2018 · <i
+            class="las la-stopwatch"></i>&nbsp;12min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>The Antiquated Form of the World’s Most Innovative Companies</h2>
+    <p>Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come? <a href="/articles/antiquated-form-of-most-innovative-companies/" class="stretched-link">Continue…</a></p>
+</div>
+<p>
+    
+    <a href="/tags/innovation/" class="badge badge-primary"><i class="las la-hashtag"></i>Innovation</a>
+    
+    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
+    
+</p>
+    </div>
+</div>
+    
+</section>
+
+
+    </main>
+    <footer class="bg-secondary text-light text-center">
+    <div class="container py-5">
+        
+        <p><small><a href="/privacy/">Privacy Policy</a></small></p>
+        <p><svg width="100%" height="100%" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2574,-792)">
+        <g id="Unprotected-primary-color-logogram-on-transparent-background" serif:id="Unprotected primary color logogram on transparent background" transform="matrix(1.12719,0,0,0.885774,2612.5,797.543)">
+            <rect x="-34.159" y="-6.258" width="390.352" height="198.696" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="-34.159" y="-6.258" width="390.352" height="198.696"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(3.69565,0,0,4.16217,-240.2,-272.956)">
+                    <g transform="matrix(0.105625,-6.62507e-18,5.86335e-18,0.119347,45.1899,52.1434)">
+                        <path d="M100,500L300,300L100,100L167.274,100C252.258,100 333.761,133.757 393.857,193.846C397.723,197.712 400,199.988 400,199.988L500,99.976L699.976,100L800,200.024L900,100L1100,100L900,300L1100,500L1032.74,500C947.747,500 866.238,466.238 806.141,406.141C802.276,402.276 800,400 800,400L700,500L500,500L700,300L600,200.024L300,500L100,500Z" style="fill:rgb(0,170,255);"/>
+                    </g>
+                    <g transform="matrix(0.105625,0,0,0.119347,45.1899,40.2116)">
+                        <path d="M500,599.976L900,199.976L700,199.953L300,599.976L500,599.976Z" style="fill:rgb(14,17,18);fill-opacity:0.2;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+</p>
+        <p><small>Copyright © 2017-2020 Michael Schmidle<br>
+                Original content released under the <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International</a> license</small>
+        </p>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
