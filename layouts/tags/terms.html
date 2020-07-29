@@ -25,7 +25,7 @@
                 <div class="card-footer">
                     <div class="row">
                         <div class="col mr-auto">
-                            <small>{{ len .Pages }} articles</small>
+                            <small>{{ len .Pages }} article{{ if ne (len .Pages) 1 }}s{{ end }}</small>
                         </div>
                         {{ with .Params.imageAttribution }}
                         <div class="col-auto">
