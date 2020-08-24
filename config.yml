@@ -19,7 +19,7 @@ menu:
           weight: 3
     social:
         - name: LinkedIn
-          url: https://www.linkedin.com/in/michaelschmidle
+          url: https://www.linkedin.com/in/MichaelSchmidle
           weight: 1
           pre: <i class="lab la-linkedin-in"></i>
         - name: Twitter
@@ -30,6 +30,10 @@ menu:
           url: https://github.com/MichaelSchmidle/
           weight: 3
           pre: <i class="lab la-github"></i>
+        - name: SoundCloud
+          url: https://soundcloud.com/MichaelSchmidle/
+          weight: 4
+          pre: <i class="lab la-soundcloud"></i>
 
 params:
     cloudinary:
