@@ -6,11 +6,7 @@
     <description>Recent content in Technology on Ypertex Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://blog.ypertex.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accelerate Your Website---With Your Logo</title>
       <link>https://blog.ypertex.com/articles/accelerate-your-website-with-your-logo/</link>
@@ -26,7 +22,7 @@
       <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</guid>
-      <description>In Windows&amp;rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
+      <description>In Windows&#39; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
     </item>
     
     <item>

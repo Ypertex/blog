@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.75.1" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -240,14 +240,14 @@
 <p>Hugo comes with <a href="https://gohugo.io/templates/internal#open-graph">built-in shortcodes</a> for the Open Graph and Twitter Cards protocols. Using the shortcodes is as simple as adding the following lines to your <abbr title="Hypertext Markup Language">HTML</abbr> <code>head</code> element:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#66d9ef">template</span> <span style="color:#e6db74">&#34;_internal/opengraph.html&#34;</span> <span style="color:#a6e22e">.</span> <span style="color:#75715e">}}</span>
 <span style="color:#75715e">{{</span> <span style="color:#66d9ef">template</span> <span style="color:#e6db74">&#34;_internal/twitter_cards.html&#34;</span> <span style="color:#a6e22e">.</span> <span style="color:#75715e">}}</span></code></pre></div>
-<p>These shortcodes take the metadata from your site&rsquo;s configuration as well as your pages&rsquo; front matter and turn it into the corresponding HTML <code>meta</code> tags. A social media platform like Twitter or a service like Microlink is now capable to retrieve metadata from your webpages.</p>
+<p>These shortcodes take the metadata from your site&rsquo;s configuration as well as your pages' front matter and turn it into the corresponding HTML <code>meta</code> tags. A social media platform like Twitter or a service like Microlink is now capable to retrieve metadata from your webpages.</p>
 <p>Hugo&rsquo;s shortcodes will also consider images and generate the corresponding <code>meta</code> tags. According to <a href="https://iamturns.com/open-graph-image-size/">this research</a>, a good practice is to size Open Graph images to <strong>1200×630 pixels</strong>.</p>
 <p>Hm, yet another size for the cover images of my articles I need to generate and keep track of.</p>
 <p>Since I use <a href="https://cloudinary.com/">Cloudinary</a> as a service to resize images on the fly and thus to <a href="/articles/redesign-march-2020/#images-can-be-responsive">make my images responsive</a>, the solution is pretty simple.</p>
-<p>In the content files&rsquo; front matter, I define one image in the <code>.Params.images</code> array. For this article you&rsquo;re just reading, it would look like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">images</span>:
-- https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7d143c90-862c<span style="color:#ae81ff">-4e74-9275</span>-763746bf95f0</code></pre></div>
-<p>Hugo takes this URL and uses it in the two metadata shortcodes <code>opengraph.html</code> and <code>twitter_cards.html</code>. I use this URL to show the same cover image in the list of articles&mdash;but properly transformed for the size of my users&rsquo; devices. To that end, I first have to <strong>deconstruct the URL</strong> into its parts with the help of <a href="https://gohugo.io/functions/path.split/">Hugo&rsquo;s <code>path.Split</code> function</a>:</p>
+<p>In the content files' front matter, I define one image in the <code>.Params.images</code> array. For this article you&rsquo;re just reading, it would look like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#f92672">images</span>:
+- <span style="color:#ae81ff">https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7d143c90-862c-4e74-9275-763746bf95f0</span></code></pre></div>
+<p>Hugo takes this URL and uses it in the two metadata shortcodes <code>opengraph.html</code> and <code>twitter_cards.html</code>. I use this URL to show the same cover image in the list of articles&mdash;but properly transformed for the size of my users' devices. To that end, I first have to <strong>deconstruct the URL</strong> into its parts with the help of <a href="https://gohugo.io/functions/path.split/">Hugo&rsquo;s <code>path.Split</code> function</a>:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">path</span><span style="color:#a6e22e">.Split</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">index</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">first</span> <span style="color:#a6e22e">1</span> <span style="color:#a6e22e">.Params.images</span><span style="color:#f92672">)</span> <span style="color:#a6e22e">0</span><span style="color:#f92672">))</span><span style="color:#a6e22e">.File</span> <span style="color:#75715e">}}</span></code></pre></div>
 <p>Now, I can <strong>reconstruct different URLs</strong> for different transformations of the same image, for example:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template">&lt;<span style="color:#f92672">picture</span>&gt;
@@ -322,7 +322,7 @@
         class="yx-avatar">
     <div class="media-body">
         <h4>Michael Schmidle</h4>
-        <p>Digital Strategy and Innovation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Coach, start-up consultant, and blogger. Opinionated about technology, innovation, and leadership. In love with Mexico.</p>
+        <p>Digital Strategy and Innovation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Start-up consultant, hobby music producer and blogger. Opinionated about technology, innovation, and leadership. In love with Mexico.</p>
 
         <p class="mb-0">
             <a href="https://www.linkedin.com/in/MichaelSchmidle"
@@ -460,7 +460,7 @@
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
 <div class="yx-stretched-linkable mb-3">
     <h2>Unhide Virtual Network Adapters in Windows 10</h2>
-    <p>In Windows&rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
+    <p>In Windows' latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
 </div>
 <p>
     

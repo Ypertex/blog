@@ -6,11 +6,7 @@
     <description>Recent content on Ypertex Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://blog.ypertex.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 27 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Card or Player: Who Wins Poker Games?</title>
       <link>https://blog.ypertex.com/articles/who-wins-poker-games/</link>
@@ -89,7 +85,7 @@
       <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</guid>
-      <description>In Windows&amp;rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
+      <description>In Windows&#39; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
     </item>
     
     <item>
@@ -206,7 +202,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/author/</guid>
-      <description>Digital Strategy and Innovation Manager at the Swiss Broadcast Corporation SRG SSR. Coach, start-up consultant, and blogger. Opinionated about technology, innovation, and leadership. In love with Mexico.</description>
+      <description>Digital Strategy and Innovation Manager at the Swiss Broadcast Corporation SRG SSR. Start-up consultant, hobby music producer and blogger. Opinionated about technology, innovation, and leadership. In love with Mexico.</description>
     </item>
     
   </channel>
