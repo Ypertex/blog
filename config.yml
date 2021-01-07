@@ -22,17 +22,13 @@ menu:
           url: https://www.linkedin.com/in/MichaelSchmidle
           weight: 1
           pre: <i class="lab la-linkedin-in"></i>
-        - name: Twitter
-          url: https://twitter.com/MichaelSchmidle/
-          weight: 2
-          pre: <i class="lab la-twitter"></i>
         - name: GitHub
           url: https://github.com/MichaelSchmidle/
-          weight: 3
+          weight: 2
           pre: <i class="lab la-github"></i>
         - name: SoundCloud
           url: https://soundcloud.com/MichaelSchmidle/
-          weight: 4
+          weight: 3
           pre: <i class="lab la-soundcloud"></i>
 
 params:
