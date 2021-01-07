@@ -1,0 +1,55 @@
+{
+    "status": "success",
+    "data": {
+      "title": "US Capitol stormed - BBC News",
+      "description": "All the latest news about US Capitol stormed from the BBC",
+      "lang": "en",
+      "author": null,
+      "publisher": "BBC News",
+      "image": {
+        "url": "https://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1",
+        "type": "png",
+        "size": 21155,
+        "height": 576,
+        "width": 1024,
+        "size_pretty": "21.2 kB"
+      },
+      "date": "2021-01-07T16:32:52.000Z",
+      "url": "https://www.bbc.co.uk/news/topics/c37r4jqnn21t/us-capitol-stormed",
+      "logo": {
+        "url": "https://logo.clearbit.com/bbc.co.uk",
+        "type": "png",
+        "size": 5297,
+        "height": 128,
+        "width": 128,
+        "size_pretty": "5.3 kB"
+      }
+    },
+    "headers": {
+      "date": "Thu, 07 Jan 2021 16:32:52 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "content-length": "341639",
+      "connection": "close",
+      "belfrage-cache-status": "MISS",
+      "bid": "bruce",
+      "brequestid": "c8f7583e073d44f69194cb14a8de4c8f",
+      "bsig": "4a10558a710a7f64e1982afac906a418",
+      "cache-control": "public, stale-if-error=90, stale-while-revalidate=30, max-age=30",
+      "content-encoding": "gzip",
+      "moz-cache-status": "HIT",
+      "req-svc-chain": "GTM,BELFRAGE,MOZART",
+      "vary": "accept-encoding",
+      "via": "1.1 BBC-GTM, 1.1 Belfrage",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-mrid": "n1",
+      "x-msig": "631125817c6b9d8f9d4f66f58ce52507",
+      "x-xss-protection": "1; mode=block",
+      "x-lb-nocache": "true",
+      "nel": "{\"report_to\":\"default\",\"max_age\":2592000,\"include_subdomains\":true,\"failure_fraction\":0.05}",
+      "report-to": "{\"group\":\"default\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint\",\"priority\":1}],\"include_subdomains\":true}",
+      "x-bbc-edge-cache-status": "MISS",
+      "x-bbc-origin-response-status": "200",
+      "server": "BBC-GTM"
+    }
+  }
