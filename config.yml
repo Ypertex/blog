@@ -27,7 +27,7 @@ menu:
           weight: 2
           pre: <i class="lab la-github"></i>
         - name: SoundCloud
-          url: https://soundcloud.com/MichaelSchmidle/
+          url: https://soundcloud.com/michaelschmidle/
           weight: 3
           pre: <i class="lab la-soundcloud"></i>
 
