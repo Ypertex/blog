@@ -6,8 +6,8 @@
             <img src="{{ .url }}" alt="" class="yx-favicon">
             {{ end }}
             <div class="media-body">
-                <h6><i class="las la-external-link-alt"></i> <a href="{{ .data.url }}"
-                        class="stretched-link">{{ .data.title | title | markdownify }}</a></h6>
+                <h6><a href="{{ .data.url }}" class="stretched-link">{{ .data.title | title | markdownify }}</a>&nbsp;<i
+                        class="las la-external-link-alt"></i></h6>
                 {{ with .data.description }}<p>{{ . | htmlUnescape | markdownify }}</p>{{ end }}
             </div>
         </div>

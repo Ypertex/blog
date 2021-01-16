@@ -3,12 +3,12 @@ title: "Westworld Scoring Competition: Content, Process, and Relationship"
 publishdate: 2020-06-29
 tags:
 - Leadership
-summary: How a high-profile music competition by Spitfire Audio and HBO with 11'000 participants ends in a PR disaster---and how distinguishing content, process, and relationship levels could help to recover.
+summary: How a high-profile music competition by Spitfire Audio and HBO with 11,000 participants ends in a PR disaster---and how distinguishing content, process, and relationship levels could help to recover.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/41c65fa8-56d3-4bde-bc9f-b95e945daa9c
 ---
 
-In May 2020, [Spitfire Audio](https://www.spitfireaudio.com/) and [HBO](https://www.hbo.com/) invited media composers all over the world to participate in a scoring competition: to compose and produce the music to a clip from the third season of the TV show [Westworld](https://www.hbo.com/westworld/). In the following weeks until the final submission date, ca. 11'000 professionals and hobbyists entered the competition, according to Spitfire Audio.
+In May 2020, [Spitfire Audio](https://www.spitfireaudio.com/) and [HBO](https://www.hbo.com/) invited media composers all over the world to participate in a scoring competition: to compose and produce the music to a clip from the third season of the TV show [Westworld](https://www.hbo.com/westworld/). In the following weeks until the final submission date, ca. 11,000 professionals and hobbyists entered the competition, according to Spitfire Audio.
 
 {{<figure src="41c65fa8-56d3-4bde-bc9f-b95e945daa9c" />}}
 

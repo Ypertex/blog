@@ -1,0 +1,41 @@
+{
+    "status": "success",
+    "data": {
+        "title": "Westworld Scoring Competition: Content, Process, and Relationship",
+        "description": "How a high-profile music competition by Spitfire Audio and HBO with 11,000 participants ends in a PR disaster—and how distinguishing content, process, and relationship levels could help to recover.",
+        "lang": "en",
+        "author": "Michael Schmidle",
+        "publisher": "ypertex.com",
+        "image": {
+            "url": "https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/41c65fa8-56d3-4bde-bc9f-b95e945daa9c",
+            "type": "jpg",
+            "size": 119279,
+            "height": 630,
+            "width": 1200,
+            "size_pretty": "119 kB"
+        },
+        "date": "2020-06-29T00:00:00.000Z",
+        "url": "https://blog.ypertex.com/articles/westworld-scoring-competition-content-process-relationship/",
+        "logo": {
+            "url": "https://logo.clearbit.com/ypertex.com",
+            "type": "png",
+            "size": 22956,
+            "height": 128,
+            "width": 128,
+            "size_pretty": "23 kB"
+        }
+    },
+    "statusCode": 200,
+    "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sat, 16 Jan 2021 00:10:03 GMT",
+        "etag": "\"eed7cb898494b2d2473e6d9f4fc3ba85-ssl-df\"",
+        "strict-transport-security": "max-age=31536000",
+        "content-encoding": "br",
+        "age": "0",
+        "server": "Netlify",
+        "vary": "Accept-Encoding",
+        "x-nf-request-id": "90814d64-f217-4cff-9864-f19968ba2c3d-24810703"
+    }
+}

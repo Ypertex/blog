@@ -6,11 +6,29 @@
     <description>Recent content in Tags on Ypertex Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Career</title>
+      <link>https://blog.ypertex.com/tags/career/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/tags/career/</guid>
+      <description>Tales from my professional experience—mixed with the occasional career advice.</description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://blog.ypertex.com/tags/design/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ypertex.com/tags/design/</guid>
+      <description>My thoughts on all things design—from visual designs like logos to conceptual designs like IT solutions.</description>
+    </item>
+    
     <item>
       <title>Leadership</title>
       <link>https://blog.ypertex.com/tags/leadership/</link>
-      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ypertex.com/tags/leadership/</guid>
       <description>A series of articles about leadership and entrepreneurship in general—based on true stories.</description>
@@ -62,15 +80,6 @@
     </item>
     
     <item>
-      <title>Design</title>
-      <link>https://blog.ypertex.com/tags/design/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/tags/design/</guid>
-      <description>My thoughts on all things design—from visual designs like logos to conceptual designs like IT solutions.</description>
-    </item>
-    
-    <item>
       <title>Likes</title>
       <link>https://blog.ypertex.com/tags/likes/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
@@ -95,15 +104,6 @@
       
       <guid>https://blog.ypertex.com/tags/future/</guid>
       <description>My take on what lays ahead in terms of technology—and its potential impact on society.</description>
-    </item>
-    
-    <item>
-      <title>Career</title>
-      <link>https://blog.ypertex.com/tags/career/</link>
-      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ypertex.com/tags/career/</guid>
-      <description>Tales from my professional experience—mixed with the occasional career advice.</description>
     </item>
     
   </channel>
