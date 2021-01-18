@@ -5,7 +5,7 @@ tags:
 - Career
 - Design
 - Leadership
-summary: For most of us, success depends on the interaction with other human beings. S2S is a simple model that can help you be more successful---along with concrete examples.
+summary: For most of us, success depends on the interaction with other human beings. S2S is a simple model that can help you be more successful. I'll show you how.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/f922629f-2c1d-46cf-bc6a-32c8432d972e
 ---
