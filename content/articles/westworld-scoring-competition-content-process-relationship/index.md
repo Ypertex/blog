@@ -112,3 +112,9 @@ The main thing in my opinion would be to admit that the process was not up to th
 Let's see how Spitfire Audio's leadership will handle this going forward. If they stick with their current behavior, I'm afraid that their next competition will not earn 11'000 entries. It might even have been the last competition, period. And of course, it might impact their business. Spitfire Audio might make fewer sales in the future; composers might have less Spitfire Audio libraries in the future.
 
 That'd be tragic.
+
+# Recommended Reading
+
+The three levels of relationship, process, and content belong to a model that I call S2S: Stairs to Success. Find out how you can apply it to many aspects of collaboration:
+
+{{<preview src="b93d93d8-3615-450f-b057-88e76e5df3b6">}}
