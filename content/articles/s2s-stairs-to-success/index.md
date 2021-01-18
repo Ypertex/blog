@@ -72,16 +72,16 @@ The long-term aspect is also why you should return to the relationship level ove
 
 Ask people about their weekend plans. Circle back to the topics people talked about at the beginning (it shows that you listened) and wish them good luck in these endeavors. Next time, pick up the conversation from where you left off.
 
-You see how the **steps on the relationship level are connected**. Step 1 might reveal meaningful things to talk about in step 5. Step 5 in return might improve the quality of your small talk in step 1 of whatever next opportunity for collaboration with the same people.
+You see how the steps on the relationship level are connected. Step 1 might reveal meaningful things to talk about in step 5. Step 5 in return might improve the quality of your small talk in step 1 of whatever next opportunity for collaboration with the same people.
 
 The catch however is: It must be real and authentic. Faking it only works to your disadvantage.
 
 ---
 
 {{<note class="alert-success">}}
-##### <i class="lab la-superpowers"></i> A Word of Encouragement
+##### <i class="las la-star"></i> A Word of Encouragement
 
-Introverts might feel that small talk and such kind of "social dance" at the beginning and end of human interactions are distractions from the challenge at hand.
+People with introvert tendencies might feel that small talk and such kind of "social dance" at the beginning and end of human interactions are distractions from the challenge at hand.
 
 Yet they are a great investment: Whatever you invest on the relationship level, you will save many times over in later steps. Trust me.
 {{</note>}}
@@ -172,7 +172,7 @@ And so on...
 
 In this article, I've tried to explain the Stairs to Success model (S2S) since I've found it very useful over the past decade---yet found no documentation about it anywhere so far.
 
-I showed you how to apply the model in real life with a few examples and how it stacks.
+I showed you how to apply the model in real life with a few examples and also how it stacks.
 
 If you have ideas on how to improve this article or even know the original source, please let me know via the social media platforms linked on this website. Thanks!
 
