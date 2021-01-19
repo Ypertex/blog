@@ -129,14 +129,14 @@ This article explained how vector graphics like logos can be integrated *directl
 
 So instead of saving your vectorized logos as pixel-based formats and loading them as separate assets in your website, just export your logos in SVG format and paste them directly into your HTML source!
 
+---
+
 ## Recommended Reading
 
 {{<preview-external src="c9d4c0e4-d356-4578-b5f8-07db407eec75">}}
 
----
-
 {{<note>}}
 ##### <i class="las la-balance-scale-left"></i> Disclaimer
 
-I am in no way affiliated with Crazy Egg. I've never employed their services and can't speak to the quality of their work.
+I'm in no way affiliated with Crazy Egg. I've never employed their services and can't speak to the quality of their work.
 {{</note>}}
