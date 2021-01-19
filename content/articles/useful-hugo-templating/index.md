@@ -20,7 +20,7 @@ I've been working with [Hugo](https://gohugo.io/) for quite a while now. For rou
 
 For example, the following preview of the page on ``twitter.com`` linked in the previous paragraph is based on data retrieved from that link:
 
-{{<preview src="cf42843f-3a7d-4f09-88f1-7340d3b9496e">}}
+{{<preview-external src="cf42843f-3a7d-4f09-88f1-7340d3b9496e">}}
 
 ### Shortcode
 
@@ -39,7 +39,7 @@ The downside, of course, is that the data might become outdated over time, essen
 Either way, using the shortcode in your content is really ... short:
 
 {{<highlight html>}}
-{{</*preview src=""*/>}}
+{{</*preview-external src=""*/>}}
 {{</highlight>}}
 
 As ``src`` parameter, you either provide a target URL or the path to the file inside Hugo's ``data`` directory.  Since I save the ``json`` files locally, the corresponding shortcode source looks like this:

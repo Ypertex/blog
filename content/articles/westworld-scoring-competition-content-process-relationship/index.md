@@ -117,4 +117,4 @@ That'd be tragic.
 
 The three levels of relationship, process, and content belong to a model that I call S2S: Stairs to Success. Find out how you can apply it to many aspects of collaboration:
 
-{{<preview src="b93d93d8-3615-450f-b057-88e76e5df3b6">}}
+{{<preview-internal src="articles/s2s-stairs-to-success">}}

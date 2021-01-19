@@ -1,0 +1,17 @@
+{{ with .Site.GetPage (.Get "src") }}
+<div class="shadow card">
+    <div class="card-body">
+        <div class="media">
+            <div class="yx-avatar bg-light">{{ partial "ypertex-logogram-2020-03.svg" }}</div>
+            <div class="media-body">
+                <h6><a href="{{ .RelPermalink }}" class="stretched-link">{{ .Title | markdownify }}</a></h6>
+                <p>{{ .Params.summary | markdownify }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer text-right">
+        <div class="yx-attribution">
+            {{ with .Site.GetPage "author" }}{{ .Title }}{{ end }}, <cite>{{ index (split .Site.BaseURL "/") 2 }}</cite>
+        </div>
+</div>
+{{ end }}

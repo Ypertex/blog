@@ -26,6 +26,7 @@
 <meta name="msapplication-square150x150logo" content="/mediumtile.png" />
 <meta name="msapplication-wide310x150logo" content="/widetile.png" />
 <meta name="msapplication-square310x310logo" content="/largetile.png" />
+<meta property="og:logo" content="{{ .Site.BaseURL }}/android-chrome-192x192.png">
 {{ template "_internal/opengraph.html" . }}
 {{ if eq .Type "articles" }}
 <meta property="article:author" content="{{ (.GetPage `author`).Title }}" />{{ end }}

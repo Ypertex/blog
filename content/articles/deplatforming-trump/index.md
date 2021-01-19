@@ -11,7 +11,7 @@ images:
 
 In case you wonder what happened to my Twitter account: I deleted it in the larger context of the riots in the US Capitol.
 
-{{<preview src="44b7db9a-b3ff-4944-8b42-17ebdd178e16">}}
+{{<preview-external src="44b7db9a-b3ff-4944-8b42-17ebdd178e16">}}
 
 The day after the insurgence, I read the follwing two offical Twitter statements:
 
@@ -27,7 +27,7 @@ In other words: Twitter didn't permanently ban Trump from its platform that he u
 
 In my opinion, it means that Twitter is passively supporting Trump and what Trump stands for. **This is in violation of my core values.**
 
-{{<figure src="b9298396-7588-40b5-90d0-2e09b3e92f3c">}}No audience, no stage.{{</figure>}}
+{{<figure src="b9298396-7588-40b5-90d0-2e09b3e92f3c">}}Where there's no audience, there's no stage.{{</figure>}}
 
 **So while Twitter doesn't ban Trump, I ban Twitter.** A platform is only worth something with an audience, so I removed myself from that audience.
 

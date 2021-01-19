@@ -131,7 +131,7 @@ So instead of saving your vectorized logos as pixel-based formats and loading th
 
 ## Recommended Reading
 
-{{<preview src="c9d4c0e4-d356-4578-b5f8-07db407eec75">}}
+{{<preview-external src="c9d4c0e4-d356-4578-b5f8-07db407eec75">}}
 
 ---
 

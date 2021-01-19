@@ -182,6 +182,6 @@ I want to contribute—and will perform a little experiment by slipping into the
 
 ## Recommended Videos and Articles for “AI Beginners”
 
-{{<preview src="86d741ab-f5ec-45f4-94b8-03aa5c5e483f">}}
-{{<preview src="f315672c-168c-4921-8f14-754593fb5efb">}}
-{{<preview src="8e636db7-8250-4c62-8f0b-1c49b1af33db">}}
+{{<preview-external src="86d741ab-f5ec-45f4-94b8-03aa5c5e483f">}}
+{{<preview-external src="f315672c-168c-4921-8f14-754593fb5efb">}}
+{{<preview-external src="8e636db7-8250-4c62-8f0b-1c49b1af33db">}}

@@ -71,4 +71,4 @@ How about learning to unlearn, using our existing strength to build a new streng
 
 ## Recommended Reading
 
-{{<preview src="fe350538-4d41-47b5-98b3-36aebcd0b53c">}}
+{{<preview-external src="fe350538-4d41-47b5-98b3-36aebcd0b53c">}}

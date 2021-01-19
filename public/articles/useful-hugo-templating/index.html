@@ -30,6 +30,7 @@
 <meta name="msapplication-square150x150logo" content="/mediumtile.png" />
 <meta name="msapplication-wide310x150logo" content="/widetile.png" />
 <meta name="msapplication-square310x310logo" content="/largetile.png" />
+<meta property="og:logo" content="https://blog.ypertex.com//android-chrome-192x192.png">
 <meta property="og:title" content="Useful Hugo Templating" />
 <meta property="og:description" content="Developing templates for the static website generator Hugo? Then these advanced tips &amp; tricks might be helpful to you." />
 <meta property="og:type" content="article" />
@@ -165,14 +166,15 @@
             
             <div class="media-body">
                 <h6><a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards" class="stretched-link">About Twitter Cards</a>&nbsp;<i
-                        class="las la-external-link-alt"></i></h6>
+                    class="las la-external-link-alt"></i></h6>
                 <p>With Twitter Cards, you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website. Simply add a few lines of markup to your webpage, and users who Tweet links to your content will have a “Card” added to the Tweet that’s visible to their followers.</p>
             </div>
         </div>
     </div>
     <div class="card-footer">
         <div class="yx-attribution">
-            <cite>twitter.com</cite></div>
+            <cite>twitter.com</cite>
+        </div>
     </div>
 </div>
 
@@ -187,7 +189,7 @@
 </ol>
 <p>The downside, of course, is that the data might become outdated over time, essentially displaying an incorrect preview.</p>
 <p>Either way, using the shortcode in your content is really &hellip; short:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt;<span style="color:#f92672">preview</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>&gt;}}</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt;<span style="color:#f92672">preview-external</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>&gt;}}</code></pre></div>
 <p>As <code>src</code> parameter, you either provide a target URL or the path to the file inside Hugo&rsquo;s <code>data</code> directory.  Since I save the <code>json</code> files locally, the corresponding shortcode source looks like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#66d9ef">with</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">index</span> <span style="color:#a6e22e">.Site.Data</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">.Get</span> <span style="color:#e6db74">&#34;src&#34;</span><span style="color:#f92672">))</span> <span style="color:#75715e">}}</span>
 &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;shadow card&#34;</span>&gt;
@@ -269,43 +271,6 @@
 </div>
 
         </div>
-    </div>
-</section>
-<section class="bg-light py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 col-lg-10 mx-auto">
-                <div class="yx-heading mb-3">
-    Share this article
-</div>
-<div class="card mx-md-n3">
-    <div class="card-body">
-        <div class="row text-center">
-            <div class="col">
-                <a class="btn btn-primary btn-lg rounded-pill"
-                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fblog.ypertex.com%2farticles%2fuseful-hugo-templating%2f&amp;title=Useful%20Hugo%20Templating&amp;source=Ypertex%20Blog"
-                    title="LinkedIn"
-                    onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;"><i
-                        class="lab la-linkedin-in"></i></a>
-            </div>
-            <div class="col">
-                <a class="btn btn-primary btn-lg rounded-pill"
-                    href="https://twitter.com/intent/tweet?text=Useful%20Hugo%20Templating&amp;url=https%3a%2f%2fblog.ypertex.com%2farticles%2fuseful-hugo-templating%2f"
-                    title="Twitter"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=550');return false;"><i
-                        class="lab la-twitter"></i></a>
-            </div>
-            <div class="col">
-                <a class="btn btn-primary btn-lg rounded-pill"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.ypertex.com%2farticles%2fuseful-hugo-templating%2f" title="Facebook"
-                    onclick="window.open(this.href, 'facebook-share','width=550,height=550');return false;"><i
-                        class="lab la-facebook-f"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-            </div>
-    </div>
     </div>
 </section>
 <section class="bg-light py-5">
