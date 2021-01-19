@@ -113,6 +113,8 @@ Let's see how Spitfire Audio's leadership will handle this going forward. If the
 
 That'd be tragic.
 
+---
+
 # Recommended Reading
 
 The three levels of relationship, process, and content belong to a model that I call S2S: Stairs to Success. Find out how you can apply it to many aspects of collaboration:
