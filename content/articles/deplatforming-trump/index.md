@@ -1,6 +1,7 @@
 ---
 title: "Deplatforming Trump"
 publishdate: 2021-01-07
+lastmod: 2021-02-11
 tags:
 - Leadership
 - Personal
@@ -34,3 +35,13 @@ In my opinion, it means that Twitter is passively supporting Trump and what Trum
 More and more, I realize that I want to grant whatever little I have (time, money, attention, ...) only to people that have their *and* my longterm benefit in mind. Social media providers less and less appear to be of that kind of people.
 
 I invite you to do the same.
+
+---
+
+{{<note class="alert-success">}}
+###### <i class="las la-sync"></i> Update {{<date>}}2021-02-11{{</date>}}
+
+Even though Twitter ended up [permanently suspending Trump's account](https://www.bbc.com/news/world-us-canada-55597840) shortly after I wrote this article, I decided not to restore my own Twitter account.
+
+First: While late is better than never, it wasn't good enough for me this time. Second: I enjoyed the past month with less Social Media. So I'll stick to it.
+{{</note>}}
