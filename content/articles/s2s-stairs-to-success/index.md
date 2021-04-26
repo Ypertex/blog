@@ -5,7 +5,7 @@ tags:
 - Career
 - Design
 - Leadership
-summary: For most of us, success depends on the interaction with other human beings. S2S is a simple model that can help you be more successful. I'll show you how.
+summary: For most of us, success depends on the interaction with other human beings. S2S is a simple method that can help you be more successful. I'll show you how.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/f922629f-2c1d-46cf-bc6a-32c8432d972e
 ---
@@ -23,11 +23,11 @@ And we forget that the subject is **only one of three larger aspects of collabor
 {{<note>}}
 ##### <i class="las la-balance-scale-left"></i> Disclaimer
 
-I'm not the author of this model. I learned about it sometime between 2009 and 2012. It served me well back then---and always has ever since.
+I'm not the author of this method. I learned about it sometime between 2009 and 2012. It served me well back then---and always has ever since.
 
 However, I never knew its original name or author so I can't attribute it properly. Search engines didn't reveal anything at the time of writing. If you happen to know the source, please let me know!
 
-In the meantime, let's call the model "Stairs to Success" (or beautifully abbreviated: S2S 😎).
+In the meantime, let's call the method "Stairs to Success" (or beautifully abbreviated: S2S 😎).
 {{</note>}}
 
 ---
@@ -56,7 +56,7 @@ So how can you avoid these false emergencies if *you* are the one asking people 
 
 {{<figure src="295b30f1-d54f-4cb7-8e4d-f0d379134578.png" transformation="full">}}The Stairs of Success (up and back down): relationship, process and subject{{</figure>}}
 
-Let me show you how this model works.
+Let me show you how this method works.
 
 # Steps 1 and 5: Relationship
 
@@ -106,11 +106,11 @@ After the work's done, go back to the process level in **step 4**:
 
 The steps on the process level are mainly to **manage expectations and risks.** They serve to increase the probability of success. Most people prefer to have a rough idea of what they're getting into.
 
-Enough theory. How can one apply this model?
+Enough theory. How can one apply this method?
 
 # Examples
 
-The beauty of this model is that it can be applied on small and large scales. You'll find that it behaves like a fractal: Each step on a larger scale can contain the entire model on a smaller scale---and vice versa, like this:
+The beauty of this method is that it can be applied on small and large scales. You'll find that it behaves like a fractal: Each step on a larger scale can contain the entire method on a smaller scale---and vice versa, like this:
 
 {{<figure src="c880d20d-d856-4d4d-aeb6-88fe94abf741" transformation="full">}}A project contains many meetings, yet each meeting has a different subject. The kickoff is about relationship, the planning about process, the workshop about the project's subject. Each contain again the three levels.{{</figure>}}
 
@@ -170,9 +170,9 @@ And so on...
 
 # Conclusion
 
-In this article, I've tried to explain the Stairs to Success model (S2S) since I've found it very useful over the past decade---yet found no documentation about it anywhere so far.
+In this article, I've tried to explain the Stairs to Success method (S2S) since I've found it very useful over the past decade---yet found no documentation about it anywhere so far.
 
-I showed you how to apply the model in real life with a few examples and also how it stacks.
+I showed you how to apply the method in real life with a few examples and also how it stacks.
 
 If you have ideas on how to improve this article or even know the original source, please let me know via the social media platforms linked on this website. Thanks!
 
@@ -180,6 +180,6 @@ If you have ideas on how to improve this article or even know the original sourc
 
 # Recommended Reading
 
-A while ago, I wrote about the Westworld scoring competition by Spitfire Audio and HBO---and how it didn't end all too well. You might be interested in learning how the S2S model would apply to a PR-disaster and offer a way out:
+A while ago, I wrote about the Westworld scoring competition by Spitfire Audio and HBO---and how it didn't end all too well. You might be interested in learning how the S2S method would apply to a PR-disaster and offer a way out:
 
 {{<preview-internal src="articles/westworld-scoring-competition-content-process-relationship">}}
