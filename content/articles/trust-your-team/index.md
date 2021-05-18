@@ -84,7 +84,7 @@ Two reasons, however, come immediately to mind:
 * We have the **wrong reward system**. We, as a society, actively incentivize short-term thinking. Banks are a great example of it: They get to keep the rewards from risky short-term deals; the taxpayers get to keep the punishments if these risky deals go wrong (by bailing out the banks). The problem is the privatization of profits and the socialization of losses.
 * Many business leaders are playing the **wrong game**. They play the business game like sports; like there'd be a winner at the end of the quarter. Well, nobody will ever "win" the game of business---because it's an infinite game. You can only participate or drop out.
 
-Given the wrong incentives, people will continue to play the wrong game.
+Given the wrong incentives, people will continue to play the wrong game. Maybe climate change will put the value of long-term thinking on full display---one way or the other.
 
 If you want to learn more about the infinite game, listen to Simon Sinek who coined the term:
 
