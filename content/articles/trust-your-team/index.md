@@ -55,7 +55,7 @@ Oh, and don't forget: You won't even get a full moment of production right now b
 
 {{<figure src="b35e0821-086b-4aed-ab27-8c6dc2e6df4e" cite="[Jp Valery](https://unsplash.com/photos/9BatP4ovW2I)">}}Not caring for people in your charge is like setting cash on fire: You'll loose value.{{</figure>}}
 
-Caring about people and giving them the freedom to solve their daily issues and thus to get in the best position to be successful long term, is the smart investment here---and it's not even close. And don't forget: *You're* the investor in all of this and we're talking about *your* investment!
+Caring about people and giving them the freedom to solve their daily issues and thus to get in the best position to be successful long-term, is the smart investment here. It's not even close. And don't forget: *You're* the investor in all of this and we're talking about *your* investment!
 
 ---
 
@@ -96,7 +96,7 @@ If you want to learn more about the infinite game, listen to Simon Sinek who coi
 
 # Conclusion
 
-With this post, I wanted to clarify that caring for people is not charity or pure altruism. No, it's pretty good for business---especially if you play the infinite game. It's a win-win.
+With this post, I wanted to clarify that caring for people is not charity or pure altruism. On the contrary: It's pretty good for business---especially if you play the infinite game. It's a win-win.
 
 > Take care of your employees and they'll take care of your business.
 >
