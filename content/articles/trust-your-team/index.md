@@ -39,13 +39,13 @@ It's not a contradiction, it's a precondition. So let me fix this for you:
 
 Hang on a minute! How can results improve if people have more freedom to deal with private everyday stuff?
 
-# Immediate Production vs. Future Production Capability
+# Production vs. Production Capability
 
 Now it gets interesting!
 
 You're right if you say that immediate results might suffer if people may attend to all sorts of things that are distracting them from work. True: Their production *right at that moment* will decrease.
 
-Now let's switch perspective for a second and ask: What might suffer if people may *not* attend to their lives? Exactly---their long-term production. In other words: Their production *in all future moments* will decrease.
+Now let's switch perspective for a second and ask: What might suffer if people may *not* attend to what's going on in their lives? Exactly---their long-term production capability. In other words: Their ability to be productive *in all future moments* will decrease.
 
 The reason is simple: We are all humans. Our production depends (among others) on our motivation. We, humans, are demotivated if we feel that others are not interested in our common long-term relationship and success (see recommended reading below). It is as simple as that.
 
@@ -57,11 +57,27 @@ Oh, and don't forget: You won't even get a full moment of production right now b
 
 Caring about people and giving them the freedom to solve their daily issues and thus to get in the best position to be successful long term, is the smart investment here---and it's not even close. And don't forget: *You're* the investor in all of this and we're talking about *your* investment!
 
-Then why does our economy focus so much on the short-term perspective?
+---
 
-# The Value of Long Term Thinking
+{{<note class="alert-success">}}
+###### <i class="las la-lightbulb"></i> Hint
 
-Why our economy doesn't value long-term thinking is probably a topic for an entire book or more.
+The concept of production vs. production capability is something I took from Stephen R. Covey's book "The 7 Habits of Highly Effective People" (see recommended reading below).
+
+You most probably already have applied this concept in your life: You went to school and/or university. By doing so, you were pretty unproductive in terms of immediate value to your family or society. Yet you, your family and society invested the unproductive time to increase your future production capability manifold: "Learn now, earn later" is more valuable than "Earn now."
+
+So, you're already familiar with the idea and hopefully appreciate the value of the delayed gratification.
+
+Now let's apply it to work and relationships in general, too.
+{{</note>}}
+
+---
+
+If it's so smart to invest long-term... then why does our economy focus so much on the short-term perspective?
+
+# The Value of Long-Term Thinking
+
+Why our economy doesn't value long-term thinking as much as they should is probably a topic for an entire book or more.
 
 Two reasons, however, come immediately to mind:
 
@@ -93,3 +109,5 @@ So here's my advice to you: **Be an egoist and care for results *and* people.** 
 # Recommended Reading
 
 {{<preview-internal src="articles/s2s-stairs-to-success">}}
+
+{{<preview-external src="ed7f3cbc-a9a8-4dfb-9545-5e899dd653b7">}}
