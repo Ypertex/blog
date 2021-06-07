@@ -64,7 +64,7 @@ Caring about people and giving them the freedom to solve their daily issues and 
 
 The concept of production vs. production capability is something I took from Stephen R. Covey's book "The 7 Habits of Highly Effective People" (see recommended reading below).
 
-You most probably already have applied this concept in your life: You went to school and/or university. By doing so, you were pretty unproductive in terms of immediate value to your family or society. Yet you, your family and society invested the unproductive time to increase your future production capability manifold: "Learn now, earn later" is more valuable than "Earn now."
+You most probably already have applied this concept in your life: You went to school and/or university. By doing so, you were pretty unproductive in terms of immediate value to your family or society. Yet you, your family, and society invested the unproductive time to increase your future production capability manifold: "Learn now, earn later" is more valuable than "Earn now."
 
 So, you're already familiar with the idea and hopefully appreciate the value of the delayed gratification.
 

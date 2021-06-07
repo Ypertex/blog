@@ -34,7 +34,7 @@ In the end, however, it's you who decides: If you wanted, it would be possible t
 
 Apropos Social Media: I haven't come across a platform that has a <q>Lead</q> button. And that makes total sense: I can't dictate somebody else to follow me, can I?
 
-{{<figure src="aba97777-cc13-41cd-a6a8-27d15e630233" transformation="inline">}}My Twitter profile with a <q>Lead</q> instead of a <q>Follow</q> button. Weird, no? (Edited {{<date>}}2020-07-21{{</date>}}: [I left Twitter](/articles/deplatforming-trump/) in the meantime.){{</figure>}}
+{{<figure src="aba97777-cc13-41cd-a6a8-27d15e630233" transformation="inline">}}My Twitter profile with a <q>Lead</q> instead of a <q>Follow</q> button. Weird, no? (Edited {{<date>}}2021-01-07{{</date>}}: [I left Twitter](/articles/deplatforming-trump/) in the meantime.){{</figure>}}
 
 Yet, in most of today's businesses, we do exactly that. <q>Here's your new boss. You're expected to do what they say.</q>
 
