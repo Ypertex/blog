@@ -14,7 +14,7 @@ images:
 
 If you think about it, you, me, and every other person on this planet is a follower.
 
-You might follow an inspiring leader at work or in your community. You might follow a person who's lived millennia ago or the person you're married to. You might follow a grand idea or a certain vision of the future. You might follow the money or social status. Heck, you probably follow several people and several beliefs simultaneously! <small>By the way: As we'll learn in a moment, we *only* follow beliefs.</small> 
+You might follow an inspiring leader at work or in your community. You might follow a person who's lived millennia ago or the person you're married to. You might follow a grand idea or a certain vision of the future. You might follow the money or social status. Heck, you probably follow several people and several beliefs simultaneously! <small>By the way: As we'll learn in a moment, we primarily follow beliefs.</small> 
 
 {{<figure src="a947632a-7ff7-4624-bb40-7811511dc8bf">}}Buddha and his followers. Religion is a good example of how we follow beliefs{{</figure>}}
 
