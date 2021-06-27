@@ -17,7 +17,7 @@ aliases:
 
 # Copyright
 
-This song includes the lovely vocals from Sydney Taylor as licensed via [voclio.com](https://www.voclio.com/). Any other part of the song has been produced by me (piano, guitar, drums, bass, percussion, strings, and riser).
+This song includes the lovely vocals from Sydney Taylor as licensed via [voclio.com](https://www.voclio.com/). Any other part of the song has been produced by me (piano, guitar, drums, bass, percussion, strings, and riser in addition to arranging, mixing, and mastering).
 
 The following is a short extract from the license agreement. You can find the full contract below.
 
