@@ -1,0 +1,17 @@
+<div class="card">
+    <picture class="card-img-top">
+        <source media="(min-width: 1200px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.xl }}{{ .Get `cover` }}">
+        <source media="(min-width: 992px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.lg }}{{ .Get `cover` }}">
+        <source media="(min-width: 768px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.md }}{{ .Get `cover` }}">
+        <source media="(min-width: 576px)"
+            srcset="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.sm }}{{ .Get `cover` }}">
+        <img src="{{ .Site.Params.cloudinary.baseURL }}{{ .Site.Params.cloudinary.transformations.figure.inline.xs }}{{ .Get `cover` }}"
+            alt="" width="100%">
+    </picture>
+    <audio id="player" controls>
+        <source src="{{ with .Get `src` }}{{ . }}{{ end }}" type="audio/mp3" />
+    </audio>
+</div>
