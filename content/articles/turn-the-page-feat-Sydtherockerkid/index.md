@@ -1,5 +1,5 @@
 ---
-title: Turn the Page Feat. Sydney Taylor
+title: Turn the Page Feat. Sydtherockerkid
 publishdate: 2021-06-27
 tags:
 - Music
@@ -7,9 +7,10 @@ summary: While my disputed copyright claim is under review at SoundCloud, I rele
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/8a6b7fa6-f9e5-437d-9126-150e0535e993
 aliases:
+- /articles/turn-the-page-feat-sydney-taylor
 ---
 
-{{<audio src="Turn the Page - Michael Schmidle feat. Sydney Taylor.mp3" cover="v1624819830/covers/Turn_The_Page_-_Michael_Schmidle_feat._Sydney_Taylor">}}
+{{<audio src="Turn the Page - Michael Schmidle feat. Sydtherockerkid.mp3" cover="v1624819830/covers/Turn_The_Page_-_Michael_Schmidle_feat._Sydtherockerkid">}}
 
 <small>© Copyright 2021 Michael Schmidle · All Rights Reserved</small>
 
@@ -17,7 +18,7 @@ aliases:
 
 # Copyright
 
-This song includes the lovely vocals from Sydney Taylor as licensed via [voclio.com](https://www.voclio.com/). Any other part of the song has been produced by me (piano, guitar, drums, bass, percussion, strings, and riser in addition to arranging, mixing, and mastering).
+This song includes the lovely vocals from Sydney Taylor aka Sydtherockerkid as licensed via [voclio.com](https://www.voclio.com/). Any other part of the song has been produced by me (piano, guitar, drums, bass, percussion, strings, and riser in addition to arranging, mixing, and mastering).
 
 The following is a short extract from the license agreement. You can find the full contract below.
 
