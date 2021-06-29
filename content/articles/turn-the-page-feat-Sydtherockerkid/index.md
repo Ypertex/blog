@@ -16,7 +16,7 @@ images:
 {{<card class="alert-light">}}
 ###### <i class="las la-sync"></i> Update {{<date>}}2021-06-29{{</date>}}
 
-The copyright claim dispute has been resolved and the song is now available on [SoundCloud](https://soundcloud.com/michaelschmidle/turn-the-page-feat-sydney-taylor/). I'm impressed by the speed at which SoundCloud processed the dispute. Thanks!
+The copyright claim dispute has been resolved and the song is now available on [SoundCloud](https://soundcloud.com/michaelschmidle/turn-the-page-feat-sydtherockerkid/). I'm impressed by the speed at which SoundCloud processed the dispute. Thanks!
 {{</card>}}
 
 ---
