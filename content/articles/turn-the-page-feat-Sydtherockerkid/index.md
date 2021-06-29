@@ -1,18 +1,23 @@
 ---
 title: Turn the Page Feat. Sydtherockerkid
 publishdate: 2021-06-27
+lastmod: 2021-06-29
 tags:
 - Music
 summary: While my disputed copyright claim is under review at SoundCloud, I release my song "Turn the Page" here–along with details about the legal stuff.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/8a6b7fa6-f9e5-437d-9126-150e0535e993
-aliases:
-- /articles/turn-the-page-feat-sydney-taylor
 ---
 
 {{<audio src="Turn the Page - Michael Schmidle feat. Sydtherockerkid.mp3" cover="v1624819830/covers/Turn_The_Page_-_Michael_Schmidle_feat._Sydtherockerkid">}}
 
 <small>© Copyright 2021 Michael Schmidle · All Rights Reserved</small>
+
+{{<card class="alert-light">}}
+###### <i class="las la-sync"></i> Update {{<date>}}2021-06-29{{</date>}}
+
+The copyright claim dispute has been resolved and the song is now available on [SoundCloud](https://soundcloud.com/michaelschmidle/turn-the-page-feat-sydney-taylor/). I'm impressed by the speed at which SoundCloud processed the dispute. Thanks!
+{{</card>}}
 
 ---
 
