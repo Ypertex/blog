@@ -72,7 +72,7 @@ All in all, I now can use four distinct audio sources and route them to separate
 
 ## Step 5: Configure Your DAW
 
-With Voicemeeter set up, configure your DAW to use the Voicemeeter VAIO interface. Since this interface receives the five stereo or ten mono tracks as inputs, you now can record or manipulate these inputs as you would with any other track in your DAW.
+With Voicemeeter set up, configure your DAW to use the Voicemeeter VAIO interface. Since this interface receives the four stereo or eight mono tracks as inputs, you now can record or manipulate these inputs as you would with any other track in your DAW.
 
 The output of your DAW is sent back over the Voicemeeter VAIO interface and routed to your main hardware output where you can listen to the final mix.
 
