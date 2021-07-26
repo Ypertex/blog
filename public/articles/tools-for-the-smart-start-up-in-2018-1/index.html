@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.86.0" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -362,7 +362,7 @@
     </figcaption>
 </figure>
 <p>The installation of Guacamole is a bit of a head-scratcher, though. Following the official installation guide involves many manual steps. Fortunately, some smart people found <a href="https://github.com/BrowncoatShadow/compose-guacamole">ways to simplify the process</a> with the help of <a href="https://www.docker.com/">Docker</a>. So, all you need is a Linux virtual machine somewhere (i.e. on the server from Hetzner that runs all your virtual desktops), install Docker and <a href="https://docs.docker.com/compose/">Docker Compose</a> and then run the following three commands:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone git@github.com:BrowncoatShadow/compose-guacamole.git
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone git@github.com:BrowncoatShadow/compose-guacamole.git
 cd docker-compose-guacamole
 sudo docker-compose up -d</code></pre></div>
 <p>Now point your browser to your Docker host that runs the Guacamole container, log in and add the users and virtual desktops. That’s it. You now have your browser-accessible virtual desktop infrastructure up and running at extremely low cost.</p>

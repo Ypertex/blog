@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.86.0" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -162,12 +162,12 @@
 </blockquote>
 <h2 id="avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request">Avoiding Curl Error 22 (The Requested URL Returned Error: 400 Bad Request)&nbsp;<a href="#avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request" class="heading">¶</a></h2>
 <p>A few days ago, I started to receive above curl error 22 when deploying the JumpCloud agent on a new Linux virtual machine (generic Ubuntu Server 16.04.2 LTS). The error occurs mostly consistently, but only in some environments and not in others. For example, it reliably works at <a href="http://www.vultr.com/?ref=6803870">Vultr</a> <small>(affiliation link)</small> and on my hypervisor on my desktop at home; but it continuously fails on my hypervisor at <a href="https://www.ovh.com/">OVH</a>. Results at <a href="https://www.scaleway.com/">Scaleway</a> were mixed: It worked in a first and failed in a second test on two different bare metal servers. I have still to pinpoint the exact issue but I could narrow the error down to the part in the install script that checks the local system time (the call of the URL <code>https://kickstart.jumpcloud.com/Time</code> apparently returns an HTTP status code <code>40x</code>). Anyway, the error says:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl: <span style="color:#f92672">(</span>22<span style="color:#f92672">)</span> The requested URL returned error: <span style="color:#ae81ff">400</span> Bad Request</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl: <span style="color:#f92672">(</span>22<span style="color:#f92672">)</span> The requested URL returned error: <span style="color:#ae81ff">400</span> Bad Request</code></pre></div>
 <p>Here is how to work around it: Instead of using the command provided by JumpCloud, use the following one (remember that I removed my connect key in the following command):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl --silent --show-error --header <span style="color:#e6db74">&#39;x-connect-key: [your individual connect key]&#39;</span> https://kickstart.jumpcloud.com/Kickstart &gt; jc.sh</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl --silent --show-error --header <span style="color:#e6db74">&#39;x-connect-key: [your individual connect key]&#39;</span> https://kickstart.jumpcloud.com/Kickstart &gt; jc.sh</code></pre></div>
 <p>Note the closing <code>&gt; jc.sh</code> instead of the original <code>| sudo bash</code>. This way you only download the installer script and save it to the file <code>jc.sh</code> instead of executing it right away.</p>
 <p>Then, open the downloaded installer script with your favorite editor, i.e. <code>nano jc.sh</code>. Prefix the following six lines in the script with the <code>#</code> character to comment these commands out so that they do not get executed when running the script:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#logMessage &#39;Checking local system time...&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#logMessage &#39;Checking local system time...&#39;</span>
 <span style="color:#75715e">#localTime=&#34;$(date +%s)&#34;</span>
 <span style="color:#75715e">#curlAgentWithoutCerts --data &#34;time=$localTime&#34; &#34;$timeUrl&#34;</span>
 <span style="color:#75715e">#setTimeIfIncorrect &#34;$?&#34; &#34;Your system time seems inaccurate. Please ensure your system is set to the correct time by running ntpdate (&#39;ntpdate -u pool.ntp.org&#39;) or verifying that ntpd is configured properly.&#34;</span>

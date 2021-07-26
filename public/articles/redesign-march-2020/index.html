@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.86.0" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -192,7 +192,7 @@
     <h5 id="i-classlas-la-synci-edited-jul-21-2020"><i class="las la-sync"></i> Edited Jul 21, 2020</h5>
 <p>With the introduction of <a href="https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks">Markdown Render Hooks</a> for headings in Hugo v0.71.0, title capizalization can be automated.</p>
 <p>Follow the <a href="https://gohugo.io/getting-started/configuration-markup#heading-link-example">example given in Hugo&rsquo;s documentation</a>. Then, simply add the modifiers <code>| markdownify</code> and <code>| title</code> to the <code>.Text</code> variable:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Text</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">markdownify</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">safeHTML</span> <span style="color:#75715e">}}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Text</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">markdownify</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">safeHTML</span> <span style="color:#75715e">}}</span></code></pre></div>
 <p>The <code>| markdownify</code> modifier is necessary to properly deal with HTML entities like <code>&amp;hellip;</code> first.</p>
 <p>From now on, Hugo will take care of title capitalization for you!</p>
 

@@ -1,5 +1,5 @@
 ---
-title: Multisource-Multitrack Recording in Your Daw
+title: Multisource-Multitrack Recording in Your DAW
 publishdate: 2021-07-16
 tags:
 - Music
