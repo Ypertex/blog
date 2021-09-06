@@ -1,0 +1,4 @@
+<div class="text-center my-5">
+    <a href="{{ with .Get `href` }}{{ . }}{{ end }}" class="btn btn-shadow{{ with .Get `class` }} {{ . }}{{ end }}" role="button"{{ with .Get `target` }} target="{{ . }}"{{ end }}>{{ .Inner | markdownify }}</a>
+    {{ with .Get `description` }}<p class="text-muted"><small>{{ . }}</small>{{ end }}</p>
+</div>

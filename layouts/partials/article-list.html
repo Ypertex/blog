@@ -1,8 +1,6 @@
-<section class="container py-5">
-    {{ range $index, $article := .Paginator.Pages }}
-    {{ if gt $index 0 }}
-    <hr>
-    {{ end }}
-    {{ partial "covered-article-head.html" (dict "article" $article "cloudinary" .Site.Params.cloudinary "inverted" (modBool $index 2)) }}
-    {{ end }}
-</section>
+{{ range $index, $article := (.Paginate .Pages).Pages }}
+{{ if gt $index 0 }}
+<hr>
+{{ end }}
+{{ partial "article-head-covered.html" (dict "article" $article "cloudinary" .Site.Params.cloudinary "inverted" (modBool $index 2)) }}
+{{ end }}

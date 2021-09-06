@@ -14,6 +14,8 @@
         </div>
     </div>
 </section>
+<section class="container py-5">
 {{ partial "article-list.html" (.GetPage "articles") }}
+</section>
 {{ partial "pagination.html" (.GetPage "articles") }}
 {{ end }}

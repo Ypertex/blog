@@ -1,0 +1,14 @@
+{{ $related := .Parent.RegularPages.Related . | first 4 }}
+{{ if $related }}
+<section class="container py-5">
+    <div class="yx-heading">
+        Recommended Articles
+    </div>
+    {{ range $index, $article := $related }}
+    {{ if gt $index 0 }}
+    <hr>
+    {{ end }}
+    {{ partial "article-head-covered.html" (dict "article" $article "cloudinary" .Site.Params.cloudinary "inverted" (modBool $index 2)) }}
+    {{ end }}
+</section>
+{{ end }}

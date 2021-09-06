@@ -1,7 +1,8 @@
 <section class="jumbotron">
     <div class="container">
         <h1>{{ .Title | title | markdownify }}</h1>
-        {{if .Date }}{{ partial "article-date.html" . }}{{ end }}
+        {{if .Date }}{{ partial "article-meta.html" . }}{{ end }}
         {{ if .Params.tags }}{{ partial "article-tags.html" . }}{{ end }}
+        {{ if ne .CurrentSection .FirstSection }}{{ partial "article-topchapter" . }}{{ end }}        
     </div>
 </section>

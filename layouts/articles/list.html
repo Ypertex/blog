@@ -4,7 +4,25 @@
         <h1>{{ .Title }}</h1>
     </div>
 </section>
+{{ if and .Content (eq 1 (.Paginate .Pages).PageNumber)}}
+<section class="bg-light">
+    <div class="container py-3 text-center">
+        {{ if .Date }}{{ partial "article-meta.html" . }}{{ end }}
+        {{ if .Params.tags }}{{ partial "article-tags.html" . }}{{ end }}
+    </div>
+</section>
+{{ partial "article-content.html" . }}
+{{ partial "author-about.html" (.GetPage "author") }}
+{{ else }}
 {{ partial "pagination.html" . }}
-{{ partial "article-list.html" . }}
+{{ end }}
+<section class="container py-5">
+    {{ if .Content }}
+    <div class="yx-heading">
+        Subchapters
+    </div>
+    {{ end }}
+    {{ partial "article-list.html" . }}
+</section>
 {{ partial "pagination.html" . }}
 {{ end }}

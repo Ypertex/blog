@@ -1,4 +1,4 @@
-<p>
+<p class="mb-2">
     {{ range .GetTerms "tags" }}
     <a href="{{ .RelPermalink }}" class="badge badge-primary"><i class="las la-hashtag"></i>{{ .LinkTitle }}</a>
     {{ end }}

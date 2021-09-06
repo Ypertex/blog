@@ -36,7 +36,9 @@
 {{ if gt (len .Pages) 10 }}
 {{ partial "pagination.html" . }}
 {{ end }}
+<section class="container py-5">
 {{ partial "article-list.html" . }}
+</section>
 {{ if gt (len .Pages) 10 }}
 {{ partial "pagination.html" . }}
 {{ end }}

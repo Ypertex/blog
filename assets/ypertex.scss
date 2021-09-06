@@ -2,9 +2,13 @@ $primary: #00aaff;
 $primary-dark: #0084c6;
 $primary-light: #39bdff;
 $success: #39f40b;
+$success-dark: #2CBE09;
 $warning: #ff7b00;
+$warning-dark: #C66000;
 $danger: #ff001d;
+$danker-dark: #C60017;
 $info: #1c0bf4;
+$info-dark: #1609BE;
 
 $factor: 87.5%;
 
@@ -112,7 +116,7 @@ header, footer {
         @extend .text-dark, .text-left;
     }
 }
-.card {
+.card, .btn-shadow {
     @extend .shadow;
 }
 .card-footer {
@@ -125,6 +129,30 @@ header, footer {
     a {
         @extend .alert-link;
     }
+}
+.alert-primary a {
+    color: $primary-dark;
+}
+.alert-secondary a {
+    color: $gray-700;
+}
+.alert-light a {
+    color: $gray-500;
+}
+.alert-dark a {
+    color: $gray-800;
+}
+.alert-info a {
+    color: $info-dark;
+}
+.alert-success a {
+    color: $success-dark;
+}
+.alert-warning a {
+    color: $warning-dark;
+}
+.alert-danger a {
+    color: $danker-dark;
 }
 .yx-jumbotron {
     @extend  .jumbotron,, .bg-primary, .text-light;

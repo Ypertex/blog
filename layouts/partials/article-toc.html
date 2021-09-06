@@ -1,0 +1,25 @@
+<div class="card p-3">
+    <h6>Chapters</h6>
+    <ul class="nav nav-pills">
+        {{ if .Page.IsPage }}
+        <li class="nav-item">
+            <small><a class="nav-link" href="{{ .Parent.RelPermalink }}">Main Article</a></small>
+        </li>
+        {{ $currentPage := . }}
+        {{ range .Parent.Pages }}
+        <li class="nav-item">
+            <small><a class="nav-link{{ if in $currentPage.RelPermalink .RelPermalink }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></small>
+        </li>
+        {{ end }}
+        {{ else }}
+        <li class="nav-item">
+            <small><a class="nav-link active" href="{{ .RelPermalink }}">Main Article</a></small>
+        </li>
+        {{ range .Pages }}
+        <li class="nav-item">
+            <small><a class="nav-link" href="{{ .RelPermalink }}">{{ .Title }}</a></small>
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</div>
