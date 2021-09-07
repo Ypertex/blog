@@ -12,7 +12,7 @@ images:
 
 # IOOI's Value Proposition
 
-Our environments change more and more rapidly, and entire industries get disrupted left, right, and centre. An idea that seemed to be "OK" a moment ago, might become meaning- and worthless quickly under these ever-changing conditions.
+Our environments change more and more rapidly, and entire industries get disrupted left, right, and centre. An idea that seemed to be "OK" a moment ago, might quickly become meaning- and worthless under these ever-changing conditions.
 
 Additionally, we tend to be short-sighted at work. Maybe some of the following three statements appear vaguely familiar:
 
