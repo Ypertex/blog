@@ -43,8 +43,8 @@ So, the big difference is whether you can only influence or entirely control som
 
 When filling out the [IOOI Canvas](../#canvas-for-your-projects), try to start at the top with Impact. Imagine a moment in the future when the desired Impact has already happened. Note down your first idea on how to describe that future.
 
-**Is it something in face of which your team simply has been insignificant no matter what?** Then you went too far beyond the realm of what your team can influence. Break it down until you get in your team's sphere of incluence.
+**Is it something in face of which your team simply has been insignificant no matter what?** Then you went too far beyond the realm of what your team can influence. Break it down until you get in your team's sphere of influence.
 
-Once you found an Impact that can be influenced by your team, ask yourself (again looking back from the hypothetcial, ideal future): **Is it something that your team has been perfectly capable of achieving by itself?** If yes, then you found a candidate for Outcome.
+Once you found an Impact that can be influenced by your team, ask yourself (again looking back from the hypothetical, ideal future): **Is it something that your team has been perfectly capable of achieving by itself?** If yes, then you found a candidate for Outcome.
 
 Of course, if the Impact eludes you and nobody else can answer your questions, pause for a moment. Is it possible that there's no real purpose for the team the way it's set up right now? Then it might be time to think about repurposing the team...
