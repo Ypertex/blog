@@ -45,7 +45,7 @@ OK, now that we've stopped playing omniscient gods and returned to being mortal 
 
 There's one aspect that I can observe in the current COVID-19 discussions: **People are misaligned about the basic problem to solve.** It means that people try to develop solutions for different problems---without knowing it. This leads, of course, to surprises and frustrations since the solutions developed by others are bad fits for the problem that *I myself* try to solve.
 
-How can we be misaligned regarding the COVID-19 problem to solve, you ask? Excellent question. Here are a few possible interpretations. The basic problem is that ...
+How can we be misaligned regarding the COVID-19 problem to solve, you ask? Excellent question. Here are a few possible interpretations. The basic problem could be that ...
 
 * People die from COVID-19.
 * Hospitals are overloaded from COVID-19 patients.
