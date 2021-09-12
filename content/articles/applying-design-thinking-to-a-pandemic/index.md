@@ -33,7 +33,7 @@ The general benefits of this approach? People are more willing to be patient and
 * People don't expect immediate perfection from beginners. They accept that beginners make mistakes as part of their learning process.
 * People more readily share their knowledge with beginners.
 
-# No Time for Patience---it's costing Peoples' Lives!
+# No Time for Patience---it's costing People's Lives!
 
 Exactly, lives are at stake. That's all the more reason to do this the best way possible. In my book, *pretending to know everything* qualifies as worst way possible: Success will then depend on pure luck.
 
