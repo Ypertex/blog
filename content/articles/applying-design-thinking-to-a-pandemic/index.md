@@ -104,4 +104,4 @@ What's left is to discuss the legitimacy of each problem and if it's worth to be
 
 In this article, I tried to bring conversations about the COVID-19 crisis back to a constructive level. Let's stop pretending we're all pandemic experts and start accepting we're all beginners in this.
 
-Also, the COVID-19 situation consists of a multitude of problems that might be more worthy of solving for some people than for others. Solutions for one problem may be a bad fit or even harmful for solutions of other problems. Yet, as long as we believe we're all solving the same problem while we clearly aren't, we won't be very successful doing so.
+Also, the COVID-19 situation consists of a multitude of problems---and each problem being worthy of solving to different people. Solutions for one problem may be a bad fit or even harmful for solutions of other problems. Yet, as long as we believe we're all solving the same problem while we clearly aren't, we won't be very successful doing so.
