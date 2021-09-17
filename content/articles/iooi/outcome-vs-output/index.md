@@ -43,6 +43,6 @@ When filling out the [IOOI Canvas](../#canvas-for-your-projects), try to start f
 
 For Outcome, try to answer three questions: who benefits, how do they benefit, and how can the benefit be measured? Don't worry if you lack well established indicators. Invent them with your team. It’s OK to start with imperfect ones and improve over time!
 
-If you're describing something that will have an *immediately lasting* effect right after you finished your work, you're most likely describing your Output. Releasing software or publishing content is Output; whatever the released software or the published content *causes* in your users is Outcome. Will your new app increase revenue? Will your new strategy change the behaviour of employees?
-
 If your team's Outcome can contribute to more than one element of your Impact, map the different Outcomes to the different Impacts. For instance: If your company's objectives are to increase revenue *and* to lower costs---and your team contributes to both: Make the exercise of defining audiences, benefits, and indicators for each of the Impact's elements.
+
+If you're describing something that will have an *immediately lasting* effect right after you finished your work, you're most likely describing your Output. Releasing software or publishing content is Output; whatever the released software or the published content *causes* in your users is Outcome. Will your new app increase revenue? Will your new strategy change the behaviour of employees?
