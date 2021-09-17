@@ -30,7 +30,7 @@ Outcome and Output are both something that our team can fully control. The diffe
 
 **Outcome:** "Today, five new clients ordered our service!" The Outcome is a *late reaction* to what your team did *earlier* on several occasions.
 
-**Output:** "Today, I've spoken to five potential new clients!" The Output is an *action*, something *immediately* visible and tangible. Something that becomes meaningful only through the *later reaction* of your users.
+**Output:** "Today, I've spoken to five potential new clients!" The Output is an *action*, something *immediately* visible and tangible (i.e., like meeting minutes or a log entry in your <abbr title="Customer Relationship Management">CRM</abbr> system). Something that becomes meaningful only through the *later reaction* of your users.
 
 
 {{</note>}}
@@ -39,7 +39,7 @@ Outcome and Output are both something that our team can fully control. The diffe
 
 # Considerations
 
-When filling out the [IOOI Canvas](../#canvas-for-your-projects), try to focus on Outcome first. Write down whatever comes to mind. If you use sticky notes, you can move them around if you discover that you misplaced them in the beginning.
+When filling out the [IOOI Canvas](../#canvas-for-your-projects), try to start from the top. Write down whatever comes to mind. If you use sticky notes, you can move them around if you discover that you misplaced them in the beginning.
 
 For Outcome, try to answer three questions: who benefits, how do they benefit, and how can the benefit be measured? Don't worry if you lack well established indicators. Invent them with your team. It’s OK to start with imperfect ones and improve over time!
 
