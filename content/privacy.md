@@ -1,12 +1,13 @@
 ---
 title: Privacy Policy
 date: 2018-11-02
+lastmod: 2021-09-25
 summary: This Website collects some Personal Data from its Users. This policy is to inform about the nature, scope, and purpose of the Personal Data collected, used and processed. Furthermore, this data protection declaration informs the Users of the rights to which they are entitled.
 ---
 
 ## Owner and Data Controller
 
-[Michael Schmidle](/)
+Michael Schmidle (michael.schmidle at ypertex dot com)
 
 ## Types of Data Collected
 
@@ -105,30 +106,6 @@ This widget is set up in a way that ensures that YouTube won’t store informati
 
 Personal Data collected: Usage Data. Place of processing: United States, see Google’s [Privacy Policy](https://policies.google.com/privacy/). Privacy Shield participant.
 
-### Interaction with External Social Networks and Platforms
-
-This type of service allows interaction with social networks or other external platforms directly from the pages of this Website.
-The interaction and information obtained through this Website are always subject to the User’s privacy settings for each social network.
-This type of service might still collect traffic data for the pages where the service is installed, even when Users do not use it.
-
-#### LinkedIn Button and Social Widgets (LinkedIn Corporation)
-
-The LinkedIn button and social widgets are services allowing interaction with the LinkedIn social network provided by LinkedIn Corporation.
-
-Personal Data collected: Cookies and Usage Data. Place of processing: United States, see LinkedIn’s [Privacy Policy](https://www.linkedin.com/legal/privacy-policy). Privacy Shield participant.
-
-#### Facebook Like Button and Social Widgets (Facebook, Inc.)
-
-The Facebook Like button and social widgets are services allowing interaction with the Facebook social network provided by Facebook, Inc.
-
-Personal Data collected: Cookies and Usage Data. Place of processing: United States, see Facebook’s [Privacy Policy](https://www.facebook.com/privacy/explanation). Privacy Shield participant.
-
-#### Twitter Tweet Button and Social Widgets (Twitter, Inc.)
-
-The Twitter Tweet button and social widgets are services allowing interaction with the Twitter social network provided by Twitter, Inc.
-
-Personal Data collected: Cookies and Usage Data. Place of processing: United States, see Twitter’s [Privacy Policy](https://twitter.com/privacy). Privacy Shield participant.
-
 ## The Rights of Users
 
 Users may exercise certain rights regarding their Data processed by the Owner.
@@ -180,7 +157,7 @@ This Website does not support “Do Not Track” requests. To determine whether 
 
 ### Changes to this Privacy Policy
 
-The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within this Website and/or—as far as technically and legally feasible—sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.
+The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within this Website and/or—as far as technically and legally feasible—sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the top.
 
 Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.
 
@@ -228,6 +205,6 @@ Small sets of data stored in the User’s device.
 
 ### Legal information
 
-This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13 and 14 of Regulation (EU) ``2016/679`` (General Data Protection Regulation).
+This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13 and 14 of Regulation (EU) 2016/679 (General Data Protection Regulation).
 
 This privacy policy relates solely to this Website, if not stated otherwise within this document.

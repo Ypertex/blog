@@ -26,7 +26,7 @@ As it often goes with experts: Ask two and you will get three different opinions
 
 {{<figure src="e7f7b1ca-87cb-4093-bcad-01f34830d8a5">}}Are we all COVID-19 experts?{{</figure>}}
 
-So how about we're honest and humble for a moment---and **admit that, individually and collectively, we all are beginners in all of this**? Nobody has a track record of several successfully solved pandemics of COVID-19's scale. So, let's stop pretending!
+So how about we're honest and humble for a moment---and **admit that, individually and collectively, we all are beginners in all of this**? Nobody has a track record of several successfully solved pandemics of COVID-19's scale. (There are people who have studied and trained their entire professional life for such scenarios, of course---and I'm thankful for their work. Yet in practical terms, even for them it's the first pandemic. In other words: There are expert beginners and layperson beginners.) So, let's stop pretending!
 
 The general benefits of this approach? People are more willing to be patient and supportive with beginners. Just to name two examples:
 
