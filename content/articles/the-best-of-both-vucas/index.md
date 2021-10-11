@@ -4,7 +4,7 @@ publishdate: 2021-10-11
 tags:
 - Leadership
 - Innovation
-summary: Ideas on how to combine one VUCA with the other VUCA---and benefit from both. Impossible? Let's find out.
+summary: "Ever heard of VUCA---as in: Volatility, Uncertainty, Complexity, and Ambiguity? Ever thought that these aspects could actually be beneficial on a certain level? Let's find out."
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/fa93b1db-267a-400d-90c1-7b2e4b152c6f
 ---
