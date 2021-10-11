@@ -55,8 +55,8 @@ Say hello to an old friend: Stairs to Success (S2S). It's a simple method that's
 It helps to be more successful when collaborating with others. According to S2S, we should pay attention to the following order and ...
 
 1. Focus on **relationships** by answering first the question of **who and why**.
-2. Switch to the **process** level. In this second step, answer the question of **how**.
-3. Work on the **subject** matter. Only after taking care of the first two levels, it's time to jump into the real work as a third step. Here's where you work on the **what**.
+2. Switch to the **process** level in a second step to answer the question of **how**.
+3. Work on the **subject** matter after taking care of the first two levels. Here's where you work on the **what**.
 4. After your work, return to the **process** level in a fourth step.
 5. Finally, land on the **relationship** level again. Invest a bit of time to foster relationships for the next time you'll be working together.
 
