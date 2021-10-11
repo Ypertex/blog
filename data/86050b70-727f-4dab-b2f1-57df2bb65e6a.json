@@ -1,0 +1,45 @@
+{
+    "status": "success",
+    "data": {
+        "title": "What is VUCA and How Do You Lead in Challenging Times?",
+        "description": "VUCA is Volatility, Uncertainty, Complexity and Ambiguity, and leaders need to have Vision, Understanding, Clarity and Agility as an antidote.",
+        "lang": "en",
+        "author": "Yağmur Vatangül",
+        "publisher": "Response | Digital Growth Agency",
+        "image": {
+            "url": "https://www.responsedga.com/wp-content/uploads/2021/03/110623558_m.jpg",
+            "type": "jpg",
+            "size": 698463,
+            "size_pretty": "698 kB"
+        },
+        "date": "2021-03-03T06:57:39.000Z",
+        "url": "https://www.responsedga.com/blog/what-is-vuca-and-how-do-you-lead-in-struggling-times/",
+        "logo": {
+            "url": "https://www.responsedga.com/wp-content/uploads/2021/10/cropped-1617613044746-270x270.jpg",
+            "type": "jpg",
+            "size": 5849,
+            "size_pretty": "5.85 kB"
+        }
+    },
+    "statusCode": 200,
+    "headers": {
+        "date": "Mon, 11 Oct 2021 18:22:49 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "x-powered-by": "PHP/7.4.24",
+        "set-cookie": "PHPSESSID=0d74a11d7c783e577357009bb1248100; path=/; secure",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "cache-control": "no-store, no-cache, must-revalidate",
+        "pragma": "no-cache",
+        "x-pingback": "https://www.responsedga.com/xmlrpc.php",
+        "link": "<https://www.responsedga.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.responsedga.com/wp-json/wp/v2/posts/9822>; rel=\"alternate\"; type=\"application/json\"\n<https://www.responsedga.com/?p=9822>; rel=shortlink",
+        "vary": "Accept-Encoding",
+        "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400",
+        "cf-cache-status": "DYNAMIC",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hIHXXgfxhiE2wECG8z0qtU3PqSmuXShVemI7WcLXpHaCbo2YUEEnFBqSoottisrMKDcAnxdQ%2FXiCSdvfBWi0JsiKiJLe9UBL6djz1%2B4zoGr%2FSeupkIYLbZLNyvxuM6UN8Jo4RA8h\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "cf-ray": "69ca1dad3d593348-EWR",
+        "content-encoding": "br"
+    }
+}

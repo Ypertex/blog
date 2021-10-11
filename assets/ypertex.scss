@@ -325,6 +325,9 @@ header, footer {
     }
     table {
         @extend small, .table, .table-striped, .table-hover, .my-5;
+        thead {
+            font-weight: bold;
+        }
     }
     pre, .alert {
         @extend .p-3;
