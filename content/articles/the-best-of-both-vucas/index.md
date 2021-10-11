@@ -44,20 +44,20 @@ Before we look at how to combine the two, let's first tell them better apart:
 
 It still puzzles me how the inventors of the Inner VUCA (proponents of the C as in Clarity) couldn't come up with more ... wait for it ... *clarity* in the acronyms. 🙄
 
-# Combining Inner and Outer VUCAs
+# Combining Inner and Outer VUCAs ...
 
 {{<figure src="fa93b1db-267a-400d-90c1-7b2e4b152c6f">}}What happens if you combine an eagle and a rabbit?{{</figure>}}
 
-## Quick Intro to S2S
+## ... With the Help of S2S
 
 Say hello to an old friend: Stairs to Success (S2S). It's a simple method that's specifically designed to answer the "When's what?" question.
 
 It helps to be more successful when collaborating with others. According to S2S, we should pay attention to the following order and ...
 
-1. Focus on **relationships**. Not just between people and people---but also relationships between people and the challenge at hand. Let's answer first the question of **who and why**.
-2. Switch to the **process** level. Elaborate what happened so far, what the risks are, what's on the agenda, and how you plan to tackle the challenge. In this second step, answer the question of **how**.
-3. Work on the **subject** matter. Only after taking care of the first two levels, it's time to jump into the real work as a third step. Assuming your relationship and process levels are solid, collaborators will be ready to do crazy stuff at this third level. Here's where you work on the **what**.
-4. After your work, return to the **process** level in a fourth step. Reflect on how it went, what's left to do by when, assign responsibilities for the next steps, and so on.
+1. Focus on **relationships** by answering first the question of **who and why**.
+2. Switch to the **process** level. In this second step, answer the question of **how**.
+3. Work on the **subject** matter. Only after taking care of the first two levels, it's time to jump into the real work as a third step. Here's where you work on the **what**.
+4. After your work, return to the **process** level in a fourth step.
 5. Finally, land on the **relationship** level again. Invest a bit of time to foster relationships for the next time you'll be working together.
 
 The illustration of the steps looks like this:
@@ -103,7 +103,7 @@ If you ask me, I'll summarize it this way: If the Inner VUCA is strong on the re
 
 Let's illustrate with some examples:
 
-{{<note class="alert-secondary">}}
+{{<note class="alert-secondary mt-5">}}
 ###### <i class="las la-lightbulb"></i> Example 1: An Evening at the Cinema
 
 When you go to the movies, you want to be treated properly on the relationship level by the employees. You want to know on the process level when exactly your movie starts. On these two levels, any surprise is a bad surprise.
@@ -111,7 +111,7 @@ When you go to the movies, you want to be treated properly on the relationship l
 When it comes to the film itself, it'd be utterly boring if it'd be stable, certain, straight forward, or unambiguous. Surprises in movies are the reason why you want to see them in the first place. The movies you liked most were the ones that surprised you best.
 {{</note>}}
 
-{{<note class="alert-secondary">}}
+{{<note class="alert-secondary mt-5">}}
 ###### <i class="las la-lightbulb"></i> Example 2: Your Marriage
 
 It's obvious that nobody's happy about volatility, uncertainty, complexity, or ambiguity on the relationship level in their marriage. The same goes for the process level: You'd want it to be clear when it's your turn to bring the kids to school---and when it's your partner's turn.
@@ -119,7 +119,7 @@ It's obvious that nobody's happy about volatility, uncertainty, complexity, or a
 If the two fundamental levels are OK, you're ready to deal with everything that life throws at you. Some of it might be annoying, some of it might bring new opportunities.
 {{</note>}}
 
-{{<note class="alert-secondary">}}
+{{<note class="alert-secondary mt-5">}}
 ###### <i class="las la-lightbulb"></i> Example 3: Refloating a Stuck Project
 
 Imagine a colleague of yours is stuck in a project and asks for your help. They need a fresh perspective to get back on track. So, you come up with a few unconventional ideas.
@@ -139,3 +139,5 @@ In this article, I showed how both Inner and Outer VUCAs are multifaceted:
 
 * Volatility, Uncertainty, Complexity, and Ambiguity can be beneficial **on the subject level**. So don't eliminate it there!
 * Vision and Understanding help especially when building **relationships**. Clarity and Agility work well especially on the **process level**. So, focus your leadership work on these two levels!
+
+The mapping to the different levels of S2S helped me grasp even more the importance of the relationship and process levels.
