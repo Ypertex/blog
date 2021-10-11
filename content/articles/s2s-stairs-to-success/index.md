@@ -180,6 +180,5 @@ If you have ideas on how to improve this article or even know the original sourc
 
 # Recommended Reading
 
-A while ago, I wrote about the Westworld scoring competition by Spitfire Audio and HBO---and how it didn't end all too well. You might be interested in learning how the S2S method would apply to a PR-disaster and offer a way out:
-
 {{<preview-internal src="articles/westworld-scoring-competition-content-process-relationship">}}
+{{<preview-internal src="articles/the-best-of-both-vucas">}}
