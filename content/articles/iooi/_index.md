@@ -84,7 +84,7 @@ Picture two identical twins working on the same project under VUCA conditions:
 
 {{<figure src="64066ee8-9824-45d7-82be-24f6faaa7444" cite="[Alena Darmel](https://www.pexels.com/photo/twin-brothers-in-blue-v-neck-shirts-looking-at-laptop-screen-9040442/)">}}Tought experiment with twin brothers{{</figure>}}
 
-* One is asked: "Looking ahead from where you stand now, what is your plan to achieve success?"
+* One is asked: "Looking ahead from where you stand now at all the challenges in front of you, what is your plan to achieve success?"
 * The other is asked: "Let's assume you've put a lot of hard work into your project, finished it with great success, and you're really proud of the result. Looking back, what were the steps you took to get there?"
 
 You will get very different answers. The first will see more the obstacles ahead and struggle to come up with a coherent plan going forward. The second on the other hand will see more a clear path and "simply remember" the important steps that "were" necessary to complete the journey.

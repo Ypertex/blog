@@ -68,7 +68,7 @@ For step 1, be curious about your collaborators. How do they *really* do right n
 
 {{<figure src="c5938ef8-040c-4c4a-8752-22d143559575" cite="[Muhammad Faiz Zulkeflee](https://unsplash.com/photos/alw-CwGFmwQ)">}}If you're curious enough, you'll find out what's going on in people's lives.{{</figure>}}
 
-The long-term aspect is also why you should return to the relationship level over and over again---especially when completing a collaboration. Step 5 is the moment after a meeting, of a short assignment, or of a long project. The duration of the collaboration doesn't matter; returning to the relationship level will help in advance to kick off any upcoming collaboration (i.e. the next meeting, another gig, the next job).
+The long-term aspect is also why you should return to the relationship level over and over again---especially when completing a collaboration. Step 5 is the moment after a meeting, a short assignment, or a long project. The duration of the collaboration doesn't matter; returning to the relationship level will help in advance to kick off any upcoming collaboration (i.e. the next meeting, another gig, the next job).
 
 Ask people about their weekend plans. Circle back to the topics people talked about at the beginning (it shows that you listened) and wish them good luck in these endeavors. Next time, pick up the conversation from where you left off.
 
