@@ -229,6 +229,7 @@ header, footer {
 }
 .yx-avatar, .yx-favicon {
     @extend .mr-3, .rounded-circle;
+    border: $gray-300 1px solid;
     height: 64px;
     width: 64px;
 }
