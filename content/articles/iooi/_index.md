@@ -47,7 +47,7 @@ Only then---in reverse order---execute.
 
 If you want it a bit fancier, here's a chart that tries to explain the same thing in a more visual way. Below, there's even a canvas that you can download and use in your projects.
 
-{{<figure src="9f6f2861-1f88-436c-bee0-cd0c8da30e3a" transformation="inline">}}
+{{<figure src="0e188bfc-80f4-449e-84ae-dd1236ee4b3a" transformation="inline">}}
 Illustration of Impact, Outcome, Output, and Input---and how it all ties together
 {{</figure>}}
 
