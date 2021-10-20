@@ -47,7 +47,7 @@ Only then---in reverse order---execute.
 
 If you want it a bit fancier, here's a chart that tries to explain the same thing in a more visual way. Below, there's even a canvas that you can download and use in your projects.
 
-{{<figure src="b47ca0fe-bcf8-44ec-ad18-4e7bde28d6d8" transformation="inline">}}
+{{<figure src="9f6f2861-1f88-436c-bee0-cd0c8da30e3a" transformation="inline">}}
 Illustration of Impact, Outcome, Output, and Input---and how it all ties together
 {{</figure>}}
 
@@ -55,7 +55,7 @@ Illustration of Impact, Outcome, Output, and Input---and how it all ties togethe
 
 Alright, you've decided to give IOOI a go in your projects. Congratulations! Download the template and use it in collaboration with your team to complete it bit by bit. Consider the quick tips below and the other subchapters to get the most out of IOOI.
 
-{{<button class="btn-lg btn-warning" href="2021-08-IOOI-Canvas.png" target="_blank" description=".png, 385KB">}}<i class="las la-download"></i> Download IOOI Canvas{{</button>}}
+{{<button class="btn-lg btn-warning" href="Ypertex-IOOI-Canvas.png" target="_blank" description=".png, 385KB">}}<i class="las la-download"></i> Download IOOI Canvas{{</button>}}
 
 I wish you lots of purpose and success in your endeavours!
 
