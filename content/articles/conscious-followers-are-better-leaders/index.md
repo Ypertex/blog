@@ -3,7 +3,6 @@ title: Conscious Followers Are Better Leaders
 publishdate: 2020-04-20
 lastmod: 2021-01-07
 tags:
-- Innovation
 - Leadership
 summary: Every leader follows something. The more they are conscious of what they follow, the better is their leadership.    
 images:
