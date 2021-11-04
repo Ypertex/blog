@@ -62,13 +62,13 @@ This approach ensures two aspects:
 
 In other words: Leaders must repeat themselves and their thought process. If they don't, their teams don't explore and define the problem well enough *for them* and might get stuck.
 
-So, to accelerate one's team, leaders must **run fast on their own**---then return and **run slow together** with their team. A bit like Disney's character Turbo, a slow snail that can run very fast, too.
+So, to accelerate their team, leaders must **run fast on their own**---then return and **run slow together** with their team. A bit like Disney's character Turbo, a slow snail that can run very fast, too.
 
 # Conclusion
 
-This article illustrates how people can disconnect when running with different speeds. While leaders are required to run fast---i.e., think ahead---they're also required to return and slow down to their team's speed.
+This article illustrates how people can disconnect when running with different speeds. While leaders are required to run fast---i.e., think ahead---they're also required to return and decelerate to their team's speed.
 
-In a sense, teams appear so slow down if their leaders run too fast ahead without returning and retracing their steps at the team's pace.
+Why? Because teams appear to slow down if their leaders run too fast ahead---without returning and retracing their steps at the team's pace.
 
 Which adds further truth to the saying:
 
