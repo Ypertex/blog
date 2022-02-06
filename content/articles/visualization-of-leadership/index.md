@@ -96,3 +96,10 @@ In this article, I shared an interpretation of leadership in times of transforma
 I showed the difference between operating in a settlement with a rather stable environment---and migrating away from a previous settlement through a dynamic environment. Hence, leadership roles change from **exploitation and optimization** towards **exploration and innovation**.
 
 I translated the analogy back to today's business world and briefly showed what, in general terms, can be done to help managers become transformation leaders.
+
+---
+
+{{<note class="alert alert-secondary">}}
+##### <i class="las la-balance-scale-left"></i> Disclaimer
+This article is an echo to what I learned in an OKR training by Stefan Engels in late 2021.
+{{</note>}}
