@@ -11,7 +11,7 @@ images:
 
 Imagine your company like a trek of settlers. They want to build a better future for themselves and are looking for the right piece of land on which to establish their new settlement. Just like the people depicted in Jackson's painting:
 
-{{<figure src="76c0b80e-3193-4011-ac26-66735a30c9f4">}}"Barlow Cutoff" by W. H. Jackson, ca. 1865, showing a trek of settlers near Mount Hood, Oregon{{</figure>}}
+{{<figure src="76c0b80e-3193-4011-ac26-66735a30c9f4" cite="Barlow Cutoff by W. H. Jackson, ca. 1865">}}A trek of settlers near Mount Hood, Oregon (US){{</figure>}}
 
 "What does it have to do with Digital Transformation?", you ask. Well, your company is in one spot today and wants to be in a different, more fruitful spot tomorrow. So, this group of people starts to move. And just like detailed maps or <abbr title="Global Positioning System">GPS</abbr> didn't exist in the 19<sup>th</sup> century, today's companies don't have the means of knowing upfront if their envisioned spot even exists, where exactly it's located nor what the best route is to reach it. They only know the general direction.
 
