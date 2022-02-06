@@ -52,7 +52,7 @@ And the same applied to the session before: While *I* felt the problem was alrea
 
 On the meta level, I now understood a bit better what leadership means:
 
-Leaders venture ahead and think about stuff that others don't think about *just yet*. Just like a scout. Then, leaders *return and retrace* their thoughts *together with their team*. Leadership isn't about sparing your team to think things through---it's about having it thought through *before* bringing the rest of the team on the ride with you.
+[Leaders venture ahead](/articles/visualization-of-leadership/) and think about stuff that others don't think about *just yet*. Just like a scout. Then, leaders *return and retrace* their thoughts *together with their team*. Leadership isn't about sparing your team to think things through---it's about having it thought through *before* bringing the rest of the team on the ride with you.
 
 This approach ensures two aspects:
 * As a leader, you only deploy your team when you have at least a vague sense that the endeavour is worth the investment.
