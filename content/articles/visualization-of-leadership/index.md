@@ -39,11 +39,10 @@ Here are a few ideas: They ...
 * ... identify opportunities and risks, then validate them with quick experiments
 * ... return and pass on the essence of their learnings to the rest of the group
 * ... observe the people in the trek and become aware of their challenges and needs
-* ... reassess the trek's route based on these learnings
-* ... direct the entire trek in new directions if necessary
+* ... reassess the trek's route based on these learnings and direct the entire trek in new directions if necessary
 * ... motivate people to go through harsh environments to reach their destination faster
 
-In contemporary management terms, it means: Leaders go constantly to conferences, seminars and trainings. For every of these "explorations", they pick the right companions to help the entire company learn as much and as fast as possible. They understand innovation as quick and effective way of de-risking the constant change. [Leaders return often](/articles/accelerate-your-team-by-repeating-yourself/) to camp and communicate the summary of their experiences. They listen to the needs of employees and specifically consider them on their next explorations. Together with them, they develop ideas on how and when to change strategies. Leaders stay true to their values, vision and mission; they reassure and motivate others to follow their example.
+In contemporary management terms, it means: Leaders go constantly to conferences, seminars and trainings. For every of these "explorations", they pick the right companions to help the entire company learn as much and as fast as possible. They understand innovation as quick and effective way of de-risking the constant change. [Leaders return often](/articles/accelerate-your-team-by-repeating-yourself/) to camp and communicate the summary of their experiences. They listen to the needs of employees and specifically consider them on their next explorations. Together with them, they develop ideas on how and when to change strategies. Leaders reassure and motivate others to follow the trails they blazed.
 
 So far, it seems like common sense, doesn't it? Now let's take a look at:
 
@@ -99,7 +98,7 @@ I translated the analogy back to today's business world and briefly showed what,
 
 ---
 
-{{<note class="alert alert-secondary">}}
+{{<note class="alert alert-light">}}
 ##### <i class="las la-balance-scale-left"></i> Disclaimer
 This article is an echo to what I learned in an OKR training by Stefan Engels in late 2021.
 {{</note>}}
