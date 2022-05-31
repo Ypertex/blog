@@ -1,6 +1,6 @@
 ---
 title: Who Has the Ressources to Innovate in Times of Transformation?
-publishdate: 2022-05-30
+publishdate: 2022-05-31
 tags:
 - Innovation
 - Strategy
@@ -29,9 +29,9 @@ Whoa. You can imagine that such transformations absorb a lot of an organization'
 
 It can also lead to interesting impressions:
 
-> We're so busy transforming the organization. How am I supposed to find the time to innovate on top of the transformation?
+> We're too busy transforming the organization. How am I supposed to find the time to innovate on top of the transformation?
 
-> Yes, innovation is important. We should go back to it once the ongoing transformation permits it.
+> Yes, innovation is important. We should get back to it once the ongoing transformation permits it.
 
 The conventional wisdom seems to be that innovation and transformation are largely separate topics. But are they?
 
