@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.92.1" />
+    <meta name="generator" content="Hugo 0.99.1" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -134,8 +134,8 @@
             <p class="lead">JumpCloud is a great tool to enable Single Sign-On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux.</p>
                     
             <hr>
-            <h2 id="introducing-jumpcloud">Introducing JumpCloud&nbsp;<a href="#introducing-jumpcloud" class="heading">¶</a></h2>
-<p>In case you have not yet heard about <a href="https://jumpcloud.com/">JumpCloud</a>: It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for <strong>Single Sign-On in web apps and clients</strong>. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, macOS and Windows clients and servers enables you and your directory users to log into these machines <em>with your directory credentials</em>. How awesome is that!</p>
+            <h2 id="introducing-jumpcloud">Introducing JumpCloud&nbsp<a href="#introducing-jumpcloud"
+        class="heading">¶</a></h2><p>In case you have not yet heard about <a href="https://jumpcloud.com/">JumpCloud</a>: It is a cloud service that leverages user directories like Active Directory, Office 365, and G Suite (previously known as Google Apps) for <strong>Single Sign-On in web apps and clients</strong>. My favorite feature of JumpCloud is its lightweight agent: Installing this little piece of software on Linux, macOS and Windows clients and servers enables you and your directory users to log into these machines <em>with your directory credentials</em>. How awesome is that!</p>
 <figure>
     
     <picture>
@@ -162,28 +162,28 @@
 <blockquote>
 <p>I rely on and do not want to miss the JumpCloud service to keep my little zoo of private virtual machines under control.</p>
 </blockquote>
-<h2 id="avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request">Avoiding Curl Error 22 (The Requested URL Returned Error: 400 Bad Request)&nbsp;<a href="#avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request" class="heading">¶</a></h2>
-<p>A few days ago, I started to receive above curl error 22 when deploying the JumpCloud agent on a new Linux virtual machine (generic Ubuntu Server 16.04.2 LTS). The error occurs mostly consistently, but only in some environments and not in others. For example, it reliably works at <a href="http://www.vultr.com/?ref=6803870">Vultr</a> <small>(affiliation link)</small> and on my hypervisor on my desktop at home; but it continuously fails on my hypervisor at <a href="https://www.ovh.com/">OVH</a>. Results at <a href="https://www.scaleway.com/">Scaleway</a> were mixed: It worked in a first and failed in a second test on two different bare metal servers. I have still to pinpoint the exact issue but I could narrow the error down to the part in the install script that checks the local system time (the call of the URL <code>https://kickstart.jumpcloud.com/Time</code> apparently returns an HTTP status code <code>40x</code>). Anyway, the error says:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl: <span style="color:#f92672">(</span>22<span style="color:#f92672">)</span> The requested URL returned error: <span style="color:#ae81ff">400</span> Bad Request</code></pre></div>
+<h2 id="avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request">Avoiding Curl Error 22 (the Requested URL Returned Error: 400 Bad Request)&nbsp<a href="#avoiding-curl-error-22-the-requested-url-returned-error-400-bad-request"
+        class="heading">¶</a></h2><p>A few days ago, I started to receive above curl error 22 when deploying the JumpCloud agent on a new Linux virtual machine (generic Ubuntu Server 16.04.2 LTS). The error occurs mostly consistently, but only in some environments and not in others. For example, it reliably works at <a href="http://www.vultr.com/?ref=6803870">Vultr</a> <small>(affiliation link)</small> and on my hypervisor on my desktop at home; but it continuously fails on my hypervisor at <a href="https://www.ovh.com/">OVH</a>. Results at <a href="https://www.scaleway.com/">Scaleway</a> were mixed: It worked in a first and failed in a second test on two different bare metal servers. I have still to pinpoint the exact issue but I could narrow the error down to the part in the install script that checks the local system time (the call of the URL <code>https://kickstart.jumpcloud.com/Time</code> apparently returns an HTTP status code <code>40x</code>). Anyway, the error says:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>curl: <span style="color:#f92672">(</span>22<span style="color:#f92672">)</span> The requested URL returned error: <span style="color:#ae81ff">400</span> Bad Request</span></span></code></pre></div>
 <p>Here is how to work around it: Instead of using the command provided by JumpCloud, use the following one (remember that I removed my connect key in the following command):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl --silent --show-error --header <span style="color:#e6db74">&#39;x-connect-key: [your individual connect key]&#39;</span> https://kickstart.jumpcloud.com/Kickstart &gt; jc.sh</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>curl --silent --show-error --header <span style="color:#e6db74">&#39;x-connect-key: [your individual connect key]&#39;</span> https://kickstart.jumpcloud.com/Kickstart &gt; jc.sh</span></span></code></pre></div>
 <p>Note the closing <code>&gt; jc.sh</code> instead of the original <code>| sudo bash</code>. This way you only download the installer script and save it to the file <code>jc.sh</code> instead of executing it right away.</p>
 <p>Then, open the downloaded installer script with your favorite editor, i.e. <code>nano jc.sh</code>. Prefix the following six lines in the script with the <code>#</code> character to comment these commands out so that they do not get executed when running the script:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#logMessage &#39;Checking local system time...&#39;</span>
-<span style="color:#75715e">#localTime=&#34;$(date +%s)&#34;</span>
-<span style="color:#75715e">#curlAgentWithoutCerts --data &#34;time=$localTime&#34; &#34;$timeUrl&#34;</span>
-<span style="color:#75715e">#setTimeIfIncorrect &#34;$?&#34; &#34;Your system time seems inaccurate. Please ensure your system is set to the correct time by running ntpdate (&#39;ntpdate -u pool.ntp.org&#39;) or verifying that ntpd is configured properly.&#34;</span>
-<span style="color:#75715e">#localTime=&#34;$(date +%s)&#34;</span>
-<span style="color:#75715e">#logMessage &#39;System time is accurate&#39;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#logMessage &#39;Checking local system time...&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#localTime=&#34;$(date +%s)&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#curlAgentWithoutCerts --data &#34;time=$localTime&#34; &#34;$timeUrl&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#setTimeIfIncorrect &#34;$?&#34; &#34;Your system time seems inaccurate. Please ensure your system is set to the correct time by running ntpdate (&#39;ntpdate -u pool.ntp.org&#39;) or verifying that ntpd is configured properly.&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#localTime=&#34;$(date +%s)&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#logMessage &#39;System time is accurate&#39;</span></span></span></code></pre></div>
 <p>Save the file and exit the editor, then execute the script: <code>sudo bash jc.sh</code>. Et voilà, the script now runs without error and successfully installs the JumpCloud agent.</p>
-<h2 id="conclusion">Conclusion&nbsp;<a href="#conclusion" class="heading">¶</a></h2>
-<p>JumpCloud allows you to use whatever physical or virtual Linux, macOS or Windows clients and servers with <em>your centrally managed credentials</em>—anywhere you need it, whenever you need it.</p>
+<h2 id="conclusion">Conclusion&nbsp<a href="#conclusion"
+        class="heading">¶</a></h2><p>JumpCloud allows you to use whatever physical or virtual Linux, macOS or Windows clients and servers with <em>your centrally managed credentials</em>—anywhere you need it, whenever you need it.</p>
 <p>The curl error is quite annoying and the workaround requires a few extra manual steps. I hope JumpCloud fixes this issue soon. In the meantime, at least one can continue to deploy the JumpCloud agent on Linux machines.</p>
 <p>If you have a better understanding of what the real issue is, please let me know via <a href="https://twitter.com/MichaelSchmidle">Twitter</a>. I will be happy to update this article accordingly. Thanks!</p>
 <hr>
 <div class="alert alert-primary">
-    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer</h5>
-<p>I am in no way affiliated with JumpCloud. The above praise is given as an IT professional who employs JumpCloud for personal use.
+    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer&nbsp<a href="#i-classlas-la-balance-scale-lefti-disclaimer"
+        class="heading">¶</a></h5><p>I am in no way affiliated with JumpCloud. The above praise is given as an IT professional who employs JumpCloud for personal use.
 </div>
 
             
@@ -202,7 +202,7 @@
         class="yx-avatar">
     <div class="media-body">
         <h4>Michael Schmidle</h4>
-        <p>Business Transformation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Start-up consultant, hobby music producer and blogger. Opinionated about technology, strategy, and leadership. In love with Mexico. This blog reflects my personal views.</p>
+        <p>Head of Business Development at the Swiss Radio and TV, <a href="https://www.srf.ch/">SRF</a>. Start-up consultant, hobby music producer and blogger. Opinionated about strategy, leadership, and media. In love with Mexico. This blog reflects my personal views.</p>
 
         <p class="mb-0">
             <a href="https://www.linkedin.com/in/MichaelSchmidle"
@@ -297,7 +297,7 @@
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
 <div class="yx-stretched-linkable mb-3">
     <h2>Unhide Virtual Network Adapters in Windows 10</h2>
-    <p>In Windows' latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
+    <p>In Windows&rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
 </div>
 <p class="mb-2">
     

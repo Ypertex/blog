@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.92.1" />
+    <meta name="generator" content="Hugo 0.99.1" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -168,12 +168,12 @@
 <p>For this series of articles, let’s assume a start-up with a team of eight people.</p>
 <hr>
 <div class="alert alert-primary">
-    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer</h5>
-<p>I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.
+    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer&nbsp<a href="#i-classlas-la-balance-scale-lefti-disclaimer"
+        class="heading">¶</a></h5><p>I am in no way affiliated with any of the vendors and providers mentioned below. My recommendations stem from personal and professional experience with these tools.
 </div>
 <hr>
-<h2 id="hardware">Hardware&nbsp;<a href="#hardware" class="heading">¶</a></h2>
-<p>To start, your team probably needs some hardware to communicate and collaborate. Outfitting everybody with devices can quickly exceed your budget, though. Imagine paying upfront a total of $4,000 for eight mid-range laptops, before your team even worked a single minute on the project…</p>
+<h2 id="hardware">Hardware&nbsp<a href="#hardware"
+        class="heading">¶</a></h2><p>To start, your team probably needs some hardware to communicate and collaborate. Outfitting everybody with devices can quickly exceed your budget, though. Imagine paying upfront a total of $4,000 for eight mid-range laptops, before your team even worked a single minute on the project…</p>
 <figure>
     
     <picture>
@@ -195,13 +195,13 @@
     </figcaption>
 </figure>
 <p>So, here are a few ideas on how to address this challenge:</p>
-<h3 id="byod-bring-your-own-device">BYOD: Bring Your Own Device&nbsp;<a href="#byod-bring-your-own-device" class="heading">¶</a></h3>
-<p>This is probably a no-brainer, but still: Just have your team use their privately owned devices to work on your project. These are already set up and operational, so you and your teammates can hit the ground running. This concept of &lt;abbr=&ldquo;Bring Your Own Device&rdquo;&gt;BYOD</abbr> will carry you a long way.</p>
+<h3 id="byod-bring-your-own-device">BYOD: Bring Your Own Device&nbsp<a href="#byod-bring-your-own-device"
+        class="heading">¶</a></h3><p>This is probably a no-brainer, but still: Just have your team use their privately owned devices to work on your project. These are already set up and operational, so you and your teammates can hit the ground running. This concept of &lt;abbr=&ldquo;Bring Your Own Device&rdquo;&gt;BYOD</abbr> will carry you a long way.</p>
 <p>At some point though, your team probably will run into more and more issues due to the different setups of their hardware and operating systems: Apple users might have problems to work on files that are used by users with Microsoft devices–while the Windows people might not be able to execute applications that run just fine on macOS systems. The friction caused by BYOD starts to show.</p>
 <p>One way to deal with this is to install a hypervisor on each device and run a virtual machine on top of it. This gives you the ability to align the virtual working environment of all team members and eliminate interoperability issues. For example: With <a href="https://www.virtualbox.org/">VirtualBox</a> as hypervisor and a Linux distribution like <a href="https://www.ubuntu.com/">Ubuntu</a> as the desktop operating system for the virtual machines, you can set up a cost-free and homogeneous virtual workplace for your entire team. (In cases where Linux is no option and you need a Microsoft operating system: There are ways to buy genuine but cheap software <a href="#microsoft-software-licensing">as described below</a>. Virtualizing Apple operating systems, unfortunately, is no practical option due to legal and technical impediments.)</p>
 <p>Then there are cases where installing a hypervisor like VirtualBox on your team’s hardware is impossible or impractical. However, there exist solutions for such a scenario, they are categorized as <abbr title="Virtual Desktop Infrastructure">VDI</abbr>: virtual desktops in the cloud.</p>
-<h2 id="hardware-as-a-service">Hardware as a Service&nbsp;<a href="#hardware-as-a-service" class="heading">¶</a></h2>
-<p>There are only a few cloud providers of virtual desktops (compared to the number of cloud providers who offer virtual servers), and most of them target rather large enterprises than start-ups.</p>
+<h2 id="hardware-as-a-service">Hardware as a Service&nbsp<a href="#hardware-as-a-service"
+        class="heading">¶</a></h2><p>There are only a few cloud providers of virtual desktops (compared to the number of cloud providers who offer virtual servers), and most of them target rather large enterprises than start-ups.</p>
 <figure>
     
     <picture>
@@ -223,8 +223,8 @@
     </figcaption>
 </figure>
 <p>However, there is one provider that I can recommend:</p>
-<h3 id="vdi-provider-paperspacehttpswwwpaperspacecom">VDI Provider <A Href="https://Www.paperspace.com/">Paperspace</A>&nbsp;<a href="#vdi-provider-paperspacehttpswwwpaperspacecom" class="heading">¶</a></h3>
-<p>If paid by the hour, the pricing of a reasonably sized Paperspace virtual desktop today is roughly somewhere between $16 and $22 per month based on a 40-hours-week. Given the Windows 10 license already included, this appears to be a fair offer in my opinion.</p>
+<h3 id="vdi-provider-paperspacehttpswwwpaperspacecom">VDI Provider <a href="https://www.paperspace.com/">Paperspace</a>&nbsp<a href="#vdi-provider-paperspacehttpswwwpaperspacecom"
+        class="heading">¶</a></h3><p>If paid by the hour, the pricing of a reasonably sized Paperspace virtual desktop today is roughly somewhere between $16 and $22 per month based on a 40-hours-week. Given the Windows 10 license already included, this appears to be a fair offer in my opinion.</p>
 <p>The fact that Paperspace desktops can simply be used <em>via browser</em> without any additional software to install, makes this option especially valuable if you don’t want to or can’t touch your team members’ devices.</p>
 <figure>
     
@@ -247,8 +247,8 @@
 </figure>
 <p>I have used Paperspace productively myself a few months ago and generally can recommend their service. The only issue I encountered was a weird keyboard mapping concerning the German Umlauts (äöü).</p>
 <p>But what if $16 per month per team member is already too high of a price? Imagine a team of 8 people; they would have to pay roughly $128/month to use Paperspace—or more if they burn the midnight oil and exceed the 40 hours per week in that calculation. What if team members forget to turn off their virtual desktops after work? We certainly can be even smarter and bring this cost down further. What about instead running our own VDI on a server that we rent?</p>
-<h3 id="dedicated-server-providers-onlinenethttpswwwonlineneten-hetznerhttpswwwhetznercom-and-servdiscounthttpsservdiscountcom">Dedicated Server Providers <A Href="https://Www.online.net/en/">Online.net</A>, <A Href="https://Www.hetzner.com/">Hetzner</A>, and <A Href="https://Servdiscount.com/">Servdiscount</A>&nbsp;<a href="#dedicated-server-providers-onlinenethttpswwwonlineneten-hetznerhttpswwwhetznercom-and-servdiscounthttpsservdiscountcom" class="heading">¶</a></h3>
-<p>Several providers in Europe offer server hardware as a service at very low prices: the French provider Online.net (with data centers in France and the Netherlands) as well as the German providers Hetzner (with data centers in Germany and Finland) and Servdiscount (with a data center in Germany). The low-end divisions <a href="https://www.kimsufi.com/us/en/">Kimsufi</a> and <a href="https://www.soyoustart.com/us/">So you Start</a> of <a href="https://www.ovh.com/world/">OVH</a> are hands down no match for Online.net, Hetzner, and Servdiscount.</p>
+<h3 id="dedicated-server-providers-onlinenethttpswwwonlineneten-hetznerhttpswwwhetznercom-and-servdiscounthttpsservdiscountcom">Dedicated Server Providers <a href="https://www.online.net/en/">Online.net</a>, <a href="https://www.hetzner.com/">Hetzner</a>, and <a href="https://servdiscount.com/">Servdiscount</a>&nbsp<a href="#dedicated-server-providers-onlinenethttpswwwonlineneten-hetznerhttpswwwhetznercom-and-servdiscounthttpsservdiscountcom"
+        class="heading">¶</a></h3><p>Several providers in Europe offer server hardware as a service at very low prices: the French provider Online.net (with data centers in France and the Netherlands) as well as the German providers Hetzner (with data centers in Germany and Finland) and Servdiscount (with a data center in Germany). The low-end divisions <a href="https://www.kimsufi.com/us/en/">Kimsufi</a> and <a href="https://www.soyoustart.com/us/">So you Start</a> of <a href="https://www.ovh.com/world/">OVH</a> are hands down no match for Online.net, Hetzner, and Servdiscount.</p>
 <figure>
     
     <picture>
@@ -293,8 +293,8 @@
 <p>I have intensively used Online.net and Hetzner services in professional projects and for my private lab and can recommend them both. On the rare occasions that I had issues, both support teams act fast and in a very friendly manner.</p>
 <hr>
 <div class="alert alert-secondary">
-    <h5 id="i-classlas-la-synci-edited-jun-28-2019"><i class="las la-sync"></i> Edited Jun 28, 2019</h5>
-<p>Let me add <a href="https://servdiscount.com/">Servdiscount</a> to this list of providers. I&rsquo;ve only used their services for a few weeks and already can tell that they deliver great value for competitive prices.</p>
+    <h5 id="i-classlas-la-synci-edited-jun-28-2019"><i class="las la-sync"></i> Edited Jun 28, 2019&nbsp<a href="#i-classlas-la-synci-edited-jun-28-2019"
+        class="heading">¶</a></h5><p>Let me add <a href="https://servdiscount.com/">Servdiscount</a> to this list of providers. I&rsquo;ve only used their services for a few weeks and already can tell that they deliver great value for competitive prices.</p>
 <p>As an example: For roughly $26, they provided me an 8-core processor, 24GB RAM (instead of the promoted 16), 265GB SSD (instead of the promoted 128), 1TB HDD, unmetered 1Gbps connectivity, <em>and a dedicated KVM</em>. Customer support is competent, prompt and friendly.</p>
 <p>If you can live with the missing disk redundancy options in most of their low-cost offers, it&rsquo;s worth a look!</p>
 
@@ -302,11 +302,11 @@
 <hr>
 <p>Back to the example of our team of eight persons: A reasonably sized mid-range server from Hetzner costs around $60 per month. It comes with hardware resources that would <em>easily</em> accommodate virtual desktops for eight people—or more!</p>
 <p>Compared to the $128 per month for eight Paperspace virtual desktops that run only about 8 hours per day (compared to the 24 hours that the Hetzner server is available), this looks like a steal.</p>
-<h2 id="software">Software&nbsp;<a href="#software" class="heading">¶</a></h2>
-<p>Hang on! A server from Hetzner does not include any licenses for virtual desktops like Windows 10. How is this supposed to help?</p>
+<h2 id="software">Software&nbsp<a href="#software"
+        class="heading">¶</a></h2><p>Hang on! A server from Hetzner does not include any licenses for virtual desktops like Windows 10. How is this supposed to help?</p>
 <p>Great question, but there is a smart solution for that.</p>
-<h3 id="microsoft-software-licensing">Microsoft Software Licensing&nbsp;<a href="#microsoft-software-licensing" class="heading">¶</a></h3>
-<p>On a Subreddit called <a href="https://www.reddit.com/r/microsoftsoftwareswap/">Microsoft Softwareswap</a>, people sell Microsoft software licenses that they own for low prices. At first glance, this marketplace seems a bit phony—but from what I can tell and have researched, these are legitimate, genuine Microsoft software licenses. The handful that I bought there in the past all activated the software perfectly fine without any problem whatsoever.</p>
+<h3 id="microsoft-software-licensing">Microsoft Software Licensing&nbsp<a href="#microsoft-software-licensing"
+        class="heading">¶</a></h3><p>On a Subreddit called <a href="https://www.reddit.com/r/microsoftsoftwareswap/">Microsoft Softwareswap</a>, people sell Microsoft software licenses that they own for low prices. At first glance, this marketplace seems a bit phony—but from what I can tell and have researched, these are legitimate, genuine Microsoft software licenses. The handful that I bought there in the past all activated the software perfectly fine without any problem whatsoever.</p>
 <figure>
     
     <picture>
@@ -333,16 +333,16 @@
 <p>This Datacenter edition is so interesting due to one feature: Any Windows server that runs as a Hyper-V virtual machine inside of such a Windows Server Datacenter can be activated <em>at no additional cost</em>. Read that again, too. You only pay a one-time investment as low as $40 to obtain a single Windows Server license which then enables you to run <em>as many Windows Server instances</em> on top of it as you possibly can.</p>
 <hr>
 <div class="alert alert-primary">
-    <h5 id="i-classlas-la-lightbulbi-tip"><i class="las la-lightbulb"></i> Tip</h5>
-<p>If you want to install your $40 license on a Hetzner server, you will have to ask for the above-mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise, the installation might take many hours.
+    <h5 id="i-classlas-la-lightbulbi-tip"><i class="las la-lightbulb"></i> Tip&nbsp<a href="#i-classlas-la-lightbulbi-tip"
+        class="heading">¶</a></h5><p>If you want to install your $40 license on a Hetzner server, you will have to ask for the above-mentioned KVM. This allows you to mount your <abbr title="ISO 9660 file system disk image">ISO</abbr> and install Windows Server from there. I recommend putting the several GB large ISO on a Hetzner Storagebox beforehand to keep your source ISO as close as possible to the server. Otherwise, the installation might take many hours.
 </div>
 <hr>
 <p>To come back to our hypothetical team of eight people: Rent a hardware server from Hetzner for $60 per month; then install Windows Server Datacenter on that hardware server and activate it with the $40 license from Reddit. Then create as many Windows Servers as virtual Hyper-V machines on your hardware server and activate them with the <a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn303421(v=ws.11)">official <abbr title="Automatic Virtual Machine Activation">AVMA</abbr> keys</a> from Microsoft.</p>
 <p>With this setup, you can offer every team member a dedicated virtual client in a homogeneous environment. The financial impact of your team growing from eight to i.e. ten is zero: Just create new virtual machines. Your hardware can handle it and you already have the software licenses built-in. Your team connects via <abbr title="Remote Desktop Protocol">RDP</abbr> and can work on their virtual Windows desktops in the cloud. All of this for the fraction of the price that VDI providers like Paperspace ask. And of course, if your start-up implodes already after two months, you have only invested like $250 (considering the one-off fee to provision the server) instead of $4000 that you would have spent to buy every team member a mid-sized Windows laptop right from the start. That’s smart.</p>
 <p>One feature, however, is still missing: the ability to connect to the virtual desktops <em>via browser</em>. Maybe not all devices in your team of eight people have an RDP client installed—but certainly, all already have a browser ready to be used. This kind of “zero-touch BYOD” is preferable, especially in the beginnings of your start-up. (Because as soon as you “touch” and modify your teammates’ devices, you assume some sort of responsibility for them.)</p>
 <p>Fortunately, there exists an excellent open-source software that enables this feature: Guacamole. And as an avid lover of Mexico and Mexican food, I love this software and its name even more!</p>
-<h3 id="web-gateway-apache-guacamolehttpsguacamoleapacheorg">Web Gateway <A Href="https://Guacamole.apache.org/">Apache Guacamole</A>&nbsp;<a href="#web-gateway-apache-guacamolehttpsguacamoleapacheorg" class="heading">¶</a></h3>
-<p>The developers call Guacamole a “clientless remote desktop gateway”. This means that you can access the gateway simply via a web browser, without any specific client. This gateway then connects to the desktops and lets users interact with them through their browsers.</p>
+<h3 id="web-gateway-apache-guacamolehttpsguacamoleapacheorg">Web Gateway <a href="https://guacamole.apache.org/">Apache Guacamole</a>&nbsp<a href="#web-gateway-apache-guacamolehttpsguacamoleapacheorg"
+        class="heading">¶</a></h3><p>The developers call Guacamole a “clientless remote desktop gateway”. This means that you can access the gateway simply via a web browser, without any specific client. This gateway then connects to the desktops and lets users interact with them through their browsers.</p>
 <figure>
     
     <picture>
@@ -364,14 +364,14 @@
     </figcaption>
 </figure>
 <p>The installation of Guacamole is a bit of a head-scratcher, though. Following the official installation guide involves many manual steps. Fortunately, some smart people found <a href="https://github.com/BrowncoatShadow/compose-guacamole">ways to simplify the process</a> with the help of <a href="https://www.docker.com/">Docker</a>. So, all you need is a Linux virtual machine somewhere (i.e. on the server from Hetzner that runs all your virtual desktops), install Docker and <a href="https://docs.docker.com/compose/">Docker Compose</a> and then run the following three commands:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone git@github.com:BrowncoatShadow/compose-guacamole.git
-cd docker-compose-guacamole
-sudo docker-compose up -d</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone git@github.com:BrowncoatShadow/compose-guacamole.git
+</span></span><span style="display:flex;"><span>cd docker-compose-guacamole
+</span></span><span style="display:flex;"><span>sudo docker-compose up -d</span></span></code></pre></div>
 <p>Now point your browser to your Docker host that runs the Guacamole container, log in and add the users and virtual desktops. That’s it. You now have your browser-accessible virtual desktop infrastructure up and running at extremely low cost.</p>
 <p>If you are interested in encrypting the traffic between your users and this gateway, however—and you should—, you might want to secure the gateway behind an SSL-capable proxy. Like I composed Guacamole with Træfik in my <a href="https://github.com/MichaelSchmidle/wapps">Wapps repository</a>.</p>
 <p>Talking about security: We still need to address a few concerns. Read on!</p>
-<h3 id="firewall-opnsensehttpsopnsenseorg">Firewall <A Href="https://Opnsense.org/">OPNsense</A>&nbsp;<a href="#firewall-opnsensehttpsopnsenseorg" class="heading">¶</a></h3>
-<p>Having lots of (physical or virtual) Windows servers and desktops running somewhere in the cloud without any particular security measures in place is a very bad idea. Fortunately, there are a few excellent open source solutions available to implement a firewall and secure the small network of Windows desktops in the cloud. Simply create another virtual machine on your Windows Server Datacenter host and install the firewall on that virtual machine, then connect all other virtual machines to that firewall <abbr title="Virtual Machine">VM</abbr> instead of the open Internet.</p>
+<h3 id="firewall-opnsensehttpsopnsenseorg">Firewall <a href="https://opnsense.org/">OPNsense</a>&nbsp<a href="#firewall-opnsensehttpsopnsenseorg"
+        class="heading">¶</a></h3><p>Having lots of (physical or virtual) Windows servers and desktops running somewhere in the cloud without any particular security measures in place is a very bad idea. Fortunately, there are a few excellent open source solutions available to implement a firewall and secure the small network of Windows desktops in the cloud. Simply create another virtual machine on your Windows Server Datacenter host and install the firewall on that virtual machine, then connect all other virtual machines to that firewall <abbr title="Virtual Machine">VM</abbr> instead of the open Internet.</p>
 <p>My favorite for quite some time was the Sophos XG <abbr title="Unified Threat Management">UTM</abbr> firewall that is available as <a href="https://www.sophos.com/en-us/products/free-tools/sophos-xg-firewall-home-edition.aspx">Free Home Use XG Firewall</a> at zero cost.</p>
 <p>However, I recently gave the open-source firewall OPNsense a try—and never looked back. It has the same feature set as the Sophos XG but with a much, much smaller footprint in terms of hardware resources (especially <abbr title="Random Access Memory">RAM</abbr>, hovering over <em>extremely economical</em> 160MB in my current cloud lab setup). It also installs much faster.</p>
 <figure>
@@ -394,10 +394,10 @@ sudo docker-compose up -d</code></pre></div>
     </figcaption>
 </figure>
 <p>Additionally, OPNsense even has one crucial feature that most other firewalls lack: support for ZeroTier. Which brings me to my next point.</p>
-<h2 id="software-as-a-service">Software as a Service&nbsp;<a href="#software-as-a-service" class="heading">¶</a></h2>
-<p>I love <abbr title="Software as a Service">SaaS</abbr> providers who offer a free entry-level to their service, letting users come to appreciate the service so much that at some point they upgrade to a paid service level. Let me introduce two such services that can help a smart start-up better manage their IT devices.</p>
-<h3 id="virtual-private-network-zerotierhttpszerotiercom">Virtual Private Network <A Href="https://Zerotier.com/">ZeroTier</A>&nbsp;<a href="#virtual-private-network-zerotierhttpszerotiercom" class="heading">¶</a></h3>
-<p>The first service I’d like to mention is called ZeroTier. It works like a <abbr title="Virtual Private Network">VPN</abbr> in the sense that it allows to interconnect devices in a private network wherever they are: at home, in the data center, somewhere in the cloud or roaming abroad. All at once, all encrypted.</p>
+<h2 id="software-as-a-service">Software as a Service&nbsp<a href="#software-as-a-service"
+        class="heading">¶</a></h2><p>I love <abbr title="Software as a Service">SaaS</abbr> providers who offer a free entry-level to their service, letting users come to appreciate the service so much that at some point they upgrade to a paid service level. Let me introduce two such services that can help a smart start-up better manage their IT devices.</p>
+<h3 id="virtual-private-network-zerotierhttpszerotiercom">Virtual Private Network <a href="https://zerotier.com/">ZeroTier</a>&nbsp<a href="#virtual-private-network-zerotierhttpszerotiercom"
+        class="heading">¶</a></h3><p>The first service I’d like to mention is called ZeroTier. It works like a <abbr title="Virtual Private Network">VPN</abbr> in the sense that it allows to interconnect devices in a private network wherever they are: at home, in the data center, somewhere in the cloud or roaming abroad. All at once, all encrypted.</p>
 <figure>
     
     <picture>
@@ -421,8 +421,8 @@ sudo docker-compose up -d</code></pre></div>
 <p>What separates ZeroTier from traditional VPN technology like <a href="https://openvpn.net/">OpenVPN</a> is that it does not require any user intervention. Users don’t have to dial in—their devices simply interconnect as soon as they get Internet connectivity. It works a bit like <a href="https://docs.microsoft.com/en-us/windows-server/remote/remote-access/directaccess/directaccess">Microsoft DirectAccess</a> with the difference that ZeroTier is also available for Apple (macOS and iOS), Linux, Android, Microsoft, and even some <abbr title="Network Attached Storage">NAS</abbr> devices. With ZeroTier you can offer your team to directly but securely connect to their virtual desktops via RDP.</p>
 <p>Combined with the ZeroTier capable OPNsense firewall mentioned above, it is possible to significantly reduce the attack surface of your virtual desktops in the cloud while still conserving ease of access and keeping the complexity of the setup at a low level. I strongly recommend this service over other VPNs.</p>
 <p>The free ZeroTier service is limited to 100 devices. For our team of eight persons, this should be more than sufficient. Speaking about persons: Let’s also manage your team’s user accounts.</p>
-<h3 id="user-directory-jumpcloudhttpsjumpcloudcom">User Directory <A Href="https://Jumpcloud.com/">JumpCloud</A>&nbsp;<a href="#user-directory-jumpcloudhttpsjumpcloudcom" class="heading">¶</a></h3>
-<p>We all know the pain of having to manage a myriad of our logins and user accounts. One way to deal with this problem is by relying on a password manager—as I also recommend doing in the second article of this series.</p>
+<h3 id="user-directory-jumpcloudhttpsjumpcloudcom">User Directory <a href="https://jumpcloud.com/">JumpCloud</a>&nbsp<a href="#user-directory-jumpcloudhttpsjumpcloudcom"
+        class="heading">¶</a></h3><p>We all know the pain of having to manage a myriad of our logins and user accounts. One way to deal with this problem is by relying on a password manager—as I also recommend doing in the second article of this series.</p>
 <p>The second approach is called <abbr title="Single-Sign-On">SSO</abbr>. It involves a central store for your team’s credentials where each user is represented with a single account. Applications and services then connect to this central user directory to authenticate users whenever they try to log in. The advantage is that users only have to remember a single sign-on and that there is only one place that stores this sensitive information.</p>
 <p>JumpCloud is such a service, offering a free entry-level plan for up to ten users. The neat thing about it is that you can use it to even manage the logins for large parts of the <abbr title="Do It Yourself">DIY</abbr> mentioned above: native Windows and Linux logins, Apache Guacamole, and OPNsense logins. Simply define which user is allowed to access which device, and with what kind of privileges (root/administrator or normal user). This also means that your IT administrator can revoke access to any or all devices by a single click if need be. I can recommend the service as it improves both overall security and user comfort.</p>
 <figure>
@@ -444,8 +444,8 @@ sudo docker-compose up -d</code></pre></div>
         Last time <a href="https://blog.ypertex.com/articles/jumpcloud-curl-error-22/">I wrote about JumpCloud</a>, they sent me this shirt with a handwritten note. So you know they must be cool!
     </figcaption>
 </figure>
-<h2 id="conclusion">Conclusion&nbsp;<a href="#conclusion" class="heading">¶</a></h2>
-<p>I hope this overview gave you some insight into how to leverage services and software capabilities out there to set up a smart and powerful team infrastructure at a very low cost. If you have any further suggestions, please feel free to <a href="https://twitter.com/MichaelSchmidle">reach out</a> and share your ideas.</p>
+<h2 id="conclusion">Conclusion&nbsp<a href="#conclusion"
+        class="heading">¶</a></h2><p>I hope this overview gave you some insight into how to leverage services and software capabilities out there to set up a smart and powerful team infrastructure at a very low cost. If you have any further suggestions, please feel free to <a href="https://twitter.com/MichaelSchmidle">reach out</a> and share your ideas.</p>
 <p>The <a href="/articles/tools-for-the-smart-start-up-in-2018-2/">second article in this series</a> focuses on the application level (compared to the emphasis on infrastructure in this blog post). It lists applications and services that deliver high quality at low prices in the area of design, web publishing, knowledge management, password management, and more. Stay tuned!</p>
 
             
@@ -464,7 +464,7 @@ sudo docker-compose up -d</code></pre></div>
         class="yx-avatar">
     <div class="media-body">
         <h4>Michael Schmidle</h4>
-        <p>Business Transformation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Start-up consultant, hobby music producer and blogger. Opinionated about technology, strategy, and leadership. In love with Mexico. This blog reflects my personal views.</p>
+        <p>Head of Business Development at the Swiss Radio and TV, <a href="https://www.srf.ch/">SRF</a>. Start-up consultant, hobby music producer and blogger. Opinionated about strategy, leadership, and media. In love with Mexico. This blog reflects my personal views.</p>
 
         <p class="mb-0">
             <a href="https://www.linkedin.com/in/MichaelSchmidle"

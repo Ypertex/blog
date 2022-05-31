@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.92.1" />
+    <meta name="generator" content="Hugo 0.99.1" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -155,8 +155,8 @@
             <a href="https://unsplash.com/photos/an3qaxZ-2bY">Pablo Heimplatz</a></span>
     </figcaption>
 </figure>
-<h2 id="the-challenge-of-transparently-splitting-a-subnet">The Challenge of Transparently Splitting a Subnet&nbsp;<a href="#the-challenge-of-transparently-splitting-a-subnet" class="heading">¶</a></h2>
-<p>Consider the following scenario: My <abbr title="Internet Service Provider">ISP</abbr> allocated me a <code>/28</code> subnet (<code>x.x.129.208/28</code>). Along with it, they provided a gateway on the first IP of the subnet (<code>x.x.129.209</code>) and nothing else—and that was the problem.</p>
+<h2 id="the-challenge-of-transparently-splitting-a-subnet">The Challenge of Transparently Splitting a Subnet&nbsp<a href="#the-challenge-of-transparently-splitting-a-subnet"
+        class="heading">¶</a></h2><p>Consider the following scenario: My <abbr title="Internet Service Provider">ISP</abbr> allocated me a <code>/28</code> subnet (<code>x.x.129.208/28</code>). Along with it, they provided a gateway on the first IP of the subnet (<code>x.x.129.209</code>) and nothing else—and that was the problem.</p>
 <p>Usually, when you are provided a subnet, it is routed to the fixed public IP of your router. This IP is not part of the subnet so you have the freedom to forward the routing of the subnet downstream over any number of hops to anywhere you need it in your infrastructure. In this case, however, the first IP was assigned to the ISP gateway—making it impossible to allocate the subnet somewhere else. My router had to be in the same subnet (i.e. <code>x.x.129.210</code>).</p>
 <figure>
     
@@ -205,8 +205,8 @@
 <p>Notice how the firewall router has the same Internet-facing IP but with a different netmask now?</p>
 <p>I thought that the OPNsense firewall router would be intelligent enough to advertise to the upstream ISP gateway, that the IP <code>x.x.129.210</code> and all IPs <code>x.x.129.116</code>-<code>.123</code> of the <code>/29</code> DMZ subnet were all to be routed via its ISP-facing IP (<code>x.x.129.210</code>).</p>
 <p>But no, it doesn’t work like this out of the box. And there was no way for me to explicitly configure the ISP gateway to route the <code>/29</code> DMZ subnet to a specific IP.</p>
-<h2 id="the-solution-proxy-arp">The Solution: Proxy ARP&nbsp;<a href="#the-solution-proxy-arp" class="heading">¶</a></h2>
-<p>After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with <a href="https://duckduckgo.com">DuckDuckGo</a> must be called, right?) to no avail, I finally stumbled over the <em>Virtual IP</em> settings in OPNsense, specifically of type <em>Proxy <abbr title="Address Resolution Protocol">ARP</title></em>.</p>
+<h2 id="the-solution-proxy-arp">The Solution: Proxy ARP&nbsp<a href="#the-solution-proxy-arp"
+        class="heading">¶</a></h2><p>After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with <a href="https://duckduckgo.com">DuckDuckGo</a> must be called, right?) to no avail, I finally stumbled over the <em>Virtual IP</em> settings in OPNsense, specifically of type <em>Proxy <abbr title="Address Resolution Protocol">ARP</title></em>.</p>
 <p>This Proxy ARP type of virtual IP allows you to broadcast the advertisement of IPs or subnets via an interface. So I entered:</p>
 <ul>
 <li>Mode: Proxy ARP</li>
@@ -236,8 +236,8 @@
 <p>This works like a charm. Servers in the DMZ configured with the public IPs of the second <code>/29</code> subnet are now able to communicate in both directions with the Internet.</p>
 <hr>
 <div class="alert alert-warning">
-    <h5 id="i-classlas-la-belli-reminder"><i class="las la-bell"></i> Reminder</h5>
-<p>OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet <code>x.x.129.216/29</code> to the public IP <code>x.x.129.210</code>—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.
+    <h5 id="i-classlas-la-belli-reminder"><i class="las la-bell"></i> Reminder&nbsp<a href="#i-classlas-la-belli-reminder"
+        class="heading">¶</a></h5><p>OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet <code>x.x.129.216/29</code> to the public IP <code>x.x.129.210</code>—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.
 </div>
 
             
@@ -256,7 +256,7 @@
         class="yx-avatar">
     <div class="media-body">
         <h4>Michael Schmidle</h4>
-        <p>Business Transformation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Start-up consultant, hobby music producer and blogger. Opinionated about technology, strategy, and leadership. In love with Mexico. This blog reflects my personal views.</p>
+        <p>Head of Business Development at the Swiss Radio and TV, <a href="https://www.srf.ch/">SRF</a>. Start-up consultant, hobby music producer and blogger. Opinionated about strategy, leadership, and media. In love with Mexico. This blog reflects my personal views.</p>
 
         <p class="mb-0">
             <a href="https://www.linkedin.com/in/MichaelSchmidle"
@@ -351,7 +351,7 @@
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
 <div class="yx-stretched-linkable mb-3">
     <h2>Unhide Virtual Network Adapters in Windows 10</h2>
-    <p>In Windows' latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
+    <p>In Windows&rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
 </div>
 <p class="mb-2">
     

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.92.1" />
+    <meta name="generator" content="Hugo 0.99.1" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -160,9 +160,9 @@
 <li>Minify and combine files</li>
 </ol>
 <p>More specifically, I&rsquo;ll show how you can implement these two recommendations with one of your most precious website assets: your logo. But first things first.</p>
-<h2 id="whats-a-vectorized-logo">What’s a Vectorized Logo?&nbsp;<a href="#whats-a-vectorized-logo" class="heading">¶</a></h2>
-<h3 id="types-of-graphics-files">Types of Graphics Files&nbsp;<a href="#types-of-graphics-files" class="heading">¶</a></h3>
-<p>In general, there are two types of graphics files: pixel- and vector-based.</p>
+<h2 id="whats-a-vectorized-logo">What&rsquo;s a Vectorized Logo?&nbsp<a href="#whats-a-vectorized-logo"
+        class="heading">¶</a></h2><h3 id="types-of-graphics-files">Types of Graphics Files&nbsp<a href="#types-of-graphics-files"
+        class="heading">¶</a></h3><p>In general, there are two types of graphics files: pixel- and vector-based.</p>
 <p><strong>Pixel-based graphics files</strong> store their information pixel by pixel, a little like this:</p>
 <ul>
 <li>The first pixel in the first row of pixels has the color white.</li>
@@ -196,7 +196,7 @@
 <p><strong>Vector-based graphics</strong> work differently: Instead of storing data on every single pixel, they describe shapes. It goes a bit like this:</p>
 <ul>
 <li>The white canvas has an aspect ratio of 16:9.</li>
-<li>There&rsquo;s a blue oval with a height of 13% of the canvas' total height and a ratio of 3:2. Its upper left corner sits at 20% height and 37.6% width of the canvas.</li>
+<li>There&rsquo;s a blue oval with a height of 13% of the canvas&rsquo; total height and a ratio of 3:2. Its upper left corner sits at 20% height and 37.6% width of the canvas.</li>
 </ul>
 <p>In contrast to the pixel-based format <em>where every single pixel</em> of the canvas and oval would be stored (fixing its resolution in the process), this vector-based description is extremely efficient and resolution-independent. Whenever you display this image, you can precisely <em>calculate</em> each pixel on the fly. It doesn&rsquo;t matter how small or large your surface is&mdash;you&rsquo;ll get crisp and sharp graphics every time.</p>
 <figure>
@@ -219,8 +219,8 @@
     </figcaption>
 </figure>
 <p>This advantage, however, is lost if you want to store highly detailed pictures where you end up drawing single pixels as vectors. In this case, it&rsquo;s more efficient to just store the pixels in a pixel-based format.</p>
-<h3 id="vector-based-graphics-files-for-logos">Vector-Based Graphics Files for Logos&nbsp;<a href="#vector-based-graphics-files-for-logos" class="heading">¶</a></h3>
-<p>Logos are symbols. As such, they don&rsquo;t try to replicate every single detail of a real-world object. Instead, good logos aim at abstracting and simplifying. Often, they&rsquo;re crafted with geometric forms that easily can be described with mathematical formulas.</p>
+<h3 id="vector-based-graphics-files-for-logos">Vector-Based Graphics Files for Logos&nbsp<a href="#vector-based-graphics-files-for-logos"
+        class="heading">¶</a></h3><p>Logos are symbols. As such, they don&rsquo;t try to replicate every single detail of a real-world object. Instead, good logos aim at abstracting and simplifying. Often, they&rsquo;re crafted with geometric forms that easily can be described with mathematical formulas.</p>
 <figure>
     
     <picture>
@@ -242,8 +242,8 @@
 </figure>
 <p>In other words: Vector-based graphics files are a <strong>perfect fit for logos</strong>! Any even semi-professional designer nowadays will use vector graphics software to create logos.</p>
 <p>Now let&rsquo;s go back and see how this can help with the above recommendations to improve your website&rsquo;s loading speed.</p>
-<h2 id="minimizing-http-requests-and-combining-files-with-vectorized-logos">Minimizing HTTP Requests and Combining Files With Vectorized Logos&nbsp;<a href="#minimizing-http-requests-and-combining-files-with-vectorized-logos" class="heading">¶</a></h2>
-<p>Most of a website&rsquo;s loading time is caused by requesting the different assets that make up a website: all the <abbr title="Hypertext Markup Language">HTML</abbr>, Javascript, <abbr title="Cascading Style Sheets">CSS</abbr>, font, icon, and image files etc. need to be downloaded.</p>
+<h2 id="minimizing-http-requests-and-combining-files-with-vectorized-logos">Minimizing HTTP Requests and Combining Files With Vectorized Logos&nbsp<a href="#minimizing-http-requests-and-combining-files-with-vectorized-logos"
+        class="heading">¶</a></h2><p>Most of a website&rsquo;s loading time is caused by requesting the different assets that make up a website: all the <abbr title="Hypertext Markup Language">HTML</abbr>, Javascript, <abbr title="Cascading Style Sheets">CSS</abbr>, font, icon, and image files etc. need to be downloaded.</p>
 <p>Each of these requests consumes precious time so the goal is to minimize the number of requests necessary. It&rsquo;s especially helpful if you can avoid requests for loading only small bits and pieces. It&rsquo;s faster to download one larger file than two smaller files.</p>
 <p>For example, this blog&rsquo;s current logogram <svg width="50px" height="20px" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
 <g transform="matrix(1,0,0,1,-2574,-792)">
@@ -271,33 +271,33 @@
 <p>The great thing about SVG: It&rsquo;s not just a vector format but an <abbr title="Extensible Markup Language">XML</abbr> notation, too. This means that you can put SVG files directly in HTML files (both are XML files after all). In other words: You <strong>merge your logo and your webpage into a single file</strong>.</p>
 <p>If you do this, you reduce the number of requests necessary to display your page by 1 and improve your website&rsquo;s loading speed!</p>
 <p>Here&rsquo;s the source of this blog&rsquo;s logogram:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-svg" data-lang="svg"><span style="color:#f92672">&lt;svg</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">viewBox=</span><span style="color:#e6db74">&#34;0 0 440 176&#34;</span> <span style="color:#a6e22e">version=</span><span style="color:#e6db74">&#34;1.1&#34;</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://www.w3.org/2000/svg&#34;</span> <span style="color:#a6e22e">xmlns:xlink=</span><span style="color:#e6db74">&#34;http://www.w3.org/1999/xlink&#34;</span> <span style="color:#a6e22e">xml:space=</span><span style="color:#e6db74">&#34;preserve&#34;</span> <span style="color:#a6e22e">xmlns:serif=</span><span style="color:#e6db74">&#34;http://www.serif.com/&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2&#34;</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(1,0,0,1,-2574,-792)&#34;</span><span style="color:#f92672">&gt;</span>
-        <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;Unprotected-primary-color-logogram-on-transparent-background&#34;</span> <span style="color:#a6e22e">serif:id=</span><span style="color:#e6db74">&#34;Unprotected primary color logogram on transparent background&#34;</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(1.12719,0,0,0.885774,2612.5,797.543)&#34;</span><span style="color:#f92672">&gt;</span>
-            <span style="color:#f92672">&lt;rect</span> <span style="color:#a6e22e">x=</span><span style="color:#e6db74">&#34;-34.159&#34;</span> <span style="color:#a6e22e">y=</span><span style="color:#e6db74">&#34;-6.258&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;390.352&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;198.696&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill:none;&#34;</span><span style="color:#f92672">/&gt;</span>
-            <span style="color:#f92672">&lt;clipPath</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;_clip1&#34;</span><span style="color:#f92672">&gt;</span>
-                <span style="color:#f92672">&lt;rect</span> <span style="color:#a6e22e">x=</span><span style="color:#e6db74">&#34;-34.159&#34;</span> <span style="color:#a6e22e">y=</span><span style="color:#e6db74">&#34;-6.258&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;390.352&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;198.696&#34;</span><span style="color:#f92672">/&gt;</span>
-            <span style="color:#f92672">&lt;/clipPath&gt;</span>
-            <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">clip-path=</span><span style="color:#e6db74">&#34;url(#_clip1)&#34;</span><span style="color:#f92672">&gt;</span>
-                <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(3.69565,0,0,4.16217,-240.2,-272.956)&#34;</span><span style="color:#f92672">&gt;</span>
-                    <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(0.105625,-6.62507e-18,5.86335e-18,0.119347,45.1899,52.1434)&#34;</span><span style="color:#f92672">&gt;</span>
-                        <span style="color:#f92672">&lt;path</span> <span style="color:#a6e22e">d=</span><span style="color:#e6db74">&#34;M100,500L300,300L100,100L167.274,100C252.258,100 333.761,133.757 393.857,193.846C397.723,197.712 400,199.988 400,199.988L500,99.976L699.976,100L800,200.024L900,100L1100,100L900,300L1100,500L1032.74,500C947.747,500 866.238,466.238 806.141,406.141C802.276,402.276 800,400 800,400L700,500L500,500L700,300L600,200.024L300,500L100,500Z&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill:rgb(0,170,255);&#34;</span><span style="color:#f92672">/&gt;</span>
-                    <span style="color:#f92672">&lt;/g&gt;</span>
-                    <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(0.105625,0,0,0.119347,45.1899,40.2116)&#34;</span><span style="color:#f92672">&gt;</span>
-                        <span style="color:#f92672">&lt;path</span> <span style="color:#a6e22e">d=</span><span style="color:#e6db74">&#34;M500,599.976L900,199.976L700,199.953L300,599.976L500,599.976Z&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill:rgb(14,17,18);fill-opacity:0.2;&#34;</span><span style="color:#f92672">/&gt;</span>
-                    <span style="color:#f92672">&lt;/g&gt;</span>
-                <span style="color:#f92672">&lt;/g&gt;</span>
-            <span style="color:#f92672">&lt;/g&gt;</span>
-        <span style="color:#f92672">&lt;/g&gt;</span>
-    <span style="color:#f92672">&lt;/g&gt;</span>
-<span style="color:#f92672">&lt;/svg&gt;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-svg" data-lang="svg"><span style="display:flex;"><span><span style="color:#f92672">&lt;svg</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">viewBox=</span><span style="color:#e6db74">&#34;0 0 440 176&#34;</span> <span style="color:#a6e22e">version=</span><span style="color:#e6db74">&#34;1.1&#34;</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://www.w3.org/2000/svg&#34;</span> <span style="color:#a6e22e">xmlns:xlink=</span><span style="color:#e6db74">&#34;http://www.w3.org/1999/xlink&#34;</span> <span style="color:#a6e22e">xml:space=</span><span style="color:#e6db74">&#34;preserve&#34;</span> <span style="color:#a6e22e">xmlns:serif=</span><span style="color:#e6db74">&#34;http://www.serif.com/&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(1,0,0,1,-2574,-792)&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;Unprotected-primary-color-logogram-on-transparent-background&#34;</span> <span style="color:#a6e22e">serif:id=</span><span style="color:#e6db74">&#34;Unprotected primary color logogram on transparent background&#34;</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(1.12719,0,0,0.885774,2612.5,797.543)&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;rect</span> <span style="color:#a6e22e">x=</span><span style="color:#e6db74">&#34;-34.159&#34;</span> <span style="color:#a6e22e">y=</span><span style="color:#e6db74">&#34;-6.258&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;390.352&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;198.696&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill:none;&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;clipPath</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;_clip1&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;rect</span> <span style="color:#a6e22e">x=</span><span style="color:#e6db74">&#34;-34.159&#34;</span> <span style="color:#a6e22e">y=</span><span style="color:#e6db74">&#34;-6.258&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;390.352&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;198.696&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;/clipPath&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">clip-path=</span><span style="color:#e6db74">&#34;url(#_clip1)&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(3.69565,0,0,4.16217,-240.2,-272.956)&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(0.105625,-6.62507e-18,5.86335e-18,0.119347,45.1899,52.1434)&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;path</span> <span style="color:#a6e22e">d=</span><span style="color:#e6db74">&#34;M100,500L300,300L100,100L167.274,100C252.258,100 333.761,133.757 393.857,193.846C397.723,197.712 400,199.988 400,199.988L500,99.976L699.976,100L800,200.024L900,100L1100,100L900,300L1100,500L1032.74,500C947.747,500 866.238,466.238 806.141,406.141C802.276,402.276 800,400 800,400L700,500L500,500L700,300L600,200.024L300,500L100,500Z&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill:rgb(0,170,255);&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/g&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(0.105625,0,0,0.119347,45.1899,40.2116)&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#f92672">&lt;path</span> <span style="color:#a6e22e">d=</span><span style="color:#e6db74">&#34;M500,599.976L900,199.976L700,199.953L300,599.976L500,599.976Z&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill:rgb(14,17,18);fill-opacity:0.2;&#34;</span><span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&lt;/g&gt;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&lt;/g&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;/g&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;/g&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/g&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/svg&gt;</span></span></span></code></pre></div>
 <p>See how easy it&rsquo;d be to include this in your HTML pages?</p>
-<h2 id="conclusion">Conclusion&nbsp;<a href="#conclusion" class="heading">¶</a></h2>
-<p>This article explained how vector graphics like logos can be integrated <em>directly</em> into your webpages' HTML. By combining files this way, the number of requests needed to load a website can be minimized&mdash;leading to shorter loading times.</p>
+<h2 id="conclusion">Conclusion&nbsp<a href="#conclusion"
+        class="heading">¶</a></h2><p>This article explained how vector graphics like logos can be integrated <em>directly</em> into your webpages&rsquo; HTML. By combining files this way, the number of requests needed to load a website can be minimized&mdash;leading to shorter loading times.</p>
 <p>So instead of saving your vectorized logos as pixel-based formats and loading them as separate assets in your website, just export your logos in SVG format and paste them directly into your HTML source!</p>
 <hr>
-<h2 id="recommended-reading">Recommended Reading&nbsp;<a href="#recommended-reading" class="heading">¶</a></h2>
-
+<h2 id="recommended-reading">Recommended Reading&nbsp<a href="#recommended-reading"
+        class="heading">¶</a></h2>
 <div class="shadow card">
     <div class="card-body">
         <div class="media">
@@ -320,8 +320,8 @@
 </div>
 
 <div class="alert alert-primary">
-    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer</h5>
-<p>I&rsquo;m in no way affiliated with Crazy Egg. I&rsquo;ve never employed their services and can&rsquo;t speak to the quality of their work.
+    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer&nbsp<a href="#i-classlas-la-balance-scale-lefti-disclaimer"
+        class="heading">¶</a></h5><p>I&rsquo;m in no way affiliated with Crazy Egg. I&rsquo;ve never employed their services and can&rsquo;t speak to the quality of their work.
 </div>
 
             
@@ -340,7 +340,7 @@
         class="yx-avatar">
     <div class="media-body">
         <h4>Michael Schmidle</h4>
-        <p>Business Transformation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Start-up consultant, hobby music producer and blogger. Opinionated about technology, strategy, and leadership. In love with Mexico. This blog reflects my personal views.</p>
+        <p>Head of Business Development at the Swiss Radio and TV, <a href="https://www.srf.ch/">SRF</a>. Start-up consultant, hobby music producer and blogger. Opinionated about strategy, leadership, and media. In love with Mexico. This blog reflects my personal views.</p>
 
         <p class="mb-0">
             <a href="https://www.linkedin.com/in/MichaelSchmidle"
@@ -393,7 +393,7 @@
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
 <div class="yx-stretched-linkable mb-3">
     <h2>Unhide Virtual Network Adapters in Windows 10</h2>
-    <p>In Windows' latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
+    <p>In Windows&rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks. <a href="/articles/unhide-virtual-network-adapters-windows-10/" class="stretched-link">Continue…</a></p>
 </div>
 <p class="mb-2">
     

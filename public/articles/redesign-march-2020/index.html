@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.92.1" />
+    <meta name="generator" content="Hugo 0.99.1" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -160,11 +160,11 @@
             <a href="https://unsplash.com/@davidpisnoy">David Pisnoy</a></span>
     </figcaption>
 </figure>
-<h2 id="what-i-learned-from-publishing-14-articles-so-far">What I Learned From Publishing 14 Articles So Far&nbsp;<a href="#what-i-learned-from-publishing-14-articles-so-far" class="heading">¶</a></h2>
-<h3 id="its-time-consuming">It’s Time Consuming&nbsp;<a href="#its-time-consuming" class="heading">¶</a></h3>
-<p>First of all, writing an article takes more time than I initially thought. From the original idea to the final wording, from the proper quoting to the adequate visualization, it&rsquo;s quite a work. Longer articles (with a reading time of over ten minutes) can easily take a total of eight hours or more to produce! Almost half of my articles so far fall into this category which explains a bit the low quantity of articles. However, I enjoy writing longer articles more as I learn more about a given subject myself.</p>
-<h3 id="control-over-your-work-flow-matters">Control Over Your Work-Flow Matters&nbsp;<a href="#control-over-your-work-flow-matters" class="heading">¶</a></h3>
-<p>I&rsquo;m glad to have found a publishing work-flow that <strong>doesn&rsquo;t depend on a particular platform</strong>. Here&rsquo;s how my process works:</p>
+<h2 id="what-i-learned-from-publishing-14-articles-so-far">What I Learned From Publishing 14 Articles so Far&nbsp<a href="#what-i-learned-from-publishing-14-articles-so-far"
+        class="heading">¶</a></h2><h3 id="its-time-consuming">It&rsquo;s Time Consuming&nbsp<a href="#its-time-consuming"
+        class="heading">¶</a></h3><p>First of all, writing an article takes more time than I initially thought. From the original idea to the final wording, from the proper quoting to the adequate visualization, it&rsquo;s quite a work. Longer articles (with a reading time of over ten minutes) can easily take a total of eight hours or more to produce! Almost half of my articles so far fall into this category which explains a bit the low quantity of articles. However, I enjoy writing longer articles more as I learn more about a given subject myself.</p>
+<h3 id="control-over-your-work-flow-matters">Control Over Your Work-Flow Matters&nbsp<a href="#control-over-your-work-flow-matters"
+        class="heading">¶</a></h3><p>I&rsquo;m glad to have found a publishing work-flow that <strong>doesn&rsquo;t depend on a particular platform</strong>. Here&rsquo;s how my process works:</p>
 <div class="card">
     <div class="card-body">
         <p>I write my articles locally on my computer in a format called <a href="https://daringfireball.net/projects/markdown/">Markdown</a>&mdash;which is nothing else than plain text. Any text editor does the trick, though I prefer using <a href="https://ia.net/writer">iA Writer</a>.</p>
@@ -186,22 +186,22 @@
 <p>Using Medium, LinkedIn, or other platforms for editing and publishing your articles? It might allow you to focus more on writing&mdash;but you better have an exit strategy in case the platform is going in a direction you don&rsquo;t like.</p>
 </blockquote>
 <p>And in case you wonder: Excluding domain registrar fees and the cost of renting the virtual server for Matomo, the monetary cost of running this blog is zero.</p>
-<h3 id="title-capitalization-in-english-is-strange">Title Capitalization in English Is Strange&nbsp;<a href="#title-capitalization-in-english-is-strange" class="heading">¶</a></h3>
-<p>In German, headlines follow the same orthographic rules as any other text. In English however, there are several ways how professional publishers capitalize titles. The general rule is to capitalize the first, the last and the important words in the title.</p>
+<h3 id="title-capitalization-in-english-is-strange">Title Capitalization in English Is Strange&nbsp<a href="#title-capitalization-in-english-is-strange"
+        class="heading">¶</a></h3><p>In German, headlines follow the same orthographic rules as any other text. In English however, there are several ways how professional publishers capitalize titles. The general rule is to capitalize the first, the last and the important words in the title.</p>
 <p>There are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like <a href="https://capitalizemytitle.com/">Capitalize My Title</a> so I don&rsquo;t have to remember the precise rules. (By the way: I&rsquo;m defaulting to APA style.)</p>
 <hr>
 <div class="alert alert-secondary">
-    <h5 id="i-classlas-la-synci-edited-jul-21-2020"><i class="las la-sync"></i> Edited Jul 21, 2020</h5>
-<p>With the introduction of <a href="https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks">Markdown Render Hooks</a> for headings in Hugo v0.71.0, title capizalization can be automated.</p>
+    <h5 id="i-classlas-la-synci-edited-jul-21-2020"><i class="las la-sync"></i> Edited Jul 21, 2020&nbsp<a href="#i-classlas-la-synci-edited-jul-21-2020"
+        class="heading">¶</a></h5><p>With the introduction of <a href="https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks">Markdown Render Hooks</a> for headings in Hugo v0.71.0, title capizalization can be automated.</p>
 <p>Follow the <a href="https://gohugo.io/getting-started/configuration-markup#heading-link-example">example given in Hugo&rsquo;s documentation</a>. Then, simply add the modifiers <code>| markdownify</code> and <code>| title</code> to the <code>.Text</code> variable:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Text</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">markdownify</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">safeHTML</span> <span style="color:#75715e">}}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.Text</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">markdownify</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">title</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">safeHTML</span> <span style="color:#75715e">}}</span></span></span></code></pre></div>
 <p>The <code>| markdownify</code> modifier is necessary to properly deal with HTML entities like <code>&amp;hellip;</code> first.</p>
 <p>From now on, Hugo will take care of title capitalization for you!</p>
 
 </div>
 <hr>
-<h3 id="images-can-be-responsive">Images Can Be Responsive&nbsp;<a href="#images-can-be-responsive" class="heading">¶</a></h3>
-<p>&ldquo;Responsive&rdquo; in the context of the web means that content responds to the particular device that&rsquo;s used to browse it: A web page might look differently on a smartphone than on a tablet than on a TV monitor. I learned that images <em>inside</em> web pages can be responsive, too. See in the following examples how the size and aspect ratio of the images differ just by rotating your smartphone:</p>
+<h3 id="images-can-be-responsive">Images Can Be Responsive&nbsp<a href="#images-can-be-responsive"
+        class="heading">¶</a></h3><p>&ldquo;Responsive&rdquo; in the context of the web means that content responds to the particular device that&rsquo;s used to browse it: A web page might look differently on a smartphone than on a tablet than on a TV monitor. I learned that images <em>inside</em> web pages can be responsive, too. See in the following examples how the size and aspect ratio of the images differ just by rotating your smartphone:</p>
 <figure>
     
     <picture>
@@ -243,12 +243,12 @@
 <p>As it turns out, images are as static as always. You just provide several sizes and aspect ratios of the <em>same</em> image and the web page and browser determine which of the image versions to show under what circumstance. This can be very tedious, of course, but there are services available that automate this for you.</p>
 <p>So while you provide the original image of a fixed size (width and height), services like Cloudinary can intelligently crop parts of the image. Using Artificial Intelligence, the interesting parts of an image (like faces) are identified and preserved in the cropped images. And they do this the lazy way, meaning: on the fly. Only once a user browses a web page with a certain type of device, the service renders the corresponding versions of the base image. Not a second earlier.</p>
 <p>Such services are also able to automatically optimize image quality and compress file sizes.</p>
-<h2 id="conclusion">Conclusion&nbsp;<a href="#conclusion" class="heading">¶</a></h2>
-<p>Celebrating the third anniversary of my blog with my 15<sup>th</sup> article&mdash;and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!</p>
+<h2 id="conclusion">Conclusion&nbsp<a href="#conclusion"
+        class="heading">¶</a></h2><p>Celebrating the third anniversary of my blog with my 15<sup>th</sup> article&mdash;and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!</p>
 <hr>
 <div class="alert alert-primary">
-    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer</h5>
-<p>I am in no way affiliated with the services mentioned in this article. I recommend them as a blogger who employs their free services for personal use.
+    <h5 id="i-classlas-la-balance-scale-lefti-disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer&nbsp<a href="#i-classlas-la-balance-scale-lefti-disclaimer"
+        class="heading">¶</a></h5><p>I am in no way affiliated with the services mentioned in this article. I recommend them as a blogger who employs their free services for personal use.
 </div>
 
             
@@ -267,7 +267,7 @@
         class="yx-avatar">
     <div class="media-body">
         <h4>Michael Schmidle</h4>
-        <p>Business Transformation Manager at the Swiss Broadcast Corporation <a href="https://www.srgssr.ch/en/">SRG SSR</a>. Start-up consultant, hobby music producer and blogger. Opinionated about technology, strategy, and leadership. In love with Mexico. This blog reflects my personal views.</p>
+        <p>Head of Business Development at the Swiss Radio and TV, <a href="https://www.srf.ch/">SRF</a>. Start-up consultant, hobby music producer and blogger. Opinionated about strategy, leadership, and media. In love with Mexico. This blog reflects my personal views.</p>
 
         <p class="mb-0">
             <a href="https://www.linkedin.com/in/MichaelSchmidle"

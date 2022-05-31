@@ -81,273 +81,396 @@ $headings-font-family: 'Montserrat Alternates', serif !default;
 @import "bootstrap/scss/bootstrap.scss";
 
 body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
 main {
     flex: 1;
 }
+
 a:hover {
     color: $primary-700;
 }
+
 footer {
     @extend .pb-5;
-    a, a:hover {
+
+    a,
+    a:hover {
         color: $white;
     }
 }
-main a, footer a {
+
+main a,
+footer a {
     font-weight: bold;
- }
-main .container, footer .container {
+}
+
+main .container,
+footer .container {
     > :last-child {
         margin-bottom: 0;
     }
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     @extend .mb-3, .mt-0;
+
     a.heading {
         @extend small;
         color: $gray-200;
         visibility: hidden;
         text-decoration: none;
     }
+
     &:hover {
         a.heading {
             visibility: visible;
+
             &:hover {
                 color: $gray-400;
             }
         }
     }
 }
+
 hr {
     @extend .my-5, .mx-n2;
 }
+
 span[lang] {
     @extend abbr;
 }
+
 :last-child {
     @extend .mb-0;
 }
+
 .navbar {
     @extend .py-1, .navbar-dark, .navbar-expand-md, .bg-dark;
+
     button {
         @extend .btn, .btn-link, .d-md-none;
     }
+
     hr {
         @extend .d-md-none, .my-3;
     }
 }
+
 .navbar-brand {
     padding-top: 0;
 }
-header, footer {
+
+header,
+footer {
     svg {
         max-height: 1rem;
         max-width: 2.5rem;
     }
 }
+
 .badge {
     font-weight: normal;
 }
+
 .jumbotron {
     @extend .jumbotron-fluid;
     margin: 0;
     padding: 0;
+
     h1 {
         @extend .display-4;
     }
+
     .container {
         @extend .text-center, .py-5;
     }
+
     .card {
         @extend .text-dark, .text-left;
     }
 }
-.card, .btn-shadow {
+
+.card,
+.btn-shadow {
     @extend .shadow;
 }
+
 .card-footer {
     @extend .text-muted;
+
     a {
         font-weight: normal;
     }
 }
-.alert-info, .alert-success, .alert-warning, .alert-danger {
+
+.alert-info,
+.alert-success,
+.alert-warning,
+.alert-danger {
     a {
         @extend .alert-link;
     }
 }
+
 .alert-primary a {
     color: $primary-600;
 }
+
 .alert-primary a:hover {
     color: $primary-700;
 }
-.alert-secondary a, .alert-light a, .alert-dark a {
+
+.alert-secondary a,
+.alert-light a,
+.alert-dark a {
     color: $gray-600;
 }
-.alert-secondary a:hover, .alert-light a:hover, .alert-dark a:hover {
+
+.alert-secondary a:hover,
+.alert-light a:hover,
+.alert-dark a:hover {
     color: $gray-700;
 }
+
 .alert-info a {
     color: $info-600;
 }
+
 .alert-info a:hover {
     color: $info-700;
 }
+
 .alert-success a {
     color: $success-600;
 }
+
 .alert-success a:hover {
     color: $success-700;
 }
+
 .alert-warning a {
     color: $warning-600;
 }
+
 .alert-warning a:hover {
     color: $warning-700;
 }
+
 .alert-danger a {
     color: $danger-600;
 }
+
 .alert-danger a:hover {
     color: $danger-700;
 }
+
 .yx-jumbotron {
-    @extend  .jumbotron,, .bg-primary, .text-light;
+    @extend .jumbotron, , .bg-primary, .text-light;
     background-image: linear-gradient(to top right, $primary-300, $primary-700);
+
     svg {
         max-height: 14rem;
     }
 }
+
 .yx-heading {
     @extend small, .text-muted, .mb-3;
     text-transform: uppercase;
 }
-.yx-avatar, .yx-favicon {
+
+.yx-avatar,
+.yx-favicon {
     @extend .mr-3, .rounded-circle;
     border: $gray-300 1px solid;
     height: 64px;
     width: 64px;
 }
+
 .yx-stretched-linkable {
     position: relative;
 }
-.yx-content.container, .card {
+
+.yx-content.container,
+.card {
     :first-child {
         @extend .mt-0;
     }
+
     :last-child {
         @extend .mb-0;
     }
 }
+
 .yx-attribution {
     @extend .text-muted, .text-right;
 }
+
 .yx-attribution::before {
     content: "—";
 }
+
 .yx-content.container {
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         @extend .mt-5;
     }
-    h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6 {
+
+    h1+h2,
+    h2+h3,
+    h3+h4,
+    h4+h5,
+    h5+h6 {
         @extend .mt-0;
     }
-    p > small {
+
+    p>small {
         @extend .text-muted;
     }
+
     figure {
         @extend .my-5, .text-center;
         position: relative;
         left: 50%;
         right: 50%;
+
         @media (max-width: 767px) {
             margin-left: -49vw;
             margin-right: -49vw;
             width: 98vw;
         }
+
         @media (min-width: 768px) {
             max-width: 720px;
             margin-left: -360px;
             margin-right: -360px;
         }
+
         @media (min-width: 992px) {
             max-width: 960px;
             margin-left: -480px;
             margin-right: -480px;
         }
+
         @media (min-width: 1200px) {
             max-width: 1140px;
             margin-left: -570px;
             margin-right: -570px;
         }
+
         img {
             @extend .shadow, .img-fluid;
         }
     }
+
     figcaption {
         @extend small, .col-xl-8, .col-lg-10, .mt-3, .mx-auto;
+
         a {
             font-weight: normal;
         }
     }
+
     blockquote {
         @extend .lead, .col-md-10, .mx-auto, .my-5, .bg-secondary, .text-light, .p-5, .rounded-lg, .shadow;
-        quotes: "“" "”" "‘" "’";
+        quotes: "“""”""‘""’";
+
         :last-child {
             @extend .mb-0;
         }
+
         p:first-child {
             text-indent: -0.5em;
         }
-        p:first-of-type::before, p:last-of-type::after {
+
+        p:first-of-type::before,
+        p:last-of-type::after {
             color: $primary;
             font-weight: bold;
         }
+
         p:first-of-type::before {
             content: open-quote;
         }
+
         p:last-of-type::after {
             content: close-quote;
         }
+
         strong {
             font-weight: bold;
         }
+
         a {
             color: $white;
         }
+
+        em {
+            background-color: $gray-500;
+        }
+
         .yx-attribution {
             @extend small, .text-light;
         }
     }
+
     table {
         @extend small, .table, .table-striped, .table-hover, .my-5;
+
         thead {
             font-weight: bold;
         }
     }
-    pre, .alert {
+
+    pre,
+    .alert {
         @extend .p-3;
     }
-    .highlight, .alert, .card {
+
+    em {
+        background-color: $gray-100;
+    }
+
+    li p:last-child {
+        @extend .mb-3;
+    }
+
+    .highlight,
+    .alert,
+    .card {
         @extend .mx-md-n3;
     }
-    .highlight, .alert {
+
+    .highlight,
+    .alert {
         @extend .shadow;
     }
+
     .card {
         @extend .my-5;
     }
+
     .card .yx-attribution {
         @extend small;
     }
+
     .card-body {
         background-color: white;
     }
+
     .highlight {
         @extend .my-5;
     }
