@@ -19,7 +19,7 @@ That's what transformation is. Many changes on many levels, all at the same time
 
 Switching from organisms like caterpillars/butterflies to organizations---let's take a look at the media industry:
 
-Traditional media outlets always kept an eye on technological developments to improve parts of their business. Being innovative was considered important, if only for reasons of reputation. Some even went so far to create innovation departments to coordinate these efforts throughout their organizations. Yet for the longest time, innovations mostly represented marginal improvements and rarely disrupted the media market.
+Traditional media outlets always kept an eye on (mostly technological) developments to improve their business. Being innovative was considered important, if only for reasons of reputation. Some even went so far to create innovation departments to foster and coordinate these efforts throughout their organizations. Yet for the longest time, innovations affected single parts of their business and rarely disrupted it in its entirety.
 
 Then came the moment when new technologies opened the door for a new breed of actors to propose new offers in new ways and new quantities. I'm referring to streaming services challenging traditional broadcasters. *Now* we're talking disruption---and if you're one of the established actors, you have a lot of "new" all at once to deal with. 
 
