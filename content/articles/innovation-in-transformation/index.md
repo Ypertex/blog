@@ -37,7 +37,7 @@ The conventional wisdom seems to be that innovation and transformation are large
 
 ## Or: Innovation as Atomic Element of Transformation?
 
-I'd like to make the case that transformation is a massive accumulation of simultaneous innovations. In other words: Many interconnected innovations in many parts of the business at the same time amount to a transformation.
+I'd like to make the case that transformation is like a massive accumulation of simultaneous innovations. In other words: Many interconnected innovations in many parts of the business at the same time amount to a transformation.
 
 {{<figure src="1365d4ae-c7e9-4da9-8892-b47f5f92b704" transformation="padded">}}Just like the many small words INNO make up the single large word TRAFO in this word cloud, a single transformation is made up of many innovations{{</figure>}}
 
@@ -63,6 +63,6 @@ In the analogy of the caterpillar's metamorphosis, developing a butterfly's wing
 
 This article served to highlight the nested nature of innovation and transformation. Some organizations treat the two topics like they were largely separate, missing out on two positive aspects. On the other hand, organizations that incorporate transformation and innovation benefit from: immediate relief of guilt for not separately innovating on top of their ongoing, all-demanding transformation; and valuable methodology developed in the field of innovation to properly de-risk single elements of transformation.
 
-> Transformation is just a massive accumulation of interconnected, simultaneous innovations.
+> Transformation is like a massive accumulation of interconnected, simultaneous innovations.
 
 I hope this integrated perspective helps you succeed in your transformation, too.
