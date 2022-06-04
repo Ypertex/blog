@@ -1,7 +1,7 @@
 ---
 title: Redesign March 2020
 publishdate: 2020-03-23
-lastmod: 2020-07-21
+lastmod: 2022-06-04
 tags:
 - Design
 - Personal
@@ -56,26 +56,6 @@ And in case you wonder: Excluding domain registrar fees and the cost of renting 
 In German, headlines follow the same orthographic rules as any other text. In English however, there are several ways how professional publishers capitalize titles. The general rule is to capitalize the first, the last and the important words in the title.
 
 There are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like [Capitalize My Title](https://capitalizemytitle.com/) so I don't have to remember the precise rules. (By the way: I'm defaulting to APA style.)
-
----
-
-{{<note class="alert-secondary">}}
-##### <i class="las la-sync"></i> Edited {{<date>}}2020-07-21{{</date>}}
-
-With the introduction of [Markdown Render Hooks](https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks) for headings in Hugo v0.71.0, title capizalization can be automated.
-
-Follow the [example given in Hugo's documentation](https://gohugo.io/getting-started/configuration-markup#heading-link-example). Then, simply add the modifiers ``| markdownify`` and ``| title`` to the ``.Text`` variable:
-
-{{<highlight go-html-template>}}
-{{ .Text | markdownify | title | safeHTML }}
-{{</highlight>}}
-
-The ``| markdownify`` modifier is necessary to properly deal with HTML entities like ``&hellip;`` first.
-
-From now on, Hugo will take care of title capitalization for you!
-{{</note>}}
-
----
 
 ### Images Can Be Responsive
 
