@@ -459,6 +459,35 @@ footer {
         @extend .shadow;
     }
 
+    .alert-danger em {
+        background-color: $danger-100;
+    }
+
+    .alert-dark em,
+    .alert-secondary em {
+        background-color: $gray-200;
+    }
+
+    .alert-info em {
+        background-color: $info-100;
+    }
+
+    .alert-light em {
+        background-color: $gray-050;
+    }
+
+    .alert-primary em {
+        background-color: $primary-100;
+    }
+
+    .alert-warning em {
+        background-color: $warning-100;
+    }
+
+    .alert-success em {
+        background-color: $success-100;
+    }
+
     .card {
         @extend .my-5;
     }
