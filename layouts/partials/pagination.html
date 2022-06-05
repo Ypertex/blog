@@ -3,8 +3,11 @@
         <div class="row align-items-center">
             <div class="col text-right">
                 {{ if (.Paginate .Pages).HasPrev }}
-                <a href="{{ (.Paginate .Pages).Prev.URL }}" class="btn btn-primary"><i class="las la-step-backward"></i></a>
+                <a href="{{ (.Paginate .Pages).First.URL }}" class="btn btn-primary"><i class="las la-backward"></i></a>
+                <a href="{{ (.Paginate .Pages).Prev.URL }}" class="btn btn-primary"><i
+                        class="las la-step-backward"></i></a>
                 {{ else }}
+                <span class="btn btn-outline-secondary disabled"><i class="las la-backward"></i></span>
                 <span class="btn btn-outline-secondary disabled"><i class="las la-step-backward"></i></span>
                 {{ end }}
             </div>
@@ -13,9 +16,12 @@
             </div>
             <div class="col text-left">
                 {{ if (.Paginate .Pages).HasNext }}
-                <a href="{{ (.Paginate .Pages).Next.URL }}" class="btn btn-primary"><i class="las la-step-forward"></i></a>
+                <a href="{{ (.Paginate .Pages).Next.URL }}" class="btn btn-primary"><i
+                        class="las la-step-forward"></i></a>
+                <a href="{{ (.Paginate .Pages).Last.URL }}" class="btn btn-primary"><i class="las la-forward"></i></a>
                 {{ else }}
                 <span class="btn btn-outline-secondary disabled"><i class="las la-step-forward"></i></span>
+                <span class="btn btn-outline-secondary disabled"><i class="las la-forward"></i></span>
                 {{ end }}
             </div>
         </div>
