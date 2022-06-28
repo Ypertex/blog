@@ -45,7 +45,7 @@ So mathematically, there isn't a difference in the result. And yes---**by defini
 
 If the *result* is the same, is there any difference in the *process*? Aha! I think we're on to something:
 
-More success or more possibilities mean *adding something that doesn't exist* yet. Less failure or less possibilities on the other hand mean *removing something that's already there*. And that's the difference:
+More success or more possibilities mean *adding something that doesn't exist* yet. Less failure or less impossibilities on the other hand mean *removing something that's already there*. And that's the difference:
 
 **It's always easier and faster to destroy something existing than to create something new. Always.** Everyone who ever built relationships or sandcastles knows that.
 
