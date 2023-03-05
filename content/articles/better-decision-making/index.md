@@ -111,7 +111,7 @@ It's worth mentioning that the entire **assessment depends on my current, relati
 {{<note class="alert-info">}}
 ###### <i class="las la-question-circle"></i> What’s So Superior to This Approach?
 
-Using these four criteria seems straight forward and common sense. What makes this approach so valuable?
+Using these four criteria seems straightforward and common sense. What makes this approach so valuable?
 
 Two things:
 
@@ -177,7 +177,7 @@ Feel free to reach out (via Social Media linked on this site) if you have more q
 
 If you think about it, "potential" may already contain lots of sub-criteria that differ each time *depending on the job to be done*. In the example of the decision about new software, there probably are many, many requirements that need to be checked to come to a robust assessment of potential. The main feature of this framework is to remind you of *additional criteria that are equally important as the entirety of functional requirements*.
 
-In the end, these four criteria are meant to provide a simple, straightforward framework for making decisions. You can certainly add more criteria that are relevant to your specific situation. Just be sure to keep the overall number manageable so as not to overwhelm yourself or others involved in the decision-making process.
+In the end, these four criteria are meant to provide a simple, straightforward framework for making decisions. You can certainly add more criteria that are relevant to your specific situation. Remember: If you customize the framework too much for each decision, you sacrifice the advantage of a standardized and therefore easily understandable decision process. So, just be sure to keep the core elements intact and the overall number of criteria manageable so as not to overwhelm yourself or others involved in the decision-making process.
 
 ###### <i class="las la-question-circle"></i> Can These Criteria Be Applied to Every Decision?
 
