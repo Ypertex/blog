@@ -200,6 +200,12 @@ You could also assign numerical values to the "Low", "Medium", and "High" rating
 Certainly. Just note: The scale of "Low", "Medium", and "High" is specifically designed to be simple. First, it helps with taking timely decisions as it prevents you from overengineering your decision process. Secondly, it has proven to work well enough for most cases. And last but not least: Remember that the framework is a way to build decision experience and to improve understanding with a reusable process.
 
 If you want to change the scale, do it in a generic manner that suits the bulk of your decisions. Refrain from branching out into one-of-a-kind decision processes all over again!
+
+###### <i class="las la-question-circle"></i> Does The Framework Really Produce the Best Decision?
+
+Well, that depends on a few things. If the list of available options doesn't include the optimal option to begin with, no set of criteria will magically generate it. At the same time, it rarely is about taking the perfect decision. That would require perfect information, zero bias, or pure luck. It rather is about picking the *best possible option available under the circumstances* (i.e. with limited time, knowledge, and resources) *good enough to stay in the game.*
+
+In the end, this framework won't prevent you from still failing spectacularly. It's only a tool for imperfect humans like you and me to get slightly better at what we're already trying to achieve. And remember: Even if this approach spits out the best choice---somebody still must have the guts to make it. Rating and ranking is easy. The hard part is following through on a decision and turn it into reality and real-life consequences.
 {{</note>}}
 
 ## Recommended Reading
