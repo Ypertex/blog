@@ -203,9 +203,9 @@ If you want to change the scale, do it in a generic manner that suits the bulk o
 
 ###### <i class="las la-question-circle"></i> Does The Framework Really Produce the Best Decision?
 
-Well, that depends on a few things. If the list of available options doesn't include the optimal option to begin with, no set of criteria will magically generate it. At the same time, it rarely is about taking the perfect decision. That would require perfect information, zero bias, or pure luck. It rather is about picking the *best possible option available under the circumstances* (i.e. with limited time, knowledge, and resources) *good enough to stay in the game.*
+Well, that depends on a few things. If the list of available options doesn't include the optimal option to begin with, no set of criteria will magically generate it. At the same time, it rarely is about taking the perfect decision. That would require perfect information, zero bias, or pure luck. It rather is about picking the *best possible option available under the circumstances* (i.e. with limited time, knowledge, and resources) that's *good enough to stay in the game.*
 
-In the end, this framework won't prevent you from still failing spectacularly. It's only a tool for imperfect humans like you and me to get slightly better at what we're already trying to achieve. And remember: Even if this approach spits out the best choice---somebody still must have the guts to make it. Rating and ranking is easy. The hard part is following through on a decision and turn it into reality and real-life consequences.
+In the end, this framework won't prevent you from still failing spectacularly. It's only a tool for imperfect humans like you and me to get slightly better at what we're already trying to achieve. And remember: Even if this approach spits out the best choice---somebody still must have the guts to make it. Rating and ranking is easy. The hard part is following through on a decision and turning it into reality and real-life consequences.
 {{</note>}}
 
 ## Recommended Reading
