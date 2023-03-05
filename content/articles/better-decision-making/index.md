@@ -158,6 +158,14 @@ However, if you think about it: The confidence level is kind of a meta criterion
 
 {{<figure src="5e0922bd-ad1e-48b5-83a3-06ed6643f671">}}With the structured and validated approach you got to a high-quality decision in the limited time and with the limited resources you had.{{</figure>}}
 
+## Conclusion
+
+Decision-making is a crucial aspect of our lives, and we face decisions of varying importance and complexity every day. While some decisions are straightforward, others require a structured approach to make a good choice.
+
+The four strategic criteria presented in this article, potential, strategic fit, capability fit, and confidence level, can help us make better, more informed decisions in situations where time and resources are limited. By using a consistent set of criteria, we can streamline our decision-making process, save time, and build experience with a generic set of criteria.
+
+Ultimately, making better decisions can help us strengthen our position to "stay in the game" of life and business.
+
 ## FAQ: Frequently Asked Questions
 
 Feel free to reach out (via Social Media linked on this site) if you have more questions than the ones answered below.
@@ -183,7 +191,7 @@ Remember to rate each option on a scale, the simplest being between "Low", "Medi
 
 ###### <i class="las la-question-circle"></i> What if There Are More Than Two Options?
 
-If there are more than two options, you can simply rate each option individually using the same four strategic criteria and then compare to identify the best option.
+In fact, there usually are more than just two. I've applied this method to long lists that consisted of 30-40 options. (I limited the examples in this article to only two options to keep it sufficiently short.) If there are more than two options, simply rate each option individually using the same four strategic criteria and then compare to identify the best option. Or best options---plural.
 
 You could also assign numerical values to the "Low", "Medium", and "High" ratings and calculate a weighted score for each option to make the comparison more quantitative. (Keep in mind that the confidence level acts like a meta criterion---so, you might use it as a multiplier of the other criteria to get a clear picture.)
 
@@ -193,14 +201,6 @@ Certainly. Just note: The scale of "Low", "Medium", and "High" is specifically d
 
 If you want to change the scale, do it in a generic manner that suits the bulk of your decisions. Refrain from branching out into one-of-a-kind decision processes all over again!
 {{</note>}}
-
-## Conclusion
-
-Decision-making is a crucial aspect of our lives, and we face decisions of varying importance and complexity every day. While some decisions are straightforward, others require a structured approach to make a good choice.
-
-The four strategic criteria presented in this article, potential, strategic fit, capability fit, and confidence level, can help us make better, more informed decisions in situations where time and resources are limited. By using a consistent set of criteria, we can streamline our decision-making process, save time, and build experience with a generic set of criteria.
-
-Ultimately, making better decisions can help us strengthen our position to "stay in the game" of life and business.
 
 ## Recommended Reading
 
