@@ -156,7 +156,7 @@ However, if you think about it: The confidence level is kind of a meta criterion
 
 
 
-{{<figure src="5e0922bd-ad1e-48b5-83a3-06ed6643f671">}}With the structured and validated approach you got to a high-quality decision in the limited time and with the limited resources you had.{{</figure>}}
+{{<figure src="5e0922bd-ad1e-48b5-83a3-06ed6643f671">}}Congratulations! Here's the login to your brand new software. With the structured and validated approach you arrived at a high-quality decision in the limited time and with the limited resources you had.{{</figure>}}
 
 ## Conclusion
 
