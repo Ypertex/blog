@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="generator" content="Hugo 0.110.0">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -37,7 +37,6 @@
 <meta property="og:url" content="https://blog.ypertex.com/articles/useful-hugo-templating/" /><meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7d143c90-862c-4e74-9275-763746bf95f0" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2020-04-12T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-04-12T00:00:00+00:00" />
-
 
 
 <meta property="article:author" content="Michael Schmidle" />
@@ -249,7 +248,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">images</span>:
 </span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7d143c90-862c-4e74-9275-763746bf95f0</span></span></span></code></pre></div>
 <p>Hugo takes this URL and uses it in the two metadata shortcodes <code>opengraph.html</code> and <code>twitter_cards.html</code>. I use this URL to show the same cover image in the list of articles&mdash;but properly transformed for the size of my users&rsquo; devices. To that end, I first have to <strong>deconstruct the URL</strong> into its parts with the help of <a href="https://gohugo.io/functions/path.split/">Hugo&rsquo;s <code>path.Split</code> function</a>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">path</span><span style="color:#a6e22e">.Split</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">index</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">first</span> <span style="color:#a6e22e">1</span> <span style="color:#a6e22e">.Params.images</span><span style="color:#f92672">)</span> <span style="color:#a6e22e">0</span><span style="color:#f92672">))</span><span style="color:#a6e22e">.File</span> <span style="color:#75715e">}}</span></span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">path</span><span style="color:#a6e22e">.Split</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">index</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">first</span> <span style="color:#ae81ff">1</span> <span style="color:#a6e22e">.Params.images</span><span style="color:#f92672">)</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">))</span><span style="color:#a6e22e">.File</span> <span style="color:#75715e">}}</span></span></span></code></pre></div>
 <p>Now, I can <strong>reconstruct different URLs</strong> for different transformations of the same image, for example:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span>&lt;<span style="color:#f92672">picture</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">source</span> <span style="color:#a6e22e">media</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;(min-width: 1200px)&#34;</span> <span style="color:#a6e22e">srcset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.cloudinary.baseURL</span> <span style="color:#75715e">}}{{</span> <span style="color:#a6e22e">.cloudinary.transformations.index.xl</span> <span style="color:#75715e">}}{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span>&gt;
@@ -517,7 +516,7 @@
     </g>
 </svg>
 </a></p>
-        <p><small>Copyright © 2017-2022 Michael Schmidle<br>
+        <p><small>Copyright © 2017-2023 Michael Schmidle<br>
                 Original content released under the <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International</a> license</small>
         </p>
     </div>

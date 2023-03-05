@@ -386,7 +386,7 @@ footer {
 
     blockquote {
         @extend .lead, .col-md-10, .mx-auto, .my-5, .bg-secondary, .text-light, .p-5, .rounded-lg, .shadow;
-        quotes: "“""”""‘""’";
+        quotes: "“" "”" "‘" "’";
 
         :last-child {
             @extend .mb-0;

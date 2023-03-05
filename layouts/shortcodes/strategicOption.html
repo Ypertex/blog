@@ -1,0 +1,50 @@
+<div class="card">
+    <div class="card-body small">
+        <h6 class="card-title">{{ with .Get "name" }}{{ . }}{{ else }}[Option]{{ end }}</h6>
+        <div class="row">
+            <div class="col-sm-12 col-md-3 order-md-last">
+                <div class="row">
+                    <div class="col-6 col-md-12 mb-3">
+                        <p>Potential<br>{{ with .Get "potential" }}{{ if eq . "2" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/5b617eb4-14bd-4d5d-919d-0ce66d8ce179.svg"
+                                height="20rem" alt="Low">{{ else if eq . "3" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/db70665a-c4cf-4a0a-b0e9-534951cb5bc8.svg"
+                                height="20rem" alt="Low">{{ end }}{{ else }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/403a5732-d649-466b-88d0-e228ed2a32f1.svg"
+                                height="20rem" alt="Low">{{ end }}</p>
+                    </div>
+                    <div class="col-6 col-md-12 mb-3">
+                        <p>Strategic&nbsp;Fit<br>{{ with .Get "strategicFit" }}{{ if eq . "2" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/5b617eb4-14bd-4d5d-919d-0ce66d8ce179.svg"
+                                height="20rem" alt="Low">{{ else if eq . "3" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/db70665a-c4cf-4a0a-b0e9-534951cb5bc8.svg"
+                                height="20rem" alt="Low">{{ end }}{{ else }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/403a5732-d649-466b-88d0-e228ed2a32f1.svg"
+                                height="20rem" alt="Low">{{ end }}</p>
+                    </div>
+                    <div class="col-6 col-md-12 mb-3">
+                        <p>Capability&nbsp;Fit<br>{{ with .Get "capabilityFit" }}{{ if eq . "2" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/5b617eb4-14bd-4d5d-919d-0ce66d8ce179.svg"
+                                height="20rem" alt="Low">{{ else if eq . "3" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/db70665a-c4cf-4a0a-b0e9-534951cb5bc8.svg"
+                                height="20rem" alt="Low">{{ end }}{{ else }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/403a5732-d649-466b-88d0-e228ed2a32f1.svg"
+                                height="20rem" alt="Low">{{ end }}</p>
+                    </div>
+                    <div class="col-6 col-md-12 mb-3">
+                        <p>Confidence&nbsp;Level<br>{{ with .Get "confidenceLevel" }}{{ if eq . "2" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/5b617eb4-14bd-4d5d-919d-0ce66d8ce179.svg"
+                                height="20rem" alt="Low">{{ else if eq . "3" }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/db70665a-c4cf-4a0a-b0e9-534951cb5bc8.svg"
+                                height="20rem" alt="Low">{{ end }}{{ else }}<img
+                                src="https://res.cloudinary.com/ypertex/image/upload/v1677930797/403a5732-d649-466b-88d0-e228ed2a32f1.svg"
+                                height="20rem" alt="Low">{{ end }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                {{ with .Inner }}{{ . | markdownify }}{{ else }}<p>[Description]</p>{{ end }}
+            </div>
+        </div>
+    </div>
+</div>
