@@ -62,7 +62,7 @@ JumpCloud allows you to use whatever physical or virtual Linux, macOS or Windows
 
 The curl error is quite annoying and the workaround requires a few extra manual steps. I hope JumpCloud fixes this issue soon. In the meantime, at least one can continue to deploy the JumpCloud agent on Linux machines.
 
-If you have a better understanding of what the real issue is, please let me know via [Twitter](https://twitter.com/MichaelSchmidle). I will be happy to update this article accordingly. Thanks!
+If you have a better understanding of what the real issue is, please let me know via Social Media linked on this site. I will be happy to update this article accordingly. Thanks!
 
 ---
 
