@@ -16,7 +16,7 @@ Well, it's not really a conversation since I never get asked a question back by 
 
 > Overall, it *feels* like talking to a highly intelligent, yet pretty dement being.
 
-It takes some time though, to uncover inconsistency and failing continuity. I've seen other humans feed GPT-generated short *intelligent* output into other AIs that turn text into *believable* audio or video. The combination of *intelligent and believable* in this context means that it takes me, a 44-year-old trained technology and strategy expert, intentional mental effort to identify it as what it is: artificial. If I'm running on autopilot and don't pay attention, I'll buy it as real.
+It takes some time though, to uncover inconsistency and failing continuity. I've seen other humans feed short GPT-generated *intelligent* output into other AIs that turn text into *believable* audio or video. The combination of *intelligent and believable* in this context means that it takes me, a 44-year-old trained technology and strategy expert, intentional mental effort to identify it as what it is: artificial. If I'm running on autopilot and don't pay attention, I'll buy it as real.
 
 So, even with all current limitations of single AIs, there's reason for serious concern about the power that comes with Artificial Intelligences. (Yes, plural.)
 
