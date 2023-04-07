@@ -26,7 +26,7 @@ So, even with all current limitations of single AIs, there's reason for serious 
 
 These concerns come from a simple fact: It's the first time in history of humankind that even experts don't know how a globally deployed technology *really* works. Usually, people who don't know just resort to trusting people who, in fact, do know. Yet in the case of today's Large Language Models, we don't know and can't even fall back to trusting anyone else---because literally **nobody really knows**.
 
-That's where the AI Alignment Problem comes in. If we can't know the inner workings or can't trust another human who knows, is there a way to implement at least some safeguards?
+That's where the AI Alignment comes in. If we can't know the inner workings or can't trust another human who knows, is there a way to implement at least some safeguards?
 
 Sure. The theoretical solution is to align the thing that we don't understand with our values. In more practical terms, this means that both humans and machines put the same value on the same outcomes. For example, if humans put high value on their survival, machines will put equally high value on the humans' survival. Shared core values will generate compatible intentions, and resulting outcomes will complement each other. In such a scenario, there's simply no need to fully understand the inner workings of that thing we don't understand.
 
@@ -40,13 +40,13 @@ Second, how do we overcome the overwhelming odds against full-time alignment? Co
 
 Hm, that's an impossible one. What's more probable: a single misalignment once---or eternal full alignment? You do the math.
 
-But that's not even the biggest issue.
+That's why it's called AI Alignment *Problem*. But that's not even the biggest issue.
 
 ## The True Challenge: Unaligned Humans
 
-Let's take a step back here and look at this from a historical point of view. Using the [Cosmic Calendar](http://localhost:1313/articles/humanity-is-expecting-offspring/#evolution-of-intelligence) as a scale (that maps the time from the Big Bang until today onto a single calendar year), Columbus has discovered America just 1.2 seconds before midnight of December 31. On this scale, AI has been in development for the last 0.14 seconds of the Cosmic Calendar. In contrast, modern humans have evolved a whopping eight minutes before that.
+Let's take a step back here and look at this from a historical point of view. Using the [Cosmic Calendar](http://localhost:1313/articles/humanity-is-expecting-offspring/#evolution-of-intelligence) as a scale (that maps the time from the Big Bang until today onto a single calendar year), Columbus has discovered America just 1.2 seconds before midnight of December 31. On this scale, AI has been in development for the last 0.1 seconds of the Cosmic Calendar. In contrast, modern humans have evolved a whopping eight minutes before that.
 
-In other words, trying to align natural intelligences (i.e., humans) is something we've been practicing ca. 3,430 times longer than we've been trying to align artificial *and* natural ones. And, after all this time, I can state with a high degree of confidence: Natural intelligences are not yet aligned at all. Especially today, we can observe polarization (a synonym for misalignment) of human societies on every level. Throughout humankind as we live and breathe today, we still can't agree on a single thing of global relevance.
+In other words, trying to align natural intelligences (i.e., humans) is something we've been practicing around four thousand times longer than we've been trying to align artificial *and* natural ones. And, after all this time, I can state with a high degree of confidence: Natural intelligences are not yet aligned at all. Especially today, we can observe polarization (a synonym for misalignment) of human societies on every level. Throughout humankind as we live and breathe today, we still can't agree on a single thing of global relevance.
 
 > If we haven't managed to align natural intelligences so far, how are we supposed to align natural and artificial intelligences?
 
