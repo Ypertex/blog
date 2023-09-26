@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.118.2">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -248,7 +248,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">images</span>:
 </span></span><span style="display:flex;"><span>- <span style="color:#ae81ff">https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7d143c90-862c-4e74-9275-763746bf95f0</span></span></span></code></pre></div>
 <p>Hugo takes this URL and uses it in the two metadata shortcodes <code>opengraph.html</code> and <code>twitter_cards.html</code>. I use this URL to show the same cover image in the list of articles&mdash;but properly transformed for the size of my users&rsquo; devices. To that end, I first have to <strong>deconstruct the URL</strong> into its parts with the help of <a href="https://gohugo.io/functions/path.split/">Hugo&rsquo;s <code>path.Split</code> function</a>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">path</span><span style="color:#a6e22e">.Split</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">index</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">first</span> <span style="color:#ae81ff">1</span> <span style="color:#a6e22e">.Params.images</span><span style="color:#f92672">)</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">))</span><span style="color:#a6e22e">.File</span> <span style="color:#75715e">}}</span></span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">path</span><span style="color:#a6e22e">.Split</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">index</span> <span style="color:#f92672">(</span><span style="color:#a6e22e">first</span> <span style="color:#a6e22e">1</span> <span style="color:#a6e22e">.Params.images</span><span style="color:#f92672">)</span> <span style="color:#a6e22e">0</span><span style="color:#f92672">))</span><span style="color:#a6e22e">.File</span> <span style="color:#75715e">}}</span></span></span></code></pre></div>
 <p>Now, I can <strong>reconstruct different URLs</strong> for different transformations of the same image, for example:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span>&lt;<span style="color:#f92672">picture</span>&gt;
 </span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">source</span> <span style="color:#a6e22e">media</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;(min-width: 1200px)&#34;</span> <span style="color:#a6e22e">srcset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">.cloudinary.baseURL</span> <span style="color:#75715e">}}{{</span> <span style="color:#a6e22e">.cloudinary.transformations.index.xl</span> <span style="color:#75715e">}}{{</span> <span style="color:#a6e22e">$cover</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span>&gt;
@@ -362,6 +362,48 @@
     <div class="row align-items-center">
     <div class="col-md-4 mb-3 mb-md-0">
         
+        <a href="/articles/middleware-for-nuxt-directus/">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
+                <source media="(min-width: 992px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
+                <source media="(min-width: 768px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
+                <source media="(min-width: 576px)"
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192" alt=""
+                    class="shadow w-100">
+            </picture>
+        </a>
+        
+    </div>
+    <div class="col-md-8">
+        <p class="text-muted mb-2"><small><i
+            class="las la-upload"></i>&nbsp;Sep 26, 2023 · <i
+            class="las la-stopwatch"></i>&nbsp;2min read</small></p>
+<div class="yx-stretched-linkable mb-3">
+    <h2>The Ultimate Nuxt Directus Authentication Middleware</h2>
+    <p>The Nuxt Directus docs give you a basic auth middleware, but it&rsquo;s got some quirks. Here&rsquo;s how to bulletproof it. <a href="/articles/middleware-for-nuxt-directus/" class="stretched-link">Continue…</a></p>
+</div>
+<p class="mb-2">
+    
+    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
+    
+    <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
+    
+</p>
+
+    </div>
+</div>
+
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+        
         <a href="/articles/artist-vs-designer/">
             <picture>
                 <source media="(min-width: 1200px)"
@@ -378,7 +420,7 @@
         </a>
         
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 text-md-right">
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Oct 4, 2021 · <i
             class="las la-stopwatch"></i>&nbsp;4min read</small></p>
@@ -404,7 +446,7 @@
     <hr>
     
     <div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+    <div class="col-md-4 mb-3 mb-md-0">
         
         <a href="/articles/multisource-multitrack-recording-in-your-daw/">
             <picture>
@@ -422,7 +464,7 @@
         </a>
         
     </div>
-    <div class="col-md-8 text-md-right">
+    <div class="col-md-8">
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Jul 16, 2021 · <i
             class="las la-stopwatch"></i>&nbsp;4min read</small></p>
@@ -435,50 +477,6 @@
     <a href="/tags/music/" class="badge badge-primary"><i class="las la-hashtag"></i>Music</a>
     
     <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
-    
-</p>
-
-    </div>
-</div>
-
-    
-    
-    <hr>
-    
-    <div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0">
-        
-        <a href="/articles/s2s-stairs-to-success/">
-            <picture>
-                <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/f922629f-2c1d-46cf-bc6a-32c8432d972e">
-                <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/f922629f-2c1d-46cf-bc6a-32c8432d972e">
-                <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/f922629f-2c1d-46cf-bc6a-32c8432d972e">
-                <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/f922629f-2c1d-46cf-bc6a-32c8432d972e">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/f922629f-2c1d-46cf-bc6a-32c8432d972e" alt=""
-                    class="shadow w-100">
-            </picture>
-        </a>
-        
-    </div>
-    <div class="col-md-8">
-        <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Jan 15, 2021 · <i
-            class="las la-stopwatch"></i>&nbsp;10min read</small></p>
-<div class="yx-stretched-linkable mb-3">
-    <h2>S2S: Stairs to Success</h2>
-    <p>For most of us, success depends on the interaction with other human beings. S2S is a simple method that can help you be more successful. I&rsquo;ll show you how. <a href="/articles/s2s-stairs-to-success/" class="stretched-link">Continue…</a></p>
-</div>
-<p class="mb-2">
-    
-    <a href="/tags/career/" class="badge badge-primary"><i class="las la-hashtag"></i>Career</a>
-    
-    <a href="/tags/design/" class="badge badge-primary"><i class="las la-hashtag"></i>Design</a>
-    
-    <a href="/tags/leadership/" class="badge badge-primary"><i class="las la-hashtag"></i>Leadership</a>
     
 </p>
 

@@ -12,7 +12,7 @@
     href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700,700i|Montserrat:400,400i,700,700i&display=swap">
 <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-<title>Tutorials · Ypertex Blog</title>
+<title>The Ultimate Nuxt Directus Authentication Middleware · Ypertex Blog</title>
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -31,20 +31,21 @@
 <meta name="msapplication-wide310x150logo" content="/widetile.png" />
 <meta name="msapplication-square310x310logo" content="/largetile.png" />
 <meta property="og:logo" content="https://blog.ypertex.com//android-chrome-192x192.png">
-<meta property="og:title" content="Tutorials" />
-<meta property="og:description" content="Strategy. Leadership. Media." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.ypertex.com/tags/tutorials/" /><meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/d9b97997-d2c8-4d4a-a251-2b9c15a7549a" />
+<meta property="og:title" content="The Ultimate Nuxt Directus Authentication Middleware" />
+<meta property="og:description" content="The Nuxt Directus docs give you a basic auth middleware, but it&rsquo;s got some quirks. Here&rsquo;s how to bulletproof it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ypertex.com/articles/middleware-for-nuxt-directus/" /><meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192" /><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2023-09-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-09-26T00:00:00+00:00" />
 
 
+<meta property="article:author" content="Michael Schmidle" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/d9b97997-d2c8-4d4a-a251-2b9c15a7549a"/>
+<meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192"/>
 
-<meta name="twitter:title" content="Tutorials"/>
-<meta name="twitter:description" content="Strategy. Leadership. Media."/>
+<meta name="twitter:title" content="The Ultimate Nuxt Directus Authentication Middleware"/>
+<meta name="twitter:description" content="The Nuxt Directus docs give you a basic auth middleware, but it&rsquo;s got some quirks. Here&rsquo;s how to bulletproof it."/>
 
-
-<link rel="alternate" type="application/rss+xml" href="https://blog.ypertex.com/tags/tutorials/index.xml" title="Ypertex Blog" />
 
 </head>
 
@@ -83,10 +84,10 @@
                     
                     
                     <a href="/articles/"
-                        class="nav-item nav-link">Articles</a>
+                        class="nav-item nav-link active">Articles</a>
                     
                     <a href="/tags/"
-                        class="nav-item nav-link active">Tags</a>
+                        class="nav-item nav-link">Tags</a>
                     
                 </div>
                 <div class="navbar-nav">
@@ -110,129 +111,109 @@
 </header>
     <main>
         
-<section class="yx-jumbotron">
+<section class="jumbotron">
     <div class="container">
-        <h1><i class="las la-hashtag"></i>Tutorials</h1>
-        <div class="row">
-            <div class="col-lg-8 col-md-6 mx-auto">
-                <div class="card">
-                    
-                    <picture>
-                        <source media="(min-width: 992px)"
-                            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_3.2,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_728/d9b97997-d2c8-4d4a-a251-2b9c15a7549a">
-                        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_3.2,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_543/d9b97997-d2c8-4d4a-a251-2b9c15a7549a"
-                            alt="" class="card-img-top">
-                    </picture>
-                    
-                    <div class="card-body">
-                        <p>Things I’ve learned that might serve others, too: a list of tutorials and how-tos.</p>
-                    </div>
-                    <div class="card-footer">
-                        <div class="row">
-                            <div class="col mr-auto">
-                                <small>8 articles</small>
-                            </div>
-                            
-                            <div class="col-auto">
-                                <small class="yx-attribution">Image: <a href="https://unsplash.com/photos/qDY9ahp0Mto">Ben White</a></small>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="container py-5">
-
-
-<div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
-        
-        <a href="/articles/middleware-for-nuxt-directus/">
-            <picture>
-                <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
-                <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
-                <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
-                <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192" alt=""
-                    class="shadow w-100">
-            </picture>
-        </a>
-        
-    </div>
-    <div class="col-md-8 text-md-right">
+        <h1>The Ultimate Nuxt Directus Authentication Middleware</h1>
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Sep 26, 2023 · <i
             class="las la-stopwatch"></i>&nbsp;2min read</small></p>
-<div class="yx-stretched-linkable mb-3">
-    <h2>The Ultimate Nuxt Directus Authentication Middleware</h2>
-    <p>The Nuxt Directus docs give you a basic auth middleware, but it&rsquo;s got some quirks. Here&rsquo;s how to bulletproof it. <a href="/articles/middleware-for-nuxt-directus/" class="stretched-link">Continue…</a></p>
-</div>
-<p class="mb-2">
+        <p class="mb-2">
     
     <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
     
     <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
     
 </p>
+                
+    </div>
+</section>
+<section class="yx-content container py-5">
+    <div class="row">
+        <div class="col-xl-8 col-lg-10 mx-auto">
+            <p class="lead">The Nuxt Directus docs give you a basic auth middleware, but it&rsquo;s got some quirks. Here&rsquo;s how to bulletproof it.</p>
+                    
+            <hr>
+            <h2 id="why-nuxt-and-directus-are-a-match-made-in-dev-heaven">Why Nuxt and Directus are a Match Made in Dev Heaven&nbsp<a href="#why-nuxt-and-directus-are-a-match-made-in-dev-heaven"
+        class="heading">¶</a></h2><p>Starting an app from scratch is like reinventing the wheel—unnecessary and time-consuming. That&rsquo;s why we have killer frameworks like <a href="https://nuxt.com/">Nuxt</a> (<cite>&ldquo;The Intuitive Web Framework&rdquo;</cite>) for frontend magic and <a href="https://directus.io/">Directus</a> (<cite>&ldquo;The backend to build anything or everything&rdquo;</cite>) for backend wizardry. I&rsquo;ve been using both to build <a href="https://scor-e.online/">SCOR·E</a>, a decision-making app that&rsquo;s as slick as they come.</p>
+<p>But here&rsquo;s the kicker: There&rsquo;s a package named <a href="https://www.nuxt-directus.site/">Nuxt Directus</a> that marries these two like peanut butter and jelly. Sweet, right?</p>
+<h2 id="the-good-the-bad-and-the-ugly-of-nuxt-directus">The Good, the Bad, and the Ugly of Nuxt Directus&nbsp<a href="#the-good-the-bad-and-the-ugly-of-nuxt-directus"
+        class="heading">¶</a></h2><p>Nuxt Directus is a lifesaver, no doubt. It lets you pull and push data from your Directus backend to your Nuxt frontend like a pro. User signup, login, you name it—it&rsquo;s got you covered.</p>
+<p>But let&rsquo;s keep it real: the docs are kinda basic. They offer an example middleware to redirect unauthenticated users to a login page, which is crucial for any app with restricted access. Problem is, this middleware has a nasty habit of logging you out when you least expect it.</p>
+<h2 id="the-middleware-youve-been-waiting-for">The Middleware You&rsquo;ve Been Waiting For&nbsp<a href="#the-middleware-youve-been-waiting-for"
+        class="heading">¶</a></h2><p>Enough talk. Here&rsquo;s a middleware that&rsquo;s not just a band-aid but a full-on cure. It&rsquo;ll protect your routes and keep your login sessions intact:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">defineNuxtRouteMiddleware</span>(<span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">to</span>, <span style="color:#a6e22e">_from</span>) <span style="color:#f92672">=&gt;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">token_expired</span>, <span style="color:#a6e22e">checkAutoRefresh</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">useDirectusToken</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Check if the token&#39;s expired
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">token_expired</span>.<span style="color:#a6e22e">value</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// Attempt to refresh the token
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">checkAutoRefresh</span>()
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// If still expired, off to the login page
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">token_expired</span>.<span style="color:#a6e22e">value</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">navigateTo</span>(<span style="color:#e6db74">&#39;/login&#39;</span>)
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// Handle any refresh errors here
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Couldn&#39;t refresh token:&#34;</span>, <span style="color:#a6e22e">error</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// If the token&#39;s good, carry on
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>})
+</span></span></code></pre></div><p>To use this gem, slap it onto any Nuxt page that needs authentication:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">setup</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ts&#34;</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">definePageMeta</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">middleware</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;private&#39;</span>]
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span></code></pre></div><p>That&rsquo;s it, you&rsquo;re good to go.</p>
+<h2 id="summary">Summary&nbsp<a href="#summary"
+        class="heading">¶</a></h2><p>So, there you have it—a rock-solid fix for the authentication middleware in Nuxt Directus. The out-of-the-box example might leave you scratching your head with random logouts, but this solution is your ticket to a hassle-free user experience. Implement this, and you can focus on building out the cool parts of your app without worrying about unexpected session timeouts.</p>
 
+            
+        </div>
+    </div>
+</section>
+
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-10 mx-auto">
+                <div class="yx-heading">About the Author</div>
+<div class="media">
+    <img
+        src="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_thumb,dpr_auto,f_auto,g_face,q_auto,w_128/people/michael-schmidle-2021-10"
+        class="yx-avatar">
+    <div class="media-body">
+        <h4>Michael Schmidle</h4>
+        <p>Head of Business Development at the Swiss Radio and TV, <a href="https://www.srf.ch/">SRF</a>. Start-up consultant, hobby music producer and blogger. Opinionated about strategy, leadership, and media. In love with Mexico. This blog reflects my personal views.</p>
+
+        <p class="mb-0">
+            <a href="https://www.linkedin.com/in/MichaelSchmidle"
+                class="btn btn-light rounded-pill text-muted"><i class="lab la-linkedin-in"></i>&nbsp;LinkedIn</a>
+            
+            <a href="https://github.com/MichaelSchmidle/"
+                class="btn btn-light rounded-pill text-muted"><i class="lab la-github"></i>&nbsp;GitHub</a>
+            
+            <a href="https://soundcloud.com/michaelschmidle/"
+                class="btn btn-light rounded-pill text-muted"><i class="lab la-soundcloud"></i>&nbsp;SoundCloud</a>
+            </p>
     </div>
 </div>
-
-
-
-<hr>
-
-<div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0">
-        
-        <a href="/articles/multisource-multitrack-recording-in-your-daw/">
-            <picture>
-                <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/2dc21d85-7a71-4b06-af35-33e87070dcbd">
-                <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/2dc21d85-7a71-4b06-af35-33e87070dcbd">
-                <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/2dc21d85-7a71-4b06-af35-33e87070dcbd">
-                <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/2dc21d85-7a71-4b06-af35-33e87070dcbd">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/2dc21d85-7a71-4b06-af35-33e87070dcbd" alt=""
-                    class="shadow w-100">
-            </picture>
-        </a>
-        
+            </div>
+        </div>
     </div>
-    <div class="col-md-8">
-        <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Jul 16, 2021 · <i
-            class="las la-stopwatch"></i>&nbsp;4min read</small></p>
-<div class="yx-stretched-linkable mb-3">
-    <h2>Multisource-Multitrack Recording in Your DAW</h2>
-    <p>Want to patch audio from multiple interfaces through to your digital audio workstation on seperate tracks? Here&rsquo;s how VoiceMeeter can help. <a href="/articles/multisource-multitrack-recording-in-your-daw/" class="stretched-link">Continue…</a></p>
-</div>
-<p class="mb-2">
-    
-    <a href="/tags/music/" class="badge badge-primary"><i class="las la-hashtag"></i>Music</a>
-    
-    <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
-    
-</p>
+</section>
 
+
+
+<section class="container py-5">
+    <div class="yx-heading">
+        Recommended Articles
     </div>
-</div>
-
-
-
-<hr>
-
-<div class="row align-items-center">
+    
+    
+    <div class="row align-items-center">
     <div class="col-md-4 mb-3 mb-md-0 order-md-last">
         
         <a href="/articles/accelerate-your-website-with-your-logo/">
@@ -270,56 +251,12 @@
     </div>
 </div>
 
-
-
-<hr>
-
-<div class="row align-items-center">
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
     <div class="col-md-4 mb-3 mb-md-0">
-        
-        <a href="/articles/useful-hugo-templating/">
-            <picture>
-                <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/7d143c90-862c-4e74-9275-763746bf95f0">
-                <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/7d143c90-862c-4e74-9275-763746bf95f0">
-                <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/7d143c90-862c-4e74-9275-763746bf95f0">
-                <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/7d143c90-862c-4e74-9275-763746bf95f0">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/7d143c90-862c-4e74-9275-763746bf95f0" alt=""
-                    class="shadow w-100">
-            </picture>
-        </a>
-        
-    </div>
-    <div class="col-md-8">
-        <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Apr 12, 2020 · <i
-            class="las la-stopwatch"></i>&nbsp;5min read</small></p>
-<div class="yx-stretched-linkable mb-3">
-    <h2>Useful Hugo Templating</h2>
-    <p>Developing templates for the static website generator Hugo? Then these advanced tips &amp; tricks might be helpful to you. <a href="/articles/useful-hugo-templating/" class="stretched-link">Continue…</a></p>
-</div>
-<p class="mb-2">
-    
-    <a href="/tags/design/" class="badge badge-primary"><i class="las la-hashtag"></i>Design</a>
-    
-    <a href="/tags/likes/" class="badge badge-primary"><i class="las la-hashtag"></i>Likes</a>
-    
-    <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
-    
-</p>
-
-    </div>
-</div>
-
-
-
-<hr>
-
-<div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
         
         <a href="/articles/unhide-virtual-network-adapters-windows-10/">
             <picture>
@@ -337,7 +274,7 @@
         </a>
         
     </div>
-    <div class="col-md-8 text-md-right">
+    <div class="col-md-8">
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Aug 18, 2019
         · <i class="las la-sync"></i>&nbsp;May 14, 2020 · <i
@@ -357,12 +294,12 @@
     </div>
 </div>
 
-
-
-<hr>
-
-<div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0">
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
         
         <a href="/articles/jumpcloud-on-unsupported-linux/">
             <picture>
@@ -380,7 +317,7 @@
         </a>
         
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 text-md-right">
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Nov 9, 2018 · <i
             class="las la-stopwatch"></i>&nbsp;3min read</small></p>
@@ -399,12 +336,12 @@
     </div>
 </div>
 
-
-
-<hr>
-
-<div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0 order-md-last">
+    
+    
+    <hr>
+    
+    <div class="row align-items-center">
+    <div class="col-md-4 mb-3 mb-md-0">
         
         <a href="/articles/advertise-subnet-with-opnsense-arp/">
             <picture>
@@ -422,7 +359,7 @@
         </a>
         
     </div>
-    <div class="col-md-8 text-md-right">
+    <div class="col-md-8">
         <p class="text-muted mb-2"><small><i
             class="las la-upload"></i>&nbsp;Aug 2, 2018 · <i
             class="las la-stopwatch"></i>&nbsp;3min read</small></p>
@@ -441,51 +378,9 @@
     </div>
 </div>
 
-
-
-<hr>
-
-<div class="row align-items-center">
-    <div class="col-md-4 mb-3 mb-md-0">
-        
-        <a href="/articles/jumpcloud-curl-error-22/">
-            <picture>
-                <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/8a0f15ad-90b4-44b6-be9f-98261403072f">
-                <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/8a0f15ad-90b4-44b6-be9f-98261403072f">
-                <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/8a0f15ad-90b4-44b6-be9f-98261403072f">
-                <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/8a0f15ad-90b4-44b6-be9f-98261403072f">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/8a0f15ad-90b4-44b6-be9f-98261403072f" alt=""
-                    class="shadow w-100">
-            </picture>
-        </a>
-        
-    </div>
-    <div class="col-md-8">
-        <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Jun 21, 2017 · <i
-            class="las la-stopwatch"></i>&nbsp;4min read</small></p>
-<div class="yx-stretched-linkable mb-3">
-    <h2>Working Around the JumpCloud Curl Error 22</h2>
-    <p>JumpCloud is a great tool to enable Single Sign-On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux. <a href="/articles/jumpcloud-curl-error-22/" class="stretched-link">Continue…</a></p>
-</div>
-<p class="mb-2">
     
-    <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
-    
-    <a href="/tags/tutorials/" class="badge badge-primary"><i class="las la-hashtag"></i>Tutorials</a>
-    
-</p>
-
-    </div>
-</div>
-
-
-
 </section>
+
 
 
     </main>
