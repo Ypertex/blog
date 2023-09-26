@@ -21,6 +21,8 @@ Nuxt Directus is a lifesaver, no doubt. It lets you pull and push data from your
 
 But let's keep it real: the docs are kinda basic. They offer an example middleware to redirect unauthenticated users to a login page, which is crucial for any app with restricted access. Problem is, this middleware has a nasty habit of logging you out when you least expect it.
 
+{{<figure src="7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192" />}}
+
 ## The Middleware You've Been Waiting For
 
 Enough talk. Here's a middleware that's not just a band-aid but a full-on cure. It'll protect your routes and keep your login sessions intact:
