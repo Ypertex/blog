@@ -1,5 +1,5 @@
 ---
-title: The Ultimate Nuxt Directus Authentication Middleware
+title: The Better Nuxt Directus Authentication Middleware
 publishdate: 2023-09-26
 tags:
 - Technology
@@ -11,7 +11,7 @@ images:
 
 ## Why Nuxt and Directus are a Match Made in Dev Heaven
 
-Starting an app from scratch is like reinventing the wheel—unnecessary and time-consuming. That's why we have killer frameworks like [Nuxt](https://nuxt.com/) (<cite>"The Intuitive Web Framework"</cite>) for frontend magic and [Directus](https://directus.io/) (<cite>"The backend to build anything or everything"</cite>) for backend wizardry. I've been using both to build [SCOR·E](https://scor-e.online/), a decision-making app that's as slick as they come.
+Starting an app from scratch is like reinventing the wheel—unnecessary and time-consuming. That's why we have killer frameworks like [Nuxt](https://nuxt.com/) (<cite>"The Intuitive Web Framework"</cite>) for frontend magic and [Directus](https://directus.io/) (<cite>"The backend to build anything or everything"</cite>) for backend wizardry. I'm currently using both to build [SCOR·E](https://scor-e.online/).
 
 But here's the kicker: There's a package named [Nuxt Directus](https://www.nuxt-directus.site/) that marries these two like peanut butter and jelly. Sweet, right?
 
@@ -28,6 +28,7 @@ But let's keep it real: the docs are kinda basic. They offer an example middlewa
 Enough talk. Here's a middleware that's not just a band-aid but a full-on cure. It'll protect your routes and keep your login sessions intact:
 
 ```typescript
+// ~/middleware/auth.ts
 export default defineNuxtRouteMiddleware(async (to, _from) => {
   const { token_expired, checkAutoRefresh } = useDirectusToken()
 
@@ -54,7 +55,7 @@ To use this gem, slap it onto any Nuxt page that needs authentication:
 ```typescript
 <script setup lang="ts">
 definePageMeta({
-  middleware: ['private']
+  middleware: ['auth']
 })
 </script>
 ```
