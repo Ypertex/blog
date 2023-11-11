@@ -7,33 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/tags/future/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.ypertex.com/tags/future/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The True Challenge of the AI Alignment Problem</title>
       <link>https://blog.ypertex.com/articles/alignment-by-the-unaligned/</link>
       <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/alignment-by-the-unaligned/</guid>
       <description>AI is a big topic these days. One reason for this is the fear of AIs acting against human values, potentially causing severe consequences. However, there&amp;rsquo;s an even bigger challenge than aligning AIs: Let&amp;rsquo;s look in the mirror.</description>
     </item>
-    
     <item>
       <title>Are We Innovating Our Stagnation?</title>
       <link>https://blog.ypertex.com/articles/innovating-our-stagnation/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/innovating-our-stagnation/</guid>
       <description>Today&amp;rsquo;s global challenges require humankind to learn and adapt. Artificial Intelligence will help driving these changes, right?&amp;mdash;Maybe not.</description>
     </item>
-    
     <item>
       <title>Humankind Is Expecting Offspring—Are We Ready?</title>
       <link>https://blog.ypertex.com/articles/humanity-is-expecting-offspring/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/humanity-is-expecting-offspring/</guid>
       <description>The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?</description>
     </item>
-    
   </channel>
 </rss>

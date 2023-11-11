@@ -7,321 +7,252 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.ypertex.com/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Better Nuxt Directus Authentication Middleware</title>
       <link>https://blog.ypertex.com/articles/nuxt-directus-authentication-middleware/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/nuxt-directus-authentication-middleware/</guid>
       <description>The Nuxt Directus docs give you a basic auth middleware, but it&amp;rsquo;s got some quirks. Here&amp;rsquo;s how to bulletproof it.</description>
     </item>
-    
     <item>
       <title>The True Challenge of the AI Alignment Problem</title>
       <link>https://blog.ypertex.com/articles/alignment-by-the-unaligned/</link>
       <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/alignment-by-the-unaligned/</guid>
       <description>AI is a big topic these days. One reason for this is the fear of AIs acting against human values, potentially causing severe consequences. However, there&amp;rsquo;s an even bigger challenge than aligning AIs: Let&amp;rsquo;s look in the mirror.</description>
     </item>
-    
     <item>
       <title>Four Criteria for Better Decision Making</title>
       <link>https://blog.ypertex.com/articles/better-decision-making/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/better-decision-making/</guid>
       <description>While we all face decisions on a daily basis, we often reinvent the wheel in our process of decision making. However, there&amp;rsquo;s a set of strategic criteria that helps you making robust, fast, and comprehensible choices every time.</description>
     </item>
-    
     <item>
       <title>The Power of Subtractive Thinking</title>
       <link>https://blog.ypertex.com/articles/power-of-subtractive-thinking/</link>
       <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/power-of-subtractive-thinking/</guid>
       <description>What&amp;rsquo;s better: more success or less failure? More possibilities or less impossibilities? Let&amp;rsquo;s take a look at the seemingly pointless question&amp;mdash;and discover the surprising answer.</description>
     </item>
-    
     <item>
       <title>Who Has the Ressources to Innovate in Times of Transformation?</title>
       <link>https://blog.ypertex.com/articles/innovation-in-transformation/</link>
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/innovation-in-transformation/</guid>
       <description>The media industry is in the throes of its biggest transformation yet. And on top, public service media is supposed to be innovative, too. What seems like asking too much, might be a blessing in disguise.</description>
     </item>
-    
     <item>
       <title>A Visualization of Leadership</title>
       <link>https://blog.ypertex.com/articles/visualization-of-leadership/</link>
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/visualization-of-leadership/</guid>
       <description>Recently, I came across a helpful visualization of what Leadership means in times of Digital Transformation. Let me show you.</description>
     </item>
-    
     <item>
       <title>Accelerate Your Team by Repeating Yourself</title>
       <link>https://blog.ypertex.com/articles/accelerate-your-team-by-repeating-yourself/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/accelerate-your-team-by-repeating-yourself/</guid>
       <description>If you want to speed up your team, should you run faster or slower as their leader? Today, I found one answer.</description>
     </item>
-    
     <item>
       <title>The Best of Both VUCAs</title>
       <link>https://blog.ypertex.com/articles/the-best-of-both-vucas/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/the-best-of-both-vucas/</guid>
       <description>Ever heard of VUCA&amp;mdash;as in: Volatility, Uncertainty, Complexity, and Ambiguity? Ever thought that these aspects could actually be beneficial on a certain level? Let&amp;rsquo;s find out.</description>
     </item>
-    
     <item>
       <title>Being Productively Creative---Artist vs. Designer</title>
       <link>https://blog.ypertex.com/articles/artist-vs-designer/</link>
       <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/artist-vs-designer/</guid>
       <description>Have you ever experienced &amp;ldquo;writer&amp;rsquo;s block&amp;rdquo; or &amp;ldquo;masterpiece syndrome?&amp;rdquo; Here&amp;rsquo;s some advice on how to frame your mind, get into problem solving and be productively creative.</description>
     </item>
-    
     <item>
       <title>Applying Design Thinking to a Pandemic</title>
       <link>https://blog.ypertex.com/articles/applying-design-thinking-to-a-pandemic/</link>
       <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/applying-design-thinking-to-a-pandemic/</guid>
       <description>Everybody seems to have strong opinions about the best way to get out of the COVID-19 pandemic&amp;mdash;to the point that makes it really tough to, indeed, get out. Maybe Design Thinking can help?</description>
     </item>
-    
     <item>
       <title>Multisource-Multitrack Recording in Your DAW</title>
       <link>https://blog.ypertex.com/articles/multisource-multitrack-recording-in-your-daw/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/multisource-multitrack-recording-in-your-daw/</guid>
       <description>Want to patch audio from multiple interfaces through to your digital audio workstation on seperate tracks? Here&amp;rsquo;s how VoiceMeeter can help.</description>
     </item>
-    
     <item>
       <title>Turn the Page Feat. Sydtherockerkid</title>
       <link>https://blog.ypertex.com/articles/turn-the-page-feat-sydtherockerkid/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/turn-the-page-feat-sydtherockerkid/</guid>
       <description>While my disputed copyright claim is under review at SoundCloud, I release my song &amp;ldquo;Turn the Page&amp;rdquo; here–along with details about the legal stuff.</description>
     </item>
-    
     <item>
       <title>Be an Egoist and Trust Your Team</title>
       <link>https://blog.ypertex.com/articles/trust-your-team/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/trust-your-team/</guid>
       <description>Let&amp;rsquo;s take a look at the real reason why we should treat our teams as the adults they are. Spoiler: It&amp;rsquo;s quite an egoistic reason.</description>
     </item>
-    
     <item>
       <title>S2S: Stairs to Success</title>
       <link>https://blog.ypertex.com/articles/s2s-stairs-to-success/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/s2s-stairs-to-success/</guid>
       <description>For most of us, success depends on the interaction with other human beings. S2S is a simple method that can help you be more successful. I&amp;rsquo;ll show you how.</description>
     </item>
-    
     <item>
       <title>Deplatforming Trump</title>
       <link>https://blog.ypertex.com/articles/deplatforming-trump/</link>
       <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/deplatforming-trump/</guid>
       <description>Short update: Today, I exercised my power as a user and left Twitter. Here&amp;rsquo;s why.</description>
     </item>
-    
     <item>
       <title>Card or Player: Who Wins Poker Games?</title>
       <link>https://blog.ypertex.com/articles/who-wins-poker-games/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/who-wins-poker-games/</guid>
       <description>&amp;hellip; and other counter-intuitive lessons from working 18 months on developing and executing SRG SSR&amp;rsquo;s technology strategy.</description>
     </item>
-    
     <item>
       <title>Westworld Scoring Competition: Content, Process, and Relationship</title>
       <link>https://blog.ypertex.com/articles/westworld-scoring-competition-content-process-relationship/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/westworld-scoring-competition-content-process-relationship/</guid>
       <description>How a high-profile music competition by Spitfire Audio and HBO with 11,000 participants ends in a PR disaster&amp;mdash;and how distinguishing content, process, and relationship levels could help to recover.</description>
     </item>
-    
     <item>
       <title>Conscious Followers Are Better Leaders</title>
       <link>https://blog.ypertex.com/articles/conscious-followers-are-better-leaders/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/conscious-followers-are-better-leaders/</guid>
       <description>Every leader follows something. The more they are conscious of what they follow, the better is their leadership.</description>
     </item>
-    
     <item>
       <title>Accelerate Your Website---With Your Logo</title>
       <link>https://blog.ypertex.com/articles/accelerate-your-website-with-your-logo/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/accelerate-your-website-with-your-logo/</guid>
       <description>Most people who care about their website&amp;rsquo;s performance probably use a website logo created by vector graphics software. Here&amp;rsquo;s how to take advantage of vectorized logos to speed up your website. Seriously.</description>
     </item>
-    
     <item>
       <title>Useful Hugo Templating</title>
       <link>https://blog.ypertex.com/articles/useful-hugo-templating/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/useful-hugo-templating/</guid>
       <description>Developing templates for the static website generator Hugo? Then these advanced tips &amp;amp; tricks might be helpful to you.</description>
     </item>
-    
     <item>
       <title>Redesign March 2020</title>
       <link>https://blog.ypertex.com/articles/redesign-march-2020/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/redesign-march-2020/</guid>
       <description>On this day three years ago, I launched my blog. Today, I publish its first redesign: bigger, bolder, bluer, and (hopefully) better than its predecessor.</description>
     </item>
-    
     <item>
       <title>Are We Innovating Our Stagnation?</title>
       <link>https://blog.ypertex.com/articles/innovating-our-stagnation/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/innovating-our-stagnation/</guid>
       <description>Today&amp;rsquo;s global challenges require humankind to learn and adapt. Artificial Intelligence will help driving these changes, right?&amp;mdash;Maybe not.</description>
     </item>
-    
     <item>
       <title>Improving Your Chances with Non-Negotiables</title>
       <link>https://blog.ypertex.com/articles/improving-chances-with-non-negotiables/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/improving-chances-with-non-negotiables/</guid>
       <description>Your chances of winning any game improve drastically once you learn the rules. But what if there aren&amp;rsquo;t any clear rules? Non-Negotiables are here to help.</description>
     </item>
-    
     <item>
       <title>Unhide Virtual Network Adapters in Windows 10</title>
       <link>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</link>
       <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/unhide-virtual-network-adapters-windows-10/</guid>
       <description>In Windows&amp;rsquo; latest releases, Microsoft hides virtual adapters and networks by default. In some cases though, you need them to be available just like regular adapters and networks.</description>
     </item>
-    
     <item>
       <title>Test Your Way to Success</title>
       <link>https://blog.ypertex.com/articles/test-your-way-to-success/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/test-your-way-to-success/</guid>
       <description>Ever spent too much time on something that turned out to be based on the wrong assumptions? Here&amp;rsquo;s how to make sure that you&amp;rsquo;re investing your time correctly.</description>
     </item>
-    
     <item>
       <title>Enabling JumpCloud on Unsupported Linux Systems</title>
       <link>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/jumpcloud-on-unsupported-linux/</guid>
       <description>JumpCloud officially supports Debian, yet refuses to run on Debian-based systems like Proxmox Virtual Environment and Openmediavault. Let&amp;rsquo;s fix that.</description>
     </item>
-    
     <item>
       <title>Tools for the Smart Start-up in 2018 (II)</title>
       <link>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</link>
       <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-2/</guid>
       <description>Small budgets can get you a great IT infrastructure. Running great desktop and web applications on top can be very inexpensive, too. Here’s how.</description>
     </item>
-    
     <item>
       <title>How to Advertise Subnets to Upstream Routers with OPNsense and ARP</title>
       <link>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/advertise-subnet-with-opnsense-arp/</guid>
       <description>If you ever wondered how to split a subnet away from a fixed upstream gateway, here’s how you can achieve this with ARP in OPNsense.</description>
     </item>
-    
     <item>
       <title>Tools for the Smart Start-up in 2018 (I)</title>
       <link>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/tools-for-the-smart-start-up-in-2018-1/</guid>
       <description>If you start a project on a small budget today in 2018, there is no need to do without state-of-the-art IT infrastructure for your team. Let me give you some ideas.</description>
     </item>
-    
     <item>
       <title>The Antiquated Form of the World’s Most Innovative Companies</title>
       <link>https://blog.ypertex.com/articles/antiquated-form-of-most-innovative-companies/</link>
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/antiquated-form-of-most-innovative-companies/</guid>
       <description>Adults regularly vote on the most important matters of government—yet at work, they accept having usually little to no decision-making power. How come?</description>
     </item>
-    
     <item>
       <title>Working Around the JumpCloud Curl Error 22</title>
       <link>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</link>
       <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/jumpcloud-curl-error-22/</guid>
       <description>JumpCloud is a great tool to enable Single Sign-On for whatever devices you have. Find out how to work around curl error 22 to keep using it on Linux.</description>
     </item>
-    
     <item>
       <title>The Making of the Ypertex Logo</title>
       <link>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/the-making-of-the-ypertex-logo/</guid>
       <description>The approach behind the creation of the Ypertex logo—and the similarities between visual designs (like logos) and conceptual designs (like IT solutions).</description>
     </item>
-    
     <item>
       <title>Underrated but Critical Start-Up Success Factors: Trust and Loyalty</title>
       <link>https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/</guid>
       <description>How trust and loyalty within the leadership team can determine the success or failure of a start-up. Based on a true story.</description>
     </item>
-    
     <item>
       <title>Humankind Is Expecting Offspring—Are We Ready?</title>
       <link>https://blog.ypertex.com/articles/humanity-is-expecting-offspring/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/humanity-is-expecting-offspring/</guid>
       <description>The advent of Artificial General Intelligence is close, leading to all kinds of questions and potential for conflict. How do we make sure that we are ready?</description>
     </item>
-    
     <item>
       <title>Years in the Making, Launching Today: The Ypertex Blog</title>
       <link>https://blog.ypertex.com/articles/ypertex-blog-launching-today/</link>
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/ypertex-blog-launching-today/</guid>
       <description>After years of intending to start blogging, I finally and proudly publish the first article on my blog. When are you going to start?</description>
     </item>
-    
   </channel>
 </rss>

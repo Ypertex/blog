@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.118.2">
+    <meta name="generator" content="Hugo 0.120.4">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -36,7 +36,8 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.ypertex.com/articles/nuxt-directus-authentication-middleware/" /><meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2023-09-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-09-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-11T00:00:00+00:00" />
+
 
 
 <meta property="article:author" content="Michael Schmidle" />
@@ -115,7 +116,8 @@
     <div class="container">
         <h1>The Better Nuxt Directus Authentication Middleware</h1>
         <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Sep 26, 2023 · <i
+            class="las la-upload"></i>&nbsp;Sep 26, 2023
+        · <i class="las la-sync"></i>&nbsp;Nov 11, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;2min read</small></p>
         <p class="mb-2">
     
@@ -130,11 +132,18 @@
 <section class="yx-content container py-5">
     <div class="row">
         <div class="col-xl-8 col-lg-10 mx-auto">
-            <p class="lead">The Nuxt Directus docs give you a basic auth middleware, but it&rsquo;s got some quirks. Here&rsquo;s how to bulletproof it.</p>
+            <p class="lead">The Nuxt Directus docs give you a basic auth middleware, but it&rsquo;s got some quirks. Here&rsquo;s how to bulletproof it. <small class="text-muted">[Edited
+                    Nov 11, 2020]</small></p>
                     
             <hr>
             <h2 id="why-nuxt-and-directus-are-a-match-made-in-dev-heaven">Why Nuxt and Directus are a Match Made in Dev Heaven&nbsp<a href="#why-nuxt-and-directus-are-a-match-made-in-dev-heaven"
-        class="heading">¶</a></h2><p>Starting an app from scratch is like reinventing the wheel—unnecessary and time-consuming. That&rsquo;s why we have killer frameworks like <a href="https://nuxt.com/">Nuxt</a> (<cite>&ldquo;The Intuitive Web Framework&rdquo;</cite>) for frontend magic and <a href="https://directus.io/">Directus</a> (<cite>&ldquo;The backend to build anything or everything&rdquo;</cite>) for backend wizardry. I&rsquo;m currently using both to build <a href="https://scor-e.online/">SCOR·E</a>.</p>
+        class="heading">¶</a></h2><p>Starting an app from scratch is like reinventing the wheel—unnecessary and time-consuming. That&rsquo;s why we have killer frameworks like <a href="https://nuxt.com/">Nuxt</a> (<cite>&ldquo;The Intuitive Web Framework&rdquo;</cite>) for frontend magic and <a href="https://directus.io/">Directus</a> (<cite>&ldquo;The backend to build anything or everything&rdquo;</cite>) for backend wizardry. I&rsquo;m currently using both to build <a href="https://priomind.com/">PrioMind</a>.</p>
+<div class="card alert-secondary">
+    <div class="card-body">
+        <h5 id="i-classlas-la-synci-edited-nov-11-2023"><i class="las la-sync"></i> Edited Nov 11, 2023&nbsp<a href="#i-classlas-la-synci-edited-nov-11-2023"
+        class="heading">¶</a></h5><p>In the meantime, I&rsquo;ve switched to <a href="https://supabase.com/">Supabase</a> as backend for PrioMind. Supabase also comes with &ldquo;batteries included&rdquo;&mdash;i.e., authentication. When using the <a href="https://supabase.nuxtjs.org/">Nuxt Supabase</a> module, the middleware comes built-in.
+    </div>
+</div>
 <p>But here&rsquo;s the kicker: There&rsquo;s a package named <a href="https://www.nuxt-directus.site/">Nuxt Directus</a> that marries these two like peanut butter and jelly. Sweet, right?</p>
 <h2 id="the-good-the-bad-and-the-ugly-of-nuxt-directus">The Good, the Bad, and the Ugly of Nuxt Directus&nbsp<a href="#the-good-the-bad-and-the-ugly-of-nuxt-directus"
         class="heading">¶</a></h2><p>Nuxt Directus is a lifesaver, no doubt. It lets you pull and push data from your Directus backend to your Nuxt frontend like a pro. User signup, login, you name it—it&rsquo;s got you covered.</p>

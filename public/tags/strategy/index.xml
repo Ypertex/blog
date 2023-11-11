@@ -7,60 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ypertex.com/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.ypertex.com/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The True Challenge of the AI Alignment Problem</title>
       <link>https://blog.ypertex.com/articles/alignment-by-the-unaligned/</link>
       <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/alignment-by-the-unaligned/</guid>
       <description>AI is a big topic these days. One reason for this is the fear of AIs acting against human values, potentially causing severe consequences. However, there&amp;rsquo;s an even bigger challenge than aligning AIs: Let&amp;rsquo;s look in the mirror.</description>
     </item>
-    
     <item>
       <title>Four Criteria for Better Decision Making</title>
       <link>https://blog.ypertex.com/articles/better-decision-making/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/better-decision-making/</guid>
       <description>While we all face decisions on a daily basis, we often reinvent the wheel in our process of decision making. However, there&amp;rsquo;s a set of strategic criteria that helps you making robust, fast, and comprehensible choices every time.</description>
     </item>
-    
     <item>
       <title>Who Has the Ressources to Innovate in Times of Transformation?</title>
       <link>https://blog.ypertex.com/articles/innovation-in-transformation/</link>
       <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/innovation-in-transformation/</guid>
       <description>The media industry is in the throes of its biggest transformation yet. And on top, public service media is supposed to be innovative, too. What seems like asking too much, might be a blessing in disguise.</description>
     </item>
-    
     <item>
       <title>Applying Design Thinking to a Pandemic</title>
       <link>https://blog.ypertex.com/articles/applying-design-thinking-to-a-pandemic/</link>
       <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/applying-design-thinking-to-a-pandemic/</guid>
       <description>Everybody seems to have strong opinions about the best way to get out of the COVID-19 pandemic&amp;mdash;to the point that makes it really tough to, indeed, get out. Maybe Design Thinking can help?</description>
     </item>
-    
     <item>
       <title>IOOI: Put Purpose to Work</title>
       <link>https://blog.ypertex.com/articles/iooi/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/iooi/</guid>
       <description>We live in times of volatility, uncertainty, complexity, and ambiguity. Let&amp;rsquo;s take a closer look at a framework called IOOI that can help bring a sense of purpose to your work.</description>
     </item>
-    
     <item>
       <title>Card or Player: Who Wins Poker Games?</title>
       <link>https://blog.ypertex.com/articles/who-wins-poker-games/</link>
       <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.ypertex.com/articles/who-wins-poker-games/</guid>
       <description>&amp;hellip; and other counter-intuitive lessons from working 18 months on developing and executing SRG SSR&amp;rsquo;s technology strategy.</description>
     </item>
-    
   </channel>
 </rss>

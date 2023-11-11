@@ -1,6 +1,7 @@
 ---
 title: The Better Nuxt Directus Authentication Middleware
 publishdate: 2023-09-26
+lastmod: 2020-11-11
 tags:
 - Technology
 - Tutorials
@@ -11,7 +12,13 @@ images:
 
 ## Why Nuxt and Directus are a Match Made in Dev Heaven
 
-Starting an app from scratch is like reinventing the wheel—unnecessary and time-consuming. That's why we have killer frameworks like [Nuxt](https://nuxt.com/) (<cite>"The Intuitive Web Framework"</cite>) for frontend magic and [Directus](https://directus.io/) (<cite>"The backend to build anything or everything"</cite>) for backend wizardry. I'm currently using both to build [SCOR·E](https://scor-e.online/).
+Starting an app from scratch is like reinventing the wheel—unnecessary and time-consuming. That's why we have killer frameworks like [Nuxt](https://nuxt.com/) (<cite>"The Intuitive Web Framework"</cite>) for frontend magic and [Directus](https://directus.io/) (<cite>"The backend to build anything or everything"</cite>) for backend wizardry. I'm currently using both to build [PrioMind](https://priomind.com/).
+
+{{<card class="alert-secondary">}}
+##### <i class="las la-sync"></i> Edited {{<date>}}2023-11-11{{</date>}}
+
+In the meantime, I've switched to [Supabase](https://supabase.com/) as backend for PrioMind. Supabase also comes with "batteries included"---i.e., authentication. When using the [Nuxt Supabase](https://supabase.nuxtjs.org/) module, the middleware comes built-in.
+{{</card>}}
 
 But here's the kicker: There's a package named [Nuxt Directus](https://www.nuxt-directus.site/) that marries these two like peanut butter and jelly. Sweet, right?
 
