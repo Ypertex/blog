@@ -1,7 +1,7 @@
 ---
 title: The Better Nuxt Directus Authentication Middleware
 publishdate: 2023-09-26
-lastmod: 2020-11-11
+lastmod: 2023-11-11
 tags:
 - Technology
 - Tutorials
