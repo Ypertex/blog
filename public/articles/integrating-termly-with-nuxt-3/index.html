@@ -12,7 +12,7 @@
     href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700,700i|Montserrat:400,400i,700,700i&display=swap">
 <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-<title>Mastering Keyboard Interactions in Shadcn-Vue: A Fix for Complex UIs · Ypertex Blog</title>
+<title>Integrating Termly With Nuxt 3 · Ypertex Blog</title>
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -31,26 +31,26 @@
 <meta name="msapplication-wide310x150logo" content="/widetile.png" />
 <meta name="msapplication-square310x310logo" content="/largetile.png" />
 <meta property="og:logo" content="https://blog.ypertex.com//android-chrome-192x192.png">
-<meta property="og:url" content="https://blog.ypertex.com/articles/mastering-keyboard-interactions-in-shadcn-vue/">
+<meta property="og:url" content="https://blog.ypertex.com/articles/integrating-termly-with-nuxt-3/">
   <meta property="og:site_name" content="Ypertex Blog">
-  <meta property="og:title" content="Mastering Keyboard Interactions in Shadcn-Vue: A Fix for Complex UIs">
-  <meta property="og:description" content="In the intricate dance of UI components within Vue applications, a misstep can disrupt the rhythm. Discover how a straightforward tweak can harmonize your keyboard interactions in shadcn-vue in complex nested components.">
+  <meta property="og:title" content="Integrating Termly With Nuxt 3">
+  <meta property="og:description" content="Integrating Termly’s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here’s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="articles">
-    <meta property="article:published_time" content="2023-11-15T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-11-15T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-07-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-11T00:00:00+00:00">
     <meta property="article:tag" content="Technology">
     <meta property="article:tag" content="Tutorials">
-    <meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/a19c5621-a213-43e4-8928-33791fa141c7">
+    <meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3ac9086c-7984-4089-811e-e9d3f7b96a47">
 
 
 <meta property="article:author" content="Michael Schmidle" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/a19c5621-a213-43e4-8928-33791fa141c7">
-  <meta name="twitter:title" content="Mastering Keyboard Interactions in Shadcn-Vue: A Fix for Complex UIs">
-  <meta name="twitter:description" content="In the intricate dance of UI components within Vue applications, a misstep can disrupt the rhythm. Discover how a straightforward tweak can harmonize your keyboard interactions in shadcn-vue in complex nested components.">
+  <meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3ac9086c-7984-4089-811e-e9d3f7b96a47">
+  <meta name="twitter:title" content="Integrating Termly With Nuxt 3">
+  <meta name="twitter:description" content="Integrating Termly’s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here’s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.">
 
 
 </head>
@@ -119,10 +119,10 @@
         
 <section class="jumbotron">
     <div class="container">
-        <h1>Mastering Keyboard Interactions in Shadcn-Vue: A Fix for Complex UIs</h1>
+        <h1>Integrating Termly With Nuxt 3</h1>
         <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Nov 15, 2023 · <i
-            class="las la-stopwatch"></i>&nbsp;2min read</small></p>
+            class="las la-upload"></i>&nbsp;Jul 11, 2024 · <i
+            class="las la-stopwatch"></i>&nbsp;3min read</small></p>
         <p class="mb-2">
     
     <a href="/tags/technology/" class="badge badge-primary"><i class="las la-hashtag"></i>Technology</a>
@@ -136,46 +136,120 @@
 <section class="yx-content container py-5">
     <div class="row">
         <div class="col-xl-8 col-lg-10 mx-auto">
-            <p class="lead">In the intricate dance of UI components within Vue applications, a misstep can disrupt the rhythm. Discover how a straightforward tweak can harmonize your keyboard interactions in shadcn-vue in complex nested components.</p>
+            <p class="lead">Integrating Termly&rsquo;s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here&rsquo;s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.</p>
                     
             <hr>
-            <p>In the realm of Vue applications, integrating UI components seamlessly is crucial for a fluid user experience. However, complexities arise when nesting certain components, for example when using the popular <a href="https://www.shadcn-vue.com/">shadcn-vue</a> components. A common snag encountered involves keyboard interactions within nested components. Let&rsquo;s overcome this with a simple fix.</p>
+            <h2 id="the-challenge">The Challenge&nbsp<a href="#the-challenge"
+        class="heading">¶</a></h2><p>When building modern web applications, consent management is crucial for compliance with privacy regulations like GDPR. <a href="https://termly.io/">Termly</a> offers a popular solution, but integrating it with a server-side rendered (SSR) framework like <a href="https://nuxt.com/">Nuxt 3</a> presents unique challenges.</p>
+<p>Initially, adding Termly&rsquo;s script to <a href="https://www.priomind.com/">PrioMind</a>, our application powered by Nuxt 3, seemed straightforward:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vue" data-lang="vue"><span style="display:flex;"><span><span style="color:#75715e">// app.vue
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">setup</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ts&#34;</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">useHead</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">script</span><span style="color:#f92672">:</span> [
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">src</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;https://app.termly.io/resource-blocker/[yourId]&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">defer</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  ]
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span></code></pre></div><p>However, this led to several issues:</p>
+<ol>
+<li>Hydration mismatches, leading to appearing, then disappering of the consent banner</li>
+<li><a href="https://ui.nuxt.com/">Nuxt UI</a> notifications rendering incorrectly</li>
+</ol>
 <figure>
     
     <picture>
         <source media="(min-width: 1200px)"
-            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/a19c5621-a213-43e4-8928-33791fa141c7">
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_1140/3ac9086c-7984-4089-811e-e9d3f7b96a47">
         <source media="(min-width: 992px)"
-            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/a19c5621-a213-43e4-8928-33791fa141c7">
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_960/3ac9086c-7984-4089-811e-e9d3f7b96a47">
         <source media="(min-width: 768px)"
-            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/a19c5621-a213-43e4-8928-33791fa141c7">
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_720/3ac9086c-7984-4089-811e-e9d3f7b96a47">
         <source media="(min-width: 576px)"
-            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/a19c5621-a213-43e4-8928-33791fa141c7">
-        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/a19c5621-a213-43e4-8928-33791fa141c7"
+            srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_767/3ac9086c-7984-4089-811e-e9d3f7b96a47">
+        <img src="https://res.cloudinary.com/ypertex/image/upload/ar_1.67,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_575/3ac9086c-7984-4089-811e-e9d3f7b96a47"
             alt="">
     </picture>
     
     <figcaption>
-        
+        Integrating Termly with Nuxt was a bit like mixing fire and water: It didn&rsquo;t mesh quite right.
     </figcaption>
 </figure>
-<h2 id="the-issue">The Issue&nbsp<a href="#the-issue"
-        class="heading">¶</a></h2><p>Consider a scenario where a <a href="https://www.shadcn-vue.com/docs/components/textarea">textarea element</a> from shadcn-vue is placed inside a shadcn-vue <a href="https://www.shadcn-vue.com/docs/components/accordion">accordion</a>. It seems straightforward, but there&rsquo;s a catch:</p>
-<p>The <strong>accordion intercepts keyboard strokes</strong> like arrow, home, and end keys to improve the accordion&rsquo;s accessibility. The same keys however are essential for navigation in textareas. So this behavior, stemming from the foundational <a href="https://www.radix-vue.com/components/accordion#keyboard-interactions">radix-vue</a> components, is fine for accordions without form elements but disrupts the user experience as soon as you combine accordions and forms.</p>
+<h2 id="understanding-the-problem">Understanding the Problem&nbsp<a href="#understanding-the-problem"
+        class="heading">¶</a></h2><p>The root of these issues lies in the conflict between server-side rendering and client-side scripting. Nuxt 3, being an SSR framework, renders the initial HTML on the server. When Termly&rsquo;s script runs on the client, it injects content that wasn&rsquo;t present in the server-rendered HTML, causing hydration mismatches.</p>
+<p>Moreover, the script&rsquo;s positioning and execution timing affected other UI elements, particularly Nuxt UI notifications.</p>
 <h2 id="the-solution">The Solution&nbsp<a href="#the-solution"
-        class="heading">¶</a></h2><p>After delving into the issue, we found a simple yet effective solution. By modifying the form input tags, we can ensure that keystrokes are correctly intercepted by the intended element. Here&rsquo;s the snippet to integrate into your shadcn-vue form components (shown in the example of a textarea element):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">Textarea</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">keydown</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">down</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">stop</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">keydown</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">up</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">stop</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">keydown</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">right</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">stop</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">keydown</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">left</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">stop</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">keydown</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">home</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">stop</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">keydown</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">end</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">stop</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">Textarea</span>&gt;
-</span></span></code></pre></div><p>This code effectively halts the propagation of these specific key events from the nested form element, thereby preventing the accordion from capturing them.</p>
-<p>In other words: Users can navigate again with the usual keys through their text input.</p>
+        class="heading">¶</a></h2><p>The following is a solution that addresses these issues:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vue" data-lang="vue"><span style="display:flex;"><span><span style="color:#75715e">// app.vue
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">setup</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ts&#34;</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">ref</span>, <span style="color:#a6e22e">onMounted</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;vue&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">termlyLoaded</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ref</span>(<span style="color:#66d9ef">false</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">onMounted</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;script[src*=&#34;app.termly.io/resource-blocker&#34;]&#39;</span>)) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">termlyLoaded</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">script</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;script&#39;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">script</span>.<span style="color:#a6e22e">src</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://app.termly.io/resource-blocker/[yourId]?autoBlock=on&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">script</span>.<span style="color:#a6e22e">async</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">script</span>.<span style="color:#a6e22e">onload</span> <span style="color:#f92672">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">termlyLoaded</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">firstScript</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#39;script&#39;</span>)[<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">firstScript</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">firstScript</span>.<span style="color:#a6e22e">parentNode</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">firstScript</span>.<span style="color:#a6e22e">parentNode</span>.<span style="color:#a6e22e">insertBefore</span>(<span style="color:#a6e22e">script</span>, <span style="color:#a6e22e">firstScript</span>)
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    document.<span style="color:#a6e22e">head</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">script</span>)
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">template</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">ClientOnly</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#f92672">v-if</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;termlyLoaded&#34; id=&#34;termly-code-snippet-support&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">ClientOnly</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">NuxtPage</span> /&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">UNotifications</span> /&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">template</span>&gt;
+</span></span></code></pre></div><p>Let&rsquo;s break down the key aspects of this solution:</p>
+<ol>
+<li>
+<p><strong>Client-side script loading</strong>: It loads the Termly script dynamically in the <code>onMounted</code> hook, ensuring it only happens on the client side.</p>
+</li>
+<li>
+<p><strong>Early script insertion</strong>: It attempts to insert the script as early as possible in the document to address Termly&rsquo;s positioning warning.</p>
+</li>
+<li>
+<p><strong>Conditional rendering</strong>: It uses a <code>termlyLoaded</code> ref to conditionally render the Termly support div, preventing it from appearing before the script has loaded.</p>
+</li>
+<li>
+<p><strong>Error handling</strong>: It includes checks and a fallback method for script insertion to handle various edge cases.</p>
+</li>
+</ol>
+<h2 id="the-result">The Result&nbsp<a href="#the-result"
+        class="heading">¶</a></h2><p>This solution resolves the hydration mismatches, fixes the notification rendering issues, and ensures Termly loads as early as possible. The consent management banner now coexists peacefully with the rest of our Nuxt 3 application.</p>
+<h2 id="lessons-learned">Lessons Learned&nbsp<a href="#lessons-learned"
+        class="heading">¶</a></h2><ol>
+<li>
+<p><strong>SSR and client-side scripts require careful handling:</strong> When integrating third-party scripts in an SSR environment, consider their execution timing and impact on hydration.</p>
+</li>
+<li>
+<p><strong>Conditional rendering is powerful:</strong> Using <code>ClientOnly</code> and reactive variables to control rendering can prevent many hydration issues.</p>
+</li>
+<li>
+<p><strong>Error handling is crucial:</strong> Always include fallback options and error checks, especially when dealing with dynamic script insertion.</p>
+</li>
+</ol>
 <h2 id="conclusion">Conclusion&nbsp<a href="#conclusion"
-        class="heading">¶</a></h2><p>Incorporating this tweak in your Vue applications will refine the user experience, ensuring that keyboard navigation within nested components functions as expected.</p>
+        class="heading">¶</a></h2><p>Integrating third-party scripts like Termly into a Nuxt 3 application can be challenging, but with a thoughtful approach, it&rsquo;s possible to achieve seamless integration. By understanding the interplay between server-side rendering and client-side scripting, we can develop solutions that maintain the benefits of both while avoiding common pitfalls.</p>
 
             
         </div>
@@ -223,17 +297,17 @@
     <div class="row align-items-center">
     <div class="col-md-4 mb-3 mb-md-0 order-md-last">
         
-        <a href="/articles/integrating-termly-with-nuxt-3/">
+        <a href="/articles/mastering-keyboard-interactions-in-shadcn-vue/">
             <picture>
                 <source media="(min-width: 1200px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/3ac9086c-7984-4089-811e-e9d3f7b96a47">
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_350/a19c5621-a213-43e4-8928-33791fa141c7">
                 <source media="(min-width: 992px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/3ac9086c-7984-4089-811e-e9d3f7b96a47">
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_1,c_fill,dpr_auto,f_auto,g_auto,q_auto,w_290/a19c5621-a213-43e4-8928-33791fa141c7">
                 <source media="(min-width: 768px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/3ac9086c-7984-4089-811e-e9d3f7b96a47">
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_0.75,c_fill,dpr_auto,f_auto,q_auto,w_210/a19c5621-a213-43e4-8928-33791fa141c7">
                 <source media="(min-width: 576px)"
-                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/3ac9086c-7984-4089-811e-e9d3f7b96a47">
-                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/3ac9086c-7984-4089-811e-e9d3f7b96a47" alt=""
+                    srcset="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_510/a19c5621-a213-43e4-8928-33791fa141c7">
+                <img src="https://res.cloudinary.com/ypertex/image/upload/ar_2,c_fill,dpr_auto,f_auto,q_auto,w_545/a19c5621-a213-43e4-8928-33791fa141c7" alt=""
                     class="shadow w-100">
             </picture>
         </a>
@@ -241,11 +315,11 @@
     </div>
     <div class="col-md-8 text-md-right">
         <p class="text-muted mb-2"><small><i
-            class="las la-upload"></i>&nbsp;Jul 11, 2024 · <i
-            class="las la-stopwatch"></i>&nbsp;3min read</small></p>
+            class="las la-upload"></i>&nbsp;Nov 15, 2023 · <i
+            class="las la-stopwatch"></i>&nbsp;2min read</small></p>
 <div class="yx-stretched-linkable mb-3">
-    <h2>Integrating Termly With Nuxt 3</h2>
-    <p>Integrating Termly&rsquo;s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here&rsquo;s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience. <a href="/articles/integrating-termly-with-nuxt-3/" class="stretched-link">Continue…</a></p>
+    <h2>Mastering Keyboard Interactions in Shadcn-Vue: A Fix for Complex UIs</h2>
+    <p>In the intricate dance of UI components within Vue applications, a misstep can disrupt the rhythm. Discover how a straightforward tweak can harmonize your keyboard interactions in shadcn-vue in complex nested components. <a href="/articles/mastering-keyboard-interactions-in-shadcn-vue/" class="stretched-link">Continue…</a></p>
 </div>
 <p class="mb-2">
     

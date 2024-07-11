@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.ypertex.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating Termly With Nuxt 3</title>
+      <link>https://blog.ypertex.com/articles/integrating-termly-with-nuxt-3/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.ypertex.com/articles/integrating-termly-with-nuxt-3/</guid>
+      <description>Integrating Termly&amp;rsquo;s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here&amp;rsquo;s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.</description>
+    </item>
     <item>
       <title>Mastering Keyboard Interactions in Shadcn-Vue: A Fix for Complex UIs</title>
       <link>https://blog.ypertex.com/articles/mastering-keyboard-interactions-in-shadcn-vue/</link>
