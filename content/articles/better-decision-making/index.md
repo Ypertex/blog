@@ -1,6 +1,7 @@
 ---
 title: "Four Criteria for Better Decision Making"
 publishdate: 2023-03-05
+lastmod: 2024-10-06
 tags:
 - "Strategy"
 - "Leadership"
@@ -10,6 +11,23 @@ images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/6db98220-58e2-4ecc-b7ed-9b84dd23289a
 aliases:
 - ""
+---
+
+{{<note class="alert-secondary">}}
+##### <i class="las la-sync"></i> Edited {{<date>}}2024-10-06{{</date>}}
+
+This article laid the foundation for the decision-making app [PrioMind](https://www.priomind.com) to take this concept to a whole new level. You can read all about it [in a separate article](/articles/revolutionizing-decision-making).
+
+To give you the short version: PrioMind works with two additional criteria that were important recurring factors. Other criteria were also refined. This model is now called SOURC·E™:
+
+- Strategy contribution
+- Opportunity and potential
+- *Urgency*
+- *Risk control*
+- Capability fit
+- Evaluation confidence (meta criterion)
+{{</note>}}
+
 ---
 
 Most days start with a series of decisions: What clothes do I wear today? What do I eat for breakfast? We take these decisions quasi on autopilot, and don't spend too much energy on them. That's because we have a lot experience making such mundane decisions---and they have only a very limited effect on our lives.
@@ -209,5 +227,7 @@ In the end, this framework won't prevent you from still failing spectacularly. I
 {{</note>}}
 
 ## Recommended Reading
+
+{{<preview-internal src="articles/revolutionizing-decision-making">}}
 
 {{<preview-internal src="articles/test-your-way-to-success">}}

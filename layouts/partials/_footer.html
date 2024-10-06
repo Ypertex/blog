@@ -1,10 +1,10 @@
 <footer class="bg-secondary text-light text-center">
-    <div class="container py-5">
-        {{ $privacyPage := .GetPage "privacy" }}
-        <p><small><a href="{{ $privacyPage.RelPermalink }}">{{ $privacyPage.Title }}</a></small></p>
-        <p><a href="{{ .Site.Home.RelPermalink }}">{{ partial "ypertex-logogram-2020-03.svg" }}</a></p>
-        <p><small>Copyright © 2017-{{ .Site.LastChange.Format "2006" }} {{ (.GetPage "author").Title }}<br>
-                {{ with .Site.Copyright }}{{ . | markdownify }}{{ end }}</small>
-        </p>
-    </div>
+  <div class="container py-5">
+    {{ $privacyPage := .GetPage "privacy" }}
+    <p><small><a href="{{ $privacyPage.RelPermalink }}">{{ $privacyPage.Title }}</a></small></p>
+    <p><a href="{{ .Site.Home.RelPermalink }}">{{ partial "ypertex-logogram-2020-03.svg" }}</a></p>
+    <p><small>Copyright © 2017-{{ .Site.Lastmod.Format "2006" }} {{ (.GetPage "author").Title }}<br>
+        {{ with .Site.Copyright }}{{ . | markdownify }}{{ end }}</small>
+    </p>
+  </div>
 </footer>

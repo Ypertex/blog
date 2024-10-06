@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Original content released under the [CC BY 4.0 International](http://creativecommons.org/licenses/by/4.0/) license</copyright>
-    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.ypertex.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Impact vs. Outcome</title>
@@ -22,6 +22,13 @@
       <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.ypertex.com/articles/iooi/outcome-vs-output/</guid>
       <description>It&amp;rsquo;s easy to mix up Outcome and Output. Here&amp;rsquo;s why we should care to keep them separated, and practical tips on how to make the distinction.</description>
+    </item>
+    <item>
+      <title>Revolutionizing Decision-Making</title>
+      <link>https://blog.ypertex.com/articles/revolutionizing-decision-making/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.ypertex.com/articles/revolutionizing-decision-making/</guid>
+      <description>Last year, I shared a simple framework for making better decisions. Little did I know it would spark a journey that led to creating PrioMind, an app that&amp;rsquo;s revolutionizing how we approach choices. Here&amp;rsquo;s the story of how four criteria evolved into a powerful decision-making tool, and what I&amp;rsquo;ve learned along the way.</description>
     </item>
     <item>
       <title>Integrating Termly With Nuxt 3</title>
