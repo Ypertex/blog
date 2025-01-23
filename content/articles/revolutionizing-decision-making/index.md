@@ -22,12 +22,12 @@ Back in May 2023, I shared a framework for decision-making that centered around 
 
 PrioMind isn't just an app—it's the lovechild of that original framework and a whole lot of caffeine-fueled coding sessions. We've taken those four criteria and turbocharged them into what we now call the **SOURC·E™** model:
 
-- **S**trategy contribution (our old friend "Strategic Fit" was too lax)
-- **O**pportunity and potential (our "Potential" criterion got an upgrade)
+- **S**trategy Advancement (our old friend "Strategic Fit" was too lax)
+- **O**pportunity and Potential (our "Potential" criterion got an upgrade)
 - **U**rgency (because sometimes, the early bird really does get the worm)
-- **R**isk control (because what's life without a little danger management?)
-- **C**apability fit (still keeping it real with what we can actually pull off)
-- **E**valuation confidence (our trusty meta-criterion, now with a precise name)
+- **R**isk Fit (because what's life without a little danger management?)
+- **C**apability Fit (still keeping it real with what we can actually pull off)
+- **E**valuation Confidence (our trusty meta-criterion, now with a precise name)
 
 ## Why the Upgrade?
 
@@ -35,7 +35,7 @@ Well, the original concept lacked two important factors that kept popping up:
 
 The addition of "Urgency" addresses a critical factor that our original framework missed: timing. Sometimes, options within your decisions may have an expiration date or a hard deadline that you or you simply can't work around.
 
-"Risk control" emerged as an additional crucial consideration. While everyone will be happy with the best case scenario, not everybody can deal with the worst case. You want to know if you can live with the consequences if push comes to shove before you call the shot. (Oh, and since higher is better with every other criterion, too, it's "Risk control", not "Risk." You don't want your risk to be high—but rather your control of that risk.)
+"Risk Fit" emerged as an additional crucial consideration. While everyone will be happy with the best case scenario, not everybody can deal with the worst case. You want to know if you can live with the consequences if push comes to shove before you call the shot. (Oh, and since higher is better with every other criterion, it's "Risk Fit", not "Risk." You don't want your risk to be high—but rather its fit to your risk profile.)
 
 Plus, this allowed us to turn the whole thing into a memorable acronym: SOURC·E™!
 
