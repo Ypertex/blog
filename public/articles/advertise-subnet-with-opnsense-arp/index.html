@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.141.0">
+    <meta name="generator" content="Hugo 0.147.9">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -241,7 +241,7 @@
 <p>This works like a charm. Servers in the DMZ configured with the public IPs of the second <code>/29</code> subnet are now able to communicate in both directions with the Internet.</p>
 <hr>
 <div class="alert alert-warning">
-    <h5 id="i-classlas-la-belli-reminder"><i class="las la-bell"></i> Reminder&nbsp<a href="#i-classlas-la-belli-reminder"
+    <h5 id="reminder"><i class="las la-bell"></i> Reminder&nbsp<a href="#reminder"
         class="heading">¶</a></h5><p>OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet <code>x.x.129.216/29</code> to the public IP <code>x.x.129.210</code>—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.</p>
 </div>
 
