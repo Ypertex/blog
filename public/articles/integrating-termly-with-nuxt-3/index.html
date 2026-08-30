@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.147.9">
+    <meta name="generator" content="Hugo 0.165.0">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -32,25 +32,25 @@
 <meta name="msapplication-square310x310logo" content="/largetile.png" />
 <meta property="og:logo" content="https://blog.ypertex.com//android-chrome-192x192.png">
 <meta property="og:url" content="https://blog.ypertex.com/articles/integrating-termly-with-nuxt-3/">
-  <meta property="og:site_name" content="Ypertex Blog">
-  <meta property="og:title" content="Integrating Termly With Nuxt 3">
-  <meta property="og:description" content="Integrating Termly’s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here’s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="articles">
-    <meta property="article:published_time" content="2024-07-11T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-07-11T00:00:00+00:00">
-    <meta property="article:tag" content="Technology">
-    <meta property="article:tag" content="Tutorials">
-    <meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3ac9086c-7984-4089-811e-e9d3f7b96a47">
+	<meta property="og:site_name" content="Ypertex Blog">
+	<meta property="og:title" content="Integrating Termly With Nuxt 3">
+	<meta property="og:description" content="Integrating Termly’s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here’s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="articles">
+		<meta property="article:published_time" content="2024-07-11T00:00:00+00:00">
+		<meta property="article:modified_time" content="2024-07-11T00:00:00+00:00">
+		<meta property="article:tag" content="Technology">
+		<meta property="article:tag" content="Tutorials">
+		<meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3ac9086c-7984-4089-811e-e9d3f7b96a47">
 
 
 <meta property="article:author" content="Michael Schmidle" />
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3ac9086c-7984-4089-811e-e9d3f7b96a47">
-  <meta name="twitter:title" content="Integrating Termly With Nuxt 3">
-  <meta name="twitter:description" content="Integrating Termly’s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here’s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3ac9086c-7984-4089-811e-e9d3f7b96a47">
+	<meta name="twitter:title" content="Integrating Termly With Nuxt 3">
+	<meta name="twitter:description" content="Integrating Termly’s consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here’s a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.">
 
 
 </head>
@@ -142,8 +142,8 @@
             <h2 id="the-challenge">The Challenge&nbsp<a href="#the-challenge"
         class="heading">¶</a></h2><p>When building modern web applications, consent management is crucial for compliance with privacy regulations like GDPR. <a href="https://termly.io/">Termly</a> offers a popular solution, but integrating it with a server-side rendered (SSR) framework like <a href="https://nuxt.com/">Nuxt 3</a> presents unique challenges.</p>
 <p>Initially, adding Termly&rsquo;s script to <a href="https://www.priomind.com/">PrioMind</a>, our application powered by Nuxt 3, seemed straightforward:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vue" data-lang="vue"><span style="display:flex;"><span><span style="color:#75715e">// app.vue
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">setup</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ts&#34;</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vue" data-lang="vue"><span style="display:flex;"><span><span style="color:#75715e">// app.vue
+</span></span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">setup</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ts&#34;</span>&gt;
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">useHead</span>({
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">script</span><span style="color:#f92672">:</span> [
 </span></span><span style="display:flex;"><span>    {
@@ -182,8 +182,8 @@
 <p>Moreover, the script&rsquo;s positioning and execution timing affected other UI elements, particularly Nuxt UI notifications.</p>
 <h2 id="the-solution">The Solution&nbsp<a href="#the-solution"
         class="heading">¶</a></h2><p>The following is a solution that addresses these issues:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vue" data-lang="vue"><span style="display:flex;"><span><span style="color:#75715e">// app.vue
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">setup</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ts&#34;</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-vue" data-lang="vue"><span style="display:flex;"><span><span style="color:#75715e">// app.vue
+</span></span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">setup</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ts&#34;</span>&gt;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">ref</span>, <span style="color:#a6e22e">onMounted</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;vue&#39;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">termlyLoaded</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ref</span>(<span style="color:#66d9ef">false</span>)
@@ -491,7 +491,7 @@
     </g>
 </svg>
 </a></p>
-    <p><small>Copyright © 2017-2025 Michael Schmidle<br>
+    <p><small>Copyright © 2017-2026 Michael Schmidle<br>
         Original content released under the <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International</a> license</small>
     </p>
   </div>

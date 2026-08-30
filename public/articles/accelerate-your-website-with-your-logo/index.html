@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta name="generator" content="Hugo 0.147.9">
+    <meta name="generator" content="Hugo 0.165.0">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -32,25 +32,25 @@
 <meta name="msapplication-square310x310logo" content="/largetile.png" />
 <meta property="og:logo" content="https://blog.ypertex.com//android-chrome-192x192.png">
 <meta property="og:url" content="https://blog.ypertex.com/articles/accelerate-your-website-with-your-logo/">
-  <meta property="og:site_name" content="Ypertex Blog">
-  <meta property="og:title" content="Accelerate Your Website---With Your Logo">
-  <meta property="og:description" content="Most people who care about their website’s performance probably use a website logo created by vector graphics software. Here’s how to take advantage of vectorized logos to speed up your website. Seriously.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="articles">
-    <meta property="article:published_time" content="2020-04-18T00:00:00+00:00">
-    <meta property="article:modified_time" content="2020-04-18T00:00:00+00:00">
-    <meta property="article:tag" content="Technology">
-    <meta property="article:tag" content="Tutorials">
-    <meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/8d39dd05-95d1-443a-aeb9-2bcae2151c06">
+	<meta property="og:site_name" content="Ypertex Blog">
+	<meta property="og:title" content="Accelerate Your Website---With Your Logo">
+	<meta property="og:description" content="Most people who care about their website’s performance probably use a website logo created by vector graphics software. Here’s how to take advantage of vectorized logos to speed up your website. Seriously.">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="articles">
+		<meta property="article:published_time" content="2020-04-18T00:00:00+00:00">
+		<meta property="article:modified_time" content="2020-04-18T00:00:00+00:00">
+		<meta property="article:tag" content="Technology">
+		<meta property="article:tag" content="Tutorials">
+		<meta property="og:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/8d39dd05-95d1-443a-aeb9-2bcae2151c06">
 
 
 <meta property="article:author" content="Michael Schmidle" />
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/8d39dd05-95d1-443a-aeb9-2bcae2151c06">
-  <meta name="twitter:title" content="Accelerate Your Website---With Your Logo">
-  <meta name="twitter:description" content="Most people who care about their website’s performance probably use a website logo created by vector graphics software. Here’s how to take advantage of vectorized logos to speed up your website. Seriously.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/8d39dd05-95d1-443a-aeb9-2bcae2151c06">
+	<meta name="twitter:title" content="Accelerate Your Website---With Your Logo">
+	<meta name="twitter:description" content="Most people who care about their website’s performance probably use a website logo created by vector graphics software. Here’s how to take advantage of vectorized logos to speed up your website. Seriously.">
 
 
 </head>
@@ -271,11 +271,12 @@
 </g>
 </svg> only weighs 1.69 KB in its <abbr title="Scalable Vector Graphics">SVG</abbr> format. It&rsquo;d result in a speed penalty requesting this file separately.</p>
 <blockquote>
-<p>Wasting a separate request only to download a small file is like driving to the supermarket only to buy a single peanut.</p></blockquote>
+<p>Wasting a separate request only to download a small file is like driving to the supermarket only to buy a single peanut.</p>
+</blockquote>
 <p>The great thing about SVG: It&rsquo;s not just a vector format but an <abbr title="Extensible Markup Language">XML</abbr> notation, too. This means that you can put SVG files directly in HTML files (both are XML files after all). In other words: You <strong>merge your logo and your webpage into a single file</strong>.</p>
 <p>If you do this, you reduce the number of requests necessary to display your page by 1 and improve your website&rsquo;s loading speed!</p>
 <p>Here&rsquo;s the source of this blog&rsquo;s logogram:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-svg" data-lang="svg"><span style="display:flex;"><span><span style="color:#f92672">&lt;svg</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">viewBox=</span><span style="color:#e6db74">&#34;0 0 440 176&#34;</span> <span style="color:#a6e22e">version=</span><span style="color:#e6db74">&#34;1.1&#34;</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://www.w3.org/2000/svg&#34;</span> <span style="color:#a6e22e">xmlns:xlink=</span><span style="color:#e6db74">&#34;http://www.w3.org/1999/xlink&#34;</span> <span style="color:#a6e22e">xml:space=</span><span style="color:#e6db74">&#34;preserve&#34;</span> <span style="color:#a6e22e">xmlns:serif=</span><span style="color:#e6db74">&#34;http://www.serif.com/&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2&#34;</span><span style="color:#f92672">&gt;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-svg" data-lang="svg"><span style="display:flex;"><span><span style="color:#f92672">&lt;svg</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">viewBox=</span><span style="color:#e6db74">&#34;0 0 440 176&#34;</span> <span style="color:#a6e22e">version=</span><span style="color:#e6db74">&#34;1.1&#34;</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://www.w3.org/2000/svg&#34;</span> <span style="color:#a6e22e">xmlns:xlink=</span><span style="color:#e6db74">&#34;http://www.w3.org/1999/xlink&#34;</span> <span style="color:#a6e22e">xml:space=</span><span style="color:#e6db74">&#34;preserve&#34;</span> <span style="color:#a6e22e">xmlns:serif=</span><span style="color:#e6db74">&#34;http://www.serif.com/&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2&#34;</span><span style="color:#f92672">&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(1,0,0,1,-2574,-792)&#34;</span><span style="color:#f92672">&gt;</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;g</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;Unprotected-primary-color-logogram-on-transparent-background&#34;</span> <span style="color:#a6e22e">serif:id=</span><span style="color:#e6db74">&#34;Unprotected primary color logogram on transparent background&#34;</span> <span style="color:#a6e22e">transform=</span><span style="color:#e6db74">&#34;matrix(1.12719,0,0,0.885774,2612.5,797.543)&#34;</span><span style="color:#f92672">&gt;</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;rect</span> <span style="color:#a6e22e">x=</span><span style="color:#e6db74">&#34;-34.159&#34;</span> <span style="color:#a6e22e">y=</span><span style="color:#e6db74">&#34;-6.258&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;390.352&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;198.696&#34;</span> <span style="color:#a6e22e">style=</span><span style="color:#e6db74">&#34;fill:none;&#34;</span><span style="color:#f92672">/&gt;</span>
@@ -568,7 +569,7 @@
     </g>
 </svg>
 </a></p>
-    <p><small>Copyright © 2017-2025 Michael Schmidle<br>
+    <p><small>Copyright © 2017-2026 Michael Schmidle<br>
         Original content released under the <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International</a> license</small>
     </p>
   </div>
