@@ -20,7 +20,7 @@ The obvious reading is simple: Silo 1 is an ark. It's keeping fifty populations 
 
 I want to add one step. What if Silo 1 isn't just trying to make sure humanity survives the catastrophe—what if it's using the fifty silos to learn how humanity can survive _itself_?
 
-{{<figure src="3e5b3595-5181-4299-81eb-9379d4b3343c" cite="Snapshot from the TV series “Silo”, 2023">}}Fifty identical shelters—or one experimental platform?{{</figure>}}
+{{<figure src="3e5b3595-5181-4299-81eb-9379d4b3343c" cite="Snapshot from the TV series “Silo”, 2023" transformation="full">}}Fifty identical shelters—or one experimental platform?{{</figure>}}
 
 In that case, Silo 1 isn't hunting for the "best silo" to repopulate Earth. It's hunting for **a reproducible setup for human society**—one that can grow and develop without eventually destroying itself.
 
@@ -58,7 +58,7 @@ Then the bomb goes off during the grand opening.
 
 By that point, Helen has been directed to Silo 18 while Henry steers Daniel toward Silo 1—at first with ordinary reasons (the senator wants him, Charlotte's supposedly there, Helen can join later). When Daniel walks uphill for a phone signal to find his wife, Henry gets pushier: physically redirecting him, refusing to help him reach Silo 18, insisting he come back _now_. Daniel's look shifts from irritation to alarm.
 
-{{<figure src="5de99305-6bdf-4b59-a7c2-7356a2dc02b7" cite="Snapshot from the TV series “Silo”, 2023">}}Daniel's expression shifts from irritation to alarm.{{</figure>}}
+{{<figure src="5de99305-6bdf-4b59-a7c2-7356a2dc02b7" cite="Snapshot from the TV series “Silo”, 2023" transformation="full">}}Daniel's expression shifts from irritation to alarm.{{</figure>}}
 
 Crucially, this happens _before_ the public warning. Henry has no emergency yet to react to—he behaves like someone with an assignment and a deadline: get Daniel across Silo 1's threshold, whatever it takes.
 
@@ -79,7 +79,7 @@ The present-day story adds machinery that goes well beyond sheltering:
 
 One more detail bothers me. The official explanation for earlier deaths is faulty heat tape—tiny gaps around the gloves letting poison in. Juliette survives because her suit was sealed with the good tape.
 
-{{<figure src="8971bd3f-ddd9-435b-aaeb-a72ae7cca812" cite="Snapshot from the TV series “Silo”, 2023">}}A hole much larger than the failed glove seals—and Lukas survives.{{</figure>}}
+{{<figure src="8971bd3f-ddd9-435b-aaeb-a72ae7cca812" cite="Snapshot from the TV series “Silo”, 2023" transformation="full">}}A hole much larger than the failed glove seals—and Lukas survives.{{</figure>}}
 
 Lukas is shot outside, and the bullet tears a hole far bigger than any glove gap. He argues that if the poison were real, it would have killed him through that hole—it doesn't. He reaches Silo 17 alive. That doesn't prove the whole planet is safe; danger could vary by location or mechanism. But it breaks the simple story that uniformly lethal air seeps through pinhole gaps and kills in minutes. A local or actively controlled killing mechanism now fits the evidence better than a uniformly toxic environment does.
 
@@ -91,7 +91,7 @@ Nothing says the Pact stayed identical everywhere for centuries, either. Calling
 
 Vitamin D+ wouldn't be the whole reset—it would open the door for one. If most people no longer remember reliably, a team could enter through the main airlock, repair damage, restack supplies, remove evidence, install a revised Pact, alter leadership, and leave behind a new official story. "Rebels destroyed the old records" would be a remarkably convenient cover for exactly that.
 
-{{<figure src="0d3838d7-c7b7-4cb0-97bc-573a96bee091" cite="Snapshot from the TV series “Silo”, 2023">}}A reset can suppress memory. It cannot guarantee that history stays buried.{{</figure>}}
+{{<figure src="0d3838d7-c7b7-4cb0-97bc-573a96bee091" cite="Snapshot from the TV series “Silo”, 2023" transformation="full">}}A reset can suppress memory. It cannot guarantee that history stays buried.{{</figure>}}
 
 This reset would never be a true square one—resource depletion, genetics, structural damage, habits, and buried relics would all carry over. But memory suppression plus physical intervention may be the closest thing to a clean reset anyone can manufacture. And the silos wouldn't need to reset in sync—asynchronous resets would actually generate _more_ data: different populations, different rules, different rebellion intervals, some serving as controls, others taking a changed parameter after failure.
 
@@ -125,7 +125,7 @@ Thurman has the political and military power to authorize Day One. Stensen suppl
 
 None of this needs to feel evil from the founders' side. Their value hierarchy simply ranks abstract future humanity above everyone currently alive. If extinction is otherwise inevitable, killing billions after loading a controlled ark becomes a horrendous form of prevention. "Benign" describes their terminal motive, not their means. A little like Thanos, except the snap is followed by five centuries of A/B testing.
 
-{{<figure src="03bcd577-6f69-4be3-a4b2-9ffc4a7fc11f" cite="Snapshot from the TV series “Silo”, 2023">}}Bernard finds a person behind the machine. That may be only one more layer.{{</figure>}}
+{{<figure src="03bcd577-6f69-4be3-a4b2-9ffc4a7fc11f" cite="Snapshot from the TV series “Silo”, 2023" transformation="full">}}Bernard finds a person behind the machine. That may be only one more layer.{{</figure>}}
 
 And Silo 1 may not be the final layer. Bernard thinks he's found a person behind the machine—fine, but who assigned that person? Who sets the criteria? Who decides a run has failed? What stops the evaluators from protecting their own role? The person in Silo 1 may be another prisoner performing the role of sovereign.
 
@@ -139,7 +139,7 @@ The resets are dirty, too. Memory can be suppressed, but history survives in inf
 
 We also don't actually know the variables differ _deliberately_. Fifty silos could simply be redundancy. The Pact could be identical everywhere. Vitamin D+ could restore the same arrangement after disorder rather than launch a new branch. An experiment needs varied inputs, measurement, and a decision rule—we have strong hints of measurement and termination, but not yet proof of designed variation.
 
-{{<figure src="f523bb46-0423-4164-ac19-ea0778dd9b6a" cite="Snapshot from the TV series “Silo”, 2023">}}The evaluator does not merely observe the experiment. It intervenes in it.{{</figure>}}
+{{<figure src="f523bb46-0423-4164-ac19-ea0778dd9b6a" cite="Snapshot from the TV series “Silo”, 2023" transformation="full">}}The evaluator does not merely observe the experiment. It intervenes in it.{{</figure>}}
 
 Then there's [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law). Reward low rebellion, and you might select for terror or learned helplessness. Reward the absence of civilization-ending weapons, and you might select for ignorance. Reward social harmony, and you might erase everyone capable of reporting disharmony. Nobody inside can challenge the interpretation, because nobody knows the experiment exists.
 
