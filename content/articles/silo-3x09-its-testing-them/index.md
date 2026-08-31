@@ -4,7 +4,7 @@ publishdate: 2026-08-30
 tags:
   - Future
   - AI
-summary: What if Silo 1 isn’t protecting the other forty-nine silos—but using them to test which version of humanity deserves to inherit Earth?
+summary: My theory about Apple's TV show "Silo:" What if Silo 1 isn’t protecting the other forty-nine silos—but using them to test which version of humanity deserves to inherit Earth?
 images:
   - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3e5b3595-5181-4299-81eb-9379d4b3343c
 ---
@@ -13,7 +13,7 @@ images:
 
 ###### <i class="las la-info"></i> Disclaimer
 
-An entirely TV-only theory through S03E09, "Farewell." I have not read the books and I am deliberately not using book knowledge, leaks, or anything from the finale. This is not a scientific theory. It is what happens when a nerd keeps turning nine episodes around in his head until they click into a shape.
+An entirely TV-only theory through episode S03E09, "Farewell," of Apple's TV show "Silo." I have not read the books and I am deliberately not using book knowledge, leaks, or anything from the finale. This is not a scientific theory. It is what happens when a nerd keeps turning nine episodes around in his head until they click into a shape.
 {{</note>}}
 
 The obvious reading is simpler than my theory: Silo 1 is not trying to _find_ anything. It is overseeing an ark, keeping the silos alive until humanity can return to the surface.
