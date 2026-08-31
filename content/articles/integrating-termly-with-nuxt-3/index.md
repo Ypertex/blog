@@ -7,8 +7,6 @@ tags:
 summary: Integrating Termly's consent management with Nuxt 3 turns out to be harder than just inserting a script tag. Here's a solution that resolves hydration mismatches and UI glitches, ensuring smooth functionality and user experience.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/3ac9086c-7984-4089-811e-e9d3f7b96a47
-aliases:
-- ""
 ---
 
 ## The Challenge

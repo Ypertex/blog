@@ -8,8 +8,6 @@ tags:
 summary: Last year, I shared a simple framework for making better decisions. Little did I know it would spark a journey that led to creating PrioMind, an app that's revolutionizing how we approach choices. Here's the story of how four criteria evolved into a powerful decision-making tool, and what I've learned along the way.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/d5feb54a-dc7a-4b08-a840-db6a7f3ef9ff
-aliases:
-- ""
 ---
 
 Remember that time I told you about those four magic criteria for [making better decisions](/articles/better-decision-making)? Well, grab your hard hat, because we're about to blow the roof off that idea!

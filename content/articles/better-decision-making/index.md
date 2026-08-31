@@ -9,8 +9,6 @@ tags:
 summary: "While we all face decisions on a daily basis, we often reinvent the wheel in our process of decision making. However, there's a set of strategic criteria that helps you making robust, fast, and comprehensible choices every time."
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/6db98220-58e2-4ecc-b7ed-9b84dd23289a
-aliases:
-- ""
 ---
 
 {{<note class="alert-secondary">}}

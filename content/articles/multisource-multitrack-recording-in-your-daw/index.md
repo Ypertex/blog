@@ -7,8 +7,6 @@ tags:
 summary: Want to patch audio from multiple interfaces through to your digital audio workstation on seperate tracks? Here's how VoiceMeeter can help.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/2dc21d85-7a71-4b06-af35-33e87070dcbd
-aliases:
-- ""
 ---
 
 Imagine you want to live stream a session that involves multiple audio sources. Let's say that these sources include microphones of different types (i.e. XLR, USB) and different media players on your computer (i.e. Spotify, YouTube). Imagine further that you want to process and mix these sources separately.
