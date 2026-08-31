@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Ypertex Blog</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://blog.ypertex.com/tags/</link>
 		<description>Recent content in Tags on Ypertex Blog</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -14,89 +14,89 @@
 		
 			<lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://blog.ypertex.com/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AI</title>
-				<link>http://localhost:1313/tags/ai/</link>
+				<link>https://blog.ypertex.com/tags/ai/</link>
 				<pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai/</guid>
+				<guid>https://blog.ypertex.com/tags/ai/</guid>
 				<description>A series of articles dealing with Artificial Intelligence (AI) and the challenges for human society resulting from it.</description>
 			</item>
 			<item>
 				<title>Future</title>
-				<link>http://localhost:1313/tags/future/</link>
+				<link>https://blog.ypertex.com/tags/future/</link>
 				<pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/future/</guid>
+				<guid>https://blog.ypertex.com/tags/future/</guid>
 				<description>My take on what lays ahead in terms of technology—and its potential impact on society.</description>
 			</item>
 			<item>
 				<title>Innovation</title>
-				<link>http://localhost:1313/tags/innovation/</link>
+				<link>https://blog.ypertex.com/tags/innovation/</link>
 				<pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/innovation/</guid>
+				<guid>https://blog.ypertex.com/tags/innovation/</guid>
 				<description>Innovation only becomes innovation when it&amp;rsquo;s successfully adopted. Let&amp;rsquo;s see how we improve our chances for innovation to happen.</description>
 			</item>
 			<item>
 				<title>Technology</title>
-				<link>http://localhost:1313/tags/technology/</link>
+				<link>https://blog.ypertex.com/tags/technology/</link>
 				<pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/technology/</guid>
+				<guid>https://blog.ypertex.com/tags/technology/</guid>
 				<description>Technology is fascinating: It enables people and organizations—until it disables them. To where will technology lead us?</description>
 			</item>
 			<item>
 				<title>Leadership</title>
-				<link>http://localhost:1313/tags/leadership/</link>
+				<link>https://blog.ypertex.com/tags/leadership/</link>
 				<pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/leadership/</guid>
+				<guid>https://blog.ypertex.com/tags/leadership/</guid>
 				<description>A series of articles about leadership and entrepreneurship in general—based on true stories.</description>
 			</item>
 			<item>
 				<title>Strategy</title>
-				<link>http://localhost:1313/tags/strategy/</link>
+				<link>https://blog.ypertex.com/tags/strategy/</link>
 				<pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/strategy/</guid>
+				<guid>https://blog.ypertex.com/tags/strategy/</guid>
 				<description>Insights from developing strategies&amp;mdash;and making them actionable not just for experts but anyone in your company.</description>
 			</item>
 			<item>
 				<title>Tutorials</title>
-				<link>http://localhost:1313/tags/tutorials/</link>
+				<link>https://blog.ypertex.com/tags/tutorials/</link>
 				<pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/tutorials/</guid>
+				<guid>https://blog.ypertex.com/tags/tutorials/</guid>
 				<description>Things I’ve learned that might serve others, too: a list of tutorials and how-tos.</description>
 			</item>
 			<item>
 				<title>Career</title>
-				<link>http://localhost:1313/tags/career/</link>
+				<link>https://blog.ypertex.com/tags/career/</link>
 				<pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/career/</guid>
+				<guid>https://blog.ypertex.com/tags/career/</guid>
 				<description>Tales from my professional experience—mixed with the occasional career advice.</description>
 			</item>
 			<item>
 				<title>Design</title>
-				<link>http://localhost:1313/tags/design/</link>
+				<link>https://blog.ypertex.com/tags/design/</link>
 				<pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/design/</guid>
+				<guid>https://blog.ypertex.com/tags/design/</guid>
 				<description>My thoughts on all things design—from visual designs like logos to conceptual designs like IT solutions.</description>
 			</item>
 			<item>
 				<title>Music</title>
-				<link>http://localhost:1313/tags/music/</link>
+				<link>https://blog.ypertex.com/tags/music/</link>
 				<pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/music/</guid>
+				<guid>https://blog.ypertex.com/tags/music/</guid>
 				<description>My toughts and releases as a hobby music producer (if not released on &lt;a href=&#34;https://soundcloud.com/&#34;&gt;SoundCloud&lt;/a&gt;).</description>
 			</item>
 			<item>
 				<title>Personal</title>
-				<link>http://localhost:1313/tags/personal/</link>
+				<link>https://blog.ypertex.com/tags/personal/</link>
 				<pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/personal/</guid>
+				<guid>https://blog.ypertex.com/tags/personal/</guid>
 				<description>Take a look behind the scenes of the Ypertex Blog with the articles in this collection.</description>
 			</item>
 			<item>
 				<title>Likes</title>
-				<link>http://localhost:1313/tags/likes/</link>
+				<link>https://blog.ypertex.com/tags/likes/</link>
 				<pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/likes/</guid>
+				<guid>https://blog.ypertex.com/tags/likes/</guid>
 				<description>Recommendations, tips &amp;amp; tricks, and workarounds from a seasoned professional.</description>
 			</item>
 	</channel>
