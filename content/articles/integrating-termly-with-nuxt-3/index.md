@@ -31,7 +31,7 @@ useHead({
 
 However, this led to several issues:
 
-1. Hydration mismatches, leading to appearing, then disappering of the consent banner
+1. Hydration mismatches, leading to the consent banner appearing and then disappearing
 2. [Nuxt UI](https://ui.nuxt.com/) notifications rendering incorrectly
 
 {{<figure src="3ac9086c-7984-4089-811e-e9d3f7b96a47">}}Integrating Termly with Nuxt was a bit like mixing fire and water: It didn't mesh quite right.{{</figure>}}

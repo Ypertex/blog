@@ -14,9 +14,9 @@ Today's Large Language Models (LLMs) like GPT seem to be close to the level of h
 
 Well, it's not really a conversation since I never get asked a question back by the AI. It's one-sided, to be honest. Additionally, there's a point when its limits become apparent: It starts to "forget" earlier context of the chat (due to its limited [token size](https://platform.openai.com/tokenizer)). When continuity and consistency get broken, I'm reminded that the intelligence is artificial.
 
-> Overall, it *feels* like talking to a highly intelligent, yet pretty dement being.
+> Overall, it *feels* like talking to a highly intelligent yet pretty demented being.
 
-It takes some time though, to uncover inconsistency and failing continuity. I've seen other humans feed short GPT-generated *intelligent* output into other AIs that turn text into *believable* audio or video. The combination of *intelligent and believable* in this context means that it takes me, a 44-year-old trained technology and strategy expert, intentional mental effort to identify it as what it is: artificial. If I'm running on autopilot and don't pay attention, I'll buy it as real.
+It takes some time, though, to uncover inconsistency and failing continuity. I've seen other humans feed short GPT-generated *intelligent* output into other AIs that turn text into *believable* audio or video. The combination of *intelligent and believable* in this context means that it takes me, a 44-year-old trained technology and strategy expert, intentional mental effort to identify it as what it is: artificial. If I'm running on autopilot and don't pay attention, I'll buy it as real.
 
 So, even with all current limitations of single AIs, there's reason for serious concern about the power that comes with Artificial Intelligences. (Yes, plural.)
 
@@ -24,7 +24,7 @@ So, even with all current limitations of single AIs, there's reason for serious 
 
 ## A Matter of Trust
 
-These concerns come from a simple fact: It's the first time in history of humankind that even experts don't know how a globally deployed technology *really* works. Usually, people who don't know just resort to trusting people who, in fact, do know. Yet in the case of today's Large Language Models, we don't know and can't even fall back to trusting anyone else---because literally **nobody really knows**.
+These concerns come from a simple fact: It's the first time in the history of humankind that even experts don't know how a globally deployed technology *really* works. Usually, people who don't know just resort to trusting people who, in fact, do know. Yet in the case of today's large language models, we don't know and can't even fall back to trusting anyone else—because literally **nobody really knows**.
 
 That's where the AI Alignment comes in. If we can't know the inner workings or can't trust another human who knows, is there a way to implement at least some safeguards?
 
@@ -38,7 +38,7 @@ Second, how do we overcome the overwhelming odds against full-time alignment? Co
 
 > A single AI that misaligns *only once* can trigger serious consequences. Humans on the other hand require *full-time* alignment to avoid any such situation.
 
-Hm, that's an impossible one. What's more probable: a single misalignment once---or eternal full alignment? You do the math.
+Hm, that's an impossible one. What's more probable: a single misalignment once—or eternal full alignment? You do the math.
 
 That's why it's called AI Alignment *Problem*. But that's not even the biggest issue.
 
@@ -50,7 +50,7 @@ In other words, trying to align natural intelligences (i.e., humans) is somethin
 
 > If we haven't managed to align natural intelligences so far, how are we supposed to align natural and artificial intelligences?
 
-To make matters worse: So far, we've failed at aligning *intelligences of our own kind*. Intelligences that---while we still don't fully comprehend them---are the most familiar to us.
+To make matters worse: So far, we've failed at aligning *intelligences of our own kind*. Intelligences that—while we still don't fully comprehend them—are the most familiar to us.
 
 ## Can the Unaligned Earthlings Align the Unaligned Alien?
 
@@ -60,10 +60,10 @@ Today, that's an impossibility due to the incentives not being in sync: Nobody g
 
 Being the inveterate optimist that I am, I believe that humankind will solve this problem. I also believe that we'll solve it in a way we can't imagine just yet. (It'll somehow involve synchronization of incentives, I can tell as much.) I see the great value in Large Language Models and hope that we'll be able to harness it at acceptable risks.
 
-This article serves as **a call to focus our work primarily at aligning ourselves** in matters of upmost importance. It's the necessary step we need to take before all else.
+This article serves as **a call to focus our work primarily on aligning ourselves** in matters of utmost importance. It's the necessary step we need to take before all else.
 
 ## Conclusion
 
-AIs are developed at neck-breaking speeds and achieve impressive levels of intelligence already today. The problem is: Nobody *really* knows how they work---and humankind has no experience dealing with globally deployed technologies that nobody really understands.
+AIs are developed at neck-breaking speeds and achieve impressive levels of intelligence already today. The problem is: Nobody *really* knows how they work—and humankind has no experience dealing with globally deployed technologies that nobody really understands.
 
 This article takes a stab at the proposed solution of AI Alignment. It shows the impracticability or even impossibility of the solution, at least as long as the human side of things is as misaligned as it currently is. Let's try to fix that first by taking a long, hard look at how our incentives are currently structured.

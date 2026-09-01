@@ -1,5 +1,5 @@
 ---
-title: Who Has the Ressources to Innovate in Times of Transformation?
+title: Who Has the Resources to Innovate in Times of Transformation?
 publishdate: 2022-05-31
 tags:
 - Innovation
@@ -17,13 +17,13 @@ That's what transformation is. Many changes on many levels, all at the same time
 
 ## Innovation vs. Transformation?
 
-Switching from organisms like caterpillars/butterflies to organizations---let's take a look at the media industry:
+Switching from organisms like caterpillars/butterflies to organizations—let's take a look at the media industry:
 
 Traditional media outlets always kept an eye on (mostly technological) developments to improve their business. Being innovative was considered important, if only for reasons of reputation. Some even went so far to create innovation departments to foster and coordinate these efforts throughout their organizations. Yet for the longest time, innovations affected single parts of their business and rarely disrupted it in its entirety.
 
-Then came the moment when new technologies opened the door for a new breed of actors to propose new offers in new ways and new quantities. I'm referring to streaming services challenging traditional broadcasters. *Now* we're talking disruption---and if you're one of the established actors, you have a lot of "new" all at once to deal with. 
+Then came the moment when new technologies opened the door for a new breed of actors to propose new offers in new ways and new quantities. I'm referring to streaming services challenging traditional broadcasters. *Now* we're talking disruption—and if you're one of the established actors, you have a lot of "new" all at once to deal with.
 
-So, to stay in the game and keep being relevant to your audience, traditional media are left with one option: to transform their organizations, quasi from caterpillar to butterfly. It means making many fundamental changes on many levels---like strategy, culture, leadership, collaboration, workflows and technology just to name a few. All in short time, all at the same time. Changes to organizations that are up to a century old and consequently pretty set in their ways.
+So, to stay in the game and keep being relevant to your audience, traditional media are left with one option: to transform their organizations, quasi from caterpillar to butterfly. It means making many fundamental changes on many levels—like strategy, culture, leadership, collaboration, workflows, and technology, just to name a few. All in a short time, all at the same time. Changes to organizations that are up to a century old and consequently pretty set in their ways.
 
 Whoa. You can imagine that such transformations absorb a lot of an organization's attention and energy.
 
@@ -43,9 +43,9 @@ I'd like to make the case that transformation is like a massive accumulation of 
 
 Taking this perspective leads to two positive things:
 
-* **Immediate relief:** Recognizing that transforming an organization is equal to massively innovating it in many places at once, means that the organization is already being innovative. Innovation is no extra effort, no luxury---it's rather a large and integral part of what's already being done throughout the company. So instead of investing precious ressources into innovating the next big thing, use them to successfully transform your current big thing!
+* **Immediate relief:** Recognizing that transforming an organization is equivalent to innovating it massively in many places at once means that the organization is already being innovative. Innovation is no extra effort, no luxury—it's rather a large and integral part of what's already being done throughout the company. So instead of investing precious resources in innovating the next big thing, use them to successfully transform your current big thing!
 
-* **Valuable methodology:** So far, there's no manual for successfully transforming companies. On the other hand, with starting up businesses becoming a big business itself (i.e., by venture investors or incubators), we have developed a pretty good understanding of innovation. Knowing that transformation is made up of many innovations makes it possible to use innovation methods and tools to de-risk single elements of transformation. Take advantage of this knowledge!
+* **Valuable methodology:** So far, there's no manual for successfully transforming companies. On the other hand, with starting up businesses becoming a big business itself (i.e., through venture investors or incubators), we have developed a pretty good understanding of innovation. Knowing that transformation is made up of many innovations makes it possible to use innovation methods and tools to de-risk single elements of transformation. Take advantage of this knowledge!
 
 ## Innovation Is a Matter of Perspective
 

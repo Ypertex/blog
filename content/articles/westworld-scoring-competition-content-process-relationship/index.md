@@ -4,7 +4,7 @@ publishdate: 2020-06-29
 tags:
 - Leadership
 - Music
-summary: How a high-profile music competition by Spitfire Audio and HBO with 11,000 participants ends in a PR disaster---and how distinguishing content, process, and relationship levels could help to recover.
+summary: How a high-profile music competition by Spitfire Audio and HBO with 11,000 participants ends in a PR disaster—and how distinguishing content, process, and relationship levels could help to recover.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/41c65fa8-56d3-4bde-bc9f-b95e945daa9c
 ---
@@ -27,7 +27,7 @@ I just recently started as a hobby composer and didn't enter the competition. Th
 
 The runner-ups and the winner were announced on June 28, 2020, via YouTube.
 
-That's when things went sideways. As you can tell from the [winners announcement on YouTube](https://www.youtube.com/watch?v=Qsi7wP024J4), the overwhelming amount of the currently 2,410 comments can be considered as disagreeing with the jury's choice. At the time of writing, the like/dislike feature of the announcing video is disabled---a strong hint that users have been heavily disliking the competition's conclusion so that Spitfire Audio felt forced to disable the rating function.
+That's when things went sideways. As you can tell from the [winners announcement on YouTube](https://www.youtube.com/watch?v=Qsi7wP024J4), the overwhelming majority of the 2,410 comments at the time can be considered to disagree with the jury's choice. At the time of writing, the like/dislike feature of the announcement video is disabled—a strong hint that users had heavily disliked the competition's conclusion, forcing Spitfire Audio to disable the rating function.
 
 The day after the announcement, Spitfire Audio's co-founder Christian Henson published a [YouTube video](https://www.youtube.com/watch?v=TepB6xbJCiw) defending why the winner won and complaining about the participants' complaints, not differentiating in any way the distinct points of feedback his company received.
 
@@ -61,19 +61,19 @@ Upfront, Spitfire Audio defined terms and conditions for participation. These st
 
 The winning entry did exactly that by altering the original audio track. However minor you'd consider the modifications, the terms and conditions prohibit *any* modification. In essence, the jury set up rules that they then ignored. No room for debate here.
 
-The confusion starts when Spitfire Audio celebrates that the winner broke the rules (i.e. expectations and conventions) *regarding the content*---and doesn't understand why the community complains that the winner broke the rules *regarding the process*. "Breaking the rules" can carry two very different meanings here!
+The confusion starts when Spitfire Audio celebrates that the winner broke the rules (i.e. expectations and conventions) *regarding the content*—and doesn't understand why the community complains that the winner broke the rules *regarding the process*. "Breaking the rules" can carry two very different meanings here!
 
-To make matters worse, Spitfire Audio in the person of Christian Henson claims that violating terms and conditions (i.e. process) is the norm in the industry:
+To make matters worse, Spitfire Audio, through Christian Henson, claims that violating terms and conditions (i.e. process) is the norm in the industry:
 
 > Welcome to the world of media composition.
 >
 > {{<attribution cite="[Christian Henson](https://youtu.be/TepB6xbJCiw?t=478)" />}}
 
-Let me translate how I'd interpret this statement as a customer of Spitfire Audio in the context of his entire video: "The market for media composers is unfair and this competition was no exception. Learn to deal with it. Welcome to the world of Spitfire Audio where we arbitrarily disregard our terms and conditions---and complain about our customers' complaints after not listening carefully at all."
+Let me translate how I'd interpret this statement as a customer of Spitfire Audio in the context of his entire video: "The market for media composers is unfair and this competition was no exception. Learn to deal with it. Welcome to the world of Spitfire Audio where we arbitrarily disregard our terms and conditions—and complain about our customers' complaints after not listening carefully at all."
 
 Working in the media industry myself, I'm not surprised that composers have to deal with the arbitrariness of their clients.
 
-But here's another truth: Audio library vendors like Spitfire Audio *also* have to deal with the arbitrariness of their clients---who are... the composers. Oops.
+But here's another truth: Audio library vendors like Spitfire Audio *also* have to deal with the arbitrariness of their clients—who are... the composers. Oops.
 
 Does it seem that Spitfire Audio forgot that for a moment?
 

@@ -13,18 +13,18 @@ Imagine your company like a trek of settlers. They want to build a better future
 
 {{<figure src="76c0b80e-3193-4011-ac26-66735a30c9f4" cite="Barlow Cutoff by W. H. Jackson, ca. 1865">}}A trek of settlers near Mount Hood, Oregon (US){{</figure>}}
 
-"What does it have to do with Digital Transformation?", you ask. Well, your company is in one spot today and wants to be in a different, more fruitful spot tomorrow. So, this group of people starts to move. And just like detailed maps or <abbr title="Global Positioning System">GPS</abbr> didn't exist in the 19<sup>th</sup> century, today's companies don't have the means of knowing upfront if their envisioned spot even exists, where exactly it's located nor what the best route is to reach it. They only know the general direction.
+"What does it have to do with Digital Transformation?", you ask. Well, your company is in one spot today and wants to be in a different, more fruitful spot tomorrow. So, this group of people starts to move. And just like detailed maps or <abbr title="Global Positioning System">GPS</abbr> didn't exist in the 19<sup>th</sup> century, today's companies don't have the means of knowing up front whether their envisioned spot even exists, where exactly it's located, or what the best route is to reach it. They only know the general direction.
 
 Yet they believe that starting to move in that direction is better than to sit tight. Just like the settlers.
 
 ## How Migration Transforms the Role of Leadership
 
-Alright, now let's discuss the role of leadership in this scenario. Where are the leaders, what do they do? Is their role different while the trek is moving---or is it the same as back when people were living in their previous settlement?
+All right, now let's discuss the role of leadership in this scenario. Where are the leaders, what do they do? Is their role different while the trek is moving—or is it the same as back when people were living in their previous settlement?
 
 The key difference between settlement and migration is the **environment**:
 
-* **In the settlement**, the environment is relatively stable. It and its dangers are well known. As settler, you're allowed to focus on **exploitation and optimization**.
-* **During migration**, the environment keeps changing rapidly as you move along your route. It and its dangers are vastly unknown. As migrant, you're forced to focus on **exploration and innovation**.
+* **In the settlement**, the environment is relatively stable. It and its dangers are well known. As a settler, you're allowed to focus on **exploitation and optimization**.
+* **During migration**, the environment keeps changing rapidly as you move along your route. It and its dangers are largely unknown. As a migrant, you're forced to focus on **exploration and innovation**.
 
 That's already the answer: In times of Digital Transformation (or any other transformation, for that matter), leaders are forced to assume a role as explorers and innovators.
 
@@ -42,7 +42,7 @@ Here are a few ideas: They ...
 * ... reassess the trek's route based on these learnings and direct the entire trek in new directions if necessary
 * ... motivate people to go through harsh environments to reach their destination faster
 
-In contemporary management terms, it means: Leaders go constantly to conferences, seminars and trainings. For every of these "explorations", they pick the right companions to help the entire company learn as much and as fast as possible. They understand innovation as quick and effective way of de-risking the constant change. [Leaders return often](/articles/accelerate-your-team-by-repeating-yourself/) to camp and communicate the summary of their experiences. They listen to the needs of employees and specifically consider them on their next explorations. Together with them, they develop ideas on how and when to change strategies. Leaders reassure and motivate others to follow the trails they blazed.
+In contemporary management terms, it means: Leaders constantly go to conferences, seminars, and training sessions. For each of these "explorations", they pick the right companions to help the entire company learn as much and as fast as possible. They understand innovation as a quick and effective way of de-risking constant change. [Leaders return often](/articles/accelerate-your-team-by-repeating-yourself/) to camp and communicate the summary of their experiences. They listen to the needs of employees and specifically consider them on their next explorations. Together with them, they develop ideas on how and when to change strategies. Leaders reassure and motivate others to follow the trails they blazed.
 
 So far, it seems like common sense, doesn't it? Now let's take a look at:
 
@@ -59,11 +59,11 @@ Again, translating this to today's business slang: Leaders don't remain in their
 
 Leaders are paid to go into the wild, dangerous unknown. Leaders work *on* the business (outside-in), not *in* the business (inside-out). For the latter, they trust, delegate and serve.
 
-{{<figure src="b6941f0f-bc38-4540-a530-bec2b844905a">}}Where leaders should be most of their time: Scouting and probing the environment---or observing their employees' challenges and needs{{</figure>}}
+{{<figure src="b6941f0f-bc38-4540-a530-bec2b844905a">}}Where leaders should spend most of their time: Scouting and probing the environment—or observing their employees' challenges and needs{{</figure>}}
 
-Looking at calendars of many line managers however, you get the impression that they're knee deep and hands on in project meetings, steering committees, and task forces---fixing whatever's broken. Very few days are dedicated to exploration and innovation, if at all.
+Looking at the calendars of many line managers, however, you get the impression that they're knee-deep and hands-on in project meetings, steering committees, and task forces—fixing whatever's broken. Very few days are dedicated to exploration and innovation, if at all.
 
-They take decisions based on the shortsightedness of working *in* the business all day, every day. Even if they're lucky and employees start roaming and scouting the environment on their own, managers are quick to dismiss reports from returning scouts as they haven't shared the same experiences firsthand.
+They make decisions based on the shortsightedness of working *in* the business all day, every day. Even if they're lucky and employees start roaming and scouting the environment on their own, managers are quick to dismiss reports from returning scouts as they haven't shared the same experiences firsthand.
 
 ## Lead Your Managers to Become Leaders
 
@@ -79,12 +79,12 @@ Easy, right? They just have to open their eyes and learn.
 
 Unfortunately, it's more complicated than that and depends on two things:
 
-* **Ability:** Managers enjoyed major success as exploiters and optimizers and advanced their careers in these roles. To **recognize** that these roles that made them so successful in the past are now the exact same factors that will make them unsuccessful in the future, is hard to wrap your head around. To **act** on it, is difficult, too: You first have to **unlearn** old habits, reflexes, intuitions, and deeply rooted mental models---before you can **learn** the new roles. Not everyone is **able** to achieve that.
-* **Willingness:** Chances of success are closely related with degree of joy. The more you enjoy doing something, the better are your chances of success doing it. This means in turn that you're asking successful exploiters and optimizers to stop doing something that they enjoyed. In turn, you're asking them to start something with uncertain degree of joy. Not everyone **wants** to change that.
+* **Ability:** Managers enjoyed major success as exploiters and optimizers and advanced their careers in these roles. To **recognize** that these roles that made them so successful in the past are now the exact same factors that will make them unsuccessful in the future is hard to wrap your head around. To **act** on it is difficult, too: You first have to **unlearn** old habits, reflexes, intuitions, and deeply rooted mental models—before you can **learn** the new roles. Not everyone is **able** to achieve that.
+* **Willingness:** Chances of success are closely related to the degree of enjoyment. The more you enjoy doing something, the better your chances of succeeding at it. This means, in turn, that you're asking successful exploiters and optimizers to stop doing something they enjoy. In turn, you're asking them to start something with an uncertain degree of enjoyment. Not everyone **wants** to change that.
 
 This phenomenon even has a name: the [Innovator's Dilemma](https://en.wikipedia.org/wiki/The_Innovator's_Dilemma).
 
-In the end, here's how you can lead the way: Help them recognize the situation and offer un-/learning support to address their ability. Incentivize the change of roles with an appropriate **reward system** to address their willingness.
+In the end, here's how you can lead the way: Help them recognize the situation and offer learning and unlearning support to address their ability. Incentivize the change of roles with an appropriate **reward system** to address their willingness.
 
 And yes, this also applies if you're their subordinate and they're your superiors. It's called "manage up."
 
@@ -92,7 +92,7 @@ And yes, this also applies if you're their subordinate and they're your superior
 
 In this article, I shared an interpretation of leadership in times of transformation: by analogy with a trek of migrating settlers.
 
-I showed the difference between operating in a settlement with a rather stable environment---and migrating away from a previous settlement through a dynamic environment. Hence, leadership roles change from **exploitation and optimization** towards **exploration and innovation**.
+I showed the difference between operating in a settlement with a rather stable environment—and migrating away from a previous settlement through a dynamic environment. Hence, leadership roles change from **exploitation and optimization** towards **exploration and innovation**.
 
 I translated the analogy back to today's business world and briefly showed what, in general terms, can be done to help managers become transformation leaders.
 

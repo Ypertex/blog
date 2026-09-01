@@ -6,7 +6,7 @@ tags:
 - "Strategy"
 - "Leadership"
 - "Career"
-summary: "While we all face decisions on a daily basis, we often reinvent the wheel in our process of decision making. However, there's a set of strategic criteria that helps you making robust, fast, and comprehensible choices every time."
+summary: "While we all face decisions on a daily basis, we often reinvent the wheel in our decision-making process. However, there's a set of strategic criteria that helps you make robust, fast, and comprehensible choices every time."
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/6db98220-58e2-4ecc-b7ed-9b84dd23289a
 ---
@@ -28,15 +28,15 @@ To give you the short version: PrioMind works with two additional criteria that 
 
 ---
 
-Most days start with a series of decisions: What clothes do I wear today? What do I eat for breakfast? We take these decisions quasi on autopilot, and don't spend too much energy on them. That's because we have a lot experience making such mundane decisions---and they have only a very limited effect on our lives.
+Most days start with a series of decisions: What clothes do I wear today? What do I eat for breakfast? We make these decisions quasi on autopilot and don't spend too much energy on them. That's because we have a lot of experience making such mundane decisions—and they have only a very limited effect on our lives.
 
 Then, there are decisions with extremely deep and long-lasting impact. What profession do I choose? Who do I marry? Some of us make such choices only once in our lifetime. We invest quite a lot of resources to scout and prepare: We do internships; we date. So, we try to gain some approximated experience to take high-quality decisions.
 
-Between the mundane and the few-in-a-lifetime choices, we regularly face situations where we have **limited time, knowledge, and resources** to take decisions: Who do I hire? How do we close our budget gap? How do we prioritize projects?
+Between the mundane and the few-in-a-lifetime choices, we regularly face situations where we have **limited time, knowledge, and resources** to make decisions: Who do I hire? How do we close our budget gap? How do we prioritize projects?
 
 What's interesting: We acknowledge the importance of these regularly occurring decisions (hence we take the limited time available) but in most cases **the decision process is unique to the situation**. Decision criteria seem to be different every time we hire someone, try to close a budget gap, or prioritize projects.
 
-In other words: **These "in the middle" type of decisions cost more effort than necessary---or yield a lower quality than possible.**
+In other words: **These "in the middle" types of decisions cost more effort than necessary—or yield a lower quality than possible.**
 
 {{<figure src="e8a9eb00-083b-4fa5-b794-dbf8a365352f" transformation="full">}}Everyday decisions (like choice of clothing or breakfast) as well as life-impacting decisions (like marriage or career) seem to have a better correlation between investment, impact, and quality than regular, yet extraordinary choices (like setting project priorities).{{</figure>}}
 
@@ -53,11 +53,11 @@ Does it really have to be like this? Is there a way to **reuse a set of strategi
 {{<note class="alert-info">}}
 ###### <i class="las la-question-circle"></i> Wait, What's a Decision Exactly?
 
-Good question. In the context of this article, a decision is a *choice between two or more available options*. If there's only one option, there's no decision to make---it's already decided.
+Good question. In the context of this article, a decision is a *choice between two or more available options*. If there's only one option, there's no decision to make—it's already decided.
 
 ###### <i class="las la-question-circle"></i> And What's a Good Decision?
 
-In my definition, a decision is good if it strengthens your position to *"stay in the game"*---as Simon Sinek describes the goal of the infinite game of life or business. A good decision increases your will and/or resources to keep playing it.
+In my definition, a decision is good if it strengthens your position to *"stay in the game"*—as Simon Sinek describes the goal of the infinite game of life or business. A good decision increases your will and/or resources to keep playing it.
 
 ###### <i class="las la-question-circle"></i> And Who Am I to Talk About Decision Making?
 
@@ -91,7 +91,7 @@ Do you want to take the set of criteria for a drive? I've prepared two examples:
 
 #### Example 1: Choosing a Vacation Destination
 
-Imagine I'm planning my next vacation. The *job to be done* is to spend the best possible vacation---which obviously is subjective. I've come up with the following two options:
+Imagine I'm planning my next vacation. The *job to be done* is to spend the best possible vacation—which obviously is subjective. I've come up with the following two options:
 
 * Option A: Go on a city trip to Rome
 * Option B: Go on a safari in Tanzania
@@ -113,14 +113,14 @@ I always wanted to go on safari and I've heard wonderful things about Tanzania. 
 
 Unfortunately, I'd have to take the plane to get there. That's a low *strategy fit* as I want to avoid aircrafts in general.
 
-My first calculations indicate that my budget might be a bit too tight for a safari---but it could work. Seems like a medium *capability fit*.
+My first calculations indicate that my budget might be a bit too tight for a safari—but it could work. Seems like a medium *capability fit*.
 
 I've never gone on safari before. Maybe it's not quite an adventure as I imagine. Also, I haven't calculated the costs down to the penny yet, to be honest. I'd have to give my *confidence level* a medium at best.
 {{</strategicOption>}}
 
 Simply by glancing over the boxes, one can already clearly see: If I must decide *right now* with my limited knowledge and limited time, the city trip to Rome is the better decision.
 
-It's worth mentioning that the entire **assessment depends on my current, relative position**. Especially the strategic fit would play out differently if I lived in Tanzania’s neighboring country Zambia---completely overturning the result. It means that the decision to go to Rome would be a bad one for most other people, and potentially even for my future self.
+It's worth mentioning that the entire **assessment depends on my current, relative position**. Especially the strategic fit would play out differently if I lived in Tanzania’s neighboring country Zambia—completely overturning the result. It means that the decision to go to Rome would be a bad one for most other people, and potentially even for my future self.
 
 ---
 
@@ -147,11 +147,11 @@ You're the IT manager of a media company, in charge of a project to select a new
 * Option B: A newly developed software that follows a modular approach, allowing you to license only the ones you need at competitive prices
 
 {{<strategicOption name="Option A: Stable but Pricey Software" potential="3" strategicFit="2" capabilityFit="2" confidenceLevel="2">}}
-This option offers all the bells and whistles and gets the job done---and more. Consequently, the *potential* is high.
+This option offers all the bells and whistles and gets the job done—and more. Consequently, the *potential* is high.
 
 The software of this vendor only partially supports your IT strategy: It avoids introducing technological risks, but entails a high investment. So, the *strategic fit* is medium.
 
-Many accountants in your company know how to work with that software as the software is well established in this line of work. On the other hand, this solution is close to overtax your budget. So, the *capability fit* is medium.
+Many accountants in your company know how to work with that software as the software is well established in this line of work. On the other hand, this solution is close to exceeding your budget. So, the *capability fit* is medium.
 
 Since the software is well established, you were able to interview some of their other corporate clients. Based on what you heard, implementing the software might take quite a lot longer than the vendor suggests. This reduces your *confidence level* about the above assessment to medium.
 {{</strategicOption>}}
@@ -184,7 +184,7 @@ Ultimately, making better decisions can help us strengthen our position to "stay
 
 ## FAQ: Frequently Asked Questions
 
-Feel free to reach out (via Social Media linked on this site) if you have more questions than the ones answered below.
+Feel free to reach out (via social media linked on this site) if you have more questions than the ones answered below.
 
 ---
 
@@ -201,15 +201,15 @@ Almost, but not quite. The four criteria are best suited for evaluating options 
 
 ###### <i class="las la-question-circle"></i> How Can I Implement This Framework?
 
-Start by defining the *job to be done*. Then think about if and how the four strategic criteria might need adaption or extension for your decision. Then, create a template for evaluating each option using those criteria.
+Start by defining the *job to be done*. Then think about whether and how the four strategic criteria might need adaptation or extension for your decision. Then create a template for evaluating each option using those criteria.
 
 Remember to rate each option on a scale, the simplest being between "Low", "Medium", and "High" for each criterion, and use checkboxes or other visual aids to make the evaluation process easier.
 
 ###### <i class="las la-question-circle"></i> What if There Are More Than Two Options?
 
-In fact, there usually are more than just two. I've applied this method to long lists that consisted of 30-40 options. (I limited the examples in this article to only two options to keep it sufficiently short.) If there are more than two options, simply rate each option individually using the same four strategic criteria and then compare to identify the best option. Or best options---plural.
+In fact, there usually are more than just two. I've applied this method to long lists that consisted of 30–40 options. (I limited the examples in this article to only two options to keep it sufficiently short.) If there are more than two options, simply rate each option individually using the same four strategic criteria and then compare to identify the best option. Or best options—plural.
 
-You could also assign numerical values to the "Low", "Medium", and "High" ratings and calculate a weighted score for each option to make the comparison more quantitative. (Keep in mind that the confidence level acts like a meta criterion---so, you might use it as a multiplier of the other criteria to get a clear picture.)
+You could also assign numerical values to the "Low", "Medium", and "High" ratings and calculate a weighted score for each option to make the comparison more quantitative. (Keep in mind that the confidence level acts like a meta criterion—so, you might use it as a multiplier of the other criteria to get a clear picture.)
 
 ###### <i class="las la-question-circle"></i> Can I Use Another Scale?
 
@@ -221,7 +221,7 @@ If you want to change the scale, do it in a generic manner that suits the bulk o
 
 Well, that depends on a few things. If the list of available options doesn't include the optimal option to begin with, no set of criteria will magically generate it. At the same time, it rarely is about taking the perfect decision. That would require perfect information, zero bias, or pure luck. It rather is about picking the *best possible option available under the circumstances* (i.e. with limited time, knowledge, and resources) that's *good enough to stay in the game.*
 
-In the end, this framework won't prevent you from still failing spectacularly. It's only a tool for imperfect humans like you and me to get slightly better at what we're already trying to achieve. And remember: Even if this approach spits out the best choice---somebody still must have the guts to make it. Rating and ranking is easy. The hard part is following through on a decision and turning it into reality and real-life consequences.
+In the end, this framework won't prevent you from still failing spectacularly. It's only a tool for imperfect humans like you and me to get slightly better at what we're already trying to achieve. And remember: Even if this approach spits out the best choice—somebody still must have the guts to make it. Rating and ranking is easy. The hard part is following through on a decision and turning it into reality and real-life consequences.
 {{</note>}}
 
 ## Recommended Reading

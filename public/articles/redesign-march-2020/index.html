@@ -145,7 +145,7 @@
                     
             <hr>
             <p>To be honest with you, it&rsquo;s a complete coincidence that the <a href="/articles/ypertex-blog-launching-today/">blog&rsquo;s launch</a> and this redesign are <em>exactly</em> three years apart. I didn&rsquo;t plan it this way, I didn&rsquo;t wait for this day. It&rsquo;s magic!</p>
-<p>Redesigning a blog after, what &hellip; 14 articles already? I know! I should be more focused on writing and less on tooling. But hey, I can&rsquo;t deny that I&rsquo;m a techie and hobbyist designer after all&mdash;so here we go:</p>
+<p>Redesigning a blog after, what &hellip; 14 articles already? I know! I should be more focused on writing and less on tooling. But hey, I can&rsquo;t deny that I&rsquo;m a techie and hobbyist designer after all—so here we go:</p>
 <figure>
     
     <picture>
@@ -173,7 +173,7 @@
         class="heading">¶</a></h3><p>I&rsquo;m glad to have found a publishing work-flow that <strong>doesn&rsquo;t depend on a particular platform</strong>. Here&rsquo;s how my process works:</p>
 <div class="card">
     <div class="card-body">
-        <p>I write my articles locally on my computer in a format called <a href="https://daringfireball.net/projects/markdown/">Markdown</a>&mdash;which is nothing else than plain text. Any text editor does the trick, though I prefer using <a href="https://ia.net/writer">iA Writer</a>.</p>
+        <p>I write my articles locally on my computer in a format called <a href="https://daringfireball.net/projects/markdown/">Markdown</a>—which is nothing more than plain text. Any text editor does the trick, though I prefer using <a href="https://ia.net/writer">iA Writer</a>.</p>
 <p><a href="https://gohugo.io/">Hugo</a> transforms the Markdown files into HTML web pages. This happens as well locally, right on my computer. You can pick from a range of open source themes or define your own.</p>
 <p>The <a href="https://git-scm.com/">Git</a> repository that contains my Markdown source files and the rendered HTML web pages is then pushed to <a href="https://github.com/Ypertex/blog/">GitHub</a>.</p>
 <p><a href="https://netlify.com/">Netlify</a> picks up the web pages and distributes them over the <abbr title="Amazon Web Services">AWS</abbr> <abbr title="Content Delivery Network">CDN</abbr> automatically every time I push the repo to GitHub.</p>
@@ -186,14 +186,14 @@
 <ul>
 <li>At any time, I can swap out one or all tools. The source of my content goes into the cloud but remains local, too. If any of the non-local services would suddenly shut down, they wouldn&rsquo;t take my content with them. I remain the owner of my content.</li>
 <li>I&rsquo;m not restricted creatively by any platform. If I want to slightly tweak or completely overhaul my website theme, I can.</li>
-<li>I gain deeper insights by running my analytics. I don&rsquo;t depend on the bits and pieces of user data that platform providers might offer. Yes, it&rsquo;s not as efficient as consuming a managed service (at the very least, I have to put up a <a href="/privacy/">privacy policy</a> now)&mdash;but using Matomo on Docker makes this almost a fire-and-forget operation.</li>
+<li>I gain deeper insights by running my analytics. I don&rsquo;t depend on the bits and pieces of user data that platform providers might offer. Yes, it&rsquo;s not as efficient as consuming a managed service (at the very least, I have to put up a <a href="/privacy/">privacy policy</a> now)—but using Matomo on Docker makes this almost a fire-and-forget operation.</li>
 </ul>
 <blockquote>
-<p>Using Medium, LinkedIn, or other platforms for editing and publishing your articles? It might allow you to focus more on writing&mdash;but you better have an exit strategy in case the platform is going in a direction you don&rsquo;t like.</p>
+<p>Using Medium, LinkedIn, or other platforms for editing and publishing your articles? It might allow you to focus more on writing—but you&rsquo;d better have an exit strategy in case the platform is going in a direction you don&rsquo;t like.</p>
 </blockquote>
 <p>And in case you wonder: Excluding domain registrar fees and the cost of renting the virtual server for Matomo, the monetary cost of running this blog is zero.</p>
 <h3 id="title-capitalization-in-english-is-strange">Title Capitalization in English Is Strange&nbsp<a href="#title-capitalization-in-english-is-strange"
-        class="heading">¶</a></h3><p>In German, headlines follow the same orthographic rules as any other text. In English however, there are several ways how professional publishers capitalize titles. The general rule is to capitalize the first, the last and the important words in the title.</p>
+        class="heading">¶</a></h3><p>In German, headlines follow the same orthographic rules as any other text. In English, however, there are several ways professional publishers capitalize titles. The general rule is to capitalize the first, the last, and the important words in the title.</p>
 <p>There are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like <a href="https://capitalizemytitle.com/">Capitalize My Title</a> so I don&rsquo;t have to remember the precise rules. (By the way: I&rsquo;m defaulting to APA style.)</p>
 <h3 id="images-can-be-responsive">Images Can Be Responsive&nbsp<a href="#images-can-be-responsive"
         class="heading">¶</a></h3><p>&ldquo;Responsive&rdquo; in the context of the web means that content responds to the particular device that&rsquo;s used to browse it: A web page might look differently on a smartphone than on a tablet than on a TV monitor. I learned that images <em>inside</em> web pages can be responsive, too. See in the following examples how the size and aspect ratio of the images differ just by rotating your smartphone:</p>
@@ -236,10 +236,10 @@
     </figcaption>
 </figure>
 <p>As it turns out, images are as static as always. You just provide several sizes and aspect ratios of the <em>same</em> image and the web page and browser determine which of the image versions to show under what circumstance. This can be very tedious, of course, but there are services available that automate this for you.</p>
-<p>So while you provide the original image of a fixed size (width and height), services like Cloudinary can intelligently crop parts of the image. Using Artificial Intelligence, the interesting parts of an image (like faces) are identified and preserved in the cropped images. And they do this the lazy way, meaning: on the fly. Only once a user browses a web page with a certain type of device, the service renders the corresponding versions of the base image. Not a second earlier.</p>
+<p>So while you provide the original image of a fixed size (width and height), services like Cloudinary can intelligently crop parts of the image. Using artificial intelligence, the interesting parts of an image (like faces) are identified and preserved in the cropped images. And they do this the lazy way, meaning: on the fly. Only once a user browses a web page with a certain type of device does the service render the corresponding versions of the base image. Not a second earlier.</p>
 <p>Such services are also able to automatically optimize image quality and compress file sizes.</p>
 <h2 id="conclusion">Conclusion&nbsp<a href="#conclusion"
-        class="heading">¶</a></h2><p>Celebrating the third anniversary of my blog with my 15<sup>th</sup> article&mdash;and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!</p>
+        class="heading">¶</a></h2><p>Celebrating the third anniversary of my blog with my 15<sup>th</sup> article—and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!</p>
 <hr>
 <div class="alert alert-primary">
     <h5 id="disclaimer"><i class="las la-balance-scale-left"></i> Disclaimer&nbsp<a href="#disclaimer"
@@ -441,7 +441,7 @@
             class="las la-upload"></i>&nbsp;Oct 4, 2021 · <i
             class="las la-stopwatch"></i>&nbsp;4min read</small></p>
 <div class="yx-stretched-linkable mb-3">
-    <h2>Being Productively Creative&mdash;Artist vs. Designer</h2>
+    <h2>Being Productively Creative—Artist vs. Designer</h2>
     <p>Have you ever experienced &ldquo;writer&rsquo;s block&rdquo; or &ldquo;masterpiece syndrome?&rdquo; Here&rsquo;s some advice on how to frame your mind, get into problem solving and be productively creative. <a href="/articles/artist-vs-designer/" class="stretched-link">Continue…</a></p>
 </div>
 <p class="mb-2">

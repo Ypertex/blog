@@ -9,9 +9,9 @@ images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/56b601d0-cd8e-4b24-b87a-f0f70d9a81e1
 ---
 
-## There Are Those Who Follow---And Those Who Follow, Too
+## There Are Those Who Follow—and Those Who Follow, Too
 
-If you think about it, you, me, and every other person on this planet is a follower.
+If you think about it, you, me, and every other person on this planet are followers.
 
 You might follow an inspiring leader at work or in your community. You might follow a person who's lived millennia ago or the person you're married to. You might follow a grand idea or a certain vision of the future. You might follow the money or social status. Heck, you probably follow several people and several beliefs simultaneously! <small>By the way: As we'll learn in a moment, we primarily follow beliefs.</small> 
 
@@ -23,21 +23,21 @@ The point is: **Everybody is a follower. Without exception.** This also includes
 
 > Leaders are followers who lead in addition to following.
 
-What's striking me is that, in most businesses today, it's mostly ignored how followership and leadership work.
+What strikes me is that, in most businesses today, the way followership and leadership work is mostly ignored.
 
 ## Followership is Taken, Leadership Is Given
 
-You as an individual decide who and what you want to follow. Of course, there are a lot of external factors who influence or manipulate you: your education, your peers' opinion, social norms, marketing, etc.
+You, as an individual, decide whom and what you want to follow. Of course, there are a lot of external factors that influence or manipulate you: your education, your peers' opinions, social norms, marketing, etc.
 
-In the end, however, it's you who decides: If you wanted, it would be possible tomorrow for you to follow entirely other persons or things. <q>Unfollowing</q> is a thing, and not just since Social Media exists.
+In the end, however, it's you who decides: If you wanted, it would be possible tomorrow for you to follow entirely different people or things. <q>Unfollowing</q> is a thing, and not just since social media has existed.
 
-Apropos Social Media: I haven't come across a platform that has a <q>Lead</q> button. And that makes total sense: I can't dictate somebody else to follow me, can I?
+Apropos social media: I haven't come across a platform that has a <q>Lead</q> button. And that makes total sense: I can't dictate that somebody else follow me, can I?
 
 {{<figure src="aba97777-cc13-41cd-a6a8-27d15e630233" transformation="inline">}}My Twitter profile with a <q>Lead</q> instead of a <q>Follow</q> button. Weird, no? (Edited {{<date>}}2021-01-07{{</date>}}: [I left Twitter](/articles/deplatforming-trump/) in the meantime.){{</figure>}}
 
 Yet, in most of today's businesses, we do exactly that. <q>Here's your new boss. You're expected to do what they say.</q>
 
-That's hitting the <q>Lead</q> button---dictating somebody else to follow another person. Haven't we just concluded that this is nonsense? Exactly.
+That's hitting the <q>Lead</q> button—dictating that somebody else follow another person. Haven't we just concluded that this is nonsense? Exactly.
 
 So who'd you pick as your boss if you could freely (un-) follow them? Who'd your chosen leader pick as their leader?
 
@@ -54,7 +54,7 @@ Is it the fact how many others follow them?
 Picture these three random people:
 
 * The prime minister of Baden-Württemberg, Germany's third-largest state, asks you: <q>Hey, I'm elected leader of 11m inhabitants. Do you choose me as your leader, too?</q>
-* A stranger asks you: <q>Hey, I've 270k followers on Social Media. Want to follow me, too?</q>
+* A stranger asks you: <q>Hey, I've 270k followers on social media. Want to follow me, too?</q>
 * Someone you just met asks you: <q>Hey, I'm leading a team of 20 people. Can I lead you, too?</q>
 
 You might be impressed by the numbers but they alone won't make you follow anybody. I guess that's not why we choose to follow someone. So what is it then? Here's my answer:
@@ -67,7 +67,7 @@ In essence, you as one follower promote *another follower* of the same ideal to 
 > 
 > {{<attribution adapted="true">}}Simon Sinek{{</attribution>}}
 
-By the way, this also clears up an important detail: In reality, you never simply follow another person. First and foremost, you follow an idea, a vision, a cause---and secondarily a person who's passionate about the same and who embodies it well.
+By the way, this also clears up an important detail: In reality, you never simply follow another person. First and foremost, you follow an idea, a vision, or a cause—and secondarily a person who's passionate about the same thing and embodies it well.
 
 Going back to Buddha and his followers: They're not following primarily him as an individual but rather the values and the promise he represents.
 
@@ -80,7 +80,7 @@ If you are a person in a leadership position, you can benefit a lot from reflect
 Ask yourself:
 
 * What grand idea, what vision am I following as an individual?
-* Do I express my passion for this vision enough with others---so that they can follow the same cause, together with me?
+* Do I express my passion for this vision enough with others—so that they can follow the same cause, together with me?
 * Who else does this so well that I'm willing to follow this person as an embodiment of my idea and values?
 * How much of that can I transfer to my leadership capabilities?
 
@@ -90,7 +90,7 @@ Being clear and conscious about your followership will have a profound impact on
 
 ## Conclusion
 
-In this article, I took a closer look at what it means to be a better leader---and that it all starts with being clear about one's followership:
+In this article, I took a closer look at what it means to be a better leader—and how it all starts with being clear about one's followership:
 
 * Everyone follows something
 * Leadership can't be taken but only be given

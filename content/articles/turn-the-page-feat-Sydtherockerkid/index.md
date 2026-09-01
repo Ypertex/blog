@@ -23,7 +23,7 @@ The copyright claim dispute has been resolved and the song is now available on [
 
 # Copyright
 
-This song includes the lovely vocals from Sydney Taylor aka Sydtherockerkid as licensed via [voclio.com](https://www.voclio.com/). Any other part of the song has been produced by me (piano, guitar, drums, bass, percussion, strings, and riser in addition to arranging, mixing, and mastering).
+This song includes lovely vocals from Sydney Taylor, aka Sydtherockerkid, licensed via [voclio.com](https://www.voclio.com/). Every other part of the song was produced by me (piano, guitar, drums, bass, percussion, strings, and riser, in addition to arranging, mixing, and mastering).
 
 The following is a short extract from the license agreement. You can find the full contract below.
 

@@ -10,9 +10,9 @@ images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/cb4332a2-eace-43e5-8271-4cdfe85c14f5
 ---
 
-If you ever have installed a virtualization platform like VMware Workstation or Oracle Virtualbox on a Windows 10 box, you might have noticed a different behavior since recent releases (i.e. release 1903): All the virtual network adapters introduced by VMware Workstation et al. don't appear anymore in the "Network and Sharing Center" and other parts of Windows.
+If you have ever installed a virtualization platform like VMware Workstation or Oracle VirtualBox on a Windows 10 box, you might have noticed different behavior since recent releases (e.g., release 1903): All the virtual network adapters introduced by VMware Workstation et al. no longer appear in the "Network and Sharing Center" and other parts of Windows.
 
-I assume that for the majority of users, these adapters showing up in all possible places of the <abbr title="Operating System">OS</abbr> just like regular network interfaces caused more confusion than it was helpful. So they changed how Windows treats virtual network adapters.
+I assume that, for the majority of users, these adapters showing up in all possible places of the <abbr title="Operating System">OS</abbr> just like regular network interfaces caused more confusion than they were worth. So they changed how Windows treats virtual network adapters.
 
 {{<figure src="cb4332a2-eace-43e5-8271-4cdfe85c14f5.jpg" cite="[Taylor Vick](https://unsplash.com/photos/M5tzZtFCOfs)">}}"It's easy to get confused with too many ports, so let's hide some."{{</figure>}}
 
@@ -24,23 +24,23 @@ Read on to see why on earth this might cause issues or jump ahead to the [soluti
 
 Cloud gaming comes with a nice value proposition: Run the latest games on powerful cloud infrastructure but only pay a fraction of the costs you would incur when owning the hardware yourself.
 
-After testing a few of the services and also building my "own" <abbr title="Graphical Processing Unit">GPU</abbr>-powered virtual machines in the cloud (i.e. Azure and Paperspace), I've concluded that the implementation of cloud gaming still has to overcome a few challenges.
+After testing a few of the services and also building my "own" <abbr title="Graphical Processing Unit">GPU</abbr>-powered virtual machines in the cloud (e.g., Azure and Paperspace), I've concluded that the implementation of cloud gaming still has to overcome a few challenges.
 
-The closest that I've come to cloud gaming in a way that I would enjoy it, is renting a physical GPU-powered server, installing Windows 10 and running games on it. Of course, there are a few issues with this:
+The closest that I've come to cloud gaming in a way that I would enjoy is renting a physical GPU-powered server, installing Windows 10, and running games on it. Of course, there are a few issues with this:
 
 * It's not a cloud service at all since A) I have to manage the complete software stack myself and B) I am paying a monthly flat fee instead of pay-per-use.
 * Windows 10 is a client OS and as such should never be connected directly to the open Internet without any device as a security gateway.
 
 ## Cost Considerations of Self-Made Cloud Gaming
 
-As far as I know, the only provider offering physical GPU-powered servers that more or less match the costs of buying your ready-for-use gaming hardware is [Hetzner](https://www.hetzner.com/). At the time of writing, you get a Nvidia Geforce GTX 1080 GPU paired with an Intel i7 CPU and 64GB RAM for roughly EUR100 per month.
+As far as I know, the only provider offering physical GPU-powered servers that more or less match the costs of buying your ready-for-use gaming hardware is [Hetzner](https://www.hetzner.com/). At the time of writing, you get an NVIDIA GeForce GTX 1080 GPU paired with an Intel Core i7 CPU and 64 GB of RAM for roughly EUR 100 per month.
 
 ---
 
 {{<card class="alert-secondary">}}
 ##### <i class="las la-sync"></i> Edited {{<date>}}2020-05-14{{</date>}}
 
-Above mentioned server model EX51-SSD-GPU has been removed from Hetzner's [line-up of dedicated servers](https://www.hetzner.com/dedicated-rootserver). There's some speculation on [Reddit](https://www.reddit.com/r/hetzner/comments/fk2n7r/any_idea_when_hetzner_gpu_servers_will_be/) as to why this model was retired. However, you might still be able to find one via their [server auction](https://www.hetzner.com/sb)---if you're interested, just filter for the term "GPU".
+The above-mentioned server model EX51-SSD-GPU has been removed from Hetzner's [line-up of dedicated servers](https://www.hetzner.com/dedicated-rootserver). There's some speculation on [Reddit](https://www.reddit.com/r/hetzner/comments/fk2n7r/any_idea_when_hetzner_gpu_servers_will_be/) as to why this model was retired. However, you might still be able to find one via their [server auction](https://www.hetzner.com/sb)—if you're interested, just filter for the term "GPU".
 
 Currently, there are no further plans to introduce new GPU-powered servers according to a source at Hetzner.
 {{</card>}}
@@ -59,7 +59,7 @@ In the case of Hetzner as the provider, you could use their firewall. Unfortunat
 
 However, there is a smart way to avoid this public exposure when running Windows 10 on a Hetzner server:
 
-Install VMware Workstation, Oracle Virtualbox or similar, then create a virtual machine with [OPNSense](https://opnsense.org/) or some other firewall as OS on top. OPNSense is a full-blown firewall that can be exposed to a direct Internet connection more securely than a client OS like Windows 10. Hooking the firewall <abbr title="Virtual Machine">VM</abbr> between the gaming OS and the internet creates a second, more secure path:
+Install VMware Workstation, Oracle VirtualBox, or similar, then create a virtual machine with [OPNsense](https://opnsense.org/) or some other firewall as the OS on top. OPNsense is a full-blown firewall that can be exposed to a direct Internet connection more securely than a client OS like Windows 10. Hooking the firewall <abbr title="Virtual Machine">VM</abbr> between the gaming OS and the Internet creates a second, more secure path:
 
 {{<figure src="3b8baf4b-f55d-48cd-a726-4aaaa456890b" transformation="padded">}}Creating a second and more secure Internet connection via virtual environment{{</figure>}}
 

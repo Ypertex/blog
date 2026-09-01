@@ -13,7 +13,7 @@ images:
 
 To be honest with you, it's a complete coincidence that the [blog's launch](/articles/ypertex-blog-launching-today/) and this redesign are *exactly* three years apart. I didn't plan it this way, I didn't wait for this day. It's magic!
 
-Redesigning a blog after, what ... 14 articles already? I know! I should be more focused on writing and less on tooling. But hey, I can't deny that I'm a techie and hobbyist designer after all---so here we go:
+Redesigning a blog after, what ... 14 articles already? I know! I should be more focused on writing and less on tooling. But hey, I can't deny that I'm a techie and hobbyist designer after all—so here we go:
 
 {{<figure src="050bab80-48bd-404a-b6b1-d1f39e934849" cite="[David Pisnoy](https://unsplash.com/@davidpisnoy)">}}Let's pick a new color, shall we?{{</figure>}}
 
@@ -28,7 +28,7 @@ First of all, writing an article takes more time than I initially thought. From 
 I'm glad to have found a publishing work-flow that **doesn't depend on a particular platform**. Here's how my process works:
 
 {{<card>}}
-I write my articles locally on my computer in a format called [Markdown](https://daringfireball.net/projects/markdown/)---which is nothing else than plain text. Any text editor does the trick, though I prefer using [iA Writer](https://ia.net/writer).
+I write my articles locally on my computer in a format called [Markdown](https://daringfireball.net/projects/markdown/)—which is nothing more than plain text. Any text editor does the trick, though I prefer using [iA Writer](https://ia.net/writer).
 
 [Hugo](https://gohugo.io/) transforms the Markdown files into HTML web pages. This happens as well locally, right on my computer. You can pick from a range of open source themes or define your own.
 
@@ -45,15 +45,15 @@ In every step of the process, *I'm in control*. Here's why it matters to me:
 
 * At any time, I can swap out one or all tools. The source of my content goes into the cloud but remains local, too. If any of the non-local services would suddenly shut down, they wouldn't take my content with them. I remain the owner of my content.
 * I'm not restricted creatively by any platform. If I want to slightly tweak or completely overhaul my website theme, I can.
-* I gain deeper insights by running my analytics. I don't depend on the bits and pieces of user data that platform providers might offer. Yes, it's not as efficient as consuming a managed service (at the very least, I have to put up a [privacy policy](/privacy/) now)---but using Matomo on Docker makes this almost a fire-and-forget operation.
+* I gain deeper insights by running my analytics. I don't depend on the bits and pieces of user data that platform providers might offer. Yes, it's not as efficient as consuming a managed service (at the very least, I have to put up a [privacy policy](/privacy/) now)—but using Matomo on Docker makes this almost a fire-and-forget operation.
 
-> Using Medium, LinkedIn, or other platforms for editing and publishing your articles? It might allow you to focus more on writing---but you better have an exit strategy in case the platform is going in a direction you don't like.
+> Using Medium, LinkedIn, or other platforms for editing and publishing your articles? It might allow you to focus more on writing—but you'd better have an exit strategy in case the platform is going in a direction you don't like.
 
 And in case you wonder: Excluding domain registrar fees and the cost of renting the virtual server for Matomo, the monetary cost of running this blog is zero.
 
 ### Title Capitalization in English Is Strange
 
-In German, headlines follow the same orthographic rules as any other text. In English however, there are several ways how professional publishers capitalize titles. The general rule is to capitalize the first, the last and the important words in the title.
+In German, headlines follow the same orthographic rules as any other text. In English, however, there are several ways professional publishers capitalize titles. The general rule is to capitalize the first, the last, and the important words in the title.
 
 There are four main styles: Chicago style, APA style, MLA style, and AP style. Fortunately, there are a few helpers like [Capitalize My Title](https://capitalizemytitle.com/) so I don't have to remember the precise rules. (By the way: I'm defaulting to APA style.)
 
@@ -67,13 +67,13 @@ There are four main styles: Chicago style, APA style, MLA style, and AP style. F
 
 As it turns out, images are as static as always. You just provide several sizes and aspect ratios of the *same* image and the web page and browser determine which of the image versions to show under what circumstance. This can be very tedious, of course, but there are services available that automate this for you.
 
-So while you provide the original image of a fixed size (width and height), services like Cloudinary can intelligently crop parts of the image. Using Artificial Intelligence, the interesting parts of an image (like faces) are identified and preserved in the cropped images. And they do this the lazy way, meaning: on the fly. Only once a user browses a web page with a certain type of device, the service renders the corresponding versions of the base image. Not a second earlier.
+So while you provide the original image of a fixed size (width and height), services like Cloudinary can intelligently crop parts of the image. Using artificial intelligence, the interesting parts of an image (like faces) are identified and preserved in the cropped images. And they do this the lazy way, meaning: on the fly. Only once a user browses a web page with a certain type of device does the service render the corresponding versions of the base image. Not a second earlier.
 
 Such services are also able to automatically optimize image quality and compress file sizes.
 
 ## Conclusion
 
-Celebrating the third anniversary of my blog with my 15<sup>th</sup> article---and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!
+Celebrating the third anniversary of my blog with my 15<sup>th</sup> article—and a major redesign. I hope you like it! Follow me on social media to get notified of new content. On to the next three years until March 23, 2023!
 
 ---
 

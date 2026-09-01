@@ -11,7 +11,7 @@ images:
 
 Today was the first time that I needed to split one IPv4 subnet into two and forward the second half to somewhere else—without the ability to configure the upstream gateway. It took me a while to figure out how to achieve this with an [OPNsense firewall](https://opnsense.org/) as my router. I thought I’d document this in case anyone else is looking for a solution to this, too.
 
-{{<figure src="a6e46127-e43f-4ea3-9aa8-819893c0f602" cite="[Pablo Heimplatz](https://unsplash.com/photos/an3qaxZ-2bY)">}}Splitting stuff is hard enough, but how do you move away the part that you just split off?{{</figure>}}
+{{<figure src="a6e46127-e43f-4ea3-9aa8-819893c0f602" cite="[Pablo Heimplatz](https://unsplash.com/photos/an3qaxZ-2bY)">}}Splitting stuff is hard enough, but how do you move the part that you just split off?{{</figure>}}
 
 ## The Challenge of Transparently Splitting a Subnet
 
@@ -32,15 +32,15 @@ This is how it looked once configured on the firewall router and DMZ:
 
 Notice how the firewall router has the same Internet-facing IP but with a different netmask now?
 
-I thought that the OPNsense firewall router would be intelligent enough to advertise to the upstream ISP gateway, that the IP ``x.x.129.210`` and all IPs ``x.x.129.116``-``.123`` of the ``/29`` DMZ subnet were all to be routed via its ISP-facing IP (``x.x.129.210``).
+I thought that the OPNsense firewall router would be intelligent enough to advertise to the upstream ISP gateway that the IP ``x.x.129.210`` and all IPs ``x.x.129.216``–``.223`` of the ``/29`` DMZ subnet were all to be routed via its ISP-facing IP (``x.x.129.210``).
 
 But no, it doesn’t work like this out of the box. And there was no way for me to explicitly configure the ISP gateway to route the ``/29`` DMZ subnet to a specific IP.
 
 ## The Solution: Proxy ARP
 
-After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with [DuckDuckGo](https://duckduckgo.com) must be called, right?) to no avail, I finally stumbled over the *Virtual IP* settings in OPNsense, specifically of type *Proxy <abbr title="Address Resolution Protocol">ARP</title>*.
+After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with [DuckDuckGo](https://duckduckgo.com) must be called, right?) to no avail, I finally stumbled over the *Virtual IP* settings in OPNsense, specifically of type *Proxy <abbr title="Address Resolution Protocol">ARP</abbr>*.
 
-This Proxy ARP type of virtual IP allows you to broadcast the advertisement of IPs or subnets via an interface. So I entered:
+This Proxy ARP type of virtual IP allows you to advertise IPs or subnets via an interface. So I entered:
 
 * Mode: Proxy ARP
 * Interface: WAN
@@ -48,7 +48,7 @@ This Proxy ARP type of virtual IP allows you to broadcast the advertisement of I
 
 {{<figure src="7e6c00c0-23b4-4e7c-a221-c038daef3c21" transformation="inline">}}Setting Proxy ARP virtual IPs in OPNsense{{</figure>}}
 
-In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP ``x.x.129.210``) it also was the recipient for all IP packets of the ``/29`` DMZ subnet. In a way, ARP allows configuring upstream routers that are not part of your infrastructure.
+In other words: The OPNsense firewall router now informed the ISP gateway that (besides the IP ``x.x.129.210``) it was also the recipient for all IP packets of the ``/29`` DMZ subnet. In a way, ARP allows configuring upstream routers that are not part of your infrastructure.
 
 This works like a charm. Servers in the DMZ configured with the public IPs of the second ``/29`` subnet are now able to communicate in both directions with the Internet.
 
@@ -57,5 +57,5 @@ This works like a charm. Servers in the DMZ configured with the public IPs of th
 {{<note class="alert-warning">}}
 ##### <i class="las la-bell"></i> Reminder
 
-OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet ``x.x.129.216/29`` to the public IP ``x.x.129.210``—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.
+OPNsense automatically adds the DMZ subnet to its NAT rules, so don’t forget to remove it manually. In this case, it was translating the public subnet ``x.x.129.216/29`` to the public IP ``x.x.129.210``—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.
 {{</note>}}

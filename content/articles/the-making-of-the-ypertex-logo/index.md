@@ -11,9 +11,9 @@ aliases:
 - /2017/05/17/the-making-of-the-ypertex-logo/
 ---
 
-For a blog claiming to primarily write about design (according to its current tag line “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about *other people’s* designs, I would like to first promote my credibility and address one of my designs: this blog’s logo.
+For a blog claiming to primarily write about design (according to its current tagline “Design, Technology, Future”), I have yet to do so after three articles. Let me change that today—but before I write about *other people’s* designs, I would like to first promote my credibility and address one of my designs: this blog’s logo.
 
-This article explains how I generally approach new designs using the example of the Ypertex logo. I follow a two-step process of which, interestingly enough, the first step stays the same whether creating a visual design (i.e. for a logo) or a conceptual design (i.e. for an IT solution).
+This article explains how I generally approach new designs using the example of the Ypertex logo. I follow a two-step process in which, interestingly enough, the first step stays the same whether creating a visual design (e.g., for a logo) or a conceptual design (e.g., for an IT solution).
 
 {{<figure src="6fe8bb5e-45a2-4b05-8f79-98c1d87c85ca" />}}
 
@@ -32,15 +32,15 @@ A characteristic of professional designs is that most (if not all) of their elem
 
 {{<figure src="46285e9e-3040-4247-b0df-8c1e005c04d8" />}}
 
-**The design object provides the expected scope.** What exactly means i.e. “designing a mobile phone”? Does it refer to the outer case or the inner electric circuits? Does it include the graphical user interface?
+**The design object provides the expected scope.** What exactly does “designing a mobile phone” mean? Does it refer to the outer case or the inner electric circuits? Does it include the graphical user interface?
 
-**The design objectives set the expected quality.** I.e., should the mobile phone rather be as slim and light, as energy efficient, and/or as cheap as possible? What should your design primarily achieve and where are trade-offs acceptable or even irrelevant?
+**The design objectives set the expected quality.** Should the mobile phone, for example, be as slim and light, as energy-efficient, and/or as cheap as possible? What should your design primarily achieve, and where are trade-offs acceptable or even irrelevant?
 
 > Good designers are good requirement engineers: They first observe, ask lots of questions and listen closely to the answers. Only then, they start designing.
 
 From a grammatical point of view, the first question asks for nouns or names while the second asks for adjectives.
 
-Designs are like projects: You might have never done such a design or project before but yet you can follow practices and processes that will lead you to a positive result every time. Asking the above questions is as important to designers as it is for software developers, construction workers or anyone else working on projects. It helps **ruling out misunderstandings as early as possible**.
+Designs are like projects: You might have never done such a design or project before but yet you can follow practices and processes that will lead you to a positive result every time. Asking the above questions is as important to designers as it is for software developers, construction workers or anyone else working on projects. It helps **rule out misunderstandings as early as possible**.
 
 Furthermore, the answers to the two questions provide objectively measurable requirements—based on which we later can judge the scope and quality of a particular design. By the way, this is also a fundamental difference between design and art:
 
@@ -83,7 +83,7 @@ From these sources I had collected and interpreted the following requirements:
 
 Translating design requirements into design elements is comparable to translations from one spoken language into another: A large portion of it is simply a matter of looking up the translation in a dictionary; the rest of the translation is based on experience with nuances.
 
-Unfortunately, there is not just one global dictionary for visual design that offers translations to shapes, colors, textures, lighting, space, and direction. These translations or **interpretations rely on the context like i.e. one’s cultural area** (in my case: Western Europe). Let us take a look at my above requirements, most notably the requirement “future-oriented”: In my culture, we read from left to right—so a visual representation of going forward could be conveyed by a perceived movement from left to right. This might be different in other cultures and also apply to the meaning of shapes and colors.
+Unfortunately, there is not just one global dictionary for visual design that offers translations to shapes, colors, textures, lighting, space, and direction. These translations or **interpretations rely on context, such as one’s cultural area** (in my case: Western Europe). Let us take a look at my above requirements, most notably the requirement “future-oriented”: In my culture, we read from left to right—so a visual representation of going forward could be conveyed by a perceived movement from left to right. This might be different in other cultures and also apply to the meaning of shapes and colors.
 
 {{<figure src="6ea9d51f-ae3b-4da2-b6bd-e3216d15c62b">}}Which of the two moving staircases implies to go up or down usually depends on the direction in which you are used to reading {{</figure>}}
 
@@ -93,7 +93,7 @@ The attentive reader also might have noticed: Some of my interpretations of indi
 
 Up to this point, designing the logo was nothing more than collecting requirements and trying to translate them to visual elements—a diligent but routine piece of work. Now came the fun part: exploring and finding a solution within the confines of the requirements.
 
-In the following paragraphs, I will mostly focus on the ideas that worked. Rest assured that it was not as straight forward and smooth as it might appear below. There certainly were ideas that led to a useless result. More than once I followed down a path to find out that I could not make an idea work out and had to start over—which is a perfectly normal part of the design process. In some cases one can come back to an earlier draft to take different approaches, basically branching off different designs from a common base design. Let me get back to this in the end when discussing the value of exaggeration.
+In the following paragraphs, I will mostly focus on the ideas that worked. Rest assured that it was not as straightforward and smooth as it might appear below. There certainly were ideas that led to a useless result. More than once I followed down a path to find out that I could not make an idea work out and had to start over—which is a perfectly normal part of the design process. In some cases one can come back to an earlier draft to take different approaches, basically branching off different designs from a common base design. Let me get back to this in the end when discussing the value of exaggeration.
 
 ### Starting With Symbolism
 

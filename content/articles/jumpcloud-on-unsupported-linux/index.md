@@ -27,7 +27,7 @@ Software developers at Proxmox and Openmediavault have used this file to display
 
 {{<figure src="d16cbce2-545a-45f3-8623-011575a2d920">}}Proxmox Virtual Environment shows instructions on how to connect to its web interface{{</figure>}}
 
-Of course, now the content of ``/etc/issue`` doesn't match with the records in JumpCloud's database anymore. Since this additional information can change (i.e. when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?
+Of course, now the content of ``/etc/issue`` doesn't match the records in JumpCloud's database anymore. Since this additional information can change (e.g., when you configure a different <abbr title="Internet Protocol">IP</abbr> address on the system), the ``/etc/issue`` file is **regenerated every time the system boots** to reflect the proper current settings. So simply replacing the content of the file with the original won't cut it. Now what?
 
 ## Stop and Disable the Respective Issue Service
 
@@ -46,12 +46,12 @@ sudo systemctl stop pvebanner && sudo systemctl disable pvebanner
 sudo systemctl stop openmediavault-issue && sudo systemctl disable openmediavault-issue
 {{</highlight>}}
 
-Disabling is what prevents the service from being restarted after the system boots. Great, we finally can revert the file ``/etc/issue`` back to its original content: Open the file (i.e. ``sudo nano /etc/issue``), then paste the complete string ``Debian GNU/Linux 9 \n \l``, and save the file. Done! After a reboot, the file still reads the same.
+Disabling is what prevents the service from being restarted after the system boots. Great, we can finally revert the file ``/etc/issue`` to its original content: Open the file (e.g., with ``sudo nano /etc/issue``), then paste the complete string ``Debian GNU/Linux 9 \n \l``, and save the file. Done! After a reboot, the file still reads the same.
 
 Installing the JumpCloud agent on these systems now **works as expected**. The systems report as ``Debian 9`` in the JumpCloud console from where they can be managed just like any other system.
 
 ## Conclusion
 
-I am no Linux expert but isn't there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file ``/etc/issue``? I wish, JumpCloud could figure out something.
+I am no Linux expert, but isn't there a better way to reliably determine the distribution and version of a Linux system—other than checking the text file ``/etc/issue``? I wish JumpCloud could figure out something.
 
 If this issue bugs you too, let JumpCloud know by [voting on my feature request](https://support.jumpcloud.com/customer/portal/questions/17167497-agent-support-for-proxmox-and-openmediavault-debian-9-) I posted on their site over a year ago. Thanks. At least, we have a workaround with the above hack.

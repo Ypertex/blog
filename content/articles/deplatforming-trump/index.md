@@ -14,7 +14,7 @@ In case you wonder what happened to my Twitter account: I deleted it in the larg
 
 {{<preview-external src="44b7db9a-b3ff-4944-8b42-17ebdd178e16">}}
 
-The day after the insurgence, I read the follwing two offical Twitter statements:
+The day after the insurrection, I read the following two official Twitter statements:
 
 > As a result of the unprecedented and ongoing violent situation in Washington, D.C., we have required the removal of three @realDonaldTrump Tweets that were posted earlier today for repeated and severe violations of our Civic Integrity policy.
 > 
@@ -32,7 +32,7 @@ In my opinion, it means that Twitter is passively supporting Trump and what Trum
 
 **So while Twitter doesn't ban Trump, I ban Twitter.** A platform is only worth something with an audience, so I removed myself from that audience.
 
-More and more, I realize that I want to grant whatever little I have (time, money, attention, ...) only to people that have their *and* my longterm benefit in mind. Social media providers less and less appear to be of that kind of people.
+More and more, I realize that I want to grant whatever little I have (time, money, attention, ...) only to people who have their *and* my long-term benefit in mind. Social media providers increasingly appear not to be that kind of people.
 
 I invite you to do the same.
 
@@ -43,5 +43,5 @@ I invite you to do the same.
 
 Even though Twitter ended up [permanently suspending Trump's account](https://www.bbc.com/news/world-us-canada-55597840) shortly after I wrote this article, I decided not to restore my own Twitter account.
 
-First: While late is better than never, it wasn't good enough for me this time. Second: I enjoyed the past month with less Social Media. So I'll stick to it.
+First: While late is better than never, it wasn't good enough for me this time. Second: I enjoyed the past month with less social media. So I'll stick to it.
 {{</note>}}

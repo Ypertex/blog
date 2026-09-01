@@ -21,7 +21,7 @@ If your answers have been yes and yes, you should come to the conclusion that **
 
 ## The Determining Factor
 
-Who takes decisions is not a matter of who knows best---but **who takes responsibility** if it turns out to be the wrong decision. The riskier the decision, the more it's taken by people who are anything but subject matter experts.
+Who makes decisions is not a matter of who knows best—but **who takes responsibility** if it turns out to be the wrong decision. The riskier the decision, the more likely it is to be made by people who are anything but subject-matter experts.
 
 In other words: More often than not, your **riskiest technology decisions are routinely taken by non-technological people**. So how important is it that they get your technology strategy?
 
@@ -39,7 +39,7 @@ It doesn't? Experts refer to this as the [Execution Gap](https://hbr.org/podcast
 
 > The best strategy is worthless if people are unable to execute it when it counts most.
 
-## Pure Theory---or Is It?
+## Pure Theory—or Is It?
 
 You might say: Yeah, but...
 
@@ -70,15 +70,15 @@ We answered two general questions: "**What** are we trying to achieve?" and "**H
 
 Appears simple enough, doesn't it? At any rate, it's possible to deliver this essence in a short pitch.
 
-What's left is to **reiterate these core messages at every opportunity on every channel**. If people start responding with <q>And how I am supposed to implement this in my work?</q> you've made a huge step in closing the execution gap.
+What's left is to **reiterate these core messages at every opportunity on every channel**. If people start responding with <q>And how am I supposed to implement this in my work?</q>, you've made a huge step in closing the execution gap.
 
 ### B) Ask 2+1
 
-Now that you've laid out the foundation and get responses from your target audience, you can start talking about the strategic decision criteria.
+Now that you've laid out the foundation and received responses from your target audience, you can start talking about the strategic decision criteria.
 
 In our case, we need to offer criteria to decide: When do we prioritize cost savings, when Digital Transformation? When do we insist on late follower technologies, when do we push for early follower/adopter technologies?
 
-We opted for two (**2**) criteria specific to our industry and particular context---and one (**+1**) rather global criterion that probably is valid in most industries. This means: Instead of giving case-by-case answers, the strategy **asks** leading questions:
+We opted for two (**2**) criteria specific to our industry and particular context—and one (**+1**) rather global criterion that is probably valid in most industries. This means: Instead of giving case-by-case answers, the strategy **asks** leading questions:
 
 {{<card>}}
 #### Criterion 1
@@ -126,9 +126,9 @@ To that end, we've adapted a method named **Priority Poker** and developed a gam
 
 In the end, all items on the list received a number or priority as worked out by the group.
 
-Priority Poker allows all people in a group to share their facts, experience, opinions, etc. Individuals will learn about perspectives or arguments they didn't think of before. As a result, people will correct or confirm their assessments, causing the group to align more and more---and finally agree on a set of shared priorities. (Read more about [Priority Poker and how to harness collective intelligence](https://medium.com/outboxers/how-to-collectively-decide-what-not-to-do-play-priority-poker-baa03342f096).)
+Priority Poker allows all people in a group to share their facts, experience, opinions, etc. Individuals will learn about perspectives or arguments they didn't think of before. As a result, people will correct or confirm their assessments, causing the group to align more and more—and finally agree on a set of shared priorities. (Read more about [Priority Poker and how to harness collective intelligence](https://medium.com/outboxers/how-to-collectively-decide-what-not-to-do-play-priority-poker-baa03342f096).)
 
-{{<figure src="5be3378a-3c0e-42a8-b6fe-2d197ac27050">}}In Priority Poker, you play *with* all players, not *against* them (scene from "Maverick", 1994---one of my all-time favorite movies){{</figure>}}
+{{<figure src="5be3378a-3c0e-42a8-b6fe-2d197ac27050">}}In Priority Poker, you play *with* all players, not *against* them (scene from "Maverick", 1994—one of my all-time favorite movies){{</figure>}}
 
 Here's how our adaptation works:
 
@@ -136,7 +136,7 @@ Here's how our adaptation works:
 * Poker about what a set of potential *technologies* deliver in terms of the project's requirements.
 * Finally, poker about what the same *technologies* entail in terms of costs and risks.
 
-At the end of the game, the group will be able to collectively determine **which technologies are the best strategic fit for the given project**: the one that meets the minimum differentiation and acceleration requirements---and brings the lowest costs and risks to the organization.
+At the end of the game, the group will be able to collectively determine **which technologies are the best strategic fit for the given project**: the one that meets the minimum differentiation and acceleration requirements—and brings the lowest costs and risks to the organization.
 
 If the entire organization implements this approach, by and large, two things will happen:
 
@@ -162,7 +162,7 @@ Developing a clearer, more memorable, more transferable, and more actionable str
 
 Trust, however, is based on people, not tools.
 
-So as a professional strategist, don't forget to invest equal resources into building trust and relationships with decision-makers (experts and laymen alike). If they trust you, they'll be more inclined to trust the strategy that you've developed---and apply it when the time comes without having second thoughts.
+So as a professional strategist, don't forget to invest equal resources into building trust and relationships with decision-makers (experts and laypeople alike). If they trust you, they'll be more inclined to trust the strategy that you've developed—and apply it when the time comes without having second thoughts.
 
 > When the trust account is high, communication is easy, instant, and effective.
 >
@@ -172,7 +172,7 @@ So as a professional strategist, don't forget to invest equal resources into bui
 
 In this article, I shared a few lessons from my work on the SRG&nbsp;SSR technology strategy.
 
-The rather obvious **main lesson** is this: It's both the card *and* the player who win poker games. (I'm referring to the real poker game here, the one where players have to cope with incomplete information---just as companies and their decision-makers do in their environments.)
+The rather obvious **main lesson** is this: It's both the card *and* the player who win poker games. (I'm referring to the real poker game here, the one where players have to cope with incomplete information—just as companies and their decision-makers do in their environments.)
 
 You need to have the right strategy. Having the wrong strategy perfectly executed will still be a failure.
 
@@ -184,7 +184,7 @@ The more **counter-intuitive lessons** are:
 
 * In large parts, a technology strategy serves a non-technological audience and hence shouldn't focus on specific technologies.
 
-* Any strategy completely depends on the people who're supposed to execute it, *when* they're supposed to execute it. To enable decision-makers in stressful moments that count most, a strategy needs to be clear, memorable, transferable, and actionable.
+* Any strategy completely depends on the people who are supposed to execute it, *when* they're supposed to execute it. To enable decision-makers in stressful moments that count most, a strategy needs to be clear, memorable, transferable, and actionable.
 
 * Many people expect a strategy to deliver specific answers. Don't fall into this trap! A strategy that gives specific answers is tailored to specific situations only. If you want a strategy that is transferable to all kinds of situations, ask questions instead. After all, a strategy is supposed to support decision-makers, not to replace them.
 
@@ -192,4 +192,4 @@ The more **counter-intuitive lessons** are:
 
 * People will take your strategy only as seriously as they take you. The level of trust people put in your strategy will benefit from the trust people put in you as a person and as a team.
 
-Our team is about to start the work on SRG&nbsp;SSR's distribution strategy. We'll be applying our lessons learned---and will continue to learn a lot more!
+Our team is about to start the work on SRG&nbsp;SSR's distribution strategy. We'll be applying our lessons learned—and will continue to learn a lot more!

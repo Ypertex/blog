@@ -11,7 +11,7 @@ weight: 2
 
 Why should we make the difference, anyway?
 
-For me, the main reason is to know where one's accountability ends. If your company aims at increasing customer satisfaction by 20%---how many percentage points is your team responsible to contribute? IOOI will help knowing the overall ambition *and* one's part in all of it before you start. It'll also lead to the question: Who else is contributing to the same ambition?
+For me, the main reason is to know where one's accountability ends. If your company aims at increasing customer satisfaction by 20%—how many percentage points is your team responsible for contributing? IOOI will help you understand the overall ambition *and* one's part in all of it before you start. It'll also lead to the question: Who else is contributing to the same ambition?
 
 # The Difference Between Impact and Outcome
 
@@ -32,7 +32,7 @@ So, the big difference is whether you can only influence or entirely control som
 
 **Impact:** Elon Musk wants humankind to colonize Mars (which is impossible for him to achieve on his own). There are partners who are interested in the same thing.
 
-**Outome:** Musk's contribution so far will be affordable transportation to and from Mars. It's insufficient to make the colonization happen by itself---but without it, colonization won't occur either.
+**Outcome:** Musk's contribution so far will be affordable transportation to and from Mars. It's insufficient to make colonization happen by itself—but without it, colonization won't occur either.
 
 (Output: To achieve affordable transportation, Musk founds SpaceX and produces rockets that are reusable and hence massively bring down cost of transport. Input: Lots of money, expertise, innovation, etc.)
 {{</note>}}
@@ -43,7 +43,7 @@ So, the big difference is whether you can only influence or entirely control som
 
 When filling out the [IOOI Canvas](../#canvas-for-your-projects), try to start at the top with Impact. Imagine a moment in the future when the desired Impact has already happened. Note down your first idea on how to describe that future.
 
-**Is it something in face of which your team simply has been insignificant no matter what?** Then you went too far beyond the realm of what your team can influence. Break it down until you get in your team's sphere of influence.
+**Is it something in the face of which your team has simply been insignificant, no matter what?** Then you went too far beyond the realm of what your team can influence. Break it down until you get into your team's sphere of influence.
 
 Once you found an Impact that can be influenced by your team, ask yourself (again looking back from the hypothetical, ideal future): **Is it something that your team has been perfectly capable of achieving by itself? Is it something for which you can be accountable and can take credit?** If yes, then you found a candidate for Outcome.
 

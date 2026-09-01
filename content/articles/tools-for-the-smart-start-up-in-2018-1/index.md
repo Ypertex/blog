@@ -18,7 +18,7 @@ aliases:
 
 This was a question I was asked in an interview when I applied for a new job after [my start-up experience](https://blog.ypertex.com/articles/start-up-success-factors-trust-and-loyalty/).
 
-Of course, we all read and hear about the astronomical valuations of the start-ups i.e. in Silicon Valley and the amounts of money they can pour into their <abbr title="Research & Development">R&D</abbr> and innovation labs. This, however, distorts our perception of reality: The fact is that the vast majority of business ventures start with very few resources at their disposal.
+Of course, we all read and hear about the astronomical valuations of the start-ups, e.g., in Silicon Valley, and the amounts of money they can pour into their <abbr title="Research & Development">R&D</abbr> and innovation labs. This, however, distorts our perception of reality: The fact is that the vast majority of business ventures start with very few resources at their disposal.
 
 {{<figure src="7b95a9b0-0f54-44f9-8af3-dd6820d3051d" cite="[Evan Kirby](https://unsplash.com/photos/jl8x6XpE8Y4)">}}As a small start-up you can still cast a long shadow{{</figure>}}
 
@@ -52,7 +52,7 @@ So, here are a few ideas on how to address this challenge:
 
 This is probably a no-brainer, but still: Just have your team use their privately owned devices to work on your project. These are already set up and operational, so you and your teammates can hit the ground running. This concept of <abbr="Bring Your Own Device">BYOD</abbr> will carry you a long way.
 
-At some point though, your team probably will run into more and more issues due to the different setups of their hardware and operating systems: Apple users might have problems to work on files that are used by users with Microsoft devices–while the Windows people might not be able to execute applications that run just fine on macOS systems. The friction caused by BYOD starts to show.
+At some point, though, your team will probably run into more and more issues due to differences in their hardware and operating systems: Apple users might have problems working on files that are used by users with Microsoft devices, while Windows users might not be able to execute applications that run just fine on macOS systems. The friction caused by BYOD starts to show.
 
 One way to deal with this is to install a hypervisor on each device and run a virtual machine on top of it. This gives you the ability to align the virtual working environment of all team members and eliminate interoperability issues. For example: With [VirtualBox](https://www.virtualbox.org/) as hypervisor and a Linux distribution like [Ubuntu](https://www.ubuntu.com/) as the desktop operating system for the virtual machines, you can set up a cost-free and homogeneous virtual workplace for your entire team. (In cases where Linux is no option and you need a Microsoft operating system: There are ways to buy genuine but cheap software [as described below](#microsoft-software-licensing). Virtualizing Apple operating systems, unfortunately, is no practical option due to legal and technical impediments.)
 
@@ -88,9 +88,9 @@ Overall, Hetzner currently has better deals in my opinion. The new *vSwitch* fea
 
 {{<figure src="aba0d8c0-c11a-4982-8d58-649e6dca239f" transformation="full">}}Screenshot of the Online.net Dedicated Server website, August 2018{{</figure>}}
 
-One feature that I especially like at Online.net is the availability of a <abbr title="Keyboard Video Mouse">KVM</abbr> console *within seconds*. Such a console allows accessing the server’s screen even during boot time or after accidentally having locked out oneself (by i.e. messing with the servers connectivity settings). In the case of Hetzner, users first have to raise a support ticket, never knowing upfront how long it might take to get the requested KVM console. (The Hetzner support usually acts fast, but gets squarely beaten by the automated process at Online.net.)
+One feature that I especially like at Online.net is the availability of a <abbr title="Keyboard Video Mouse">KVM</abbr> console *within seconds*. Such a console allows access to the server’s screen even during boot time or after accidentally locking oneself out (e.g., by messing with the server's connectivity settings). In the case of Hetzner, users first have to raise a support ticket, never knowing up front how long it might take to get the requested KVM console. (Hetzner support usually acts fast, but gets squarely beaten by the automated process at Online.net.)
 
-On the other hand, Hetzner rarely seems to run out of stock while Online.net appears to constantly being sold out. It might take months for Online.net to restock their portfolio.
+On the other hand, Hetzner rarely seems to run out of stock while Online.net appears to be constantly sold out. It might take months for Online.net to restock their portfolio.
 
 I have intensively used Online.net and Hetzner services in professional projects and for my private lab and can recommend them both. On the rare occasions that I had issues, both support teams act fast and in a very friendly manner.
 
@@ -142,7 +142,7 @@ If you want to install your $40 license on a Hetzner server, you will have to as
 
 To come back to our hypothetical team of eight people: Rent a hardware server from Hetzner for $60 per month; then install Windows Server Datacenter on that hardware server and activate it with the $40 license from Reddit. Then create as many Windows Servers as virtual Hyper-V machines on your hardware server and activate them with the [official <abbr title="Automatic Virtual Machine Activation">AVMA</abbr> keys](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn303421(v=ws.11)) from Microsoft.
 
-With this setup, you can offer every team member a dedicated virtual client in a homogeneous environment. The financial impact of your team growing from eight to i.e. ten is zero: Just create new virtual machines. Your hardware can handle it and you already have the software licenses built-in. Your team connects via <abbr title="Remote Desktop Protocol">RDP</abbr> and can work on their virtual Windows desktops in the cloud. All of this for the fraction of the price that VDI providers like Paperspace ask. And of course, if your start-up implodes already after two months, you have only invested like $250 (considering the one-off fee to provision the server) instead of $4000 that you would have spent to buy every team member a mid-sized Windows laptop right from the start. That’s smart.
+With this setup, you can offer every team member a dedicated virtual client in a homogeneous environment. The financial impact of your team growing from eight to, say, ten is zero: Just create new virtual machines. Your hardware can handle it, and you already have the software licenses built in. Your team connects via <abbr title="Remote Desktop Protocol">RDP</abbr> and can work on their virtual Windows desktops in the cloud. All of this for a fraction of the price that VDI providers like Paperspace ask. And, of course, if your start-up implodes after only two months, you have invested only about $250 (considering the one-off fee to provision the server) instead of $4,000 that you would have spent to buy every team member a mid-sized Windows laptop right from the start. That’s smart.
 
 One feature, however, is still missing: the ability to connect to the virtual desktops *via browser*. Maybe not all devices in your team of eight people have an RDP client installed—but certainly, all already have a browser ready to be used. This kind of “zero-touch BYOD” is preferable, especially in the beginnings of your start-up. (Because as soon as you “touch” and modify your teammates’ devices, you assume some sort of responsibility for them.)
 
@@ -164,7 +164,7 @@ sudo docker-compose up -d
 
 Now point your browser to your Docker host that runs the Guacamole container, log in and add the users and virtual desktops. That’s it. You now have your browser-accessible virtual desktop infrastructure up and running at extremely low cost.
 
-If you are interested in encrypting the traffic between your users and this gateway, however—and you should—, you might want to secure the gateway behind an SSL-capable proxy. Like I composed Guacamole with Træfik in my [Wapps repository](https://github.com/MichaelSchmidle/wapps).
+If you are interested in encrypting the traffic between your users and this gateway, however—and you should—you might want to secure the gateway behind an SSL-capable proxy, as I did when I composed Guacamole with Træfik in my [Wapps repository](https://github.com/MichaelSchmidle/wapps).
 
 Talking about security: We still need to address a few concerns. Read on!
 

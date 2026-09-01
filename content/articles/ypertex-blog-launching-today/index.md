@@ -41,7 +41,7 @@ The result is what you are looking at right now:
 
 {{<figure src="84b1783d-5648-4b7b-8e3b-28f30c43d083" transformation="full">}}Ypertex blog theme, March 2017{{</figure>}}
 
-The theme is called `inhabitu` and its code is hosted on [Github](https://github.com/Ypertex/inhabitu)—from where you can download the [latest release](https://github.com/Ypertex/inhabitu/releases).
+The theme is called `inhabitu` and its code is hosted on [GitHub](https://github.com/Ypertex/inhabitu)—from where you can download the [latest release](https://github.com/Ypertex/inhabitu/releases).
 
 ### Tool
 
@@ -64,15 +64,15 @@ At first, I decided to go with [Medium](https://medium.com/), a managed publishi
 
 Then, just when I requested the setup of my custom domain `blog.ypertex.com`, Medium decided to charge a setup fee for custom domains. The fee itself was not the issue; rather the flimsy excuse that it “covers your domain setup, an <abbr title="Secure Sockets Layer">SSL</abbr> certificate, and ongoing support of your domain on Medium.” As an IT professional, I can assess the costs related to these points—which, if properly automated, should tend to zero.
 
-> $75 for a process that can be 100% automated and in a time in which Let’s Encrypt (i.e. free SSL certificates) exist, that’s not reasonable. So either Medium doesn’t know how to automate the process or they are not candid about what costs they want to cover.
+> $75 for a process that can be 100% automated at a time when Let’s Encrypt (i.e. free SSL certificates) exists—that’s not reasonable. So either Medium doesn’t know how to automate the process or they are not candid about what costs they want to cover.
 
-Don’t get me wrong: Medium’s service is great and the pricing for their service ($0, except for custom domains) even better. I could appreciate if they said, “custom domains are a feature for professional publications, that’s why they come with a price tag to cover some of the expenses we have in general”. You know, true expenses like wages for employees or hardware…
+Don’t get me wrong: Medium’s service is great and the pricing for their service ($0, except for custom domains) even better. I would have appreciated it if they had said, “custom domains are a feature for professional publications, that’s why they come with a price tag to cover some of the expenses we have in general”. You know, true expenses like wages for employees or hardware…
 
 ### Ghost
 
-That led me to [Ghost](https://ghost.org/) who also offers a managed publishing service and a great editor. Unfortunately with a minimum monthly fee of $19, their service did not fit the bill. Compared to Medium, however, Ghost’s software is open source and available for self-hosting.
+That led me to [Ghost](https://ghost.org/), which also offers a managed publishing service and a great editor. Unfortunately, with a minimum monthly fee of $19, its service did not fit the bill. Compared to Medium, however, Ghost’s software is open source and available for self-hosting.
 
-Fast and effortless setup and maintenance (my first requirement, see above) on the one hand and self-hosting on the other hand usually contradict each other. Luckily, in the end, I discovered [Cloudron](https://cloudron.io/), a platform for self-hosting apps *just* like the Ghost publishing engine. With a cheap Linux <abbr title="Virtual Private Server">VPS</abbr> (like for €3 per month from [Scaleway](https://www.scaleway.com/)), executing three little commands to install Cloudron and a few more clicks in the web panel you get:
+Fast and effortless setup and maintenance (my first requirement, see above) on the one hand and self-hosting on the other hand usually contradict each other. Luckily, in the end, I discovered [Cloudron](https://cloudron.io/), a platform for self-hosting apps *just* like the Ghost publishing engine. With a cheap Linux <abbr title="Virtual Private Server">VPS</abbr> (for example, one costing €3 per month from [Scaleway](https://www.scaleway.com/)), executing three little commands to install Cloudron and clicking a few more times in the web panel, you get:
 
 * A running and self-updating Ghost publishing engine
 * A free SSL certificate from [Let’s Encrypt](https://letsencrypt.org/) out of the box
@@ -85,6 +85,6 @@ On top of those benefits, you get to indirectly support a fine and exemplary org
 
 ## No More Excuses, Here I Go
 
-Now that I have all the ingredients to finally start blogging—content, form *and* tool—, I am really happy to do so. With this very article.
+Now that I have all the ingredients to finally start blogging—content, form *and* tool—I am really happy to do so. With this very article.
 
 When are *you* going to start?

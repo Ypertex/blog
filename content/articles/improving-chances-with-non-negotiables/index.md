@@ -25,7 +25,7 @@ Fair point, so let's use "winning" as a synonym to "being successful". To be *co
 
 Unfortunately, there are no strict, clear and stable rules for success at work. But there are referees: Your boss or client will tell you how you did.
 
-In most cases, you will get feedback * afterward*. There are plenty of approaches however to minimize the risk of learning too late if you are on the right track. Some methods try to take all the risk out by defining *upfront* as much in detail as possible. Others try to split the larger body of work into smaller parts and getting feedback *throughout*, not only at the end.
+In most cases, you will get feedback *afterward*. There are plenty of approaches, however, to minimize the risk of learning too late whether you are on the right track. Some methods try to take all the risk out by defining *up front* as much in detail as possible. Others try to split the larger body of work into smaller parts and get feedback *throughout*, not only at the end.
 
 Of course, these methods depend on a few fragile conditions:
 
@@ -64,11 +64,11 @@ Ask your boss or your clients for *their* Non-Negotiables, too: What's off-limit
 
 # How We Find Our Non-Negotiables
 
-Some Non-Negotiables are nothing but common sense. You can discover them by simply asking "Is it me/us that *should or even can* do this work?" Some stuff is below your paygrade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your paygrade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
+Some Non-Negotiables are nothing but common sense. You can discover them by simply asking, "Is it me/us that *should or even can* do this work?" Some stuff is below your pay grade, so asking *you* to do it is essentially wasting money because someone else with a lower salary could do it just fine. Other stuff is above your pay grade, so asking *you* might be wasting money, too, if your position lacks the necessary authority to successfully deliver the required work.
 
 {{<figure src="dc95dace-00d2-494e-bd8b-90f2cfbe54a8">}}Non-Negotiables: Play by *your* rules{{</figure>}}
 
-For any other work that fits our paygrade, we determine our Non-Negotiables this way:
+For any other work that fits our pay grade, we determine our Non-Negotiables this way:
 
 First, we get started on a draft that we iterate once or twice. Then we seek early feedback from some friendly users. Even if the feedback was positive, we put in another iteration or two. At this point, things begin to stabilize. That's when we test what happens if we remove individual parts one at a time:
 

@@ -12,7 +12,7 @@ images:
 
 ## Assumptions Can Be Helpful ...
 
-Think a moment about the assumptions on which you rely to get through a typical day in your life. Your routine on any given workday is probably based on the following basic assumptions, just to name a few:
+Think for a moment about the assumptions on which you rely to get through a typical day in your life. Your routine on any given workday is probably based on the following basic assumptions, just to name a few:
 
 * Your alarm will wake you up in time
 * The transportation for your commute will function properly
@@ -26,7 +26,7 @@ Simply assuming these things—rather than verifying them one by one each day—
 
 The more experience we have with a subject, the more assumptions we are ready to take in this matter. It's our experience that helps us make the right assumptions most of the time. On the other hand, if we have no clue about something, we are more careful and hold back with assumptions.
 
-Unfortunately, there is **one area where we all continuously fall into the trap of believing that we're experts—while we're definitively not**:
+Unfortunately, there is **one area where we all continuously fall into the trap of believing that we're experts—while we're definitely not**:
 
 > We all are experts in human beings, right? Everybody is one, after all!
 
@@ -35,14 +35,14 @@ This expertise in oneself leads to the "know one, know all" syndrome. Let me giv
 * A reckless car driver disrespects the traffic rules to your disadvantage. You swear at them since you assume they must be a disrespectful person, in general, to treat you this way.
 * A parent doesn't seem to care that their children throw a tantrum. You complain, assuming that the person must be a bad parent, in general, to indifferently let their kids behave like this.
 
-What if I told you that the driver in the first example rushed to see their child after it was just hospitalized with severe injuries? What if the parent in the second example just had suffered the loss of their spouse? Under these circumstances, I'm quite certain, you'd immediately empathize with them and change your attitude towards them.
+What if I told you that the driver in the first example rushed to see their child after it had just been hospitalized with severe injuries? What if the parent in the second example had just suffered the loss of their spouse? Under these circumstances, I'm quite certain you'd immediately empathize with them and change your attitude towards them.
 
-While a bit extreme, the above examples show effectively how one can completely misread situations. Now imagine how assumptions (and hence potentially misreading situations) can have a deep impact on your work. Let me highlight two cases that I experienced in my career:
+While a bit extreme, the above examples effectively show how one can completely misread situations. Now imagine how assumptions (and hence potentially misreading situations) can have a deep impact on your work. Let me highlight two cases that I experienced in my career:
 
 {{<card>}}
 ##### Case 1: The Well-Thought-Out Project Mandate
 
-At one point, a large infrastructure project was launched. I was part of that team that subsequently received a written project mandate. It went into much detail about the project's goal and specific requirements. It even included a specific deadline by when which new infrastructure services should go into operation.
+At one point, a large infrastructure project was launched. I was part of the team that subsequently received a written project mandate. It went into much detail about the project's goal and specific requirements. It even included a specific deadline by which the new infrastructure services should go into operation.
 
 The team was confused. "How could the project sponsor already define the new infrastructure services in such detail?", we asked ourselves. "How could the project sponsor already define such a specific deadline?", we wondered.
 
@@ -86,16 +86,16 @@ When I say testing, I don't necessarily mean asking. While it certainly is a ver
 
 * Observe what your test subjects *do* in their environment; don't ask what they *assume they do*.
 * Use prototypes and test environments to put people in situations that are as *close to reality* as possible. 
-* If an observation is impossible, ask the *persons who take the ultimate decision* on the topic at hand. Eliminate hearsay and the dangerous assumed assumptions.
+* If an observation is impossible, ask the *people who make the ultimate decision* on the topic at hand. Eliminate hearsay and dangerous assumptions.
 * Make your tests as real as possible by having the persons *commit to something* (like a follow-up action) or *give up something* valuable (like more of their time). Do they put their money/time where their mouth is?
 
-{{<figure src="3d9b166b-a85c-4d49-8de3-5e984edba87d">}}Testing assumptions is like making an eye test: It'll help you getting a better picture{{</figure>}}
+{{<figure src="3d9b166b-a85c-4d49-8de3-5e984edba87d">}}Testing assumptions is like taking an eye test: It'll help you get a better picture{{</figure>}}
 
 I'd even recommend to combine and repeat tests. Getting consistent results from different tests (or from the same test repeated at different points in time) increases the reliability of your test results. 
 
 ## Conclusion
 
-RATs are a great way to spare ourselves the disappointment to invest a lot of resources into something that nobody needs. They help us to be more successful at what we do for a living.
+RATs are a great way to spare ourselves the disappointment of investing a lot of resources into something that nobody needs. They help us to be more successful at what we do for a living.
 
 I've started to systematically scan for RATs whenever someone asks me to dedicate a substantial amount of time or money to something. By testing these assumptions, people effectively **show, don't tell** me what they mean.
 

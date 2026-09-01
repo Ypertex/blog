@@ -4,14 +4,14 @@ publishdate: 2021-07-16
 tags:
 - Music
 - Tutorials
-summary: Want to patch audio from multiple interfaces through to your digital audio workstation on seperate tracks? Here's how VoiceMeeter can help.
+summary: Want to patch audio from multiple interfaces through to your digital audio workstation on separate tracks? Here's how VoiceMeeter can help.
 images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/2dc21d85-7a71-4b06-af35-33e87070dcbd
 ---
 
-Imagine you want to live stream a session that involves multiple audio sources. Let's say that these sources include microphones of different types (i.e. XLR, USB) and different media players on your computer (i.e. Spotify, YouTube). Imagine further that you want to process and mix these sources separately.
+Imagine you want to livestream a session that involves multiple audio sources. Let's say that these sources include microphones of different types (e.g., XLR and USB) and different media players on your computer (e.g., Spotify and YouTube). Imagine further that you want to process and mix these sources separately.
 
-{{<figure src="2dc21d85-7a71-4b06-af35-33e87070dcbd">}}Having many audio sources in one place is great---but how do you keep individual sources separated instead of mixed together with all others?{{</figure>}}
+{{<figure src="2dc21d85-7a71-4b06-af35-33e87070dcbd">}}Having many audio sources in one place is great—but how do you keep individual sources separated instead of mixed together with all the others?{{</figure>}}
 
 The best place to do that is a [<abbr title="Digital Audio Workstation">DAW</abbr>](https://en.wikipedia.org/wiki/Digital_audio_workstation) like Cubase, Logic, Live, or my personal favorite [Studio One](https://www.presonus.com/products/Studio-One).
 
@@ -32,7 +32,7 @@ Fortunately, there is software that can simultaneously work with sources from mo
 
 # The Challenge
 
-Mixing audio from multiple sources and routing the master mix to your DAW is straight forward in Voicemeeter. What's less intuitive, is how to route the sources as multitracks to your DAW so that you can process and mix the sources there. This tutorial is here to help!
+Mixing audio from multiple sources and routing the master mix to your DAW is straightforward in Voicemeeter. What's less intuitive is how to route the sources as multitracks to your DAW so that you can process and mix the sources there. This tutorial is here to help!
 
 # Tutorial
 
@@ -76,7 +76,7 @@ The output of your DAW is sent back over the Voicemeeter VAIO interface and rout
 
 # Conclusion
 
-This tutorial showed how Voicemeeter can be used to route audio from multiple sources to your DAW---all while conserving these sources on multiple tracks. This will enable you to process and mix the audio from each source separately or in any combination.
+This tutorial showed how Voicemeeter can be used to route audio from multiple sources to your DAW—all while keeping these sources on multiple tracks. This will enable you to process and mix the audio from each source separately or in any combination.
 
 The two important, yet less intuitive steps are to use the ``Composite`` mode on Voicemeeter's virtual audio interface and then patch the desired inputs through to the available tracks of that virtual interface.
 

@@ -17,7 +17,7 @@ Starting an app from scratch is like reinventing the wheel—unnecessary and tim
 {{<card class="alert-secondary">}}
 ##### <i class="las la-sync"></i> Edited {{<date>}}2023-11-11{{</date>}}
 
-In the meantime, I've switched to [Supabase](https://supabase.com/) as backend for PrioMind. Supabase also comes with "batteries included"---i.e., authentication. When using the [Nuxt Supabase](https://supabase.nuxtjs.org/) module, the middleware comes built-in.
+In the meantime, I've switched to [Supabase](https://supabase.com/) as the backend for PrioMind. Supabase also comes with "batteries included"—i.e., authentication. When using the [Nuxt Supabase](https://supabase.nuxtjs.org/) module, the middleware comes built in.
 {{</card>}}
 
 But here's the kicker: There's a package named [Nuxt Directus](https://www.nuxt-directus.site/) that marries these two like peanut butter and jelly. Sweet, right?
@@ -26,7 +26,7 @@ But here's the kicker: There's a package named [Nuxt Directus](https://www.nuxt-
 
 Nuxt Directus is a lifesaver, no doubt. It lets you pull and push data from your Directus backend to your Nuxt frontend like a pro. User signup, login, you name it—it's got you covered.
 
-But let's keep it real: the docs are kinda basic. They offer an example middleware to redirect unauthenticated users to a login page, which is crucial for any app with restricted access. Problem is, this middleware has a nasty habit of logging you out when you least expect it.
+But let's keep it real: the docs are kinda basic. They offer an example middleware to redirect unauthenticated users to a login page, which is crucial for any app with restricted access. The problem is that this middleware has a nasty habit of logging you out when you least expect it.
 
 {{<figure src="7c9e5b70-cd7b-48cb-9bf4-f5e7b2850192" />}}
 

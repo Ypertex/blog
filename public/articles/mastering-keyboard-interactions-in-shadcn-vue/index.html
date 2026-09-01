@@ -139,7 +139,7 @@
             <p class="lead">In the intricate dance of UI components within Vue applications, a misstep can disrupt the rhythm. Discover how a straightforward tweak can harmonize your keyboard interactions in shadcn-vue in complex nested components.</p>
                     
             <hr>
-            <p>In the realm of Vue applications, integrating UI components seamlessly is crucial for a fluid user experience. However, complexities arise when nesting certain components, for example when using the popular <a href="https://www.shadcn-vue.com/">shadcn-vue</a> components. A common snag encountered involves keyboard interactions within nested components. Let&rsquo;s overcome this with a simple fix.</p>
+            <p>In the realm of Vue applications, integrating UI components seamlessly is crucial for a fluid user experience. However, complexities arise when nesting certain components, for example, when using the popular <a href="https://www.shadcn-vue.com/">shadcn-vue</a> components. A common snag involves keyboard interactions within nested components. Let&rsquo;s overcome this with a simple fix.</p>
 <figure>
     
     <picture>
@@ -161,7 +161,7 @@
 </figure>
 <h2 id="the-issue">The Issue&nbsp<a href="#the-issue"
         class="heading">¶</a></h2><p>Consider a scenario where a <a href="https://www.shadcn-vue.com/docs/components/textarea">textarea element</a> from shadcn-vue is placed inside a shadcn-vue <a href="https://www.shadcn-vue.com/docs/components/accordion">accordion</a>. It seems straightforward, but there&rsquo;s a catch:</p>
-<p>The <strong>accordion intercepts keyboard strokes</strong> like arrow, home, and end keys to improve the accordion&rsquo;s accessibility. The same keys however are essential for navigation in textareas. So this behavior, stemming from the foundational <a href="https://www.radix-vue.com/components/accordion#keyboard-interactions">radix-vue</a> components, is fine for accordions without form elements but disrupts the user experience as soon as you combine accordions and forms.</p>
+<p>The <strong>accordion intercepts keystrokes</strong> like the arrow, Home, and End keys to improve the accordion&rsquo;s accessibility. The same keys, however, are essential for navigation in textareas. So this behavior, stemming from the foundational <a href="https://www.radix-vue.com/components/accordion#keyboard-interactions">radix-vue</a> components, is fine for accordions without form elements but disrupts the user experience as soon as you combine accordions and forms.</p>
 <h2 id="the-solution">The Solution&nbsp<a href="#the-solution"
         class="heading">¶</a></h2><p>After delving into the issue, we found a simple yet effective solution. By modifying the form input tags, we can ensure that keystrokes are correctly intercepted by the intended element. Here&rsquo;s the snippet to integrate into your shadcn-vue form components (shown in the example of a textarea element):</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">Textarea</span>
@@ -329,7 +329,7 @@
             class="las la-upload"></i>&nbsp;Apr 18, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
 <div class="yx-stretched-linkable mb-3">
-    <h2>Accelerate Your Website&mdash;With Your Logo</h2>
+    <h2>Accelerate Your Website—With Your Logo</h2>
     <p>Most people who care about their website&rsquo;s performance probably use a website logo created by vector graphics software. Here&rsquo;s how to take advantage of vectorized logos to speed up your website. Seriously. <a href="/articles/accelerate-your-website-with-your-logo/" class="stretched-link">Continue…</a></p>
 </div>
 <p class="mb-2">

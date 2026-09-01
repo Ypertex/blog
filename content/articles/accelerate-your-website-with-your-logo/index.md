@@ -1,5 +1,5 @@
 ---
-title: Accelerate Your Website---With Your Logo
+title: Accelerate Your Website—With Your Logo
 publishdate: 2020-04-18
 tags:
 - Technology
@@ -9,7 +9,7 @@ images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/8d39dd05-95d1-443a-aeb9-2bcae2151c06
 ---
 
-The fine people from [Crazy Egg](https://www.crazyegg.com/) are dedicated to optimizing websites. In an in-depth article in their blog, they look at why website speed matters and what one can do to reduce load times. I won't link it right here---otherwise, you'll get swallowed by their monster article and never return to this one! 😉 <small>(You still can find the link at the bottom of this article if you're interested.)</small>
+The fine people from [Crazy Egg](https://www.crazyegg.com/) are dedicated to optimizing websites. In an in-depth article in their blog, they look at why website speed matters and what one can do to reduce load times. I won't link it right here—otherwise, you'll get swallowed by their monster article and never return to this one! 😉 <small>(You still can find the link at the bottom of this article if you're interested.)</small>
 
 {{<figure src="d5c5a393-65fb-4648-bf0a-ffd519fa3306">}}Screenshot of the crazyegg.com website, April 2020{{</figure>}}
 
@@ -34,9 +34,9 @@ In general, there are two types of graphics files: pixel- and vector-based.
 * ...
 * The last pixel in the last row of pixels has the color white.
 
-The big advantage of this approach is that we can store images with extremely rich details---and that the images can be displayed with a very high degree of fidelity as there's no room for misinterpretation. This type is used to store and display photos.
+The big advantage of this approach is that we can store images with extremely rich detail—and that the images can be displayed with a very high degree of fidelity, as there's no room for misinterpretation. This type is used to store and display photos.
 
-The downside of this format is their fixed resolution: I.e., if you have stored a picture with a width and height of 100×100 pixels but want to display it on a surface of 1,000×1,000 pixels, you somehow have to compensate for the missing pixels. Typically, this leads to pixelated or blurry results:
+The downside of this format is its fixed resolution: i.e., if you have stored a picture with a width and height of 100×100 pixels but want to display it on a surface of 1,000×1,000 pixels, you somehow have to compensate for the missing pixels. Typically, this leads to pixelated or blurry results:
 
 {{<figure src="33abb121-879a-48af-ab0b-a3a29c734efe">}}Scaling a small pixel-based image is like telling the computer: "Please make the picture bigger and guess what the missing pixels would look like!"{{</figure>}}
 
@@ -47,7 +47,7 @@ On the other hand, if you have stored a picture with 10,000×10,000 pixels but o
 * The white canvas has an aspect ratio of 16:9.
 * There's a blue oval with a height of 13% of the canvas' total height and a ratio of 3:2. Its upper left corner sits at 20% height and 37.6% width of the canvas.
 
-In contrast to the pixel-based format *where every single pixel* of the canvas and oval would be stored (fixing its resolution in the process), this vector-based description is extremely efficient and resolution-independent. Whenever you display this image, you can precisely *calculate* each pixel on the fly. It doesn't matter how small or large your surface is---you'll get crisp and sharp graphics every time.
+In contrast to the pixel-based format *where every single pixel* of the canvas and oval would be stored (fixing its resolution in the process), this vector-based description is extremely efficient and resolution-independent. Whenever you display this image, you can precisely *calculate* each pixel on the fly. It doesn't matter how small or large your surface is—you'll get crisp and sharp graphics every time.
 
 {{<figure src="0fc12af7-236c-4646-8726-cc74d5cb7c80">}}Scaling a small vector-based image is like telling the computer: "Please redraw the same vectors, just bigger this time!"{{</figure>}}
 
@@ -59,15 +59,15 @@ Logos are symbols. As such, they don't try to replicate every single detail of a
 
 {{<figure src="8d39dd05-95d1-443a-aeb9-2bcae2151c06" transformation="full">}}Small selection of famous logograms: Volkswagen, Olympics, Mitsubishi, Microsoft, Nike, Twitter, Apple, McDonald's{{</figure>}}
 
-In other words: Vector-based graphics files are a **perfect fit for logos**! Any even semi-professional designer nowadays will use vector graphics software to create logos.
+In other words: Vector-based graphics files are a **perfect fit for logos**! Even a semi-professional designer nowadays will use vector graphics software to create logos.
 
 Now let's go back and see how this can help with the above recommendations to improve your website's loading speed.
 
 ## Minimizing HTTP Requests and Combining Files With Vectorized Logos
 
-Most of a website's loading time is caused by requesting the different assets that make up a website: all the <abbr title="Hypertext Markup Language">HTML</abbr>, Javascript, <abbr title="Cascading Style Sheets">CSS</abbr>, font, icon, and image files etc. need to be downloaded.
+Most of a website's loading time is caused by requesting the different assets that make up a website: all the <abbr title="Hypertext Markup Language">HTML</abbr>, JavaScript, <abbr title="Cascading Style Sheets">CSS</abbr>, font, icon, and image files, etc., need to be downloaded.
 
-Each of these requests consumes precious time so the goal is to minimize the number of requests necessary. It's especially helpful if you can avoid requests for loading only small bits and pieces. It's faster to download one larger file than two smaller files.
+Each of these requests consumes precious time, so the goal is to minimize the number of requests necessary. It's especially helpful if you can avoid requests for loading only small bits and pieces. It's faster to download one larger file than two smaller files.
 
 For example, this blog's current logogram <svg width="50px" height="20px" viewBox="0 0 440 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
     <g transform="matrix(1,0,0,1,-2574,-792)">
@@ -125,7 +125,7 @@ See how easy it'd be to include this in your HTML pages?
 
 ## Conclusion
 
-This article explained how vector graphics like logos can be integrated *directly* into your webpages' HTML. By combining files this way, the number of requests needed to load a website can be minimized---leading to shorter loading times.
+This article explained how vector graphics like logos can be integrated *directly* into your web pages' HTML. By combining files this way, the number of requests needed to load a website can be minimized—leading to shorter loading times.
 
 So instead of saving your vectorized logos as pixel-based formats and loading them as separate assets in your website, just export your logos in SVG format and paste them directly into your HTML source!
 

@@ -33,7 +33,7 @@ For a long time, there weren’t many options available in the area of professio
 
 {{<figure src="0046b6ea-fa52-4c28-bf08-2707c33656dc" transformation="full">}}Screenshot of the affinity.serif.com website, November 2018{{</figure>}}
 
-The Affinity applications come at an *onetime payment* of ca. USD50 each per individual user (volume licensing and discounts available upon request). If you compare this to what Adobe currently offers, this is a huge difference. Adobe software can’t be bought anymore: One has to rent it and pay *monthly fees*. Depending on which software you need, this can get cost-intensive fast. For editing photos, the least expensive plan starts at ca. USD10 per month and user. All other apps can be rented starting from a bit over USD20 per month per user each. The cheapest bundle (when you need three or more of the Adobe applications) sits at over USD50 per month per user.
+The Affinity applications come at a *one-time payment* of approximately USD 50 each per individual user (volume licensing and discounts available upon request). If you compare this to what Adobe currently offers, this is a huge difference. Adobe software can’t be bought anymore: One has to rent it and pay *monthly fees*. Depending on which software you need, this can get cost-intensive fast. For editing photos, the least expensive plan starts at approximately USD 10 per month per user. All other apps can be rented starting from a bit over USD 20 per month per user each. The cheapest bundle (when you need three or more of the Adobe applications) sits at over USD 50 per month per user.
 
 The Adobe “All Apps” bundle plan including more than 20 creative software might be very interesting if you require more than just software to edit photos or create illustrations and print publications. As all Adobe plans, the bundle includes additional features like cloud storage, access to Adobe Fonts, etc. But if all you need is **professional-grade features without all the non-essential extras**, the Affinity line-up offers the best price-performance ratio I know of at the moment.
 
@@ -47,7 +47,7 @@ If you are in the business of drawing complex diagrams like system architectures
 
 * yEd is **free.**
 
-The combination of the two makes yEd a pretty remarkable **software that can save you a lot of time at zero cost**. The only drawbacks that I experienced so far with yEd: The icon library is somehow limited, especially the “Computer Network” library, and importing icons in Visio format is not as straight forward. Besides, the layout settings (i.e. custom settings to the hierarchical layout algorithm) are not embedded in the diagram files, so auto-arranging layouts on a different computer can lead to different results.
+The combination of the two makes yEd pretty remarkable **software that can save you a lot of time at zero cost**. The only drawbacks that I have experienced so far with yEd are that the icon library is somewhat limited, especially the “Computer Network” library, and that importing icons in Visio format is not as straightforward. Besides, the layout settings (e.g., custom settings for the hierarchical layout algorithm) are not embedded in the diagram files, so auto-arranging layouts on a different computer can lead to different results.
 
 Apart from these limitations though, yEd delivers outstanding value.
 
@@ -102,7 +102,7 @@ Probably **even better designed and more feature-rich** is Confluence by Atlassi
 
 {{<figure src="3483291c-8353-4583-b388-e0b67277934d" transformation="full">}}Screenshot of the atlassian.com website, November 2018{{</figure>}}
 
-In contrary to BookStack, Confluence comes with a price tag for the license. The **software is offered as a service** (“Cloud”, meaning that Atlassian is running and maintaining the software on their infrastructure) or **as a download for self-hosting** (meaning that you install, run and maintain the software on your infrastructure). The software requires more (virtual) hardware resources than BookStack but is available as [Docker image](https://hub.docker.com/r/atlassian/confluence-server/), too.
+Unlike BookStack, Confluence comes with a price tag for the license. The **software is offered as a service** (“Cloud”, meaning that Atlassian is running and maintaining the software on its infrastructure) or **as a download for self-hosting** (meaning that you install, run and maintain the software on your infrastructure). The software requires more (virtual) hardware resources than BookStack but is available as a [Docker image](https://hub.docker.com/r/atlassian/confluence-server/), too.
 
 When choosing the <abbr title="Software as a Service">SaaS</abbr> version, Atlassian asks USD10 per month total for the first ten users. The self-hosted version is even more affordable; a license for up to ten users costs a one-time total fee of USD10. These prices for such high-quality software including vendor support are a steal if you ask me.
 
@@ -116,7 +116,7 @@ Let me guess: Over your lifetime, you have opened so many accounts for Internet 
 
 Due to the sheer number of logins we use across the Internet, most of us have resorted to reusing the same or, at most, slightly altered credentials. The issue with this: If just one of these services gets hacked and your credentials get stolen, they can be used on practically all the other services that you have signed up for. Even Internet giants like Facebook with the smartest security professionals [get hacked](https://www.cnn.com/2018/10/04/tech/facebook-hack-explainer/index.html). The question is not *if* but *when* your credentials will get stolen from any of the services you use.
 
-To both limit the damage caused by credentials theft and increase ease of use, password managers have been invented. The idea behind such software is that it generates and securely stores a unique random password for each service that you use. This way, if ever one of the services you use got hacked, the hackers only obtain access to your account on that specific service—and nowhere else.
+To both limit the damage caused by credential theft and increase ease of use, password managers have been invented. The idea behind such software is that it generates and securely stores a unique random password for each service that you use. This way, if one of the services you use is ever hacked, the hackers obtain access only to your account on that specific service—and nowhere else.
 
 {{<figure src="80a9d356-a9f6-4096-90f8-ea9835304e72" />}}
 

@@ -31,7 +31,7 @@ PrioMind isn't just an app—it's the lovechild of that original framework and a
 
 Well, the original concept lacked two important factors that kept popping up:
 
-The addition of "Urgency" addresses a critical factor that our original framework missed: timing. Sometimes, options within your decisions may have an expiration date or a hard deadline that you or you simply can't work around.
+The addition of "Urgency" addresses a critical factor that our original framework missed: timing. Sometimes, options within your decisions may have an expiration date or a hard deadline that you simply can't work around.
 
 "Risk Fit" emerged as an additional crucial consideration. While everyone will be happy with the best case scenario, not everybody can deal with the worst case. You want to know if you can live with the consequences if push comes to shove before you call the shot. (Oh, and since higher is better with every other criterion, it's "Risk Fit", not "Risk." You don't want your risk to be high—but rather its fit to your risk profile.)
 

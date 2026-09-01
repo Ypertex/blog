@@ -10,7 +10,7 @@ images:
 - https://res.cloudinary.com/ypertex/image/upload/c_fill,dpr_auto,f_auto,g_auto,h_630,q_auto,w_1200/f922629f-2c1d-46cf-bc6a-32c8432d972e
 ---
 
-If you're anything like me, you depend on collaboration with other people to get things done and to be successful in the longterm. Only a few select individuals can continuously suck at collaboration and still succeed in life (and I'm not one of them 😉).
+If you're anything like me, you depend on collaboration with other people to get things done and to be successful in the long term. Only a few select individuals can continuously suck at collaboration and still succeed in life (and I'm not one of them 😉).
 
 However, the way we learn to collaborate usually is very much focused on the **subject** of our collaboration. The topic on which we want to work together. The reason why we want to collaborate. Our craft. Our goal.
 
@@ -23,7 +23,7 @@ And we forget that the subject is **only one of three larger aspects of collabor
 {{<note>}}
 ##### <i class="las la-balance-scale-left"></i> Disclaimer
 
-I'm not the author of this method. I learned about it sometime between 2009 and 2012. It served me well back then---and always has ever since.
+I'm not the author of this method. I learned about it sometime between 2009 and 2012. It served me well back then—and ever since.
 
 However, I never knew its original name or author so I can't attribute it properly. Search engines didn't reveal anything at the time of writing. If you happen to know the source, please let me know!
 
@@ -68,13 +68,13 @@ For step 1, be curious about your collaborators. How do they *really* do right n
 
 {{<figure src="c5938ef8-040c-4c4a-8752-22d143559575" cite="[Muhammad Faiz Zulkeflee](https://unsplash.com/photos/alw-CwGFmwQ)">}}If you're curious enough, you'll find out what's going on in people's lives.{{</figure>}}
 
-The long-term aspect is also why you should return to the relationship level over and over again---especially when completing a collaboration. Step 5 is the moment after a meeting, a short assignment, or a long project. The duration of the collaboration doesn't matter; returning to the relationship level will help in advance to kick off any upcoming collaboration (i.e. the next meeting, another gig, the next job).
+The long-term aspect is also why you should return to the relationship level over and over again—especially when completing a collaboration. Step 5 is the moment after a meeting, a short assignment, or a long project. The duration of the collaboration doesn't matter; returning to the relationship level will help kick off any upcoming collaboration (e.g., the next meeting, another gig, or the next job).
 
 Ask people about their weekend plans. Circle back to the topics people talked about at the beginning (it shows that you listened) and wish them good luck in these endeavors. Next time, pick up the conversation from where you left off.
 
 You see how the steps on the relationship level are connected. Step 1 might reveal meaningful things to talk about in step 5. Step 5 in return might improve the quality of your small talk in step 1 of whatever next opportunity for collaboration with the same people.
 
-The catch however is: It must be real and authentic. Faking it only works to your disadvantage.
+The catch, however, is that it must be real and authentic. Faking it only works to your disadvantage.
 
 ---
 
@@ -110,11 +110,11 @@ Enough theory. How can one apply this method?
 
 # Examples
 
-The beauty of this method is that it can be applied on small and large scales. You'll find that it behaves like a fractal: Each step on a larger scale can contain the entire method on a smaller scale---and vice versa, like this:
+The beauty of this method is that it can be applied on small and large scales. You'll find that it behaves like a fractal: Each step on a larger scale can contain the entire method on a smaller scale—and vice versa, like this:
 
-{{<figure src="c880d20d-d856-4d4d-aeb6-88fe94abf741" transformation="full">}}A project contains many meetings, yet each meeting has a different subject. The kickoff is about relationship, the planning about process, the workshop about the project's subject. Each contain again the three levels.{{</figure>}}
+{{<figure src="c880d20d-d856-4d4d-aeb6-88fe94abf741" transformation="full">}}A project contains many meetings, yet each meeting has a different subject. The kickoff is about relationship, the planning about process, the workshop about the project's subject. Each contains the three levels again.{{</figure>}}
 
-Of course, in real life there might be overlaps. A kickoff meeting might contain already a planning session etc. Let's look at some practical examples.
+Of course, in real life there might be overlaps. A kickoff meeting might already contain a planning session, etc. Let's look at some practical examples.
 
 ## Example 1: An Important Meeting
 
@@ -124,21 +124,21 @@ Let's say this meeting consists of three interactions: the **invitation**, the *
 
 ### Invitation
 
-Begin the invitation with one little sincere question of small talk to address the **relationship level** in step 1. Since you don't know the stakeholder personally, it's going to be impersonal by definition. It's OK to sound a bit generic at this early point. If you're lucky, the question might trigger a small talk response that opens the door for more small talk further down the line. Or maybe establish an indirect relationship by stating what person (that both of you know) recommended that you'd have a meeting with the stakeholder.
+Begin the invitation with one little sincere question of small talk to address the **relationship level** in step 1. Since you don't know the stakeholder personally, it's going to be impersonal by definition. It's OK to sound a bit generic at this early point. If you're lucky, the question might trigger a small talk response that opens the door for more small talk further down the line. Or maybe establish an indirect relationship by stating which person (that both of you know) recommended that you'd have a meeting with the stakeholder.
 
 Next, outline briefly what makes this meeting important and what brought you to invite them. Provide a short agenda for the meeting. That would represent the vision, retrospective, and outlook of step 2 regarding the **process level**.
 
-Steps 3 and 4 can be skipped since the collaboration isn't happening yet. However, don't forget to **return to the relationship level**. Wish them a sunny afternoon or a snowy weekend---whatever the case may be. Again: If it's still generic, that's fine.
+Steps 3 and 4 can be skipped since the collaboration isn't happening yet. However, don't forget to **return to the relationship level**. Wish them a sunny afternoon or a snowy weekend—whatever the case may be. Again: If it's still generic, that's fine.
 
 ### Meeting
 
 Assuming the invitation was accepted, design the agenda of the meeting with S2S in mind.
 
-Calculate a few minutes at the beginning and the end of the meeting for small talk and **relationship** building. If a conversation happens---great, you have prepared the buffer for it. If it doesn't happen---great, you just won a few minutes for the rest of your agenda.
+Calculate a few minutes at the beginning and the end of the meeting for small talk and **relationship** building. If a conversation happens—great, you have prepared the buffer for it. If it doesn't happen—great, you just won a few minutes for the rest of your agenda.
 
 {{<figure src="f922629f-2c1d-46cf-bc6a-32c8432d972e">}}Take your time to relate and have fun.{{</figure>}}
 
-Then, start the meeting by reiterating the reasons for the meeting and what it means to you, gently turning the attention to the subject of the meeting. Next, present the agenda as an outlook: What are the parts of your meeting, how long does each part take, what do you expect from the stakeholder in the meeting? Now, you're on the **process** level, managing expectations, and mitigating risks. Allow your stakeholder to adjust the agenda or to point out wrong assumptions---and you're already collaborating.
+Then, start the meeting by reiterating the reasons for the meeting and what it means to you, gently turning the attention to the subject of the meeting. Next, present the agenda as an outlook: What are the parts of your meeting, how long does each part take, and what do you expect from the stakeholder in the meeting? Now, you're on the **process** level, managing expectations and mitigating risks. Allow your stakeholder to adjust the agenda or to point out wrong assumptions—and you're already collaborating.
 
 Now it's finally time to discuss the **subject** matter. You don't need any advice from me for this; you're the expert!
 
@@ -162,7 +162,7 @@ You get the gist. As always, end on a personal note. Next time you deal with thi
 
 I'm not going to describe this example in full detail. Instead, I'll show how the larger and smaller scales interact.
 
-According to S2S, any project should have a beginning and an end focussing on relationships: a kickoff meeting and a closing celebration, for example. Zooming in on the kickoff meeting, it by itself should also have a beginning and an ending that put the emphasis on relationship building---and of course the process and subject levels in between (see above). The beginning of the kickoff would be the invitation to the meeting that again can be sliced into these three levels (see above).
+According to S2S, any project should have a beginning and an end focusing on relationships: a kickoff meeting and a closing celebration, for example. Zooming in on the kickoff meeting, it by itself should also have a beginning and an ending that put the emphasis on relationship building—and, of course, the process and subject levels in between (see above). The beginning of the kickoff would be the invitation to the meeting, which again can be sliced into these three levels (see above).
 
 And so on...
 
@@ -170,7 +170,7 @@ And so on...
 
 # Conclusion
 
-In this article, I've tried to explain the Stairs to Success method (S2S) since I've found it very useful over the past decade---yet found no documentation about it anywhere so far.
+In this article, I've tried to explain the Stairs to Success method (S2S) since I've found it very useful over the past decade—yet found no documentation about it anywhere so far.
 
 I showed you how to apply the method in real life with a few examples and also how it stacks.
 

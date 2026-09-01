@@ -156,7 +156,7 @@
     </picture>
     
     <figcaption>
-        Splitting stuff is hard enough, but how do you move away the part that you just split off? <span class="yx-attribution">Image:
+        Splitting stuff is hard enough, but how do you move the part that you just split off? <span class="yx-attribution">Image:
             <a href="https://unsplash.com/photos/an3qaxZ-2bY">Pablo Heimplatz</a></span>
     </figcaption>
 </figure>
@@ -208,11 +208,11 @@
     </figcaption>
 </figure>
 <p>Notice how the firewall router has the same Internet-facing IP but with a different netmask now?</p>
-<p>I thought that the OPNsense firewall router would be intelligent enough to advertise to the upstream ISP gateway, that the IP <code>x.x.129.210</code> and all IPs <code>x.x.129.116</code>-<code>.123</code> of the <code>/29</code> DMZ subnet were all to be routed via its ISP-facing IP (<code>x.x.129.210</code>).</p>
+<p>I thought that the OPNsense firewall router would be intelligent enough to advertise to the upstream ISP gateway that the IP <code>x.x.129.210</code> and all IPs <code>x.x.129.216</code>–<code>.223</code> of the <code>/29</code> DMZ subnet were all to be routed via its ISP-facing IP (<code>x.x.129.210</code>).</p>
 <p>But no, it doesn’t work like this out of the box. And there was no way for me to explicitly configure the ISP gateway to route the <code>/29</code> DMZ subnet to a specific IP.</p>
 <h2 id="the-solution-proxy-arp">The Solution: Proxy ARP&nbsp<a href="#the-solution-proxy-arp"
-        class="heading">¶</a></h2><p>After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with <a href="https://duckduckgo.com">DuckDuckGo</a> must be called, right?) to no avail, I finally stumbled over the <em>Virtual IP</em> settings in OPNsense, specifically of type <em>Proxy <abbr title="Address Resolution Protocol">ARP</title></em>.</p>
-<p>This Proxy ARP type of virtual IP allows you to broadcast the advertisement of IPs or subnets via an interface. So I entered:</p>
+        class="heading">¶</a></h2><p>After lots of DuckDuckGoing (If searching with Google is called Googling, then that’s what searching with <a href="https://duckduckgo.com">DuckDuckGo</a> must be called, right?) to no avail, I finally stumbled over the <em>Virtual IP</em> settings in OPNsense, specifically of type <em>Proxy <abbr title="Address Resolution Protocol">ARP</abbr></em>.</p>
+<p>This Proxy ARP type of virtual IP allows you to advertise IPs or subnets via an interface. So I entered:</p>
 <ul>
 <li>Mode: Proxy ARP</li>
 <li>Interface: WAN</li>
@@ -237,12 +237,12 @@
         Setting Proxy ARP virtual IPs in OPNsense
     </figcaption>
 </figure>
-<p>In other words: The OPNsense firewall router now published to the ISP gateway that (besides the IP <code>x.x.129.210</code>) it also was the recipient for all IP packets of the <code>/29</code> DMZ subnet. In a way, ARP allows configuring upstream routers that are not part of your infrastructure.</p>
+<p>In other words: The OPNsense firewall router now informed the ISP gateway that (besides the IP <code>x.x.129.210</code>) it was also the recipient for all IP packets of the <code>/29</code> DMZ subnet. In a way, ARP allows configuring upstream routers that are not part of your infrastructure.</p>
 <p>This works like a charm. Servers in the DMZ configured with the public IPs of the second <code>/29</code> subnet are now able to communicate in both directions with the Internet.</p>
 <hr>
 <div class="alert alert-warning">
     <h5 id="reminder"><i class="las la-bell"></i> Reminder&nbsp<a href="#reminder"
-        class="heading">¶</a></h5><p>OPNsense automatically adds the DMZ subnet to its NAT, so don’t forget to remove it manually. In this case, it was translating the public subnet <code>x.x.129.216/29</code> to the public IP <code>x.x.129.210</code>—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.</p>
+        class="heading">¶</a></h5><p>OPNsense automatically adds the DMZ subnet to its NAT rules, so don’t forget to remove it manually. In this case, it was translating the public subnet <code>x.x.129.216/29</code> to the public IP <code>x.x.129.210</code>—which of course doesn’t make any sense whatsoever. It might work in the outbound direction, but your DMZ can’t be reached from the outside, rendering the DMZ useless.</p>
 </div>
 
             
@@ -439,7 +439,7 @@
             class="las la-upload"></i>&nbsp;Apr 18, 2020 · <i
             class="las la-stopwatch"></i>&nbsp;6min read</small></p>
 <div class="yx-stretched-linkable mb-3">
-    <h2>Accelerate Your Website&mdash;With Your Logo</h2>
+    <h2>Accelerate Your Website—With Your Logo</h2>
     <p>Most people who care about their website&rsquo;s performance probably use a website logo created by vector graphics software. Here&rsquo;s how to take advantage of vectorized logos to speed up your website. Seriously. <a href="/articles/accelerate-your-website-with-your-logo/" class="stretched-link">Continue…</a></p>
 </div>
 <p class="mb-2">
