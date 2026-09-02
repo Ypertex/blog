@@ -15,10 +15,10 @@
         "date": "2021-03-03T06:57:39.000Z",
         "url": "https://www.responsedga.com/blog/what-is-vuca-and-how-do-you-lead-in-struggling-times/",
         "logo": {
-            "url": "https://www.responsedga.com/wp-content/uploads/2021/10/cropped-1617613044746-270x270.jpg",
-            "type": "jpg",
-            "size": 5849,
-            "size_pretty": "5.85 kB"
+            "url": "https://responsedga.com/apple-touch-icon.png?v=v25",
+            "type": "png",
+            "height": 180,
+            "width": 180
         }
     },
     "statusCode": 200,

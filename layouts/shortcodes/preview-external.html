@@ -1,4 +1,4 @@
-{{ with (index .Site.Data (.Get "src")) }}
+{{ with (index hugo.Data (.Get "src")) }}
 <div class="shadow card">
     <div class="card-body">
         <div class="media">
@@ -13,10 +13,9 @@
         </div>
     </div>
     <div class="card-footer">
-        <div class="yx-attribution">
-            {{ with .data.author }}{{ . }}{{ end }}{{ if and .data.author .data.publisher}},
+        <div class="yx-attribution">{{ with .data.author }}{{ . }}{{ end }}{{ if and .data.author .data.publisher}},
             {{ end }}{{ with .data.publisher }}<cite>{{ . }}</cite>{{ end }}
         </div>
     </div>
 </div>
-{{ end }}
+{{ end -}}

@@ -45,7 +45,7 @@ Either way, using the shortcode in your content is really ... short:
 As the ``src`` parameter, you either provide a target URL or the path to the file inside Hugo's ``data`` directory. Since I save the ``json`` files locally, the corresponding shortcode source looks like this:
 
 {{<highlight go-html-template>}}
-{{ with (index .Site.Data (.Get "src")) }}
+{{ with (index hugo.Data (.Get "src")) }}
 <div class="shadow card">
     <div class="card-body">
         <div class="media">
@@ -60,12 +60,11 @@ As the ``src`` parameter, you either provide a target URL or the path to the fil
         </div>
     </div>
     <div class="card-footer">
-        <div class="yx-attribution">
-            {{ with .data.author }}{{ . }}{{ end }}{{ if and .data.author .data.publisher}},
+        <div class="yx-attribution">{{ with .data.author }}{{ . }}{{ end }}{{ if and .data.author .data.publisher}},
             {{ end }}{{ with .data.publisher }}<cite>{{ . }}</cite>{{ end }}</div>
     </div>
 </div>
-{{ end }}
+{{ end -}}
 {{</highlight>}}
 
 If you want to fetch Microlink's ``json`` response every time Hugo builds your website, you would change the first line accordingly:
