@@ -1,6 +1,8 @@
 {{ hugo.Generator }}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{ $themeScript := resources.Get "theme.js" | minify | fingerprint }}
+<script src="{{ $themeScript.RelPermalink }}" integrity="{{ $themeScript.Data.Integrity }}"></script>
 {{ $scss := resources.Get "ypertex.scss" }}
 {{ $scssOptions := dict "outputStyle" "compressed" }}
 <link rel="stylesheet" href="{{ ($scss | toCSS $scssOptions).RelPermalink }}">

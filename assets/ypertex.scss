@@ -80,18 +80,118 @@ $headings-font-family: 'Montserrat Alternates', serif !default;
 
 @import "bootstrap/scss/bootstrap.scss";
 
+:root {
+    color-scheme: light;
+    --yx-body-bg: #fff;
+    --yx-body-color: #{$body-color};
+    --yx-surface: #fff;
+    --yx-surface-subtle: #{$gray-100};
+    --yx-surface-muted: #{$gray-200};
+    --yx-border: rgba(19, 22, 24, 0.18);
+    --yx-muted: #{$gray-600};
+    --yx-link: #{$primary-700};
+    --yx-link-hover: #{$primary-900};
+    --yx-code: #c7254e;
+    --yx-code-bg: #{$gray-050};
+    --yx-emphasis-bg: #{$gray-100};
+    --yx-table-stripe: rgba(19, 22, 24, 0.045);
+    --yx-table-hover: rgba(19, 22, 24, 0.075);
+}
+
+@mixin yx-dark-theme {
+    color-scheme: dark;
+    --yx-body-bg: #{$black};
+    --yx-body-color: #{$gray-100};
+    --yx-surface: #{$gray-900};
+    --yx-surface-subtle: #{$gray-800};
+    --yx-surface-muted: #{$gray-700};
+    --yx-border: rgba(202, 213, 218, 0.22);
+    --yx-muted: #{$gray-300};
+    --yx-link: #{$primary-300};
+    --yx-link-hover: #{$primary-100};
+    --yx-code: #ff8fab;
+    --yx-code-bg: #{$gray-800};
+    --yx-emphasis-bg: #{$gray-700};
+    --yx-table-stripe: rgba(228, 234, 236, 0.045);
+    --yx-table-hover: rgba(228, 234, 236, 0.085);
+    --yx-alert-primary-color: #{$primary-100};
+    --yx-alert-primary-bg: #{$primary-black};
+    --yx-alert-primary-border: #{$primary-800};
+    --yx-alert-primary-link: #{$primary-300};
+    --yx-alert-primary-link-hover: #{$primary-100};
+    --yx-alert-primary-emphasis: #{$primary-800};
+    --yx-alert-secondary-color: #{$gray-100};
+    --yx-alert-secondary-bg: #{$gray-800};
+    --yx-alert-secondary-border: #{$gray-600};
+    --yx-alert-secondary-link: #{$white};
+    --yx-alert-secondary-link-hover: #{$gray-050};
+    --yx-alert-secondary-emphasis: #{$gray-700};
+    --yx-alert-success-color: #{$success-100};
+    --yx-alert-success-bg: #{$success-black};
+    --yx-alert-success-border: #{$success-800};
+    --yx-alert-success-link: #{$success-300};
+    --yx-alert-success-link-hover: #{$success-100};
+    --yx-alert-success-emphasis: #{$success-800};
+    --yx-alert-info-color: #{$info-100};
+    --yx-alert-info-bg: #{$info-black};
+    --yx-alert-info-border: #{$info-800};
+    --yx-alert-info-link: #{$info-300};
+    --yx-alert-info-link-hover: #{$info-100};
+    --yx-alert-info-emphasis: #{$info-800};
+    --yx-alert-warning-color: #{$warning-100};
+    --yx-alert-warning-bg: #{$warning-black};
+    --yx-alert-warning-border: #{$warning-800};
+    --yx-alert-warning-link: #{$warning-300};
+    --yx-alert-warning-link-hover: #{$warning-100};
+    --yx-alert-warning-emphasis: #{$warning-800};
+    --yx-alert-danger-color: #{$danger-100};
+    --yx-alert-danger-bg: #{$danger-black};
+    --yx-alert-danger-border: #{$danger-800};
+    --yx-alert-danger-link: #{$danger-300};
+    --yx-alert-danger-link-hover: #{$danger-100};
+    --yx-alert-danger-emphasis: #{$danger-800};
+    --yx-alert-light-color: #{$gray-100};
+    --yx-alert-light-bg: #{$gray-800};
+    --yx-alert-light-border: #{$gray-600};
+    --yx-alert-light-link: #{$white};
+    --yx-alert-light-link-hover: #{$gray-050};
+    --yx-alert-light-emphasis: #{$gray-700};
+    --yx-alert-dark-color: #{$gray-200};
+    --yx-alert-dark-bg: #{$black};
+    --yx-alert-dark-border: #{$gray-700};
+    --yx-alert-dark-link: #{$gray-100};
+    --yx-alert-dark-link-hover: #{$white};
+    --yx-alert-dark-emphasis: #{$gray-800};
+}
+
+html[data-theme="dark"] {
+    @include yx-dark-theme;
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) {
+        @include yx-dark-theme;
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: var(--yx-body-bg);
+    color: var(--yx-body-color);
 }
 
 main {
     flex: 1;
 }
 
+a {
+    color: var(--yx-link);
+}
+
 a:hover {
-    color: $primary-700;
+    color: var(--yx-link-hover);
 }
 
 footer {
@@ -143,6 +243,7 @@ h6 {
 
 hr {
     @extend .my-5, .mx-n2;
+    border-top-color: var(--yx-border);
 }
 
 span[lang] {
@@ -156,7 +257,7 @@ span[lang] {
 .navbar {
     @extend .py-1, .navbar-dark, .navbar-expand-md, .bg-dark;
 
-    button {
+    .navbar-toggler {
         @extend .btn, .btn-link, .d-md-none;
     }
 
@@ -164,6 +265,139 @@ span[lang] {
         @extend .d-md-none, .my-3;
     }
 }
+
+.yx-theme-toggle {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    text-align: left;
+}
+
+.yx-theme-picker {
+    .dropdown-item {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: $primary-700;
+        color: $white;
+    }
+
+    .yx-theme-check {
+        margin-left: auto;
+        visibility: hidden;
+    }
+
+    .dropdown-item.active .yx-theme-check {
+        visibility: visible;
+    }
+
+    @media (max-width: 767.98px) {
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            left: 0;
+        }
+    }
+}
+
+.bg-light {
+    background-color: var(--yx-surface-subtle) !important;
+}
+
+.text-muted {
+    color: var(--yx-muted) !important;
+}
+
+.jumbotron:not(.yx-jumbotron) {
+    background-color: var(--yx-surface-muted);
+}
+
+.card,
+.dropdown-menu {
+    background-color: var(--yx-surface);
+    border-color: var(--yx-border);
+}
+
+.card-footer {
+    background-color: var(--yx-surface-subtle);
+    border-top-color: var(--yx-border);
+}
+
+.dropdown-item {
+    color: var(--yx-body-color);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: var(--yx-body-color);
+    background-color: var(--yx-surface-muted);
+}
+
+.btn-light {
+    color: var(--yx-body-color);
+    background-color: var(--yx-surface);
+    border-color: var(--yx-border);
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    color: var(--yx-body-color);
+    background-color: var(--yx-surface-muted);
+    border-color: var(--yx-border);
+}
+
+code {
+    color: var(--yx-code);
+    background-color: var(--yx-code-bg);
+}
+
+pre {
+    color: var(--yx-body-color);
+}
+
+.table {
+    color: var(--yx-body-color);
+
+    th,
+    td {
+        border-top-color: var(--yx-border);
+    }
+
+    thead th {
+        border-bottom-color: var(--yx-border);
+    }
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--yx-table-stripe);
+}
+
+.table-hover tbody tr:hover {
+    color: var(--yx-body-color);
+    background-color: var(--yx-table-hover);
+}
+
+@mixin yx-alert-colors($name) {
+    .alert-#{$name} {
+        color: var(--yx-alert-#{$name}-color, #{theme-color-level($name, 6)});
+        background-color: var(--yx-alert-#{$name}-bg, #{theme-color-level($name, -10)});
+        border-color: var(--yx-alert-#{$name}-border, #{theme-color-level($name, -9)});
+    }
+}
+
+@include yx-alert-colors("primary");
+@include yx-alert-colors("secondary");
+@include yx-alert-colors("success");
+@include yx-alert-colors("info");
+@include yx-alert-colors("warning");
+@include yx-alert-colors("danger");
+@include yx-alert-colors("light");
+@include yx-alert-colors("dark");
 
 .navbar-brand {
     padding-top: 0;
@@ -196,6 +430,7 @@ footer {
 
     .card {
         @extend .text-dark, .text-left;
+        color: var(--yx-body-color) !important;
     }
 }
 
@@ -222,55 +457,67 @@ footer {
 }
 
 .alert-primary a {
-    color: $primary-600;
+    color: var(--yx-alert-primary-link, #{$primary-600});
 }
 
 .alert-primary a:hover {
-    color: $primary-700;
+    color: var(--yx-alert-primary-link-hover, #{$primary-700});
 }
 
-.alert-secondary a,
-.alert-light a,
-.alert-dark a {
-    color: $gray-600;
+.alert-secondary a {
+    color: var(--yx-alert-secondary-link, #{$gray-600});
 }
 
-.alert-secondary a:hover,
-.alert-light a:hover,
-.alert-dark a:hover {
-    color: $gray-700;
+.alert-secondary a:hover {
+    color: var(--yx-alert-secondary-link-hover, #{$gray-700});
 }
 
 .alert-info a {
-    color: $info-600;
+    color: var(--yx-alert-info-link, #{$info-600});
 }
 
 .alert-info a:hover {
-    color: $info-700;
+    color: var(--yx-alert-info-link-hover, #{$info-700});
 }
 
 .alert-success a {
-    color: $success-600;
+    color: var(--yx-alert-success-link, #{$success-600});
 }
 
 .alert-success a:hover {
-    color: $success-700;
+    color: var(--yx-alert-success-link-hover, #{$success-700});
 }
 
 .alert-warning a {
-    color: $warning-600;
+    color: var(--yx-alert-warning-link, #{$warning-600});
 }
 
 .alert-warning a:hover {
-    color: $warning-700;
+    color: var(--yx-alert-warning-link-hover, #{$warning-700});
 }
 
 .alert-danger a {
-    color: $danger-600;
+    color: var(--yx-alert-danger-link, #{$danger-600});
 }
 
 .alert-danger a:hover {
-    color: $danger-700;
+    color: var(--yx-alert-danger-link-hover, #{$danger-700});
+}
+
+.alert-light a {
+    color: var(--yx-alert-light-link, #{$gray-600});
+}
+
+.alert-light a:hover {
+    color: var(--yx-alert-light-link-hover, #{$gray-700});
+}
+
+.alert-dark a {
+    color: var(--yx-alert-dark-link, #{$gray-600});
+}
+
+.alert-dark a:hover {
+    color: var(--yx-alert-dark-link-hover, #{$gray-700});
 }
 
 .yx-jumbotron {
@@ -441,7 +688,7 @@ footer {
     }
 
     em {
-        background-color: $gray-100;
+        background-color: var(--yx-emphasis-bg);
     }
 
     li p:last-child {
@@ -460,32 +707,35 @@ footer {
     }
 
     .alert-danger em {
-        background-color: $danger-100;
+        background-color: var(--yx-alert-danger-emphasis, #{$danger-100});
     }
 
-    .alert-dark em,
+    .alert-dark em {
+        background-color: var(--yx-alert-dark-emphasis, #{$gray-200});
+    }
+
     .alert-secondary em {
-        background-color: $gray-200;
+        background-color: var(--yx-alert-secondary-emphasis, #{$gray-200});
     }
 
     .alert-info em {
-        background-color: $info-100;
+        background-color: var(--yx-alert-info-emphasis, #{$info-100});
     }
 
     .alert-light em {
-        background-color: $gray-050;
+        background-color: var(--yx-alert-light-emphasis, #{$gray-050});
     }
 
     .alert-primary em {
-        background-color: $primary-100;
+        background-color: var(--yx-alert-primary-emphasis, #{$primary-100});
     }
 
     .alert-warning em {
-        background-color: $warning-100;
+        background-color: var(--yx-alert-warning-emphasis, #{$warning-100});
     }
 
     .alert-success em {
-        background-color: $success-100;
+        background-color: var(--yx-alert-success-emphasis, #{$success-100});
     }
 
     .card {
@@ -497,7 +747,7 @@ footer {
     }
 
     .card-body {
-        background-color: white;
+        background-color: var(--yx-surface);
     }
 
     .highlight {
